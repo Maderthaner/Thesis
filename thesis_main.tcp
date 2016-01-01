@@ -3,10 +3,10 @@ Type=TeXnicCenterProjectInformation
 Version=4
 
 [ProjectInfo]
-MainFile=Thesis.tex
+MainFile=thesis_main.tex
 UseBibTeX=1
 UseMakeIndex=1
-ActiveProfile=LaTeX ⇨ DVI ⇨ PDF
+ActiveProfile=LaTeX => PDF
 ProjectLanguage=en
 ProjectDialect=US
 
