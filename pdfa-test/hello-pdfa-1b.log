@@ -1,0 +1,699 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.30)  30 JAN 2015 11:58
+entering extended mode
+**hello-pdfa-1b.tex
+(Z:\Users\Max\ownCloud\Doktor\pdfa-test\hello-pdfa-1b.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+! Use of \getTZh doesn't match its definition.
+<inserted text> D:20150130115816-
+                                 08'00'
+l.32 \expandafter\convertDate\pdfcreationdate
+                                             
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \expandafter\convertDate\pdfcreationdate
+                                             
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\countA=\count88
+("C:\Program Files\MiKTeX 2.9\tex\latex\xmpincl\xmpincl.sty"
+Package: xmpincl 2008/05/10 v2.2 Include XMP data in pdflatex
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+))
+\xmpinclWrite=\write3
+\xmpinclRead=\read1
+
+! Undefined control sequence.
+\xmpinclReadln -><pdf:Producer>\xmpProducer 
+                                            </pdf:Producer> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><pdf:Producer>\xmpProducer 
+                                            </pdf:Producer> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...cription rdf:about="doi:\xmpDoi 
+                                                  "> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...cription rdf:about="doi:\xmpDoi 
+                                                  "> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><dc:title>\xmpTitle 
+                                     </dc:title> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><dc:title>\xmpTitle 
+                                     </dc:title> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...tor><rdf:Seq><rdf:li>\xmpAuthor 
+                                                  </rdf:li></rdf:Seq></dc:cr...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...tor><rdf:Seq><rdf:li>\xmpAuthor 
+                                                  </rdf:li></rdf:Seq></dc:cr...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...t><rdf:Bag><rdf:li>\xmpKeywords 
+                                                  </rdf:li></rdf:Bag></dc:su...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.47 \includexmp{pdfa-1b}
+                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \includexmp{pdfa-1b}
+                         
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 47.
+! Undefined control sequence.
+\xmpinclReadln ...t><rdf:Bag><rdf:li>\xmpKeywords 
+                                                  </rdf:li></rdf:Bag></dc:su...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><prism:copyright>\xmpOrg 
+                                          </prism:copyright> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><prism:copyright>\xmpOrg 
+                                          </prism:copyright> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><dc:publisher>\xmpOrg 
+                                       </dc:publisher> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><dc:publisher>\xmpOrg 
+                                       </dc:publisher> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...e <prism:issn>\xmpJournalnumber 
+                                                  </prism:issn>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...e <prism:issn>\xmpJournalnumber 
+                                                  </prism:issn>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... \else <prism:volume>\xmpVolume 
+                                                  </prism:volume>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... \else <prism:volume>\xmpVolume 
+                                                  </prism:volume>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...x \else <prism:number>\xmpIssue 
+                                                  </prism:number>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...x \else <prism:number>\xmpIssue 
+                                                  </prism:number>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...isplayDate>\xmpCoverDisplayDate 
+                                                  </prism:coverDisplayDate>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...isplayDate>\xmpCoverDisplayDate 
+                                                  </prism:coverDisplayDate>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... <prism:coverDate>\xmpCoverDate 
+                                                  </prism:coverDate>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... <prism:coverDate>\xmpCoverDate 
+                                                  </prism:coverDate>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...rism:issueName>\xmpJournaltitle 
+                                                  </prism:issueName>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...rism:issueName>\xmpJournaltitle 
+                                                  </prism:issueName>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... <prism:pageRange>\xmpFirstpage 
+                                                  -\xmpLastpage </prism:page...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...nge>\xmpFirstpage -\xmpLastpage 
+                                                  </prism:pageRange>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... <prism:pageRange>\xmpFirstpage 
+                                                  -\xmpLastpage </prism:page...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...nge>\xmpFirstpage -\xmpLastpage 
+                                                  </prism:pageRange>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...rism:startingPage>\xmpFirstpage 
+                                                  </prism:startingPage>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...rism:startingPage>\xmpFirstpage 
+                                                  </prism:startingPage>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... <prism:endingPage>\xmpLastpage 
+                                                  </prism:endingPage>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ... <prism:endingPage>\xmpLastpage 
+                                                  </prism:endingPage>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...\relax \else <prism:doi>\xmpDoi 
+                                                  </prism:doi>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...\relax \else <prism:doi>\xmpDoi 
+                                                  </prism:doi>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...m:url>http://dx.doi.org/\xmpDoi 
+                                                  </prism:url>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...m:url>http://dx.doi.org/\xmpDoi 
+                                                  </prism:url>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...else <dc:identifier>doi:\xmpDoi 
+                                                  </dc:identifier>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...else <dc:identifier>doi:\xmpDoi 
+                                                  </dc:identifier>\fi 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...<rdf:li>\xmpAuthoritativeDomain 
+                                                  </rdf:li></rdf:Bag></pdfx:...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ...<rdf:li>\xmpAuthoritativeDomain 
+                                                  </rdf:li></rdf:Bag></pdfx:...
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:CreatorTool>\xmpCreatorTool 
+                                                  </xap:CreatorTool> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:CreatorTool>\xmpCreatorTool 
+                                                  </xap:CreatorTool> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:ModifyDate>\convDate 
+                                           </xap:ModifyDate> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:ModifyDate>\convDate 
+                                           </xap:ModifyDate> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:CreateDate>\convDate 
+                                           </xap:CreateDate> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:CreateDate>\convDate 
+                                           </xap:CreateDate> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:MetadataDate>\convDate 
+                                             </xap:MetadataDate> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln -><xap:MetadataDate>\convDate 
+                                             </xap:MetadataDate> 
+l.47 \includexmp{pdfa-1b}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.47 \includexmp{pdfa-1b}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no è in font cmex10!
+<<pdfa-1b.xmpi>>
+Overfull \hbox (174.05798pt too wide) in paragraph at lines 47--48
+[]$\OML/cmm/m/it/10 ifundefined[][][]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+(Z:\Users\Max\ownCloud\Doktor\pdfa-test\hello-pdfa-1b.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+ [1
+
+{C:/Program Files/MiKTeX 2.9/pdftex/config/pdftex.map}]
+(Z:\Users\Max\ownCloud\Doktor\pdfa-test\hello-pdfa-1b.aux) ) 
+Here is how much of TeX's memory you used:
+ 348 strings out of 493921
+ 4199 string characters out of 3147324
+ 49763 words of memory out of 3000000
+ 3712 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 26i,4n,17p,211b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on hello-pdfa-1b.pdf (1 page, 28555 bytes).
+PDF statistics:
+ 15 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 5 words of extra memory for PDF output out of 10000 (max. 10000000)
+
