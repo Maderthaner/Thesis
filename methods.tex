@@ -1,0 +1,45 @@
+\chapter{Methods}\label{ch:methods}
+\section{The computing environment at LCLS}
+- Include basics around the PSANA interface\\
+- For example how the date is converted, then stored and\\
+- the analysis opportunities along the way
+- I think this will be a longer subsection since a lot of my work went into this and I'm regularly contacted about it.
+- Short introduction what we have to go through\\
+- Reminder of detectors and analysis environment
+\subsection{PSANA - Python interaction with LCLS computing}
+%%%
+\section{pnCCD photon detectors}
+- Describe signal on the pnCCDs\\
+- Calibrations and corrections - use LAMP paper\\
+- single hits\\
+- multiple hits
+\subsection{Signal analysis}
+- Present data from 1500eV photon energy on Xe backfilled chamber with the pnCCDs in spectroscopy mode to argue that the pedestal and offset corrections are enough to correct for fluoresence.\\
+- Masked areas in image
+%%%
+\section{Combining multiple pnCCD detectors}
+- Explain how I combined pnCCD detectors to perform reconstructions on it.\\
+- Can reuse material from the LAMP pnCCD paper
+%%%
+\section{Hitfinding}
+- Discuss the hitfinding.\\
+- iTOF vs. pnCCD\\
+- vs. Actual dynamics visible in diffraction images
+%%%
+\section{Phase retrieval from a single diffraction pattern}
+- Short intro into phase retrieval
+\subsection{Solving the inverse problem}
+\subsection{2D reconstructions and limitations}
+\subsubsection{Hawk program}
+- Describe Filipe's program
+\subsubsection{Resolution enhancement through combination of rear and front pnCCD}
+- Showcase difference of rear pnCCD only vs. front + rear pnCCD vs. front + rear pnCCD 'cropped' for best results. Recycle work from LAMP pnCCD paper
+\subsection{1D reconstructions}
+- Describe my algorithm in 1D in detail
+%%%
+%\section{Signal on time of flight detector}
+%- Explain what we see in Xe, He and XeHe sample environments.\\
+%- and further analysis aspects, e.g. Aqiris / psana interface.
+%%%
+\section{Summary of methods}
+- Comprehensive summary 

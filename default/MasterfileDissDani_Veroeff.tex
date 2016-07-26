@@ -1,0 +1,154 @@
+
+\documentclass[a4paper,twoside,11pt]{book}
+\author{Daniela Rupp}
+\title{Ionization and plasma dynamics\\of single large xenon clusters\\in superintense XUV pulses}
+%Coincident imaging and ion spectroscopy\\of single large xenon clusters\\in high intense soft x-ray pulses}
+\usepackage{graphicx,subfigure}
+\usepackage{epstopdf}
+\usepackage[latin1]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[german, USenglish]{babel}
+\usepackage{longtable}
+\usepackage[dvips]{epsfig}
+\usepackage{wrapfig}
+\usepackage[small,bf]{caption}
+\usepackage{fancyhdr}
+\usepackage[a4paper,twoside,dvips,textwidth=155mm,textheight=240mm,left=30mm,top=28mm,headsep=10mm]{geometry}
+\usepackage{booktabs,multirow,soul}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{url}
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+%\setlength\belowcaptionskip{-10pt}
+\setlength\abovecaptionskip{0pt}
+\setlength{\parindent}{0mm}%
+\setlength{\parskip}{3mm}%
+
+\renewcommand{\captionfont}{\small}%
+\setlength{\abovecaptionskip}{3mm}
+\newlength{\figwi}%
+\setlength{\figwi}{145mm}%
+\newlength{\fighi}%
+\setlength{\fighi}{100mm}%
+\newlength{\txtwi}
+\setlength{\txtwi}{145mm}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{.75}
+\renewcommand{\bottomfraction}{.75}
+\renewcommand{\floatpagefraction}{.70}
+
+%%%%% For quick compilation of distinct chapters use includeonly %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Only works properly if whole document has been compiled once (citations, page numbering...) %%%%
+%\includeonly{Chapter3ResultsAndDiscussion/SingleClusterImagingIonSpec3}%Title, Abstract,
+%\includeonly{Title, Chapter2Experiment/Experiment, Results, Outlook}
+%\includeonly{Chapter1Theory/TheoreticalBasics}
+%\includeonly{Introduction/Introduction2}
+%\includeonly{Title, Results, Outlook}
+%\includeonly{Title, Chapter1Theory/TheoreticalBasics, Chapter2Experiment/Experiment, Results, Outlook}
+%\includeonly{Abstract, Introduction/Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\selectlanguage{USenglish}
+\pagestyle{plain} %
+\pagenumbering{roman}
+
+%%%%%%%%%%  Title  %%%%%%%%%%%%%%
+
+%\maketitle
+\include{Title}
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\cleardoublepage
+\include{ZitatLPauling}
+\include{Abstract}
+%\clearpage
+
+\tableofcontents
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{arabic}
+
+\pagestyle{headings}
+
+\fancyhf{} %
+\pagestyle{fancy} %
+\fancyhead[LE,RO]{\sc\thepage} %
+\fancyhead[LO]{\sc\nouppercase\rightmark} %
+\fancyhead[RE]{\sc\nouppercase\leftmark}%
+
+
+
+\include{Introduction/Introduction}
+
+\include{Chapter1Theory/TheoreticalBasics}
+
+\include{Chapter2Experiment/Experiment}
+
+%\include{Chapter3ResultsAndDiscussion/ResultsAndDiskussion}
+\include{Results}
+
+\include{Outlook}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\cleardoublepage%
+\addcontentsline{toc}{part}{Appendix}
+\part*{Appendix}
+%\chapter*{Appendix}
+\include{AnhangA}
+\include{AnhangB}
+
+
+\addcontentsline{toc}{chapter}{List of figures}
+\listoffigures%
+\clearpage
+\thispagestyle{plain}%
+\cleardoublepage%
+
+%\addcontentsline{toc}{chapter}{List of tables}
+%\listoftables%
+%\clearpage
+%\thispagestyle{plain}%
+%\cleardoublepage%
+
+
+%%%%%%%%%%%%%  Bibliography  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliography{C:/Bibtex/DaniDiss_bib}%
+%\bibliographystyle{C:/Programme/MiKTeX2.6/bibtex/bst/base/aip}
+%\bibliographystyle{unsrt}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{DaniDiss_bib}%
+%\bibliographystyle{./aip}
+\bibliographystyle{unsrt}
+\clearpage
+\pagestyle{plain}%
+%\cleardoublepage%
+
+\include{Disclaimer}
+\include{Acknowledgements}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

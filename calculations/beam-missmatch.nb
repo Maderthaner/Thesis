@@ -1,0 +1,80 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1940,         70]
+NotebookOptionsPosition[      1618,         53]
+NotebookOutlinePosition[      1972,         69]
+CellTagsIndexPosition[      1929,         66]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"<<", "PhysicalConstants`"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      FractionBox[
+       RowBox[{"nn", " ", "lambda"}], "c"], "\[Equal]", 
+      RowBox[{"3", " ", 
+       SuperscriptBox["10", 
+        RowBox[{"-", "15"}]], " ", "Second"}]}], "/.", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"lambda", "\[Rule]", 
+        RowBox[{"1", " ", 
+         SuperscriptBox["10", 
+          RowBox[{"-", "9"}]], "Meter"}]}], ",", 
+       RowBox[{"c", "\[Rule]", " ", "SpeedOfLight"}]}], "}"}]}], ",", "nn"}], 
+   "]"}], "//", "N"}]}], "Input",
+ CellChangeTimes->{{3.677946688528322*^9, 3.6779468874628077`*^9}, {
+   3.677946925221517*^9, 3.677946941670516*^9}, 3.677947335227268*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"nn", "\[Rule]", "899.377374`"}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.677946824951685*^9, 3.677946877888596*^9}, {
+   3.677946930110865*^9, 3.677946943297264*^9}, 3.67794733649914*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 755},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 769, 21, 79, "Input"],
+Cell[1351, 45, 251, 5, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

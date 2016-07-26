@@ -1,2 +1,173 @@
-\chapter{Fundamental Concepts}
-%\section{Cluster}
+\chapter{Fundamental Concepts}\label{ch:fundamental_concepts}
+%%%%%%%%%%%%
+%- Short introduction what we will go over.
+%%%%%%%%%%%%
+This chapter tries to condense some of the theoretic basics that will reoccur throughout the thesis. We start off with an introduction to the key aspects of X-ray free electron lasers including the more specific parts of self-seeding and X-ray pump -- X-ray probe techniques, followed by a section about the formation of rare gas clusters. We then dive into the interaction of light and matter, starting with X-ray scattering including the broad topic of phase retrieval in diffraction patterns and ending with the ionization of matter and formation of a nanoplasma.
+\section{X-ray free electron laser}
+%%%%%%%%%%%%
+%- A historic introduction to FELs\\
+%%%%%%%%%%%%
+The advance of X-ray free electron laser in the recent years has enabled experimental ideas from long ago but has also opened entirely new branches to research. Thus far synchrotron radiation facilities have provided X-rays to a great variety of communities but the pulse characteristics of the synchrotron storage rings are limited. A synchrotron accelerates a number of electron bunches near the speed of light and then injects them into a storage ring at which point the electron bunches can be little manipulated and loose energy as they circle around the ring and create photons. As a result, synchrotron sources are limited in their spectral brightness, which we can define as
+\begin{equation}
+B = \frac{n}{A\ \Theta\ t\ \Delta\! E},
+\label{eq:spectral-brightness}
+\end{equation}
+with $n$ being the number of photons, $A$ the unit source size, $\Theta$ the divergence of the beam, $t$ the pulse duration and $\Delta\! E$ the spectral bandwidth of the light pulse. The spectral brightness is an overall measure of the light source taking many factors into account such that it yields an estimate of the quality of the light source. The development of modern synchrotron light sources is hence often measured and compared to previous achieved values. Since all experiments are using X-rays of similar wavelength the big other factors are the number of photons and pulse duration. The more photons a source can create and the shorter the pulse duration the higher the spectral brightness. With this in mind, one can say the higher spectral brightness light sources are needed to image even smaller particles or look at dynamics that are even faster. Particular drivers for shorter pulse durations and higher intensities were the thoughts of visualizing electron movement at for example a chemical reaction but especially also the idea to study single particles.
+\begin{figure}[t]
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/aerial-view-lcls.jpg}
+	\caption{Aerial view of the Linac Coherent Light Source (LCLS). LCLS uses the last third of the SLAC Linear Accelerator but is overall a ~4.1km long machine. The accelerator and buildings are stretched far because of the process light is generated. Image from \cite{SLAC-2009-Flickr}}
+	\label{fig:aerial-view-lcls}
+\end{figure}
+Another driver would be to study non-linear processes, for example absorption dynamics in atoms and molecules. One can conservatively estimate that a typical cross section at soft X-rays (1 nm wavelength) is around $\sigma = 1$ megabarn (Mb) \cite{Bucksbaum-2011-Book}, typical X-ray focii are round $A = 1 \mathrm{\mu m}^{2}$\footnote{Focus size at the AMO endstation at LCLS.} such that the number of photons needed $n_{in}$ to absorb just 1 photon per atom $n_{abs}$ can be calculated by
+\begin{equation}
+n_{in} = \frac{n_{abs} A}{\sigma} = \frac{10^{-8} \mathrm{cm}^{2}}{10^{-18} \mathrm{cm}^{2}}=10^{10}
+\end{equation}
+While this back on the envelope type of calculation might be off by an order of magnitude or so depending on a the specific case, it illustrates that the amount of photons produced by modern synchrotron sources are not enough. An example of a modern synchrotron source is NSLS-II and a rough estimate yields that it produces roughly $1.7 10^{4}$ photons per pulse in the Si111 bandwidth at pulse durations of a few ten picoseconds \cite{Williams-2016-PC}. That is far out of reach to investigate non-linear processes. To reach the drastic higher number of photons per light pulse, it was proposed to build a laser in the XUV and later X-ray wavelength regime. Since, mirrors and lenses, optics as we know them, are not available in the short wavelength regime, one had to improvise. Instead amplifying light through an active medium by bouncing it back and forth between mirrors, one amplifies the light along a straight line to create laser alike radiation\footnote{The process to of the light create is explained in details in section \ref{sec:sase}.} as it can be seen in the birds eye view of LCLS in figure \ref{fig:aerial-view-lcls}. Ultimately, free-electron lasers were able to increase the number of photons per pulse to currently $n_{in} = 10^{12}$ and achieve pulse lengths of a few femtoseconds. These are remarkable beam parameters and as a result LCLS was increasing the spectral brightness by many orders of magnitudes.
+%While some applications are still under development \cite{Aquila-2015-StrucDyn,Weninger-2013-PRL}, free electron laser have made it possible to screen smaller protein crystals then previously possible to measure \cite{Chapman-2011-Nature} and are on track to study the thus far unknown protein structures \cite{Barends-2014-Nature}.
+\subsection{Self amplification by spontaneous emission}\label{sec:sase}
+%%%%%%%%%
+%- Idea and schematic setup\\
+%- Explain SASE including micro-bunching\\
+%- Talk about the importance of monitoring the energy loss
+%%%%%%%%%
+\begin{figure}[t]
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/Undulator.png}
+	\caption{Schematic setup of an undulator with a period of $\lambda_{U}$. (1) Magnets in alternating polarity; the arrows indicate the direction of the magnetic field. (2) Incoming electron bunch near the speed of light. (3) Emitted light in beam direction due to sinusodial movement of the electron bunch. \cite{holst-2005-wiki}}
+	\label{fig:undulator}
+\end{figure}
+In synchrotron lightsources as well as free electron lasers, X-rays are generated using wiggler and undulator magnets. In principle, an electron bunch is accelerated near the speed of light and then wiggled along its path using magnetic fields. The wiggeling causes the particles to emit radiation. Wigglers consist of magnets that are arranged in an alternating order to force the electron bunch on a sinusodial trajectory. In a Wiggler, the electrons emit a total power $P_{emitted}$ that is proportional to the number of magnets $m$. CITE
+\begin{equation}
+P_{emitted} \propto m,\quad \mathrm{in\ a\ wiggler\ magnet}
+\end{equation}
+The emitted radiation has a braod, continuous spectrum and the center of that spectrum can be controlled by changing the speed or kinetic energy of the electron bunch. Wigglers have been used at the Stanford Synchrotron Radiation Lightsource (SSRL) in 1979 to generate X-rays and were a great success. Continued development on the Wiggler design led to the idea of Undulators. A schematic setup of an undulator magnet can be seen in figure \ref{fig:undulator}. Wigglers and Undulators create radiation because of the same principle, an electron bunch is accelerated near the spead of light and then forced on a sinusodial pathway. In undulators, the separation of such magnets or undulator period $\lambda_{U}$ and magnetic fields are chosen such that the emitted radiation per period constructively interferes with each other. The emitted wavelengths of undulators have a much more narrow pattern than thatof wigglers and because, strictly speaking, only one wavelength is amplified the emitted power $P_{W}$ now scales with CITE
+\begin{equation}
+P_{emitted}\propto m^{2},\quad \mathrm{in\ an\ undulator\ magnet}
+\end{equation}
+We can characterize an undulator by the undulator strength parameter $K$ and it is given by \cite{Huang-2007-PRSTAB}
+\begin{align}
+K &= \frac{e\ B\ \lambda_{U}}{2\ \pi\ m_{e}\ c}
+\intertext{with the constants $e$ being the electron charge, $B$ being the magnetic field in the undulator, $m_{e}$ being the mass of an electron and $c$ being the speed of light, we can write}
+K &\approx 9.34 10^{-3} B\ \lambda_{U}\ \mathrm{T\ m}UNIT CM?\label{eqn:undulator-strength}
+\end{align}
+Undulator magnets are large constructs of a few meters and their undulator period is on the order of centimeter. The electrons emit radiation in the nanometer wavelength regime because the electrons near the speed of light have to be considered relativistic and in the view of the electrons the undulator period $\lambda_{U}$ appears shorter. We can correct for the relativistic effects and express the main amplified wavelength $\lambda_{r}$ by CITE
+\begin{equation}
+\lambda_{r} = \frac{\lambda_{U}}{2 \gamma}\left(1+\frac{K}{2}+\gamma^{2}\Psi^{2}\right),\label{eqn:fundamental-wavelength}
+\end{equation}
+with the kinetic energy $\gamma$ of the electron beam in the undulator and $\Psi$ its observation angle. Equation \ref{eqn:undulator-strength} and \ref{eqn:fundamental-wavelength} also show that the wavelength in an undulator is determined by the undulator gap $\lambda_{U}$, the magnetic field $B$ in the undulator and the kinetic energy of the electron beam $\gamma$.\\
+Undulators are also used in X-ray free electron lasers. The main difference to synchrotron radiation sources is that the light is amplified over a much longer straight line using multiple undulator magnets serially connected. LCLS has a 112m long undulator section. Over the course of this distance, microscopic effects start to play a role that could be neglected in typical synchrotron radiation sources. In vacuum, light will always be faster than electrons near the speed of light. This slight difference means that the copropagating photons and electrons have a phase difference and interact with each other. Depending on the phase, an electron will either gain or loose velocity. Over each undulator period, we can describe this \textit{slip} with $\lambda_{r}(\Psi = 0)$. As a result, the initial unifrom electron density in the electron bunch is peridoically modulated and the modulated electron bunch structure is called \textit{microbunching}. The creation of micobunching is illustrated in FIGURE. The increasingly structured electron beam amplifies a more narrow wavelength bandwidth and the number of electrons that are in phase with the photons increases over the travel length through the undulator. The electrons interact with the light field because of their narrow spatial and kinetic energy distributions. These parameters are characterized as the \textit{emittance} of an electron bunch. Only the linear accelerator of a FEL are able to compress the electron bunch in space and energy, i.e. create a low emittance electron bunch, such that it can interact with the photons as described above. The initial process that starts this light amplification is triggered by the first few photons that are spontaneous emitted and then subsequently amplified. Hence, this type of radiation (or FEL operation mode) is called \textit{Self Amplification by Spontaneous Emission} (SASE). It achieves laser alike amplification of the radiation power $P_{SASE}$ that scales with the number of electrons $N_{e}^{2}$
+\begin{equation}
+P_{SASE} \propto N_{e}^{2},\quad \mathrm{SASE\ operation}
+\end{equation}
+The characteristics of SASE radiation are its noisy and spiky photon spectrum, as seen in FIGURE, that come from the initial random (spontaneous) emission of photons.\\
+X-ray free electron laser use one electron bunch and create one light pulse in a long set of undulator magnets, this is also called a \textit{single-pass high-gain} FEL. Due to the lack of optics, X-ray FEL operate in the high-gain mode. A X-ray FEL gain curve as a function of gain length $L_{g}$ can be seen in FIGURE. The electron bunch travels over a long distance in the undulators until it eventually reaches saturation. In saturation, the microbunching is most developed. Since the creation of X-rays is affected by the kinetic energy of the electron bunch $\gamma$ the electron bunch is not reused.
+\subsection{Soft X-ray self seeding}
+%%%%%%%%%%%%%%%%%%%%%%
+%- Should I include this section? I could use it for the pump probe as well\\
+%- Self seeding vs. seeded FELs\\
+%- Schematic setup of a self seeding unit\\
+%- Work towards self-seeded beams including spectrometer data
+%%%%%%%%%%%%%%%%%%%%%%
+Free electron laser also have different operating modes than SASE. Particular interesting is the \textit{seeded} type of operation, where the FEL amplifies an initial seed of photons. The photons seed can be created through various processes. Here again, the wavelength of the photon seed is the critical parameter in determining which method to choose. For example, in the infra red (IR) to extreme ultra violet (XUV) regime, conventional lasers can be used to place the initial photons seed. However, due to the lack of lasers available at soft and hard X-rays wavelength regimes, the idea of \textit{self-seeding} gained traction. In self-seeding, an electron bunch is first send through a few undulator magnets to generate a few SASE phtons, the electrons and photons are then separated using a magnetic chicane, which also neutralizes the microbunching in the electron bunch. The monochromator selects a small wavelength slice from the comparably broad SASE spectrum of the inital photons. The photons exiting the monochromator are considered the \textit{seed}. The seed and the electron bunch are overlapped again using the magnetic chicane and then send through more undulators. The seed generates now the microbuching, which is wavelength depended and thus a narrow wavelength band is amplified. Self-seeded beam operations have recently been demonstrated at LCLS. At hard X-rays, the Hard X-Ray Self-Seeding (HXRSS) instrument uses a diamond crystal to select a wavelength slice \cite{Amann-2012-NatPho}. At soft X-rays, the Soft X-ray Self Seeding (SXRSS) instrument uses a grating as dispersive element \cite{Ratner-2015-PRL}. A typical average spectrum of a soft X-ray self-seeded beam can be seen in Fig. \ref{FIGURE}. The characteristics of this spectrum are an intense peak at the selected wavelength regime ontop of a broad SASE background. The background is an artefact of the amplification of some spontaeous emission events and can be suppressed by using fewer undulator magnets. Self-seeded beams have a significatly reduced pulse energy by an order of magnitude or so, depending on the exact beam parameters, as compared to SASE operations. However, in their main peak, self-seeded beams have a higher spectral brightness when compared to a SASE spectrum. SASE spectra usually have a broad spectral bandwidth with a $\Delta E$ of a few eV, comparing seeded beams with Eq. \ref{eq:spectral-brightness} to SASE beams the increase in spectral brightness using seeded beams is understandable. The peak intensity in a narrow spectral band makes seeded beams interesting for a variety of applications particular in condensed matter physics, where it is instrumental to excite with narrow bandwidth photons. Of course there are also applications in atomic and molecular physics, ranging from linear absorption spectroscopy on molecules that has been demonstrated recently \cite{UNPUBLISHED}, to non linear stimulated Raman spectroscopy \cite{Kimberg-2016-FD}, to ultrafast photoemission studies. Particular interesting for this work is the magnetic chicane from the SXRSS instrument that has been used as described in the next chapter.
+\subsection{Novel X-ray pump–probe techniques}
+%%%%%%%%%%%%%%%%%
+%- Albertos pump-probe version\\
+%- Agos two color pump probe version\\
+%- Ratners and Agos seeded pump probe version\\
+%- Use spectra from single-shot spectrometer
+%%%%%%%%%%%%%%%%%%%%%%%%
+In order to study X-ray induced methods using X-ray imaging and spectroscopy techniques, as it is discussed in the present work, two X-ray pulses are needed . Here, a pump pulse is used to induce dynamics in the sample system and a probe pulse is used to probe them at a certain time delay $\Delta t$. Pump--probe experiments are commonly used as they allow a precise study of dynamics. The pump pulse gives a very controllable starting point, i.e. time zero in the dynamic process, and the probe pulse can perform a measurement at a later time delay $\Delta t$. Sometimes pump and probe pulse are switched, which is indicated by a negative time delay $\Delta t$, often to verify time zero or to probe the system before any dynamics have occurred.\\
+Creating two X-ray flashes to create a pump--probe experiment is a technical challenge and again this challenge is due to the lack of optics and the availability and size of X-ray SASE sources. In order to overcome this challenge, two methods have been proposed. Method one, mirror based beam-split and delay systems \cite{Castagna-2013-JPCS,Murphy-2012-SPIE} that split one pulse into a pump and probe beam and allow the delay of the latter. These systems typically are limited to short delay times, as the optics have to fit into existing setups and have a low transmission of X-rays over the mirrors. Method two, uses accelerator based schemes \cite{Lutman-2013-PRL,Marinelli-2015-NatComm} that manipulate electron bunches to create two X-ray pulses. Limitations arise depending on the scheme, e.g. limited pulse delay $\Delta t$ or pulse energy split through limited electron beam separation or length of magnetic chicane. Both methods have been demonstrated at LCLS and have found use to complement the more widely available optical laser pump-- X-ray probe methods particularly in the chemical sciences \cite{Picon-2016-NatComm,Ferguson-2016-SciAdv,Liekhus-Schmaltz-2015-NatComm}.\\
+As the accelerator based X-ray pump -- X-ray probe method using a magnetic chicane has been used, let us describe these schemes in greater detail. Before we jump into the technical details, it is good to know that not only the aspect of creating a time delay $\Delta t$ between the pump and the probe pulse is important but also to create a difference in wavelength between these two pulses. Generally, this is of use to resonantly pump and off-resonance probe or vice versa. Equation \eqref{eqn:fundamental-wavelength} indicates which parameters can be tuned to create two pulses of different color. One, the undulator parameter K can be tuned to change the emitted wavelength, or two, the lorentz factor $\gamma$ can be different if there are two electron bunches. The undulator period $\lambda_{U}$ is fixed at LCLS.
+\subsubsection{Undulator parameters $K_{1,2}$ based pump--probe scheme}
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/Albertos-pump-probe-scheme.png}
+	\caption{Schematic setup at LCLS of undulator parameter $K_{i}$ based pump--probe schemes. Scheme I creates one electron bunch using a single slotted foil and scheme II creates two electron bunches using a double slotted foil. The electron bunches emit radiation with a wavelength depending on $K_{i}$. A time delay $\Delta t$ between pulses is introduced using a magnetic chicane. Figure from \cite{Lutman-2013-PRL} reprinted with permission from APS.}
+	\label{fig:Albertos-pump-probe-scheme}
+\end{figure}
+The first developed accelerator based pump--probe technique at LCLS \cite{Lutman-2013-PRL} uses a difference in undulator parameters $K_{1,2}$ to create two pulses of different wavelength, the time delay is introduced through a magnetic chicane and a schematic setup can be found in Figure \ref{fig:Albertos-pump-probe-scheme}.\\
+In scheme I, one electron bunch is created through a single slotted foil\footnote{A single slotted foil or emittance-spoiling foil works comparable to a monochromator. It leaves a certain energy band of the electron bunch within the slot unspoiled and Coulomb scatters or spoils (compare to apertures) the rest. The 'dispersive' element is a magnetic chicane. By narrowing the electron beam one also reduces its pulse duration \cite{Emma-2004-PRL}.}  The use of the slotted foil enables control over the pulse duration. The electron bunch then travels through an undulator section $U_{1}$ tuned at strength parameter $K_{1}$ and is stimulated to lase but the process does not go into saturation to be able to reuse the electron bunch in the second undulator section. The time delay $\Delta t$ between the two pulses is introduced by a magnetic chicane. At LCLS, a dedicated chicane, e.g. from the soft X-ray self-seeding instrument, can reach up to
+\begin{equation}
+\Delta t_{max} = 800 fs.
+\label{eq:alberto-delta-t-max}
+\end{equation} The minimal time delay can be achieved by setting the deflection in the magnetic chicane to zero in which case
+\begin{equation}
+\Delta t_{min} = \frac{l}{v_{el\ drift}} - \frac{l}{c}\approx 0 fs,
+\label{eq:alberto-delta-t-min}
+\end{equation}
+with $l\approx 4m$ being the length between undulator sections $U_{1}$ and $U_{2}$ and $c$ being the speed of light and $v_{el\ drift}$ being the drift velocity of the electron bunch. As the electron bunch travels close to the speed of light $t_{min}$ is typically on the tens of attosecond timescale. The timing jitter between the two light pulses using only one electron bunch comes solely from the magnetic chicane due to the magnetic field jitter and the electron beam energy jitter. The total contribution to the timing jitter is less than $0.4\%$ of the tim delay $\Delta t$ imposed by the chicane. Since the delay chicane does not contribute significantly to the delay $\Delta t$ a bigger factor is the velocity mismatch of the light pulse and the electron bunch. This mismatch can be estimated by
+\begin{equation}
+\Delta t_{beam\ mismatch}=\frac{N_{u} \lambda_{r}}{c},
+\label{eq:alberto-beam-missmatch}
+\end{equation}
+with $N_{u}$ being the undulator periods. Given the parameters in study \cite{Lutman-2013-PRL}, $t_{beam\ mismatch}=3fs$ such that a partial overlap could be achieved. However, the magnetic chicane removes the microbunching from section $U_{1}$. In undulator section $U_{2}$ tuned to undulator strength parameter $K_{2}$ the electron bunch lases again and the process is able to saturate. The maximal color separation between the two pulses is $~ 1.9\%$ in relative difference between $K_{1}$ and $K_{2}$.\\
+Scheme II uses a double slotted foil\footnote{A double slotted foil works as a single slotted foil but it leaves to parts of the electron beam unspoiled through the two slots.} to create two electron beams. The two beams have a longitudinal separation that translates into the time delay $\Delta t$. The electron bunches travel through a first set of undulators $U_{1}$ that creates two pulses of the same wavelength, due to the shortness of the section $U_{1}$ the lasing process does not saturate. The electron bunches are then delayed using a magnetic chicane such that the leading electron bunch overlaps with the trailing light pulse. This light pulse now functions as a seed for the leading electron bunch such that this pulse saturates in undulator section $U_{2}$. The electron bunches then travel through the magnets at $U_{3}$, where the trailing electron bunch creates a second saturated pulse, the leading electron bunch barely emits radiation in $U_{3}$ since its energy spread has become too large after lasing in $U_{2}$. Using this method, two saturated lasing pulses can be generated, however, temporal overlap cannot be achieved.
+\subsubsection{Twin bunch or Lorentz factor $\gamma$ based pump--probe scheme}
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/Agos-pump-probe-scheme.png}
+	\caption{Schematic setup of the two bunch, two color pump--probe setup at LCLS. Two laser pulses shot at a cathode create two electron bunches with a delay $\Delta t$ on the picosecond timescale. Two magnetic chicanes compress the bunches such that a delay $\Delta t$ on the up to the ten femtosecond timescale is achieved. Both pulses go through one undulator section and the SASE lasing process is saturated. The relative color separation is on the order of $1\%$.}
+	\label{fig:Agos-pump-probe-scheme}
+\end{figure}
+The second developed accelerator-based pump-probe technique at LCLS \cite{Marinelli-2015-NatComm} uses two electron bunches of different energy. A schematic setup of this beam operation can be found in figure \ref{fig:Agos-pump-probe-scheme}.\\
+The bunches are created through a double laser pulse that impinges on a photocathode. Initially, these two bunches have a time delay of a few picoseconds, however, two magnetic chicanes compress the electron bunches in the time and intensity domain such that a time delay on the ten femtosecond timescale is achieved. The electron bunches then travel through one undulator section and both pulses saturate in their lasing process. At $8.3k$ eV, both pulses combined can reach pulse energies of $1.2mJ$, the color separation is $100$ eV and the time separation ranges from $\Delta t_{min}=0fs$ to $\Delta t_{max}=100fs$. At hard X-rays, this method requires the pump pulse to have a higher photon energy than the probe pulse, although their respective intensities may vary. However, this method is not restricted to hard X-rays and can be utilized at soft X-rays. In the soft X-rays wavelength regime, where the above explained slotted spoiler foil can be used. This allows a further control to tune the time delay of the electron bunches, which enables scanning across each other.
+%%%
+\section{Rare gas clusters}
+%%%%%%%%
+%- Why are rare gas clusters a suitable sample
+%%%%%%%%
+Rare gase clusters have been used as nanosample in this study and this chapter will explore this topic. Clusters have a long history to study light-matter interaction as their characteristics are well known \cite{Haberland-1994-Springer}. Generally speaking, clusters are an aggregation of atoms or molecules and vary in size. Their size can range from a few atoms to mesoscopic sizes such that one can classify a cluster as a bulk material. Clusters can form exotic materials that are interesting to study and can be well simulated through comparably simple computer models. Besides these testbed characteristics, the use of clusters has often practical purposes. They can be comparably easily generated and are typically easily tune able in size. Rare gas clusters are a subclass of clusters and they are bound by van der Waals forces and normally neutral-charged. Single van der Waals cluster typically form in an icosahedral\footnote{An icosahedron is a polyhedron with 20 faces, i.e. a dice with 20 faces.} shape when they are sufficiently small (up to nanometer sized) \cite{Miehle-1989-JCP} and have mostly a fcc-crystal\footnote{fcc is short for face-centered cubic. A very common crystal structure.} structure but exhibit also hcp-crystal\footnote{hcp stands for hexagonal close-packed and is also a crystal structure.} structures \cite{VanDeWaal-1993-JCP,Krainyukova-2006-TSF}. The creation of homogenous and heterogeneous rare gas clusters shall be the focus of the next few chapters.
+\subsection{Creation of a homogenous cluster}
+%%%%%%
+%- the theory behind rare gas cluster creation.
+%%%%%%
+Rare gas clusters, for example xenon clusters, can be generated through a variety of ways. Most commonly are often generated through a supersonic jet expansion \cite{Farges-1983-JCP}, although other app. A schematic setup of this can be found in FIGURE \ref{CITEBOOK1988}. Supersonic jets have had a tremendous success in generating mesoscopic sized clusters \cite{Rupp-2014-JCP} and we will focus the discussion on this particular cluster generation method.\\
+The fundamental process of rare-gas cluster generation can be described through a kinetic model \cite{Lippmann-1984-JCP}, where atoms and clusters grow through collisions. The binding force is the Van der Waals interaction. The early stage of a cluster growth is described the reaction formula
+\begin{align}
+A_{n}+A \rightleftharpoons A_{n+1}^{*},\quad n=1,2,...,\quad \mathrm{monomer\ collision,}
+\intertext{where a body $A_{n}$ collides with a monomer $A$ and form a metastable state $A_{n+1}^{*}$ that will dissociate if not a subsequent collision deactivates it}
+A_{n+1}^{*}+M\rightleftharpoons A_{n+1} + M,\quad \mathrm{activation/deactivation.}
+\label{eq:early-cluster-growth}
+\end{align}
+$M$ is a chaperone that can be any kind of third body that removes energy from the system. Note that a chaperone $M$ can also activate the state again.\\
+While the early stage of the cluster growth is driven by the monomer addition, cluster-cluster coagulation start to dominate the later growth processes \cite{Zurek-1980-JCP,Soler-1982-PRL}. This is due to the quantitative increase in small clusters in the generation process that then start to collide, similar to above kinetic model. From empirical evidence, we know that clusters solely generated through monomer addition have a size distribution of an exponential decay, whereas larger clusters that grew through coagulation follow a log-normal distribution. So through coagulation, the density of smaller clusters (and monomers and dimers) decreases through to cluster-cluster coagulation and larger clusters are formed. The most probable size of a cluster, i.e. the maximum of the log-normal distribution, is given by the parameters of the supersonic jet setup, which is what we will discuss next.\\
+
+%
+%
+%
+%
+%
+\subsection{Creation of a heterogeneous cluster}
+- Heterogeneous clusters, e.g. He Xe\\
+- Do you have literature on that?
+%%%
+\section{Introduction into X-ray scattering}
+%%%%%%%%%%%%%%%%%%%%%
+%- Starting with Maxwell equations (this would be coming from the far end, I might be able to go into Guiniers formalism earlier. Depending on space.)\\
+%- Mathematical model for electromagnetic wave\\
+%- Kramers-Kronig relations\\
+%- Mie scattering in a nutshell
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Small angle X-ray scattering}
+- Switch to Guiniers approximation and description\\
+- Work towards small angle scattering of small particles\\
+- Particular spheres\\
+- Discuss extreme positions
+\subsection{X-ray diffraction}
+- I wonder if I should include this to talk about 'what happens on faster timescales' using Ken's work.
+\subsection{The inverse problem: Phase retrieval}
+- Introduce some aspects from phase retrieval algorithms.
+%%%
+\section{Light-matter interaction}
+\subsection{Ionization of matter}
+\subsection{Charge migration}
+%%%
+\section{Ionization of matter in intense X-ray pulses}
+- Short introduction coming from inelastic scattering
+\subsection{Formation of nanoplasma}
+- Step by step explanation on the formation of a nanoplasma
+\subsection{Tampered layers to inhibit the nanoplasma expansion}
+- Step by step explanation on the formation of the nanoplasma, pointing out the differences between tampered and pristine clusters.

@@ -1,0 +1,97 @@
+%%% DOCUMENTCLASS is KOMA-Script scrbook with documentation in http://mirrors.ctan.org/macros/latex/contrib/koma-script/doc/scrguide.pdf
+\documentclass[draft=false,titlepage=firstiscover]{scrbook}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PACKAGES
+\usepackage[utf8]{inputenc}
+\usepackage{hyperxmp}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[english,german]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{titlepage}
+\usepackage[pdftex,pdfa]{hyperref}
+%___________________________________
+%
+% hyper setup for meta-data
+\hypersetup{%
+		%pdfTeX,
+		%shared hyperref and hyperxmp data
+		baseurl={https://github.com/Maderthaner/Thesis/blob/master/Thesis.pdf},
+		pdfauthor={Maximilian Jakob Bucher},
+		pdfkeywords={LCLS, FEL, Cluster},
+		pdflang={en},
+		%pdfproducer={pdftex},
+		pdfcreator={LaTeX with hyperref package},
+		pdfsubject={Free electron laser science},
+		pdftitle={Ultrafast Dynamics of Nanoparticles in Highly Intense X-Ray Pulses},
+		%hyperref specific options
+		%bookmarks=true,         % show bookmarks bar?
+		bookmarksnumbered=true,
+    unicode=true,          	% non-Latin characters in Acrobatӳ bookmarks
+	  pdftoolbar=true,        % show Acrobatӳ toolbar?
+	  pdfmenubar=true,        % show Acrobatӳ menu?
+	  pdffitwindow=false,     % window fit to page when opened
+	  pdfstartview={FitH},    % fits the width of the page to the window
+	  pdfnewwindow=true,      % links in new window
+	  colorlinks=false,       % false: boxed links; true: colored links
+	  linkcolor=red,          % color of internal links
+	  citecolor=blue,        	% color of links to bibliography
+	  filecolor=blue,      	% color of file links
+	  urlcolor=blue           % color of external links
+		%hyperxmp specific options
+		pdfaconformance=B,
+		pdfapart=1,
+		pdfauthortitle={Master of Science},
+		pdfcaptionwriter={Maximilian Jakob Bucher},
+		pdfcontactaddress={Technische Universität Berlin, Universitätsbibliothek, Dissertationsstelle, Fasanenstr. 88},
+		pdfcontactcity={Berlin},
+		pdfcontactcountry={Germany},
+		pdfcontactemail={dissertationen@ub.tu-berlin.de},
+		pdfcontactphone={+49(030)314-76129},
+		pdfcontactpostcode={10623},
+		pdfcontactregion={Berlin},
+		%pdfdate={2016},
+		pdfcontacturl={http://www.ub.tu-berlin.de/en/university-press-and-theses/dissertation-office/},
+		pdfcopyright={This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.},
+		pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
+		pdfmetalang={en-US}
+}
+\usepackage[a-1b]{pdfx}
+%___________________________________
+%
+%
+\begin{document}
+\selectlanguage{english}
+\pagenumbering{gobble}
+%\maketitle
+\include{titlepage}
+\include{license}
+%\part*{blabla}
+\include{abstract}
+\include{Kurzfassung}
+\tableofcontents
+\listoffigures
+\listoftables
+\null\newpage
+\pagenumbering{arabic}
+\include{introduction}
+%\clearpage
+\include{fundamental_concepts}
+%\newpage
+\include{experimental_setup}
+%\newpage
+\include{methods}
+%\newpage
+\include{results}
+%\newpage
+\include{summary_outlook}
+%\newpage
+\pagenumbering{Alph}
+\include{bibliography}
+%\newpage
+\include{appendix}
+\include{acknowledgment}
+\end{document}

@@ -1,0 +1,334 @@
+%%%%%%%%%%%%%%%%%%%%%%%  VORLAGE DIPLOMARBEIT  %%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Definitionen %%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%  VORLAGE DIPLOMARBEIT  %%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Definitionen %%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[a4paper,twoside,11pt]{book}
+
+\usepackage{graphics,subfigure}
+\usepackage{graphicx}% Incude figure files
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{nomencl}
+\usepackage{xstring}
+\usepackage[nottoc]{tocbibind}
+\usepackage[a-1b]{pdfx}
+%\usepackage{lmodern}
+%\usepackage[T1]{fontenc}
+\makenomenclature
+
+\usepackage[USenglish,ngerman,russian]{babel}
+\usepackage{longtable}
+\usepackage[dvips]{epsfig}
+\usepackage[small,bf]{caption}
+\usepackage{fancyhdr}
+\usepackage[a4paper,twoside,dvips,textwidth=155mm,textheight=230mm,left=27mm,top=35mm,headsep=10mm]{geometry}
+\usepackage{booktabs,multirow,soul}
+\usepackage{rotating}
+\usepackage{amsmath}
+%\usepackage{glossaries}
+\usepackage{natbib}
+%\usepackage{url}
+%\PassOptionsToPackage{colorlinks=false,pdfborder={0 0 0}}{hyperref}
+\usepackage{hyperref}
+\setlength{\parindent}{0mm}%
+\setlength{\parskip}{3mm}%
+
+\renewcommand{\captionfont}{\small}%
+\setlength{\abovecaptionskip}{0mm}
+\newlength{\figwi}%
+\setlength{\figwi}{130mm}%
+\newlength{\fighi}%
+\setlength{\fighi}{100mm}%
+\newlength{\txtwi}
+\setlength{\txtwi}{145mm}
+
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{.75}
+\renewcommand{\bottomfraction}{.75}
+\renewcommand{\floatpagefraction}{.70}
+\renewcommand{\footnoterule}{\rule{\textwidth}{0.3mm}{\vspace*{2mm}}}
+
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+
+
+
+%% Die n\"{a}chste Zeile kann man verwenden, um nur einzelne Kapitel einzubauen, an denen man gerade schreibt.
+%% Inhaltsverzeichnis und Anhang sowie Abbildungs- und Literaturverzeichnis werden nicht ge\"{a}ndert, wenn man
+%% zuvor einmal die ganze Arbeit durchlaufen l\"{a}sst. Auch Querverweise funktionieren dann noch.
+%\includeonly{Kapitel2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Doktorabreit %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\makeglossaries 
+
+%\newglossaryentry{Te}{%
+%name={$T_{e}$},%
+%description={electron temperature}%
+%}
+
+%\newglossaryentry{mi}{%
+%name={$m_{i}$},%
+%description={ion mass}%
+%}
+
+%\newglossaryentry{kb}{%
+%name={$k_{b}$},%
+%description={Boltzmann constant}%
+%}
+
+% class `nomencl': nomenclature
+%\DeclareAcronym{el.Temp}{
+%  short = \ensuremath{$T_{e}$} ,
+%  long  = electron temperature ,
+%  sort  = Te ,
+%  class = nomencl
+%}
+%\DeclareAcronym{numofangels}{
+%  short = \ensuremath{N} ,
+%  long  = The number of angels per needle point ,
+%  sort  = N ,
+%  class = nomencl
+%}
+
+%\renewcommand*\nomname{Nomenklatur}
+\setlength\nomlabelwidth{.25\linewidth}
+\setlength\nomitemsep{-\parsep}
+\newcommand\nomunit[1]{\def\nomentryend{\hfill#1}}
+
+\renewcommand\nomgroup[1]{%
+  \def\makelabel##1{##1}%
+%  \bigskip
+ % \ifx#1L\relax
+ %   \item[\textbf{\Large Lateinische Formelzeichen}]%
+ % \fi
+ % \ifx#1G\relax
+ %   \item[\textbf{\Large Griechische Formelzeichen}]%
+ % \fi
+ % \ifx#1A\relax
+ %   \item[\textbf{\Large Abkürzungen}]%
+ % \fi
+ % \medskip
+ % \let\makelabel\nomlabel
+}
+
+\usepackage[belowskip=-10pt,aboveskip=0pt]{caption}
+
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+
+\pdfinfo{
+/Keywords{Clusters;FEL;X-rays;LCLS;nanoplasma;ultrafast dynamics; small angle X-ray scattering}
+/Title{Ultrafast light induced dynamics of Xe nanoparticles studied with a combination of intense infrared and x-ray pulses}
+ /Author{Tais Gorkhover}
+}
+  
+\begin{document}
+
+\pagenumbering{roman}
+%%%%%%%%%%  Title  %%%%%%%%%%%%%%
+
+%\maketitle
+
+
+%\pagestyle{plain} %
+%\pagenumbering{roman}
+
+%\title{\textbf{Nanoplasma dynamics induced by intense, ultrashort IR \thispagestyle{empty}laser in rare gas clusters studied with LCLS FEL pulses}}
+\thispagestyle{empty}
+\include{Title}
+\thispagestyle{empty}
+\clearpage
+\thispagestyle{empty}
+\begin{flushright} 
+                                      \CYRD\cyrl\cyrya\ \cyrm\cyro\cyre\cyrg\cyro\ \cyrg\cyru\cyrs\cyryo\cyrn\cyrk\cyra\  \CYRB\cyrr\cyru\cyrn\cyro\
+                                       
+\end{flushright} 
+\clearpage
+\thispagestyle{empty}
+
+%\author{\textbf{Taisia Gorkhover}} \date{\textbf{Monat Jahr}}
+
+%\maketitle
+%\clearpage
+
+%\include{Title}
+%\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%% Selbst\"{a}ndigkeitserkl\"{a}rung %%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\thispagestyle{empty}
+%\selectlanguage{ngerman}
+%\begin{center}
+%\chapter*{Eidesstattliche Erkl\"{a}rung}
+%\end{center}
+
+%Ich erkl\"{a}re hiermit an Eides statt, dass ich die Dissertation mit dem Titel:
+%"`Ultrafast light induced dynamics of Xe nanoparticles studied with a 
+%combination of intense \\ infrared and x-ray pulses"'
+%selbstst\"{a}ndig verfasst habe. Ich habe alle benutzten Hilfsmittel und Quellen aufgef\"{u}hrtund die Zusammenarbeit mit anderen Wissenschaftlern kenntlich gemacht..\\
+
+%\noindent Berlin, den 21.11.2013
+%\begin{flushright}
+%$\overline{~~~~~~~~~\mbox{(Name des Kandidaten)}~~~~~~~~~}$
+%\end{flushright}
+
+
+
+
+\thispagestyle{empty}
+\clearpage
+\thispagestyle{empty}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Zusammenfassung %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\selectlanguage{USenglish}
+\include{Abstract}
+\cleardoublepage
+\selectlanguage{USenglish}
+\pagestyle{plain} %
+
+
+%\makenomenclature
+%\vspace{-100pt}
+%\nomenclature{FEL}{Free Electron Laser}%
+%\nomenclature{LCLS}{Linac Coherent Light Source}%
+%\nomenclature{SLAC}{Stanford Linear Accelerator Center}%
+%\nomenclature{FLASH}{Freie-Elektronen-LASer in Hamburg}%
+%\nomenclature{AMO}{Atomic, Molecular \& Optical Science }%
+%\nomenclature{CAMP}{CFEL-ASG Multi-Purpose End Station}%
+%\nomenclature{Ti:Sa}{Ti-sapphire laser}
+%\nomenclature{IR}{Infrared}%%
+%\nomenclature{TOF}{Time-Of-Flight}%
+%\nomenclature{pnCCD}{pn-type Charge Coupled Devices}%
+%\nomenclature{FLYCHK}{A plasma code developed by \cite{Chung20053}}
+%\nomenclature{f}{the focal length}
+%\nomenclature{$\theta$}{the scattering angle illustrated in figure \ref{StreuPrinzip}}
+%\nomenclature{$MCP$}{Multi Channel Plate}
+%\nomenclature{$VMI$}{Velocity Map Imaging}
+%\nomenclature{$FHWM$}{Full Half Width Maximum}
+%\nomenclature{$T_e$}{electron temperature}
+%follows easily.
+%\linespread{2}\selectfont
+%\printnomenclature
+%\linespread{1}\selectfont
+\tableofcontents
+\cleardoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kapitel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\pagenumbering{arabic}
+
+\pagestyle{headings}
+
+\fancyhf{} %
+\pagestyle{fancy} %
+\fancyhead[LE,RO]{\sc\thepage} %
+\fancyhead[LO]{\sc\nouppercase\rightmark} %
+\fancyhead[RE]{\sc\nouppercase\leftmark}
+
+\include{Einleitung}
+\include{Basics}
+\include{Experimental_setup}
+\include{Experimental_method}
+
+\include{Zusammenfassung_Ausblick}
+\appendix
+\include{AnhangA}
+\include{AnhangB}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Anhang %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\addcontentsline{toc}{chapter}{}
+
+\fancyhf{} %
+\pagestyle{fancy} %
+\fancyhead[LE,RO]{\sc\thepage} %
+\fancyhead[LO]{\sc\nouppercase\rightmark} %
+\fancyhead[RE]{\sc\nouppercase\leftmark}
+\listoffigures
+
+
+\clearpage
+\thispagestyle{plain}
+\cleardoublepage
+
+%% bei Bedarf kann auch ein Tabellenverzeichnis angelegt werden
+%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+%\listoftables
+%\clearpage
+%\thispagestyle{plain}
+%\cleardoublepage
+
+%\printglossary
+%\addcontentsline{toc}{chapter}{Literature}
+%% wichtig! Bibliothek ist noch nicht gut! reihenfolge der Autoren und so zeug stimmt nicht!
+\bibliography{Bibfile}
+%\bibliographystyle{unsrtdin}
+
+
+\bibliographystyle{plain}
+%\bibliographystyle{apalike}
+
+\clearpage
+%%specific name in bold in the bibliography
+\def\FormatName#1{%
+  \IfSubStr{#1}{Gorkhover}{\textbf{\emph{#1}}}{#1}%
+}
+
+\include{publication_list}
+%\newpage
+%\begin{center}
+%5\section*{Eidesstattliche Erklärung}% In Seminararbeiten ist die Eidesstattliche Erklärung zu entfernen bzw. auszukommentieren. Der hier nachfolgende Text ist aus dem Merkblatt für DIPLOMARBEITEN. Bei der Anfertigung einer BACHELORARBEIT muss der entsprechende Text aus dem Merkblatt für Bachelorarbeiten eingesetzt werden!!
+%\addcontentsline{toc}{section}{Eidesstattliche Erklärung}%\addtocontents{toc}{\vfill}
+%\end{center}
+%Ich erkläre hiermit an Eides statt, dass ich die Dissertation mit dem Titel:
+%"....."
+%selbstständig verfasst habe. Ich habe alle benutzten Hilfsmittel und Quellen aufgeführtund die Zusammenarbeit mit anderen Wissenschaftlern kenntlich gemacht..\\
+%\noindent Berlin, den 21.11.2013
+%\begin{flushright}
+%$\overline{~~~~~~~~~\mbox{(Name des Kandidaten)}~~~~~~~~~}$
+%\end{flushright}
+
+%\newpage
+\selectlanguage{ngerman}
+\addcontentsline{toc}{chapter}{Acknowledgments-Danksagung}
+\include{Dank}
+%\begin{thebibliography}{Tais}
+%\renewcommand\bibname{Quellen} 
+%\renewcommand{\bibname}{You name it}
+
+%\section{test}
+%\textbf{Name der Publikation}:oung, L and Kanter, E P and Kr\"{a}ssig, B and Li, Y and March, A M and Pratt, S T and Santra, R and Southworth, S H and Rohringer, N and Dimauro, L F and Doumy, G and Roedig, C A and Berrah, N and Fang, L and Hoener, M and Bucksbaum, P H and Cryan, J P and Ghimire, S and Glownia, J M and Reis, D A and Bozek, J D and Bostedt, C and Messerschmidt, M,Nature\textit{ Photonis}:2
+
+
+%\bibliographystyle{apalike}
+%\bibitem{Adolph2013}
+%Markus Adolph and Thomas Moeller.
+%\newblock in preparation.
+%test
+%\bibitem{Amann2012demonstration}
+%J~Amann, W~Berg, V~Blank, F-J Decker, Y~Ding, P~Emma, Y~Feng, J~Frisch,
+%  D~Fritz, J~Hastings, et~al.
+%\newblock Demonstration of self-seeding in a hard-x-ray free-electron laser.
+%\newblock {\em Nature Photonics}, 6(10):693--698, 2012.
+%\end{thebibliography}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 

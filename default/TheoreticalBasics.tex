@@ -1,0 +1,904 @@
+\chapter{Theoretical concepts}
+The investigation of the interaction between intense laser pulses and clusters is related to several different research fields. The interpretation of the light-induced processes and dynamics in finite-size particles requires concepts from atomic, solid state, and plasma physics as well as linear and nonlinear optics. In this chapter, a brief overview shall be given on the theoretical basics, which were used for analyzing and interpreting the experimental results in this work.\\In the first part, the propagation of light in matter and the basics of light scattering will be discussed via a classical approach. Microscopic and macroscopic descriptions can be used to gain an understanding of the phenomena of scattering from free and bound electrons and the diffraction of light from homogenous and coated spherical particles.\\The second part is dedicated to the special circumstances in this experiment introduced by the intense XUV light. While the classical descriptions imply a purely linear response of the analyzed systems, the transition towards a nonlinear response of matter has to be considered. In particular atomic processes at different laser intensities and excitation energies will be discussed. Within the perturbative regime of the experiments in this work, the element-specific response of the target material to the excitation energy is of great importance. Accordingly, the ionization properties of atomic xenon and its ions will be presented.\\The phenomena related to the specific characteristics of clusters resulting from finite-size, many-body and collective effects are addressed in the third part of this chapter. The wavelength dependent excitation processes in clusters are discussed, with an emphasis on the emergence and development of a nanoplasma. In this context, helpful concepts from plasma physics are introduced. An overview is given on selected findings from laser--cluster experiments ranging from the VUV up to the X-ray spectral regime.
+
+It is important to note, that in contrast to the clear limits assigned to the spectral regimes of infrared and visible light, deviations exist in the literature on the terminology used for higher photon energy regimes. Throughout this thesis, the photon energy of 91\,eV used in the experiment will be assigned to the extreme ultraviolet (XUV) range, which can be defined to cover energies from 30 to 100\,eV. Smaller photon energies around 10\,eV will be denoted as vacuum ultraviolet (VUV), while the range above 100\,eV up to 1\,keV is referred to as soft X-ray.
+
+\section{Propagation, absorption and scattering of light in matter}
+\label{SectionLightPropagation}
+The theoretical description of light--matter interaction ranges from classical over semi-classical approaches to quantum-electrodynamics. Even though several important quantities such as light induced transition rates between atomic states can only be correctly described quantum-mechanically, the classical approach enables a fundamental and intuitive understanding in particular for phenomena of elastic light scattering. Therefore, the discussion in this section is restricted to a purely classical picture, departing from the basic equations of electrodynamics, the Maxwell equations. A microscopic model of the atomic systems is given by a Lorentz-like harmonic oscillator with a single resonance frequency for electrons bound to atoms.\\The derivation of important relationships will be limited to the motivation of key steps. Only in the case of scattering from a spherical particle in the framework of Mie-theory (section \ref{ScatteringSphereChapter}), explicit expressions are given, which are later used in simulation algorithms for the analysis of experimental data.\\The line of arguments follows the books of Hau-Riege, \emph{High-Intensity X-rays - Interaction with Matter} \cite{HauRiege2011}, Attwood, \emph{Soft x-ray and extreme ultraviolet radiation} \cite{Attwood} and Bohren and Huffmann, \emph{Absorption and Scattering of Light by Small Particles} \cite{Bohren1983}.
+\subsection{Wavelength dependent response of matter}
+\label{SectionWavelengthOpticalProperty}
+The propagation of light in matter and the interaction between both treated in a classical picture is located in the field of optics, which can be considered a subdivision of electrodynamics. Therefore, the point of departure for considering elastic light scattering can be found in the basic equations of electrodynamics. The \emph{Maxwell equations} \cite{Maxwell1865} connect the electric and magnetic fields to each other and to their sources, charge and current. In MKS units they read \cite{BornWolf}
+\begin{align}
+\vec{\nabla}\cdot\vec{D}~=~\rho~~~~~~~~~~~~~~~~~~~~~&\text{(Coulomb's law)}\label{Maxwell1}\\
+\vec{\nabla}\cdot\vec{B}~=~0~~~~~~~~~~~~~~~~~~~~~&\label{Maxwell2}\\
+\vec{\nabla}\times\vec{E}~=~-\frac{\partial\vec{B}}{\partial t}~~~~~~~~~~~~~~~&\text{(Faraday's law)} \label{Maxwell3}\\
+\vec{\nabla}\times\vec{H}~=~\vec{J}+\frac{\partial\vec{D}}{\partial t},~~~~~~~~~~~&\text{(Ampere's law)}
+\label{Maxwell4}
+\end{align}
+where $\rho$ is the charge density, $\vec{D}$ is the electric displacement and $\vec{B}$ is the magnetic induction. The electric field vector is denoted as $\vec{E}$, the magnetic field vector is given by $\vec{H}$, and $\vec{J}$ is the current density. The influence of an electromagnetic field on matter and its response are defined by the \emph{constitutive relations}
+\begin{align}
+\begin{split}
+\vec{D}~=~&\varepsilon_0\vec{E}~+~\vec{P}(\vec{E})\\
+\vec{H}~=~&\frac{1}{\mu_0}\vec{B}~+~\vec{M}(\vec{H})
+\end{split}
+\label{ConstitutiveMaterial}
+\end{align}
+with $\vec{P}$ being the electric polarization and $\vec{M}$ the magnetic polarization, respectively. The constants $\varepsilon_0$ and $\mu_0$ denote the permittivity and the magnetic permeability of free space. In the absence of matter, the constitutive relations reduce to
+\begin{align}
+\begin{split}
+\vec{D}&=\varepsilon_0\vec{E}\\
+\vec{B}&=\mu_0\vec{H}.
+\end{split}
+\label{ConstitutiveFree}
+\end{align}
+An important relationship between both matter-specific source terms, charge and current density, can be directly derived from the Maxwell equations. By taking the divergence of Ampere's law, equation \ref{Maxwell4} and recalling that $\nabla(\nabla\times\vec{a})$ equals zero, the so called \emph{charge continuity equation} is derived:
+\begin{align}
+\nabla\vec{J}+\frac{\partial\rho}{\partial t}=0
+\label{Kontinuitaetsgleichung}
+\end{align}
+From another combination of Maxwell equations the \emph{vector wave equations} arise. Equations \ref{Maxwell1} to \ref{Maxwell4} together with recognizing the constitutive equations \ref{ConstitutiveMaterial} for propagation in a material yield
+\begin{align}
+\bigg(\frac{\partial^2}{\partial t^2}-c^2\nabla^2\bigg) \vec{E}(\vec{r},t)~=~-\frac{1}{\varepsilon_0}\bigg[\frac{\partial\vec{J}(\vec{r},t)}{\partial t}+c^2\nabla\rho(\vec{r},t)\bigg].
+\label{VectorWaveEquation}
+\end{align}
+In the case of free space the charge density and current density are absent, thus the second part of the vector wave equation will be zero. The solution of these equations for several specific source terms will be the focus of discussion in the next sections.\\
+The constant $c$, which is given by $c=1/\sqrt{\varepsilon_0\mu_0}$, can be identified as the phase velocity of an electromagnetic wave in vacuum. For propagation in matter the phase velocity $v_p$ is found to be dispersive. Therefore, an important quantity can be introduced, the \emph{complex refractive index} $n$ of a material with $v_p=\frac{c}{n}$. Especially in the XUV, where the refractive index tends to differ only slightly from unity, $n$ is typically expressed as
+\begin{align}
+n~=~n'+i\cdot n''~=~1~-~\delta~+~i\cdot \beta.
+\label{DeltaBeta}
+\end{align}
+The role of the imaginary and real part of the refractive index can be illustrated by considering a plane wave of the form
+\begin{align*}
+\vec{E}(\vec{r},t)=\vec{E}_0 e^{i(\vec{k}\vec{r}-\omega t)}.
+\end{align*}
+Note that plane waves are solutions of the vector wave equation \ref{VectorWaveEquation}, even though they can not be considered physical fields as they are not normalizable. However, physically appropriate wave packages can be Fourier synthesized by plane waves. This will be further used in the context of Mie theory in section \ref{ScatteringSphereChapter}.\\The phase velocity connects the wave vector $\vec{k}=k\hat{k}$ with the refractive index by $v=\omega/k=c/(1-\delta+i\beta)$, therefore a plane wave propagating through a material with refractive index $n=1-\delta+i\beta$ yields
+\begin{align}
+\vec{E}(\vec{r},t)=\underbrace{\vec{E}_0 e^{-i\omega(t-r/c)}}_{\text{vacuum propagation}}\cdot\underbrace{e^{-i(2\pi\delta/\lambda)r}}_{\text{phase shift}}\cdot\underbrace{e^{-(2\pi\beta/\lambda)r}}_{\text{decay}}.
+\label{EFieldDecay}
+\end{align}
+While the real-valued part of the refractive index induces a phase shift to the wave compared to the propagation in vacuum, which results for example in the phenomena of refraction, the imaginary part is responsible for a decay of the field amplitude and therefore a measure of absorption in matter. The observable accessible in experiments is not the electric field vector but the intensity $I$ given by the square of the amplitude $I=|\vec{E}|^2$. In direction of propagation $\hat{z}$ through a material with refractive index $n=1-\delta+i\beta$, the intensity is given by
+\begin{align*}
+I(z)=|\vec{E}_0|^2\cdot e^{\frac{4\pi\beta}{\lambda}z}.
+\end{align*}
+The decay of the intensity to $1/e$ of the initial value defines the so called \emph{penetration depth}
+\begin{align}
+l_a=\frac{\lambda}{4\pi\beta}.\label{Penetrationdepth}
+\end{align}
+Real and imaginary part of the refractive index do not vary independently, they are related to each other by the so called Kramers-Kronig dispersions relations \cite{BornWolf,Peiponen2004}. They read:
+\begin{align}
+\begin{split}
+\delta(\omega)&=~\frac{2}{\pi}~P_C~\int\limits_{0}^{\infty}d\Omega~\frac{\Omega\cdot\beta(\Omega)}{\Omega^2-\omega^2},\\
+\beta(\omega)&=~\frac{-2\omega}{\pi}~P_C~\int\limits_{0}^{\infty}d\Omega~\frac{\delta(\Omega)}{\Omega^2-\omega^2}.
+\end{split}
+\label{KramersKronig}
+\end{align}
+$P_C$ denotes the value of the Cauchy integrals around the pole points in the denominator. It is important to note that dispersion relations as Eq.\,\ref{KramersKronig} also connect the real and imaginary part of other possible representations of the optical properties of matter, such as atomic scattering factors $f(\omega)$ or dielectric function $\epsilon(\omega)$ which will be introduced below. The Kramers-Kronig relation are in practice used for calculating one quantity from the measurement of the other over a large spectral range (cf. section \ref{OpticalPlasmaProp}).
+
+In order to gain a deeper understanding of light scattering, it is important to set macroscopical observation quantities as $\beta$ and $\delta$ in the context of microscopic processes. Therefore, the microscopical process of light scattering can be described as a periodic motion of charges in a time varying electric field, which leads to radiation. Considering the scattering from free and bound electrons as discussed in the next section \ref{SectionFreeBoundElectrons} is able to complement the diffraction from extended spherical particles, treated subsequently in section \ref{ScatteringSphereChapter}, which is in particular important for the interpretation of the current results.
+
+\subsection{Scattering from free and bound electrons}
+\label{SectionFreeBoundElectrons}
+Elastic light scattering denotes the process of redirecting photons without changing their energy. To some extend, elastic light scattering can only be an idealized process, as photons also possess momentum. Only for collisions with particles of infinite mass, totally elastic processes can be assumed, which becomes particularly important in the X-ray regime. However, in the XUV range around 100 eV photon energy, the recoil of the photons can still be neglected \cite{HauRiege2011}.\\Scattering of electromagnetic waves is always a phenomenon of inhomogeneities in the path of light propagation \cite{Bohren1983}. Inhomogeneities which induce light scattering can be found on the atomic scale or on the scale of aggregation of many atoms, such as interfaces or density fluctuations. Extended homogeneous media do not induce light scattering.
+
+As a classical model of the microscopic scattering process radiation from accelerated point charges is considered in this section. In order to mimic the bound state of electrons in atoms, a Lorentzian model of a single-resonance oscillator can be employed. The description is limited to a linear response of matter to light and therefore to low intensities of the light field. Nonlinear effects in intense light fields will be discussed in section \ref{SectionAtomeIntenseXUV}.\\As a first step the radiation field from an accelerated point charge will be calculated. To quantify the ability of the electrons to scatter light, the concept of scattering cross-sections is introduced. Subsequently, the cross-sections of free and bound electrons as well as multi-electron atoms can be derived.
+
+\paragraph{Electrical field of an oscillating charge:}
+
+The vector wave equation \ref{VectorWaveEquation} has been derived above from the Maxwell equations in a representation which explicitly denotes the dependencies from the matter-related sources of the fields, the charge and current densities:
+\begin{align}
+\bigg(\frac{\partial^2}{\partial t^2}-c^2\nabla^2\bigg) \vec{E}(\vec{r},t)~=~-\frac{1}{\varepsilon_0}\bigg[\frac{\partial\vec{J}(\vec{r},t)}{\partial t}+c^2\nabla\rho(\vec{r},t)\bigg]
+\label{VectorWaveEquation2}
+\end{align}
+Only the wave equation for $\vec{E}$ is given here, and also the subsequent discussion concentrates on the description of the electric field. In principle, analog derivations could be conducted for $\vec{B}$. However, the acceleration of the electrons from the $\vec{B}$-component of the light field can be neglected according to the following considerations.\\A charge in an incident light wave ($\vec{E}_{inc},\vec{B}_{inc}$) is driven by the Lorentz force
+\begin{align}
+\vec{F}=m\vec{a}=-e[\vec{E}_{inc}+\vec{v}\times\vec{B}_{inc}].
+\label{Lorentzkraft}
+\end{align}
+As long as $v\ll c$ the acceleration results mainly from the electric field because the magnetic field is proportional to $\vec{B}_{inc}\propto \frac{v}{c}\vec{E}_{inc}$.\\The electric field which will be radiated by an arbitrary oscillating charge can be calculated from equation \ref{VectorWaveEquation2}. In order to simplify the derivation, a mathematical trick is employed by transforming fields and source terms into the frequency domain \cite{Attwood, BornWolf}. The operators $\partial/\partial t$ and $\nabla$ transform to $-i\omega$ and $i\vec{k}$, respectively. All quantities in the spatial domain $A(\vec{r},t)$ can be expressed by their Fourier transforms
+\begin{align*}
+A(\vec{r},t)=\int_{\vec{k}}\int_{\omega}A_{k\omega}e^{-i(\omega t-\vec{k}\vec{r})}\frac{d\omega d\vec{k}}{(2\pi)^4}
+\end{align*}
+Then, by recognizing the operator transfers, the electrical field from Eq.\,\ref{VectorWaveEquation2} transforms to
+\begin{align}
+(\omega^2-k^2c^2) \vec{E}_{k\omega}=\frac{1}{\varepsilon_0}[(-i\omega)\vec{J}_{k\omega}+ic^2\vec{k}\rho_{k\omega}].
+\label{EimFrequenzraum}
+\end{align}
+The charge continuity equation \ref{Kontinuitaetsgleichung} reads in frequency space
+\begin{align*}
+i\vec{k}\vec{J}_{k\omega}-i\omega\rho_{k\omega}=0,
+\end{align*}
+with $\vec{k}=k\cdot \hat{k}_0$. Therefore, the Fourier transform of the field $\vec{E}_{k\omega}$ is found to be
+\begin{align}
+\vec{E}_{k\omega}=\frac{-i\omega}{\varepsilon_0}\bigg[\frac{\vec{J}_{k\omega}-\hat{k}_0(\hat{k}_0\vec{J}_{k\omega})}{\omega^2-k^2c^2}\bigg].
+\label{EimFrequenzraum2}
+\end{align}
+Note, that the numerator of equation \ref{EimFrequenzraum2} projects the current density in frequency domain $\vec{J}_{k\omega}$ on the direction perpendicular to $\hat{k}_0$:
+\begin{align*}
+\vec{E}_{k\omega}=\frac{-i\omega}{\varepsilon_0}\frac{\vec{J}_{T,k\omega}}{\omega^2-k^2c^2}.
+\end{align*}
+For point radiators, such as electrons in our model, the charge density can be expressed by the Dirac delta function $\delta(\vec{r})$, which yields the current density
+\begin{align*}
+\vec{J}(\vec{r},t)=-e\delta(\vec{r})\vec{v}(t).
+\end{align*}
+Substituted in $\vec{E}_{k\omega}$, and transformed back into space domain, the electric field radiated by an oscillating point charge can be expressed as
+\begin{align}
+\vec{E}(\vec{r},t)=&\frac{e}{4\pi\varepsilon_0c^2r}\underbrace{\frac{d\vec{v}_T(t-\frac{r}{c})}{dt}}_{\vec{a}_T}\nonumber\\
+\Leftrightarrow\vec{E}(\vec{r},t)=&\frac{e\cdot\vec{a}_T(t-\frac{r}{c})}{4\pi\varepsilon_0c^2r}.\label{EPunktimOrtsraum2}
+\end{align}
+This relation reveals, that the emitted field has been generated from the \emph{acceleration component of the charge perpendicular to the propagation direction}, but at a retarded time $t'=t-r/c$ needed for the light to travel to the observer. The exclusive dependency on the transverse component of the acceleration is equivalent to the well known characteristic of a dipole emitter as displayed in Fig.\,\ref{Dipolcharakteristik}. In great distance to an oscillating point charge, a characteristic $\sin^2\theta$-distribution of the emitted power is observed, with $\theta$ being the observation angle. In the direction of the acceleration $\hat{a}$, the emission is zero.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.45\textwidth,keepaspectratio=true]{Pictures/DipolecharacteristicsAttwood}
+\caption[Characteristic dipole emission of an oscillating point charge]{Characteristic dipole emission observed in great distance to an oscillating point charge. $\vec{a}$ denotes the acceleration vector of the charge, the emission in this direction $\hat{a}$ is zero. The emitted power under an observation angle $\theta$ is proportional to $\sin^2\theta$. From \cite{Attwood}.}
+\label{Dipolcharakteristik}
+\end{center}
+\end{figure}
+In order to find a measure for the ability of systems to scatter light, the incident and scattered power will be examined. The energy transport of an electromagnetic wave is represented by the \emph{Pointing vector} $\vec{S}$ with
+\begin{align*}
+\vec{S}(\vec{r},t)~=~&\sqrt{\frac{\varepsilon_0}{\mu_0}}|\vec{E}|^2\hat{k}_0.
+\end{align*}
+Therefore, the radiated power per unit area from an oscillating charge yields
+\begin{align}
+\vec{S}(\vec{r},t)~=~&\frac{e^2\cdot|\vec{a}_T|^2}{16\pi^2\varepsilon_0c^3}\frac{\hat{k}_0}{r^2}~=~const\cdot\frac{|\vec{a}_T|^2}{r^2}\hat{k}_0.
+\label{PointingVectorPunkt}
+\end{align}
+The radiated power from the point source decreases quadratically to the distance $r$, which corresponds to a constant flux of energy through a sphere around the point charge with increasing area $\propto r^2$. The total power $P$ emitted by an oscillating electron with acceleration $\vec{a}$ is found by substituting the transversal component of the acceleration $\vec{a}_T=\vec{a}\cdot \sin\theta$ (cf. Fig.\,\ref{Dipolcharakteristik}) and integrating over the full solid angle,
+\begin{align}
+P=\frac{e^2}{6\pi\varepsilon_0 c^3}|\vec{a}|^2.
+\label{TotalPower}
+\end{align}
+As an important quantity for comparing the ability of systems to scatter light, the scattering cross-section $\sigma$ can be introduced. $\sigma$ is defined as the ratio of radiated to incident power
+\begin{align}
+\sigma=\frac{P_{scatt}}{|\vec{S}_{inc}|}.
+\label{CrosssectionPower}
+\end{align}
+In order to derive the cross-sections of free and bound electrons, the explicit form of their respective accelerations $\vec{a}$ has to be derived in the subsequent paragraphs.
+
+\paragraph{Thomson scattering from a free electron:}
+From the Lorentz force (equation \ref{Lorentzkraft}, the $v\times\vec{B}$ term will be neglected again) the acceleration of a free electron in a light field can be calculated
+\begin{align*}
+\vec{a}(\vec{r},t)~=~-\frac{e}{m_e}~\vec{E}_{inc}(\vec{r},t);~~~\Leftrightarrow~a_T~=~a~\sin\theta~=~-\frac{e}{m_e}~E_{inc,0}~\sin\theta.
+\end{align*}
+Therefore, the radiated electric field \ref{EPunktimOrtsraum2} yields
+\begin{align}
+\vec{E}_{scat}(\vec{r},t)=\frac{r_e}{r}~E_{inc,0}\sin\theta~e^{-i\omega(t-\frac{r}{c})},
+\label{EThomson}
+\end{align}
+with the electron radius $r_e=e^2/(4\pi\varepsilon_0m_ec^2)=2.8\cdot10^{-15}$ m.
+By calculating the total power (Eq.\,\ref{TotalPower}), the elastic scattering cross-section of a free electron, also referred to as \emph{Thomson cross-section} \cite{Thomson1906} can be found:
+\begin{align}
+\sigma_{el}=\frac{8\pi}{3}r_e^2.
+\label{SigmaThomson}
+\end{align}
+The Thomson cross-section does not depend on the frequency of the incident electromagnetic field. It has a value of about $6.7\cdot10^{-29}$ m$^2$ or 0.67 barn. This value will be valid up to photon energies in the hard X-ray regime, where photon recoil starts to play a role.
+
+\paragraph{Elastic scattering from bound electrons:}
+In order to calculate the cross-section of an electron bound to an atom, the mechanical model of a driven oscillator with resonance frequency $\omega_{res}$ and damping $\gamma$ can be used. The response of such a system to the incident wave is dependent on the difference between the light frequency and the oscillator frequency $(\omega-\omega_{res})$
+The acceleration of the bound electron can be determined by the equation of forces
+\begin{align}
+m_e\frac{d^2\vec{x}}{dt^2}+m_e\gamma\frac{d\vec{x}}{dt}+m_e\omega_{res}^2\vec{x}=-e\vec{E}_{inc},
+\label{KraftGebundenesElektron}
+\end{align}
+again neglecting the magnetic field term of the Lorentz force. Solving this differential equation yields the acceleration
+\begin{align}
+\vec{a}=\frac{-\omega^2}{\omega^2-\omega_{res}^2+i\gamma\omega}~\frac{e\vec{E}_{inc}}{m_e}.
+\label{aGebundenesElektron}
+\end{align}
+By calculating the Pointing vector \ref{PointingVectorPunkt}, we obtain the cross-section of a bound electron:
+\begin{align}
+\sigma_{bound}=\frac{8\pi}{3}r_e^2\frac{\omega^4}{(\omega^2-\omega_{res}^2)^2+(\gamma\omega)^2}.
+\label{SigmaBound}
+\end{align}
+The strong dependency of the cross-section on the frequency is depicted in Fig.\,\ref{ResonanzSigma}.\\
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.45\textwidth,keepaspectratio=true]{Pictures/LorentzOszillatorAttwood}
+\caption[Resonant behavior of bound electrons]{Semi-classical scattering cross-section of a bound electron with resonant frequency $\omega_s$ normalized to the Thomson cross-section. For much smaller frequencies than the resonant frequency, the Rayleigh-limit is observed ($\sigma\propto\lambda^{-4}$). For much larger frequencies, the scattering cross-section of a bound electron approaches the Thomson value. From \cite{Attwood}.}
+\label{ResonanzSigma}
+\end{center}
+\end{figure}
+Far above the resonance frequency, $\omega\gg\omega_{res}$, the light induced oscillations become too fast to notice the response of the oscillator and the cross-section approaches the Thomson value. If the frequency of the light field approaches the resonance frequency of the oscillator, the cross-sections becomes maximal. The damping term $\gamma$ defines the width of the resonance.\\If $\omega\ll\omega_{res}$ Eq.\,\ref{SigmaBound} reduces to the well known relationship for Rayleigh scattering \cite{Rayleigh1871} (under the condition $\gamma\ll\omega_{res}$)
+\begin{align}
+\sigma_{R}=\frac{8\pi}{3}r_e^2\bigg(\frac{\omega}{\omega_{res}}\bigg)^4
+\label{SigmaRayleigh}
+\end{align}
+
+\paragraph{Elastic scattering from multi-electron atoms:}
+The electrons in an atom can be tightly bound in inner electronic shells or only weakly in case of a valance shell. Therefore, a classical model of a multi-electron atom can be constructed from several oscillators with different coupling constants and thus different resonance frequencies $\omega_s$. In addition, for short wavelength radiation the individual coordinates $\vec{r}_s$ of the point charges have to be considered.\\Analog to the discussion above for single electrons, the electrical field emitted by the multi-electron atom can be calculated. Following the superposition principle \cite{Hecht2005}, $\vec{E}(\vec{r},t)$ will be given by the sum of the fields from each individual electron
+\begin{align}
+\vec{E}(\vec{r},t)=&\frac{e}{4\pi\varepsilon_0c^2}\sum_{s=1}^{Z}\frac{\vec{a}_{T,s}(t-r_s/c)}{r_s}
+\label{EMultielectronatom1}
+\end{align}
+which can be simplified by introducing the atomic scattering factor $f(\Delta k,\omega)$,
+\begin{align}
+\vec{E}(\vec{r},t)=&-\frac{r_e}{r}\underbrace{\bigg[\sum_{s=1}^{Z}\frac{\omega^2 e^{i\Delta k\Delta r_s}}{\omega^2-\omega_s^2+i\gamma\omega}\bigg]}_{f(\Delta k,\omega)}E_{inc,0}\sin\theta e^{-i\omega(t-r/c)}.
+\label{EMultielectronatom}
+\end{align}
+In the here presented form the atomic scattering factor denotes a complicated quantity, which is dependent from the relative coordinates of the individual electrons $\Delta r_s,$. However, the relationship can be simplified by considering that in the XUV range the wavelength of the light is still larger than the atomic dimension $\lambda\gg a_0$, the so called Bohr radius. As most of the electron density is located within a distance to the core approximated by $a_0$, all electrons will experience the same field strength. This reduces the atomic scattering factor to
+\begin{align}
+f(\omega)=\sum_{s=1}^{Z}\frac{\omega^2}{\omega^2-\omega_s^2+i\gamma\omega}.
+\label{AtomicScatFac}
+\end{align}
+In a multi-electron atom several electrons share the same resonance frequency, as -- quantum-mechanically spoken -- they occupy the same shell. Therefore, it is convenient to introduce a quantity referred to as \emph{oscillator strength} $g_s$. In the classical model, $g_s$ simply equals the number of electrons in a shell $s$ with the same resonant frequency. The $g_s$ obey the sum rule $\sum_{s=1}^{Z}g_s=Z$, whereas $Z$ is the total number of electrons in the atom. From a quantum-mechanically correct treatment the $g_{ik}$ arise as transition probabilities between state i and state k. Also for the quantum-mechanically quantity $g_{ik}$ the sum rule is valid.\\From Eq.\,\ref{EMultielectronatom}, \ref{AtomicScatFac} and \ref{TotalPower} the scattering cross-section of a multi-electron atom can be obtained as
+\begin{align}
+\sigma=\frac{8\pi}{3}r_e^2|f(\omega)|^2,
+\label{SigmaBound}
+\end{align}
+with the complex atomic scattering factor
+\begin{align}
+f(\omega)~=~\sum_{s}\frac{g_s\omega^2}{\omega^2-\omega_s^2+i\gamma\omega}~=~f_1(\omega)-if_2(\omega).
+\label{AtomicScatFac}
+\end{align}
+The complex refractive index as the macroscopic corespondent to the atomic scattering factors can be expressed in microscopic terms by
+\begin{align}
+n(\omega)~=~1-\frac{n_a r_e\lambda^2}{2\pi}~\big(1-f_1(\omega)+if_2(\omega)\big),
+\label{RefractiveIndAtomicScatFac}
+\end{align}
+which yields the relationships separately for real and imaginary parts
+\begin{align}
+\delta~&=~\frac{n_a r_e\lambda^2}{2\pi}f_1,\\
+\beta~&=~\frac{n_a r_e\lambda^2}{2\pi}f_2.
+\label{DeltaBetaAtomicScatFac}
+\end{align}
+Though the derivation of the relationship between atomic scattering factors and complex refractive index will not be explicitly presented here, it can be derived in full analogy to the previous discussion (cf. \cite{Attwood}, p. 56 ff). A large number of multi-electron atoms have to be considered in extended media, but obviously the approximation of all electrons experiencing the same field is not valid here. As a result, different coordinates for all atoms have to be accounted for, which is for example responsible for the very complicated structures of diffraction patterns obtained from large bio-molecules (cf. for example Fig.\,\ref{ImagingSingleMolecules}).\\However, in the case of homogeneously extended media, the following consideration can help to simplify the problem: In the direction of propagation, the relative coordinates of the atoms do not matter, constructive interference leads to the propagation of light in matter and reproduces well known facts such as a decreased phase velocity.\\At the transition of plain interfaces the direction of constructive interference is given by the refractive index $n$, which defines a change in the propagation direction, known as refraction.\\For all other directions than the propagation direction, the scattered fields from all multi-electron atoms in extended media will average out. This observation is equivalent to the statement at the very beginning of this section, that light scattering is a phenomenon of inhomogeneity.
+
+Also the theory of Mie-scattering, as discussed in the next section, is based on constructive and destructive interference as a function of the observation angle of light, which is scattered from the interface of a spherical surface.
+
+\subsection{Scattering from a spherical particle}
+\label{ScatteringSphereChapter}
+The mathematical description of elastic light scattering from a homogeneous spherical particle with arbitrary size and optical properties has been developed by Gustav Mie in 1908 \cite{Mie1908}. Mie wanted to explain the various colors observed from a solvation of small gold colloids. Since then, a multitude of optical phenomena arising in connection with small particles have been analyzed using Mie's theory \cite{Bohren1983}.
+
+On the one hand, the individual rare gas clusters studied in this thesis are free particles in the vacuum with an interface between solid density and vacuum surrounding with the thickness of an atomic layer. With these properties, they constitute an ideal realization of the constraint of a homogeneous sphere in a non-absorbing medium.\\On the other hand, Mie's theory represents a purely static approach while the optical properties of the clusters will change during the interaction with an intense laser pulse \cite{Bostedt2012}. Even though great progress has been made in modeling the microscopic processes in a time resolved manner up to particle sizes of about $10^6$ atoms \cite{Peltz2012}, the large clusters studied in the here presented experiment exceeding $10^8$ atoms are still out of reach for attempting a dynamical microscopic analysis. A detailed discussion of the temporal evolution of the clusters exposed to laser pulses will be presented in the last part of this chapter \ref{LightClusterInteraction}.
+
+Approximating the evolving clusters by static homogeneous particles with average optical properties allows for a macroscopic approach within the framework of Mie's theory for analysis of the scattering patterns. From the Mie formalism the intensity scattered from a sphere with distinct optical properties in dependency of the observation angle can be calculated.\\By fitting the experimentally obtained scattering patterns of single clusters with calculated ones, access is gained to the size and refractive index of the particle as well as to the intensity of the incident light field \cite{Bohren1983}. Changes in the refractive index found in scattering patterns of clusters exposed to different incident intensities can then be related to the evolving electronic properties of the cluster within the interaction with the pulse \cite{Bostedt2012}.
+
+In particular for cluster sizes considerably exceeding the wavelength and the penetration depth of the light, as present in the current experiment, radial variations in the optical properties occur (cf. chapter \ref{SizeSortedScatteringPatterns}). An approach to access information of such radially changing electronic properties in the particles can be made within Mie's theory by extending the formalism to coated spheres \cite{Kerker1969}.
+
+Both, scattering from a homogeneous and a coated sphere can be derived analytically from the Maxwell equations. Only the key steps of the derivation are outlined in this chapter. But as the experimental data have been analyzed with Mie-based algorithms, some explicit expressions -- for example of the scattering coefficients which are calculated by the algorithms -- are presented in spite of their extensive form.\\Unless otherwise specified, the derivations presented in this section follow the description given in Bohren and Huffman \cite{Bohren1983}, chapters 2, 3 and 4.
+
+\paragraph{Boundary conditions:}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.5\textwidth,keepaspectratio=true]{Pictures/MieGeometrieFelder2}
+\caption[Geometry and fields of the simple case of light scattering from a sphere.]{Geometry and fields of the simple case of light scattering from a sphere. A homogeneous sphere with radius $R$ and complex refractive index $n_{sphere}$ is surrounded by vacuum ($n=1$). The fields inside the sphere are denoted as $E_{sphere},~H_{sphere}$, the fields outside the sphere $E_{sphere},~H_{sphere}$ consist in the sum of incident and scattered fields.}
+\label{MieGeometrieFelder}
+\end{center}
+\end{figure}
+Mie's theory is the analytic solution of the Maxwell equations for the geometrical problem of a spherical particle in a non-absorbing medium. Fig.\,\ref{MieGeometrieFelder} displays the geometry and the notations for the fields in the distinct areas. Inside the sphere, the fields are denoted $\vec{E}_{sphere},~\vec{H}_{sphere}$. The fields in the region outside the sphere $\vec{E}_{out},~\vec{H}_{out}$ equal the sum of incident and scattered fields
+\begin{align*}
+\vec{E}_{out}=\vec{E}_{inc}+\vec{E}_{scat}~~~~~~~~~~~~~~~~~~~\vec{H}_{out}=\vec{H}_{inc}+\vec{H}_{scat}
+\end{align*}
+Basically two constraints define the analytically solvable problem of Mie's theory. Incident, inner and scattered fields have to
+\begin{itemize}
+\item be a solution of the Maxwell equations and
+\item fulfill boundary conditions at the surface of the sphere.
+\end{itemize}
+In order to find solutions of the Maxwell equations which satisfy the spherical geometry of the problem, a more compact representation of the vector wave equations has to be be chosen. The source terms, charge and current density, which have been expressed explicitly on the right side of equation \ref{VectorWaveEquation} for the purpose of a microscopical analysis of the scattering process, will be further on implicitly contained on the left side.\\By restricting the considered media to be homogeneous, linear and isotropic, the connections between field and polarization can be expressed by linear susceptibilities $\chi_{el}$ and $\chi_{mag}$. Then the magnetic permeability $\mu$ and the permittivity $\varepsilon$ can be introduced, which incorporate the material properties
+\begin{align}
+\mu~=~\mu_0(1+\chi_{mag}),~~~~~~~~~~~~~~~~~~~~~~~~\varepsilon~=~\varepsilon_0(1+\chi_{el})+i\frac{\sigma}{\omega}.
+\end{align}
+In addition, the considerations will be restricted to time-harmonic fields of the form ($\vec{F}=\vec{E}$ or $\vec{H}$)
+\begin{align}
+\vec{F}_c=\vec{C}\cdot e^{-i\omega t}.
+\end{align}
+Formally, this corresponds to a transformation into the frequency domain, which has been described before in section \ref{SectionFreeBoundElectrons}. Time-harmonic fields and in particular plain waves are able to simplify the solutions of the vector wave equations and can be eventually used to Fourier synthesize arbitrary wave packages.\\The vector wave equations are thereby reduced to
+\begin{align}
+\begin{split}
+\vec{\nabla}^2\vec{E}+k^2\vec{E}&=0\\
+\vec{\nabla}^2\vec{H}+k^2\vec{H}&=0,
+\end{split}
+\label{MieVectorWaveEquations}
+\end{align}
+with the dispersion relation
+\begin{align*}
+k^2=\omega^2\varepsilon\mu&=\frac{\omega^2n^2}{c^2}.
+\end{align*}
+
+The boundary conditions are given by the demand for energy conservation at the discontinuity of the sphere surface. This is equivalent to the conservation of the tangential components of the fields at all points $\vec{x}_S$ on the surface,
+\begin{align}
+\begin{split}
+[\vec{E}_{out}(\vec{x}_S)-\vec{E}_{sphere}(\vec{x}_S)]\times \hat{r}=0\\
+[\vec{H}_{out}(\vec{x}_S)-\vec{H}_{sphere}(\vec{x}_S)]\times \hat{r}=0.
+\end{split}
+\label{boundaryconditions}
+\end{align}
+If the boundary conditions \ref{boundaryconditions} are fulfilled, the integral of the pointing vectors $\oint \vec{S}_{out}$ and $\oint \vec{S}_{sphere}$ over the surface area will be equal, which ensures energy conservation.
+
+\paragraph{Amplitude scattering matrix:} The transformation between incident and scattered wave can be described by a linear operator, the so called amplitude scattering matrix.
+In order to find appropriate basis sets for the incident and scattered fields, two different coordinate systems are introduced. They are displayed in Fig.\,\ref{KoordinatensystemeStreu} \cite{Bohren1983}.
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.42\textwidth,keepaspectratio=true]{Pictures/KoordinatensystemScattering}
+\caption[Coordinate systems for incident and scattered waves]{Coordinate systems for incident and scattered waves. The propagation direction of the incident wave is defined as $\hat{z}$, which spans the scattering plane together with the propagation direction $\hat{k}$ of the scattered wave. From \cite{Bohren1983}.}
+\label{KoordinatensystemeStreu}
+\end{center}
+\end{figure}
+The propagation direction of the incident wave is set to the $\hat{z}$ direction per definition. Together, the propagation directions $\hat{k}$ of incident and scattered wave span the scattering plane. $\hat{k}$ of the scattered wave defines the observation direction. Therefore, the scattering plane has to be defined anew for changing observation directions.\\Incident and scattered waves can be projected on the scattering plane and split up into perpendicular and parallel components, respectively. The incident field is considered a plane wave. The scattered field in the vicinity of the scatterer will be a spherical wave, therefore a spherical coordinates system ($\hat{e}_r,~\hat{e}_{\Theta},~\hat{e}_{\Phi}$) is introduced. However, in the limit of the far field ($kr\gg1$) the scattered wave will be also approximately transverse and can be described as
+\begin{align}
+\vec{E}_{scat}=\frac{e^{ikr}}{-ikr}\vec{E}_{scat,far}
+\end{align}
+with $\vec{E}_{scat,far}\cdot\hat{e}_r=0$. The two different coordinate systems for the incident and scattered wave indicated in Fig.\,\ref{KoordinatensystemeStreu}, correspond to the representation of the fields $\vec{E}_{inc}$ and $\vec{E}_{scat}$ in different basis sets. However, due to the linearity of the boundary conditions \ref{boundaryconditions}, linear transformations between incident and scattered fields can be found.\\In optics, similar linear transformations are known as Johnson matrices \cite{BornWolf}, which are used as a mathematical description of optical components, such as focussing of light with a lens or changing its polarization with a polarization filter. The linear transformation matrix which describes the scattering process is referred to as \emph{amplitude scattering matrix}. With the amplitude scattering matrix the relationship between incident and scattered fields can be written as
+\begin{equation}
+\left( \begin{array}{c}E_{\| s}\\E_{\bot s}\end{array}\right)~=~\frac{e^{ik(r-z)}}{-ikr}~\left( \begin{array}{cc}S_2&S_3\\S_4&S_1\end{array}\right)\left( \begin{array}{c}E_{\| i}\\E_{\bot i}\end{array}\right)\label{amplStreuMat}.
+\end{equation}
+In order to calculate scattering patterns of spherical scatterers with different size and material constants, angular dependent expressions of the elements $S_i$ of the amplitude scattering matrix have to be found.
+
+\paragraph{Solving the vector wave equations:} The wave equations which follow directly from the Maxwell equations and which have to be fulfilled by the incident and scattered fields are vector wave equations. In other words, they do not apply individually to each component of the field vectors, such as $\partial^2 E_x/\partial x^2+k^2E_x=0$, which would be easy to solve. Nevertheless, a basis system of vector functions $\vec{M},~\vec{N}$ can be found, which reduces the vector wave equations to scalar wave equations. The vector harmonics are defined as
+\begin{align}
+\vec{M}=\vec{\nabla}\times(\vec{c}\cdot\Psi)~~~~~~~~~~~~~~~\vec{N}=\frac{\vec{\nabla}\times\vec{M}}{k}
+\label{VectorHarmonics}
+\end{align}
+with the guiding vector $\vec{c}$ and the scalar generation function $\Psi$.\\It can be easily tested that they solve the Maxwell equations: For both $\vec{M}$ and $\vec{N}$, the divergence equals zero. Further, the rotation of $\vec{M}$ yields $k\vec{N}$ and vice versa.
+
+If inserted in the vector wave equation they lead to
+\begin{align}
+\vec{\nabla}^2\vec{M}~+~k^2\vec{M}~=~\vec{\nabla}\times[\vec{c}~(\vec{\nabla}^2\Psi~+~k^2\Psi)].
+\end{align}
+As the right-hand side of this equation has to be zero, the problem can be reduced to solve the scalar equation
+\begin{align}
+\vec{\nabla}^2\Psi+k^2\Psi=0.
+\label{skalarWelle}
+\end{align}
+According to the spherical symmetry of the problem, the guiding vector $\vec{c}$ is set to $\vec{r}$ which yields the spherical vector harmonics. Also the generation function $\Psi$ will be adapted to spherical symmetry. In spherical coordinates the scalar wave equation reads
+\begin{align}
+\frac{1}{r^2}~\frac{\partial}{\partial r}\left(r^2~\frac{\partial\Psi}{\partial r}\right) ~+~\frac{1}{r^2\sin\theta}~\frac{\partial} {\partial\theta}\left(\sin\theta~\frac{\partial\Psi}{\partial\theta}\right)~+~ \frac{1}{r^2\sin\theta}~\frac{\partial^2\Psi}{\partial\phi^2}~+~k^2\Psi~=~0.\label{skalarWelleKK}
+\end{align}
+This differential equation can be solved by a separation ansatz $\Psi(r,\theta,\phi)~=~R(r)~\Theta(\theta)~\Phi(\phi)$, which splits equation \ref{skalarWelleKK} into three separate differential equations for angular and radial components.
+\begin{align}
+\frac{d^2\Phi}{d\phi^2}~+~m^2\Phi~=~0\label{separation1}\\
+\frac{1}{\sin\theta}~\frac{d}{d\theta}\left(\sin\theta~\frac{d\Theta}
+{d\theta}\right)~+~\left[n(n+1)~-~\frac{m^2}{\sin^2\theta}\right]\Theta~=~0\label{separation2}\\
+\frac{d}{dr}\left(r^2~\frac{dR}{dr}\right)~+~\left[k^2r^2~-~n(n-1)\right]R~=~0\label{separation3}.
+\end{align}
+The separation constants $m,~n$ are determined by physical constraints, which will be discussed below. Well known function systems can be used to solve the separated differential equations \ref{separation1} - \ref{separation3}.\\Equation \ref{separation1} is solved by linear combinations of the sine and cosine functions
+\begin{align}
+\begin{split}
+\Phi_e&=\cos(m\phi),\\
+\Phi_o&=\sin(m\phi),
+\end{split}
+\end{align}
+where the subscripts denote even and odd functions. Their periodicity demands integer values for $m$.
+
+The $\theta$-dependent differential equation \ref{separation2} can be solved -- in analogy to the also analytically solvable problem of the hydrogen atom -- by the associated Legendre functions of the first kind, $P^m_n(\cos\theta)$ with $n=m,~m+1,~m+2...$ for the separation constants $m,~n$. It is interesting to note, that in the case of hydrogen the separation constants will lead to the quantum numbers of bound orbitals. In contrast, $m$ and $n$ are interpreted as modes of the scattered light within the Mie formalism, which will be further discussed below.
+
+Also the radial equation \ref{separation3} can be brought into a well known form by introducing $\rho=kr$ and substituting $Z=R\sqrt{\rho}$,
+\begin{align}
+\rho\frac{d}{d\rho}\left(\rho\frac{dZ}{d\rho}\right)+\left[\rho^2-\left(n+\frac{1}{2}\right)^2\right]Z=0.
+\end{align}
+The linear independent solutions for this type of differential equation are the Bessel functions of first and second kind $J_n$ and $Y_n$. By re-substitution of $Z$ and $\rho$, the spherical Bessel functions arise
+\begin{align}
+\begin{split}
+j_n(\rho)&=\sqrt{\frac{\pi}{2\rho}}~J_{n+1/2}(\rho)\\
+y_n(\rho)&=\sqrt{\frac{\pi}{2\rho}}~Y_{n+1/2}(\rho).
+\end{split}
+\label{SphericalBessel}
+\end{align}
+In principle, also other types of Bessel functions could be used to solve equation \ref{separation3}. This is in particular important for computational purposes, where usually the type of Bessel function is chosen which shows the most convenient computation properties \cite{Bohren1983,Liu2007}. For this reason, in the general solution of the generation function $\Psi$ found by the separation ansatz, $z_n(kr)$ denotes all possible types of Bessel functions:
+\begin{align}
+\begin{split}
+\Psi_{emn}&=\cos(m\phi)P_n^m(\cos\theta)z_n(kr)\\
+\Psi_{omn}&=\sin(m\phi)P_n^m(\cos\theta)z_n(kr),
+\end{split}
+\label{GenerationEvenOdd}
+\end{align}
+which is again subdivided into even and odd functions. This solution of the scalar wave function is still general and will be further restricted to physically appropriate function types and values of the separation constants. But already here, the vector harmonics $\vec{M}$ and $\vec{N}$ can be developed from the generation functions \ref{GenerationEvenOdd} with $\vec{c}=\vec{r}$.
+\begin{align}
+\vec{M}_{enm}=&~-\frac{m}{\sin\theta}~\sin(m\phi)~P_n^m(\cos(\theta)~z_n(\rho)~\hat{\textbf{e}}_\theta\nonumber\\ &-~\cos(m\phi)~\frac{dP_n^m(\cos\theta)}{d\theta}~z_n(\rho)~\hat{\textbf{e}}_{\phi}\\\nonumber\\
+\vec{M}_{onm}=&~\frac{m}{\sin\theta}~\cos(m\phi)~P_n^m(\cos(\theta)~z_n(\rho)~\hat{\textbf{e}}_\theta\nonumber\\ &-~\sin(m\phi)~\frac{dP_n^m(\cos\theta)}{d\theta}~z_n(\rho)~\hat{\textbf{e}}_{\phi}\\\nonumber\\
+\vec{N}_{enm}=&~\frac{z_n(\rho)}{\rho}~\cos(m\phi)~n~(n+1)~P_n^m(\cos\theta)~\hat{\textbf{e}}_r\nonumber\\ &+~\cos(m\phi)~\frac{dP_n^m(\cos\theta)}{d\theta}~\frac{1}{\rho}~\frac{d}{d\rho}~\left[\rho~z_n(\rho)\right]~
+\hat{\textbf{e}}_\theta\nonumber\\ &-~m~\sin(m\phi)~\frac{dP_n^m(\cos\theta)}{d\theta}~\frac{1}{\rho}~\frac{d}{d\rho}~\left[\rho~z_n(\rho)\right]~
+\hat{\textbf{e}}_{\phi}\\\nonumber\\
+\vec{N}_{onm}=&~\frac{z_n(\rho)}{\rho}~\sin(m\phi)~n~(n+1)~P_n^m(\cos\theta)~\hat{\textbf{e}}_r\nonumber\\ &+~\sin(m\phi)~\frac{dP_n^m(\cos\theta)}{d\theta}~\frac{1}{\rho}~\frac{d}{d\rho}~\left[\rho~z_n(\rho)\right]~
+\hat{\textbf{e}}_\theta\nonumber\\ &+~m~\cos(m\phi)~\frac{dP_n^m(\cos\theta)}{d\theta}~\frac{1}{\rho}~\frac{d}{d\rho}~\left[\rho~z_n(\rho)\right]~
+\hat{\textbf{e}}_{\phi}.\\\nonumber
+\end{align}
+The vector harmonics constitute an orthonormal basis set of functions which satisfies the spherical geometry. They span the solution space of the Maxwell equations, thus, arbitrary fields can be expanded to infinite series of the vector harmonics.
+
+\paragraph{Expanding the fields in vector harmonics:} In particular the incident, inner and scattered fields of a homogeneous sphere, as depicted in Fig.\,\ref{MieGeometrieFelder} can be expressed as an infinite series of the vector harmonics
+\begin{align}
+\vec{E}=~\sum_{m=0}^\infty~\sum_{n=m}^\infty~(B_{emn}~\vec{M}_{emn}~+~B_{omn}~\vec{M}_{omn}+~A_{emn}~\vec{N}_{emn}~+~A_{omn}~\vec{N}_{omn}),
+\end{align}
+where the expansion coefficients for each mode (even/odd, $m$, $n$) can be derived by projecting the fields on the modes of the vector harmonics
+\begin{align}
+B_{emn}=\frac{\int\limits_0^{2\pi}~\int\limits_0^\pi~\vec{E}\cdot\vec{M}_{emn}~\sin\theta~d\theta~d\phi}{\int\limits_0^{2\pi}~\int\limits_0^\pi~|\vec{M}_{emn}|^2~\sin\theta~d\theta~d\phi}.
+\end{align}
+
+From this point on, all further steps of deriving the Mie formalism can be obtained by restraining the expansion coefficients on modes which are $\neq0$ and subtypes of function systems which satisfy physical reasoning. For example, the fields within the sphere can only contain Bessel functions of the first kind, as the second kind will diverge at the origin. Also it can be shown, that $m$ equals 1 for all fields.
+
+The expansion of the incident fields in an infinite series of vector harmonics can be found as
+\begin{align}
+\begin{split}
+\vec{E}_{inc}&=E_0~\sum_{n=1}^\infty~i^n~\frac{2n+1}{n~(n+1)}~\left(\vec{M}^{~(j)}_{o1n}~-~i~\vec{N}^{~(j)}_{e1n}\right)\\
+\vec{H}_{inc}&=-\frac{k}{\omega\mu}~E_0~\sum_{n=1}^\infty~i^n~\frac{2n+1}{n~(n+1)}~\left(\vec{M}^{~(j)}_{e1n}~+~i~\vec{N}^{~(j)}_{o1n}\right).
+\end{split}
+\label{IncidentFieldsVH}
+\end{align}
+The superscribed index $^{(j)}$ denotes the restriction on the Bessel functions of the first kind, as indicated above. By substituting the incident fields in the boundary conditions \ref{boundaryconditions}, the fields inside the sphere can be obtained
+\begin{align}
+\begin{split}
+\vec{E}_{sphere}&=~E_0\sum_{n=1}^\infty~i^n~\frac{2n+1}{n~(n+1)}~\left(c_n\vec{M}^{~(j)}_{o1n}~-~id_n~\vec{N}^{~(j)}_{e1n}\right)\\
+\vec{H}_{sphere}&=-\frac{k_{sphere}}{\omega\mu_{sphere}}~E_0~\sum_{n=1}^\infty~i^n~\frac{2n+1}{n~(n+1)}~\left(d_n~\vec{M}^{~(j)}_{e1n}~+~i~c_n~\vec{N}^{~(j)}_{o1n}\right).
+\end{split}
+\label{SphereFieldsVH}
+\end{align}
+The scattered fields can be expressed in the same manner:
+\begin{align}
+\begin{split}
+\vec{E}_{scat}&=E_0\sum_{n=1}^\infty~i^n~\frac{2n+1}{n~(n+1)}~\left(ia_n~\vec{N}^{~(h^-)}_{e1n}~-~b_n~\vec{M}^{~(h^-)}_{o1n}\right)\\
+\vec{H}_{scat}&=\frac{k}{\omega\mu}~E_0~\sum_{n=1}^\infty~i^n~\frac{2n+1}{n~(n+1)}~\left(ib_n~\vec{N}^{~(h^-)}_{o1n}~+~a_n~\vec{M}^{~(h^-)}_{e1n}\right).
+\end{split}
+\label{ScatteredFieldsVH}
+\end{align}
+Here, the superscribed index $^{(-h)}$ indicates the use of another subtype of Bessel functions, so called Hankel functions, which can be interpreted as the far field approximation $kr\gg n^2$ of the spherical Bessel functions:
+\begin{align}
+h_n^{+}(kr)&=\frac{(-i)^n~e^{ikr}}{ikr}\nonumber\\
+h_n^{-}(kr)&=-\frac{i^n~e^{-ikr}}{ikr}.\nonumber
+\end{align}
+The expansion coefficients $a_n$ and $b_n$, which are termed scattering coefficients, weight the contributions of the \emph{normal modes} $M_n$ and $N_n$ of the sphere. By introducing the size parameter $x=kR$ with $k$ being the wave number and $R$ the radius of the sphere, and the relative refractive index $m_{rel}=n_{sphere}/n_{out}=n_{sphere}$ we obtain
+\begin{align}
+a_n=&\frac{\mu_{out}~n_{sphere}^2~j_n(n_{sphere}x)~\partial(x~j_n(x))/\partial x~-~} {\mu_{out}~n_{sphere}^2~j_n(n_{sphere}x)~\partial(x~h_n^+(x))/\partial x~-~}\nonumber\\ &\frac{~-~\mu_{sphere}~j_n(x)~\partial(n_{sphere}x~j_n(n_{sphere}x))/\partial(n_{sphere}x)} {~-~\mu_{sphere}~h_n^+(x)~\partial(n_{sphere}x~j_n(n_{sphere}x))/\partial(n_{sphere}x)}\label{an}\\
+\nonumber\\
+b_n=&\frac{\mu_{sphere}~j_n(n_{sphere}x)~\partial\left(x~j_n(x)\right)/\partial x~-~} {\mu_{sphere}~j_n(n_{sphere}x)~\partial\left(x~h_n^+(x)\right)/\partial x~-~}\nonumber\\ &\frac{~-~\mu_{out}~j_n(x)~\partial\left(n_{sphere}x~j_n(n_{sphere}x)\right)/\partial(n_{sphere}x)} {~-~\mu_{out}~h_n^+(x)~\partial\left(n_{sphere}x~j_n(n_{sphere}x)\right)/\partial(n_{sphere}x)}.\label{bn}
+\end{align}
+With the scattering coefficients at hand, the matrix elements of the amplitude scattering matrix $S_i$ can be expressed explicitly. Due to the spherical symmetry of the problem the non-diagonal elements of the scattering matrix, $S_3$ and $S_4$ equal zero. This corresponds to the conservation of polarization state of the incident light in the scattering process. The derivation of the Mie formalism for scattering on homogeneous spherical particles can now be completed by presenting the expressions for the diagonal elements:
+\begin{align}
+\begin{split}
+S_1=&\sum_n~\frac{2n+1}{n(n+1)}~\left(a_n~\frac{P_n^1}{\sin\theta}~+~b_n~\frac{dP_n^1}{d\theta}\right)\\
+S_2=&\sum_n~\frac{2n+1}{n(n+1)}~\left(a_n~\frac{dP_n^1}{d\theta}~+~b_n~\frac{P_n^1}{\sin\theta}\right).
+\end{split}
+\label{amplitudeS2}
+\end{align}
+
+In the same manner the vector harmonics can be used to expand the fields in a coated sphere and thus calculate the appropriate scattering coefficients. For the case of a coated sphere, further boundary conditions have to be taken into account.
+
+\paragraph{Boundary conditions for a coated sphere:}
+The derivation of the formalism for coated spheres can be traced back to Aden and Kerker \cite{Aden1951}. It is obtained in complete analogy to the solution for homogeneous spheres. The notations for fields and complex refractive indices are depicted in Fig.\,\ref{CoreShellNotations}. Again, the fields outside the scatterer $\vec{E}_{out},~\vec{H}_{out}$ consist of the sum of incident and scattered fields
+\begin{align*}
+\vec{E}_{out}&=\vec{E}_{inc}+\vec{E}_{scat}\\\vec{H}_{out}&=\vec{H}_{inc}+\vec{H}_{scat}
+\end{align*}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.45\textwidth,keepaspectratio=true]{Pictures/CoreShellNotations}
+\caption[Geometry and fields of a core-shell system.]{Geometry and fields of a core-shell system. A sphere with radius $R$ is surrounded by vacuum ($n=1$). The sphere exhibits two homogeneous regions, a core with radius $R-d$ and complex refractive index $n_{core}$ and an outer shell with thickness $d$ and complex refractive index $n_{shell}$. The notations of the fields are chosen accordingly.}
+\label{CoreShellNotations}
+\end{center}
+\end{figure}
+
+In addition to the constraints valid for homogeneous scatterers, energy conservation at the boundary between core and shell has to be claimed. Therefore, the boundary conditions \ref{boundaryconditions} are extended to
+\begin{align}
+\begin{split}
+(\vec{E}_{shell}-\vec{E}_{core})\times \hat{r}&=0~~~~~~~~~~(\vec{H}_{shell}-\vec{H}_{core})\times \hat{r}=0~~~~~~~~~~r=R-d\\
+(\vec{E}_{out}-\vec{E}_{shell})\times \hat{r}&=0~~~~~~~~~~~(\vec{H}_{out}-\vec{H}_{shell})\times \hat{r}=0~~~~~~~~~~r=R.
+\end{split}
+\label{BoundaryCoreShell}
+\end{align}
+
+Analog to the derivations above, the electromagnetic fields outlined in Fig.\,\ref{CoreShellNotations} are expanded in infinite series of vector harmonics. The result for the fields of the core ($\vec{E}_{core},~\vec{H}_{core}$) is equivalent to the expression for ($\vec{E}_{sphere},~\vec{H}_{sphere}$) given by equation \ref{SphereFieldsVH}. Also the expressions for incident (Eq.\,\ref{IncidentFieldsVH}) and scattered fields (Eq.\,\ref{ScatteredFieldsVH}) obtained above can be reused. In addition, the fields in the region of the shell have to be expanded in vector harmonics:
+\begin{align}
+\begin{split}
+\vec{E}_{shell}&=E_0\sum_{n=1}^\infty i^n \frac{2n+1}{n(n+1)}\left(f_n\vec{M}^{(j)}_{o1n} -ig_n\vec{N}^{(j)}_{e1n}+v_n\vec{M}^{(y)}_{o1n}-iw_n\vec{N}^{(y)}_{e1n}\right)\\
+\vec{H}_{shell}&=-\frac{k_{shell}}{\omega\mu_{shell}}E_0\sum_{n=1}^\infty i^n\frac{2n+1} {n(n+1)}\left(g_n\vec{M}^{(j)}_{e1n}+if_n\vec{N}^{(j)}_{o1n}+w_n\vec{M}^{(y)}_{o1n}+iv_n\vec{N}^{(y)}_{e1n}\right).
+\end{split}
+\label{ShellFieldsVH}
+\end{align}
+In this case the spherical Bessel functions can neither be reduced to one kind as in the core, because both first and second kind are finite within $R-d<r<R$, or approximated by far field as the scattered fields. Therefore, four more expansion coefficients $f_n,~g_n,~v_n,~w_n$ arise from equation \ref{ShellFieldsVH}.
+
+By substituting the fields of core, shell and outside the scatterer expanded in vector harmonics into the respective boundary conditions \ref{BoundaryCoreShell}, an equation system for the expansion coefficients arises. In particular the scattering coefficients $a_n,~b_n$ can be obtained. To simplify the description, the radial components are represented by the so-called Ricati-Bessel functions $\psi,~\xi$ and $\chi$:
+\begin{align*}
+\psi_n(\rho)~=~\rho~j_n(\rho)~~~~~~~~~~~~\xi_n(\rho)~=~\rho~h_n^{(+)}(\rho)~~~~~~~~~~~~\chi_n(\rho)~=~-\rho~y_n(\rho).
+\end{align*}
+Further, $\mu_{core}=\mu_{shell}=\mu_{out}$ is assumed and the size parameters $x=k(R-d)$ and $y=kR$ are introduced. Then the scattering coefficients for a coated sphere read
+
+\begin{align}
+a_n=&\frac{\psi_n(y)[\partial\psi_n(n_{shell}y)/\partial(n_{shell}y)-A_n\partial\chi_n(n_{shell}y)/\partial(n_{shell}y)]~-~} {\xi_n(y)[\partial\psi_n(n_{shell}y)/\partial(n_{shell}y)-A_n\partial\chi_n(n_{shell}y)/\partial(n_{shell}y)]~-~}\\\nonumber &\frac{~-~n_{shell}(\partial\psi_n(y)/\partial y)[\psi_n(n_{shell}y)-A_n\chi_n(n_{shell}y)]} {~-~n_{shell}(\partial\xi_n(y)/\partial y)[\psi_n(n_{shell}y)-A_n\chi_n(n_{shell}y)]}\label{anCS}\\
+\\\nonumber
+b_n=&\frac{n_{shell}~\psi_n(y)[\partial\psi_n(n_{shell}y)/\partial(n_{shell}y)-B_n\partial\chi_n(n_{shell}y)/\partial(n_{shell}y)]~-~} {n_{shell}~\xi_n(y)[\partial\psi_n(n_{shell}y)/\partial(n_{shell}y)-B_n\partial\chi_n(n_{shell}y)/\partial(n_{shell}y)]~-~}\\\nonumber &\frac{~-~\partial\psi_n(y)/\partial y~[\psi_n(n_{shell}y)-B_n\chi_n(n_{shell}y)]} {~-~\partial\xi_n(y)/\partial y~[\psi_n(n_{shell}y)-B_n\chi_n(n_{shell}y)]},\label{bnCS}
+\end{align}
+with
+\begin{align}
+A_n=&\frac{n_{shell}~\psi_n(n_{shell}x)\partial\psi_n(n_{core}x)/\partial(n_{core}x)~-~}
+{n_{shell}~\chi_n(n_{shell}x)\partial\psi_n(n_{core}x)/\partial(n_{core}x)~-~}\\\nonumber &\frac{~-~n_{core}~\partial\psi_n(n_{shell}x)/\partial(n_{shell}x)~\psi_n(n_{core}x)}
+{~-~n_{core}~\partial\chi_n(n_{shell}x)/\partial(n_{shell}x)~\psi_n(n_{core}x)}\label{An}\\
+\\\nonumber
+B_n=&\frac{n_{shell}~\psi_n(n_{core}x)\partial\psi_n(n_{shell}x)/\partial(n_{shell}x)~-~}
+{n_{shell}~\chi_n(n_{shell}x)\partial\psi_n(n_{core}x)/\partial(n_{core}x)~-~}\\\nonumber &\frac{~-~n_{core}~\psi_n(n_{shell}x)\partial\psi_n(n_{core}x)/\partial(n_{core}x)} {~-~n_{core}~\partial\psi_n(n_{core}x)/\partial(n_{core}x)~\chi_n(n_{shell}x)}\label{Bn}.\\
+\end{align}
+
+Though these expressions are of a quite complicated form, they consist solely of well known and tabulated function systems and can therefore used for computing the scattered field of a coated sphere. This extension of the Mie-formalism is able to describe light scattering from systems with an outer shell with clearly different optical properties compared to the inner part of the particles. Algorithms for coated spheres have been used for example to study the response from nucleated biological cells \cite{Meyer1975}. Since the first derivation of this formalism by Kerker and Aden \cite{Aden1951}, several computing algorithms have been proposed (\cite{Bohren1983,Liu2007} and references therein). They differ mainly in the choice of recursively defined types of Bessel functions, which can in some cases produce large errors for increasing size parameters. For simulating scattering patterns of core-shell systems in chapter \ref{CoreShellSimulationSection}, an algorithm developed by Shen \cite{ShenCode, Liu2007} was used.
+
+In order to visualize the physical content of the rather complicated mathematical expressions, obtained for homogeneous and coated spherical particles, in the next section the structure of the normal modes will be further analyzed. Also the dependency of scattering cross-sections of spherical particles from the obtained scattering coefficients \ref{an}, \ref{bn} will be considered and the explicit scattered intensity $I(r,\theta,\phi)$ of homogeneous and coated spheres will be discussed.
+
+\paragraph{Visualization of the solutions:}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=1\textwidth,keepaspectratio=true]{Pictures/Normalmoden}
+\caption[Radial and angular components of the normal modes.]{a) Transversal components of the normal modes $N_n$ and $M_n$ for $n=1$ to 4. The field lines on a spherical surface around the scatterer are displayed, sources and sinks indicate points where the transversal component vanishes and only radial components are apparent. From \cite{Mie1908}. b) $\Theta$-components of the normal modes for $n=1$ to 5. Higher modes are needed to describe the scattering pattern of larger particles. Therefore, the more pronounced forward direction of the scattered light for larger particles can be understood as asymmetry of the higher $\Theta$-components. From \cite{Bohren1983}}
+\label{NormalModes}
+\end{center}
+\end{figure}
+In order to translate the mathematical relationships obtained in the last paragraphs into observation quantities and to gain a more intuitive understanding, the normal modes can be visualized. In Fig.\,\ref{NormalModes} a, an exception from the original work of Gustav Mie on gold particles in a solution \cite{Mie1908} is presented. The transversal components, i.e. the lines of electric flux on a virtual sphere around the scattering particle are displayed for the lowest four normal modes $N_n$ and $M_n$. Their structure illustrates that the series expansion in normal modes is the electrodynamic analogon to the well-known multipole expansion from electrostatics.\\For small scatterers compared to the wavelength of the light and thus values of the size parameter $x\ll1$, higher orders of the series expansion can be neglected. The first mode $n=1$ yields again the well-known case of Rayleigh scattering with pure dipole characteristics.\\For increasing $x$-values, also higher orders of the series expansion have to be accounted for. Their influence on the characteristics of the angular distribution can be traced in the $\Theta$-component of the normal modes. Therefore, the angular functions $\pi_n$ and $\tau_n$ are introduced with
+\begin{align*}
+\pi_n=\frac{P_n^1}{sin\theta}~~~~~~~~~~~~~~~
+\tau_n=\frac{\partial P_n^1}{\partial\theta}.
+\end{align*}
+The initial five orders of the $\Theta$-components are depicted in Fig.\,\ref{NormalModes} b. From the third mode on, they exhibit an asymmetry with preference on the forward direction. This observation corresponds to the relationship between the size parameter $x=R/\lambda$ and the scattering characteristics, in particular that larger particles scatter more prominently in forward direction.
+
+\paragraph{Scattering and extinction cross-sections:}In order to quantify the ability of a spherical object to scatter light, again the scattering cross-section can be calculated,
+\begin{align}
+\sigma_{sphere}=\frac{2\pi}{k^2}~\sum_{n=1}^\infty~(2n+1)~(|a_n|^2+|b_n|^2).
+\end{align}
+Also a cross-section for the total extinction, i.e. the sum of scattered and absorbed intensity per incident intensity, can be expressed by the scattering coefficients
+\begin{align}
+\sigma_{ext}=\frac{2\pi}{k^2}~\sum_{n=1}^\infty~(2n+1)~Re\{a_n+b_n\}.
+\end{align}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.35\textwidth,keepaspectratio=true]{Pictures/ExtinctionParadox}
+\caption[Extinction paradox close to atomic resonances]{The field lines of the effective pointing vector demonstrate the extinction paradox: For excitation energies matching atomic resonances, the particle interacts strongly with the electromagnetic field and appears to be bigger. From \cite{Bohren1983}.}
+\end{center}
+\label{ExtinctionParadox}
+\end{figure}
+
+Far away from electronic resonances, where the deviation of $n_{sphere}$ from unity is small, the extinction cross-section might be considerably smaller than the geometrical cross-section $\pi R^2$, however, the limit of the extinction cross-section for large size parameters $x\rightarrow\infty$ equals twice the geometric cross-section. This relation, which appears to be contra-intuitive at first sight is called the extinction paradox, which is illustrated by Fig.\,\ref{ExtinctionParadox}. It can be understood by considering the limit of the absorption cross-section, which will approach the geometric cross-section. In addition, the scattered field of a circular disk and a circular aperture have to be equal according to Babinet's Theorem \cite{BornWolf}. Therefore, the same amount of light as absorbed will also be scattered, which in total explains the factor of two.\\Close to atomic resonances the absorption cross-section alone might become larger than the geometrical cross-section. Fig.\,\ref{ExtinctionParadox} depicts the field lines of the effective Pointing vector in the presence of a highly absorbing sphere. The fields are disturbed to a much larger extend than just the geometrical size, therefore a highly absorbing particle appears to be bigger.
+
+\paragraph{Scattering patterns calculated with Mie's theory:}For connecting the theoretical results with the experimentally obtained scattering patterns, the scattered intensity from a homogeneous spherical particle and analog from a coated sphere can be further examined. The transformation for incident to scattered fields was given by equation \ref{amplStreuMat}. By recalling that the non-diagonal elements were found to equal zero, and assuming linearly polarized light (per definition in perpendicular direction), equation \ref{amplStreuMat} can be reduced to
+
+\begin{equation}
+\left( \begin{array}{c}E_{\| scat}\\E_{\bot scat}\end{array}\right)~=~\frac{e^{ik(r-z)}}{-ikr}~\left( \begin{array}{cc}S_2&0\\0&S_1\end{array}\right)\left( \begin{array}{c}0\\E_{\bot inc}\end{array}\right),
+\end{equation}
+yielding the individual components
+\begin{align*}
+\vec{E}_{\bot scat}&=\frac{e^{ik(r-z)}}{-ikr}~S_1E_{\bot inc},\\\nonumber
+\vec{E}_{\| scat}&=0.\nonumber
+\end{align*}
+Therefore, the scattered light will be also linearly polarized perpendicular to the scattering plane. The scattered intensity, which denotes the observable measure of energy flux per time and area unit, can be calculated as the square of the scattered field amplitude
+\begin{align*}
+I_{scat}(r,\theta,\phi)~=~\frac{k}{2\omega\mu}~|\vec{E}_{scat}|^2~=~\frac{k}{2\omega\mu}~\frac{1}{k^2r^2}~~|S_1|^2~~E_{\bot inc}^2.
+\end{align*}
+By substituting the incoming intensity $I_{inc}=k/(2\omega\mu)E^2_{\bot inc}$ we obtain
+\begin{equation}
+I_{scat}~=~\frac{1}{k^2r^2}~~|S_1|^2~~I_{inc}.
+\label{ScatteredIncomingIntensity}
+\end{equation}
+
+Therefore, the computation of scattering patterns can be achieved by calculating $S_1$ and $S_2$ with the input parameters $x=kR$ and $m_{rel}=n_{sphere}/n_{out}$ in the case of a homogeneous sphere and the respective size parameters $x=k(R-d)$ and $y=kR$ and refractive indices of core and shell. The number of modes which have to be taken into account increases with increasing size parameters of the scatterers. Termination conditions stop the algorithms which are used for computation, when the contribution of further modes will be small. These conditions are necessary because with decreasing contribution of the modes, the numerical errors from the calculations of the implemented Bessel function will grow and might even lead to a divergence of the series expansion.
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.85\textwidth,keepaspectratio=true]{Pictures/SimulationHomogCoatedSphere}
+\caption[Calculated profiles of homogeneous and coated spheres]{Calculated profiles of a) homogeneous and b) coated spheres within the Mie formalism. The minimum close to 90$^{\circ}$ scattering angle observed for the perpendicular intensity profiles corresponds to the Rayleigh limit for small spheres. The high-frequency oscillation in a) and b) correspond to the overall size of the particles, the low-frequency modulation in b) indicates a second characteristic length scale in the particle, the thickness of the outer shell.}
+\label{ProfileHomogeCoatedSpheres}
+\end{center}
+\end{figure}
+
+The scattered intensity in perpendicular and parallel direction from a homogeneous sphere with size parameter of $x=50$ and a refractive index of $n_{sphere}=1.007+i\cdot0.04$ is shown in Fig.\,\ref{ProfileHomogeCoatedSpheres}\,a. The scattered light as a function of scattering angle reveals the typical lobes of Mie-scattering which correspond to concentrical rings with nearly equidistant minima in the scattering patterns. This characteristic pattern also points to the close connection between scattering from a sphere and the Airy pattern of a circular aperture. One fundamental principle of diffraction theory is that the scattering pattern of an object can be calculated by the Fourier transform of its spatial function, for example the charge density distribution of a molecule or a simple cylindrical function of a circular aperture \cite{Hecht2005, PrinciplesNanoOptics}. The ring structures of the scattering patterns calculated with Mie's theory show that this principle is also implicitly contained in the complicated formalism derived above. Beyond this, the Mie-simulations are able to also account for the material properties of the scatterer and the polarization of the incident and scattered light.\\The influence of the polarization of the incident light can be seen in the difference between the red and the green curve in Fig.\,\ref{ProfileHomogeCoatedSpheres}\,a. The scattered light in polarization direction of the incident wave, i.e. the green curve, exhibits a global minimum close to $90^{\circ}$. This minimum corresponds to the limit of Rayleigh scattering where no radiation is emitted in the polarization direction of the incoming light.
+
+The width of the lobes will become smaller with increasing size of the sphere. This can be again related to the scattering pattern being the Fourier transform of the scatterer, thus structures observed in the frequency domain of the scattering pattern correspond to a characteristic length scale of the scatterer. The oscillations in Fig.\,\ref{ProfileHomogeCoatedSpheres}\,a correspond to the only characteristic length of a homogeneous sphere, its overall size.\\In contrast, the scattering profiles of a core-shell system, which are displayed in Fig.\,\ref{ProfileHomogeCoatedSpheres}\,b (again for parallel and perpendicular direction) indicate two characteristic length scales in the particle, as the fine lobes are superimposed by a low frequency oscillation. This low frequency can be related to the thickness of the outer shell which constitutes the second characteristic length in this particle.\\Another approach to understand the modulation observed in the profiles of Fig.\,\ref{ProfileHomogeCoatedSpheres}\,b is their interpretation as a beating pattern between the slightly different widths of the lobes in the scattered light produced by the inner and outer interface of the coated sphere.\\A detailed discussion of changes in the scattering profiles based on a systematic study of variations of different parameters, such as the thickness of the shell and the optical constants, will be given in section \ref{CoreShellSimulationSection}.
+
+Up to this point, the discussion of the interaction between light and clusters has been restricted to linear effects and static cases. In the next section, the assumption of linear processes of matter in the highly intense XUV pulses present in the current experiment will be discussed critically.
+
+\clearpage
+\section{Atoms in intense XUV pulses}
+\label{SectionAtomeIntenseXUV}
+Intense light fields are able to leave atoms highly excited and ionized. The degree of ionization and the underlying processes are dependent on the power density of the light, the wavelength, and also on the atomic species. This section gives a survey on the phenomena arising from the use of intense XUV light. The discussion concentrates on effects in single atoms, while the influence of the cluster surrounding will be discussed later in section \ref{LightClusterInteraction}.
+
+Concepts are introduced to describe processes and regimes of the interaction between atoms and intense light fields of different photon energy. As a result of these considerations, the 90\,eV pulses with intensities of up to $5\cdot10^{14}$\,W/cm$^2$ used in the experiments of this thesis can be assigned to a perturbative, photon dominated regime.\\In this regime and in particular close to atomic resonances, the electronic structure of the studied target material is important. Experiments on atomic xenon gas at 90\,eV photon energy revealed a high degree of ionization \cite{Sorokin2007}. The reason therefore can be found in the peculiar characteristics of xenon in the XUV range. Already neutral atoms exhibit high cross-sections but atomic ions reveal even more extreme resonances. The absorption properties and the origin of the special energy level structure of xenon will be discussed.
+
+\subsection{Wavelength dependent nonlinear processes}
+\label{LambdaDependentAtoms}
+The advent of short wavelength free-electron laser made high intensities from XUV to X rays accessible for the first time. Other light sources used to study light--matter interaction in the high energy range, such as synchrotron or high harmonic generation sources can only access processes, which are linear in intensity and can be described \emph{perturbatively}.
+
+\paragraph{Perturbative description:} The energies of an atomic system are described quantum-mechanically (cf. \cite{CohenTannoudji}, p. 480ff) by the Hamilton operator. For the unperturbed system, i.e. no field, the Hamiltonian is given by
+\begin{align*}
+H_0~=~~\underbrace{\frac{\textbf{P}^2}{2m}}_{E_{kin}}~+~\underbrace{V(r)}_{E_{pot}}.
+\end{align*}
+By solving Schrödinger's equation $E|\Psi\rangle=H_0|\Psi\rangle$ the orthonormal set of eigen states $|\psi_n\rangle$ with eigen energies $\epsilon_n$ can be found, which correspond to the orbitals of the atom. An incident lightwave induces a periodic perturbation of the system. The new Hamiltonian $H$ has eigen states different to $|\psi_n\rangle$, however for small perturbations, it can be expanded in the eigen system. Then $H$ reads
+\begin{align*}
+H=H_0+W(t)=H_0+\lambda W_1+\lambda^2 W_2+...=H_0+W_{ED}+W_{MD}+W_{EQ}...
+\end{align*}
+where $W_{ED}$ denotes the electric dipole operator, $W_{MD}$ the magnetic dipole operator, and $W_{EQ}$ the electric quadruple operator. The factor $\lambda\ll1$ indicates, that the perturbation operators are sorted for their size. Thus, for small perturbations, i.e. weak oscillating fields, the dipole operator dominates the response and operators of higher orders can be neglected. From the projection of the dipole operator on two eigen states $|\psi_i\rangle,~|\psi_k\rangle$ one obtains the transition probability $P_{ik}$ between those states due to the absorption of a single photon.
+\begin{align*}
+\langle\psi_i|W_{ED}|\psi_k\rangle=P_{ik}
+\end{align*}
+Higher orders become more important for stronger light fields, where the probabilities for absorbing two or more photons increase.\\In order to decide, whether a light field has to be considered strong, a first indicate can be given by the comparison of the light field strength to the atomic field strength unit \cite{HauRiege2011}
+\begin{align}
+E_{at}=\frac{1}{4\pi\varepsilon_0a_0^2}\approx5\cdot10^9\,\text{V/cm.}
+\label{Plasmafrequenz}
+\end{align}
+This field strength corresponds to an intensity of $4\cdot10^{16}$\,W/cm$^2$. Already at intensities below this value, the perturbation from the light field can no longer be assumed small. Then the expansion of the Hamiltonian in the eigensystem of the unperturbed atom is no longer a good approximation, which is referred to as the \emph{perturbative breakdown}. It is important to note, that this estimate neglects the photon energy of the respective light-field. As the discussion below will show, the light frequency plays a very important role for the ionization processes and the assignment to photon- or field-dominated regimes.
+
+\paragraph{High intensity phenomena at different photon energies:} In the long wavelength range (visible/IR) intensities up to $10^{20}$\,W/cm$^2$ could be achieved in experiments. At these intensities various surprising effects were discovered (see for example \cite{HauRiege2011}, chapter 7 and references therein). Among them are above barrier ionization, high-harmonic generation, and so called resonant AC stark enhancement.\\With the availability of FLASH and other short wavelength free-electron lasers (cf. section \ref{FLASHFEL}), access is provided to also study nonlinear processes in the high energy photon range. Up to now, only few experiments have been published in the VUV and XUV range \cite{Sorokin2007, Richter2010, Richardson2010} and in the X-ray regime \cite{Young2010, Berrah2010, Doumy2011, Rudek2012}.
+
+The processes which lead to the removal of electrons from the atomic union and in particular the onset of ionization are strongly wavelength dependent. Mainly two points have to be considered:
+\begin{itemize}
+\item How many photons are necessary to overcome the ionization potential?
+\item How long does the electron need to leave the atom in respect to the period of the lightwave?
+\end{itemize}
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.98\textwidth,keepaspectratio=true]{Pictures/WavelenthDepIonizationMechanisms1}
+\caption[Photon energy dependent dominant process for the onset of ionization.]{Photon energy dependent dominant process for the \emph{onset of ionization}, visualizations are a curtesy by C. Bostedt. a) At small photon energies ($<1$\,eV), many photons are needed to ionize an atom. Only above a certain intensity threshold, the atomic potential is sufficiently bent to allow for \emph{tunneling} of bound electrons. For much higher intensities \emph{above barrier ionization} occurs. b) In the optical and ultraviolet spectral regime ($\approx10$\,eV), only single or few photons are needed to ionize an atom. Therefore the onset of ionization is observed already at much smaller power densities and the ionization can be described perturbatively. c) In the X-ray spectral regime, inner shells are addressed by the incident photons. Photoionization processes are followed by subsequent decay of the inner-shell vacancy, leading to secondary (for example Auger) electron emission. Therefore already low intensity X-ray beams (indicated as $10^x$\,W/cm$^2$) can produce highly ionized atoms.}
+\label{WavelenthDepIonizationMechanisms}
+\end{center}
+\end{figure}
+The dominant process at the \emph{onset of ionization} for three different wavelength regimes is displayed in Fig.\,\ref{WavelenthDepIonizationMechanisms} (curtesy by C. Bostedt). In Fig.\,\ref{WavelenthDepIonizationMechanisms}\,a the ionization process in the infrared range is illustrated. With photon energies of 1\,eV and less, single photo-ionization processes are impossible. If the field strength becomes high enough to bend the atomic potential sufficiently, bound electrons can \emph{tunnel} out. For even stronger fields the electrons can leave directly \emph{over the barrier}. In these processes many photons are absorbed by one electron, therefore this effect occurs only beyond the perturbative breakdown \cite{HauRiege2011}.\\Towards higher photon energies (Fig.\,\ref{WavelenthDepIonizationMechanisms}\,b) the onset of ionization is located in the perturbation limit. The uppermost valence shells might be already accessible in the UV or VUV range, depending on the target atom. Only few photons suffice to ionize further valence electrons.\\In Fig.\,\ref{WavelenthDepIonizationMechanisms}\,c the main ionization process in the high energy range is depicted. Inner shell electrons can be ionized by single photons starting from the XUV and soft X-ray regime. Even innermost shells are addressed in the case of hard X-rays. Due to the production of inner-shell vacancies, the photo-ionization processes are followed by subsequent decay processes. Non-radiative decays, namely Auger and Coster-Kronig transitions (electrons from a higher or the same shell fill the vacancy and transfer the energy difference to another electron which is liberated from the atomic union) lead to the emission of further electrons. Therefore, hard X-ray radiation can produce highly ionized atoms already in the single photon limit.
+
+Nevertheless, also for high energy radiation increasing intensities will eventually yield in the break-down of the perturbative description and a field-dominated response of the atoms. However, tunneling ionization will occur only at much higher field strengths as the high energy light field only addresses inner-shell electrons. In terms of time scales, the high frequency field will not allow for electrons to tunnel through the barrier during a singly half-cycle of the wave.\\A measure of the ability of a field to couple directly to the atomic potential can be given by the cycle-averaged kinetic energy of a free electron in the wave $U_p$, referred to as \emph{ponderomotive potential}
+\begin{align}
+U_p=\frac{I e^2}{2\varepsilon_0c m_e\omega^2}
+\label{PonderomotivePotential}
+\end{align}
+where $I$ denotes the intensity of the light field and $\omega$ the frequency of the light. The ponderomotive potential yields a shift of the atomic energies respectively to the continuum, thus the resulting ionization potential is given by $I_p+U_p$ \cite{HauRiege2011}. This effect is referred to as AC-Stark shift, which is able to produce intensity-induced resonances.\\A comparison of the ionization potential to the ponderomotive potential can be used to estimate the probability for tunneling. The \emph{Keldysh parameter} $\gamma$, which describes the transition between single- or multi-photon regime ($\gamma\gg1$) and tunneling regime ($\gamma\leq1$), is defined as
+\begin{align*}
+\gamma=\sqrt{\frac{I_P}{2U_p}}=\tau_{tunnel}\cdot\omega_{laser}.
+\end{align*}
+This relationship also reflects the connection between the tunneling probability and the available time for an electron to tunnel the barrier, which is given by the laser period \cite{Fennel2010}.
+
+Constant values of the ponderomotive potential $U_p$ are displayed in Fig.\,\ref{PhotonEnergyIntensityRegimes} in a plot of photon energy per intensity \cite{Fennel2010}. Between 1 and 10\,eV the transition from photon dominated to field dominated regimes occurs, for $U_p$-values above 10\,keV even relativistic processes have to be considered. The shaded blocks indicate the attainable regimes of different light sources.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.75\textwidth,keepaspectratio=true]{Pictures/FennelReviewRegimes}
+\caption[Photon energy and intensity dependent regimes]{Photon energy and intensity dependent regimes, from \cite{Fennel2010}. The photon energy as a function of intensity for constant values of the ponderomotive potential yields lines, which also indicate the transitions between regimes (relativistic regime $U_p>10$\,keV, field dominated regime $U_p\geq10$\,eV, photon dominated regime $U_p\leq1$\,eV). Accessible energy/intensity values of different light sources are indicated by gray-shaded blocks.}
+\label{PhotonEnergyIntensityRegimes}
+\end{center}
+\end{figure}
+In the case of 90\,eV photon energy, the field dominated regime will not be reached with intensities below $10^{18}$\,W/cm$^2$. In the experiments at the FLASH free-electron laser a focal power density of approximately $5\cdot10^{14}$\,W/cm$^2$ was achieved (cf. section\,\ref{TOFdetector}). This results in a ponderomotive potential of approximately 10\,meV. Therefore, the experiment discussed in this thesis is safely located in the perturbative regime. Even though also multi-photon absorption processes might occur \cite{Sorokin2007}, absorption of single photons and elastic scattering can be considered the predominant processes \cite{HauRiege2011}.
+
+Far away from a field dominated regime the particular energy structure of the investigated material determines the response of atoms to the incident light. The peculiar electronic properties of xenon in the XUV range are discussed in the subsequent paragraph.
+
+\subsection{Ionization properties of atomic xenon in the XUV range}
+\label{OpticalXeProp}
+Especially at 90 eV photon energy, xenon constitutes an outstanding target material. The absorption cross section of neutral xenon atoms is for instance a factor of 34 higher compared to krypton \cite{HenkeTables}, while only having 1.5 times more bound electrons. Thus, the topic of this section will be to examine the absorption characteristics of atomic xenon and its ions in the XUV range.\\The measurement of absolute cross-sections is experimentally challenging \cite{West2001}. Intense X-ray and ion beams have to be merged over a long distance to enhance the signal-to-noise ratio, and all parameters are measured absolutely, the number of photons and ions, and the overlap integral between both. Due to available resonances with high cross-sections, early experiments using radiation from bending magnets were in fact carried out on xenon in the XUV range \cite{Ederer1964}. In the meanwhile, absolute cross sections for xenon in the XUV range are available up to Xe$^{7+}$ \cite{Ederer1964, Itoh2001, Andersen2009, Emmons2005, Aguilar2006, Bizau2000}. Atomic and ionic absorption cross sections are displayed in Fig.\,\ref{XeAllCrosssec0to7+}.
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.9\linewidth,keepaspectratio=true]{Pictures/XeAllCrosssec0to7+}
+\caption[Absorption cross-sections of atomic xenon and ions]{a)-f)  Experimentally obtained absorption cross-sections of atomic xenon and its ions up to Xe$^{7+}$ in the XUV spectral regime. From \cite{Ederer1964, Itoh2001, Andersen2009, Emmons2005, Aguilar2006, Bizau2000}. A transition from a broad continuum-like absorption resonance for neutral xenon and lower charge states to sharp absorption resonances for higher charge states can be observed. The cross-section value at the actual photon energy in the current experiment of 91\,eV is indicated by red bars. At Xe$^{4+}$ the excitation energy matches a strong resonance with up to 200\,Mbarn.}
+\label{XeAllCrosssec0to7+}
+\end{center}
+\end{figure}
+\paragraph{Resonant absorption via $4d-nf,\epsilon f$ transitions:} The photo absorption of xenon in the XUV range addresses mainly the $4d$ shell. The typical shape of absorption edges of $s$-type shells, which is known for example from hard X-ray absorption spectra consists in a steep rise when the threshold energy is exceeded followed by an exponential decay for higher excitation energies. In contrast, the absorption cross-section from the $4d$ shell exhibits a delayed onset with a broad maximum about 25 eV above the ionization threshold \cite{Cooper1964}. This $4d$ feature, referred to as \emph{giant resonance}, can be observed for xenon (Fig.\,\ref{XeAllCrosssec0to7+}a) and adjacent elements in the periodic table from Pd (-8 nuclear charges) to Cs (+1 nuclear charge) \cite{Aguilar2006}. It is connected to a two-well structure of the effective potential of the $f$-type vacuum levels, resulting from the competition of the centrifugal repulsion due to their high angular momentum and the Coulombic attraction from the core \cite{Mayer1941}. The probability density of the $n f$-states (n=4,5,6) in the inner well, close to the core, is low and therefore their overlap with the $4d$ states is small. But for higher energies the $(\epsilon)f$-orbitals can gradually surmount the potential barrier, resulting in a higher overlap and an increasing ionization cross-section with a broad, resonance-like structure \cite{Cheng1983}.\\For elements in the periodic table with a number of nuclear charges $>56$, the $4f$ orbitals turn into occupied levels in the ground state. In this transition from a more Rydberg-like vacuum level to a valence-type bound state, the orbitals drastically shift their density closer to the core \cite{Mayer1941}, referred to as $4f$-collapse \cite{Cooper1964}.\\Similar changes occur in the \emph{iso-nuclear series} of xenon, in other words for a decreasing number of bound electrons at a constant number of nuclear charges. With rising charge state $q$, all orbitals are pulled towards the core and in particular the $4f$ wave function collapses and gains a high overlap with the $4d$-shell. This leads to a transition in the case of higher xenon ions from the direct photo-ionization process in the smooth giant resonance $4d-\epsilon f$ with its maximum close to 90 eV photon energy, to sharp, resonant transitions in excited, auto-ionizing states $4d-nf$ mit n=4,5,6, shifting towards higher photon energy with rising $q$. While up to $Xe^{3+}$, most of the integral oscillator strength of the $4d-nf,\epsilon f$ transition of about 10 (there are 10 electrons in the 4d shell) contributes to the giant resonance \cite{Aguilar2006}, for higher charge states the ratio going into the $4d-4f$ resonances increases, also due to the decreasing number of possible excitation channels.\clearpage
+\paragraph{Absorption cross-sections of Xe$^{q+}$:}
+The respective cross-section values at the actual photon energy in our experiment of (91.1$\pm$1.4)\,eV are indicated in Fig.\,\ref{XeAllCrosssec0to7+} by the red lines. The obtained values are summarized in table\,\ref{XeTabel}. A closer examination of the absolute values of the absorption cross-section reveal a unique role of Xe$^{4+}$ for irradiation with 91\,eV. While from neutral up to triply charged xenon, the cross-section ranges between 20 and 25\,Mbarn, (cf. Fig.\,\ref{XeAllCrosssec0to7+} a-d, \cite{Ederer1964, Andersen2009, Emmons2005}), the resonant, autoionizing $4d-4f$ feature overlaps with the excitation energy at the maximal cross-section of 200 Mbarn (cf Fig.\,\ref{XeAllCrosssec0to7+} e, \cite{Aguilar2006}). As the resonant features shift towards higher energy for Xe$^{5+}$ and Xe$^{6+}$, the cross-section at 91\,eV remains much lower. Though no absolute values of measurements at this energy have been published, from the relative yields in Fig.\,\ref{XeAllCrosssec0to7+} f, compared to absolute values for the respective $4d-4f$ resonances in Fig.\,\ref{XeAllCrosssec0to7+} e, the cross-sections can be assumed to be less than 2\,Mbarn. For Xe$^{7+}$ only measured relative yields in the vicinity of 91\,eV are published together with calculations \cite{Bizau2000}, but the absorption below the strong features is described to be flat and low, thus also values clearly below 2\,Mbarn can be assumed.\\As the $4d$ shell is already an inner shell, ionization processes can lead to excited states with an inner-shell vacancy. For neutral xenon, the absorption of one 91\,eV photons results almost exclusively in doubly or triply charged ions, as one or even two Auger decays from the $5s$ and $p$ shells follow the initial photo-ionization \cite{Luhmann1998}. Absorption in the valence shell or radiative decays of the $4d$ core hole on the other hand can be neglected. Auger processes follow the photo-ionization up to $Xe^{2+}$, for higher charge states the energy difference available from the decay of a valance electron into the $4d$ vacancy is no longer sufficient to emit further electrons, and eventually, no more electrons are present in the valance shell to conduct Auger decay. The partial cross-sections for neutral xenon are estimated from \cite{Luhmann1998} to be less than 1\,Mbarn for $0\rightarrow1+$ and 12.5 and 10.5\,Mbarn for $0\rightarrow2+$ and $0\rightarrow3+$, respectively. For $Xe^{2+}$ and $Xe^{3+}$, the partial cross-sections can be extracted from Fig.\,\ref{XeAllCrosssec0to7+} b and c.
+\begin{table}[b]
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+ $q$ & total $\sigma$ & $\sigma_{q\rightarrow q+1}$ & $\sigma_{q\rightarrow q+2}$ & $\sigma_{q\rightarrow q+3)}$ \\
+    & [Mbarn]   & [Mbarn]   & [Mbarn]   & [Mbarn]\\
+\hline
+\hline
+neutral& 23 & $<$1 & 12.5& 10.5\\
+\hline
+1+ & 25 & 2 & 23 & 0\\
+\hline
+2+& 22 & 4 & 16 & 0\\
+\hline
+3+& 25 & 25 & 0& 0\\
+\hline
+4+& 200 &200&0 & 0 \\
+\hline
+5+& $<$2 &$<$2&0 &0 \\
+\hline
+6+& $<$2 &$<$2& 0 & 0\\
+\hline
+7+& $<$2 &$<$2& 0 & 0\\
+\hline
+\end{tabular}
+\caption{Total and partial xenon absorption cross-sections at 91\,eV}
+\label{XeTabel}
+\end{center}
+\end{table}
+
+\paragraph{Xenon gas in 90\,eV pulses:}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=1\linewidth,keepaspectratio=true]{Pictures/Richter}
+\caption[Ionization of xenon gas in intense 93\,eV pulses]{Ionization of xenon gas in intense 93\,eV pulses \cite{Sorokin2007}. a) Relative ion signal intensities of Xe$^{q+}$ as a function of intensity. b) Scheme of xenon energy levels and total ionization energy. For producing Xe$^{21+}$ more than 5\,keV must be absorbed by a single atom. Seven photons are necessary to ionize ground state Xe$^{20+}$, clearly indicating nonlinear processes.}
+\label{XeRichter}
+\end{center}
+\end{figure}
+The peculiar ionization properties of xenon close to 90\,eV also manifested themselves in initial experiments on xenon gas at the FLASH free-electron laser \cite{Sorokin2007}. The experiment, which was carried out at a photon energy of 93\,eV revealed surprisingly high charge states as indicated in Fig.\,\ref{XeRichter}. At an intensity of $8\cdot10^{16}$\,W/cm$^2$, charge states up to Xe$^{21+}$ were observed.
+
+A total energy absorption of more than 5\,keV must be absorbed by a single atom to reach this charge state (cf. Fig \ref{XeRichter} b), seven photons are necessary to ionize ground state Xe$^{20+}$. In order to produce the charge state Xe$^{11+}$, which was the highest charge state obtained in the present experiment, still at least 18 photons have to be absorbed in total, three are necessary to bridge the energy difference between 10+ and 11+. These observations put the results obtained in the last paragraph into question, that mostly linear processes should be expected. Full modeling of the ionization effects in xenon remains challenging due to the contribution of a large number of electrons and great difficulties to include electron-electron correlations correctly \cite{Sorokin2007, Richardson2010}.
+
+\section{Clusters in intense laser pulses}
+\label{LightClusterInteraction}
+Clusters offer a way to investigate the organization and properties of matter from a fundamental point of view \cite{BergmannSchaeferHaberland}. In particular gas phase clusters are widely used as ideal model systems to study the interaction between light and matter \cite{Posthumus2009,Krainov2002,Saalmann2006,Fennel2010,Bostedt2010}. Compared to gas targets, clusters exhibit a high local density. On the other hand, they have less dissipation channels as bulk matter \cite{Bostedt2010,Saalmann2006}. The easily scalable size allows for tuning their properties from molecular to bulk limit, which makes it possible to distinguish between intra- and interatomic effects.
+
+Rare gas clusters are weakly bound Van-der-Waals systems \cite{BergmannSchaeferHaberland}. They exhibit the simple electronic structure of inert rare gas atoms which is hardly changed by the cluster surrounding \cite{Saalmann2010}. The generation of rare gas clusters will be discussed in more detail in section \ref{clustergeneration}.
+
+In this experiment the interaction of matter with high intense XUV pulses is studied using rare gas clusters in the gas phase. This section covers the wavelength dependent phenomena occurring in a cluster compound when irradiated by an intense laser pulse, in particular the creation and dynamics of a nanoplasma. Concepts are introduced to describe the dynamics qualitatively. A brief overview will be given on previous experiments in intense short wavelength FEL pulses.
+
+\subsection{Clusters as model systems for laser--matter interaction}
+Laser excitation of clusters in the infrared and visible range has introduced new possibilities to study and control ultra-fast many-particle dynamics \cite{Fennel2010}. The phenomena found in clusters can be roughly categorized as effects arising from the finite size of the system, from many-body dynamics, or from collective processes. The response of clusters to low intensity light fields has been used to study photoionization, relaxation and structural modification in finite-size quantum systems \cite{Reinhard2004}. In highly intense IR pulses large-amplitude collective electron motion and violent explosion have been observed \cite{Krainov2002,Posthumus2009}. Since the first experiments at FLASH \cite{Wabnitz2002}, clusters have been also used to study processes and dynamics in intense short-wavelength pulses (see for example \cite{Bostedt2010} and references therein).
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.82\textwidth,keepaspectratio=true]{Pictures/ThreePhaseNanoplasma3}
+\caption[Description of laser--cluster interaction in three phases]{Description of laser cluster interaction in three phases: I) The light interacts with the atoms as if they were isolated. Electrons are ionized from the atomic potentials and leave the cluster. This is referred to as \emph{outer ionization}. II) Electrons will be further \emph{inner ionized} from atoms. But they are trapped in the increasing Coulomb potential of the cluster and a nanoplasma builds up. Only by subsequent plasma processes, electrons might gain sufficient energy to leave the cluster. III) When the pulse is over, disintegration, recombination and relaxation processes take place.\\The concepts are taken from the literature \cite{Last1999,Wabnitz2002,Saalmann2006,Saalmann2010,Arbeiter2011}. The illustration of the cluster potentials is taken from the work of Arbeiter and Fennel \cite{Arbeiter2011}.}
+\label{ThreePhaseNanoplasma}
+\end{center}
+\end{figure}
+
+The interaction with strong laser pulses, irrespective of the wavelength, will create a short-lived and dense nanoplasma \cite{Fennel2010}. The transient multi-electron dynamics in the nanoplasma, however will greatly differ with excitation energy. In particular in the short-wavelength range, they are still largely unexplored \cite{Saalmann2010}.
+
+\paragraph{Three phases of cluster--laser interaction}
+Ionization and disintegration of clusters proceed in several different steps on different time scales \cite{Bostedt2010,Saalmann2006}. The particular mechanisms and dynamics in the clusters depend on the excitation energy and intensity of the laser, but they also change with cluster size and atomic species. In order to describe a general scenario applicable to all conditions, one can employ a concept which describes the laser induced dynamics in clusters in three phases.\\The three phases are sketched in Fig.\,\ref{ThreePhaseNanoplasma}.
+\begin{enumerate}
+\renewcommand{\labelenumi}{\Roman{enumi})}
+\item At the beginning of the pulse the light interacts with the atoms as if they were isolated. Wavelength dependent ionization processes result in the emission of electrons, which leave the cluster. These electrons are referred to as \emph{outer ionized}.
+\item Further electrons are liberated from the individual atomic potentials, but depending on their kinetic energy, at some point they will be trapped in the increasing Coulomb potential of the cluster. The generation of \emph{inner ionized} electrons confined to the cluster results in the buildup of a nanoplasma. By subsequent plasma processes, electrons might gain additional kinetic energy and outer ionize, i.e. leave the cluster.
+\item When the pulse is over, the cluster disintegrates. Also recombination and relaxation processes might take place.
+\end{enumerate}
+The concept of inner and outer ionization has been introduced by Last and Jortner \cite{Last1999}. Similar three-phase models have been used in the literature with slightly different definitions \cite{Wabnitz2002,Saalmann2006,Saalmann2010,Arbeiter2011}. The scheme in Fig.\,\ref{ThreePhaseNanoplasma} will be used in the subsequent section to describe the dynamics in the clusters, which happen on different time scales and may differ greatly using for example different lasers. In addition to the wavelength dependent onset of the ionization, the influence of the plasma environment on the ionization processes and possible heating mechanisms have to be considered in particular. Ultimately the plasma properties determine the progress and mechanisms of the expansion and a possible contribution from recombination processes.
+
+\subsection{Properties and dynamics of a nanoplasma}
+\label{PlasmaSection}
+
+\paragraph{Onset of plasma formation:} Wavelength dependent ionization mechanisms in atoms have already been discussed in section \ref{SectionAtomeIntenseXUV}. As the laser pulse will couple independently to the atoms in phase 1, the findings of section \ref{SectionAtomeIntenseXUV} apply also to the onset of ionization in clusters. In the infrared regime, only above a certain intensity threshold tunnel ionization will occur. Lower laser intensities are required in the visible and UV range, where a small number of photons or even single photons can ionize valence electrons.\\From the pure tunnel regime up to multi-photon ionization of first valence shells, electrons are mainly liberated into the continuum without any additional kinetic energy. This results in an immediate onset of the plasma formation.
+
+Towards higher photon energies, single photon absorption already occurs at low intensities. The released photoelectrons take away the excess energy as kinetic energy. If inner-shell electrons are photoionized, the decay of the inner-shell vacancy can result in the emission of further electrons. Depending on the kinetic energy of the electrons, the formation of a plasma will be delayed. By a simple electrostatic approach \cite{Bostedt2010electrons} of a charged sphere, the number of electrons can be estimated which can leave the cluster potential before electron emission of the cluster is fully frustrated. The effective kinetic energy of an electron in the increasing Coulomb potential and the total number of outer-ionized electrons $n_{e,out}$ are given by \cite{Bostedt2010electrons}
+\begin{align}
+E_{kin,out}~=~(h\nu~-~I_p)~-~\frac{e^2}{4\pi \epsilon _0}\sum\limits_{i\neq j}\frac{q_i}{r_{ij}}\nonumber\\
+\Leftrightarrow n_{e,out}~=~(h\nu~-~I_p)\frac{4\pi \cdot \epsilon_0 \cdot R}{e^2}.
+\label{neout}
+\end{align}
+In order to characterize the properties of the developing nanoplasma, useful concepts can be borrowed from plasma physics.
+
+\paragraph{Plasma coupling:}
+Low density plasmas can be treated as independent particles, which experience occasional collisions. In a high density plasma, the ions differ clearly from isolated systems. The electronic structure will be strongly perturbed and many-body collisions become a dominant process \cite{HauRiege2011}. In the case of laser-irradiated clusters, the rapidly developing plasma will have the density of a solid and higher.\\A plasma can be characterized by the degree of coupling between its constituents \cite{HauRiege2011}. The coupling parameter $\Gamma_{AB}$ is defined as the ratio of mean potential and kinetic energy, with $A,B$ being two plasma species, for example electrons and ions. The electron-electron coupling parameter $\Gamma_{ee}$ can be calculated as \cite{Jungreuthmayer2005}
+\begin{align}
+\Gamma_{ee}=\frac{V_{ee}}{k_BT_e}
+\label{Electroncoupling}
+\end{align}
+with the average thermal energy of the electrons $k_BT_e$ and the electrostatic energy between two neighboring electrons $V_{ee}=e^2/(4\pi\varepsilon_0R_e)$. The radius of the so called electron sphere can be calculated from the electron density to $R_e=(4\pi/3 n_e)^{-1/3}$.
+The coupling parameter between electrons and ions $\Gamma_{ie}$ can be calculated from $\Gamma_{ee}$ to
+\begin{align}
+\Gamma_{ie}=q\cdot\Gamma_{ee}^{~\frac{3}{2}}
+\label{EIcoupling}
+\end{align}
+The coupling parameters are therefore functions of the electron density and temperature. A strongly coupled plasma arises in the limit of high density and low temperature ($\Gamma_{ie}\geq1$ and $\Gamma_{ee}\geq0.1$ \cite{Jungreuthmayer2005}). This limit is also characterized by a short Debye length $\lambda_D$ with
+\begin{align}
+\lambda_D=\sqrt{\frac{\varepsilon_0 k_B T_e}{e^2n_e}}.
+\end{align}
+The Debye length denotes the distance over which charge fluctuations are screened by the electrons in the plasma. In cluster plasmas with a density in the order of solid density (about $10^{23}$\,m$^{-3}$), considering a kinetic energy of the electrons of 1\,keV, a typical Debye length is in the order of $\lambda_D\approx$\,5\,{\AA}.\\The degree of degeneracy $\gamma$ of a plasma can be calculated as the ratio of Fermi temperature to electron temperature. The Fermi temperature reads
+\begin{align}
+T_F=\frac{\hbar^2}{2m_e}(3\pi n_e)^{\frac{2}{3}},
+\label{Fermienergie}
+\end{align}
+therefore the degeneracy parameter $\gamma$ yields
+\begin{align}
+\gamma=\frac{T_F}{T_e}=\frac{\hbar^2(3\pi n_e)^{\frac{2}{3}}}{2m_eT_e},
+\label{Fermienergie}
+\end{align}
+A plasma with $\gamma>1$ can be considered metallized.
+
+\paragraph{Energy shifts and collision processes:}In a plasma environment, three key effects have to be considered \cite{HauRiege2011}.
+\begin{itemize}
+\item Perturbation of atomic states,
+\item Screening of long range forces,
+\item Changes in atomic transition rates.
+\end{itemize}
+These effects are in particular important in dense and strongly coupled cluster plasmas. The local electric field of the cluster, in particular the vicinity of ions and the presence of plasma electrons leads to suppression of the interatomic barriers in the plasma \cite{Fennel2007, Gets2006}. These effects are also referred to as \emph{plasma screening} \cite{Gets2006,HauRiege2011}. In first approximation, plasma screening leads to a constant shift of all energy levels and therefore to a decrease of the binding energy of electrons \cite{HauRiege2011}. In extremely dense plasmas, \emph{barrier suppression} can even result in direct inner ionization of valence electrons.
+
+Also all collision related processes are of special significance in cluster plasmas. Collisional excitation and ionization arise in particular in the presence of heating mechanisms which increase the kinetic energy of the electrons \cite{Fennel2010}. But also their counterparts, collision induced decay processes and many-body recombination play an important role in the dynamics and final states of the laser--cluster interaction. A sketch of many-body recombination is given in Fig.\,\ref{ManyBodyRecombination} \cite{Jungreuthmayer2005}. An ion interacts with several electrons at the same time. One electron is transferred into a bound state, while the excess energy and momentum are taken away by the other electrons.
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.7\textwidth,keepaspectratio=true]{Pictures/ManyBodyRecombination}
+\caption[Many-body recombination]{Many-body recombination processes can become significant in strongly coupled plasmas \cite{Jungreuthmayer2005}. An ion interacts with several electrons and one electron is transferred into a bound state. The difference in energy and momentum are taken away by the other electrons.}
+\label{ManyBodyRecombination}
+\end{center}
+\end{figure}
+Another collision-related process is collisional heating by \emph{Inverse Bremsstrahlung} (IBS). IBS is the dominant non-resonant heating process for long wavelength pulses \cite{Deiss2006,Saalmann2006,Fennel2010}. The underlying mechanism is illustrated in Fig.\,\ref{IRProcesses}\,a \cite{Deiss2006}. The process is termed Inverse Bremsstrahlung because the electrons obtain the increase in kinetic energy directly from the acceleration in the light field. The acquired kinetic energy of free electrons in a single laser cycle has been introduced in section \ref{LambdaDependentAtoms} as the ponderomotive potential (cf. Eq.\,\ref{PonderomotivePotential}). Without facing any collisions, a free electron would follow the laser field but it would loose again the kinetic energy at the end of the pulse. Only by collisions with ions a phase difference between the field and the electron motion is introduced and the total kinetic energy of the electron increases.
+
+\paragraph{Optical phenomena in finite plasmas:} At infrared and visible frequencies, the light is not able to penetrate a dense plasma and will be completely reflected. This phenomenon is referred to as \emph{opacity} of the nanoplasma. Full screening is preserved as long as $\omega_{las}<\omega_{plas}$ with the laser frequency $\omega_{las}$ and the plasma frequency
+\begin{align}
+\omega_{plas}=\sqrt{\frac{e^2n_e}{m_e\varepsilon_0}}.
+\label{Plasmafrequenz}
+\end{align}
+Therefore, in the beginning of an IR pulse, when the cluster plasma is still dense, electron heating due to IBS only plays a role in the surface region of the cluster \cite{Fennel2010}.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=1\textwidth,keepaspectratio=true]{Pictures/IRProcesses3}
+\caption[Key mechanisms of plasma heating in intense IR pulses]{Two key mechanisms can be made responsible for the effective energy transfer into clusters from intense IR fields, non-resonant and resonant heating of the electrons. a) Sketch of the time-evolution of inner ionized electrons in the laser field. Due to elastic collisions with ions, the electrons are redirected (here by $180^{\circ}$) and receive a phase shift in respect to the laser field. Energy is transferred directly from the light field to the electrons, therefore this process is referred to as \emph{inverse bremsstrahlung} (IBS) \cite{Deiss2006}. b) Time structure of resonant excitation of silver clusters in an IR double pulse \cite{Passig2012}. If the laser frequency matches the frequency of the surface plasmon, a large amount of energy can be resonantly coupled into the cluster \cite{Fennel2010}. See text for details.}
+\label{IRProcesses}
+\end{center}
+\end{figure}
+At a distinct laser frequency $\omega_{las}=\omega_{mie}$ with
+\begin{align}
+\omega_{mie}=\frac{1}{\sqrt{3}}\omega_{plas}=\sqrt{\frac{e^2n_{ion}}{3 m_e\varepsilon_0}},
+\end{align}
+a collective electron motion of the electron cloud can be excited. The so called surface or \emph{Mie plasmon} is responsible for the finding in intense IR pulses that clusters can absorb more energy per atom than atoms and bulk matter \cite{Posthumus2009,Fennel2010}. The extreme energy transfer from the light field into the plasma arises from a resonant excitation of large-amplitude oscillations of the electron cloud in respect to the ionic background. The coupling constant of this collective motion and therefore the resonant frequency depends on the ionic density $n_{ion}$. In the typical case of 800 nm IR pulses, the laser frequency is lower than the resonant frequency at the beginning of the interaction. After a distinct time the cluster is expanded up to the critical density $n_{ion,res}$, where the frequency of the Mie-plasmon matches the laser frequency and resonant absorption will occur. Therefore Mie-plasmons can not be excited in a single very short laser pulse. But the expansion time up to resonant density can be probed by either increasing the pulse length \cite{Koller1999} or in a pump-probe scheme \cite{Passig2012}. Fig.\,\ref{IRProcesses}\,b illustrates the time structure of the plasmon excitation in small silver clusters using two laser pulses with 1\,ps delay \cite{Passig2012}. The red line in the uppermost graph shows the time resolved analysis of the calculated energy absorption. The decrease in ion density and the overlap with the resonant density is displayed in the second panel in terms of the cluster radius. The progress of inner and outer ionization can be traced in the third panel. Due to the resonant excitation an increase in the total number of activated electrons due to collisional ionization but also in the outer ionization due to the efficient heating can be observed.
+
+For frequencies $\omega_{las}\gg\omega_{plas}$, the excitation of resonant motion can be excluded and the laser field will penetrate the cluster plasma from the beginning. In the limit of a finite metallized plasma ($\gamma>1$) the optical properties, which determine the propagation, can be described by the dielectric function of a metallic sphere \cite{Peltz2012,PrinciplesNanoOptics}
+\begin{eqnarray}
+\epsilon(R,\omega_{las})&=&1~+~\chi_0~-~\frac{\omega_{plas}^{~2}}{\omega_{las}^{~2}+i\cdot\omega_{las}\cdot\nu(R)}.
+\label{DielectricMetallic}
+\end{eqnarray}
+In this model, the response of the bound electrons is represented by $1-\chi_0$, condensed into the real-valued background susceptibility $\chi_0$, while the response of the electron cloud is described by the fraction $\omega_{plas}^{~2}/(\omega_{las}^{~2}+i\omega_{las}\nu)$ with the electron-ion collision frequency $\nu$ \cite{Semkat2006}.
+
+\paragraph{Expansion mechanisms:} With the end of the pulse, the deposition of energy into the cluster stops. However, the energy will be further redistributed, for example through collisions of electrons and ions leading to further collisional ionization or to recombination and relaxation.\\The self-consistent redistribution process is determined by the plasma properties, in particular the net charge, electron density and electron temperature \cite{Krainov2002}. Within the expansion, energy is transferred into the motion of ions. The increasing kinetic energy of the ions results
+\begin{itemize}
+\item from the net charge of the cluster, i.e. Coulombic repulsion and/or
+\item from the kinetic energy of the quasi-free plasma electrons.
+\end{itemize}
+These sources of ionic kinetic energy define the limits of the two key expansion mechanisms, pure \emph{Coulomb explosion} and \emph{hydrodynamic expansion}. If many electrons are outer ionized, the net charge results in Coulomb explosion. If on the other hand a considerable number of activated electrons is confined in a nanoplasma, expansion driven by hydrodynamic forces will dominate \cite{Ditmire1998, Milchberg2001}. The latter process results in cooling of the electron cloud and electrons may recombine. Depending on the temporal evolution of ion density and electron temperature, recombination can be an important process accompanying hydrodynamic expansion \cite{Arbeiter2011}. Typically both mechanisms contribute to the disintegration of clusters  \cite{Lezius1998}.
+
+The final ion charge state and energy distribution can give information on the underlying expansion process. However, deducing the dominant expansion mechanism from the distributions of ion kinetic energies is a much-discussed topic \cite{Ditmire1996,Ditmire1997,Ditmire1998,Lezius1998,Milchberg2001,Sakabe2006,Posthumus2009,Thomas2009,Arbeiter2011}. A major difficulty of interpreting the kinetic energy distribution of ions arises from the averaging over many different intensities in the focus profile and different cluster sizes in the probed ensemble of clusters \cite{Ishikawa2000,Islam2006}. The interrelationship between kinetic energy and charge state of ions and implications for the expansion process will be further discussed in the analysis of ion spectra from single clusters of defined size and power density in section \ref{RecombinationVsExpansion}.\\The subsequent paragraph gives an overview of previous experiments on clusters in short-wavelength pulses from the FLASH free-electron laser in the range from 10\,eV to 100\,eV photon energy and the linear coherent light source LCLS around 1\,keV. Interpretations of the effects according to the current understanding are given with an emphasis on recombination and expansion processes.
+
+\subsection{Rare gas clusters in intense short-wavelength pulses}
+\label{ExpClustersInIntenseLaserPulses}
+\paragraph{Results in the VUV-range:}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.85\textwidth,keepaspectratio=true]{Pictures/VUVexperiments}
+\caption[Xenon clusters in intense VUV pulses]{Xenon clusters in intense VUV pulses. a) Ion spectra of atomic gas and different cluster sizes. At 100\,nm wavelength charge states up to Xe$^{8+}$ are produced in xenon clusters with $\approx20000$ atoms \cite{Wabnitz2002}. b) Electron spectra of small xenon clusters reveal a Boltzmann-like structure, pointing towards efficient heating processes \cite{Laarmann2005}.}
+\label{VUVexperiments}
+\end{center}
+\end{figure}
+Rare gas clusters have been the first targets to be studied in the light of the FLASH free-electron laser \cite{Wabnitz2002}. The results are displayed in Fig.\,\ref{VUVexperiments}\,a. At a photon energy of 13\,eV and moderate power densities up to $8\cdot10^{12}$\,W/cm$^2$ \cite{Bostedt2010} the ion spectra of atomic xenon gas and clusters from a few up to $10^4$ atoms were measured. For largest cluster sizes charge states up to Xe$^{8+}$ were observed, while atomic gas could be only singly ionized ($I_p$=12.1\,eV). Fig.\,\ref{VUVexperiments}\,b shows electron spectra of small xenon clusters at the same photon energy. They revealed a Boltzmann-like distribution of kinetic energies up to 40\,eV \cite{Laarmann2005}. Reference measurements on atomic xenon gas show only small kinetic energies of the photoelectrons below 1\,eV (lower panel of Fig.\,\ref{VUVexperiments}\,b). Therefore, the kinetic energies of the electrons indicate heating of the electrons in the cluster environment.\\In particular heating processes had been expected to be insignificant at 100\,nm wavelength from heating rates valid in the infrared \cite{Krainov2002}. The results inspired several subsequent theoretical studies leading to improvements of the underlying models \cite{Santra2003,Bauer2004,Siedschlag2004,Jungreuthmayer2005,Ziaja2009}. According to the current understanding, the efficient energy absorption of clusters in VUV pulses results from IBS heating which is still efficient in a strongly coupled plasma at 100\,nm wavelength. Generation of singly charged ions happens through single photon absorption. Due to barrier suppression, also Xe$^{2+}$ is generated in the cluster environment. In the strongly coupled plasma, three- and many-body collisions become very frequent processes, allowing for efficient heating of the electrons and subsequent collisional ionization. The self-amplifying effect of barrier suppression resulting from the ionized cluster environment and subsequently increased collisional ionization rates is termed \emph{ionization ignition} \cite{Bauer2004}. Also an additional heating mechanism based on a cyclic process of many-body recombination and reabsorbtion of photons has been proposed \cite{Jungreuthmayer2005}.
+
+\paragraph{Electron and ion spectra of XUV-excited clusters:}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.95\textwidth,keepaspectratio=true]{Pictures/MultistepElectrons3}
+\caption[Cluster ionization at 38\,eV can be described by sequential multistep absorption.]{Cluster ionization at 38\,eV can be described by sequential multistep absorption. a) Electron spectra from argon clusters irradiated with different FEL power densities ($E_{phot}=38$\,eV) reveal a strong feature at 22\,eV, equivalent to the atomic photo line. With increasing power density, a plateau-like structure towards lower kinetic energies appears \cite{Bostedt2008}. b) The plateau structure can be traced in a simple Monte Carlo model calculation as a sequential absorption of photons \cite{Bostedt2008}. The kinetic energy of the sequence of outer ionized electrons decreases, adding up to plateau-like electron spectra. c) The deviation towards lower kinetic energies from the simple model at highest intensities can be explained as contribution from thermal plasma electrons. The energy correlation analysis between final kinetic energy of electrons and their single particle energy at the instant of birth reveals evaporation of thermalized electrons from a deep Coulomb potential \cite{Arbeiter2010}.}
+\label{MultistepElectrons}
+\end{center}
+\end{figure}
+
+In contrast to the results in the VUV range, where IBS heating plays still a major role, first experiments at 38\,eV photon energy revealed negligible heating of electrons from the light field \cite{Bostedt2008}. Electron spectra of small argon clusters ($N\approx100$) obtained at different FEL intensities are displayed in Fig.\,\ref{MultistepElectrons}\,a. The prominent feature for all intensities is the photo line of argon at $h\nu-I_p=22$\,eV. With increasing intensity a plateau-like structure towards smaller kinetic energies evolves. This plateau constitutes the characteristic feature of \emph{multistep ionization}. This process denotes the sequential absorption of single photons and emission of electrons with stepwise less kinetic energy due to the increasing Coulomb potential (cf. Fig.\,\ref{MultistepElectrons}\,b). Full frustration of outer ionization is reached for a distinct number of ionization steps, depending on the difference between photon energy and ionization potential (cf. also Eq.\,\ref{neout}).\\Only when this number is exceeded, a nanoplasma builds up and the confined electrons can thermalize by collisions. As plasma heating processes are negligible in the XUV range, the temperature of the electron cloud is determined by the excess energy from the photoionization process, which is the only supply of kinetic energy. This concept is termed \emph{ionization heating} \cite{Arbeiter2010}. The tail of the thermalized electron distribution can be evaporated from the cluster, as displayed in Fig.\,\ref{MultistepElectrons}\,c. This contribution from plasma electrons, which overcome a Coulomb potential as deep as 100\,eV \cite{Arbeiter2010} explains the increase towards lower kinetic energies in the uppermost electron spectrum of Fig.\,\ref{MultistepElectrons}\,a.\\
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth,keepaspectratio=true]{Pictures/Xe90eV2}
+\caption[Results from electron and ion spectra of small xenon clusters at 90\,eV]{a) Electron spectra of xenon clusters with $\approx2000$ atoms reveal a combination of a multistep feature and a thermal distribution. The clusters were irradiated in 90\,eV pulses at different FEL intensities \cite{Bostedt2010electrons}. b) The mean electron energy increases with the density of the electrons and therefore with the number of photoionization processes. c) Quadratic increase of the central kinetic energy per charge state. Xenon clusters with different sizes from $\approx50-7800$ atoms were irradiated in 90\,eV pulses with an intensity of $5\cdot10^{14}$\,W/cm$^2$ \cite{Thomas2009}.}
+\label{Xe90eV}
+\end{center}
+\end{figure}
+
+The interplay between multistep and thermal emission of electrons became even more prominent in experiments on xenon clusters at 90\,eV photon energy \cite{Bostedt2010electrons}. The photoelectron spectra of clusters with $\approx2000$ atoms for different FEL intensities are displayed in Fig.\,\ref{Xe90eV}\,a. The spectrum at lowest intensities resembles the spectra of argon clusters at 38\,eV. At 90\,eV excitation energy, the first innershell of xenon is mainly addressed by photoionization. The $4d$ photo line at 20\,eV and the Auger line at 32\,eV are accompanied by a multistep plateau towards lower kinetic energy. With increasing intensity a prominent second component with a Boltzmann-like distribution arises in the electron spectra. Due to the high cross-section of xenon (cf. also section \ref{OpticalXeProp}) a plasma with supra-atomic density evolves. At an intensity of $6\cdot10^{14}$\,W/cm$^2$ the distribution of thermally evaporated electrons reaches up to 90\,eV kinetic energy. By fitting the thermal component of the energy distribution, the increasing density and average kinetic energy of the electrons were extracted. The increase of the mean energy with electron density, which is presented in Fig.\,\ref{Xe90eV}\,b, is again a signature of the dominant contribution of ionization heating to the plasma temperature.
+
+The ionization and expansion dynamics of xenon clusters in 90\,eV pulses were also studied by means of ion spectroscopy \cite{Thomas2009}. Clusters with different sizes from $\approx50-7800$ atoms irradiated with an intensity of $5\cdot10^{14}$\,W/cm$^2$ revealed charge states up to Xe$^{10+}$ with kinetic energies of the ions reaching 3.5\,keV. A quadratic increase of the central ion kinetic energy with the charge state was found, as displayed in Fig.\,\ref{Xe90eV}\,c. Simulations of the ion spectra based on a simple electrostatic model indicate radial changes in the average charge state. Therefore, the kinetic energy distributions of the ions were interpreted as a Coulomb exploding outer shell and a plasma core which expands hydrodynamically.\\Redistribution of charges within the cluster and effective recombination of the fully screened cluster core could also be traced in experiments using doped clusters \cite{Hoener2008}. In clusters with a xenon core and an argon shell, irradiated with 90\,eV pulses, only highly charged argon was detected. The xenon atoms in the core are expected to contribute most of the nanoplasma electrons, as the ionization cross section is 10 times larger than for the argon shell. The absence of higher xenon charge states in the ion spectra indicates a strong recombination of the screened cluster core.
+
+\paragraph{Signatures of different expansion mechanisms:} The structure of the electron spectra obtained in the XUV range emphasizes the importance of the element specific electronic structure for the ionization and electron emission processes. The main features reflect the binding energies of the electrons while the difference between binding energy and excitation energy predefines the onset of plasma formation. On the other hand, the absorption cross-sections are responsible for the plasma density at a certain FEL intensity. Both together, the net charge on the cluster and the plasma density, ultimately determine the contributing expansion mechanisms \cite{Arbeiter2011}.\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.9\textwidth,keepaspectratio=true]{Pictures/VUVXUVsoftxray2}
+\caption[From hydrodynamic expansion to Coulomb explosion]{Calculated a) expansion dynamics, b) electron spectra and c) ion spectra of argon clusters ($N=923$) in laser pulses with an excitation energy of 20\,eV (left column), 32\,eV (middle column) and 90\,eV (right column). A transition of the dominating expansion mechanism from hydrodynamic expansion to Coulomb explosion with decreasing frustration parameter $\alpha$ from 100 to 1 is observed. See text for details. Adapted from \cite{Arbeiter2011}.}
+\label{VUVXUVsoftxray}
+\end{center}
+\end{figure}
+
+The transition from hydrodynamic expansion to Coulomb explosion for increasing energetic distance between excitation energy and accessible atomic resonances in the short wavelength regime have been studied theoretically \cite{Arbeiter2011}. The respective expansion dynamics and their signature in electron and ion spectra are displayed in Fig.\,\ref{VUVXUVsoftxray}. Argon clusters with $N=923$ were simulated for excitation with 20\,eV, 38\,eV, and 90\,eV photon energy. For comparability of the three cases, the total amount of absorbed energy was held constant. A simple frustration parameter $\alpha$ is introduced, which is defined as the ratio of activated (=inner+outer ionized) to critical number of electrons which can leave the cluster (cf. Eq.\,\ref{neout})
+\begin{align}
+\alpha~=~\frac{n_{e,total}}{n_{e,out}}.
+\end{align}
+It denotes the neutrality of the plasma and was found to be a good measure to specify the dominant expansion mechanism. The temporal evolution of the cluster explosion as increasing distance in between the six geometric shells of the cluster with 923 atoms is displayed in Fig.\,\ref{VUVXUVsoftxray}\,a. In the right panel, for $\alpha\approx1$, the clusters undergo pure Coulomb explosion, as all activated electrons are able to leave the cluster. In contrast, the left panel for a value of $\alpha\approx100$ indicates a plasma-driven cluster expansion, with an ejection of the outer shells due to hydrodynamic forces. For values in between, as displayed in the middle panel for $\alpha\approx10$, a combination of both processes will appear, where the inner part of the cluster is efficiently screened and an outer shell can explode off.
+
+The graphs in Fig\,\ref{VUVXUVsoftxray}\,b show, that the transition from hydrodynamic expansion to Coulomb explosion can be traced in the electron spectra. While the Boltzmann-like distribution of thermally evaporated electrons corresponds to hydrodynamic expansion, a multistep feature is accompanied by Coulomb explosion. The simulations were also analyzed in terms of the kinetic energy distributions of the ion charge states, the results are displayed in Fig\,\ref{VUVXUVsoftxray}\,c. The signatures of a transition in the leading expansion mechanism appears to be less clear in the ion spectra. However, the important role of recombination for the final ion distribution in the hydrodynamic case can be traced in the left panel of Fig\,\ref{VUVXUVsoftxray}\,c by comparing dashed (no recombination) and solid (with recombination) lines.\\As the frustration parameters of the xenon clusters irradiated with 90\,eV pulses \cite{Thomas2009} which have been displayed above in Fig\,\ref{Xe90eV}c range from 40 to 1500, the results of the study by Arbeiter and Fennel \cite{Arbeiter2011} would indicate a contribution from Coulomb explosion only for smaller cluster sizes.
+
+\paragraph{Single shot scattering on single particles in the XUV:} \begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth,keepaspectratio=true]{Pictures/ChristophStreupaper2}
+\caption[Scattering experiments on individual xenon clusters at 90\,eV photon energy.]{Scattering experiments on individual xenon clusters at 90\,eV photon energy reveal an over-proportional increase of the scattering signal at large angles for increasing pulse intensity. By modeling the data with Mie's theory, the refractive index can be extracted from the scattering patterns, indicating a strong increase in the absorption related imaginary part $\beta$. Adapted from \cite{Bostedt2012}.}
+\label{ChristophStreupaper}
+\end{center}
+\end{figure}Single large clusters in the gas phase were imaged for the first time in single 90\,eV pulses at the FLASH free-electron laser \cite{Bostedt2012}. The scattering patterns of individual clusters with radii of $150\pm40$\,nm revealed an over-proportional increase of the scattering signal at large angles for increasing pulse intensity from $8\cdot10^{12}$ to $4\cdot10^{13}$\,W/cm$^2$ as displayed in Fig.\,\ref{ChristophStreupaper}\,a. The data were modeled with Mie theory for a homogeneous sphere. A strong increase in the imaginary part of the refractive index was found, which is shown in Fig.\,\ref{ChristophStreupaper}\,b. Such an increase in $\beta$ corresponds to a tenfold increase of the absorption in the cluster above the bulk-value of xenon. The observations were interpreted as a transiently high abundance of the resonant charge state Xe$^{4+}$. These results will be further discussed in this work in section \ref{SizeSortedScatteringPatterns}.
+
+The finding of intensity dependent changes in the scattering signal shows the capability of single particle scattering experiments to gain insight into ultrafast plasma processes \cite{Bostedt2012}. The dominant role of element specific electronic properties for the dynamics of clusters in intense short wavelength pulses, in particular in the vicinity of atomic resonances, manifests itself even more prominently in scattering experiments than in spectroscopy measurements of electrons and ions.
+
+\paragraph{First results from the soft X-ray regime:}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth,keepaspectratio=true]{Pictures/TaisPaper4}
+\caption[Suppressed recombination of clusters in soft X-ray pulses]{a) The scattering patterns of single clusters in soft X-ray pulses are used to sort the data for cluster size and FEL intensity. Scattering patterns of three clusters with $R\approx30$\,nm exposed to different FEL intensities are shown. b) The corresponding ion spectra differ radically. Spectrum (III), taken at $\approx10^{14}$\,W/cm$^2$ reveals only singly charged xenon ions. For two orders of magnitude more power density, the charge states in spectrum (I) peak around xenon $26+$. Low charge states are virtually absent. c) The different intensities of cases (I), (II), and (III) correspond to different position of the respective clusters in the focus profile. d) The signatures are less clear in averaged data over ensembles of clusters in the focus profile. The spectra taken at different pulse energies comparable to the single shots above are completely dominated by lower charge states and show only small differences at higher charge states. In addition, comparison with an atomic spectrum hints towards a considerable contribution in the averaged cluster signal from the uncondensed part of the beam. \cite{Gorkhover2012}}
+\label{TaisPaper}
+\end{center}
+\end{figure}
+With the recent upcoming of LCLS as the first free-electron laser reaching into the X-ray regime (see also section \ref{FLASHFEL}), first insight into X-ray induced cluster dynamics could be gained. In the regime of 1\,keV excitation energy, inner shell electrons are mainly addressed by photo ionization processes. In atoms, shorter pulses with the same number of photons result in a decrease of energy absorption \cite{Saalmann2006,Young2010}. The reason for this effect referred to as \emph{hollow atom} is a competition between the Auger lifetime of the inner-shell vacancy and the pulse length. Only if the inner-shell vacancy has been refilled by an Auger decay, more photons can be absorbed. This transient transparency to X-ray photons was found to be further increased in clusters \cite{Schorb2012}. Due to efficient barrier suppression in the highly ionized cluster, the valence electrons become delocalized. This yields in a decreased overlap with the inner-shell states and subsequently longer Auger lifetimes \cite{Schorb2012, SchorbDiss}.\\These findings might become important for future imaging of single molecules with atomic resolution. The constraints for the pulse duration before the structures are washed out were predicted to be limited by the lifetimes of inner-shell vacancies \cite{Son2011}.
+
+By combining single shot scattering on single clusters with coincident spectroscopy measurements, a new method for studying ionization dynamics of clusters on perfectly defined systems was developed. The first coincident single cluster imaging and ion spectroscopy measurements on clusters were carried out at a photon energy of 800\,eV \cite{Gorkhover2012}. The interaction of single xenon clusters with the soft X-ray pulses was studied by means of ion spectroscopy, using the simultaneously taken scattering patterns to sort for cluster size and power density. The results are shown in Fig. \ref{TaisPaper}. Three data sets are displayed consisting of the scattering patterns (Fig. \ref{TaisPaper}\,a) and the ion spectra (Fig. \ref{TaisPaper}\,b) of individual xenon clusters with 30\,nm radius exposed to FEL intensities between $10^{14}$ and $10^{16}$\,W/cm$^2$. The corresponding ion spectra differ radically. Spectrum (III) taken at $\approx10^{14}$\,W/cm$^2$ exhibits only singly charged xenon ions, while the charge states in spectrum (I) at $10^{16}$\,W/cm$^2$ reveal a rather narrow distribution around xenon $26+$. Low charge states are virtually absent.\\This finding can be understood as efficient suppression of recombination in the hot nanoplasma. The xenon atoms in the cluster become highly ionized in a sequence of single absorption steps from inner-shell electrons followed by subsequent Auger cascades. High excess energies result in high kinetic energies of the electrons. Even though less than $1\%$ of the photo-activated electrons for case (I) become outer-ionized, the competition between cluster expansion and cooling of the electrons, i.e. decrease in ion density and increase in recombination probability is shifted towards a freeze-out of recombination processes.\\In contrast, the averaged spectra shown in Fig. \ref{TaisPaper}\,d, which contain the information from a large ensemble of clusters distributed over the focus profile reveal a by no means clear signature. The spectra were taken at an average focal intensity corresponding to the cases (I) and (II). Both are dominated by low charge states from the wings of the focal profile. Slight differences appear at high charge states, however, they can not be clearly distinguished from atomic signal from the uncondensed part of the cluster beam, as indicated by comparison with the atomic ion spectrum.
+
+These findings emphasize the possibilities of coincident single shot scattering of single clusters and spectroscopy measurements to study light-induced dynamics in clusters under well defined experimental conditions \cite{Gorkhover2012}. The setup for simultaneous imaging and ion spectroscopy of single clusters at the FLASH free-electron laser which was developed in the framework of this thesis will be described in the next section. 
