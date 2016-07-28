@@ -123,17 +123,93 @@ Rare gase clusters have been used as nanosample in this study and this chapter w
 %%%%%%
 %- the theory behind rare gas cluster creation.
 %%%%%%
-Rare gas clusters, for example xenon clusters, can be generated through a variety of ways. Most commonly are often generated through a supersonic jet expansion \cite{Farges-1983-JCP}, although other app. A schematic setup of this can be found in FIGURE \ref{CITEBOOK1988}. Supersonic jets have had a tremendous success in generating mesoscopic sized clusters \cite{Rupp-2014-JCP} and we will focus the discussion on this particular cluster generation method.\\
-The fundamental process of rare-gas cluster generation can be described through a kinetic model \cite{Lippmann-1984-JCP}, where atoms and clusters grow through collisions. The binding force is the Van der Waals interaction. The early stage of a cluster growth is described the reaction formula
+Rare gas clusters, for example xenon clusters, can be generated through a variety of ways. While there are many ways to explain the cluster formation process, a kinetic model \cite{Lippmann-1984-JCP} gives a very intuitive way in the microscopic processes. In this kinetic model, atoms and clusters grow through collisions. We can express these collisions mathematically through the following reaction formula
 \begin{align}
 A_{n}+A \rightleftharpoons A_{n+1}^{*},\quad n=1,2,...,\quad \mathrm{monomer\ collision,}
 \intertext{where a body $A_{n}$ collides with a monomer $A$ and form a metastable state $A_{n+1}^{*}$ that will dissociate if not a subsequent collision deactivates it}
 A_{n+1}^{*}+M\rightleftharpoons A_{n+1} + M,\quad \mathrm{activation/deactivation.}
 \label{eq:early-cluster-growth}
 \end{align}
-$M$ is a chaperone that can be any kind of third body that removes energy from the system. Note that a chaperone $M$ can also activate the state again.\\
+$M$ is a chaperone that can be any kind of third body that removes energy from the system. Note that a chaperone $M$ can also activate the state again. The binding force behind rare-gas clusters is the Van der Waals force, hence they are called Van der Waals cluster sometimes.\\
 While the early stage of the cluster growth is driven by the monomer addition, cluster-cluster coagulation start to dominate the later growth processes \cite{Zurek-1980-JCP,Soler-1982-PRL}. This is due to the quantitative increase in small clusters in the generation process that then start to collide, similar to above kinetic model. From empirical evidence, we know that clusters solely generated through monomer addition have a size distribution of an exponential decay, whereas larger clusters that grew through coagulation follow a log-normal distribution. So through coagulation, the density of smaller clusters (and monomers and dimers) decreases through to cluster-cluster coagulation and larger clusters are formed. The most probable size of a cluster, i.e. the maximum of the log-normal distribution, is given by the parameters of the supersonic jet setup, which is what we will discuss next.\\
-
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/freeJetExpansion.png}
+	\caption{caption}
+	\label{fig:freeJetExpansion}
+\end{figure}
+Supersonic jet setups typically store gas in a reservoir at a certain stagnation pressure $p_{0}$ and temperature $T_{0}$. The gas expands through a nozzle into a vacuum and figure \ref{fig:freeJetExpansion} shows a schematic drawing of this process. Typical values for $p_{0}$ are 10 bars, where the mean free path of the atoms is much smaller than the nozzle diameter D. This is why many collisions occur during the expansion in the nozzle and the above described kinetic theory explains the cluster formation. However, this holds not true in the supersonic molecular flow region, where no further cluster growth happens. To understand the expansion process in detail, we assume to work with an ideal gas and to describe the gas expansion itself, we further assume that no clusters are formed and that turbulence and effects of heat conduction are unimportant \cite{Yamada-2001-SciDir,Haberland-1994-Springer}.\\
+To begin, the velocity distribution of the gas follows a Maxwell-Boltzman distribution with a mean velocity $\bar{v}$ that we can write down as
+\begin{equation}
+\bar{v}=\sqrt{\frac{2 k_{B}T_{0}}{m_{gas}}},
+\label{eq:boltzman-mean-velo}
+\end{equation}
+with the Boltzman constant $k_{B}$ and the atomic mass of the gas $m_{gas}$. The movement direction of each atom is randomly orientated. Let us also define the enthalpy $H_{0}$ in the stagnation chamber
+\begin{align}
+H_{0}=c_{p} T_{0},
+\intertext{with the specific heat $c_{p}$ for atoms}
+c_{p}=\frac{5}{2}k_{B},
+\label{eq:stagnation-enthalpy}
+\end{align}
+The expansion of the gas through the nozzle is driven by the pressure difference $p_{vac}/p_{0}$. In the nozzle, the (steady) gas flow becomes directed and the enthalpy $H_{0}$ is converted into kinetic energy $\frac{1}{2}m v^{2}$ and a rest enthalpy $H$. So, in the expansion process, we can use the conservation of energy, and equation \eqref{eq:stagnation-enthalpy} we can write down
+\begin{equation}
+H_{0}=H+\frac{1}{2}m_{gas} v^{2} = c_{p}T+\frac{1}{2}m_{gas}v^{2},
+\label{eq:local-temperature}
+\end{equation}
+ with $T$ being the local temperature along the gas flow. To look at this in greater detail, let us define the Mach number $M$ as the ration of the stream velocity $v$ and the local speed of sound $c_{s}$
+\begin{equation}
+c_{s}=\sqrt{\frac{\gamma k_{B} T}{m_{gas}}}.
+\label{eq:local-speed-of-sound}
+\end{equation}
+With the ratio of specific heats $\gamma = \frac{c_{p}}{c_{v}}$ at constant pressure and volume, they can be regarded as independent of temperature for atomic gases, we can rearrange equation \ref{eq:local-temperature} to 
+\begin{equation}
+T=T_{0}\left(1+\frac{1}{2}\left(\gamma - 1\right)M^{2}\right)^{-1}.
+\label{eq:local-temperature-definition}
+\end{equation}
+Here the interplay between the Mach number $M^{2}$ and the local temperature $T$ give insight into the directed mass flow versus the remaining thermal energy in the system. As indicated the the figure \ref{fig:freeJetExpansion}, M increases dramatically along the expansion axis and that is due to decrease in speed of sound $c_{s}$ that is proportional to $\sqrt{T}$ as indicated in equation \eqref{eq:local-speed-of-sound}. Finally, this attribute has given the name to supersonic jets.\\
+Let us describe the appearance of the jet stream (see figure \ref{fig:freeJetExpansion})next. Upon exiting the nozzle, the Mach number increases by a wide margin ($M>>1$), that means that the gas travels faster than information in this medium. Here, a \textit{zone of silence} is formed, where the gas flow is not influenced by other particles, thus uninterrupted. As the supersonic flow is exiting the nozzle it has to turn around the edge of the nozzle to further expand and the supersonic flow turns by actually creating smaller Mach waves. At the borders of the \textit{zone of silence}, $M$ decreases drastically resulting in dense regions that are called \textit{barrel shock} to the sides and \textit{Mach disk} downstream the gas flow. For an unhindered transport of the gas and clusters to the interaction region, the interaction region needs to be within the \textit{zone of silence}. We can express the distance from the nozzle to the Mach disk through
+\begin{equation}
+\frac{x_{MD}}{d}=0.67\left(\frac{p_{0}}{p_{b}}\right)^{\frac{1}{2}}.
+\label{eq:distance-of-mach-disk}
+\end{equation}
+So the the competing stagnation pressure $p_{0}$ and the background pressure $p_{b}$ define the distance of the otherwise static parameters. Hence, $p_{b}$ needs to be low enough do drive the Mach disk downstream of the interaction region. By using skimmers and physically separating the jet expansion into separately pumped compartments, the background pressure $p_{b}$ can be reduced.\\
+While we have described a cooling gas in the expansion process it should be noted that the clusters are comparably hot. Through the kinetic process described above, they are efficiently heated. The two processes to loose energy are, one, collisions with a chaperone $M$ that deactivates the cluster, or two, evaporation of monomers from the cluster. The evaporation process makes the temperature size-independent, after the clusters have reached a certain minimum size \cite{Farges-1981-SurfSci}. It is tedious and experimentally difficult to measure the temperature exactly but typically, the jet reaches temperatures of a few Kelvin and the cluster temperature is heavily dependent on their material, particular the dissociation energy. For this study relevant are mostly the temperature of Xenon cluster that is $~75K$\footnote{To put this temperature in perspective, krypton clusters are $~50K$ and argon cluster $~40K$ \cite{Farges-1981-SurfSci,Gspann-1986-Springer}. Note that in this study the cluster size was $\bar{N} > 800$, hence above the minum value to be size independent. For the evaporative cooling process to settle at a given temperature, a certain flight distance (in the cited study 6.5cm) should also be taken into account.} and the fact xenon clusters are solid because their melting temperature is higher\cite{Gspann-1986-Springer}.\\
+\begin{table}
+	\centering
+		\begin{tabular}{ | l | l | l | l | l | }
+			\hline
+			Helium & Neon & Argon & Krypton & Xenon \\ \hline
+			3.85 & 185 & 1646 & 2980 & 5554 \\ \hline
+		\end{tabular}
+	\caption{Parameter K values for rare gases \cite{TBD}.}
+	\label{tab:k-parameter}
+\end{table}
+At the current point of the discussion, it should shine out that the average cluster size is very much depended on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$ and the nozzle type. Indeed, an empirically found scaling law named after Hagena \cite{TBD}, can be written down as
+\begin{equation}
+\Gamma^{*} = K T_{0}^{0.25q-1.5} p_{0} d_{eq}^{q},
+\label{eq:Hagena-parameter}
+\end{equation}
+with the gas specific parameter K that can be found in table \ref{k-parameter} for some rare gases, the gas specific parameter $q$ that varies between 0.5 and 1 and is 0.85 for all rare-gases, and the equivalent nozzle opening $d_{eq}$ that is $d_{eq}=d$ for pinhole sources and for conical nozzles $d_{eq}$ reads
+\begin{equation}
+d_{eq} = d\frac{\tan\left(\Phi_{0}\right)}{\tan\left(\Phi\right)}
+\label{eq:equivalent-nozzle-opening}
+\end{equation}
+with the half opening angle of the nozzle $\Phi$ and the half opening of the free gas expansion $\Phi_{0}$. The Hagena scaling parameter $\Gamma^{*}$ allows us to estimate the mean cluster size, i.e. amount of accumulated particles per cluster $<N>$, as follows
+\begin{itemize}
+	\item $\Gamma^{*} < 350$, no cluster formation observed.
+	\item $350 < \Gamma^{*} < 1800$, in this region $<N>$ reads
+		\begin{equation}
+		<N> = 38.4 \left(\frac{\Gamma^{*}}{1000}\right)^{1.64}
+		\label{eq:intermediate-hagena-scaling}
+		\end{equation}
+	\item $1800 < \Gamma^{*}$, in this region $<N>$ reads
+		\begin{equation}
+		<N> = 33.0 \left(\frac{\Gamma^{*}}{1000}\right)^{2.35}
+		\label{eq:}
+		\end{equation}
+\end{itemize}
+Supersonic jets generally create clusters of different sizes. This size distribution is centered around $<N>$ and for solid rare gas clusters, this distribution is a log-normal distribution. The size distribution can be an experimental challenge, especially when size dependent effects are investigated. Free electron laser allow the determination of the size of a single cluster through a diffraction image and by measuring enough single clusters, one can reproduce size distributions as in figure \ref{Figure-size}. Historically, electron diffraction \cite{TBD} and interferometric approaches \cite{TBD} have been used to determine the size of clusters.\\
+Experiments using supersonic jets for cluster generation are typically performed with pulsed valves to decrease cost and gas load in the overall system. Upon opening and closing of the valve, the gas density varies. This mostly affects the cluster size and one would expect to see smaller clusters. This remains true in the beginning of the pulse but in the \textit{afterpulse} one finds giant clusters that exceed the above described scaling laws \cite{Rupp-2014-JCP}.
 %
 %
 %

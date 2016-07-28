@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{25}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -203,29 +203,6 @@ Nina~V. Krainyukova.
 \newblock ISSN 00406090.
 \newblock \doi{10.1016/j.tsf.2006.05.041}.
 
-\bibitem[Farges(1983)]{Farges-1983-JCP}
-J.~Farges.
-\newblock {Noncrystalline structure of argon clusters. I. Polyicosahedral
-  structure of ArN clusters, 20{\textless}N{\textless}50}.
-\newblock \emph{The Journal of Chemical Physics}, 78\penalty0 (8):\penalty0
-  5067, 1983.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.445375}.
-\newblock URL \url{http://link.aip.org/link/?JCP/78/5067/1{\&}Agg=doi}.
-
-\bibitem[Rupp et~al.(2014)Rupp, Adolph, Fl??ckiger, Gorkhover, M{\"u}ller,
-  M{\"u}ller, Sauppe, Wolter, Schorb, Treusch, Bostedt, and
-  M{\"o}ller]{Rupp-2014-JCP}
-Daniela Rupp, Marcus Adolph, Leonie Fl??ckiger, Tais Gorkhover, Jan~Philippe
-  M{\"u}ller, Maria M{\"u}ller, Mario Sauppe, David Wolter, Sebastian Schorb,
-  Rolf Treusch, Christoph Bostedt, and Thomas M{\"o}ller.
-\newblock {Generation and structure of extremely large clusters in pulsed
-  jets}.
-\newblock \emph{Journal of Chemical Physics}, 141\penalty0 (4), 2014.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.4890323}.
-\newblock URL \url{http://dx.doi.org/10.1063/1.4890323}.
-
 \bibitem[Lippmann et~al.(1984)Lippmann, Schieve, and
   Canestaro]{Lippmann-1984-JCP}
 D.~Lippmann, W.~C. Schieve, and C.~Canestaro.
@@ -253,5 +230,44 @@ J.~M. Soler, N.~Garc\'{\i}a, O.~Echt, K.~Sattler, and E.~Recknagel.
 \newblock \emph{Phys. Rev. Lett.}, 49:\penalty0 1857--1860, Dec 1982.
 \newblock \doi{10.1103/PhysRevLett.49.1857}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.49.1857}.
+
+\bibitem[Yamada(2001)]{Yamada-2001-SciDir}
+I~Yamada.
+\newblock \emph{{Materials processing by gas cluster ion beams}}, volume~34.
+\newblock 2001.
+\newblock ISBN 0927-796X.
+\newblock \doi{10.1016/S0927-796X(01)00034-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0927796X01000341}.
+
+\bibitem[Farges et~al.(1981)Farges, de~Feraudy, Raoult, and
+  Torchet]{Farges-1981-SurfSci}
+J.~Farges, M.~F. de~Feraudy, B.~Raoult, and G.~Torchet.
+\newblock {Structure and temperature of rare gas clusters in a supersonic
+  expansion}.
+\newblock \emph{Surface Science}, 106\penalty0 (1-3):\penalty0 95--100, 1981.
+\newblock ISSN 00396028.
+\newblock \doi{10.1016/0039-6028(81)90186-2}.
+
+\bibitem[Gspann(1986)]{Gspann-1986-Springer}
+J~Gspann.
+\newblock \emph{{On the Phase of Metal Clusters}}, pages 43--45.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1986.
+\newblock ISBN 978-3-642-71571-6.
+\newblock \doi{10.1007/978-3-642-71571-6_7}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-71571-6{\_}7}.
+
+\bibitem[Rupp et~al.(2014)Rupp, Adolph, Fl??ckiger, Gorkhover, M{\"u}ller,
+  M{\"u}ller, Sauppe, Wolter, Schorb, Treusch, Bostedt, and
+  M{\"o}ller]{Rupp-2014-JCP}
+Daniela Rupp, Marcus Adolph, Leonie Fl??ckiger, Tais Gorkhover, Jan~Philippe
+  M{\"u}ller, Maria M{\"u}ller, Mario Sauppe, David Wolter, Sebastian Schorb,
+  Rolf Treusch, Christoph Bostedt, and Thomas M{\"o}ller.
+\newblock {Generation and structure of extremely large clusters in pulsed
+  jets}.
+\newblock \emph{Journal of Chemical Physics}, 141\penalty0 (4), 2014.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.4890323}.
+\newblock URL \url{http://dx.doi.org/10.1063/1.4890323}.
 
 \end{thebibliography}

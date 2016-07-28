@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.25)  25 JUL 2016 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.25)  28 JUL 2016 15:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -1522,7 +1522,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...2}pnCCD photon detectors}{21}{section.4.2}
+l.33 ...2}pnCCD photon detectors}{25}{section.4.2}
                                                    [5
 
 
@@ -1564,7 +1564,11 @@ l.77 \listoftables
                    [10
 
 
-] (main.lot)
+] (main.lot
+
+Package natbib Warning: Citation `TBD' on page  undefined on input line 5.
+
+)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -1597,12 +1601,12 @@ Underfull \vbox (badness 1365) has occurred while \output is active []
 
 ]
 chapter 2.
-<images/aerial-view-lcls.jpg, id=416, 986.7264pt x 337.7418pt>
+<images/aerial-view-lcls.jpg, id=421, 986.7264pt x 337.7418pt>
 File: images/aerial-view-lcls.jpg Graphic file (type jpg)
  <use images/aerial-view-lcls.jpg>
 Package pdftex.def Info: images/aerial-view-lcls.jpg used on input line 18.
 (pdftex.def)             Requested size: 418.25555pt x 143.15958pt.
- [5] [6 <./images/aerial-view-lcls.jpg>] <images/Undulator.png, id=439, 1606.0pt x 1011.78pt>
+ [5] [6 <./images/aerial-view-lcls.jpg>] <images/Undulator.png, id=444, 1606.0pt x 1011.78pt>
 File: images/Undulator.png Graphic file (type png)
  <use images/Undulator.png>
 Package pdftex.def Info: images/Undulator.png used on input line 36.
@@ -1620,7 +1624,7 @@ LaTeX Warning: Reference `FIGURE' on page 10 undefined on input line 72.
 
 Package natbib Warning: Citation `UNPUBLISHED' on page 10 undefined on input line 72.
 
-[10] [11] <images/Albertos-pump-probe-scheme.png, id=499, 1001.7425pt x 296.10625pt>
+[10] [11] <images/Albertos-pump-probe-scheme.png, id=503, 1001.7425pt x 296.10625pt>
 File: images/Albertos-pump-probe-scheme.png Graphic file (type png)
 
 <use images/Albertos-pump-probe-scheme.png>
@@ -1630,7 +1634,7 @@ Package pdftex.def Info: images/Albertos-pump-probe-scheme.png used on input lin
 Underfull \vbox (badness 7759) has occurred while \output is active []
 
  [12 <./images/Albertos-pump-probe-scheme.png>]
-<images/Agos-pump-probe-scheme.png, id=517, 961.5925pt x 397.485pt>
+<images/Agos-pump-probe-scheme.png, id=521, 961.5925pt x 397.485pt>
 File: images/Agos-pump-probe-scheme.png Graphic file (type png)
  <use images/Agos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Agos-pump-probe-scheme.png used on input line 110.
@@ -1642,50 +1646,83 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./images/Agos-pump-probe-scheme.png>]
+<images/freeJetExpansion.png, id=548, 963.6pt x 542.025pt>
+File: images/freeJetExpansion.png Graphic file (type png)
+ <use images/freeJetExpansion.png>
+Package pdftex.def Info: images/freeJetExpansion.png used on input line 137.
+(pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
+ [15]
+Underfull \vbox (badness 1478) has occurred while \output is active []
 
-LaTeX Warning: Reference `CITEBOOK1988' on page 15 undefined on input line 126.
+ [16 <./images/freeJetExpansion.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+
+Package natbib Warning: Citation `TBD' on page 18 undefined on input line 184.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
+Package natbib Warning: Citation `TBD' on page 18 undefined on input line 184.
 
- []
 
-[15] [16]) [17]
+Package natbib Warning: Citation `TBD' on page 18 undefined on input line 187.
+
+[18]
+
+LaTeX Warning: Reference `k-parameter' on page 19 undefined on input line 192.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 199.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 199.
+
+
+LaTeX Warning: Reference `Figure-size' on page 19 undefined on input line 211.
+
+
+Package natbib Warning: Citation `TBD' on page 19 undefined on input line 211.
+
+
+Package natbib Warning: Citation `TBD' on page 19 undefined on input line 211.
+
+[19] [20]) [21]
 \openout2 = `experimental_setup.aux'.
 
- (experimental_setup.tex [18
+ (experimental_setup.tex [22
 
 
 
 
 ]
 chapter 3.
-) [19]
+) [23]
 \openout2 = `methods.aux'.
 
- (methods.tex [20
+ (methods.tex [24
 
 
 
 
 ]
 chapter 4.
-[21]) [22]
+[25]) [26]
 \openout2 = `results.aux'.
 
  (results.tex
 chapter 5.
-[23
+[27
 
 
 
 
-]) [24]
+]) [28]
 \openout2 = `summary_outlook.aux'.
 
  (summary_outlook.tex
 chapter 6.
-) [25
+) [29
 
 
 
@@ -1727,7 +1764,7 @@ chapter 7.
 ]
 chapter 8.
 )
-Package atenddvi Info: Last page = 43.
+Package atenddvi Info: Last page = 47.
  [7]
 
 Package natbib Warning: There were undefined citations.
@@ -1748,26 +1785,27 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 14304 strings out of 493334
- 214846 string characters out of 3139243
- 415737 words of memory out of 3000000
- 17354 multiletter control sequences out of 15000+200000
+ 14369 strings out of 493334
+ 216086 string characters out of 3139243
+ 416655 words of memory out of 3000000
+ 17395 multiletter control sequences out of 15000+200000
  12275 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,17n,66p,8844b,669s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (43 pages, 2316612 bytes).
+2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (47 pages, 2395101 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 513 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 831 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,6 +14,10 @@ The style file: unsrtnat.bst
 A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: acknowledgment.aux
 Database file #1: references.bib
+Warning--I didn't find a database entry for "TBD"
 Warning--I didn't find a database entry for "UNPUBLISHED"
 Warning--empty booktitle in Murphy-2012-SPIE
-(There were 2 warnings)
+Warning--can't use both volume and number fields in Yamada-2001-SciDir
+Warning--empty publisher in Yamada-2001-SciDir
+Warning--can't use both author and editor fields in Gspann-1986-Springer
+(There were 6 warnings)
