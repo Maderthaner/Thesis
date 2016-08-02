@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.25)  28 JUL 2016 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.25)  2 AUG 2016 17:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -610,9 +610,52 @@ LaTeX Info: Redefining \cite on input line 694.
 Package: titlepage 2013/08/06 v0.4d KOMA presents the title page project 
 \c@titlepage=\count105
 \titlebox=\box30
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\doclicense\doclicense.sty"
+Package: doclicense 2016/04/24 v1.5.0 Support for putting documents under a license
+
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\xifthen\xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen115
+\calc@Bdimen=\dimen116
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count108
+\calc@Cskip=\skip63
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\ifmtarg\ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count109
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read1
+)
+\doclicense@hsize=\skip64
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\doclicense\doclicense-English.ldf"
+File: doclicense-english.ldf 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
- ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
@@ -643,16 +686,16 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen115
-\Hy@linkcounter=\count106
-\Hy@pagecounter=\count107
+\@linkdim=\dimen117
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count108
+\Hy@SavedSpaceFactor=\count112
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -666,17 +709,17 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count109
+\c@Hy@tempcnt=\count113
 
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen116
-\Fld@menulength=\count110
-\Field@Width=\dimen117
-\Fld@charsize=\dimen118
+\XeTeXLinkMargin=\dimen118
+\Fld@menulength=\count114
+\Field@Width=\dimen119
+\Fld@charsize=\dimen120
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -686,9 +729,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode ON on input line 6370.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count111
-\c@Item=\count112
-\c@Hfootnote=\count113
+\Hy@abspage=\count115
+\c@Item=\count116
+\c@Hfootnote=\count117
 )
 
 Package hyperref Message: Driver: hpdftex.
@@ -696,29 +739,29 @@ Package hyperref Message: Driver: hpdftex.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
 Package hyperref Info: \pdfminorversion:=4 on input line 217.
-\HyAnn@Count=\count114
-\Fld@listcount=\count115
-\c@bookmark@seq@number=\count116
+\HyAnn@Count=\count118
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip65
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 61.
-Package hyperref Info: Option `unicode' set `true' on input line 61.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 62.
+Package hyperref Info: Option `unicode' set `true' on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
 File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 61.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 61.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 61.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 61.
-Package hyperref Info: Option `colorlinks' set `false' on input line 61.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 62.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 62.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 62.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 62.
+Package hyperref Info: Option `colorlinks' set `false' on input line 62.
 
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfx\pdfx.sty
 Package: pdfx 2016/02/04 v1.5.6 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
@@ -735,7 +778,7 @@ Package hyperref Info: Option `unicode' set `true' on input line 190.
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfx\l8uenc.def
 File: l8uenc-luatex.def 2015/05/16 v0.1 Custom LaTeX file
 )
-\pdfxsafeforxmp@toks=\toks22
+\pdfxsafeforxmp@toks=\toks24
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-pdfdoc.def"
 File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
@@ -1377,56 +1420,86 @@ Package hyperref Info: Option `unicode' set `true' on input line 834.
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfx\glyphtounicode-cmr.tex)
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\xmpincl\xmpincl.sty
 Package: xmpincl 2008/05/10 v2.2 Include XMP data in pdflatex
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))
+)
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfx\8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
 Using XMP template file: pdfa.xmp
 \xmpinclWrite=\write3
-\xmpinclRead=\read1
+\xmpinclRead=\read2
 \openout3 = `pdfa.xmpi'.
 
-<<pdfa.xmpi>>) (main.aux (titlepage.aux) (license.aux) (abstract.aux) (Kurzfassung.aux) (introduction.aux)
-(fundamental_concepts.aux) (experimental_setup.aux) (methods.aux) (results.aux) (summary_outlook.aux) (bibliography.aux)
-(appendix.aux) (acknowledgment.aux))
+<<pdfa.xmpi>>) (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
+Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
+\csq@reset=\count121
+\csq@gtype=\count122
+\csq@glevel=\count123
+\csq@qlevel=\count124
+\csq@maxlvl=\count125
+\csq@tshold=\count126
+\csq@ltx@everypar=\toks25
+
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.def
+File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\ccicons\ccicons.sty
+Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count127
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (main.aux (titlepage.aux) (license.aux)
+(abstract.aux) (Kurzfassung.aux) (introduction.aux) (fundamental_concepts.aux) (experimental_setup.aux) (methods.aux)
+(results.aux) (summary_outlook.aux) (bibliography.aux) (appendix.aux) (acknowledgment.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 \AtBeginShipoutBox=\box31
- ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-utf8.def"
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-utf8.def"
 File: se-utf8.def 2016/05/16 v1.11 stringenc: UTF-8
 )
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen119
+\scratchcounter=\count128
+\scratchdimen=\dimen121
 \scratchbox=\box32
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen120
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks24
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen122
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks29
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1438,28 +1511,28 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package scrbase Info: activating german \projectpapername on input line 66.
-Package scrbase Info: activating german \seminarpapername on input line 66.
-Package scrbase Info: activating german \studentresearchname on input line 66.
-Package scrbase Info: activating german \diplomathesisname on input line 66.
-Package scrbase Info: activating german \degreethesisname on input line 66.
-Package scrbase Info: activating german \masterthesisname on input line 66.
-Package scrbase Info: activating german \bachelorthesisname on input line 66.
-Package scrbase Info: activating german \ordinal on input line 66.
-Package scrbase Info: activating german \presentedbyname on input line 66.
-Package scrbase Info: activating german \advisorname on input line 66.
-Package scrbase Info: activating german \thename on input line 66.
-Package scrbase Info: activating german \ofthename on input line 66.
-Package scrbase Info: activating german \fromname on input line 66.
-Package scrbase Info: activating german \fromplacename on input line 66.
-Package scrbase Info: activating german \refereename on input line 66.
-Package scrbase Info: activating german \oralexaminationdatename on input line 66.
-Package scrbase Info: activating german \durationname on input line 66.
-Package scrbase Info: activating german \matriculationnumbername on input line 66.
-Package scrbase Info: activating german \coursename on input line 66.
-Package scrbase Info: activating german \companyname on input line 66.
-Package scrbase Info: activating german \examinationname on input line 66.
-Package hyperref Info: Link coloring OFF on input line 66.
+Package scrbase Info: activating german \projectpapername on input line 67.
+Package scrbase Info: activating german \seminarpapername on input line 67.
+Package scrbase Info: activating german \studentresearchname on input line 67.
+Package scrbase Info: activating german \diplomathesisname on input line 67.
+Package scrbase Info: activating german \degreethesisname on input line 67.
+Package scrbase Info: activating german \masterthesisname on input line 67.
+Package scrbase Info: activating german \bachelorthesisname on input line 67.
+Package scrbase Info: activating german \ordinal on input line 67.
+Package scrbase Info: activating german \presentedbyname on input line 67.
+Package scrbase Info: activating german \advisorname on input line 67.
+Package scrbase Info: activating german \thename on input line 67.
+Package scrbase Info: activating german \ofthename on input line 67.
+Package scrbase Info: activating german \fromname on input line 67.
+Package scrbase Info: activating german \fromplacename on input line 67.
+Package scrbase Info: activating german \refereename on input line 67.
+Package scrbase Info: activating german \oralexaminationdatename on input line 67.
+Package scrbase Info: activating german \durationname on input line 67.
+Package scrbase Info: activating german \matriculationnumbername on input line 67.
+Package scrbase Info: activating german \coursename on input line 67.
+Package scrbase Info: activating german \companyname on input line 67.
+Package scrbase Info: activating german \examinationname on input line 67.
+Package hyperref Info: Link coloring OFF on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1467,11 +1540,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count123
+\c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1486,22 +1559,40 @@ LaTeX Info: Redefining \nameref on input line 66.
 \openout2 = `license.aux'.
 
 
-(license.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate 
-ignored
+(license.tex <doclicense-CC-by.pdf, id=254, 121.45375pt x 43.16125pt>
+File: doclicense-CC-by.pdf Graphic file (type pdf)
+ <use doclicense-CC-by.pdf>
+Package pdftex.def Info: doclicense-CC-by.pdf used on input line 10.
+(pdftex.def)             Requested size: 109.50027pt x 38.91324pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 M
+      ore information can be found under\\ \doclicenseURL
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \include{license}
+l.72 \include{license}
                        [2
 
 
-]
+ <C:/Program Files/MiKTeX 2.9/tex/latex/doclicense/doclicense-CC-by.pdf>]
 \openout2 = `abstract.aux'.
 
  (abstract.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.73 \include{abstract}
+l.74 \include{abstract}
                         [3
 
 
@@ -1512,7 +1603,7 @@ l.73 \include{abstract}
 cate ignored
 <to be read again> 
                    \relax 
-l.74 \include{Kurzfassung}
+l.75 \include{Kurzfassung}
                            [4
 
 
@@ -1534,17 +1625,17 @@ l.33 ...2}pnCCD photon detectors}{25}{section.4.2}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \listoffigures
+l.77 \listoffigures
                     [6]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \listoffigures
+l.77 \listoffigures
                     [7]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \listoffigures
+l.77 \listoffigures
                     [8
 
 
@@ -1555,12 +1646,12 @@ l.76 \listoffigures
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 \listoftables
+l.78 \listoftables
                    [9]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.77 \listoftables
+l.78 \listoftables
                    [10
 
 
@@ -1575,7 +1666,7 @@ Package natbib Warning: Citation `TBD' on page  undefined on input line 5.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \null\newpage
+l.79 \null\newpage
                    [11]
 \openout2 = `introduction.aux'.
 
@@ -1601,12 +1692,12 @@ Underfull \vbox (badness 1365) has occurred while \output is active []
 
 ]
 chapter 2.
-<images/aerial-view-lcls.jpg, id=421, 986.7264pt x 337.7418pt>
+<images/aerial-view-lcls.jpg, id=432, 986.7264pt x 337.7418pt>
 File: images/aerial-view-lcls.jpg Graphic file (type jpg)
  <use images/aerial-view-lcls.jpg>
 Package pdftex.def Info: images/aerial-view-lcls.jpg used on input line 18.
 (pdftex.def)             Requested size: 418.25555pt x 143.15958pt.
- [5] [6 <./images/aerial-view-lcls.jpg>] <images/Undulator.png, id=444, 1606.0pt x 1011.78pt>
+ [5] [6 <./images/aerial-view-lcls.jpg>] <images/Undulator.png, id=455, 1606.0pt x 1011.78pt>
 File: images/Undulator.png Graphic file (type png)
  <use images/Undulator.png>
 Package pdftex.def Info: images/Undulator.png used on input line 36.
@@ -1624,35 +1715,30 @@ LaTeX Warning: Reference `FIGURE' on page 10 undefined on input line 72.
 
 Package natbib Warning: Citation `UNPUBLISHED' on page 10 undefined on input line 72.
 
-[10] [11] <images/Albertos-pump-probe-scheme.png, id=503, 1001.7425pt x 296.10625pt>
+[10] <images/Albertos-pump-probe-scheme.png, id=504, 1001.7425pt x 296.10625pt>
 File: images/Albertos-pump-probe-scheme.png Graphic file (type png)
 
 <use images/Albertos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Albertos-pump-probe-scheme.png used on input line 86.
 (pdftex.def)             Requested size: 418.25555pt x 123.63182pt.
-
-Underfull \vbox (badness 7759) has occurred while \output is active []
+ [11]
+Underfull \vbox (badness 2970) has occurred while \output is active []
 
  [12 <./images/Albertos-pump-probe-scheme.png>]
-<images/Agos-pump-probe-scheme.png, id=521, 961.5925pt x 397.485pt>
+<images/Agos-pump-probe-scheme.png, id=533, 961.5925pt x 397.485pt>
 File: images/Agos-pump-probe-scheme.png Graphic file (type png)
  <use images/Agos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Agos-pump-probe-scheme.png used on input line 110.
 (pdftex.def)             Requested size: 418.25555pt x 172.89244pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./images/Agos-pump-probe-scheme.png>]
-<images/freeJetExpansion.png, id=548, 963.6pt x 542.025pt>
+[14 <./images/Agos-pump-probe-scheme.png>] <images/freeJetExpansion.png, id=559, 963.6pt x 542.025pt>
 File: images/freeJetExpansion.png Graphic file (type png)
- <use images/freeJetExpansion.png>
+
+<use images/freeJetExpansion.png>
 Package pdftex.def Info: images/freeJetExpansion.png used on input line 137.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
  [15]
-Underfull \vbox (badness 1478) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16 <./images/freeJetExpansion.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1687,17 +1773,23 @@ Package natbib Warning: Citation `TBD' on page 19 undefined on input line 211.
 
 Package natbib Warning: Citation `TBD' on page 19 undefined on input line 211.
 
-[19] [20]) [21]
+[19] <images/pick-up.jpg, id=622, 722.7pt x 406.51875pt>
+File: images/pick-up.jpg Graphic file (type jpg)
+ <use images/pick-up.jpg>
+Package pdftex.def Info: images/pick-up.jpg used on input line 225.
+(pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
+ [20 <./images/pick-up.jpg>]) [21]
+[22]
 \openout2 = `experimental_setup.aux'.
 
- (experimental_setup.tex [22
+ (experimental_setup.tex
+chapter 3.
+) [23
 
 
 
 
 ]
-chapter 3.
-) [23]
 \openout2 = `methods.aux'.
 
  (methods.tex [24
@@ -1769,29 +1861,29 @@ Package atenddvi Info: Last page = 47.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 97.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 98.
 (main.aux (titlepage.aux) (license.aux) (abstract.aux) (Kurzfassung.aux) (introduction.aux) (fundamental_concepts.aux)
 (experimental_setup.aux) (methods.aux) (results.aux) (summary_outlook.aux) (bibliography.aux) (appendix.aux)
 (acknowledgment.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E4C773EC1EA5A9C526F48285812AF271;5713.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 14369 strings out of 493334
- 216086 string characters out of 3139243
- 416655 words of memory out of 3000000
- 17395 multiletter control sequences out of 15000+200000
+ 15769 strings out of 493334
+ 238143 string characters out of 3139243
+ 449593 words of memory out of 3000000
+ 18742 multiletter control sequences out of 15000+200000
  12275 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,17n,66p,8844b,669s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,17n,66p,8844b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
@@ -1803,9 +1895,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Pr
 c/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (47 pages, 2395101 bytes).
+Output written on main.pdf (47 pages, 2429512 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
- 518 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 847 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 528 words of extra memory for PDF output out of 10000 (max. 10000000)
 
