@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.25)  2 AUG 2016 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.25)  2 AUG 2016 17:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -1559,7 +1559,7 @@ LaTeX Info: Redefining \nameref on input line 67.
 \openout2 = `license.aux'.
 
 
-(license.tex <doclicense-CC-by.pdf, id=254, 121.45375pt x 43.16125pt>
+(license.tex <doclicense-CC-by.pdf, id=256, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by.pdf Graphic file (type pdf)
  <use doclicense-CC-by.pdf>
 Package pdftex.def Info: doclicense-CC-by.pdf used on input line 10.
@@ -1573,7 +1573,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.11 M
-      ore information can be found under\\ \doclicenseURL
+      ore information can be found under\\ \url{\doclicenseURL}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1692,12 +1692,12 @@ Underfull \vbox (badness 1365) has occurred while \output is active []
 
 ]
 chapter 2.
-<images/aerial-view-lcls.jpg, id=432, 986.7264pt x 337.7418pt>
+<images/aerial-view-lcls.jpg, id=437, 986.7264pt x 337.7418pt>
 File: images/aerial-view-lcls.jpg Graphic file (type jpg)
  <use images/aerial-view-lcls.jpg>
 Package pdftex.def Info: images/aerial-view-lcls.jpg used on input line 18.
 (pdftex.def)             Requested size: 418.25555pt x 143.15958pt.
- [5] [6 <./images/aerial-view-lcls.jpg>] <images/Undulator.png, id=455, 1606.0pt x 1011.78pt>
+ [5] [6 <./images/aerial-view-lcls.jpg>] <images/Undulator.png, id=460, 1606.0pt x 1011.78pt>
 File: images/Undulator.png Graphic file (type png)
  <use images/Undulator.png>
 Package pdftex.def Info: images/Undulator.png used on input line 36.
@@ -1715,7 +1715,7 @@ LaTeX Warning: Reference `FIGURE' on page 10 undefined on input line 72.
 
 Package natbib Warning: Citation `UNPUBLISHED' on page 10 undefined on input line 72.
 
-[10] <images/Albertos-pump-probe-scheme.png, id=504, 1001.7425pt x 296.10625pt>
+[10] <images/Albertos-pump-probe-scheme.png, id=509, 1001.7425pt x 296.10625pt>
 File: images/Albertos-pump-probe-scheme.png Graphic file (type png)
 
 <use images/Albertos-pump-probe-scheme.png>
@@ -1725,13 +1725,13 @@ Package pdftex.def Info: images/Albertos-pump-probe-scheme.png used on input lin
 Underfull \vbox (badness 2970) has occurred while \output is active []
 
  [12 <./images/Albertos-pump-probe-scheme.png>]
-<images/Agos-pump-probe-scheme.png, id=533, 961.5925pt x 397.485pt>
+<images/Agos-pump-probe-scheme.png, id=538, 961.5925pt x 397.485pt>
 File: images/Agos-pump-probe-scheme.png Graphic file (type png)
  <use images/Agos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Agos-pump-probe-scheme.png used on input line 110.
 (pdftex.def)             Requested size: 418.25555pt x 172.89244pt.
  [13]
-[14 <./images/Agos-pump-probe-scheme.png>] <images/freeJetExpansion.png, id=559, 963.6pt x 542.025pt>
+[14 <./images/Agos-pump-probe-scheme.png>] <images/freeJetExpansion.png, id=564, 963.6pt x 542.025pt>
 File: images/freeJetExpansion.png Graphic file (type png)
 
 <use images/freeJetExpansion.png>
@@ -1773,7 +1773,7 @@ Package natbib Warning: Citation `TBD' on page 19 undefined on input line 211.
 
 Package natbib Warning: Citation `TBD' on page 19 undefined on input line 211.
 
-[19] <images/pick-up.jpg, id=622, 722.7pt x 406.51875pt>
+[19] <images/pick-up.jpg, id=627, 722.7pt x 406.51875pt>
 File: images/pick-up.jpg Graphic file (type jpg)
  <use images/pick-up.jpg>
 Package pdftex.def Info: images/pick-up.jpg used on input line 225.
@@ -1877,11 +1877,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 15769 strings out of 493334
- 238143 string characters out of 3139243
+ 15771 strings out of 493334
+ 238162 string characters out of 3139243
  449593 words of memory out of 3000000
- 18742 multiletter control sequences out of 15000+200000
- 12275 words of font info for 44 fonts, out of 3000000 for 9000
+ 18743 multiletter control sequences out of 15000+200000
+ 12442 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,17n,66p,8844b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
@@ -1894,10 +1894,11 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (47 pages, 2429512 bytes).
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmtt9.pfb>
+Output written on main.pdf (47 pages, 2442064 bytes).
 PDF statistics:
- 847 PDF objects out of 1000 (max. 8388607)
+ 855 PDF objects out of 1000 (max. 8388607)
  177 named destinations out of 1000 (max. 500000)
  528 words of extra memory for PDF output out of 10000 (max. 10000000)
 
