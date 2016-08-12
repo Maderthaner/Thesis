@@ -1,0 +1,81 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1991,         72]
+NotebookOptionsPosition[      1591,         52]
+NotebookOutlinePosition[      1947,         68]
+CellTagsIndexPosition[      1904,         65]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Scattering from a sphere", "Subsubsection",
+ CellChangeTimes->{{3.679942139167796*^9, 3.679942140304511*^9}, {
+  3.679942187827733*^9, 3.679942201237051*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Integral]", "0", "R"], 
+  RowBox[{
+   SubsuperscriptBox["\[Integral]", "0", 
+    RowBox[{"2", "\[Pi]"}]], 
+   RowBox[{
+    SubsuperscriptBox["\[Integral]", "0", "\[Pi]"], 
+    RowBox[{
+     SuperscriptBox["r", "2"], 
+     RowBox[{"Sin", "[", "\[CapitalTheta]", "]"}], 
+     RowBox[{"Exp", "[", 
+      RowBox[{"\[ImaginaryI]", " ", "Q", " ", "r", " ", 
+       RowBox[{"Cos", "[", "\[CapitalTheta]", "]"}]}], "]"}], 
+     RowBox[{"\[DifferentialD]", "r"}], 
+     RowBox[{"\[DifferentialD]", "\[CapitalTheta]"}], 
+     RowBox[{"\[DifferentialD]", "\[CapitalPhi]"}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.679930637581552*^9, 3.679930716794259*^9}}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.679942133284083*^9, 3.679942176145858*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{740, 755},
+WindowMargins->{{112, Automatic}, {0, Automatic}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 164, 2, 24, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[768, 28, 693, 17, 46, "Input"],
+Cell[1464, 47, 99, 1, 27, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

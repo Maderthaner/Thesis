@@ -1,5 +1,5 @@
 %%% DOCUMENTCLASS is KOMA-Script scrbook with documentation in http://mirrors.ctan.org/macros/latex/contrib/koma-script/doc/scrguide.pdf
-\documentclass[draft=false,titlepage=firstiscover]{scrbook}
+\documentclass[draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered]{scrbook}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGES
@@ -7,12 +7,14 @@
 \usepackage{hyperxmp}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{setspace}
-\onehalfspacing
+\usepackage{epstopdf}
+\usepackage{setspace}%
 \usepackage[english,german]{babel}
 \usepackage[numbers,sort&compress]{natbib}
+\usepackage{makeidx}
 \usepackage{titlepage}
-\usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={English}]{doclicense}
+\usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={english}]{doclicense}
+\makeindex
 \usepackage[pdftex,pdfa]{hyperref}
 %___________________________________
 %
@@ -31,17 +33,17 @@
 		%hyperref specific options
 		%bookmarks=true,         % show bookmarks bar?
 		bookmarksnumbered=true,
-    unicode=true,          	% non-Latin characters in Acrobatӳ bookmarks
-	  pdftoolbar=true,        % show Acrobatӳ toolbar?
-	  pdfmenubar=true,        % show Acrobatӳ menu?
-	  pdffitwindow=false,     % window fit to page when opened
-	  pdfstartview={FitH},    % fits the width of the page to the window
-	  pdfnewwindow=true,      % links in new window
-	  colorlinks=false,       % false: boxed links; true: colored links
-	  linkcolor=red,          % color of internal links
-	  citecolor=blue,        	% color of links to bibliography
-	  filecolor=blue,      	% color of file links
-	  urlcolor=blue           % color of external links
+    	unicode=true,          	% non-Latin characters in Acrobatӳ bookmarks
+	  	pdftoolbar=true,        % show Acrobatӳ toolbar?
+	  	pdfmenubar=true,        % show Acrobatӳ menu?
+	  	pdffitwindow=false,     % window fit to page when opened
+	  	pdfstartview={FitH},    % fits the width of the page to the window
+	  	pdfnewwindow=true,      % links in new window
+	  	colorlinks=false,       % false: boxed links; true: colored links
+	  	linkcolor=red,          % color of internal links
+	  	citecolor=blue,        	% color of links to bibliography
+	  	filecolor=blue,      	% color of file links
+	  	urlcolor=blue           % color of external links
 		%hyperxmp specific options
 		pdfaconformance=B,
 		pdfapart=1,
@@ -65,11 +67,14 @@
 %
 %
 \begin{document}
+\onehalfspacing
 \selectlanguage{english}
-\pagenumbering{gobble}
+\pagenumbering{alph}
 %\maketitle
 \include{titlepage}
+\pagenumbering{gobble}
 \include{license}
+\pagenumbering{roman}
 %\part*{blabla}
 \include{abstract}
 \include{Kurzfassung}
@@ -91,8 +96,10 @@
 \include{summary_outlook}
 %\newpage
 \pagenumbering{Alph}
+\include{appendix}
+%
 \include{bibliography}
 %\newpage
-\include{appendix}
+\printindex
 \include{acknowledgment}
 \end{document}
