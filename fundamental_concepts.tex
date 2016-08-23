@@ -7,7 +7,7 @@ This chapter tries to condense some of the theoretic basics that will reoccur th
 %%%%%%%%%%%%
 %- A historic introduction to FELs\\
 %%%%%%%%%%%%
-The advance of X-ray free electron laser in the recent years has enabled experimental ideas from long ago but has also opened entirely new branches to research \cite{Pellegrini-2016-RMP,Bostedt-2016-RMP}. So, let us start by investigating how that is. Thus far mostly synchrotron radiation facilities have provided X-rays to a great variety of scientific communities. In a synchrotron facility, a number of electron bunches is accelerated near the speed of light and then injected into a storage ring. Here, the electrons create an X-ray beam. The characteristics of this beam is called spectral brightness \cite{Mills-2005-IUCR} or sometimes brilliance\index{brilliance}. We can define the spectral brightness\index{spectral brightness} as \cite{Als-Nielson-2011-JWS}
+The advance of X-ray free electron laser in the recent years has enabled experimental ideas from long ago but has also opened entirely new branches to research \cite{Pellegrini-2016-RMP,Bostedt-2016-RMP}. So, let us start by investigating how that is. Thus far mostly synchrotron radiation facilities have provided X-rays to a great variety of scientific communities. In a synchrotron facility, a number of electron bunches is accelerated near the speed of light and then injected into a storage ring. Here, the electrons create an X-ray beam. The characteristics of this beam is called spectral brightness \cite{Mills-2005-IUCR} or sometimes brilliance\index{brilliance|seealso{spectral brightness}}. We can define the spectral brightness\index{spectral brightness} as \cite{Als-Nielson-2011-JWS}
 \begin{equation}
 B = \frac{n}{A\ \Theta\ t\ \Delta\! E},
 \label{eq:spectral-brightness}
@@ -22,8 +22,9 @@ with $n$ being the number of photons, $A$ the unit source size, $\Theta$ the div
 To give a numerical example and to get a better understanding of the improvements needed, let us look at absorption dynamics in atoms and molecules. One can conservatively estimate that a typical cross section at soft X-rays (1 nm wavelength) is around $\sigma = 1$ megabarn (Mb) \cite{Bucksbaum-2011-Book}. Typical X-ray focii are round $A = 1 \mathrm{\mu m}^{2}$\footnote{Focus size at the AMO endstation at LCLS.} such that the number of photons needed $n_{in}$ to absorb just 1 photon per atom $n_{abs}$ can be calculated by
 \begin{equation}
 n_{in} = \frac{n_{abs} A}{\sigma} = \frac{10^{-8} \mathrm{cm}^{2}}{10^{-18} \mathrm{cm}^{2}}=10^{10} \mathrm{ photons}
+\label{eq:absorption-cross-section}
 \end{equation}
-An example of a modern synchrotron source is NSLS-II and a rough estimate yields that it produces roughly $1.7 10^{4}$ photons per pulse in the Si111 bandwidth at pulse durations of a few ten picoseconds \cite{Williams-2016-PC}. That is far out of reach to investigate non-linear, or multi-photon, processes. While this back on the envelope type of calculation might be off by an order of magnitude or so depending on the specific case, it illustrates the order of magnitude improvement scientists were looking for. Unfortunately, synchrotron sources are not able to produce these conditions currently and regular optical laser methods can not easily be extended to also create X-rays. A United States defense program in the 80's wanted to use an X-ray beam as anti-(space)missile defense, where the X-ray beam was apparently generated through ignition of an atomic bomb \cite{Hecht-2008-OPN}. So, to reach the drastic higher number of photons per light pulse needed, it was proposed to build free electron laser \cite{Kondratenko-1980-PA,Bonifacio-1984-OC}. Free electron laser, amplify the light along a straight line to create laser alike radiation\footnote{The process to of the light create is explained in details in section \ref{sec:sase}.}. In the birds eye view of the Linac Coherent Light Source in figure \ref{fig:aerial-view-lcls}, one can imagine that it took several decades to build these kinds of sources. Today, free-electron lasers are able to increase the number of photons per pulse to currently $n_{in} = 10^{12}$ and achieve pulse lengths of a few femtoseconds. These are remarkable beam parameters and as a result LCLS was increasing the spectral brightness by many orders of magnitudes\footnote{See figure \ref{TBD} for an illustration of this improvement.}.
+An example of a modern synchrotron source is NSLS-II and a rough estimate yields that it produces roughly $1.7 10^{4}$ photons per pulse in the Si111 bandwidth at pulse durations of a few ten picoseconds \cite{Williams-2016-PC}. That is far out of reach to investigate non-linear, or multi-photon, processes. While this back on the envelope type of calculation might be off by an order of magnitude or so depending on the specific case, it illustrates the order of magnitude improvement scientists were looking for. Unfortunately, synchrotron sources are not able to produce these conditions currently and regular optical laser methods can not easily be extended to also create X-rays. A United States defense program in the 80's wanted to use an X-ray beam as anti-(space)missile defense, where the X-ray beam was apparently generated through ignition of an atomic bomb \cite{Hecht-2008-OPN}. So, to reach the drastic higher number of photons per light pulse needed, it was proposed to build free electron laser \cite{Kondratenko-1980-PA,Bonifacio-1984-OC}. Free electron laser, amplify the light along a straight line to create laser alike radiation\footnote{The process to of the light create is explained in details in section \ref{sec:sase}.}. In the birds eye view of the Linac Coherent Light Source in figure \ref{fig:aerial-view-lcls}, one can imagine that it took several decades to build these kinds of sources. Today, free-electron lasers are able to increase the number of photons per pulse to currently $n_{in} = 10^{12}$ and achieve pulse lengths of a few femtoseconds. These are remarkable beam parameters and as a result LCLS was increasing the spectral brightness by many orders of magnitudes\footnote{See figure \ref{fig:soft-xray-self-seeding} for an illustration of the improvement in brilliance.}.
 %While some applications are still under development \cite{Aquila-2015-StrucDyn,Weninger-2013-PRL}, free electron laser have made it possible to screen smaller protein crystals then previously possible to measure \cite{Chapman-2011-Nature} and are on track to study the thus far unknown protein structures \cite{Barends-2014-Nature}.
 \subsection{Self amplification by spontaneous emission}\label{sec:sase}
 %%%%%%%%%
@@ -132,7 +133,7 @@ The bunches are created through a double laser pulse that impinges on a photocat
 %- Why are rare gas clusters a suitable sample
 %%%%%%%%
 Rare gase clusters have been used as nanosample in this study and this chapter will explore this topic. Clusters have a long history to study light-matter interaction as their characteristics are well known \cite{Haberland-1994-Springer}. Generally speaking, clusters are an aggregation of atoms or molecules and vary in size. Their size can range from a few atoms to mesoscopic sizes such that one can classify a cluster as a bulk material. Clusters can form exotic materials that are interesting to study and can be well simulated through comparably simple computer models. Besides these testbed characteristics, the use of clusters has often practical purposes. They can be comparably easily generated and are typically easily tune able in size. Rare gas clusters are a subclass of clusters and they are bound by van der Waals forces and normally neutral-charged. Single van der Waals cluster typically form in an icosahedral\footnote{An icosahedron is a polyhedron with 20 faces, i.e. a dice with 20 faces.} shape when they are sufficiently small (up to nanometer sized) \cite{Miehle-1989-JCP} and have mostly a fcc-crystal\footnote{fcc is short for face-centered cubic. A very common crystal structure.} structure but exhibit also hcp-crystal\footnote{hcp stands for hexagonal close-packed and is also a crystal structure.} structures \cite{VanDeWaal-1993-JCP,Krainyukova-2006-TSF}. The creation of homogenous and heterogeneous rare gas clusters shall be the focus of the next few chapters.
-\subsection{Creation of a homogenous cluster}
+\subsection{Creation of a homogenous cluster}\label{sec:homogenous-cluster}
 %%%%%%
 %- the theory behind rare gas cluster creation.
 %%%%%%
@@ -154,7 +155,7 @@ While the early stage of the cluster growth is driven by the monomer addition, c
 Supersonic jet setups typically store gas in a reservoir at a certain stagnation pressure $p_{0}$ and temperature $T_{0}$. The gas expands through a nozzle into a vacuum and figure \ref{fig:freeJetExpansion} shows a schematic drawing of this process. Typical values for $p_{0}$ are 10 bars, where the mean free path of the atoms is much smaller than the nozzle diameter D. This is why many collisions occur during the expansion in the nozzle and the above described kinetic theory explains the cluster formation. However, this holds not true in the supersonic molecular flow region, where no further cluster growth happens. To understand the expansion process in detail, we assume to work with an ideal gas and to describe the gas expansion itself, we further assume that no clusters are formed and that turbulence and effects of heat conduction are unimportant \cite{Yamada-2001-SciDir,Haberland-1994-Springer}.\\
 To begin, the velocity distribution of the gas follows a Maxwell-Boltzman distribution with a mean velocity $\bar{v}$ that we can write down as
 \begin{equation}
-\bar{v}=\sqrt{\frac{2 k_{B}T_{0}}{m_{gas}}},
+\bar{v}=\sqrt{\frac{2 k_{B}T_{0}}{m_{gas}}}\footnote{This can be abused to calculate flight times from the source to the interaction region if the distance is know. TBD},
 \label{eq:boltzman-mean-velo}
 \end{equation}
 with the Boltzman constant $k_{B}$ and the atomic mass of the gas $m_{gas}$. The movement direction of each atom is randomly orientated. Let us also define the enthalpy $H_{0}$ in the stagnation chamber
@@ -197,7 +198,7 @@ While we have described a cooling gas in the expansion process it should be note
 	\caption{Parameter K values for rare gases \cite{Schorb-2012-Thesis}.}
 	\label{tab:k-parameter}
 \end{table}
-At the current point of the discussion, it should shine out that the average cluster size is very much depended on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$ and the nozzle type. Indeed, an empirically found scaling law named after Hagena \cite{Hagena-1972-JCP,Hagena-1981-SurfSci,Hagena-1987-ZeitschriftAMC}, can be written down as
+At the current point of the discussion, it should shine out that the average cluster size\index{cluster size} is very much depended on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$ and the nozzle type. Indeed, an empirically found scaling law\index{scaling law} named after Hagena\index{Hagena|see {scaling law}} \cite{Hagena-1972-JCP,Hagena-1981-SurfSci,Hagena-1987-ZeitschriftAMC}, can be written down as
 \begin{equation}
 \Gamma^{*} = K \cdot T_{0}^{0.25q-1.5} \cdot p_{0} \cdot d_{eq}^{q},
 \label{eq:Hagena-parameter}
@@ -207,7 +208,7 @@ with the gas specific parameter K that can be found in table \ref{tab:k-paramete
 d_{eq} = d\frac{\tan\left(\Phi_{0}\right)}{\tan\left(\Phi\right)}
 \label{eq:equivalent-nozzle-opening}
 \end{equation}
-with the half opening angle of the nozzle $\Phi$ and the half opening of the free gas expansion $\Phi_{0}$. The Hagena scaling parameter $\Gamma^{*}$ allows us to estimate the mean cluster size, i.e. amount of accumulated particles per cluster $<N>$, as follows
+with the half opening angle of the nozzle $\Phi$ and the half opening of the free gas expansion $\Phi_{0}$. The Hagena scaling parameter $\Gamma^{*}$\index{Hagena!scaling parameter} allows us to estimate the mean cluster size, i.e. amount of accumulated particles per cluster $<N>$, as follows
 \begin{itemize}
 	\item $\Gamma^{*} < 350$, no cluster formation observed.
 	\item $350 < \Gamma^{*} < 1800$, in this region $<N>$ reads
@@ -221,7 +222,7 @@ with the half opening angle of the nozzle $\Phi$ and the half opening of the fre
 		\label{eq:large-hagena-scaling}
 		\end{equation}
 \end{itemize}
-Supersonic jets generally create clusters of different sizes. This size distribution is centered around $<N>$ and for solid rare gas clusters, this distribution is a log-normal distribution. The size distribution can be an experimental challenge, especially when size dependent effects are investigated. Free electron laser allow the determination of the size of a single cluster through a diffraction image and by measuring enough single clusters, one can reproduce size distributions as in figure \ref{Figure-size}. Historically, electron diffraction \cite{TBD} and interferometric approaches \cite{TBD} have been used to determine the size of clusters.\\
+Supersonic jets generally create clusters of different sizes. This size distribution is centered around $<N>$ and for solid rare gas clusters, this distribution is a log-normal distribution. The size distribution can be an experimental challenge, especially when size dependent effects are investigated. Historically, electron diffraction \cite{Farges-1981-SurfSci,Bartell-1986-ChemRev} has been used to determine the mean cluster size, mean temperature and mean geometry. Today, free electron laser allow the determination of the size of a single cluster through a diffraction image and by measuring enough single clusters, one can reproduce size distributions of a supersonic jet as shown in figure \ref{fig:size-distributions}.\\
 Experiments using supersonic jets for cluster generation are typically performed with pulsed valves to decrease cost and gas load in the overall system. Upon opening and closing of the valve, the gas density varies. This mostly affects the cluster size and one would expect to see smaller clusters. This remains true in the beginning of the pulse but in the \textit{afterpulse} one finds giant clusters that exceed the above described scaling laws \cite{Rupp-2014-JCP}.
 %
 %
@@ -239,7 +240,19 @@ Experiments using supersonic jets for cluster generation are typically performed
 	\caption{caption. After \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}.}
 	\label{fig:pickupPrinciple}
 \end{figure}
-The creation of heterogeneous clusters as they have been used in this study stands in the foreground of this chapter. One of the possibilities to create heterogeneous clusters is through the principle of picing-up atoms or molecules \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different pickup processes, one, monomers are added to the cluster in region A of figure \ref{fig:pickupPrinciple} that represents the nozzle of a supersonic source, or two, they can be picked up by a cluster in region B for example through an increase background pressure $p_{b2}$. If clusters pick up atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they stick to the surface of solid clusters but because the incoming cluster is so much larger and heavier than the colliding monomer the trajectory is not affected significantly. The collision does add energy to the cluster, which is why it will loose particles through evaporative cooling again. The loss of particles through evaporative cooling is proportional to the ratio in dissociation energies of the cluster and picked up material. Already pressures of $10^{-11}$ bars over a pickup length of a few centimeters can dope the cluster in significant form. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much load on the overall system.
+The creation of heterogeneous clusters as they have been used in this study stands in the foreground of this chapter. One of the possibilities to create heterogeneous clusters is through the principle of picking-up atoms or molecules \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different pickup places, one, monomers are added to the cluster in region A of figure \ref{fig:pickupPrinciple} that represents the nozzle of a supersonic source, or two, they can be picked up by a cluster in region B for example through an increase background pressure $p_{b2}$ or a pickup gas-cell. If clusters pick up atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they stick to the surface of solid clusters. Since the traversing cluster is much larger and heavier than a colliding monomer the trajectory is not affected significantly. Already pressures of $10^{-11}$ bars over a pickup length of a few centimeters can dope the cluster in significant form. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much load on the overall system.\\
+The collision with the cluster and a dopant does add energy to the cluster just as the cluster growth process itself. This is why the initial cluster will loose particles through evaporation upon pick up of a dopant \citep{Gomez-2011-JCP}. The loss of particles through evaporative cooling is, proportional to the ratio in dissociation energies of the cluster and picked up material and reads
+\begin{equation}
+N_{\text{Evaporated from cluster}} \approx \frac{\epsilon_{\text{cluster}}}{\epsilon_{\text{dopant}}}.
+\label{eq:evaporated-amount}
+\end{equation}
+In the case, where a helium droplet is doped with xenon atoms, we may use the dissociation energies of helium $\epsilon_{He}=0.6\cdot 10^{-3}$ eV and xenon $\epsilon_{Xe}=0.6\cdot 10^{-3}$ eV \citep{Gomez-2011-JCP,Gomez-2014-Science}, such that approximately 250 helium atoms evaporate by picking up 1 xenon atom.\\
+We can extend this idea to estimate the amount of picked-up atoms, if we were to know the amount of atoms in the cluster before and after the pickup area. An estimate of the initial cluster size $\left\langle N_{\text{cluster}}\right\rangle$ can be reached through the scaling laws\footnote{As already established the actual cluster size produced with a supersonic jet will vary, hence the average cluster size $\left\langle N_{\text{cluster}}\right\rangle$.} as discussed in section \ref{sec:homogenous-cluster}. A measure to estimate the cluster size after the pickup can be established through measuring the partial pressure of the cluster material $p_{\text{cluster}}$ of helium\footnote{For example with a residual gas analyzer.}, when the particle jet hits a wall and evaporates (see figure \ref{fig:pickupPrinciple}). The partial pressure $p_{\text{cluster}}$ scales then linearly with the initial cluster size $\left\langle N_{\text{cluster}}\right\rangle$, such that
+\begin{equation}
+\left\langle N_{\text{dopant}}\right\rangle \approx \frac{\epsilon_{\text{cluster}}}{\epsilon_{\text{dopant}}} \cdot \frac{\Delta p_{\text{cluster}} \left\langle N_{\text{cluster}}\right\rangle}{p_{\text{cluster}}},
+\label{eq:average-dopant}
+\end{equation}
+where $\Delta p_{\text{cluster}}$ denotes the partial pressure difference with pickup and without.
 %%%
 \section{Introduction into X-ray scattering}\label{sec:scattering-theory}
 %%%%%%%%%%%%%%%%%%%%%
@@ -305,10 +318,10 @@ as all scatter are in phase. As we increase the scattering angle $\Theta$, the p
 The atomic form factor can hence be seen as a Fourier transform of the classical electron density of an atom. To make it more clear, (X-ray) diffraction projects an image of the atom in reciprocal space.\\
 Let us continue with the scattering of a molecule or cluster. We can label the atoms in such a particle by
 \begin{equation}
-F^{cluster}\left(\vec{Q}\right)=\sum_{j}f_{j}^{0}\left(\vec{Q}\right)e^{i \vec{Q}\cdot \vec{r}},
-\label{eq:scattering-factor-cluster}
+F^{object}\left(\vec{Q}\right)=\sum_{j}f_{j}^{0}\left(\vec{Q}\right)e^{i \vec{Q}\cdot \vec{r}},
+\label{eq:scattering-factor-object}
 \end{equation}
-with the atomic scattering factors $f_{j}^{0}\left(\vec{Q}\right)$ for the $j$'th atom and call $-r_{0} F^{cluster}$ the scattering length of a cluster. Strictly speaking, $F^{cluster}\left(\vec{Q}\right)$ is angle depended. However, in the angular range of $\vec{Q}$, where $F^{cluster}\left(\vec{Q}\right)$ is not 0, $f_{j}^{Q}\left(0\right)$ can be considered constant \citep[see][p. 6-7]{Guinier-1955-JWS}. In human hemoglobin, the range in which the molecule scattering length is not 0, the carbon atomic scattering factors change less than $0.4$\%. It is therefore most convenient to describe the scattering of extended objects via a continuous electron density, where certain volume elements $d\vec{r}$ scatter proportional to their electron density $\rho_{e}\left(\vec{r}\right)$. We can therefore go forward with a continuous description of extended objects using a generalized electron density $\rho\left(\vec{r}\right)$.\\
+with the atomic scattering factors $f_{j}^{0}\left(\vec{Q}\right)$ for the $j$'th atom and call $-r_{0} F^{object}$ the scattering length of a cluster. Strictly speaking, $F^{object}\left(\vec{Q}\right)$ is angle depended, however, in the angular range of $\vec{Q}$, where $F^{Object}\left(\vec{Q}\right)$ is not 0, $f_{j}^{Q}\left(0\right)$ can be considered constant \citep[see][p. 6-7]{Guinier-1955-JWS}. In human hemoglobin, the range in which the molecule scattering length is not 0, the carbon atomic scattering factors change less than $0.4$\%. It is therefore most convenient to describe the scattering of extended objects via a continuous electron density, where certain volume elements $d\vec{r}$ scatter proportional to their electron density $\rho_{e}\left(\vec{r}\right)$. We can therefore go forward with a continuous description of extended objects using a generalized electron density $\rho\left(\vec{r}\right)$.\\
 Let us summarize this briefly by recalling from optics in general that a lens is performing an inverse Fourier transformation to project the scattering from an object as a realspace image. Through expressing the probability of presence of an electron in the scattering process through a general electron density $\rho\left(\vec{r}\right)$ of an object. The reason why this is important is that free electron laser are the first light-sources to have enough photons in just one light pulse to generate a snapshot of a nanometer-sized particle, e.g. a biomolecule, in just one shot. The total scattered intensity $I\left(\vec{Q}\right)$ in a measurement is
 \begin{equation}
 I\left(\vec{Q}\right)=\left|A\right|^{2}=I_{0}\left|F^{0}\left(\vec{Q}\right)\right|^{2},
@@ -347,37 +360,16 @@ It should be noted that there is a great variety of manipulations that can be do
 \section{Light-matter interaction}
 Photons can also be absorbed by atoms in which case an electron get either excited to another state or ionized. At X-ray wavelengths matter typically gets ionized in the inner shells. Upon absorption a cascade of relaxation processes begins and the now ionized atom finds the new most energetic favorable state. These processes are particularly depended on the wavelength of the incident photons but also the type of atom. This chapter is devoted to these processes and particular the absorption process is described in section \ref{sec:absorption} and the relaxation processes in \ref{sec:relaxation}.
 \subsection{Ionization of matter}\label{sec:absorption}
-Let us quickly remember the atomic scattering factor $f^{0}\left(\vec{Q}\right)$, which we were able to introduce by neglecting a variety of (wavelength depended) effects through Fourier transforming the electron density of an atom. If we imagine (soft) X-rays approaching an atom classically, we can compare it to the analogon to a forced harmonic oscillator, where an electric field drives a (bound) electron. As a result, the phase velocity of light $v_{\text{phase}}$ is reduced to the speed of light in vacuum $c$ through interacting with electrons. Also if the the energy of the photons is higher than binding energies of electrons in the atom then also a probability for dissipation/absorption exists \citep{Als-Nielson-2011-JWS,Attwood-2007-CUP}. These two effects are connected to the atomic scattering factors $f^{0}\left(\vec{Q}\right)$ and are called dispersion corrections. Let us write down these two corrections
+Let us quickly remember the atomic scattering factor $f^{0}\left(\vec{Q}\right)$, which we were able to introduce by neglecting a variety of (wavelength depended) effects through Fourier transforming the electron density of an atom. If we imagine (soft) X-rays approaching an atom classically, we can compare it to the analogon to a forced harmonic oscillator, where an electric field drives a (bound) electron. As a result, the phase velocity of light $v_{\text{phase}}$ is reduced to the speed of light in vacuum $c$ through interacting with electrons. Hence we would think of an increase in the refractive index $n=c/v_{phase}$\index{refractive index}. Also, if the the energy of the photons is higher than binding energies of electrons in the atom then also a probability for dissipation/absorption exists \citep{Als-Nielson-2011-JWS,Attwood-2007-CUP}. These two effects are connected to the atomic scattering factors $f^{0}\left(\vec{Q}\right)$ and are called dispersion corrections to the atomic scattering factor. Let us include these corrections as a atomic form factor
 \begin{equation}
 f\left(\vec{Q},\hbar\omega\right)=f^{0}\left(Q\right)+f'\left(\hbar\omega\right)+i f''\left(\hbar\omega\right),
 \label{eq:scattering-factor-dispersion-corr}
 \end{equation}
 where $f'\left(\hbar\omega\right)$ corrects for the phase velocity and the wave amplitude correction/absorption $f''\left(\hbar\omega\right)$. In the limit of high photon energies $\hbar \omega$ the electrons can be largely seen as free, as the binding energies become a little factor, and $f'\left(\hbar\omega\right)\rightarrow 0$ and $f''\left(\hbar\omega\right)\rightarrow 0$. As the photon energies $\hbar \omega$ are closer to the atomic level, which is the case at soft X-rays for many materials, $f'\left(\hbar\omega\right)$ and $f''\left(\hbar\omega\right)$ can become large factors. Note particularly that these corrections only apply to the forward scattering, where $\vec{Q}=\Theta=0$.\\
-We shall not derive this relation in its full extend that can be read in \citep[see][p. 55ff]{Attwood-2007-CUP}, but we shall compare the equation for the complex refractive index $n\left(\omega\right)$
+We shall not derive this relation in its full extend that can be read in \citep[see][p. 55ff]{Attwood-2007-CUP}, but we shall compare the equation for the complex refractive index $n\left(\omega\right)$ to these arguments. Let us start by imagining a electromagnetic wave propagating in a medium. The wave propagating in a medium along the axis $z$ can be written as
 \begin{equation}
-n\equiv \frac{c}{v_{\text{phase}}}=1-\delta+i\beta
-\label{eq:complex-refractive-index}
-\end{equation}
-to these arguments, as a wave propagating in a medium along the axis $z$ can then be written as
-\begin{equation}
-e^{i n k z}= \underbrace{e^{i \left(1-\delta\right)k z}}_{\text{phase shift}}\underbrace{e^{-\beta z}}_{absorption}.
+e^{i n k z}= \underbrace{e^{i \left(1-\delta\right)k z}}_{\text{phase shift}}\underbrace{e^{-\beta z}}_{absorption},
 \label{eq:wave-in-medium}
-\end{equation}
-And indeed, we are allowed to define this dispersion relation through the atomic scattering factors \citep{Als-Nielson-2011-JWS}
-\begin{equation}
-n\equiv 1- \frac{2\pi \rho_{atom}r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\hbar\omega\right)+f''\left(\hbar\omega\right)\right),
-\label{eq:eq:complex-refractive-index-atomic-factors}
-\end{equation}
-with the atomic number density $\rho_{at}$ and we identify
-\begin{align}
-\delta &= \frac{2 \pi \rho_{atom} r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\hbar\omega\right)\right),\quad \text{and}\\
-\beta &= - \left(\frac{2\pi \rho_{atom}r_{0}}{k^{2}}\right)f''\left(\hbar\omega\right).
-\label{eq:delta-and-beta}
-\end{align}
-We have already established that $f''\left(\hbar\omega\right)$ reduces the amplitude of the incoming wave through absorption. Thus, using the absorption part of equation \eqref{eq:wave-in-medium}, we can rewrite $f''\left(\hbar\omega\right)$ in terms of an absorption cross section $\sigma_{a}$
-\begin{equation}
-f''\left(\hbar\omega\right)=-\left(\frac{k}{4\pi r_{0}}\right)\sigma_{a}.
-\label{eq:f-2-definition}
 \end{equation}
 \begin{figure}
 	\centering
@@ -385,9 +377,100 @@ f''\left(\hbar\omega\right)=-\left(\frac{k}{4\pi r_{0}}\right)\sigma_{a}.
 	\caption{caption. Data from \citep{Elettra-2016-Website,Yeh-1985-AtmDat,Yeh-1993-GBSP}}
 	\label{fig:photoionization}
 \end{figure}
-Figure \ref{fig:photoionization} shows the absorption cross-sections $\sigma_{a}$ for xenon, helium and indicates the photon energy the experiment described in the next chapters has been conducted with.
-
-
+where $n$ is the complex refractive index, $\delta$ the real dispersion correction\index{dispersion correction!complex} resulting in a phase shift of the wave and $\beta$ being the imaginary dispersion correction resulting in a decline in amplitude of the wave\footnote{We jump between wave and particle picture as it pleases us. Here, a decline in amplitude in the wave picture can be read as absorption in the particle picture.}. The relation between the complex refractive index, $\beta$ and $\delta$ is explicitly given by
+\begin{equation}
+n\equiv \frac{c}{v_{\text{phase}}}=1-\delta+i\beta.
+\label{eq:complex-refractive-index}
+\end{equation}
+Let us now jump to the result of the forced harmonic oscillator calculation given in \citep[p.~278]{Als-Nielson-2011-JWS} and realize that we are allowed to define this dispersion relation through the atomic form factor as \citep[see][p.~76]{Als-Nielson-2011-JWS}
+\begin{equation}
+n\equiv 1- \frac{2\pi \rho_{atom}r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\hbar\omega\right)+f''\left(\hbar\omega\right)\right),
+\label{eq:eq:complex-refractive-index-atomic-factors}
+\end{equation}
+with the atomic number density $\rho_{atom}$ and we identify
+\begin{align}
+\delta &= \frac{2 \pi \rho_{atom} r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\hbar\omega\right)\right),\quad \text{and}\\
+\beta &= - \left(\frac{2\pi \rho_{atom}r_{0}}{k^{2}}\right)f''\left(\hbar\omega\right).
+\label{eq:delta-and-beta}
+\end{align}
+We have already established that $\beta$ reduces the amplitude of the incoming wave through absorption. Thus, using the insight gained from the absorption part in equation \eqref{eq:wave-in-medium}, we can rewrite equation \eqref{eq:delta-and-beta} and define $f''\left(\hbar\omega\right)$ in terms of being proportional to an absorption cross section $\sigma_{a}$, which reads
+\begin{equation}
+f''\left(\hbar\omega\right)=-\left(\frac{k}{4\pi r_{0}}\right)\sigma_{a}.
+\label{eq:f-2-definition}
+\end{equation}
+Figure \ref{fig:photoionization} shows the total absorption cross-sections $\sigma_{a}$ for xenon, helium under which a bound electron absorbs a photon and excited into the continuum, thus the atom is ionized\index{photoionization}. To get a better understanding of the fundamental absorption related details about xenon and helium, table \ref{tab:xenon-photoionization-cross-section} and \ref{tab:helium-xenon-ionization} show the differential photo-absorption cross sections and ionization potentials for various energy levels and each ionization configurations, respectively, at the photon energy $837$ eV. The calculations were performed using the Los Alamos Atomic Physics code based on \citep{Cowan-1981-Cal}.
+\begin{table}
+	\centering
+		\begin{tabular}{ | c | c | c | c | }
+			\hline
+			Shell & Subshell & Cross-section & subshell ionization \\
+				&	&	$\sigma_{a}$ in Mb & potential in eV \\ \hline
+			K & 1s & - & 34630.0 \\ \hline
+			L & 2s & - & 5466.4  \\ 
+			\ & 2p & - & 4899.1 \\ \hline
+			M & 3s & - & 1153.3  \\ 
+			\ & 3p & - & 965.4 \\ 
+			\ & 3d & 2.2505 & 682.7 \\ \hline
+			N & 4s & 0.0305 & 223.7 \\ 
+			\ & 4p & 0.1247 & 161.8 \\ 
+			\ & 4d & 0.2587 & 68.2  \\ \hline
+			O & 5s & 0.0040 & 27.3  \\ 
+			\ & 5p & 0.0120 & 12.5  \\ \hline
+		\end{tabular}
+	\caption{caption. Calcualtions based on \citep{Cowan-1981-Cal}.}
+	\label{tab:xenon-photoionization-cross-section}
+\end{table}
+It appears that certain energy levels, or here subshells if one disregards the hyperfine structure\footnote{A shift in energy levels due to interaction of electrons with the nucleus \citep[see][p~166~ff.]{Demtroder-2005-Springer}.}, tend to have a higher absorption cross-section than others. This brings us back to the picture of the forced harmonic oscillator, where an electron is driven by a light field. If the frequency of the light field is close to the eigenfrequency of the bound electron, in other words, if the energy of a photon is close to the energy level of a bound electron, the system is in resonance and absorption is highly likely. As the photon energy and electron level energy differ, the system is off resonance and it is less likely to absorb a photon. As energy levels in atoms are discrete, electrons can only be excited from one energy level to another or need a certain (minimal) ionization energy\index{ionization!energy} to ionize an atom and excite an electron into the continuum. The likelihood of a core-electron that is strongly bound being ionized is by far the most probable using X-rays.
+\begin{table}
+	\centering
+		\begin{tabular}{ | c | c | c | c | }
+		\hline
+%			Configuration & ionized subshell & Cross-section (Mbarn) & Helium ionization potential in eV \\ \hline
+			El. Configuration, & Ionization & Cross-section  & subshell ionization  \\
+			and ionized subshell & of subshell & $\sigma_{a}$ in Mbarn & potential in eV \\ \hline
+			He\textsuperscript{+0},\ 1s2 & 1s2 & 0.0007 & 24.4 \\ \hline
+			He\textsuperscript{+1},\ 1s1 & 1s1 & 0.0005 & 54.4 \\ \hline
+			Xe\textsuperscript{+0},\ 5p6 & 3d10 & 2.2505 & 682.7 \\ \hline
+			Xe\textsuperscript{+1},\ 3d9 & 3d9 & 2.1487 & 733.6 \\ \hline
+			Xe\textsuperscript{+1},\ 5p5 & 3d10 & 2.2443 & 693.7 \\ \hline
+			Xe\textsuperscript{+2},\ 5p4 & 3d10 & 2.2390 & 705.9 \\ \hline
+		\end{tabular}
+	\caption{caption. Calculations based on \citep{Cowan-1981-Cal}.}
+	\label{tab:helium-xenon-ionization}
+\end{table}
+When a core electron gets ionized, the electronic structure changes and particular ionization energies and (absorption) cross-sections change. To discuss the parameters that are most applicable to this thesis, a comparison of the most probable transition at the photon energy 837eV is given for helium and xenon in table \ref{tab:helium-xenon-ionization}. The ionization energies change drastically, whether one ionizes are core electron or a less tight bound electron. Similarly to the back-on-the envelope calculation given in equation \eqref{eq:absorption-cross-section}, it is very unlikely to an atom to absorb more than two photons in one pulse of a free electron laser, which is why we only consider the most probably transitions here to get an understanding how the absorption cross-sections change.\\
+% \begin{table}
+% 	\centering
+% 		\begin{tabular}{ | c | c | c | c | }
+% 		\hline
+% 			El. Configuration, & Ionization & Cross-section  & subshell ionization  \\
+% 			and ionized subshell & of subshell & $\sigma_{a}$ in Mbarn & potential in eV \\ \hline
+% 			Xe\textsuperscript{+0},\ 5p6 & 3d10 & 2.2505 & 682.7 \\ \hline
+% 			Xe\textsuperscript{+1},\ 3d9 & 3d9 & 2.1487 & 733.6 \\ \hline
+% 			Xe\textsuperscript{+1},\ 5p5 & 3d10 & 2.2443 & 693.7 \\ \hline
+% 			Xe\textsuperscript{+2},\ 5p4 & 3d10 & 2.2390 & 705.9 \\ \hline
+% 		\end{tabular}
+% 	\caption{caption. Calculations based on \citep{Cowan-1981-Cal}.}
+% 	\label{tab:xenon-ionization}
+% \end{table}{}
+The total elastic scattering cross-sections for neutral and ionized helium and xenon can be found in table \ref{tab:helium-xenon-el-scattering-crossection}. It is interesting to see that although xenon has only 27 times more electrons than a helium atom the scattering factor $f^{0}$ of neutral xenon is over 900 times stronger helium. Upon ionization, the absolute changes in $f^{0}$ of helium are therefore smaller compared to xenon. However, the relative change in helium of $f^{0}$ by getting one of two electrons ionized ~75\% and ionized helium barely scatters. As xenon has multiple occupied subshells, the scattering factors of different ionized subshells are shown. As discussed, it is most likely to ionize the 3d subshell but subsequent relaxation processes\footnote{See the following section \ref{sec:relaxation}.} lead to a ionized 5p subshell. For the scattering factor, there is little change whether the 3d or 5p subshell becomes ionized and the change in $f^{0}$ is only ~0.05\%. As xenon has 54 electrons, the relative change upon ionization of one electron in $f^{0}$ is only 3\% and small compared to helium, which allows us to conclude that xenon scatters still well after ionization.  
+\begin{table}
+	\centering
+		\begin{tabular}{ | c | c | }
+		\hline
+			El. Configuration, & Scattering factor \\
+			and ionized subshell & $f^{0}$ in barn \\ \hline
+			He\textsuperscript{+0},\ 1s2 & 2.5539  \\ \hline
+			He\textsuperscript{+1},\ 1s1 & 0.649465  \\ \hline
+			Xe\textsuperscript{+0},\ 5p6 & 1874.36  \\ \hline
+			Xe\textsuperscript{+1},\ 3d9 & 1813.56  \\ \hline
+			Xe\textsuperscript{+1},\ 5p5 & 1814.68  \\ \hline
+			Xe\textsuperscript{+2},\ 5p4 & 1754.08  \\ \hline
+		\end{tabular}
+	\caption{caption. Calculations based on equation \eqref{eq:scattering-integral} using electron probability densities as $\rho(\vec{r})$ from \cite{Ho-2016-PC}}
+	\label{tab:helium-xenon-el-scattering-crossection}
+\end{table}
+In the experiment described in the following chapters, the photon energy is explicitly chosen to have a comparably high absorption cross-section for xenon but is off absorption resonance, a comparably low absorption cross-section for helium and a wavelength short enough to receive high resolution images through coherent diffraction imaging. In such a setting xenon is most likely to absorb X-rays rather than helium. Thus given the raw absorption likelihoods, the xenon atoms (and clusters) are most prone to X-ray induced dynamics. Let us now have a look at these dynamics in atoms and study the electronic relaxation processes in atoms upon absorption of an (X-ray) photon.
 %
 %
 %
@@ -395,9 +478,75 @@ Figure \ref{fig:photoionization} shows the absorption cross-sections $\sigma_{a}
 %
 \subsection{Charge migration}\label{sec:relaxation}
 %%%
-\section{Ionization of clusters in intense X-ray pulses}
-- Short introduction coming from inelastic scattering
-\subsection{Formation of nanoplasma}
-- Step by step explanation on the formation of a nanoplasma
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/el-relaxation.png}
+	\caption{caption. After \citep[see][p.~19]{Als-Nielson-2011-JWS}}
+	\label{fig:el-relaxation}
+\end{figure}
+After an atom has been (core-)ionized due to absorption of a photon as depicted in figure \ref{fig:el-relaxation}a, the atom is not in its most energetically favorable state. In order to emit energy and transition into its new ground state, the atom can emit particles according to the schematics in figure \ref{fig:el-relaxation}b-c. The electron hole in the (K-)shell created due to absorption of a photon above ionization threshold is filled by an electron in a energetically higher shell, here L or M shell, and thereby emits a photon of the discrete energy of the difference between the transitioning levels. The discrete lines are thus element specific and modern photoemission spectroscopy can yield insight into for example element identification, excitation dynamics or chemical bonds.
+\begin{figure}
+	\centering
+		\includegraphics[width=.49\textwidth]{images/pnCCD-histogram.png}
+		\includegraphics[width=.49\textwidth]{images/auger-spectroscopy.jpg}
+	\caption{caption. Left image published in \citep{Bucher-2016-Unpublished} after \citep{Rudek-2012-NatPho}. Measured with hemispherical analyzer described in \cite{Bucher-2014-Unpublished}.}
+	\label{fig:pnCCD-histogram}
+\end{figure}
+Figure \ref{fig:pnCCD-histogram} left shows measured fluorescence lines of oxygen and xenon. In this measurement, xenon atoms and residual oxygen atoms have been illuminated with 1500 eV photons from the Linac Coherent Light Source and the fluorescence photons has been measured with the LAMP pnCCD detectors described in section \ref{sec:pnCCD}. The green curve is a ADU histogram of the pixel-detector using the detector calibrations described in section \ref{sec:pnccd-corr}. The blue curve additionally uses a photon-finding algorithm as the signal from just one fluorescence photon splits up into multiple pixel. An algorithm then looks for pixel above a certain threshold and includes neighboring pixel above a certain threshold, thus correcting the measured signal to yield a proper fluorescence yield.\\
+An other possibility for the atom to relax into its ground-state is through emitting an electron into the continuum. This process is named after the french physicist Pierre Auger. The emitted electrons have discrete energies depending on the combination of hole-filling electron and emitted electron and can therefore also help to identify elements or used to calibrate energies. Figure \ref{fig:pnCCD-histogram} right shows an Auger spectrum from TBD, illuminated by TBD eV photons from LCLS and measured with a hemispherical analyzer as described in \citep{Bucher-2014-Unpublished}.\\
+So far we have looked at X-ray induced processes from atoms. Extended objects, whether a bio-molecule or a cluster, will respond differently than just the atoms they consist of. Nanometer-sized objects will develop a distinct character due to their electronic bond with other particles. This includes rare-gas clusters that are weakly bound Van der Waals forces. We shall explore this behavior in the next section \ref{sec:ionizatin-of-ext-obj}.
+%
+%
+%
+%
+\section{Ionization of clusters in intense X-ray pulses}\label{sec:ionizatin-of-ext-obj}
+%%%%%%%%%%%%%%%%%%%
+%- Short introduction coming from inelastic scattering
+%%%%%%%%%%%%%%%%%%%
+The response of a cluster in intense X-rays differs from just the atomic response. Collective effects change the microscopic (sample) environment and it is now the collective of atoms that generates a response to the strong FEL pulse.
+\subsection{Formation and expansion of a nanoplasma}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%- Step by step explanation on the formation of a nanoplasma
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/nano-plasma-schematic.jpg}
+	\caption{caption. From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Arbeiter-2011-NJP}}
+	\label{fig:nano-plasma-schematic}
+\end{figure}
+ Let us begin by recapture the elastic, coherent scattering part of the response that has been discussed in section \ref{sec:scattering-theory}. Equation \eqref{eq:scattering-factor-object} indicates how the scattering length of a cluster can be calculated and, neglecting inelastic processes, this remains elastic scattering response holds true. If we consider the inelastic effects discussed in section \ref{sec:absorption}, it should be clear that the elastic scattering length -$r_{0}F^{Object}$ is reduced due to the (atomic) dispersion corrections $f'\left(\omega\right)$ and $f''\left(\omega\right)$ that reduce the scattering length $-r_{0}f^{0}\left(\vec{Q}\right)$ of a single atom. The dominating change in scattering length is driven by the photo ionization process introduced via $f''\left(\omega\right)$. We follow the figure \ref{fig:nano-plasma-schematic} and \citep{Arbeiter-2011-NJP} in the next five steps. Step a) of the nanoplasma transition\index{nanoplasma!transition}, the cluster gets ionized due to intense radiation\footnote{The wavelength of radiation must be above the ionization threshold of at least one subshell, however, it must not be X-rays with a wavelength on the nanometer length scale.}. Step b), further ionization through emission of photo electrons and Auger electrons lead to a so called \textit{multistep ionization}\index{ionization!multistep} that steepens the Coulomb potential\index{Coulomb potential}. Step c), the multistep ionization is suppressed (or frustrated) because the Coulomb potential depth is larger than the atomic excess energy of photo- and Auger electrons. The emitted electrons are now trapped in the cluster potential and are \textit{quasi-free}. Upon increasing \textit{inner ionization}\index{ionization!inner} the nanometer sized object undergoes a phase transition to a nanoplasma\footnote{Plasma is another state of matter, similar to solid, liquid and gaseous, where molecular bonds dissociate and positive and negative particles are present in increasing numbers.}. Step d), the temperature of the nanoplasma is initially defined by the atomic excess energies (a rather discrete spectrum) but collisions with other particles lead a (kinetic) energy distribution of the electrons that is similar to thermal distributions and can be measured via the spectra of evaporated electrons. Step e) Hydrodynamic and Coulomb forces drive an expansion of the cluster and the cluster will ultimately disintegrate. The hydrodynamic portion of the force is due to the increasing hot plasma and the resulting increase outward pressure, whereas the the Coulomb portion comes from the repelling force of same charges. Both these forces reasonably describe the expansion process, are not exclusive and depend mostly on sample size and irradiation technique.\\
+Regarding the sample size, large clusters efficiently trap electrons in their Coulomb potentials such that the quasi-free electrons thermalize and subsequently heat the nucleus. The hot nanoplasma system then tries to expand due to the increase in internal pressure. Electrons thermalize on the attosecond timescale and simulations show that the energy transfer to the ions can be as fast as 50 fs \citep{TBD}. Small clusters trap photo and Auger electrons less efficiently and electrons are free such that the heating process is suppressed. In this case, the ions see the repelling force due to Coulomb interaction of same charges with each other \citep{TBD}.\\
+Following a similar line of argumentation, low energy ionizing photons allow efficient trapping of photo and Auger electrons, thus favorable conditions for a hydrodynamic expansion. Conversely, high photon energies\footnote{Meaning hard X-ray with wavelenghs on the {\AA}ngstrom length scale as soft X-rays have similar photon energies as trapping potentials and multistep ionization deepens the Coulomb potential enough.} lead to more atomic excess energy such that more electrons overcome the trapping potential, thus favorable conditions for a Coulomb expansion. However, this line is very element depended and atoms with large atomic mass, such as Xenon\footnote{Find ionization energies for specific subshells in table \ref{tab:xenon-photoionization-cross-section} and deepened Coulomb potential ionization energies after ionization of Xe, here Xe$^+1$ and Xe$^{+2}$ for different subshell ionization configurations, in table \ref{tab:helium-xenon-ionization}.} would require photon energies $E_{ph}$ of $5.5keV<< E_{ph}<34.6k eV$ or $34.6keV<<E_{ph}$ and since mostly the immediate process upon photon absorption is wavelength depended and the electron trapping of the majority of subsequent multistep ionizations will be mostly depended on the cluster size. It remains to discuss the radiation intensity and the more intense the ionizing radiation is, the more electrons are ionized per time-step such that the intensity of the light mainly drives the time needed for a cluster to undergo the phase-transition to a nanoplasma, expand and disintegrate.\\
+With the progress in imaging nanoscale objects using free electron lasers it was also possible to experimentally investigate this process \citep{Bostedt-2010-JPB}. A spectroscopic analysis on rare gas clusters confirmed the ultrafast multistep ionization cascades and displayed their power density and size dependance \citep{Wabnitz-2002-Nature,Laarmann-2004-PRL,Bostedt-2008-PRL}. ELECTRON SPECTROSCOPY \citep{Laarmann-2005-PRL,Bostedt-2010-NJP}. IMAGING \citep{Bostedt-2012-PRL,Gorkhover-2012-PRL}. TR IMAGING \citep{Ferguson-2016-SciAdv,Gorkhover-2016-NatPho}.
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/tais-nat-photonics.jpg}
+	\caption{caption. From \citep{Gorkhover-2016-NatPho}. Reprinted with permission from Nature Publishing Group.}
+	\label{fig:tais-nat-photonics}
+\end{figure}
+EXPLAIN figure \ref{fig:tais-nat-photonics}.
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/ken-science.jpg}
+	\caption{caption. From \citep{Ferguson-2016-SciAdv}. Reprinted with permission from AAAS.}
+	\label{fig:ken-science}
+\end{figure}
+EXPLAIN figure \ref{fig:ken-science}.
+%
+%
+%
+%
 \subsection{Tampered layers to inhibit the nanoplasma expansion}
-- Step by step explanation on the formation of the nanoplasma, pointing out the differences between tampered and pristine clusters.
+%%%%%%%%%%%%%%
+%- Step by step explanation on the formation of the nanoplasma, pointing out the differences between tampered and pristine clusters
+%
+%
+%%%%%%%%%%%%
+TAMPERED LAYERS \citep{Hoener-2008-JPB}. \citep{Ziemkewitz-2017-unpublished}
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/Hoener-image.jpg}
+	\caption{caption. From From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Hoener-2008-JPB}}
+	\label{fig:Hoener-image}
+\end{figure}
+Explain \ref{fig:Hoener-image}
