@@ -26,9 +26,26 @@
 - iTOF vs. pnCCD\\
 - vs. Actual dynamics visible in diffraction images
 %%%
-\section{Phase retrieval from a single diffraction pattern}
+\section{Phase retrieval from a single diffraction pattern}\label{sec:phase-retrieval}
 - Short intro into phase retrieval
-\subsection{Solving the inverse problem}
+\subsection{The inverse problem: Phase retrieval}
+%%%%%%%%%%%%%%
+%- Introduce some aspects from phase retrieval algorithms.
+%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/phase-retrieval-algorithm.jpg}
+	\caption[Example of a phase retrieval algorithm.]{Principle of a phase retrieval algorithm. The real space object $g_{k}\left(x\right)$ is Fourier transformed to $G_{k}\left(q\right)$. The function $G_{k}\left(q\right)$ is altered to fit the constraints set in Fourier space, hence $G'_{k}\left(q\right)$. $G'_{k}\left(q\right)$ is inverse Fourier transformed to $g'_{k}\left(x\right)$. After fulfilling the real space constraints the iterative starts again using $g_{k+1}\left(x\right)$. From \citep{Fienup-1982-AO}.}
+	\label{fig:phase-retrieval-algorithm}
+\end{figure}
+The loss of the phase in the scattering process results ultimately in the recovery of the complex fields. The scattered intensity $I\left(\vec{Q}\right)$ is proportional to the form factors $\left|f^{0}\right|^{2}$. To recover the phase and thus reconstruct the particle iterative algorithms have been developed \cite{Fienup-1982-AO}. Figure \ref{fig:phase-retrieval-algorithm} illustrates such an iterative algorithm, where the image of an object $g_{k}\left(x\right)$ is Fourier transformed to reciprocal space $G_{k}\left(x\right)$ and then back again resulting in $g_{k+1}(x)$, while sufficing certain constraints.\\
+The constraints are rather strict defined in the reciprocal space as they have to reproduce the actual measurement $I=A\cdot A^{*}$. The criteria that need to be met in real space can be chosen more freely. Generally, the recovered object should be physical, i.e. consist of positive values or should be of a certain (known) size. In simplified terms, one can introduce a support structure $S$ that meets the physical constraints and can therefore be used to, for example, zero outling values. Throughout the iterations the functions $g_{k}(x)$ evolve and eventually converge into a solution. If one uses the above criterion, one can show that the error between the reconstructions and the actual measurement continuously reduces, which is why it is commonly referred to as error-reduction algorithm \cite{Fienup-1978-OL}.\\
+It should be noted that there is a great variety of manipulations that can be done upon not fulfilling a realspace constraint and although their function is fairly similar there is a great variety of algorithms. Worth mentioning is the hybrid input-output (hio) \cite{Fienup-1978-OL} and the relaxed averaged alternating reflection (RAAR) \cite{Luke-2005-IP}.
+%
+%
+%
+%
+%\subsection{Solving the inverse problem}
 \subsection{2D reconstructions and limitations}
 \subsubsection{Hawk program}
 - Describe Filipe's program

@@ -1,29 +1,30 @@
 \begin{theindex}
 
+  \item afterpulse, \hyperpage{24}
   \item amplitude
-    \subitem complex, \hyperpage{28}
+    \subitem complex, \hyperpage{30}
 
   \indexspace
 
-  \item Bragg's law, \hyperpage{42}
+  \item Bragg's law, \hyperpage{43}
   \item brilliance, \hyperindexformat{\seealso{spectral brightness}}{5}
 
   \indexspace
 
-  \item cluster size, \hyperpage{22}
+  \item cluster size, \hyperpage{23}
   \item Coulomb potential, \hyperpage{39}
 
   \indexspace
 
   \item dispersion correction
-    \subitem complex, \hyperpage{32}
-  \item dopant, \hyperpage{25}
+    \subitem complex, \hyperpage{31}
+  \item dopant, \hyperpage{24}
 
   \indexspace
 
   \item electron density
     \subitem expanding, \hyperpage{42}
-  \item emittance, \hyperpage{10}
+  \item emittance, \hyperpage{11}
 
   \indexspace
 
@@ -32,57 +33,69 @@
 
   \indexspace
 
-  \item Hagena, \hyperindexformat{\see {scaling law}}{22}
-    \subitem scaling parameter, \hyperpage{22}
+  \item Hagena, \hyperindexformat{\see {scaling law}}{23}
+    \subitem scaling parameter, \hyperpage{23}
 
   \indexspace
 
   \item ionization
-    \subitem energy, \hyperpage{33}
+    \subitem energy, \hyperpage{34}
     \subitem inner, \hyperpage{39}
-    \subitem multistep, \hyperpage{39}, \hyperpage{44}
+    \subitem multistep, \hyperpage{39}, \hyperpage{43}
 
   \indexspace
 
   \item LCLS, 
 		\hyperindexformat{\seealso {Linac Coherent Light Source}}{6}, 
-		\hyperpage{44}
-  \item Linac Coherent Light Source, \hyperpage{6}
+		\hyperpage{43}
+  \item Linac Coherent Light Source, \hyperpage{6, 7}
 
   \indexspace
 
-  \item microbunching, \hyperpage{10}
+  \item microbunching, \hyperpage{11}
 
   \indexspace
 
   \item nanoplasma
-    \subitem transition, \hyperpage{39}
+    \subitem transition, \hyperpage{38}
 
   \indexspace
 
   \item photoionization, \hyperpage{33}
-  \item pulse energy, \hyperpage{44}
+  \item pulse energy, \hyperpage{43}
 
   \indexspace
 
-  \item radiation damage, \hyperpage{44}
-  \item refractive index, \hyperpage{31}
-    \subitem complex, \hyperpage{42}
+  \item radiation damage, \hyperpage{43}
+  \item refractive index, \hyperpage{30}
+    \subitem complex, \hyperpage{40}
 
   \indexspace
 
-  \item scaling law, \hyperpage{22}
-  \item self-seeding, \hyperpage{10}
-    \subitem soft x-ray, \hyperpage{13}
+  \item scaling law, \hyperpage{23}
+  \item self-seeding, \hyperpage{14}
+    \subitem soft x-ray, \hyperpage{14}
+  \item slippage, \hyperpage{11}
   \item spectral brightness, \hyperpage{5}
 
   \indexspace
 
   \item time of flight
-    \subitem mass spectroscopy, \hyperpage{46}
+    \subitem mass spectroscopy, \hyperpage{45}
 
   \indexspace
 
-  \item undulator, \hyperpage{8}
+  \item undulator, \hyperpage{7}
+
+  \indexspace
+
+  \item wave vector
+    \subitem transfer, \hyperpage{28}
+  \item wiggler, \hyperpage{7}
+
+  \indexspace
+
+  \item X-ray
+    \subitem Bremsstrahlung, \hyperpage{5}
 
 \end{theindex}

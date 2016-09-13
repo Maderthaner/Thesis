@@ -1,35 +1,10 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{87}
+\begin{thebibliography}{91}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Schorb(2012)]{Schorb-2012-Thesis}
-Sebastian Schorb.
-\newblock \emph{Size-dependent ultrafast ionization dynamics of nanoscale
-  samples in intense femtosecond x-ray free-electron laser pulses}.
-\newblock Thesis, Technische Universitat Berlin, 2012.
-
-\bibitem[Pellegrini et~al.(2016)Pellegrini, Marinelli, and
-  Reiche]{Pellegrini-2016-RMP}
-C.~Pellegrini, A.~Marinelli, and S.~Reiche.
-\newblock {The physics of x-ray free-electron lasers}.
-\newblock \emph{Reviews of Modern Physics}, 88\penalty0 (1):\penalty0 1--55,
-  2016.
-\newblock ISSN 15390756.
-\newblock \doi{10.1103/RevModPhys.88.015006}.
-
-\bibitem[Bostedt et~al.(2016)Bostedt, Boutet, Fritz, Huang, Lee, Lemke, Robert,
-  Schlotter, Turner, and Williams]{Bostedt-2016-RMP}
-Christoph Bostedt, S\'ebastien Boutet, David~M. Fritz, Zhirong Huang, Hae~Ja
-  Lee, Henrik~T. Lemke, Aymeric Robert, William~F. Schlotter, Joshua~J. Turner,
-  and Garth~J. Williams.
-\newblock Linac coherent light source: The first five years.
-\newblock \emph{Rev. Mod. Phys.}, 88:\penalty0 015007, Mar 2016.
-\newblock \doi{10.1103/RevModPhys.88.015007}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/RevModPhys.88.015007}.
 
 \bibitem[Mills et~al.(2005)Mills, Helliwell, Kvick, Ohta, Robinson, and
   Authier]{Mills-2005-IUCR}
@@ -92,6 +67,24 @@ R.~Bonifacio, C.~Pellegrini, and L.~M. Narducci.
 \newblock ISSN 00304018.
 \newblock \doi{10.1016/0030-4018(84)90105-6}.
 
+\bibitem[Emma et~al.(2010)Emma, Akre, Arthur, Bionta, Bostedt, Bozek,
+  Brachmann, Bucksbaum, Coffee, Decker, et~al.]{Emma-2010-NatPho}
+P.~Emma, R.~Akre, J.~Arthur, R.~Bionta, C.~Bostedt, J.~Bozek, A.~Brachmann,
+  P.~Bucksbaum, R.~Coffee, F.~J. Decker, et~al.
+\newblock First lasing and operation of an ångstrom-wavelength free-electron
+  laser.
+\newblock \emph{Nat. Photonics}, 4\penalty0 (9):\penalty0 641--647, 2010.
+\newblock ISSN 1749-4885.
+
+\bibitem[Young et~al.(2010)Young, Kanter, Krassig, Li, March, Pratt, Santra,
+  Southworth, Rohringer, Dimauro, et~al.]{Young-2010-Nature}
+L.~Young, E.~P. Kanter, B.~Krassig, Y.~Li, A.~M. March, S.~T. Pratt, R.~Santra,
+  S.~H. Southworth, N.~Rohringer, L.~F. Dimauro, et~al.
+\newblock Femtosecond electronic response of atoms to ultra-intense x-rays.
+\newblock \emph{Nature}, 466\penalty0 (7302):\penalty0 56--61, 2010.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature09177}.
+
 \bibitem[Holst and Horvath(2005)]{holst-2005-wiki}
 Bastian Holst and Arpad Horvath.
 \newblock Undulator, Jul 2005.
@@ -107,6 +100,12 @@ G.~Brown, K.~Halbach, J.~Harris, and H.~Winick.
 \newblock \doi{10.1016/0167-5087(83)91105-5}.
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/0167508783911055}.
+
+\bibitem[Williams(2009)]{Williams-2009-xb}
+Gwyn~P Williams, editor.
+\newblock \emph{X-ray data booklet}.
+\newblock Lawrence Berkeley National Laboratory, 2009.
+\newblock URL \url{http://cxro.lbl.gov/x-ray-data-booklet}.
 
 \bibitem[Kim(1986)]{Kim-1986-NIMPRA}
 Kwang-Je Kim.
@@ -146,6 +145,14 @@ M.~Bucher, K.~R. Ferguson, Gorkhover T., and Bostedt C.
 \newblock Unpublished study on feasibility of a spectrometer that is based on
   photoemission., 2014.
 
+\bibitem[Kim et~al.(2008)Kim, Shvyd'ko, and Reiche]{Kim-2008-PRL}
+Kwang-Je Kim, Yuri Shvyd'ko, and Sven Reiche.
+\newblock A proposal for an x-ray free-electron laser oscillator with an
+  energy-recovery linac.
+\newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 244802, Jun 2008.
+\newblock \doi{10.1103/PhysRevLett.100.244802}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.100.244802}.
+
 \bibitem[Fletcher et~al.(2015)Fletcher, Lee, D{\"o}ppner, Galtier, Nagler,
   Heimann, Fortmann, LePape, Ma, Millot, et~al.]{Fletcher-2015-NatPho}
 L.~B. Fletcher, H.~J. Lee, T.~D{\"o}ppner, E.~Galtier, B.~Nagler, P.~Heimann,
@@ -184,6 +191,18 @@ D.~Ratner, R.~Abela, J.~Amann, C.~Behrens, D.~Bohler, G.~Bouchard, C.~Bostedt,
 \newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 054801, Feb 2015.
 \newblock \doi{10.1103/PhysRevLett.114.054801}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.114.054801}.
+
+\bibitem[Allaria et~al.(2012)Allaria, Appio, Badano, Barletta, Bassanese,
+  Biedron, Borga, Busetto, Castronovo, Cinquegrana,
+  et~al.]{Allaria-2012-NatPho}
+E.~Allaria, R.~Appio, L.~Badano, W.~A. Barletta, S.~Bassanese, S.~G. Biedron,
+  A.~Borga, E.~Busetto, D.~Castronovo, P.~Cinquegrana, et~al.
+\newblock Highly coherent and stable pulses from the fermi seeded free-electron
+  laser in the extreme ultraviolet.
+\newblock \emph{Nat. Photonics}, 6\penalty0 (10):\penalty0 699--704, 2012.
+\newblock ISSN 1749-4885.
+\newblock \doi{10.1038/nphoton.2012.233}.
+\newblock URL \url{<Go to ISI>://WOS:000309523900018}.
 
 \bibitem[Ferguson et~al.(2014)Ferguson, Bucher, Gorkhover, and
   C.]{Ferguson-2014-Unpublished}
@@ -291,6 +310,11 @@ Chelsea~E Liekhus-Schmaltz, Ian Tenney, Timur Osipov, Alvaro Sanchez-Gonzalez,
 \newblock \doi{10.1038/ncomms9199}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/26354002}.
 
+\bibitem[Gal(2014)]{Galayda-2014-IPAC}
+\emph{THE LINAC COHERENT LIGHT SOURCE-II PROJECT}, 2014.
+\newblock URL
+  \url{http://accelconf.web.cern.ch/AccelConf/IPAC2014/papers/tuoca01.pdf}.
+
 \bibitem[Emma et~al.(2004)Emma, Bane, Cornacchia, Huang, Schlarb, Stupakov, and
   Walz]{Emma-2004-PRL}
 P.~Emma, K.~Bane, M.~Cornacchia, Z.~Huang, H.~Schlarb, G.~Stupakov, and
@@ -391,6 +415,12 @@ J~Gspann.
 \newblock ISBN 978-3-642-71571-6.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-71571-6{\_}7}.
 
+\bibitem[Schorb(2012)]{Schorb-2012-Thesis}
+Sebastian Schorb.
+\newblock \emph{Size-dependent ultrafast ionization dynamics of nanoscale
+  samples in intense femtosecond x-ray free-electron laser pulses}.
+\newblock Thesis, Technische Universitat Berlin, 2012.
+
 \bibitem[Hagena(1972)]{Hagena-1972-JCP}
 Otto~F. Hagena.
 \newblock {Cluster Formation in Expanding Supersonic Jets: Effect of Pressure,
@@ -467,29 +497,6 @@ Luis~F. Gomez, Ken~R. Ferguson, James~P. Cryan, Camila Bacellar, Rico Mayro~P.
 Andr{\'e} Guinier and G{\'e}rard Fournet.
 \newblock \emph{Small-angle scattering of X-rays}.
 \newblock J. Wiley {\&} Sons, New York, 1955.
-
-\bibitem[Fienup(1982)]{Fienup-1982-AO}
-J~R Fienup.
-\newblock {Phase retrieval algorithms: a comparison}.
-\newblock \emph{Applied Optics}, 21\penalty0 (15):\penalty0 2758--2769, 1982.
-\newblock ISSN 0003-6935.
-\newblock \doi{10.1364/AO.21.002758}.
-\newblock URL
-  \url{http://www.opticsinfobase.org.ezproxy.lib.purdue.edu/viewmedia.cfm?uri=ao-21-15-2758{\&}seq=0{\&}html=true$\backslash$npapers3://publication/doi/10.1364/AO.21.002758}.
-
-\bibitem[Fienup(1978)]{Fienup-1978-OL}
-J~R Fienup.
-\newblock {Reconstruction of an object from the modulus of its Fourier
-  transform}.
-\newblock \emph{Optics letters}, 3\penalty0 (1):\penalty0 27--29, 1978.
-\newblock ISSN 0146-9592.
-\newblock \doi{10.1364/OL.3.000027}.
-
-\bibitem[Luke(2005)]{Luke-2005-IP}
-D~Russell Luke.
-\newblock Relaxed averaged alternating reflections for diffraction imaging.
-\newblock \emph{Inverse Problems}, 21\penalty0 (1):\penalty0 37, 2005.
-\newblock URL \url{http://stacks.iop.org/0266-5611/21/i=1/a=004}.
 
 \bibitem[Attwood(2000)]{Attwood-2007-CUP}
 David Attwood.
@@ -812,5 +819,28 @@ Michael Ziemkewitz, Camila Bacellar, Adam Chatterley, Maximilian Bucher,
 \newblock Controlling explosion dynamics in mixed solid/superfluid clusters
   with x-ray double pulses.
 \newblock in preparation, 2017.
+
+\bibitem[Fienup(1982)]{Fienup-1982-AO}
+J~R Fienup.
+\newblock {Phase retrieval algorithms: a comparison}.
+\newblock \emph{Applied Optics}, 21\penalty0 (15):\penalty0 2758--2769, 1982.
+\newblock ISSN 0003-6935.
+\newblock \doi{10.1364/AO.21.002758}.
+\newblock URL
+  \url{http://www.opticsinfobase.org.ezproxy.lib.purdue.edu/viewmedia.cfm?uri=ao-21-15-2758{\&}seq=0{\&}html=true$\backslash$npapers3://publication/doi/10.1364/AO.21.002758}.
+
+\bibitem[Fienup(1978)]{Fienup-1978-OL}
+J~R Fienup.
+\newblock {Reconstruction of an object from the modulus of its Fourier
+  transform}.
+\newblock \emph{Optics letters}, 3\penalty0 (1):\penalty0 27--29, 1978.
+\newblock ISSN 0146-9592.
+\newblock \doi{10.1364/OL.3.000027}.
+
+\bibitem[Luke(2005)]{Luke-2005-IP}
+D~Russell Luke.
+\newblock Relaxed averaged alternating reflections for diffraction imaging.
+\newblock \emph{Inverse Problems}, 21\penalty0 (1):\penalty0 37, 2005.
+\newblock URL \url{http://stacks.iop.org/0266-5611/21/i=1/a=004}.
 
 \end{thebibliography}
