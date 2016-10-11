@@ -33,35 +33,37 @@
 \contentsline {subsection}{\numberline {4.2.2}Impact of X-ray pump -- X-ray probe on diffraction pattern}{70}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Data filtering}{72}{section.4.3}
 \contentsline {section}{\numberline {4.4}Phase retrieval from a single diffraction pattern}{73}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}The inverse problem: Phase retrieval}{73}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}2D reconstructions and limitations}{75}{subsection.4.4.2}
-\contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{75}{section*.8}
-\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{77}{section*.9}
-\contentsline {subsection}{\numberline {4.4.3}1D reconstructions}{77}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {5}Results and discussion}{79}{chapter.5}
-\contentsline {section}{\numberline {5.1}Static data}{79}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pristine xenon pump--probe data}{79}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}iToF traces with xenon as sample}{79}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Xenon diffraction images}{79}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Reconstructions of xenon cluster single shot images}{79}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}pnCCD image pump -- probe considerations}{79}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Time of flight data}{79}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Pristine helium cluster pump-probe data}{79}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}iToF data with helium as sample}{80}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Diffraction images of helium cluster}{80}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Helium-xenon core-shell systems and pump--probe data}{80}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Time-of-flight data of helium-xenon core-shell systems}{80}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Diffraction images of helium-xenon core shell systems}{81}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Core-shell system considerations}{81}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Conclusion of the X-ray pump -- X-ray probe study}{81}{section.5.5}
-\contentsline {chapter}{\numberline {6}Summary and outlook}{83}{chapter.6}
-\contentsline {section}{\numberline {6.1}Summary}{83}{section.6.1}
-\contentsline {section}{\numberline {6.2}Outlook}{83}{section.6.2}
-\contentsline {chapter}{\numberline {7}Appendix}{A}{chapter.7}
-\contentsline {section}{\numberline {7.1}Source alignment}{A}{section.7.1}
-\contentsline {section}{\numberline {7.2}Python code psana example}{A}{section.7.2}
-\contentsline {section}{\numberline {7.3}Python code on spherical integrations}{C}{section.7.3}
-\contentsline {section}{\numberline {7.4}Python code on combining detectors}{C}{section.7.4}
-\contentsline {chapter}{\numberline {8}Bibliography}{E}{chapter.8}
-\contentsline {chapter}{\numberline {9}Index}{U}{chapter.9}
-\contentsline {chapter}{\numberline {10}Acknowledgment}{W}{chapter.10}
+\contentsline {subsection}{\numberline {4.4.1}Principle of phase retrieval}{73}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}2D reconstructions and limitations}{74}{subsection.4.4.2}
+\contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{74}{section*.8}
+\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{75}{section*.9}
+\contentsline {subsection}{\numberline {4.4.3}1D projections and phase reconstructions}{77}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{78}{section.4.5}
+\contentsline {chapter}{\numberline {5}Results and discussion}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Static data}{81}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pristine xenon pump--probe data}{81}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}iToF traces with xenon as sample}{81}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Xenon diffraction images}{81}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Reconstructions of xenon cluster single shot images}{81}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}pnCCD image pump -- probe considerations}{81}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Time of flight data}{81}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Pristine helium cluster pump-probe data}{81}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}iToF data with helium as sample}{82}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Diffraction images of helium cluster}{82}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Helium-xenon core-shell systems and pump--probe data}{82}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Time-of-flight data of helium-xenon core-shell systems}{82}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Diffraction images of helium-xenon core shell systems}{83}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Core-shell system considerations}{83}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Conclusion of the X-ray pump -- X-ray probe study}{83}{section.5.5}
+\contentsline {chapter}{\numberline {6}Summary and outlook}{85}{chapter.6}
+\contentsline {section}{\numberline {6.1}Summary}{85}{section.6.1}
+\contentsline {section}{\numberline {6.2}Outlook}{85}{section.6.2}
+\contentsline {chapter}{\numberline {7}Bibliography}{87}{chapter.7}
+\contentsline {chapter}{\numberline {8}Appendix}{A}{chapter.8}
+\contentsline {section}{\numberline {8.1}Source alignment}{A}{section.8.1}
+\contentsline {section}{\numberline {8.2}Python code psana example}{A}{section.8.2}
+\contentsline {section}{\numberline {8.3}Matlab code on spherical integrations}{C}{section.8.3}
+\contentsline {section}{\numberline {8.4}Python code on 1D phase-retrieval}{D}{section.8.4}
+\contentsline {section}{\numberline {8.5}Python code on combining detectors}{E}{section.8.5}
+\contentsline {chapter}{\numberline {9}Index}{K}{chapter.9}
+\contentsline {chapter}{\numberline {10}Acknowledgment}{M}{chapter.10}

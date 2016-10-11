@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{124}
+\begin{thebibliography}{125}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -678,10 +678,10 @@ T.~Laarmann, M.~Rusek, H.~Wabnitz, J.~Schulz, A.~R~B {De Castro},
 \newblock ISSN 00319007.
 \newblock \doi{10.1103/PhysRevLett.95.063402}.
 
-\bibitem[Bostedt et~al.(2010{\natexlab{b}})Bostedt, Thomas, Hoener, M??ller,
-  Saalmann, Georgescu, Gnodtke, and Rost]{Bostedt-2010-NJP}
-Christoph Bostedt, Heiko Thomas, Matthias Hoener, Thomas M??ller, Ulf Saalmann,
-  Ionu?? Georgescu, Christian Gnodtke, and Jan~Michael Rost.
+\bibitem[Bostedt et~al.(2010{\natexlab{b}})Bostedt, Thomas, Hoener,
+  M{\"{o}}ller, Saalmann, Georgescu, Gnodtke, and Rost]{Bostedt-2010-NJP}
+Christoph Bostedt, Heiko Thomas, Matthias Hoener, Thomas M{\"{o}}ller, Ulf
+  Saalmann, Ionut Georgescu, Christian Gnodtke, and Jan~Michael Rost.
 \newblock {Fast electrons from multi-electron dynamics in xenon clusters
   induced by inner-shell ionization}.
 \newblock \emph{New Journal of Physics}, 12, 2010{\natexlab{b}}.
@@ -1084,8 +1084,9 @@ Phay~J. Ho, Christoph Bostedt, Sebastian Schorb, and Linda Young.
   pathways in x-ray free-electron laser pulses.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 253001, 2014.
 
-\bibitem[Bru(1979)]{Bruck-1979-OpticsCom}
-{On the ambiguity of the image reconstruction problem}.
+\bibitem[Bruck and Sodin(1979)]{Bruck-1979-OpticsCom}
+Yu.M. Bruck and L.G. Sodin.
+\newblock {On the ambiguity of the image reconstruction problem}.
 \newblock \emph{Optics Communications}, 30\penalty0 (3):\penalty0 304--308,
   1979.
 \newblock ISSN 00304018.
@@ -1165,5 +1166,12 @@ M~Marvin Seibert, S{\'e}bastien Boutet, Martin Svenda, Tomas Ekeberg, Filipe R
 \newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
   43\penalty0 (19):\penalty0 194015, 2010.
 \newblock URL \url{http://stacks.iop.org/0953-4075/43/i=19/a=194015}.
+
+\bibitem[Maia(2012)]{Maia-2012-NatMet}
+Filipe~RNC Maia.
+\newblock The coherent x-ray imaging data bank.
+\newblock \emph{Nat. Methods}, 9\penalty0 (9):\penalty0 854--855, 2012.
+\newblock ISSN 1548-7091.
+\newblock \doi{10.1038/nmeth.2110}.
 
 \end{thebibliography}
