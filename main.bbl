@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{125}
+\begin{thebibliography}{126}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1131,12 +1131,6 @@ J~R Fienup.
 \newblock ISSN 0146-9592.
 \newblock \doi{10.1364/OL.3.000027}.
 
-\bibitem[Luke(2005)]{Luke-2005-IP}
-D~Russell Luke.
-\newblock Relaxed averaged alternating reflections for diffraction imaging.
-\newblock \emph{Inverse Problems}, 21\penalty0 (1):\penalty0 37, 2005.
-\newblock URL \url{http://stacks.iop.org/0266-5611/21/i=1/a=004}.
-
 \bibitem[Maia et~al.(2010)Maia, Ekeberg, van~der Spoel, and
   Hajdu]{Maia-2010-JAC}
 Filipe R. N.~C. Maia, Tomas Ekeberg, David van~der Spoel, and Janos Hajdu.
@@ -1173,5 +1167,21 @@ Filipe~RNC Maia.
 \newblock \emph{Nat. Methods}, 9\penalty0 (9):\penalty0 854--855, 2012.
 \newblock ISSN 1548-7091.
 \newblock \doi{10.1038/nmeth.2110}.
+
+\bibitem[Luke(2005)]{Luke-2005-IP}
+D~Russell Luke.
+\newblock Relaxed averaged alternating reflections for diffraction imaging.
+\newblock \emph{Inverse Problems}, 21\penalty0 (1):\penalty0 37, 2005.
+\newblock URL \url{http://stacks.iop.org/0266-5611/21/i=1/a=004}.
+
+\bibitem[Hantke et~al.(2014)Hantke, Hasse, Maia, Ekeberg, John, Svenda, Loh,
+  Martin, Timneanu, Larsson, et~al.]{Hantke-2014-NatPho}
+Max~F. Hantke, Dirk Hasse, Filipe R. N.~C. Maia, Tomas Ekeberg, Katja John,
+  Martin Svenda, N.~Duane Loh, Andrew~V. Martin, Nicusor Timneanu, Daniel S.~D.
+  Larsson, et~al.
+\newblock High-throughput imaging of heterogeneous cell organelles with an
+  x-ray laser.
+\newblock \emph{Nat. Photonics}, 8:\penalty0 943–949, 2014.
+\newblock \doi{10.1038/nphoton.2014.270}.
 
 \end{thebibliography}

@@ -30,15 +30,15 @@
 \contentsline {section}{\numberline {4.1}The computing environment at LCLS}{63}{section.4.1}
 \contentsline {section}{\numberline {4.2}pnCCD photon detectors}{65}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{67}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Impact of X-ray pump -- X-ray probe on diffraction pattern}{70}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Impact of X-ray pump -- X-ray probe on diffraction pattern}{71}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Data filtering}{72}{section.4.3}
 \contentsline {section}{\numberline {4.4}Phase retrieval from a single diffraction pattern}{73}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Principle of phase retrieval}{73}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}2D reconstructions and limitations}{74}{subsection.4.4.2}
-\contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{74}{section*.8}
-\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{75}{section*.9}
-\contentsline {subsection}{\numberline {4.4.3}1D projections and phase reconstructions}{77}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{78}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.1}Principle of phase retrieval}{74}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}2D reconstructions and limitations}{75}{subsection.4.4.2}
+\contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{75}{section*.8}
+\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{76}{section*.9}
+\contentsline {subsection}{\numberline {4.4.3}1D projections and phase reconstructions}{78}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{79}{section.4.5}
 \contentsline {chapter}{\numberline {5}Results and discussion}{81}{chapter.5}
 \contentsline {section}{\numberline {5.1}Static data}{81}{section.5.1}
 \contentsline {section}{\numberline {5.2}Pristine xenon pump--probe data}{81}{section.5.2}
@@ -65,5 +65,5 @@
 \contentsline {section}{\numberline {8.3}Matlab code on spherical integrations}{C}{section.8.3}
 \contentsline {section}{\numberline {8.4}Python code on 1D phase-retrieval}{D}{section.8.4}
 \contentsline {section}{\numberline {8.5}Python code on combining detectors}{E}{section.8.5}
-\contentsline {chapter}{\numberline {9}Index}{K}{chapter.9}
-\contentsline {chapter}{\numberline {10}Acknowledgment}{M}{chapter.10}
+\contentsline {chapter}{\numberline {9}Index}{I}{chapter.9}
+\contentsline {chapter}{\numberline {10}Acknowledgment}{K}{chapter.10}
