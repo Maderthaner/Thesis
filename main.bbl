@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{126}
+\begin{thebibliography}{127}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,6 +32,13 @@ Amadeo Perazzo.
 \newblock Technical report, SLAC National Accelerator Laboratory, Febuary 2016.
 \newblock URL
   \url{https://portal.slac.stanford.edu/sites/lcls_public/Documents/LCLSDataAnalysisStrategy.pdf}.
+
+\bibitem[Agi(2007)]{Acqiris-manual}
+\emph{Agilent Acqiris Programmer's guide}.
+\newblock Agilent Technologies, xz130 edition, June 2007.
+\newblock URL
+  \url{https://github.com/Maderthaner/Thesis/blob/master/manuals/U10xx_ProgrammersGuide.pdf}.
+\newblock URL tested on October 13, 2016.
 
 \bibitem[Mills et~al.(2005)Mills, Helliwell, Kvick, Ohta, Robinson, and
   Authier]{Mills-2005-IUCR}
