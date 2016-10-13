@@ -30,7 +30,7 @@
 
   \indexspace
 
-  \item Fourier Transform, \hyperpage{80}
+  \item Fourier Transform, \hyperpage{82}
   \item Free electron LASer in Hamburg
     \subitem FLASH, \hyperpage{45}
 
@@ -38,9 +38,9 @@
 
   \item Hagena, \hyperindexformat{\see {scaling law}}{23}
     \subitem scaling parameter, \hyperpage{23}
-  \item Hawk software package, \hyperpage{75}
+  \item Hawk software package, \hyperpage{76}
   \item Helium
-    \subitem liquid density, \hyperpage{80}
+    \subitem liquid density, \hyperpage{82}
 
   \indexspace
 
@@ -59,7 +59,7 @@
 
   \indexspace
 
-  \item Matlab, \hyperpage{78}, \hyperpage{80}
+  \item Matlab, \hyperpage{80}, \hyperpage{82}
   \item microbunching, \hyperpage{11}
 
   \indexspace
@@ -69,9 +69,9 @@
 
   \indexspace
 
-  \item oversampling, \hyperpage{73}
-    \subitem Nyquist rate, \hyperpage{73}
-    \subitem Nyquist-Shannon sampling theorem, \hyperpage{73}
+  \item oversampling, \hyperpage{75}
+    \subitem Nyquist rate, \hyperpage{75}
+    \subitem Nyquist-Shannon sampling theorem, \hyperpage{75}
 
   \indexspace
 
@@ -123,6 +123,6 @@
   \item X-ray
     \subitem Bremsstrahlung, \hyperpage{5}
   \item Xenon
-    \subitem bulk density, \hyperpage{80}
+    \subitem bulk density, \hyperpage{82}
 
 \end{theindex}
