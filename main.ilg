@@ -3,7 +3,7 @@ Scanning input file main.idx....
 !! Input index error (file = main.idx, line = 59):
    -- Illegal null field.
 done (64 entries accepted, 1 rejected).
-Sorting entries....done (384 comparisons).
+Sorting entries....done (382 comparisons).
 Generating output file main.ind....done (128 lines written, 0 warnings).
 Output written in main.ind.
 Transcript written in main.ilg.

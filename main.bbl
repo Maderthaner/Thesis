@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{127}
+\begin{thebibliography}{129}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -957,6 +957,18 @@ S.~Moeller, J.~Arthur, A.~Brachmann, R.~Coffee, F.~J. Decker, Y.~Ding,
 \newblock ISSN 0168-9002.
 \newblock \doi{10.1016/j.nima.2010.10.125}.
 
+\bibitem[Behrens et~al.(2014)Behrens, Decker, Ding, Dolgashev, Frisch, Huang,
+  Krejcik, Loos, Lutman, Maxwell, et~al.]{Behrens-2014-NatCom}
+C.~Behrens, F.~J. Decker, Y.~Ding, V.~A. Dolgashev, J.~Frisch, Z.~Huang,
+  P.~Krejcik, H.~Loos, A.~Lutman, T.~J. Maxwell, et~al.
+\newblock Few-femtosecond time-resolved measurements of x-ray free-electron
+  lasers.
+\newblock \emph{Nat. Commun.}, 5:\penalty0 3762, 2014.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms4762}.
+\newblock URL
+  \url{http://www.nature.com/ncomms/2014/140430/ncomms4762/full/ncomms4762.html}.
+
 \bibitem[Hau-Riege et~al.(2010{\natexlab{b}})Hau-Riege, Bionta, Ryutov, London,
   Ables, Kishiyama, Shen, McKernan, McMahon, Messerschmidt, Krzywinski, Stefan,
   Turner, and Ziaja]{Hau-Riege-2010-PRL-2}
@@ -1190,5 +1202,15 @@ Max~F. Hantke, Dirk Hasse, Filipe R. N.~C. Maia, Tomas Ekeberg, Katja John,
   x-ray laser.
 \newblock \emph{Nat. Photonics}, 8:\penalty0 943–949, 2014.
 \newblock \doi{10.1038/nphoton.2014.270}.
+
+\bibitem[Schorb et~al.(2012)Schorb, Rupp, Swiggers, Coffee, Messerschmidt,
+  Williams, Bozek, Wada, Kornilov, M{\"o}ller, et~al.]{Schorb-2012-PRL}
+Sebastian Schorb, Daniela Rupp, Michelle~L Swiggers, Ryan~N Coffee, Marc
+  Messerschmidt, Garth Williams, John~D Bozek, Shin-Ichi Wada, Oleg Kornilov,
+  Thomas M{\"o}ller, et~al.
+\newblock Size-dependent ultrafast ionization dynamics of nanoscale samples in
+  intense femtosecond x-ray free-electron-laser pulses.
+\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (23):\penalty0 233401, 2012.
+\newblock ISSN 1079-7114.
 
 \end{thebibliography}
