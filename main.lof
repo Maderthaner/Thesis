@@ -16,9 +16,9 @@
 \contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Schematic illustration of common charge transfer processes}}{36}{figure.2.12}
 \contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Fluoresence spectra from xenon and neon K-LL Auger spectrum.}}{37}{figure.2.13}
 \contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Schematic of the nanoplasma creation and expansion.}}{39}{figure.2.14}
-\contentsline {figure}{\numberline {\relax 2.15}{\ignorespaces Measurement and simulation of the nanoplasma expansion in xenon cluster.}}{42}{figure.2.15}
-\contentsline {figure}{\numberline {\relax 2.16}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{43}{figure.2.16}
-\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Time of flight spectra of argon and xenon core-shell systems.}}{45}{figure.2.17}
+\contentsline {figure}{\numberline {\relax 2.15}{\ignorespaces Measurement and simulation of the nanoplasma expansion in xenon cluster.}}{41}{figure.2.15}
+\contentsline {figure}{\numberline {\relax 2.16}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{42}{figure.2.16}
+\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Time of flight spectra of argon and xenon core-shell systems.}}{44}{figure.2.17}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Schematic overview of the AMO beamline instrumentation in the LAMP configuration. The indicated distances below the schematic items are in meters from the interaction region. As the X-ray beam enters the instrument, it can be visualized on a YAG crystal diagnostics (D). A set of 2 slits (S) cuts the beam in the vertical and horizontal to reduce straylight from the Kirkpatrick-Baez (KB) optics. The differential pumping section of the LAMP end-station houses another YAG crystal diagnostics (D) and an option couple in an optical laser (L-IN) on-axis with the X-rays. The front and back pnCCD (F/B-pnCCD) are located downstream of the IR with further beam viewing options (D). From \citep {Ferguson-2015-JSR}.}}{48}{figure.3.1}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Left graph: Atomic neon charge state yield from time-of-flight mass spectroscopy as a function of Z, relative to optimal focus position $\text {Z}=0$. $Z=0\pm 1$ is a favorable length for sample injection. Right diagram: Comparison of atomic neon charge state yield from time-of-flight mass spectroscopy for different cases. Red: Experimental data from October 2009 with 4 blades (S) opened. Green: Experimental data from November 2013 with (S) closed. Blue: Experimental data from November 2013 with (S) opened.}}{50}{figure.3.2}
@@ -45,12 +45,14 @@
 \contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Left: Electron density of a $R\approx 100nm$ expanding sphere with $k=5$ nm, projected onto a 2D plane. Right: Blue curve, spherical projection of the 2D projection to 1D. Red dashed line, point of expanding density at $k=5$ nm.}}{81}{figure.4.11}
 \contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Comparison of analytical scattering from a sphere of radius $R=202$ nm (black curve), equation \ref {eq:scattering from sphere}, and scattering of a sphere of radius $R=202$ nm from 2D simulations projected onto 1D (green, dashed curve). Envelope of scattering intensity, called Porod's law, which is $\propto q^{-4}$ (red curve). The analytical scattering and developed simulations agree well with each other.}}{82}{figure.4.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces caption}}{84}{figure.5.1}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces caption. MAKE IMAGE NICER}}{85}{figure.5.2}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces caption}}{86}{figure.5.3}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces caption}}{87}{figure.5.4}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces caption}}{88}{figure.5.5}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces caption}}{89}{figure.5.6}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces caption}}{86}{figure.5.1}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces caption. MAKE IMAGE NICER}}{87}{figure.5.2}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces caption}}{88}{figure.5.3}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces caption}}{89}{figure.5.4}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces caption}}{90}{figure.5.5}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces caption}}{91}{figure.5.6}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces caption}}{92}{figure.5.7}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces caption}}{93}{figure.5.8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
