@@ -1,0 +1,268 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     10243,        259]
+NotebookOptionsPosition[      9760,        237]
+NotebookOutlinePosition[     10116,        253]
+CellTagsIndexPosition[     10073,        250]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Plot for gas flight times", "Subsubsection",
+ CellChangeTimes->{{3.6865924898063803`*^9, 3.686592504717404*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"flightTimeSound", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "795753", ",", "675551", ",", "585482", ",", "447364", ",", "336486"}], 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"flightTimeSoundError", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ErrorBar", "@", "29927"}], ",", 
+      RowBox[{"ErrorBar", "@", "33533"}], ",", 
+      RowBox[{"ErrorBar", "@", "36235"}], ",", 
+      RowBox[{"ErrorBar", "@", "40379"}], ",", 
+      RowBox[{"ErrorBar", "@", "43705"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimeTerminal", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "836854", ",", "767456", ",", "715454", ",", "635711", ",", "571696"}], 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"flightTimeTerminalError", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ErrorBar", "@", "30776"}], ",", 
+      RowBox[{"ErrorBar", "@", "33659"}], ",", 
+      RowBox[{"ErrorBar", "@", "32336"}], ",", 
+      RowBox[{"ErrorBar", "@", "34729"}], ",", 
+      RowBox[{"ErrorBar", "@", "36649"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimeMeasured", "=", 
+   RowBox[{"{", 
+    RowBox[{"750000", ",", "650000", ",", "470000", ",", "4", ",", "5"}], 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"flightTimeMeasuredError", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ErrorBar", "@", "25000"}], ",", 
+      RowBox[{"ErrorBar", "@", "25000"}], ",", 
+      RowBox[{"ErrorBar", "@", "25000"}], ",", 
+      RowBox[{"ErrorBar", "@", "25000"}], ",", 
+      RowBox[{"ErrorBar", "@", "25000"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"amu", "=", 
+   RowBox[{"{", 
+    RowBox[{"4", ",", "20", ",", "40", ",", "84", ",", "131"}], "}"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.686584578016122*^9, 3.6865846272307053`*^9}, 
+   3.686584816706221*^9, {3.686584862258502*^9, 3.686584865127708*^9}, {
+   3.6865851693031263`*^9, 3.686585180174069*^9}, {3.6865852207261*^9, 
+   3.686585414837942*^9}, {3.6865854635356503`*^9, 3.686585471998499*^9}, {
+   3.686592335105804*^9, 3.686592485527031*^9}, {3.686592739496282*^9, 
+   3.686592783041939*^9}, {3.686592854486527*^9, 3.6865928579101477`*^9}, {
+   3.6865931364067793`*^9, 3.686593270748166*^9}, {3.68659342547252*^9, 
+   3.686593427163888*^9}, {3.686593523812899*^9, 3.686593527562674*^9}, {
+   3.686593830307753*^9, 3.686593976772612*^9}, {3.686594010933234*^9, 
+   3.6865941619348993`*^9}, {3.686611670386518*^9, 3.6866116715837393`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<ErrorBarPlots`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6865848667699966`*^9, 3.686584868389624*^9}, 
+   3.686584998028922*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ErrorListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{"amu", ",", "flightTimeMeasured"}], "}"}], "]"}], ",", 
+        "flightTimeMeasuredError"}], "}"}], "]"}], ",", 
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{"amu", ",", "flightTimeSound"}], "}"}], "]"}], ",", 
+        "flightTimeSoundError"}], "}"}], "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{"amu", ",", "flightTimeTerminal"}], "}"}], "]"}], ",", 
+        "flightTimeTerminalError"}], "}"}], "]"}]}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "140"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", 
+        SuperscriptBox["10", "6"]}], "}"}]}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.686584629139143*^9, 3.686584729197174*^9}, 
+   3.686585005813857*^9, {3.686592601438406*^9, 3.686592607229554*^9}, {
+   3.686592669030868*^9, 3.686592683194148*^9}, {3.686592787842762*^9, 
+   3.686592829905787*^9}, {3.686592899609079*^9, 3.686592902930159*^9}, {
+   3.686593298810693*^9, 3.686593336126813*^9}, {3.686611680355897*^9, 
+   3.6866117179479113`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Hue[0.67, 0.6, 0.6], 
+    PointBox[{{4., 750000.}, {20., 650000.}, {40., 470000.}, {84., 4.}, {131.,
+      5.}}], {{LineBox[{{4., 775000.}, {4., 725000.}}], 
+      LineBox[{Offset[{1.5, 0}, {4., 775000.}], 
+        Offset[{-1.5, 0}, {4., 775000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {4., 725000.}], 
+        Offset[{-1.5, 0}, {4., 725000.}]}]}, {
+      LineBox[{{20., 675000.}, {20., 625000.}}], 
+      LineBox[{Offset[{1.5, 0}, {20., 675000.}], 
+        Offset[{-1.5, 0}, {20., 675000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {20., 625000.}], 
+        Offset[{-1.5, 0}, {20., 625000.}]}]}, {
+      LineBox[{{40., 495000.}, {40., 445000.}}], 
+      LineBox[{Offset[{1.5, 0}, {40., 495000.}], 
+        Offset[{-1.5, 0}, {40., 495000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {40., 445000.}], 
+        Offset[{-1.5, 0}, {40., 445000.}]}]}, {
+      LineBox[{{84., 25004.}, {84., -24996.}}], 
+      LineBox[{Offset[{1.5, 0}, {84., 25004.}], 
+        Offset[{-1.5, 0}, {84., 25004.}]}], 
+      LineBox[{Offset[{1.5, 0}, {84., -24996.}], 
+        Offset[{-1.5, 0}, {84., -24996.}]}]}, {
+      LineBox[{{131., 25005.}, {131., -24995.}}], 
+      LineBox[{Offset[{1.5, 0}, {131., 25005.}], 
+        Offset[{-1.5, 0}, {131., 25005.}]}], 
+      LineBox[{Offset[{1.5, 0}, {131., -24995.}], 
+        Offset[{-1.5, 0}, {131., -24995.}]}]}}}, 
+   {Hue[0.9060679774997897, 0.6, 0.6], 
+    PointBox[{{4., 795753.}, {20., 675551.}, {40., 585482.}, {84., 447364.}, {
+     131., 336486.}}], {{LineBox[{{4., 825680.}, {4., 765826.}}], 
+      LineBox[{Offset[{1.5, 0}, {4., 825680.}], 
+        Offset[{-1.5, 0}, {4., 825680.}]}], 
+      LineBox[{Offset[{1.5, 0}, {4., 765826.}], 
+        Offset[{-1.5, 0}, {4., 765826.}]}]}, {
+      LineBox[{{20., 709084.}, {20., 642018.}}], 
+      LineBox[{Offset[{1.5, 0}, {20., 709084.}], 
+        Offset[{-1.5, 0}, {20., 709084.}]}], 
+      LineBox[{Offset[{1.5, 0}, {20., 642018.}], 
+        Offset[{-1.5, 0}, {20., 642018.}]}]}, {
+      LineBox[{{40., 621717.}, {40., 549247.}}], 
+      LineBox[{Offset[{1.5, 0}, {40., 621717.}], 
+        Offset[{-1.5, 0}, {40., 621717.}]}], 
+      LineBox[{Offset[{1.5, 0}, {40., 549247.}], 
+        Offset[{-1.5, 0}, {40., 549247.}]}]}, {
+      LineBox[{{84., 487743.}, {84., 406985.}}], 
+      LineBox[{Offset[{1.5, 0}, {84., 487743.}], 
+        Offset[{-1.5, 0}, {84., 487743.}]}], 
+      LineBox[{Offset[{1.5, 0}, {84., 406985.}], 
+        Offset[{-1.5, 0}, {84., 406985.}]}]}, {
+      LineBox[{{131., 380191.}, {131., 292781.}}], 
+      LineBox[{Offset[{1.5, 0}, {131., 380191.}], 
+        Offset[{-1.5, 0}, {131., 380191.}]}], 
+      LineBox[{Offset[{1.5, 0}, {131., 292781.}], 
+        Offset[{-1.5, 0}, {131., 292781.}]}]}}}, 
+   {Hue[0.1421359549995791, 0.6, 0.6], 
+    PointBox[{{4., 836854.}, {20., 767456.}, {40., 715454.}, {84., 635711.}, {
+     131., 571696.}}], {{LineBox[{{4., 867630.}, {4., 806078.}}], 
+      LineBox[{Offset[{1.5, 0}, {4., 867630.}], 
+        Offset[{-1.5, 0}, {4., 867630.}]}], 
+      LineBox[{Offset[{1.5, 0}, {4., 806078.}], 
+        Offset[{-1.5, 0}, {4., 806078.}]}]}, {
+      LineBox[{{20., 801115.}, {20., 733797.}}], 
+      LineBox[{Offset[{1.5, 0}, {20., 801115.}], 
+        Offset[{-1.5, 0}, {20., 801115.}]}], 
+      LineBox[{Offset[{1.5, 0}, {20., 733797.}], 
+        Offset[{-1.5, 0}, {20., 733797.}]}]}, {
+      LineBox[{{40., 747790.}, {40., 683118.}}], 
+      LineBox[{Offset[{1.5, 0}, {40., 747790.}], 
+        Offset[{-1.5, 0}, {40., 747790.}]}], 
+      LineBox[{Offset[{1.5, 0}, {40., 683118.}], 
+        Offset[{-1.5, 0}, {40., 683118.}]}]}, {
+      LineBox[{{84., 670440.}, {84., 600982.}}], 
+      LineBox[{Offset[{1.5, 0}, {84., 670440.}], 
+        Offset[{-1.5, 0}, {84., 670440.}]}], 
+      LineBox[{Offset[{1.5, 0}, {84., 600982.}], 
+        Offset[{-1.5, 0}, {84., 600982.}]}]}, {
+      LineBox[{{131., 608345.}, {131., 535047.}}], 
+      LineBox[{Offset[{1.5, 0}, {131., 608345.}], 
+        Offset[{-1.5, 0}, {131., 608345.}]}], 
+      LineBox[{Offset[{1.5, 0}, {131., 535047.}], 
+        Offset[{-1.5, 0}, {131., 535047.}]}]}}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  PlotRange->{{0, 140}, {0, 1000000}},
+  PlotRangeClipping->True]], "Output",
+ CellChangeTimes->{
+  3.686585420767601*^9, 3.68658547743342*^9, 3.686592551236787*^9, {
+   3.686592607794982*^9, 3.686592609845047*^9}, {3.686592832990044*^9, 
+   3.686592860027897*^9}, 3.686592903282229*^9, {3.6865932785322857`*^9, 
+   3.686593306768941*^9}, 3.686593337073535*^9, 3.686593982623341*^9, 
+   3.6865940947382507`*^9, 3.686594164546987*^9, {3.686611675057789*^9, 
+   3.686611718717514*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{740, 755},
+WindowMargins->{{228, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 118, 1, 24, "Subsubsection"],
+Cell[700, 25, 2670, 65, 208, "Input"],
+Cell[3373, 92, 173, 3, 27, "Input"],
+Cell[CellGroupData[{
+Cell[3571, 99, 1524, 39, 99, "Input"],
+Cell[5098, 140, 4634, 93, 233, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

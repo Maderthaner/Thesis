@@ -121,6 +121,40 @@ Helium droplets were produced in a free gas expansion using an electron microsco
 %
 %
 %
+\subsection{Sample jet timing at LCLS}
+%%%%%%%%%%%
+% - explain timing
+%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{images/LCLS-timing-schematic.png}
+	\caption{Schematic of LCLS EVR timing system.}
+	\label{fig:LCLS-EVR-timing}
+\end{figure}
+Pulsed gas jets such as the Parker solenoid valve require an electric trigger to open the valve. To not get into too much detail of the LCLS timing system we shall merely say that an event generator sends a fiducial to an event receiver (EVR) over a Fiber network \citep{Krejcik-2007-DIPAC}. This fiducial allows, e.g. data acquisition systems or gas jets to be sychrounus to the LCLS beam with a 10 ps precision. Therefore the EVR that receives the fiducial is able to send other triggers to such systems. The triggers coming from the EVR can be manipulated with respect to the fiducial and triggers can vary in their frequency using different event codes (EC), for example EC 40 operates at 120 hz and EC 41 operates at 60 hz, and their delay to this EC and thus the fiducial. Figure \ref{fig:LCLS-EVR-timing} schematically illustrates the relevant timings. The process starts with the fiducial, the EC is delayed by time of event code x (TECx) and after a certain time of the fiducial the LCLS beam arrives. At the AMO instrument this time is $t_{\text{AMO}}\approx 893,000$ns\footnote{Times are in nanoseconds (ns) and a format to comply with the LCLS interface.}. The LCLS control system automatically corrects for different TECx by internally correcting the delay to a reference time (TREF) that corresponds to EC 140 (120 hz \& beam). TREF is set to $t_{\text{REF}}=100,000$ ns and thus we can deduct the following equation for sample jets.
+\begin{equation}
+t_{\text{delay for sample jet}} = t_{\text{AMO}} - t_{\text{REF}} - t_{\text{gas flight time}},
+\label{eqn:sample-jet-delay-time}
+\end{equation}
+with $t_{\text{delay for sample jet}}$ being the delay value in the LCLS EVR control system and $t_{\text{gas flight time}}$ the flight time of the sample from the supersonic jet to the interaction region (IR). As described in \citep{Miller-1988-Oxford}, the terminal velocity $v_{\infty}$ of a sample from a supersonic jet is
+\begin{equation}
+v_{\infty} = \sqrt{\frac{2 R T_{0}}{m} \left(\frac{\gamma}{\gamma - 1}\right)},
+\label{eqn:terminal-velocity}
+\end{equation}
+with the universal gas constant R, the temperature in the stagnation chamber $T_{0}$ and the ration of specific heats $\gamma = \frac{c_{P}}{c_{V}}$, which is $\gamma = \frac{5}{3}$ for monoatomic gases such as rare gases. The flight time of a certain gas can then be calculated by measuring the distance between $d$ the source and the IR, thus $t_{\text{gas flight time}}=\frac{d}{v_{\text{gas speed}}}$. Figure \ref{TBD} shows measured and calculated flight times using an Evan-Lavie supersonic gas source in a experimental setup as described. The Evan-Lavie source has a very defined opening time of $22.000$ ns and thus a defined gas jet, which can be time consuming to find without knowing $t_{\text{delay for sample jet}}$. The data show that \eqref{eqn:sample-jet-delay-time} can be calculated well using the speed of sound $c_{\text{s}}$ of the sample gas rather than \eqref{eqn:terminal-velocity}. We can calculate the speed of sound for an ideal gas using the following expression
+\begin{equation}
+c_{\text{s}}=\sqrt{\frac{\gamma k_{\text{B}} T_{0}}{m}},
+\end{equation}
+with the Boltzman constant $k_{\text{B}}$ and the mass of the gas. The approach may be extended to approximate flight times of molecules, e.g. using the mass of CO $m=28$ amu, and also to gas mixtures, for example the mass of a $2\%$ xenon-131 and $98\%$ helium-4 gas mixture can be estimated using a weighted average according to their relative contributions, thus  $m = 6.54$ amu.\\
+If the flight times $t_{\text{gas flight time}} > t_{\text{AMO}} - t_{\text{TREF}}$ the system has to be delayed onto the next event as negative delays are not allowed in the LCLS controls system. Very long flight times can occur when heavy gases such as xenon are used or long distances $d$ are neccessary. Anyway, if long flight times $t_{\text{gas flight time}}$ occur that would require unfeasable delay values, equation \eqref{eqn:sample-jet-delay-time} can be manipulated to
+\begin{equation}
+t_{\text{delay for sample jet}} = \frac{1}{f_{\text{REP RATE}}}+ t_{\text{AMO}} - t_{\text{TREF}} - t_{\text{gas flight time}},
+\label{eqn:sample-jet-delay-time-next}
+\end{equation}
+with $\frac{1}{f_{\text{REP RATE}}}$ originating from the repetition rate of LCLS.
+%
+%
+%
 \section{The large area pn-CCD detectors}\label{sec:pnCCD}
 %%%%%%%%%%%%%%%%%%%%
 %- Reuse our work on the LAMP-pnCCD paper\\

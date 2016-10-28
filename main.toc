@@ -24,40 +24,40 @@
 \contentsline {section}{\numberline {3.1}The atomic, molecular and optical physics instrument and front end enclosure at the LCLS}{47}{section.3.1}
 \contentsline {section}{\numberline {3.2}The LAMP end-station at AMO}{52}{section.3.2}
 \contentsline {section}{\numberline {3.3}Sample delivery}{55}{section.3.3}
-\contentsline {section}{\numberline {3.4}The large area pn-CCD detectors}{57}{section.3.4}
-\contentsline {section}{\numberline {3.5}Time of flight mass-spectrometer}{60}{section.3.5}
-\contentsline {chapter}{\numberline {4}Methods}{63}{chapter.4}
-\contentsline {section}{\numberline {4.1}The computing environment at LCLS}{63}{section.4.1}
-\contentsline {section}{\numberline {4.2}pnCCD photon detectors}{65}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{67}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Impact of X-ray pump -- X-ray probe on diffraction pattern}{71}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Acqiris data sampling}{72}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data filtering}{74}{section.4.4}
-\contentsline {section}{\numberline {4.5}Phase retrieval from a single diffraction pattern}{75}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Principle of phase retrieval}{75}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}2D reconstructions and limitations}{76}{subsection.4.5.2}
-\contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{76}{section*.8}
-\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{77}{section*.9}
-\contentsline {subsection}{\numberline {4.5.3}1D projections and phase reconstructions}{80}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}2D electron density and diffraction image simulations}{81}{section.4.6}
-\contentsline {chapter}{\numberline {5}Results and discussion}{85}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pristine xenon pump--probe data}{85}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Xenon diffraction images}{85}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Reconstructions of xenon cluster single shot images}{89}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}iToF traces with xenon as sample}{90}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Pristine helium cluster pump-probe data}{94}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}iToF data with helium as sample}{94}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Diffraction images of helium cluster}{94}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Helium-xenon core-shell systems and pump--probe data}{95}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Time-of-flight data of helium-xenon core-shell systems}{95}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Diffraction images of helium-xenon core shell systems}{95}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Core-shell system considerations}{95}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Static data}{95}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusion of the X-ray pump -- X-ray probe study}{95}{section.5.5}
-\contentsline {chapter}{\numberline {6}Summary and outlook}{97}{chapter.6}
-\contentsline {section}{\numberline {6.1}Summary}{97}{section.6.1}
-\contentsline {section}{\numberline {6.2}Outlook}{97}{section.6.2}
-\contentsline {chapter}{\numberline {7}Bibliography}{99}{chapter.7}
+\contentsline {subsection}{\numberline {3.3.1}Sample jet timing at LCLS}{57}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}The large area pn-CCD detectors}{59}{section.3.4}
+\contentsline {section}{\numberline {3.5}Time of flight mass-spectrometer}{62}{section.3.5}
+\contentsline {chapter}{\numberline {4}Methods}{65}{chapter.4}
+\contentsline {section}{\numberline {4.1}The computing environment at LCLS}{65}{section.4.1}
+\contentsline {section}{\numberline {4.2}pnCCD photon detectors}{67}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{69}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Impact of X-ray pump -- X-ray probe on diffraction pattern}{73}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Acqiris data sampling}{74}{section.4.3}
+\contentsline {section}{\numberline {4.4}Data filtering}{76}{section.4.4}
+\contentsline {section}{\numberline {4.5}Phase retrieval from a single diffraction pattern}{77}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Principle of phase retrieval}{77}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}2D reconstructions and limitations}{78}{subsection.4.5.2}
+\contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{78}{section*.8}
+\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{79}{section*.9}
+\contentsline {subsection}{\numberline {4.5.3}1D projections and phase reconstructions}{82}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}2D electron density and diffraction image simulations}{83}{section.4.6}
+\contentsline {chapter}{\numberline {5}Results and discussion}{87}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pristine xenon pump--probe data}{87}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Xenon diffraction images}{87}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Reconstructions of xenon cluster single shot images}{91}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Size-depended ionization pathways in atomic xenon and xenon clusters}{92}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Spectroscopy on pristine and with xenon doped helium cluster}{96}{section.5.2}
+\contentsline {section}{\numberline {5.3}Analysis of dynamics in diffraction images of heterogeneous helium-xenon cluster from X-ray pump--X-ray probe study}{98}{section.5.3}
+\contentsline {section}{\numberline {5.4}Helium-xenon core-shell systems and pump--probe data}{98}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Time-of-flight data of helium-xenon core-shell systems}{98}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Diffraction images of helium-xenon core shell systems}{98}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Core-shell system considerations}{98}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Static data}{98}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusion of the X-ray pump -- X-ray probe study}{98}{section.5.6}
+\contentsline {chapter}{\numberline {6}Summary and outlook}{99}{chapter.6}
+\contentsline {section}{\numberline {6.1}Summary}{99}{section.6.1}
+\contentsline {section}{\numberline {6.2}Outlook}{99}{section.6.2}
+\contentsline {chapter}{\numberline {7}Bibliography}{101}{chapter.7}
 \contentsline {chapter}{\numberline {8}Appendix}{A}{chapter.8}
 \contentsline {section}{\numberline {8.1}Source alignment}{A}{section.8.1}
 \contentsline {section}{\numberline {8.2}Python code psana example}{A}{section.8.2}

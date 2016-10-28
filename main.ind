@@ -30,7 +30,7 @@
 
   \indexspace
 
-  \item Fourier Transform, \hyperpage{82}
+  \item Fourier Transform, \hyperpage{84}
   \item Free electron LASer in Hamburg
     \subitem FLASH, \hyperpage{44, 45}
 
@@ -38,9 +38,9 @@
 
   \item Hagena, \hyperindexformat{\see {scaling law}}{23}
     \subitem scaling parameter, \hyperpage{23}
-  \item Hawk software package, \hyperpage{76}
+  \item Hawk software package, \hyperpage{78}
   \item Helium
-    \subitem liquid density, \hyperpage{82}
+    \subitem liquid density, \hyperpage{84}
 
   \indexspace
 
@@ -59,7 +59,7 @@
 
   \indexspace
 
-  \item Matlab, \hyperpage{80}, \hyperpage{82}
+  \item Matlab, \hyperpage{82}, \hyperpage{84}
   \item microbunching, \hyperpage{11}
 
   \indexspace
@@ -69,23 +69,23 @@
 
   \indexspace
 
-  \item oversampling, \hyperpage{75}
-    \subitem Nyquist rate, \hyperpage{75}
-    \subitem Nyquist-Shannon sampling theorem, \hyperpage{75}
+  \item oversampling, \hyperpage{77}
+    \subitem Nyquist rate, \hyperpage{77}
+    \subitem Nyquist-Shannon sampling theorem, \hyperpage{77}
 
   \indexspace
 
   \item photoionization, \hyperpage{33}
-  \item pnCCD, \hyperpage{57, 58}
-    \subitem CAMEX, \hyperpage{59}
-    \subitem common mode, \hyperpage{65}
-    \subitem Data Acquisition, \hyperpage{59}
-    \subitem gain, \hyperpage{59}
-    \subitem module, \hyperpage{58}
-    \subitem pedestal correction, \hyperpage{65}
-    \subitem pixel size, \hyperpage{58}
-  \item psana, \hyperpage{59}
-    \subitem calibman, \hyperpage{65}
+  \item pnCCD, \hyperpage{59}, \hyperpage{61}
+    \subitem CAMEX, \hyperpage{61}
+    \subitem common mode, \hyperpage{67}
+    \subitem Data Acquisition, \hyperpage{61}
+    \subitem gain, \hyperpage{61}
+    \subitem module, \hyperpage{61}
+    \subitem pedestal correction, \hyperpage{67}
+    \subitem pixel size, \hyperpage{61}
+  \item psana, \hyperpage{61}
+    \subitem calibman, \hyperpage{67}
   \item pulse energy, \hyperpage{43}
 
   \indexspace
@@ -123,6 +123,6 @@
   \item X-ray
     \subitem Bremsstrahlung, \hyperpage{5}
   \item Xenon
-    \subitem bulk density, \hyperpage{82}
+    \subitem bulk density, \hyperpage{84}
 
 \end{theindex}
