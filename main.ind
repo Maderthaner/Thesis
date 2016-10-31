@@ -30,7 +30,7 @@
 
   \indexspace
 
-  \item Fourier Transform, \hyperpage{84}
+  \item Fourier Transform, \hyperpage{83}
   \item Free electron LASer in Hamburg
     \subitem FLASH, \hyperpage{44, 45}
 
@@ -40,7 +40,7 @@
     \subitem scaling parameter, \hyperpage{23}
   \item Hawk software package, \hyperpage{78}
   \item Helium
-    \subitem liquid density, \hyperpage{84}
+    \subitem liquid density, \hyperpage{82}
 
   \indexspace
 
@@ -59,7 +59,7 @@
 
   \indexspace
 
-  \item Matlab, \hyperpage{82}, \hyperpage{84}
+  \item Matlab, \hyperpage{81}, \hyperpage{83}
   \item microbunching, \hyperpage{11}
 
   \indexspace
@@ -69,23 +69,23 @@
 
   \indexspace
 
-  \item oversampling, \hyperpage{77}
-    \subitem Nyquist rate, \hyperpage{77}
-    \subitem Nyquist-Shannon sampling theorem, \hyperpage{77}
+  \item oversampling, \hyperpage{76}
+    \subitem Nyquist rate, \hyperpage{76}
+    \subitem Nyquist-Shannon sampling theorem, \hyperpage{76}
 
   \indexspace
 
   \item photoionization, \hyperpage{33}
-  \item pnCCD, \hyperpage{59}, \hyperpage{61}
-    \subitem CAMEX, \hyperpage{61}
-    \subitem common mode, \hyperpage{67}
-    \subitem Data Acquisition, \hyperpage{61}
-    \subitem gain, \hyperpage{61}
-    \subitem module, \hyperpage{61}
-    \subitem pedestal correction, \hyperpage{67}
-    \subitem pixel size, \hyperpage{61}
-  \item psana, \hyperpage{61}
-    \subitem calibman, \hyperpage{67}
+  \item pnCCD, \hyperpage{55}, \hyperpage{57}
+    \subitem CAMEX, \hyperpage{57}
+    \subitem common mode, \hyperpage{69}
+    \subitem Data Acquisition, \hyperpage{57}
+    \subitem gain, \hyperpage{57}
+    \subitem module, \hyperpage{55}
+    \subitem pedestal correction, \hyperpage{69}
+    \subitem pixel size, \hyperpage{55}
+  \item psana, \hyperpage{57}
+    \subitem calibman, \hyperpage{69}
   \item pulse energy, \hyperpage{43}
 
   \indexspace
@@ -123,6 +123,6 @@
   \item X-ray
     \subitem Bremsstrahlung, \hyperpage{5}
   \item Xenon
-    \subitem bulk density, \hyperpage{84}
+    \subitem bulk density, \hyperpage{82}
 
 \end{theindex}

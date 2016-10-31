@@ -10,18 +10,26 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     10243,        259]
-NotebookOptionsPosition[      9760,        237]
-NotebookOutlinePosition[     10116,        253]
-CellTagsIndexPosition[     10073,        250]
+NotebookDataLength[     42833,       1029]
+NotebookOptionsPosition[     41557,        980]
+NotebookOutlinePosition[     41912,        996]
+CellTagsIndexPosition[     41869,        993]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Plot for gas flight times", "Subsubsection",
- CellChangeTimes->{{3.6865924898063803`*^9, 3.686592504717404*^9}}],
+Cell["Flight Times", "Subsection",
+ CellChangeTimes->{{3.686860516166849*^9, 3.686860530240996*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Plot for gas flight times (*wrong*)\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.6865924898063803`*^9, 3.686592504717404*^9}, {
+  3.686860522205428*^9, 3.686860525021037*^9}}],
 
 Cell[BoxData[{
  RowBox[{
@@ -231,12 +239,747 @@ Cell[BoxData[
    3.686592860027897*^9}, 3.686592903282229*^9, {3.6865932785322857`*^9, 
    3.686593306768941*^9}, 3.686593337073535*^9, 3.686593982623341*^9, 
    3.6865940947382507`*^9, 3.686594164546987*^9, {3.686611675057789*^9, 
-   3.686611718717514*^9}}]
+   3.686611718717514*^9}, 3.686860298775092*^9, 3.6868605322370567`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Distance plot Argon", "Subsubsection",
+ CellChangeTimes->{{3.6866962834952593`*^9, 3.686696289024921*^9}, {
+  3.6868471529329433`*^9, 3.686847153794677*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"9.8", ",", "19.7", ",", "14.75", ",", "17.2", ",", "12.25"}], 
+     "}"}], "+", "2.5"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimesMeasured", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "570000", ",", "395000", ",", "475000", ",", "435000", ",", "520000"}], 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"flightTimesMeasuredError", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimesCalculated", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "570000", ",", "389900", ",", "480484", ",", "435192", ",", "525776"}], 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimeCalculatedlError", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"ErrorBar", "@", "33668"}], ",", 
+     RowBox[{"ErrorBar", "@", "39103"}], ",", 
+     RowBox[{"ErrorBar", "@", "36386"}], ",", 
+     RowBox[{"ErrorBar", "@", "37744"}], ",", 
+     RowBox[{"ErrorBar", "@", "35027"}]}], "}"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6866963083658113`*^9, 3.6866964007442627`*^9}, {
+  3.68669645028758*^9, 3.68669648252042*^9}, {3.686696513144908*^9, 
+  3.6866965294487257`*^9}, {3.6866968100935097`*^9, 3.686696892958825*^9}, {
+  3.686696949424724*^9, 3.686697014034713*^9}, {3.68669732487674*^9, 
+  3.686697336748719*^9}, {3.686846701486112*^9, 3.686846703382069*^9}, {
+  3.6868467367547693`*^9, 3.686846737314787*^9}, {3.6868470925196667`*^9, 
+  3.686847096189702*^9}, {3.686847138805537*^9, 3.6868471415994673`*^9}, {
+  3.686847180624358*^9, 3.686847325996015*^9}, {3.686847374043729*^9, 
+  3.686847418259344*^9}, {3.6868475734064293`*^9, 3.68684761882605*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"plotArgon", "=", 
+  RowBox[{"ErrorListPlot", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Sort", "[", 
+       RowBox[{"Transpose", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Transpose", "[", 
+           RowBox[{"{", 
+            RowBox[{"d", ",", "flightTimesMeasured"}], "}"}], "]"}], ",", 
+          "flightTimesMeasuredError"}], "}"}], "]"}], "]"}], ",", 
+      RowBox[{"Sort", "[", 
+       RowBox[{"Transpose", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Transpose", "[", 
+           RowBox[{"{", 
+            RowBox[{"d", ",", "flightTimesCalculated"}], "}"}], "]"}], ",", 
+          "flightTimeCalculatedlError"}], "}"}], "]"}], "]"}]}], "}"}], ",", 
+    RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+    RowBox[{"PlotStyle", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Directive", "[", 
+        RowBox[{
+         RowBox[{"Lighter", "[", "Purple", "]"}], ",", "Thick", ",", 
+         "Dashed"}], "]"}], ",", 
+       RowBox[{"Directive", "[", 
+        RowBox[{
+         RowBox[{"Lighter", "[", "Purple", "]"}], ",", "Thick", ",", 
+         RowBox[{"Dashing", "[", "None", "]"}]}], "]"}]}], "}"}]}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.686696293528955*^9, 3.686696304932158*^9}, {
+  3.686696535751581*^9, 3.6866965950940313`*^9}, {3.68669701749892*^9, 
+  3.686697046543792*^9}, {3.68669719166441*^9, 3.686697228812483*^9}, {
+  3.686847361440259*^9, 3.686847361866406*^9}, {3.686847406852171*^9, 
+  3.686847427732163*^9}, {3.68684747411366*^9, 3.6868474751764727`*^9}, {
+  3.686847516872569*^9, 3.686847545953925*^9}, {3.686847646085546*^9, 
+  3.686847728524735*^9}, {3.686847764349998*^9, 3.686847834306924*^9}, {
+  3.686847893866069*^9, 3.686848000024147*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.6666666666666666, 
+     NCache[
+      Rational[1, 3], 0.3333333333333333], 0.6666666666666666], Thickness[
+    Large], Dashing[{Small, Small}], 
+    LineBox[{{12.3, 570000.}, {14.75, 520000.}, {17.25, 475000.}, {19.7, 
+     435000.}, {22.2, 
+     395000.}}], {{LineBox[{{12.3, 603668.}, {12.3, 536332.}}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 603668.}], 
+        Offset[{-1.5, 0}, {12.3, 603668.}]}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 536332.}], 
+        Offset[{-1.5, 0}, {12.3, 536332.}]}]}, {
+      LineBox[{{14.75, 530000.}, {14.75, 510000.}}], 
+      LineBox[{Offset[{1.5, 0}, {14.75, 530000.}], 
+        Offset[{-1.5, 0}, {14.75, 530000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {14.75, 510000.}], 
+        Offset[{-1.5, 0}, {14.75, 510000.}]}]}, {
+      LineBox[{{17.25, 485000.}, {17.25, 465000.}}], 
+      LineBox[{Offset[{1.5, 0}, {17.25, 485000.}], 
+        Offset[{-1.5, 0}, {17.25, 485000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {17.25, 465000.}], 
+        Offset[{-1.5, 0}, {17.25, 465000.}]}]}, {
+      LineBox[{{19.7, 445000.}, {19.7, 425000.}}], 
+      LineBox[{Offset[{1.5, 0}, {19.7, 445000.}], 
+        Offset[{-1.5, 0}, {19.7, 445000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {19.7, 425000.}], 
+        Offset[{-1.5, 0}, {19.7, 425000.}]}]}, {
+      LineBox[{{22.2, 405000.}, {22.2, 385000.}}], 
+      LineBox[{Offset[{1.5, 0}, {22.2, 405000.}], 
+        Offset[{-1.5, 0}, {22.2, 405000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {22.2, 385000.}], 
+        Offset[{-1.5, 0}, {22.2, 385000.}]}]}}}, 
+   {RGBColor[0.6666666666666666, 
+     NCache[
+      Rational[1, 3], 0.3333333333333333], 0.6666666666666666], Thickness[
+    Large], Dashing[None], 
+    LineBox[{{12.3, 570000.}, {14.75, 525776.}, {17.25, 480484.}, {19.7, 
+     435192.}, {22.2, 
+     389900.}}], {{LineBox[{{12.3, 603668.}, {12.3, 536332.}}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 603668.}], 
+        Offset[{-1.5, 0}, {12.3, 603668.}]}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 536332.}], 
+        Offset[{-1.5, 0}, {12.3, 536332.}]}]}, {
+      LineBox[{{14.75, 560803.}, {14.75, 490749.}}], 
+      LineBox[{
+       Offset[{1.5, 0}, {14.75, 560803.}], 
+        Offset[{-1.5, 0}, {14.75, 560803.}]}], 
+      LineBox[{Offset[{1.5, 0}, {14.75, 490749.}], 
+        Offset[{-1.5, 0}, {14.75, 490749.}]}]}, {
+      LineBox[{{17.25, 516870.}, {17.25, 444098.}}], 
+      LineBox[{Offset[{1.5, 0}, {17.25, 516870.}], 
+        Offset[{-1.5, 0}, {17.25, 516870.}]}], 
+      LineBox[{Offset[{1.5, 0}, {17.25, 444098.}], 
+        Offset[{-1.5, 0}, {17.25, 444098.}]}]}, {
+      LineBox[{{19.7, 472936.}, {19.7, 397448.}}], 
+      LineBox[{Offset[{1.5, 0}, {19.7, 472936.}], 
+        Offset[{-1.5, 0}, {19.7, 472936.}]}], 
+      LineBox[{Offset[{1.5, 0}, {19.7, 397448.}], 
+        Offset[{-1.5, 0}, {19.7, 397448.}]}]}, {
+      LineBox[{{22.2, 429003.}, {22.2, 350797.}}], 
+      LineBox[{Offset[{1.5, 0}, {22.2, 429003.}], 
+        Offset[{-1.5, 0}, {22.2, 429003.}]}], 
+      LineBox[{Offset[{1.5, 0}, {22.2, 350797.}], 
+        Offset[{-1.5, 0}, {22.2, 350797.}]}]}}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  PlotRange->Automatic,
+  PlotRangeClipping->True]], "Output",
+ CellChangeTimes->{{3.686847905702086*^9, 3.686847959131522*^9}, {
+   3.6868479908175592`*^9, 3.6868480003299017`*^9}, 3.686848506083098*^9, {
+   3.686860470395791*^9, 3.6868604757162333`*^9}, 3.686860532320076*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Distance plot xenon", "Subsubsection",
+ CellChangeTimes->{{3.6866962834952593`*^9, 3.686696289024921*^9}, {
+  3.686762358885582*^9, 3.68676235965175*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"dXenon", "=", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"9.8", ",", 
+      RowBox[{"9.8", "+", "2.5"}], ",", 
+      RowBox[{"9.8", "+", "5"}], ",", 
+      RowBox[{"9.8", "+", "7.5"}]}], "}"}], "+", "2.5"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimesMeasuredXenon", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{"390000", ",", "310000", ",", "220000", ",", "140000"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"flightTimesMeasuredErrorXenon", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}], ",", 
+      RowBox[{"ErrorBar", "@", "10000"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimesCalculatedXenon", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{"391371", ",", "309406", ",", "227441", ",", "145476"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"flightTimeCalculatedlErrorXenon", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"ErrorBar", "@", "39059"}], ",", 
+     RowBox[{"ErrorBar", "@", "41518"}], ",", 
+     RowBox[{"ErrorBar", "@", "43977"}], ",", 
+     RowBox[{"ErrorBar", "@", "46356"}]}], "}"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6866963083658113`*^9, 3.6866964007442627`*^9}, {
+   3.68669645028758*^9, 3.68669648252042*^9}, {3.686696513144908*^9, 
+   3.6866965294487257`*^9}, {3.6866968100935097`*^9, 3.686696892958825*^9}, {
+   3.686696949424724*^9, 3.686697014034713*^9}, {3.68669732487674*^9, 
+   3.686697336748719*^9}, {3.686762337754375*^9, 3.68676233826591*^9}, {
+   3.686762495698151*^9, 3.6867625790085697`*^9}, {3.686762615870879*^9, 
+   3.686762668102139*^9}, 3.686762707166041*^9, {3.686763525947793*^9, 
+   3.6867635262102957`*^9}, {3.686765328395471*^9, 3.686765339738686*^9}, 
+   3.686765377418152*^9, {3.68676543457908*^9, 3.6867654628338747`*^9}, {
+   3.686848041749811*^9, 3.686848056119606*^9}, {3.686848108015798*^9, 
+   3.686848158365344*^9}, {3.68684819512514*^9, 3.686848227132165*^9}, {
+   3.6868483298349657`*^9, 3.686848336863165*^9}, {3.686848584268579*^9, 
+   3.686848584851956*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"plotXenon", "=", 
+  RowBox[{"ErrorListPlot", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Sort", "[", 
+       RowBox[{"Transpose", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Transpose", "[", 
+           RowBox[{"{", 
+            RowBox[{"dXenon", ",", "flightTimesMeasuredXenon"}], "}"}], "]"}],
+           ",", "flightTimesMeasuredErrorXenon"}], "}"}], "]"}], "]"}], ",", 
+      RowBox[{"Sort", "[", 
+       RowBox[{"Transpose", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Transpose", "[", 
+           RowBox[{"{", 
+            RowBox[{"dXenon", ",", "flightTimesCalculatedXenon"}], "}"}], 
+           "]"}], ",", "flightTimeCalculatedlErrorXenon"}], "}"}], "]"}], 
+       "]"}]}], "}"}], ",", 
+    RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+    RowBox[{"PlotStyle", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Directive", "[", 
+        RowBox[{
+         RowBox[{"Darker", "@", "Purple"}], ",", "Thick", ",", "Dashed"}], 
+        "]"}], ",", 
+       RowBox[{"Directive", "[", 
+        RowBox[{
+         RowBox[{"Darker", "@", "Purple"}], ",", "Thick", ",", 
+         RowBox[{"Dashing", "[", "None", "]"}]}], "]"}]}], "}"}]}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.686696293528955*^9, 3.686696304932158*^9}, {
+  3.686696535751581*^9, 3.6866965950940313`*^9}, {3.68669701749892*^9, 
+  3.686697046543792*^9}, {3.68669719166441*^9, 3.686697228812483*^9}, {
+  3.6867626775857887`*^9, 3.686762677941165*^9}, {3.6868480346582003`*^9, 
+  3.686848075156479*^9}, {3.686848246465877*^9, 3.686848266106697*^9}, {
+  3.6868483413441057`*^9, 3.686848444747735*^9}, {3.686848538205619*^9, 
+  3.6868485514709272`*^9}, {3.686848587300067*^9, 3.686848589771544*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.33333333333333337`, 0, 0.33333333333333337`], Thickness[Large],
+     Dashing[{Small, Small}], 
+    LineBox[{{12.3, 390000.}, {14.8, 310000.}, {17.3, 220000.}, {19.8, 
+     140000.}}], {{LineBox[{{12.3, 400000.}, {12.3, 380000.}}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 400000.}], 
+        Offset[{-1.5, 0}, {12.3, 400000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 380000.}], 
+        Offset[{-1.5, 0}, {12.3, 380000.}]}]}, {
+      LineBox[{{14.8, 320000.}, {14.8, 300000.}}], 
+      LineBox[{Offset[{1.5, 0}, {14.8, 320000.}], 
+        Offset[{-1.5, 0}, {14.8, 320000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {14.8, 300000.}], 
+        Offset[{-1.5, 0}, {14.8, 300000.}]}]}, {
+      LineBox[{{17.3, 230000.}, {17.3, 210000.}}], 
+      LineBox[{Offset[{1.5, 0}, {17.3, 230000.}], 
+        Offset[{-1.5, 0}, {17.3, 230000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {17.3, 210000.}], 
+        Offset[{-1.5, 0}, {17.3, 210000.}]}]}, {
+      LineBox[{{19.8, 150000.}, {19.8, 130000.}}], 
+      LineBox[{Offset[{1.5, 0}, {19.8, 150000.}], 
+        Offset[{-1.5, 0}, {19.8, 150000.}]}], 
+      LineBox[{Offset[{1.5, 0}, {19.8, 130000.}], 
+        Offset[{-1.5, 0}, {19.8, 130000.}]}]}}}, 
+   {RGBColor[0.33333333333333337`, 0, 0.33333333333333337`], Thickness[Large],
+     Dashing[None], 
+    LineBox[{{12.3, 391371.}, {14.8, 309406.}, {17.3, 227441.}, {19.8, 
+     145476.}}], {{LineBox[{{12.3, 430430.}, {12.3, 352312.}}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 430430.}], 
+        Offset[{-1.5, 0}, {12.3, 430430.}]}], 
+      LineBox[{Offset[{1.5, 0}, {12.3, 352312.}], 
+        Offset[{-1.5, 0}, {12.3, 352312.}]}]}, {
+      LineBox[{{14.8, 350924.}, {14.8, 267888.}}], 
+      LineBox[{Offset[{1.5, 0}, {14.8, 350924.}], 
+        Offset[{-1.5, 0}, {14.8, 350924.}]}], 
+      LineBox[{Offset[{1.5, 0}, {14.8, 267888.}], 
+        Offset[{-1.5, 0}, {14.8, 267888.}]}]}, {
+      LineBox[{{17.3, 271418.}, {17.3, 183464.}}], 
+      LineBox[{Offset[{1.5, 0}, {17.3, 271418.}], 
+        Offset[{-1.5, 0}, {17.3, 271418.}]}], 
+      LineBox[{Offset[{1.5, 0}, {17.3, 183464.}], 
+        Offset[{-1.5, 0}, {17.3, 183464.}]}]}, {
+      LineBox[{{19.8, 191832.}, {19.8, 99120.}}], 
+      LineBox[{Offset[{1.5, 0}, {19.8, 191832.}], 
+        Offset[{-1.5, 0}, {19.8, 191832.}]}], 
+      LineBox[{Offset[{1.5, 0}, {19.8, 99120.}], 
+        Offset[{-1.5, 0}, {19.8, 99120.}]}]}}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  PlotRange->Automatic,
+  PlotRangeClipping->True]], "Output",
+ CellChangeTimes->{{3.68669657022915*^9, 3.686696595442349*^9}, 
+   3.686697059320595*^9, {3.686697201419223*^9, 3.68669722901799*^9}, {
+   3.686697329998001*^9, 3.6866973385373163`*^9}, {3.6867626808622227`*^9, 
+   3.686762710244082*^9}, {3.686765437002334*^9, 3.6867654650291777`*^9}, {
+   3.686848233745594*^9, 3.686848266472596*^9}, {3.686848386406496*^9, 
+   3.686848456525197*^9}, 3.686848552272553*^9, 3.686848592061927*^9, 
+   3.6868604270929337`*^9, 3.686860532426202*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["plotting", "Subsubsection",
+ CellChangeTimes->{{3.6868482743165493`*^9, 3.6868482811040792`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PlotLegends`\>\"", "]"}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ShowLegend", "[", 
+  RowBox[{
+   RowBox[{"ErrorListPlot", "[", 
+    RowBox[{
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Sort", "[", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Transpose", "[", 
+            RowBox[{"{", 
+             RowBox[{"d", ",", "flightTimesMeasured"}], "}"}], "]"}], ",", 
+           "flightTimesMeasuredError"}], "}"}], "]"}], "]"}], ",", 
+       RowBox[{"Sort", "[", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Transpose", "[", 
+            RowBox[{"{", 
+             RowBox[{"d", ",", "flightTimesCalculated"}], "}"}], "]"}], ",", 
+           "flightTimeCalculatedlError"}], "}"}], "]"}], "]"}], ",", 
+       RowBox[{"Sort", "[", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Transpose", "[", 
+            RowBox[{"{", 
+             RowBox[{"dXenon", ",", "flightTimesMeasuredXenon"}], "}"}], 
+            "]"}], ",", "flightTimesMeasuredErrorXenon"}], "}"}], "]"}], 
+        "]"}], ",", 
+       RowBox[{"Sort", "[", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Transpose", "[", 
+            RowBox[{"{", 
+             RowBox[{"dXenon", ",", "flightTimesCalculatedXenon"}], "}"}], 
+            "]"}], ",", "flightTimeCalculatedlErrorXenon"}], "}"}], "]"}], 
+        "]"}]}], "}"}], ",", 
+     RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Directive", "[", 
+         RowBox[{
+          RowBox[{"Lighter", "[", "Purple", "]"}], ",", "Thick", ",", 
+          "Dashed"}], "]"}], ",", 
+        RowBox[{"Directive", "[", 
+         RowBox[{
+          RowBox[{"Lighter", "[", "Purple", "]"}], ",", "Thick", ",", 
+          RowBox[{"Dashing", "[", "None", "]"}]}], "]"}], ",", 
+        RowBox[{"Directive", "[", 
+         RowBox[{
+          RowBox[{"Darker", "@", "Purple"}], ",", "Thick", ",", "Dashed"}], 
+         "]"}], ",", 
+        RowBox[{"Directive", "[", 
+         RowBox[{
+          RowBox[{"Darker", "@", "Purple"}], ",", "Thick", ",", 
+          RowBox[{"Dashing", "[", "None", "]"}]}], "]"}]}], "}"}]}], ",", 
+     RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+     RowBox[{"Axes", "\[Rule]", "False"}], ",", 
+     RowBox[{"FrameLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Distance d in cm\>\"", ",", 
+        "\"\<\!\(\*SubscriptBox[\(t\), \(delay\)]\) in ns\>\""}], "}"}]}], 
+     ",", 
+     RowBox[{"FrameStyle", "\[Rule]", 
+      RowBox[{"Directive", "[", "12", "]"}]}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Graphics", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Lighter", "[", "Purple", "]"}], ",", "Dashed", ",", 
+            "Thick", ",", 
+            RowBox[{"Line", "[", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0", ",", "0"}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"2", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+          "]"}], ",", "\"\<Argon measured\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Graphics", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Lighter", "[", "Purple", "]"}], ",", 
+            RowBox[{"Dashing", "[", "None", "]"}], ",", "Thick", ",", 
+            RowBox[{"Line", "[", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0", ",", "0"}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"2", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+          "]"}], ",", "\"\<Argon calculated\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Graphics", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Darker", "@", "Purple"}], ",", "Dashed", ",", "Thick", 
+            ",", 
+            RowBox[{"Line", "[", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0", ",", "0"}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"2", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+          "]"}], ",", "\"\<Xenon measured\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Graphics", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Darker", "@", "Purple"}], ",", 
+            RowBox[{"Dashing", "[", "None", "]"}], ",", "Thick", ",", 
+            RowBox[{"Line", "[", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0", ",", "0"}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"2", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+          "]"}], ",", "\"\<Xenon calculated\>\""}], "}"}]}], "}"}], ",", 
+     RowBox[{"LegendPosition", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "0.6"}], ",", 
+        RowBox[{"-", "0.4"}]}], "}"}]}], ",", 
+     RowBox[{"LegendShadow", "\[Rule]", "None"}], ",", 
+     RowBox[{"LegendTextSpace", "\[Rule]", "4"}], ",", 
+     RowBox[{"LegendBorder", "\[Rule]", "None"}], ",", 
+     RowBox[{"LegendSpacing", "\[Rule]", "0"}], ",", 
+     RowBox[{"LegendBorderSpace", "\[Rule]", "0"}], ",", 
+     RowBox[{"LegendLabelSpace", "\[Rule]", "0"}], ",", 
+     RowBox[{"LegendBackground", "\[Rule]", "White"}], ",", 
+     RowBox[{"LegendSize", "\[Rule]", "0.5"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.686848599621797*^9, 3.6868486121332207`*^9}, {
+   3.6868486622222967`*^9, 3.686848724508726*^9}, {3.686848784652321*^9, 
+   3.686848787439831*^9}, {3.686848822141223*^9, 3.686848865329756*^9}, 
+   3.686848973434922*^9, {3.686849013039486*^9, 3.6868490354465723`*^9}, {
+   3.686849097687155*^9, 3.6868491180612593`*^9}, {3.686849199261031*^9, 
+   3.686849201171488*^9}, {3.686849299785966*^9, 3.6868493341288023`*^9}, {
+   3.686849378311974*^9, 3.686849405943192*^9}, {3.686849438208131*^9, 
+   3.686849444926731*^9}, {3.686849664940617*^9, 3.68684968210645*^9}, {
+   3.6868497402362633`*^9, 3.686849752475209*^9}, 3.6868500756715317`*^9, {
+   3.686850108509264*^9, 3.686850267662428*^9}, {3.686850303210685*^9, 
+   3.686850438960046*^9}, {3.68685050734087*^9, 3.686850639641981*^9}, {
+   3.6868506942731256`*^9, 3.686850703433001*^9}, {3.686850737896818*^9, 
+   3.686850789925116*^9}, {3.6868508774132433`*^9, 3.686850948922941*^9}, {
+   3.6868509944605627`*^9, 3.6868510086876593`*^9}, {3.686860279314103*^9, 
+   3.686860286957788*^9}, {3.686860336649681*^9, 3.686860344903558*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    GraphicsBox[{
+      {RGBColor[0.6666666666666666, 
+        NCache[
+         Rational[1, 3], 0.3333333333333333], 0.6666666666666666], Thickness[
+       Large], Dashing[{Small, Small}], 
+       LineBox[{{12.3, 570000.}, {14.75, 520000.}, {17.25, 475000.}, {19.7, 
+        435000.}, {22.2, 
+        395000.}}], {{LineBox[{{12.3, 603668.}, {12.3, 536332.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 603668.}], 
+           Offset[{-1.5, 0}, {12.3, 603668.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 536332.}], 
+           Offset[{-1.5, 0}, {12.3, 536332.}]}]}, {
+         LineBox[{{14.75, 530000.}, {14.75, 510000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.75, 530000.}], 
+           Offset[{-1.5, 0}, {14.75, 530000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.75, 510000.}], 
+           Offset[{-1.5, 0}, {14.75, 510000.}]}]}, {
+         LineBox[{{17.25, 485000.}, {17.25, 465000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.25, 485000.}], 
+           Offset[{-1.5, 0}, {17.25, 485000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.25, 465000.}], 
+           Offset[{-1.5, 0}, {17.25, 465000.}]}]}, {
+         LineBox[{{19.7, 445000.}, {19.7, 425000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.7, 445000.}], 
+           Offset[{-1.5, 0}, {19.7, 445000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.7, 425000.}], 
+           Offset[{-1.5, 0}, {19.7, 425000.}]}]}, {
+         LineBox[{{22.2, 405000.}, {22.2, 385000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {22.2, 405000.}], 
+           Offset[{-1.5, 0}, {22.2, 405000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {22.2, 385000.}], 
+           Offset[{-1.5, 0}, {22.2, 385000.}]}]}}}, 
+      {RGBColor[0.6666666666666666, 
+        NCache[
+         Rational[1, 3], 0.3333333333333333], 0.6666666666666666], Thickness[
+       Large], Dashing[None], 
+       LineBox[{{12.3, 570000.}, {14.75, 525776.}, {17.25, 480484.}, {19.7, 
+        435192.}, {22.2, 
+        389900.}}], {{LineBox[{{12.3, 603668.}, {12.3, 536332.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 603668.}], 
+           Offset[{-1.5, 0}, {12.3, 603668.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 536332.}], 
+           Offset[{-1.5, 0}, {12.3, 536332.}]}]}, {
+         LineBox[{{14.75, 560803.}, {14.75, 490749.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.75, 560803.}], 
+           Offset[{-1.5, 0}, {14.75, 560803.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.75, 490749.}], 
+           Offset[{-1.5, 0}, {14.75, 490749.}]}]}, {
+         LineBox[{{17.25, 516870.}, {17.25, 444098.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.25, 516870.}], 
+           Offset[{-1.5, 0}, {17.25, 516870.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.25, 444098.}], 
+           Offset[{-1.5, 0}, {17.25, 444098.}]}]}, {
+         LineBox[{{19.7, 472936.}, {19.7, 397448.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.7, 472936.}], 
+           Offset[{-1.5, 0}, {19.7, 472936.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.7, 397448.}], 
+           Offset[{-1.5, 0}, {19.7, 397448.}]}]}, {
+         LineBox[{{22.2, 429003.}, {22.2, 350797.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {22.2, 429003.}], 
+           Offset[{-1.5, 0}, {22.2, 429003.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {22.2, 350797.}], 
+           Offset[{-1.5, 0}, {22.2, 350797.}]}]}}}, 
+      {RGBColor[0.33333333333333337`, 0, 0.33333333333333337`], Thickness[
+       Large], Dashing[{Small, Small}], 
+       LineBox[{{12.3, 390000.}, {14.8, 310000.}, {17.3, 220000.}, {19.8, 
+        140000.}}], {{LineBox[{{12.3, 400000.}, {12.3, 380000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 400000.}], 
+           Offset[{-1.5, 0}, {12.3, 400000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 380000.}], 
+           Offset[{-1.5, 0}, {12.3, 380000.}]}]}, {
+         LineBox[{{14.8, 320000.}, {14.8, 300000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.8, 320000.}], 
+           Offset[{-1.5, 0}, {14.8, 320000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.8, 300000.}], 
+           Offset[{-1.5, 0}, {14.8, 300000.}]}]}, {
+         LineBox[{{17.3, 230000.}, {17.3, 210000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.3, 230000.}], 
+           Offset[{-1.5, 0}, {17.3, 230000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.3, 210000.}], 
+           Offset[{-1.5, 0}, {17.3, 210000.}]}]}, {
+         LineBox[{{19.8, 150000.}, {19.8, 130000.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.8, 150000.}], 
+           Offset[{-1.5, 0}, {19.8, 150000.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.8, 130000.}], 
+           Offset[{-1.5, 0}, {19.8, 130000.}]}]}}}, 
+      {RGBColor[0.33333333333333337`, 0, 0.33333333333333337`], Thickness[
+       Large], Dashing[None], 
+       LineBox[{{12.3, 391371.}, {14.8, 309406.}, {17.3, 227441.}, {19.8, 
+        145476.}}], {{LineBox[{{12.3, 430430.}, {12.3, 352312.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 430430.}], 
+           Offset[{-1.5, 0}, {12.3, 430430.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {12.3, 352312.}], 
+           Offset[{-1.5, 0}, {12.3, 352312.}]}]}, {
+         LineBox[{{14.8, 350924.}, {14.8, 267888.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.8, 350924.}], 
+           Offset[{-1.5, 0}, {14.8, 350924.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {14.8, 267888.}], 
+           Offset[{-1.5, 0}, {14.8, 267888.}]}]}, {
+         LineBox[{{17.3, 271418.}, {17.3, 183464.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.3, 271418.}], 
+           Offset[{-1.5, 0}, {17.3, 271418.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {17.3, 183464.}], 
+           Offset[{-1.5, 0}, {17.3, 183464.}]}]}, {
+         LineBox[{{19.8, 191832.}, {19.8, 99120.}}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.8, 191832.}], 
+           Offset[{-1.5, 0}, {19.8, 191832.}]}], 
+         LineBox[{
+          Offset[{1.5, 0}, {19.8, 99120.}], 
+           Offset[{-1.5, 0}, {19.8, 99120.}]}]}}}},
+     AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+     Frame->True,
+     FrameLabel->{
+       FormBox["\"Distance d in cm\"", TraditionalForm], 
+       FormBox[
+       "\"\\!\\(\\*SubscriptBox[\\(t\\), \\(delay\\)]\\) in ns\"", 
+        TraditionalForm]},
+     FrameStyle->Directive[12],
+     PlotRange->Automatic,
+     PlotRangeClipping->True], {-1, -0.6180339887498948}, {
+    Left, Bottom}, {2, 1.2360679774997896`}], GraphicsGroupBox[{
+     {GrayLevel[0], RectangleBox[{-0.6, -0.4}, {-0.09999999999999998, 0.}]}, 
+     {GrayLevel[1], EdgeForm[None], 
+      GraphicsGroupBox[{
+        RectangleBox[{-0.6, -0.4}, {-0.09999999999999998, 0.}], InsetBox[
+         GraphicsBox[{{{InsetBox[
+              GraphicsBox[
+               {RGBColor[0.33333333333333337`, 0, 0.33333333333333337`], 
+                Thickness[Large], Dashing[None], 
+                LineBox[{{0, 0}, {2, 0}}]}], {0, 0}, {Left, Bottom}, {1, 1}], 
+             InsetBox["\<\"Xenon calculated\"\>", 
+              NCache[{1.05, Rational[1, 2]}, {1.05, 0.5}], {-1, 0}, 
+              Automatic, {1, 0}]}, {InsetBox[
+              GraphicsBox[
+               {RGBColor[0.33333333333333337`, 0, 0.33333333333333337`], 
+                Thickness[Large], Dashing[{Small, Small}], 
+                LineBox[{{0, 0}, {2, 0}}]}], {0, 1}, {Left, Bottom}, {1, 1}], 
+             InsetBox["\<\"Xenon measured\"\>", 
+              NCache[{1.05, Rational[3, 2]}, {1.05, 1.5}], {-1, 0}, 
+              Automatic, {1, 0}]}, {InsetBox[
+              GraphicsBox[
+               {RGBColor[0.6666666666666666, 
+                 NCache[
+                  Rational[1, 3], 0.3333333333333333], 0.6666666666666666], 
+                Thickness[Large], Dashing[None], 
+                LineBox[{{0, 0}, {2, 0}}]}], {0, 2}, {Left, Bottom}, {1, 1}], 
+             InsetBox["\<\"Argon calculated\"\>", 
+              NCache[{1.05, Rational[5, 2]}, {1.05, 2.5}], {-1, 0}, 
+              Automatic, {1, 0}]}, {InsetBox[
+              GraphicsBox[
+               {RGBColor[0.6666666666666666, 
+                 NCache[
+                  Rational[1, 3], 0.3333333333333333], 0.6666666666666666], 
+                Thickness[Large], Dashing[{Small, Small}], 
+                LineBox[{{0, 0}, {2, 0}}]}], {0, 3}, {Left, Bottom}, {1, 1}], 
+             InsetBox["\<\"Argon measured\"\>", 
+              NCache[{1.05, Rational[7, 2]}, {1.05, 3.5}], {-1, 0}, 
+              Automatic, {1, 0}]}}, {}},
+          AspectRatio->0.8,
+          PlotRange->{{0, 5}, {0, 4}}], {-0.6, -0.4}, {
+         Left, Bottom}, {0.5, 0.4}]}]}}]},
+  AspectRatio->Automatic,
+  Background->None,
+  ColorOutput->Automatic,
+  ImageSize->Automatic,
+  PlotRange->All]], "Output",
+ CellChangeTimes->{{3.686848602999318*^9, 3.686848613122065*^9}, {
+   3.686848717879313*^9, 3.686848725923236*^9}, 3.68684886613589*^9, 
+   3.686849118336412*^9, 3.686849335993575*^9, 3.686849447581402*^9, 
+   3.686849685485537*^9, {3.686849742155308*^9, 3.686849753896339*^9}, 
+   3.686850077330476*^9, 3.68685011253333*^9, 3.686850180994331*^9, 
+   3.686850230032928*^9, 3.686850269074808*^9, {3.686850322181093*^9, 
+   3.686850365699687*^9}, {3.6868504075062237`*^9, 3.686850424783325*^9}, {
+   3.686850509705986*^9, 3.68685060708208*^9}, 3.686850641227418*^9, {
+   3.686850699072133*^9, 3.68685070486838*^9}, {3.6868507441505013`*^9, 
+   3.686850791410725*^9}, {3.6868508957584333`*^9, 3.686850950585328*^9}, 
+   3.686850998201249*^9, 3.686860295172985*^9, 3.6868603554242067`*^9, 
+   3.686860493507885*^9, 3.686860534139024*^9}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{740, 755},
-WindowMargins->{{228, Automatic}, {Automatic, 0}},
+WindowSize->{739, 756},
+WindowMargins->{{17, Automatic}, {Automatic, 0}},
 FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
 2010)",
 StyleDefinitions->"Default.nb"
@@ -253,12 +996,39 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 118, 1, 24, "Subsubsection"],
-Cell[700, 25, 2670, 65, 208, "Input"],
-Cell[3373, 92, 173, 3, 27, "Input"],
+Cell[579, 22, 100, 1, 34, "Subsection"],
 Cell[CellGroupData[{
-Cell[3571, 99, 1524, 39, 99, "Input"],
-Cell[5098, 140, 4634, 93, 233, "Output"]
+Cell[704, 27, 185, 4, 24, "Subsubsection"],
+Cell[892, 33, 2670, 65, 208, "Input"],
+Cell[3565, 100, 173, 3, 27, "Input"],
+Cell[CellGroupData[{
+Cell[3763, 107, 1524, 39, 99, "Input"],
+Cell[5290, 148, 4680, 93, 233, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10019, 247, 163, 2, 24, "Subsubsection"],
+Cell[10185, 251, 2028, 47, 133, "Input"],
+Cell[CellGroupData[{
+Cell[12238, 302, 1780, 42, 118, "Input"],
+Cell[14021, 346, 3446, 71, 246, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17516, 423, 160, 2, 24, "Subsubsection"],
+Cell[17679, 427, 2251, 50, 148, "Input"],
+Cell[CellGroupData[{
+Cell[19955, 481, 1764, 42, 133, "Input"],
+Cell[21722, 525, 3027, 58, 244, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24798, 589, 103, 1, 24, "Subsubsection"],
+Cell[24904, 592, 77, 1, 27, "Input"],
+Cell[CellGroupData[{
+Cell[25006, 597, 6766, 162, 358, "Input"],
+Cell[31775, 761, 9742, 214, 239, "Output"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }

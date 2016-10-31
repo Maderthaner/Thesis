@@ -6,40 +6,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Ferguson et~al.(2015)Ferguson, Bucher, Bozek, Carron, Castagna,
-  Coffee, Curiel, Holmes, Krzywinski, Messerschmidt, et~al.]{Ferguson-2015-JSR}
-Ken~R. Ferguson, Maximilian Bucher, John~D. Bozek, Sebastian Carron,
-  Jean-Charles Castagna, Ryan Coffee, G.~Ivan Curiel, Michael Holmes, Jacek
-  Krzywinski, Marc Messerschmidt, et~al.
-\newblock The atomic, molecular and optical science instrument at the linac
-  coherent light source.
-\newblock \emph{J. Synchrotron Rad.}, 22\penalty0 (3):\penalty0 492--497, 2015.
-
-\bibitem[Ferguson(2016)]{Ferguson-2016-PhD}
-Kenneth~R. Ferguson.
-\newblock \emph{Crystal Structure Determinations of Xenon Nanoparticles and
-  X-ray Induced Transient Lattice Contraction in the Solid-to-Plasma
-  Transition}.
-\newblock PhD thesis, Stanford University, Feburary 2016.
-
-\bibitem[Osipov(2013)]{Osipov-2013-PC}
-T.~Osipov.
-\newblock personal communication, 2013.
-
-\bibitem[Perazzo(2016)]{Amadeo-2016-SLAC}
-Amadeo Perazzo.
-\newblock Lcls data analysis strategy.
-\newblock Technical report, SLAC National Accelerator Laboratory, Febuary 2016.
-\newblock URL
-  \url{https://portal.slac.stanford.edu/sites/lcls_public/Documents/LCLSDataAnalysisStrategy.pdf}.
-
-\bibitem[Agi(2007)]{Acqiris-manual}
-\emph{Agilent Acqiris Programmer's guide}.
-\newblock Agilent Technologies, xz130 edition, June 2007.
-\newblock URL
-  \url{https://github.com/Maderthaner/Thesis/blob/master/manuals/U10xx_ProgrammersGuide.pdf}.
-\newblock URL tested on October 13, 2016.
-
 \bibitem[Mills et~al.(2005)Mills, Helliwell, Kvick, Ohta, Robinson, and
   Authier]{Mills-2005-IUCR}
 D.~M. Mills, J.~R. Helliwell, {\AA}~Kvick, T.~Ohta, I.~A. Robinson, and
@@ -937,6 +903,15 @@ C.~Bostedt, J.~D. Bozek, P.~H. Bucksbaum, R.~N. Coffee, J.~B. Hastings,
 \newblock \doi{10.1088/0953-4075/46/16/164003}.
 \newblock URL \url{http://iopscience.iop.org/0953-4075/46/16/164003}.
 
+\bibitem[Ferguson et~al.(2015)Ferguson, Bucher, Bozek, Carron, Castagna,
+  Coffee, Curiel, Holmes, Krzywinski, Messerschmidt, et~al.]{Ferguson-2015-JSR}
+Ken~R. Ferguson, Maximilian Bucher, John~D. Bozek, Sebastian Carron,
+  Jean-Charles Castagna, Ryan Coffee, G.~Ivan Curiel, Michael Holmes, Jacek
+  Krzywinski, Marc Messerschmidt, et~al.
+\newblock The atomic, molecular and optical science instrument at the linac
+  coherent light source.
+\newblock \emph{J. Synchrotron Rad.}, 22\penalty0 (3):\penalty0 492--497, 2015.
+
 \bibitem[Bozek(2009)]{Bozek-2009-EPJST}
 J.~D. Bozek.
 \newblock Amo instrumentation for the lcls x-ray fel.
@@ -1097,6 +1072,13 @@ J.~M. Liu.
 \newblock \doi{10.1364/OL.7.000196}.
 \newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-5-196}.
 
+\bibitem[Ferguson(2016)]{Ferguson-2016-PhD}
+Kenneth~R. Ferguson.
+\newblock \emph{Crystal Structure Determinations of Xenon Nanoparticles and
+  X-ray Induced Transient Lattice Contraction in the Solid-to-Plasma
+  Transition}.
+\newblock PhD thesis, Stanford University, Feburary 2016.
+
 \bibitem[Krejcik et~al.(2007)Krejcik, Allison, Akre, Kotturi, Browne, Dusatko,
   White, Rogind, Gromme, Dalesio, et~al.]{Krejcik-2007-DIPAC}
 P~Krejcik, S~Allison, R~Akre, K~Kotturi, M~Browne, J~Dusatko, W~White,
@@ -1109,6 +1091,17 @@ Phay~J. Ho, Christoph Bostedt, Sebastian Schorb, and Linda Young.
 \newblock Theoretical tracking of resonance-enhanced multiple ionization
   pathways in x-ray free-electron laser pulses.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 253001, 2014.
+
+\bibitem[Osipov(2013)]{Osipov-2013-PC}
+T.~Osipov.
+\newblock personal communication, 2013.
+
+\bibitem[Perazzo(2016)]{Amadeo-2016-SLAC}
+Amadeo Perazzo.
+\newblock Lcls data analysis strategy.
+\newblock Technical report, SLAC National Accelerator Laboratory, Febuary 2016.
+\newblock URL
+  \url{https://portal.slac.stanford.edu/sites/lcls_public/Documents/LCLSDataAnalysisStrategy.pdf}.
 
 \bibitem[Bruck and Sodin(1979)]{Bruck-1979-OpticsCom}
 Yu.M. Bruck and L.G. Sodin.
@@ -1209,6 +1202,13 @@ Max~F. Hantke, Dirk Hasse, Filipe R. N.~C. Maia, Tomas Ekeberg, Katja John,
   x-ray laser.
 \newblock \emph{Nat. Photonics}, 8:\penalty0 943–949, 2014.
 \newblock \doi{10.1038/nphoton.2014.270}.
+
+\bibitem[Agi(2007)]{Acqiris-manual}
+\emph{Agilent Acqiris Programmer's guide}.
+\newblock Agilent Technologies, xz130 edition, June 2007.
+\newblock URL
+  \url{https://github.com/Maderthaner/Thesis/blob/master/manuals/U10xx_ProgrammersGuide.pdf}.
+\newblock URL tested on October 13, 2016.
 
 \bibitem[Schorb et~al.(2012)Schorb, Rupp, Swiggers, Coffee, Messerschmidt,
   Williams, Bozek, Wada, Kornilov, M{\"o}ller, et~al.]{Schorb-2012-PRL}
