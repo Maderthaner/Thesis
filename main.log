@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.29)  30 OCT 2016 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.29)  1 NOV 2016 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2050,35 +2050,35 @@ chapter 1.
 
 ]
 chapter 2.
-<images/aerial-view-lcls.jpg, id=555, 986.7264pt x 337.7418pt>
+<images/aerial-view-lcls.jpg, id=553, 986.7264pt x 337.7418pt>
 File: images/aerial-view-lcls.jpg Graphic file (type jpg)
 
 <use images/aerial-view-lcls.jpg>
 Package pdftex.def Info: images/aerial-view-lcls.jpg used on input line 23.
 (pdftex.def)             Requested size: 418.25555pt x 143.15958pt.
  [5] [6 <./images/aerial-view-lcls.jpg>]
-<images/Undulator.png, id=591, 1606.0pt x 1011.78pt>
+<images/Undulator.png, id=589, 1606.0pt x 1011.78pt>
 File: images/Undulator.png Graphic file (type png)
 
 <use images/Undulator.png>
 Package pdftex.def Info: images/Undulator.png used on input line 43.
 (pdftex.def)             Requested size: 418.25555pt x 263.5043pt.
  [7] [8 <./images/Undulator.png>]
-<images/gain-length.JPG, id=629, 737.75626pt x 472.01344pt>
+<images/gain-length.JPG, id=627, 737.75626pt x 472.01344pt>
 File: images/gain-length.JPG Graphic file (type jpg)
 
 <use images/gain-length.JPG>
 Package pdftex.def Info: images/gain-length.JPG used on input line 69.
 (pdftex.def)             Requested size: 418.25555pt x 267.59558pt.
  [9] [10 <./images/gain-length.JPG>]
-<images/SASE-spectra.png, id=652, 722.7pt x 542.025pt>
+<images/SASE-spectra.png, id=650, 722.7pt x 542.025pt>
 File: images/SASE-spectra.png Graphic file (type png)
 
 <use images/SASE-spectra.png>
 Package pdftex.def Info: images/SASE-spectra.png used on input line 81.
 (pdftex.def)             Requested size: 418.25555pt x 313.68825pt.
 
-<images/Soft-X-ray-self-seeding.jpg, id=657, 521.95pt x 526.96875pt>
+<images/Soft-X-ray-self-seeding.jpg, id=655, 521.95pt x 526.96875pt>
 File: images/Soft-X-ray-self-seeding.jpg Graphic file (type jpg)
 
 <use images/Soft-X-ray-self-seeding.jpg>
@@ -2086,7 +2086,7 @@ Package pdftex.def Info: images/Soft-X-ray-self-seeding.jpg used on input line
 99.
 (pdftex.def)             Requested size: 204.94751pt x 206.91609pt.
 
-<images/spectral-brightness-fletcher-2015.jpg, id=658, 907.39pt x 921.4425pt>
+<images/spectral-brightness-fletcher-2015.jpg, id=656, 907.39pt x 921.4425pt>
 File: images/spectral-brightness-fletcher-2015.jpg Graphic file (type jpg)
 
 <use images/spectral-brightness-fletcher-2015.jpg>
@@ -2095,7 +2095,7 @@ nput line 100.
 (pdftex.def)             Requested size: 204.94751pt x 208.11703pt.
  [11] [12 <./images/SASE-spectra.png>] [13 <./images/Soft-X-ray-self-seeding.jp
 g> <./images/spectral-brightness-fletcher-2015.jpg>] [14]
-<images/Albertos-pump-probe-scheme.png, id=707, 1001.7425pt x 296.10625pt>
+<images/Albertos-pump-probe-scheme.png, id=705, 1001.7425pt x 296.10625pt>
 File: images/Albertos-pump-probe-scheme.png Graphic file (type png)
 
 <use images/Albertos-pump-probe-scheme.png>
@@ -2103,7 +2103,7 @@ Package pdftex.def Info: images/Albertos-pump-probe-scheme.png used on input li
 ne 125.
 (pdftex.def)             Requested size: 418.25555pt x 123.63182pt.
  [15] [16 <./images/Albertos-pump-probe-scheme.png>]
-<images/Agos-pump-probe-scheme.png, id=737, 961.5925pt x 397.485pt>
+<images/Agos-pump-probe-scheme.png, id=735, 961.5925pt x 397.485pt>
 File: images/Agos-pump-probe-scheme.png Graphic file (type png)
 
 <use images/Agos-pump-probe-scheme.png>
@@ -2113,21 +2113,21 @@ Package pdftex.def Info: images/Agos-pump-probe-scheme.png used on input line 1
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 10.95pt on input line 156.
  [17] [18 <./images/Agos-pump-probe-scheme.png>] <images/freeJetExpansion.png, 
-id=768, 963.6pt x 542.025pt>
+id=766, 963.6pt x 542.025pt>
 File: images/freeJetExpansion.png Graphic file (type png)
 
 <use images/freeJetExpansion.png>
 Package pdftex.def Info: images/freeJetExpansion.png used on input line 185.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
  [19] [20 <./images/freeJetExpansion.png>]
-[21] [22] [23] <images/pick-up.jpg, id=854, 963.6pt x 542.025pt>
+[21] [22] [23] <images/pick-up.jpg, id=847, 963.6pt x 542.025pt>
 File: images/pick-up.jpg Graphic file (type jpg)
 
 <use images/pick-up.jpg>
 Package pdftex.def Info: images/pick-up.jpg used on input line 268.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
  [24] [25 <./images/pick-up.jpg>] [26] [27]
-<images/X-ray-scattering.jpg, id=908, 963.6pt x 542.025pt>
+<images/X-ray-scattering.jpg, id=900, 963.6pt x 542.025pt>
 File: images/X-ray-scattering.jpg Graphic file (type jpg)
 
 <use images/X-ray-scattering.jpg>
@@ -2150,7 +2150,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/photoionization-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/photoionization-eps-converted-to.pdf, id=950, 289.08pt x 185.69376pt>
+<images/photoionization-eps-converted-to.pdf, id=944, 289.08pt x 185.69376pt>
 File: images/photoionization-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/photoionization-eps-converted-to.pdf>
@@ -2158,21 +2158,21 @@ Package pdftex.def Info: images/photoionization-eps-converted-to.pdf used on in
 put line 410.
 (pdftex.def)             Requested size: 418.25555pt x 268.68518pt.
  [31] [32 <./images/photoionization-eps-converted-to.pdf>] [33] [34]
-<images/el-relaxation.png, id=1019, 963.6pt x 542.025pt>
+<images/el-relaxation.png, id=1013, 963.6pt x 542.025pt>
 File: images/el-relaxation.png Graphic file (type png)
 
 <use images/el-relaxation.png>
 Package pdftex.def Info: images/el-relaxation.png used on input line 518.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
 
-<images/pnCCD-histogram.png, id=1025, 578.16pt x 433.62pt>
+<images/pnCCD-histogram.png, id=1019, 578.16pt x 433.62pt>
 File: images/pnCCD-histogram.png Graphic file (type png)
 
 <use images/pnCCD-histogram.png>
 Package pdftex.def Info: images/pnCCD-histogram.png used on input line 525.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/auger-spectra.png, id=1026, 690.32906pt x 450.9347pt>
+<images/auger-spectra.png, id=1020, 690.32906pt x 450.9347pt>
 File: images/auger-spectra.png Graphic file (type png)
 
 <use images/auger-spectra.png>
@@ -2180,7 +2180,7 @@ Package pdftex.def Info: images/auger-spectra.png used on input line 526.
 (pdftex.def)             Requested size: 204.94751pt x 133.87778pt.
  [35] [36 <./images/el-relaxation.png>] [37 <./images/pnCCD-histogram.png> <./i
 mages/auger-spectra.png>]
-<images/nano-plasma-schematic.jpg, id=1068, 682.55pt x 195.73125pt>
+<images/nano-plasma-schematic.jpg, id=1062, 682.55pt x 195.73125pt>
 File: images/nano-plasma-schematic.jpg Graphic file (type jpg)
 
 <use images/nano-plasma-schematic.jpg>
@@ -2188,37 +2188,32 @@ Package pdftex.def Info: images/nano-plasma-schematic.jpg used on input line 55
 3.
 (pdftex.def)             Requested size: 418.25555pt x 119.94243pt.
  [38] [39 <./images/nano-plasma-schematic.jpg>] <images/tais-nat-photonics.jpg,
- id=1109, 949.5475pt x 795.97375pt>
+ id=1101, 949.5475pt x 795.97375pt>
 File: images/tais-nat-photonics.jpg Graphic file (type jpg)
 
 <use images/tais-nat-photonics.jpg>
 Package pdftex.def Info: images/tais-nat-photonics.jpg used on input line 567.
 (pdftex.def)             Requested size: 418.25555pt x 350.60605pt.
 
-<images/ken-science.jpg, id=1119, 1053.9375pt x 583.17876pt>
+<images/ken-science.jpg, id=1111, 1053.9375pt x 583.17876pt>
 File: images/ken-science.jpg Graphic file (type jpg)
 
 <use images/ken-science.jpg>
 Package pdftex.def Info: images/ken-science.jpg used on input line 574.
 (pdftex.def)             Requested size: 418.25555pt x 231.43427pt.
  [40] [41 <./images/tais-nat-photonics.jpg>]
-[42 <./images/ken-science.jpg>]
+[42] [43 <./images/ken-science.jpg>]
 <images/Hoener-image.jpg, id=1161, 28.45276pt x 32.86293pt>
 File: images/Hoener-image.jpg Graphic file (type jpg)
 
 <use images/Hoener-image.jpg>
 Package pdftex.def Info: images/Hoener-image.jpg used on input line 592.
 (pdftex.def)             Requested size: 209.12778pt x 241.67143pt.
-) [43] [44 <./images/Hoener-image.jpg>] [45]
+) [44] [45 <./images/Hoener-image.jpg>] [46]
 \openout2 = `experimental_setup.aux'.
 
 
-(./experimental_setup.tex [46
-
-
-
-
-]
+(./experimental_setup.tex
 chapter 3.
 Package epstopdf Info: Source file: <images/beam_layout.eps>
 (epstopdf)                    date: 2014-10-28 20:02:39
@@ -2234,7 +2229,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/beam_layout-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/beam_layout-eps-converted-to.pdf, id=1215, 438.63875pt x 147.55125pt>
+<images/beam_layout-eps-converted-to.pdf, id=1211, 438.63875pt x 147.55125pt>
 File: images/beam_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/beam_layout-eps-converted-to.pdf>
@@ -2242,14 +2237,14 @@ Package pdftex.def Info: images/beam_layout-eps-converted-to.pdf used on input
 line 24.
 (pdftex.def)             Requested size: 418.25555pt x 140.69746pt.
 
-<images/Focus-z-scan.png, id=1231, 489.9906pt x 546.3612pt>
+<images/Focus-z-scan.png, id=1227, 489.9906pt x 546.3612pt>
 File: images/Focus-z-scan.png Graphic file (type png)
 
 <use images/Focus-z-scan.png>
 Package pdftex.def Info: images/Focus-z-scan.png used on input line 32.
 (pdftex.def)             Requested size: 204.94751pt x 228.51974pt.
 
-<images/Focus-Fractional-Yield.png, id=1232, 578.16pt x 433.62pt>
+<images/Focus-Fractional-Yield.png, id=1228, 578.16pt x 433.62pt>
 File: images/Focus-Fractional-Yield.png Graphic file (type png)
 
 <use images/Focus-Fractional-Yield.png>
@@ -2257,14 +2252,14 @@ Package pdftex.def Info: images/Focus-Fractional-Yield.png used on input line 3
 3.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/imprints/image0025.jpg, id=1241, 1027.84pt x 770.88pt>
+<images/imprints/image0025.jpg, id=1237, 1027.84pt x 770.88pt>
 File: images/imprints/image0025.jpg Graphic file (type jpg)
 
 <use images/imprints/image0025.jpg>
 Package pdftex.def Info: images/imprints/image0025.jpg used on input line 40.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/image0026.jpg, id=1242, 1027.84pt x 770.88pt>
+<images/imprints/image0026.jpg, id=1238, 1027.84pt x 770.88pt>
 File: images/imprints/image0026.jpg Graphic file (type jpg)
 
 <use images/imprints/image0026.jpg>
@@ -2286,7 +2281,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/imprints/analysis-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/imprints/analysis-eps-converted-to.pdf, id=1243, 289.08pt x 188.705pt>
+<images/imprints/analysis-eps-converted-to.pdf, id=1239, 289.08pt x 188.705pt>
 File: images/imprints/analysis-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/imprints/analysis-eps-converted-to.pdf>
@@ -2297,14 +2292,14 @@ input line 40.
 Overfull \vbox (97.06573pt too high) detected at line 40
  []
 
-<images/imprints/image0027.jpg, id=1244, 1027.84pt x 770.88pt>
+<images/imprints/image0027.jpg, id=1240, 1027.84pt x 770.88pt>
 File: images/imprints/image0027.jpg Graphic file (type jpg)
 
 <use images/imprints/image0027.jpg>
 Package pdftex.def Info: images/imprints/image0027.jpg used on input line 42.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/image0028.jpg, id=1245, 1027.84pt x 770.88pt>
+<images/imprints/image0028.jpg, id=1241, 1027.84pt x 770.88pt>
 File: images/imprints/image0028.jpg Graphic file (type jpg)
 
 <use images/imprints/image0028.jpg>
@@ -2315,19 +2310,40 @@ Overfull \hbox (31.81973pt too wide) in paragraph at lines 39--45
 [][] 
  []
 
-[47] [48 <./images/beam_layout-eps-converted-to.pdf>]
+[47
+
+
+
+
+] [48 <./images/beam_layout-eps-converted-to.pdf>]
 Overfull \hbox (21.41179pt too wide) has occurred while \output is active
  |\T1/cmr/m/sl/10.95 3.1 The atomic, molecular and optical physics instrument a
 nd front end enclosure at the LCLS
  []
 
 [49] [50 <./images/Focus-z-scan.png> <./images/Focus-Fractional-Yield.png>]
-<images/LAMP-overview.jpg, id=1295, 770.88pt x 475.7775pt>
-File: images/LAMP-overview.jpg Graphic file (type jpg)
+Package epstopdf Info: Source file: <images/AMO-overview-4.eps>
+(epstopdf)                    date: 2016-11-01 12:38:37
+(epstopdf)                    size: 6811422 bytes
+(epstopdf)             Output file: <images/AMO-overview-4-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-11-01 12:39:07
+(epstopdf)                    size: 775123 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/AMO-overview-4-eps-
+converted-to.pdf images/AMO-overview-4.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
 
-<use images/LAMP-overview.jpg>
-Package pdftex.def Info: images/LAMP-overview.jpg used on input line 60.
-(pdftex.def)             Requested size: 418.25555pt x 258.14291pt.
+
+pdfTeX warning: pdflatex (file ./images/AMO-overview-4-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<images/AMO-overview-4-eps-converted-to.pdf, id=1291, 1625.07124pt x 935.495pt>
+File: images/AMO-overview-4-eps-converted-to.pdf Graphic file (type pdf)
+<use images/AMO-overview-4-eps-converted-to.pdf>
+Package pdftex.def Info: images/AMO-overview-4-eps-converted-to.pdf used on inp
+ut line 60.
+(pdftex.def)             Requested size: 418.25555pt x 240.76775pt.
 
 Overfull \hbox (21.41179pt too wide) has occurred while \output is active
  |\T1/cmr/m/sl/10.95 3.1 The atomic, molecular and optical physics instrument a
@@ -2337,14 +2353,14 @@ nd front end enclosure at the LCLS
 [51 <./images/imprints/image0025.jpg> <./images/imprints/image0026.jpg> <./imag
 es/imprints/analysis-eps-converted-to.pdf> <./images/imprints/image0027.jpg> <.
 /images/imprints/image0028.jpg>]
-<images/c1-ccd-spec.jpg, id=1318, 1108.8928pt x 627.84563pt>
+<images/c1-ccd-spec.jpg, id=1316, 1108.8928pt x 627.84563pt>
 File: images/c1-ccd-spec.jpg Graphic file (type jpg)
 
 <use images/c1-ccd-spec.jpg>
 Package pdftex.def Info: images/c1-ccd-spec.jpg used on input line 67.
 (pdftex.def)             Requested size: 418.25555pt x 236.81148pt.
 
-<images/pnCCD-dimensions.jpg, id=1321, 1086.30844pt x 654.19406pt>
+<images/pnCCD-dimensions.jpg, id=1319, 1086.30844pt x 654.19406pt>
 File: images/pnCCD-dimensions.jpg Graphic file (type jpg)
 
 <use images/pnCCD-dimensions.jpg>
@@ -2355,35 +2371,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--82
 
  []
 
-[52 <./images/LAMP-overview.jpg>] [53 <./images/c1-ccd-spec.jpg>] [54 <./images
-/pnCCD-dimensions.jpg>]
-<images/pnCCD-detail.png, id=1340, 1102.1175pt x 654.445pt>
+[52 <./images/AMO-overview-4-eps-converted-to.pdf>] [53 <./images/c1-ccd-spec.j
+pg>] [54 <./images/pnCCD-dimensions.jpg>]
+<images/pnCCD-detail.png, id=1348, 1102.1175pt x 654.445pt>
 File: images/pnCCD-detail.png Graphic file (type png)
 
 <use images/pnCCD-detail.png>
 Package pdftex.def Info: images/pnCCD-detail.png used on input line 90.
 (pdftex.def)             Requested size: 376.42744pt x 223.52693pt.
  [55] [56 <./images/pnCCD-detail.png>] [57]
-<images/amoa1214-querschnitt.jpg, id=1359, 1399.47844pt x 650.43pt>
-File: images/amoa1214-querschnitt.jpg Graphic file (type jpg)
+Package epstopdf Info: Source file: <images/amoa1214-querschnitt.eps>
+(epstopdf)                    date: 2016-11-01 14:09:32
+(epstopdf)                    size: 5610902 bytes
+(epstopdf)             Output file: <images/amoa1214-querschnitt-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=images/amoa1214-querschnit
+t-eps-converted-to.pdf images/amoa1214-querschnitt.eps>
+(epstopdf)             \includegraphics on input line 131.
+runsystem(repstopdf --outfile=images/amoa1214-querschnitt-eps-converted-to.pdf 
+images/amoa1214-querschnitt.eps)...executed safely (allowed).
 
-<use images/amoa1214-querschnitt.jpg>
-Package pdftex.def Info: images/amoa1214-querschnitt.jpg used on input line 131
-.
-(pdftex.def)             Requested size: 418.25555pt x 194.38614pt.
+Package epstopdf Info: Result file: <images/amoa1214-querschnitt-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-11-01 14:11:16
+(epstopdf)                    size: 713452 bytes.
 
-Overfull \hbox (101.56204pt too wide) in paragraph at lines 138--148
- [][] 
- []
 
-<images/parker-valve.png, id=1372, 1317.92375pt x 461.725pt>
+pdfTeX warning: pdflatex (file ./images/amoa1214-querschnitt-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<images/amoa1214-querschnitt-eps-converted-to.pdf, id=1367, 1400.23125pt x 650.
+43pt>
+File: images/amoa1214-querschnitt-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/amoa1214-querschnitt-eps-converted-to.pdf>
+Package pdftex.def Info: images/amoa1214-querschnitt-eps-converted-to.pdf used 
+on input line 131.
+(pdftex.def)             Requested size: 418.25555pt x 194.2869pt.
+
+<images/parker-valve.png, id=1380, 1317.92375pt x 461.725pt>
 File: images/parker-valve.png Graphic file (type png)
 
 <use images/parker-valve.png>
 Package pdftex.def Info: images/parker-valve.png used on input line 154.
 (pdftex.def)             Requested size: 418.25555pt x 146.52913pt.
- [58 <./images/amoa1214-querschnitt.jpg>] [59]
-<images/LCLS-timing-schematic.png, id=1388, 844.1136pt x 329.5512pt>
+ [58 <./images/amoa1214-querschnitt-eps-converted-to.pdf>] [59]
+<images/LCLS-timing-schematic.png, id=1405, 844.1136pt x 329.5512pt>
 File: images/LCLS-timing-schematic.png Graphic file (type png)
 
 <use images/LCLS-timing-schematic.png>
@@ -2392,11 +2424,11 @@ Package pdftex.def Info: images/LCLS-timing-schematic.png used on input line 16
 (pdftex.def)             Requested size: 418.25555pt x 163.29176pt.
  [60 <./images/parker-valve.png>]
 Package epstopdf Info: Source file: <images/gas-jet-flight-times.eps>
-(epstopdf)                    date: 2016-10-30 16:56:00
+(epstopdf)                    date: 2016-10-30 19:49:11
 (epstopdf)                    size: 60370 bytes
 (epstopdf)             Output file: <images/gas-jet-flight-times-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-10-30 17:08:29
+(epstopdf)                    date: 2016-10-30 19:49:11
 (epstopdf)                    size: 9576 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/gas-jet-flight-time
 s-eps-converted-to.pdf images/gas-jet-flight-times.eps>
@@ -2407,7 +2439,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/gas-jet-flight-times-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/gas-jet-flight-times-eps-converted-to.pdf, id=1401, 289.08pt x 179.6712
+<images/gas-jet-flight-times-eps-converted-to.pdf, id=1418, 289.08pt x 179.6712
 5pt>
 File: images/gas-jet-flight-times-eps-converted-to.pdf Graphic file (type pdf)
  <use images/gas-jet-flight-times-eps-converted-to.pdf>
@@ -2415,7 +2447,7 @@ Package pdftex.def Info: images/gas-jet-flight-times-eps-converted-to.pdf used
 on input line 185.
 (pdftex.def)             Requested size: 418.25555pt x 259.97104pt.
  [61 <./images/LCLS-timing-schematic.png>] [62 <./images/gas-jet-flight-times-e
-ps-converted-to.pdf>] [63] <images/spectrometer.jpg, id=1433, 1485.55pt x 654.4
+ps-converted-to.pdf>] [63] <images/spectrometer.jpg, id=1450, 1485.55pt x 654.4
 45pt>
 File: images/spectrometer.jpg Graphic file (type jpg)
 
@@ -2423,7 +2455,7 @@ File: images/spectrometer.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/spectrometer.jpg used on input line 221.
 (pdftex.def)             Requested size: 376.42744pt x 165.82774pt.
 
-<images/simion.jpg, id=1437, 1756.5625pt x 738.76pt>
+<images/simion.jpg, id=1454, 1756.5625pt x 738.76pt>
 File: images/simion.jpg Graphic file (type jpg)
  <use images/simion.jpg>
 Package pdftex.def Info: images/simion.jpg used on input line 227.
@@ -2440,14 +2472,14 @@ Package pdftex.def Info: images/simion.jpg used on input line 227.
 
 ]
 chapter 4.
-<images/daq-architecture.JPG, id=1464, 716.6775pt x 568.37344pt>
+<images/daq-architecture.JPG, id=1481, 716.6775pt x 568.37344pt>
 File: images/daq-architecture.JPG Graphic file (type jpg)
 
 <use images/daq-architecture.JPG>
 Package pdftex.def Info: images/daq-architecture.JPG used on input line 18.
 (pdftex.def)             Requested size: 418.25555pt x 331.71225pt.
  [67] [68 <./images/daq-architecture.JPG>]
-<images/pnCCD-electronic-noise.png, id=1481, 578.16pt x 433.62pt>
+<images/pnCCD-electronic-noise.png, id=1498, 578.16pt x 433.62pt>
 File: images/pnCCD-electronic-noise.png Graphic file (type png)
 
 <use images/pnCCD-electronic-noise.png>
@@ -2460,7 +2492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--55
  []
 
 [69] [70 <./images/pnCCD-electronic-noise.png>] [71]
-<images/pnCCD-image-geometry.png, id=1505, 1031.855pt x 1535.7375pt>
+<images/pnCCD-image-geometry.png, id=1522, 1031.855pt x 1535.7375pt>
 File: images/pnCCD-image-geometry.png Graphic file (type png)
 
 <use images/pnCCD-image-geometry.png>
@@ -2468,7 +2500,7 @@ Package pdftex.def Info: images/pnCCD-image-geometry.png used on input line 85.
 
 (pdftex.def)             Requested size: 334.60571pt x 497.98398pt.
 
-<images/pnCCD-1d-sum.png, id=1507, 578.16pt x 433.62pt>
+<images/pnCCD-1d-sum.png, id=1524, 578.16pt x 433.62pt>
 File: images/pnCCD-1d-sum.png Graphic file (type png)
 
 <use images/pnCCD-1d-sum.png>
@@ -2494,7 +2526,7 @@ pdfTeX warning: pdflatex (file ./images/electron-density-convoluted-object-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<images/electron-density-convoluted-object-eps-converted-to.pdf, id=1520, 289.0
+<images/electron-density-convoluted-object-eps-converted-to.pdf, id=1537, 289.0
 8pt x 183.68625pt>
 File: images/electron-density-convoluted-object-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2520,7 +2552,7 @@ pdfTeX warning: pdflatex (file ./images/beam-convoluted-with-object-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<images/beam-convoluted-with-object-eps-converted-to.pdf, id=1521, 394.47375pt 
+<images/beam-convoluted-with-object-eps-converted-to.pdf, id=1538, 394.47375pt 
 x 247.92625pt>
 File: images/beam-convoluted-with-object-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2531,7 +2563,7 @@ f used on input line 104.
 
 [74 <./images/pnCCD-1d-sum.png>] [75 <./images/electron-density-convoluted-obje
 ct-eps-converted-to.pdf> <./images/beam-convoluted-with-object-eps-converted-to
-.pdf>] <images/phase-retrieval-algorithm.jpg, id=1557, 963.6pt x 542.025pt>
+.pdf>] <images/phase-retrieval-algorithm.jpg, id=1574, 963.6pt x 542.025pt>
 File: images/phase-retrieval-algorithm.jpg Graphic file (type jpg)
 
 <use images/phase-retrieval-algorithm.jpg>
@@ -2539,7 +2571,7 @@ Package pdftex.def Info: images/phase-retrieval-algorithm.jpg used on input lin
 e 146.
 (pdftex.def)             Requested size: 334.60571pt x 188.2146pt.
  [76] [77 <./images/phase-retrieval-algorithm.jpg>] [78]
-<images/Phase-retrieval-image.png, id=1600, 2055.68pt x 679.53876pt>
+<images/Phase-retrieval-image.png, id=1617, 2055.68pt x 679.53876pt>
 File: images/Phase-retrieval-image.png Graphic file (type png)
 
 <use images/Phase-retrieval-image.png>
@@ -2547,7 +2579,7 @@ Package pdftex.def Info: images/Phase-retrieval-image.png used on input line 20
 3.
 (pdftex.def)             Requested size: 334.60571pt x 110.6052pt.
 
-<images/Phase-retrieval-error.png, id=1601, 811.5921pt x 343.2825pt>
+<images/Phase-retrieval-error.png, id=1618, 811.5921pt x 343.2825pt>
 File: images/Phase-retrieval-error.png Graphic file (type png)
 
 <use images/Phase-retrieval-error.png>
@@ -2578,7 +2610,7 @@ pdfTeX warning: pdflatex (file ./images/cluster-generation-2D-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
 
-<images/cluster-generation-2D-eps-converted-to.pdf, id=1630, 318.18875pt x 173.
+<images/cluster-generation-2D-eps-converted-to.pdf, id=1647, 318.18875pt x 173.
 64874pt>
 File: images/cluster-generation-2D-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2603,7 +2635,7 @@ pdfTeX warning: pdflatex (file ./images/cluster-generation-1D-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
 
-<images/cluster-generation-1D-eps-converted-to.pdf, id=1631, 289.08pt x 189.708
+<images/cluster-generation-1D-eps-converted-to.pdf, id=1648, 289.08pt x 189.708
 76pt>
 File: images/cluster-generation-1D-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2629,7 +2661,7 @@ pdfTeX warning: pdflatex (file ./images/cluster-sphere-intact-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
 
-<images/cluster-sphere-intact-eps-converted-to.pdf, id=1640, 425.59pt x 265.993
+<images/cluster-sphere-intact-eps-converted-to.pdf, id=1657, 425.59pt x 265.993
 74pt>
 File: images/cluster-sphere-intact-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2639,7 +2671,7 @@ Package pdftex.def Info: images/cluster-sphere-intact-eps-converted-to.pdf used
 (pdftex.def)             Requested size: 334.60571pt x 209.13835pt.
  [82 <./images/cluster-generation-2D-eps-converted-to.pdf> <./images/cluster-ge
 neration-1D-eps-converted-to.pdf>]
-<images/Acqiris-waveform-readout.png, id=61843, 695.59875pt x 305.14pt>
+<images/Acqiris-waveform-readout.png, id=61860, 695.59875pt x 305.14pt>
 File: images/Acqiris-waveform-readout.png Graphic file (type png)
 
 <use images/Acqiris-waveform-readout.png>
@@ -2661,7 +2693,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/firstDataPoint-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/firstDataPoint-eps-converted-to.pdf, id=61844, 578.16pt x 433.62pt>
+<images/firstDataPoint-eps-converted-to.pdf, id=61861, 578.16pt x 433.62pt>
 File: images/firstDataPoint-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/firstDataPoint-eps-converted-to.pdf>
@@ -2684,7 +2716,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/TOF-trace-light-peak-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/TOF-trace-light-peak-eps-converted-to.pdf, id=61850, 578.16pt x 433.62p
+<images/TOF-trace-light-peak-eps-converted-to.pdf, id=61867, 578.16pt x 433.62p
 t>
 File: images/TOF-trace-light-peak-eps-converted-to.pdf Graphic file (type pdf)
  <use images/TOF-trace-light-peak-eps-converted-to.pdf>
@@ -2706,7 +2738,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/filter-size-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/filter-size-eps-converted-to.pdf, id=61865, 289.08pt x 190.7125pt>
+<images/filter-size-eps-converted-to.pdf, id=61882, 289.08pt x 190.7125pt>
 File: images/filter-size-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/filter-size-eps-converted-to.pdf>
@@ -2730,7 +2762,7 @@ pdfTeX warning: pdflatex (file ./images/filter-sum-frontpnCCD-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
 
-<images/filter-sum-frontpnCCD-eps-converted-to.pdf, id=61866, 289.08pt x 191.71
+<images/filter-sum-frontpnCCD-eps-converted-to.pdf, id=61883, 289.08pt x 191.71
 625pt>
 File: images/filter-sum-frontpnCCD-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2747,14 +2779,14 @@ eps-converted-to.pdf> <./images/filter-sum-frontpnCCD-eps-converted-to.pdf>]
 
  (./results.tex
 chapter 5.
-<images/results/Xe-only-0fs.png, id=61921, 361.35pt x 221.82875pt>
+<images/results/Xe-only-0fs.png, id=61938, 361.35pt x 221.82875pt>
 File: images/results/Xe-only-0fs.png Graphic file (type png)
 
 <use images/results/Xe-only-0fs.png>
 Package pdftex.def Info: images/results/Xe-only-0fs.png used on input line 37.
 (pdftex.def)             Requested size: 204.94751pt x 125.8141pt.
 
-<images/results/Xe-only-60fs.png, id=61922, 361.35pt x 221.82875pt>
+<images/results/Xe-only-60fs.png, id=61939, 361.35pt x 221.82875pt>
 File: images/results/Xe-only-60fs.png Graphic file (type png)
 
 <use images/results/Xe-only-60fs.png>
@@ -2762,7 +2794,7 @@ Package pdftex.def Info: images/results/Xe-only-60fs.png used on input line 38.
 
 (pdftex.def)             Requested size: 204.94751pt x 125.8141pt.
 
-<images/results/Xe-only-120fs.png, id=61923, 361.35pt x 221.82875pt>
+<images/results/Xe-only-120fs.png, id=61940, 361.35pt x 221.82875pt>
 File: images/results/Xe-only-120fs.png Graphic file (type png)
 
 <use images/results/Xe-only-120fs.png>
@@ -2770,7 +2802,7 @@ Package pdftex.def Info: images/results/Xe-only-120fs.png used on input line 39
 .
 (pdftex.def)             Requested size: 204.94751pt x 125.8141pt.
 
-<images/results/Xe-only-250fs.png, id=61924, 361.35pt x 221.82875pt>
+<images/results/Xe-only-250fs.png, id=61941, 361.35pt x 221.82875pt>
 File: images/results/Xe-only-250fs.png Graphic file (type png)
 
 <use images/results/Xe-only-250fs.png>
@@ -2778,7 +2810,7 @@ Package pdftex.def Info: images/results/Xe-only-250fs.png used on input line 40
 .
 (pdftex.def)             Requested size: 204.94751pt x 125.8141pt.
 
-<images/results/Xe-only-400fs.png, id=61925, 361.35pt x 221.82875pt>
+<images/results/Xe-only-400fs.png, id=61942, 361.35pt x 221.82875pt>
 File: images/results/Xe-only-400fs.png Graphic file (type png)
 
 <use images/results/Xe-only-400fs.png>
@@ -2786,7 +2818,7 @@ Package pdftex.def Info: images/results/Xe-only-400fs.png used on input line 41
 .
 (pdftex.def)             Requested size: 204.94751pt x 125.8141pt.
 
-<images/results/Xe-only-800fs.png, id=61926, 361.35pt x 221.82875pt>
+<images/results/Xe-only-800fs.png, id=61943, 361.35pt x 221.82875pt>
 File: images/results/Xe-only-800fs.png Graphic file (type png)
 
 <use images/results/Xe-only-800fs.png>
@@ -2794,7 +2826,7 @@ Package pdftex.def Info: images/results/Xe-only-800fs.png used on input line 42
 .
 (pdftex.def)             Requested size: 204.94751pt x 125.8141pt.
 
-<images/size-distributions.png, id=61931, 427.5975pt x 226.8475pt>
+<images/size-distributions.png, id=61948, 427.5975pt x 226.8475pt>
 File: images/size-distributions.png Graphic file (type png)
 
 <use images/size-distributions.png>
@@ -2817,7 +2849,7 @@ pdfTeX warning: pdflatex (file ./images/results/number-of-scatterer-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<images/results/number-of-scatterer-eps-converted-to.pdf, id=61934, 289.08pt x 
+<images/results/number-of-scatterer-eps-converted-to.pdf, id=61951, 289.08pt x 
 174.6525pt>
 File: images/results/number-of-scatterer-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2862,7 +2894,7 @@ pdfTeX warning: pdflatex (file ./images/results/Xe-reconstructions-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<images/results/Xe-reconstructions-eps-converted-to.pdf, id=61951, 376.40625pt 
+<images/results/Xe-reconstructions-eps-converted-to.pdf, id=61968, 376.40625pt 
 x 234.8775pt>
 File: images/results/Xe-reconstructions-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2871,14 +2903,14 @@ Package pdftex.def Info: images/results/Xe-reconstructions-eps-converted-to.pdf
  used on input line 77.
 (pdftex.def)             Requested size: 418.25555pt x 261.01099pt.
 
-<images/results/Xe_0_fs.png, id=61954, 578.16pt x 433.62pt>
+<images/results/Xe_0_fs.png, id=61971, 578.16pt x 433.62pt>
 File: images/results/Xe_0_fs.png Graphic file (type png)
 
 <use images/results/Xe_0_fs.png>
 Package pdftex.def Info: images/results/Xe_0_fs.png used on input line 86.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/results/Xe_800_fs.png, id=61955, 578.16pt x 433.62pt>
+<images/results/Xe_800_fs.png, id=61972, 578.16pt x 433.62pt>
 File: images/results/Xe_800_fs.png Graphic file (type png)
 
 <use images/results/Xe_800_fs.png>
@@ -2886,7 +2918,7 @@ Package pdftex.def Info: images/results/Xe_800_fs.png used on input line 87.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
  [90 <./images/results/number-of-scatterer-eps-converted-to.pdf>] [91 <./images
 /results/Xe-reconstructions-eps-converted-to.pdf>] <images/results/TOF-atomic-x
-enon.png, id=61977, 578.16pt x 433.62pt>
+enon.png, id=61994, 578.16pt x 433.62pt>
 File: images/results/TOF-atomic-xenon.png Graphic file (type png)
 
 <use images/results/TOF-atomic-xenon.png>
@@ -2894,7 +2926,7 @@ Package pdftex.def Info: images/results/TOF-atomic-xenon.png used on input line
  102.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
 
-<images/results/TOF-small-cluster-xenon.png, id=61980, 578.16pt x 433.62pt>
+<images/results/TOF-small-cluster-xenon.png, id=61997, 578.16pt x 433.62pt>
 File: images/results/TOF-small-cluster-xenon.png Graphic file (type png)
 
 <use images/results/TOF-small-cluster-xenon.png>
@@ -2902,7 +2934,7 @@ Package pdftex.def Info: images/results/TOF-small-cluster-xenon.png used on inp
 ut line 109.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
 
-<images/results/TOF-regular-cluster-xenon.png, id=61982, 578.16pt x 433.62pt>
+<images/results/TOF-regular-cluster-xenon.png, id=61999, 578.16pt x 433.62pt>
 File: images/results/TOF-regular-cluster-xenon.png Graphic file (type png)
 
 <use images/results/TOF-regular-cluster-xenon.png>
@@ -2921,7 +2953,7 @@ n/10.95 400\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 800\OMS/cmsy/m/n/10.95 g$
 [92 <./images/results/Xe_0_fs.png> <./images/results/Xe_800_fs.png>] [93 <./ima
 ges/results/TOF-atomic-xenon.png>] [94 <./images/results/TOF-small-cluster-xeno
 n.png>] [95 <./images/results/TOF-regular-cluster-xenon.png>]
-<images/results/TOF-helium-cluster.png, id=62007, 578.16pt x 433.62pt>
+<images/results/TOF-helium-cluster.png, id=62024, 578.16pt x 433.62pt>
 File: images/results/TOF-helium-cluster.png Graphic file (type png)
 
 <use images/results/TOF-helium-cluster.png>
@@ -2933,7 +2965,7 @@ ne 132.
 LaTeX Warning: Reference `tab:TBD' on page 96 undefined on input line 136.
 
 
-<images/results/TOF-helium-xenon-cluster-60.png, id=62009, 578.16pt x 433.62pt>
+<images/results/TOF-helium-xenon-cluster-60.png, id=62026, 578.16pt x 433.62pt>
 File: images/results/TOF-helium-xenon-cluster-60.png Graphic file (type png)
 <use images/results/TOF-helium-xenon-cluster-60.png>
 Package pdftex.def Info: images/results/TOF-helium-xenon-cluster-60.png used on
@@ -2987,7 +3019,7 @@ er"026E30F$npapers3 :
 
  (./appendix.tex
 chapter 8.
-<images/Overview_Setup_Jetalignment.jpg, id=62208, 2477.255pt x 2027.575pt>
+<images/Overview_Setup_Jetalignment.jpg, id=62225, 2477.255pt x 2027.575pt>
 File: images/Overview_Setup_Jetalignment.jpg Graphic file (type jpg)
 
 <use images/Overview_Setup_Jetalignment.jpg>
@@ -3213,31 +3245,33 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 19927 strings out of 493027
- 302441 string characters out of 6134069
- 517869 words of memory out of 5000000
- 22176 multiletter control sequences out of 15000+600000
+ 19928 strings out of 493027
+ 302598 string characters out of 6134069
+ 517784 words of memory out of 5000000
+ 22177 multiletter control sequences out of 15000+600000
  26881 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,20n,77p,3626b,2498s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf
+pdfTeX warning (dest): name{Hfootnote.33} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
+/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/
@@ -3261,9 +3295,9 @@ sx2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti
 95.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0900
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.p
 fb>
-Output written on main.pdf (139 pages, 24322752 bytes).
+Output written on main.pdf (139 pages, 25361307 bytes).
 PDF statistics:
- 62892 PDF objects out of 66169 (max. 8388607)
+ 62905 PDF objects out of 66169 (max. 8388607)
  753 named destinations out of 1000 (max. 500000)
  869 words of extra memory for PDF output out of 10000 (max. 10000000)
 

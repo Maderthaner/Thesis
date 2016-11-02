@@ -4,7 +4,7 @@
   \item algorithm
     \subitem coalescent-photon finding, \hyperpage{37}
   \item amplitude
-    \subitem complex, \hyperpage{29}
+    \subitem complex, \hyperpage{30}
 
   \indexspace
 
@@ -32,7 +32,7 @@
 
   \item Fourier Transform, \hyperpage{83}
   \item Free electron LASer in Hamburg
-    \subitem FLASH, \hyperpage{44, 45}
+    \subitem FLASH, \hyperpage{45, 46}
 
   \indexspace
 
@@ -46,9 +46,9 @@
 
   \item imprint, \hyperpage{49}
   \item ionization
-    \subitem energy, \hyperpage{33}
-    \subitem inner, \hyperpage{39}
-    \subitem multistep, \hyperpage{39}, \hyperpage{43}
+    \subitem energy, \hyperpage{34}
+    \subitem inner, \hyperpage{40}
+    \subitem multistep, \hyperpage{39}, \hyperpage{44}
 
   \indexspace
 
@@ -86,13 +86,13 @@
     \subitem pixel size, \hyperpage{55}
   \item psana, \hyperpage{57}
     \subitem calibman, \hyperpage{69}
-  \item pulse energy, \hyperpage{43}
+  \item pulse energy, \hyperpage{44}
 
   \indexspace
 
-  \item radiation damage, \hyperpage{43}
-  \item refractive index, \hyperpage{30}
-    \subitem complex, \hyperpage{40}
+  \item radiation damage, \hyperpage{44}
+  \item refractive index, \hyperpage{31}
+    \subitem complex, \hyperpage{42}
 
   \indexspace
 
@@ -105,7 +105,7 @@
   \indexspace
 
   \item time of flight
-    \subitem mass spectroscopy, \hyperpage{45}
+    \subitem mass spectroscopy, \hyperpage{46}
   \item time-of-flight, \hyperpage{49}
 
   \indexspace

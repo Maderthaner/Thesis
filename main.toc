@@ -13,13 +13,13 @@
 \contentsline {subsection}{\numberline {2.2.1}Creation of a homogenous cluster}{19}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Creation of a heterogeneous cluster}{24}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Light-matter interaction}{26}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Small angle X-ray scattering}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Small angle X-ray scattering}{27}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Ionization of matter}{30}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Charge migration}{35}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Ionization of clusters in intense X-ray pulses}{38}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Formation and expansion of a nanoplasma}{38}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Formation and expansion of a nanoplasma}{39}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Imaging of transient states}{40}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Tampered layers to inhibit the nanoplasma expansion}{43}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Tampered layers to inhibit the nanoplasma expansion}{44}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Experimental Setup}{47}{chapter.3}
 \contentsline {section}{\numberline {3.1}The atomic, molecular and optical physics instrument and front end enclosure at the LCLS}{47}{section.3.1}
 \contentsline {section}{\numberline {3.2}The LAMP end-station at AMO}{52}{section.3.2}
