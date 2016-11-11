@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{130}
+\begin{thebibliography}{133}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1072,6 +1072,44 @@ J.~M. Liu.
 \newblock \doi{10.1364/OL.7.000196}.
 \newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-5-196}.
 
+\bibitem[Henke et~al.(1993)Henke, Gullikson, and Davis]{Henke-1993-ADNDT}
+B.L. Henke, E.M. Gullikson, and J.C. Davis.
+\newblock {X-Ray interactions: photoabsorption, scattering, transmission, and
+  reflection at E = 50-30,000 eV, Z = 1-92}, 1993.
+\newblock ISSN 0092640X.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0092640X83710132}.
+
+\bibitem[Chalupsk{\'{y}} et~al.(2010)Chalupsk{\'{y}}, Krzywinski, Juha,
+  H{\'{a}}jkov{\'{a}}, Cihelka, Burian, Vy{\v{s}}{\'{i}}n, Gaudin, Gleeson,
+  Jurek, Khorsand, Klinger, Wabnitz, Sobierajski, St{\"{o}}rmer, Tiedtke, and
+  Toleikis]{Chalupsky-2010-OE}
+J~Chalupsk{\'{y}}, J~Krzywinski, L~Juha, V~H{\'{a}}jkov{\'{a}}, J~Cihelka,
+  T~Burian, L.~Vy{\v{s}}{\'{i}}n, J~Gaudin, A~Gleeson, M~Jurek, a~R Khorsand,
+  D~Klinger, H~Wabnitz, R~Sobierajski, M~St{\"{o}}rmer, K~Tiedtke, and
+  S~Toleikis.
+\newblock {Spot size characterization of focused non-Gaussian X-ray laser
+  beams}.
+\newblock \emph{Optics Express}, 18\penalty0 (26):\penalty0 27836, 2010.
+\newblock ISSN 1094-4087.
+\newblock \doi{10.1364/OE.18.027836}.
+\newblock URL
+  \url{https://www.osapublishing.org/abstract.cfm?URI=oe-18-26-27836}.
+
+\bibitem[Chalupsk{\'{y}} et~al.(2013)Chalupsk{\'{y}}, Burian,
+  H{\'{a}}jkov{\'{a}}, Juha, Polcar, Gaudin, Nagasono, Sobierajski, Yabashi,
+  and Krzywinski]{Chalupsky-2013-OE}
+Jarom{\'{i}}r Chalupsk{\'{y}}, Tom{\'{a}}{\v{s}} Burian, V{\v{e}}ra
+  H{\'{a}}jkov{\'{a}}, Libor Juha, Tom{\'{a}}{\v{s}} Polcar, J{\'{e}}r{\^{o}}me
+  Gaudin, Mitsuru Nagasono, Ryszard Sobierajski, Makina Yabashi, and Jacek
+  Krzywinski.
+\newblock {Fluence scan: an unexplored property of a laser beam.}
+\newblock \emph{Optics express}, 21\penalty0 (22):\penalty0 26363--75, 2013.
+\newblock ISSN 1094-4087.
+\newblock \doi{10.1364/OE.21.026363}.
+\newblock URL
+  \url{http://www.opticsinfobase.org/viewmedia.cfm?uri=oe-21-22-26363{\&}seq=0{\&}html=true}.
+
 \bibitem[Ferguson(2016)]{Ferguson-2016-PhD}
 Kenneth~R. Ferguson.
 \newblock \emph{Crystal Structure Determinations of Xenon Nanoparticles and
@@ -1084,7 +1122,9 @@ Kenneth~R. Ferguson.
 P~Krejcik, S~Allison, R~Akre, K~Kotturi, M~Browne, J~Dusatko, W~White,
   D~Rogind, A~Gromme, L~Dalesio, et~al.
 \newblock Timing and synchronization at the lcls.
-\newblock In \emph{Presented at}, number SLAC-PUB-12593, pages 373--375, 2007.
+\newblock In \emph{Presented at}, number SLAC-PUB-12593 in 8th European
+  Workshop on Beam Diagnostics and Instrumentation for Particle Accelerators,
+  pages 373--375, 2007.
 
 \bibitem[Ho et~al.(2014)Ho, Bostedt, Schorb, and Young]{Ho-2014-PRL}
 Phay~J. Ho, Christoph Bostedt, Sebastian Schorb, and Linda Young.

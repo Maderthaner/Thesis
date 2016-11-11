@@ -481,8 +481,9 @@ INPUT ./images/pnCCD-detail.png
 INPUT images/amoa1214-querschnitt.eps
 INPUT ./images/amoa1214-querschnitt.eps
 INPUT ./images/amoa1214-querschnitt.eps
-INPUT ./images/amoa1214-querschnitt.eps
 INPUT ./images/amoa1214-querschnitt-eps-converted-to.pdf
+INPUT ./images/amoa1214-querschnitt-eps-converted-to.pdf
+INPUT ./images/amoa1214-querschnitt.eps
 INPUT ./images/amoa1214-querschnitt-eps-converted-to.pdf
 INPUT ./images/amoa1214-querschnitt-eps-converted-to.pdf
 INPUT ./images/amoa1214-querschnitt-eps-converted-to.pdf
@@ -679,6 +680,12 @@ INPUT ./images/results/TOF-helium-cluster.png
 INPUT images/results/TOF-helium-xenon-cluster-60.png
 INPUT ./images/results/TOF-helium-xenon-cluster-60.png
 INPUT ./images/results/TOF-helium-xenon-cluster-60.png
+INPUT images/results/TOF-helium-xenon-cluster-30.png
+INPUT ./images/results/TOF-helium-xenon-cluster-30.png
+INPUT ./images/results/TOF-helium-xenon-cluster-30.png
+INPUT images/results/HeXe_60_TD_800_fs.png
+INPUT ./images/results/HeXe_60_TD_800_fs.png
+INPUT ./images/results/HeXe_60_TD_800_fs.png
 OUTPUT summary_outlook.aux
 INPUT summary_outlook.tex
 INPUT summary_outlook.tex

@@ -187,7 +187,7 @@ Object area & 0.0022 - 0.0019 \\ \hline
 Object area range & 0-8000\\ \hline
 Support update algorithm & area \\ \hline
 \end{tabular}
-\caption{Typical parameter used in the Hawk software package.}
+\caption{Typical parameter used in the Hawk software package. The object area depends strongly on the actual particle size and thus varies.}
 \label{tab:hawk-parameter}
 \end{table}
 The usage of the program is straight forward in three steps. First, the diffraction images are transformed into the '.cxi' format \citep{Maia-2012-NatMet}. Second, diffraction images are prepared in \textit{Hawk's editor}, where particular effort has to be made to create a proper mask. The mask  allows to forgo saturated, shadowed or otherwise faulty pixel. The software suite automatically interpolates between masked pixel. The successful edited '.cxi' file is then saved in Hawk's '.h5' format. Third, \textit{Hawk's phaser} can be used to iteratively retrieve the phase from the '.h5' intensity file. Typical parameter for the phaser can be found in table \ref{tab:hawk-parameter}. Here the \textit{RAAR algorithm} \cite{Luke-2005-IP} in combination with initially strong \textit{blurs}, extension of the \textit{phasing beta range} and a proper determination of the \textit{object area} (support structur) resulted in useful reconstructions. Note, that the \textit{object area} size differs from particle to particle, or intensity file to intensity file. After $10^{5}$ to $1.5\cdot 10^{5}$ iterations, the real space object typically converges.

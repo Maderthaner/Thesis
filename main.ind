@@ -14,6 +14,8 @@
   \indexspace
 
   \item cluster size, \hyperpage{23}
+  \item core-shell system, \hyperpage{99}
+    \subitem plum pudding, \hyperpage{99}
   \item Coulomb potential, \hyperpage{39}
 
   \indexspace
@@ -54,7 +56,7 @@
 
   \item LCLS, 
 		\hyperindexformat{\seealso {Linac Coherent Light Source}}{6}
-  \item lead tungstate, \hyperpage{51}
+  \item lead tungstate, \hyperpage{51, 52}
   \item Linac Coherent Light Source, \hyperpage{6, 7}
 
   \indexspace
@@ -76,15 +78,15 @@
   \indexspace
 
   \item photoionization, \hyperpage{33}
-  \item pnCCD, \hyperpage{55}, \hyperpage{57}
-    \subitem CAMEX, \hyperpage{57}
+  \item pnCCD, \hyperpage{56}
+    \subitem CAMEX, \hyperpage{58}
     \subitem common mode, \hyperpage{69}
-    \subitem Data Acquisition, \hyperpage{57}
-    \subitem gain, \hyperpage{57}
-    \subitem module, \hyperpage{55}
+    \subitem Data Acquisition, \hyperpage{58}
+    \subitem gain, \hyperpage{58}
+    \subitem module, \hyperpage{56}
     \subitem pedestal correction, \hyperpage{69}
-    \subitem pixel size, \hyperpage{55}
-  \item psana, \hyperpage{57}
+    \subitem pixel size, \hyperpage{56}
+  \item psana, \hyperpage{58}
     \subitem calibman, \hyperpage{69}
   \item pulse energy, \hyperpage{44}
 

@@ -3,27 +3,12 @@
 %- Introduction of what we are looking for, reminder of hypothesis
 %%%%%%%%%%%%%%%%
 This chapter explains the experimental data using the methods introduced in the previous chapter. For the X-ray pump-- X-ray probe study, data on heterogeneous clusters, i.e. helium droplets doped with xenon, have been taken at different time delays $\Delta t$. To complement the data, pristine data, i.e. helium droplets and xenon droplets individually, have been recorded at different time delays $\Delta t$ and the static case.\\
-\begin{table}
-	\centering
-		\begin{tabular}{ | l | l | l | }
-		\hline
-			pump beam & probe beam & \  \\ \hline
-			wavelength & 1.5 nm & 1.5 nm \\ \hline
-			mean pulse energy & 1 & 1 \\ \hline
-			pulse duration & 25 fs & 25 fs \\ \hline
-			peak intensity in focus & 1 & 1 \\ \hline
-			timing precision & 25 fs & 25 fs \\ \hline
-		\end{tabular}
-	\caption{caption TBD}
-	\label{tab:caption}
-\end{table}
-MORE TEXT ABOUT EXPERIMENTAL PARAMETER TBD.\\
 The chapter is organized as follows. Section \ref{sec:xenon-data} discusses the pristine xenon data and section \ref{sec:helium-data} covers the pristine helium data. Section \ref{sec:helium-xenon-data} shows the proof of principle that tampered layers mitigate radiation damage effects of an enclosed aerosol sample object.
 %
 %
 %
 %%%
-\section{Pristine xenon pump--probe data}\label{sec:xenon-data}
+\section{Pristine xenon pump--probe diffraction images}\label{sec:xenon-data}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %- Presentation of Xe data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,7 +77,7 @@ Figure \ref{fig:Xe-2D-reconstructions} shows 2D reconstructions of single xenon 
 %
 %
 %
-\subsection{Size-depended ionization pathways in atomic xenon and xenon clusters}
+\section{Size-depended ionization pathways in atomic xenon and xenon clusters}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %- Xe iToF dynamics\\
 %- Slightly more of Xe higher charge-states present at longer delays.
@@ -134,13 +119,6 @@ Summarizing, atomic xenon, xenon cluster of avgerage radius XXX nm and xenon clu
 	\label{fig:TOF-helium-cluster}
 \end{figure}
 Figure \ref{fig:TOF-helium-cluster} shows the time of flight of pristine helium cluster charge fragments at pump--probe delays $\Delta t=\{0, 250, 800\}$ fs. The data show overall a similar behavior, regardless of the delay $\Delta t$. The traces indicate no contribution of doubly charged helium atoms. This can be explained to the comparably low absorption crossections of helium (see table \ref{tab:TBD}) and recombination rates TBD.\\
-% \begin{figure}
-% 	\centering
-% 		\includegraphics[width=1.00\textwidth]{images/results/TOF-helium-xenon-cluster-30.png}
-% 	\caption{caption}
-% 	\label{fig:TOF-helium-xenon-cluster-30}
-% \end{figure}
-% Figure \ref{fig:TOF-helium-xenon-cluster-30} shows flight times of with xenon LEVEL TBD doped helium cluster at pump--probe delays $\Delta t=\{0, 800\}$ fs. Most notably is now the presence of doubly charged helium $\text{He}_{2}^{2}$ and intense peak of the $\text{He}_^{+}$ ions. At different time delays $\Delta t$ the height of each peak shifts.The $\text{He}_{2}^{2+}$ states decrease in intensity but a stark increase in $\text{He}^{+}$ and $\text{He}_{2}^{+}$ states can be observed. However, no xenon charge states are present in the data with any significance.\\
 \begin{figure}
 	\centering{}
 		\includegraphics[width=1.00\textwidth]{images/results/TOF-helium-xenon-cluster-60.png}
@@ -148,15 +126,37 @@ Figure \ref{fig:TOF-helium-cluster} shows the time of flight of pristine helium 
 	\label{fig:TOF-helium-xenon-cluster-60}
 \end{figure}
 Strongly with xenon doped helium cluster time of flight traces are shown in figure \ref{fig:TOF-helium-xenon-cluster-60}. Most notably is that the data show a presence of the $\text{He}^{2+}$ state and strongly increased signal from $\text{He}^{+}$. Xenon charge fragments can be observed in at $\Delta t = 0$ fs. As the time delay $\Delta t$ is varied, the signal shows a distinct behaviour. A resonance type behavior is observed at $\Delta t = 200$ fs as the signal from $\text{He}^{2+}$ and $\text{He}^{+}$ peaks but is less intense at $\Delta t = 0$ and 800 fs. Conversly, the xenon signal and the helium dimer signal steadily reduces CHECK TBD.\\
-Comparing the data from figure \ref{fig:TOF-helium-cluster} and \ref{fig:TOF-helium-xenon-cluster-60} allows us to conclude that xenon cluster transfer energy to the helium cluster that they are embedded in. This process is very efficient since the resonant behavior that origins from the xenon atoms is constituted in the helium signal, while the xenon signal steadily decreases. Therefore, the helium atoms function as electron reservoir and transport kinetic energy away from xenon atoms. This behavior is similar to \citep{TBD}. 
+Comparing the data from figure \ref{fig:TOF-helium-cluster} and \ref{fig:TOF-helium-xenon-cluster-60} allows us to conclude that xenon cluster transfer energy to the helium cluster that they are embedded in. This process is very efficient since the resonant behavior that origins from the xenon atoms is constituted in the helium signal, while the xenon signal steadily decreases. Therefore, the helium atoms function as electron reservoir and transport kinetic energy away from xenon atoms. This behavior is similar to \citep{Hoener-2008-JPB} but differs in it's geometric arrangement.\\
+\begin{figure}
+ 	\centering
+ 		\includegraphics[width=1.00\textwidth]{images/results/TOF-helium-xenon-cluster-30.png}
+ 	\caption{caption}
+ 	\label{fig:TOF-helium-xenon-cluster-30}
+\end{figure}
+Figure \ref{fig:TOF-helium-xenon-cluster-30} shows flight times of with xenon LEVEL TBD doped helium cluster at pump--probe delays $\Delta t=\{0, 800\}$ fs. Most notably is now the presence of doubly charged helium $\text{He}_{2}^{2}$ and intense peak of the $\text{He}^{+}$ ions. At different time delays $\Delta t$ the height of each peak shifts.The $\text{He}_{2}^{2+}$ states decrease in intensity but a stark increase in $\text{He}^{+}$ and $\text{He}_{2}^{+}$ states can be observed. However, no xenon charge states are present in the data with any significance.\\
 %
 %
 %
-\section{Analysis of dynamics in diffraction images of heterogeneous helium-xenon cluster from X-ray pump--X-ray probe study}\label{sec:helium-data}
+\section{Heterogeneous helium-xenon cluster core-shell system}\label{sec:helium-data}
 %%%%%%%%%%%%%%%%%%%%
 % - Presentation of He data
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\begin{figure}
+ 	\centering
+ 		\includegraphics[width=1.00\textwidth]{images/results/plum-pudding.png}
+ 	\caption{caption TBD}
+ 	\label{fig:HeXe-plum-pudding}
+\end{figure}
+It is not well known how heterogeneous helium-xenon cluster form a core-shell system. As described in section \ref{sec:heterogeneous-cluster}, the liquid helium cluster picks up xenon atoms as it traverses the doping unit. The xenon atoms move unhindered in the superfliud helium and eventually condense to energetically favorable cluster structures. \citep{Gomez-2014-Science} reports that at a doping level of XXXTBD, multiple smaller clusters are formed and locate at vortexes if the cluster rotates. However, it is unkown how the Xe atoms arrange in a non-rotating droplet. There are competing hypotheses in which Xe atoms either condense to one large cluster within the helium droplet, in other words a Xe-core -- He-shell system\index{core-shell system}, or that multiple (smaller) Xe-cluster arrange inside the helium droplet, which we shall call a XeHe \textit{plum pudding core-shell system}\footnote{The name plum-pudding model comes from J.J. Thomsons model of the atom in 1904 and has here been reused to describe the arrangement of atoms in heterogeneous (rare-gas) clusters.}\index{core-shell system!plum pudding}.
+\begin{figure}
+ 	\centering
+ 		\includegraphics[width=1.00\textwidth]{images/results/HeXe_60_TD_800_fs.png}
+ 	\caption{caption TBD}
+ 	\label{fig:HeXe-cluster-60}
+\end{figure}
+As shown in figure \ref{fig:HeXe-plum-pudding}, the arrangement of Xe-cluster within the He-droplet dominates the scattering pattern. The Xe-cluster density is $\sim 25.8$ times larger than the density of liquid He-droplets. The study of diffraction patterns thus gives insight into the heterogeneous core-shell system. Ultimately, the structure of a heterogeneous HeXe-cluster must be understood to further conclude about effects of radiation damage. To study the diffraction pattern of heterogeneous cluster 2D simulations were developed that simulate the electron density of a cluster and then Fourier transform these into Fourier-space. The 2D diffraction images are then projected onto 1D to be compared efficiently. More details about this method can be found in section \ref{sec:2d-simulations}.\\
+The 2D electron density simulations show that Xe atoms arrange as few randomly orientated clusters within the He-droplet. The data in figure \ref{TBD} shows several cases of Xe arrangement within the He-droplet. First, looking at the extreme cases of no Xe-scatterer (n=0) and many small Xe-scatterer $(n=100)$ show vastly different scattering pattern than measured. Only the case of few Xe-scatterer $(n\approx 10)$ reproduces the in the experiment measured data. This approach also allows a precise determination of the Xe-doping level on a shot-to-shot basis as the size of the Xe-cluster within the He-droplet can be adapted to fit the measurement. The overall amount of Xe in the system can be compared to the amount of He and thus a relative doping level is found. In this example, a doping level of XXX was found. This agrees well with the average doping level calculated in equation \eqref{eq:average-dopant}.\\
+Lastly, reconstructing heterogeneous HeXe-structures gives insight into their electron density. Figure \ref{fig:HeXe-cluster-60} shows a reconstruction of a HeXe-cluster that clearly indicates a plum-pudding arrangement, where a few Xe-cluster (intense, dark red spots) are randomly distributed within the He-droplet (less intense, green to orange area).
 %
 %
 %
@@ -169,14 +169,15 @@ Comparing the data from figure \ref{fig:TOF-helium-cluster} and \ref{fig:TOF-hel
 %
 %
 %
-\section{Helium-xenon core-shell systems and pump--probe data}\label{sec:helium-xenon-data}
+\section{Sacrificial tampered layers inhibit effects of radiation damage in diffraction pattern}\label{sec:helium-xenon-data}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-Presentation of HeXe data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Now that we have discussed the effects of X-ray induced dynamics, i.e. radiation damage, in Xe-clusters by analyzing single-shot diffraction pattern and time-of-flight mass spectroscopy and having understood the structure of heterogeneous HeXe cluster as they arrange in a \textit{plum-pudding} type model, where few Xe-scatterer are present in a large He-droplet
 %
 %
 %
-\subsection{Time-of-flight data of helium-xenon core-shell systems}
+%\subsection{Time-of-flight data of helium-xenon core-shell systems}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %- Show dynamics of XeHe data in tof trace.\\
 %- More hefty nanoplasma expansion in HeXe than in raw He.\\
@@ -185,7 +186,7 @@ Comparing the data from figure \ref{fig:TOF-helium-cluster} and \ref{fig:TOF-hel
 %
 %
 %
-\subsection{Diffraction images of helium-xenon core shell systems}
+%\subsection{Diffraction images of helium-xenon core shell systems}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %- Discuss diffraction images\\
 %- Show how scattering intensity drops from He signal but not from Xe signal.\\
@@ -194,18 +195,18 @@ Comparing the data from figure \ref{fig:TOF-helium-cluster} and \ref{fig:TOF-hel
 %
 %
 %
-\subsection{Core-shell system considerations}
+%\subsection{Core-shell system considerations}
 %
 %
 %
-\section{Static data}\label{sec:static}
+%\section{Static data}\label{sec:static}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-Include in other studies? Or appendix?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
 %
-\section{Conclusion of the X-ray pump -- X-ray probe study}
+%\section{Conclusion of the X-ray pump -- X-ray probe study}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %- Conclusion where the results are compared to each other\\
 %- This experiment shows that heterogeneous clusters, as in tampered layers, do inhibit radiation damage of the sample target while the sacrificial layer undergoes a rapid nanoplasma transition.
