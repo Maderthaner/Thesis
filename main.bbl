@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{133}
+\begin{thebibliography}{135}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1259,5 +1259,35 @@ Sebastian Schorb, Daniela Rupp, Michelle~L Swiggers, Ryan~N Coffee, Marc
   intense femtosecond x-ray free-electron-laser pulses.
 \newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (23):\penalty0 233401, 2012.
 \newblock ISSN 1079-7114.
+
+\bibitem[MacDonald et~al.(2016)MacDonald, Gorkhover, Bachmann, Bucher, Carron,
+  Coffee, Drake, Ferguson, Fletcher, Gamboa, Glenzer, G{\"{o}}de, Hau-Riege,
+  Kraus, Krzywinski, Levitan, Meiwes-Broer, O'Grady, Osipov, Pardini, Peltz,
+  Skruszewicz, Swiggers, Bostedt, Fennel, and
+  D{\"{o}}ppner]{MacDonald-2016-RSI}
+M.~J. MacDonald, T.~Gorkhover, B.~Bachmann, M.~Bucher, S.~Carron, R.~N. Coffee,
+  R.~P. Drake, K.~R. Ferguson, L.~B. Fletcher, E.~J. Gamboa, S.~H. Glenzer,
+  S.~G{\"{o}}de, S.~P. Hau-Riege, D.~Kraus, J.~Krzywinski, A.~L. Levitan, K.-H.
+  Meiwes-Broer, C.~P. O'Grady, T.~Osipov, T.~Pardini, C.~Peltz, S.~Skruszewicz,
+  M.~Swiggers, C.~Bostedt, T.~Fennel, and T.~D{\"{o}}ppner.
+\newblock {Measurement of high-dynamic range x-ray Thomson scattering spectra
+  for the characterization of nano-plasmas at LCLS}.
+\newblock \emph{Review of Scientific Instruments}, 87\penalty0 (11):\penalty0
+  11E709, nov 2016.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.4960502}.
+\newblock URL
+  \url{http://scitation.aip.org/content/aip/journal/rsi/87/11/10.1063/1.4960502}.
+
+\bibitem[Al-Haddad et~al.(2016-2018)Al-Haddad, Picon, Bucher, Doumy, Luttmann,
+  Marinelli, Maxwell, Moeller, Ray, Osipov, Pratt, Young, Southworth, and
+  Bostedt]{Al-Haddad-2017-unpublished}
+Andre Al-Haddad, Antonio Picon, Maximilian Bucher, Gilles Doumy, Alberto
+  Luttmann, Ago Marinelli, Timothy Maxwell, Stefan Moeller, Dipawnita Ray,
+  Timur Osipov, Stephen Pratt, Linda Young, Stephen Southworth, and Christoph
+  Bostedt.
+\newblock Working title: Measurement of the ultrafast electronic
+  reconfiguration in atomic co after ionization.
+\newblock unpublished work, 2016-2018.
 
 \end{thebibliography}
