@@ -13,9 +13,19 @@
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{epstopdf}
+% Setup for eps-to-pdf to comply with PDF/A
+%\edef\hash{\string#}
+%\epstopdfsetup{
+% program@epstopdf=epstopdf
+%   --gsopts "-dPDFA -sProcessColorModel\hash DeviceCMYK
+%     -sPDFACompatibilityPolicy\hash 1
+%     -dCompatibilityLevel\hash 1.4",
+%}
+%–––––––––––––––––––––––––––––––––––
 \usepackage{setspace}%
 \usepackage[english,german]{babel}
 \usepackage[numbers,sort&compress]{natbib}
+\usepackage{bibentry}
 \usepackage{makeidx}
 \usepackage{titlepage}
 \usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={english}]{doclicense}
@@ -72,6 +82,7 @@
 %
 %
 \begin{document}
+\nobibliography*
 \onehalfspacing
 \selectlanguage{english}
 \pagenumbering{alph}
@@ -102,12 +113,13 @@
 %\newpage
 \include{bibliography}
 %
-\pagenumbering{Alph}
 \include{appendix}
 %
-%\pagenumbering{alph}
-%\include{bibliography}
-%\newpage
 \printindex
+%
+\appendix
+\pagenumbering{Alph}
+\include{publications}
+%
 \include{acknowledgment}
 \end{document}
