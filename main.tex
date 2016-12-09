@@ -14,6 +14,10 @@
 \usepackage{graphicx}
 \usepackage{epstopdf}
 % Setup for eps-to-pdf to comply with PDF/A
+\epstopdfsetup{
+program@epstopdf=epstopdf
+--pdf-version 1.4
+}
 %\edef\hash{\string#}
 %\epstopdfsetup{
 % program@epstopdf=epstopdf
@@ -30,7 +34,7 @@
 \usepackage{titlepage}
 \usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={english}]{doclicense}
 \makeindex
-\usepackage[pdftex,pdfa]{hyperref}
+\usepackage{hyperref}
 %___________________________________
 %
 % hyper setup for meta-data
@@ -110,15 +114,18 @@
 \include{results}
 %\newpage
 \include{summary_outlook}
-%\newpage
-\include{bibliography}
 %
 \include{appendix}
+%\newpage
+\include{bibliography}
 %
 \printindex
 %
 \appendix
 \pagenumbering{Alph}
+%
+%\include{disclaimer}
+%
 \include{publications}
 %
 \include{acknowledgment}

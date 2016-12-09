@@ -1,11 +1,11 @@
 \chapter{Appendix}
-\section{Source alignment}\label{sec:source-alignment}
-\begin{figure}
-	\centering
-		\includegraphics[width=1.00\textwidth]{images/Overview_Setup_Jetalignment.jpg}
-	\caption{caption}
-	\label{fig:Overview_Setup_Jetalignment}
-\end{figure}
+%\section{Source alignment}\label{sec:source-alignment}
+%\begin{figure}
+%	\centering
+%		\includegraphics[width=1.00\textwidth]{images/Overview_Setup_Jetalignment.jpg}
+%	\caption{caption}
+%	\label{fig:Overview_Setup_Jetalignment}
+%\end{figure}
 %
 %
 %
@@ -82,6 +82,7 @@ end
 %
 %
 %
+\iffalse
 \section{Python code on 1D phase-retrieval}\label{sec:1d-phase-retrieval-code}
 An excerpt of the python code that has been used to iteratively retrieve the complex fields of the diffraction pattern.
 \begin{lstlisting}[language=Python,frame=single,basicstyle=\footnotesize]
@@ -111,6 +112,7 @@ for i in range(1,160):
 	errorSupport = np.append(errorSupport,np.sum(abs(np.fft.ifftshift(realSpace)[0:len(realSpace)/2 - 30])))
 	#print errorSupport
 \end{lstlisting}
+\fi
 %
 %
 %

@@ -1,0 +1,129 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3446,        120]
+NotebookOptionsPosition[      2783,         92]
+NotebookOutlinePosition[      3138,        108]
+CellTagsIndexPosition[      3095,        105]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["X - ray spot intensity", "Subsubsection",
+ CellChangeTimes->{{3.689530823780551*^9, 3.689530833128878*^9}}],
+
+Cell[BoxData[
+ RowBox[{"1", 
+  RowBox[{"mJ", "/", "40"}], " ", 
+  SuperscriptBox["10", 
+   RowBox[{"-", "15"}]], "s"}]], "Input",
+ CellChangeTimes->{
+  3.689530303828556*^9, {3.6895303827425013`*^9, 3.689530397136487*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pulse", "=", 
+   RowBox[{"100", " ", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "6"}]]}]}], ";", 
+  RowBox[{"(*", "Jule", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"t", "=", 
+   RowBox[{"40", " ", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "15"}]]}]}], ";", 
+  RowBox[{"(*", "seconds", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"a", "=", 
+   RowBox[{"1.5", " ", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "8"}]]}]}], ";", 
+  RowBox[{"(*", 
+   SuperscriptBox["centimeter", "2"], "*)"}]}]], "Input",
+ CellChangeTimes->{{3.6895304585132523`*^9, 3.689530537138109*^9}, {
+  3.6895306497184973`*^9, 3.689530659597983*^9}, {3.689530760878152*^9, 
+  3.689530796548786*^9}, {3.689588605480535*^9, 3.6895886071472683`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"W", "/", 
+  SuperscriptBox["cm", "2"]}]], "Input",
+ CellChangeTimes->{{3.689530558751214*^9, 3.6895305685568447`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"watts", "=", 
+  RowBox[{"pulse", "/", "t"}]}]], "Input",
+ CellChangeTimes->{{3.689530639592495*^9, 3.689530702823237*^9}, {
+  3.6895307341034737`*^9, 3.689530741245596*^9}, {3.689530809242598*^9, 
+  3.689530809486415*^9}}],
+
+Cell[BoxData["2500000000"], "Output",
+ CellChangeTimes->{{3.689530663243927*^9, 3.689530703590386*^9}, {
+   3.689530737371881*^9, 3.689530741686173*^9}, 3.6895308102653313`*^9, 
+   3.689588610908165*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"watts", "/", "a"}], "//", "N"}]], "Input",
+ CellChangeTimes->{{3.689530773308256*^9, 3.689530798796154*^9}}],
+
+Cell[BoxData["1.6666666666666666`*^17"], "Output",
+ CellChangeTimes->{{3.689530775831429*^9, 3.68953081203773*^9}, 
+   3.689588612730641*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell["cross - section?", "Subsubsection",
+ CellChangeTimes->{{3.689530874559791*^9, 3.689530881727736*^9}, 
+   3.68953133533279*^9}]
+},
+WindowSize->{740, 755},
+WindowMargins->{{Automatic, 60}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 113, 1, 24, "Subsubsection"],
+Cell[695, 25, 222, 6, 30, "Input"],
+Cell[920, 33, 754, 20, 85, "Input"],
+Cell[1677, 55, 142, 3, 33, "Input"],
+Cell[CellGroupData[{
+Cell[1844, 62, 246, 5, 27, "Input"],
+Cell[2093, 69, 203, 3, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2333, 77, 143, 3, 27, "Input"],
+Cell[2479, 82, 141, 2, 30, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[2647, 88, 132, 2, 24, "Subsubsection"]
+}
+]
+*)
+
+(* End of internal cache information *)

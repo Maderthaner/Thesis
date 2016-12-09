@@ -90,14 +90,14 @@ Figure \ref{fig:pnCCD-image-aligned}a shows a diffraction pattern from a spheric
 \begin{figure}
 	\centering
 		\includegraphics[height=0.50\textwidth]{images/pnCCD-1d-sum.png}
-	\caption[Spherical projection of 2D diffraction image in 1D.]{In this graph a 2D diffraction image was projected onto 1D assuming a spherical symmetry of the diffraction pattern. The green data points are gathered from the rear pnCCD and the front pnCCD data points are reflected by the blue data points. The red curve is a simulated scattering curve from an ideal sphere that has a radius of $49 nm$. The amplitude of the red curve has been fitted to the data points and it agrees well with the data over 8 diffraction rings. The gray shaded area shows the transition area from rear to front detector.}
+	\caption[Spherical projection of 2D diffraction image in 1D.]{In this graph a 2D diffraction image was projected onto 1D assuming a spherical symmetry of the diffraction pattern. The green data points are gathered from the rear pnCCD and the front pnCCD data points are reflected by the blue data points. The red curve is a simulated scattering curve from an ideal sphere (see equation \eqref{eq:scattering from sphere}). The amplitude of the red curve has been fitted to the data points and it agrees well with the data over 8 diffraction rings. The gray shaded area shows the transition area from rear to front detector.}
 	\label{fig:pnCCD-1d-sum}
 \end{figure}
-The radial intensity profile yields valuable information about the geometric alignment and intensity normalization. Figure \ref{fig:pnCCD-1d-sum} shows the radial intensity profile of the spherical symmetric diffraction image over 5 orders of magnitude above the noise level. The red curve illustrates the expected scattering intensity of a spherical object with radius $49$ nm and the amplitude was fitted onto the rear pnCCD data. The curve showcases the validity of the detected signal up to the edges of the front pnCCD, where little signal is present. There are also some discrepancies from the red curve on the transition from the rear to front pnCCD, which are due to the shade projected from the front onto the rear pnCCD and the resulting lack of signal.
+The radial intensity profile yields valuable information about the geometric alignment and intensity normalization. Figure \ref{fig:pnCCD-1d-sum} shows the radial intensity profile of the spherical symmetric diffraction image over 5 orders of magnitude above the noise level. The red curve illustrates the expected scattering intensity of a spherical object using equation \eqref{eq:scattered-intensity} and \eqref{eq:scattering from sphere}. An automated fitting routine determined the radius $r$ of the cluster, here $r=49$ nm and the incident beam intensity $I_{0}$, which was determined based on zero order scattering. The curve showcases the validity of the detected signal up to the edges of the front pnCCD, where little signal is present. There are also some discrepancies from the red curve on the transition from the rear to front pnCCD, which are due to the shade projected from the front onto the rear pnCCD and the resulting lack of signal.
 %
 %
 %
-\subsection{Impact of X-ray pump -- X-ray probe on diffraction pattern}
+\subsection{Impact of X-ray pump -- X-ray probe on diffraction pattern}\label{sec:pump--probe-considerations}
 \begin{figure}
 	\centering
 		\includegraphics[width=0.49\textwidth]{images/electron-density-convoluted-object.eps}
@@ -105,7 +105,7 @@ The radial intensity profile yields valuable information about the geometric ali
 	\caption[Influence of X-ray pump-- X-ray probe study in diffraction image.]{Left: electron density of an expanding spherical symmetric nanoplasma. Right: red line, scattering of an intact sphere. Brown, scattering of an expanding sphere with $k=5nm$. Blue, combined scattering of an intact and expanding sphere that has been pumped with $10\%$ and probed with $90\%$ of the overall pulse energy. See more information in text.}
 	\label{fig:electron-density-convoluted-object}
 \end{figure}
-In a coherent diffractive imaging X-ray pump -- X-ray probe experiment, both pulses contribute to the scattering image. The pump pulse will project an image of the solid and intact cluster, while the probe pulse will propagate an image of the expanding, damaged cluster. In the present experiment, the pump pulse was set at $\sim10\%$ of the overall pulse energy, while the probe pulse was set to $\sim90\%$ of the overall pulse energy. In order to simulate the effects of the X-ray pump-- X-ray probe setup, a 1D simulation is conducted using electron densities $\rho\left(r\right)$ of spheres. Altough rare-gas cluster exhibit an icosahedral structure, at present resolution cluster can be well simulated using spheres. The spheres are allowed to expand after the model
+In a coherent diffractive imaging X-ray pump -- X-ray probe experiment, both pulses contribute to the scattering image. The pump pulse will project an image of the solid and intact cluster, while the probe pulse will propagate an image of the expanding, damaged cluster. In the present experiment, the pump pulse was set at $\sim10\%$ of the overall pulse energy, while the probe pulse was set to $\sim90\%$ of the overall pulse energy. In order to simulate the effects of the X-ray pump-- X-ray probe setup, a 1D simulation is conducted using electron densities $\rho\left(r\right)$ of spheres. Although rare-gas cluster exhibit an icosahedral structure, at present resolution cluster can be well simulated using spheres. The spheres are allowed to expand after the model
 \begin{align}
 \rho\left(r, k\right)&=\begin{cases}
 1& \text{for $R-k \geq r \geq 0$},\\
@@ -117,10 +117,10 @@ e^{\frac{(R-k)-r}{k}}&\text{for $R > r - k$},
 \end{align}
 The electron density can then be Fourier transformed into recipocal space using the transformation \citep{Guinier-1955-JWS}
 \begin{equation}
-F^{2}(Q)=A\left(\int_{0}^{\infty}\rho\left(r,k\right)\frac{\sin\left(Q r\right)}{Qr}4 \pi r^{2}dr\right)^{2},
+I\left(\vec{Q}\right)=I_{0}F^{2}(Q)=I_{0} \left(\int_{0}^{\infty}\rho\left(r,k\right)\frac{\sin\left(Q r\right)}{Qr}4 \pi r^{2}dr\right)^{2},
 \label{eq:guinier-fourier-transform}
 \end{equation}
-with $A$ being an intensity scaling factor. The electron densities for $R=50$ nm and $k=\{0,2.5,5,10\}$ nm are shown in figure \ref{fig:electron-density-convoluted-object} left. Figure \ref{fig:electron-density-convoluted-object} right showcases several cases of (expanding) spheres in reciprocal space. The red line is the scattering of a solid sphere $F_{\text{intact}}^{2}$, with $A$ being used to scale the intensity to typical experimental data. The brown curve is the scattering of an expanding sphere $F_{\text{expanding}}^{2}$ with $R=50$ nm and $k=5$ nm. Lastly, the blue curve corresponds to the case, where $A\cdot F^{2}\rightarrow A \cdot 10\% F_{\text{intact}}^{2}+A \cdot 90\% F_{\text{expanding}}^{2}$. Although the pump pulse influences the diffraction pattern visibly at high-Q values, the added signal remains in the noise level of $F^{2}(Q)<1$ (compare figure \ref{fig:pnCCD-1d-sum}).
+with $I_{0}$ being an intensity scaling factor. The electron densities for $R=50$ nm and $k=\{0,2.5,5,10\}$ nm are shown in figure \ref{fig:electron-density-convoluted-object} left. Figure \ref{fig:electron-density-convoluted-object} right showcases several cases of (expanding) spheres in reciprocal space. The red line is the scattering of a solid sphere $F_{\text{intact}}^{2}$, with $A$ being used to scale the intensity to typical experimental data. The brown curve is the scattering of an expanding sphere $F_{\text{expanding}}^{2}$ with $R=50$ nm and $k=5$ nm. Lastly, the blue curve corresponds to the case, where $A\cdot F^{2}\rightarrow A \cdot 10\% F_{\text{intact}}^{2}+A \cdot 90\% F_{\text{expanding}}^{2}$. Although the pump pulse influences the diffraction pattern visibly at high-Q values, the added signal remains in the noise level of $F^{2}(Q)<1$ (compare figure \ref{fig:pnCCD-1d-sum}).
 %
 %
 %
@@ -194,7 +194,7 @@ The usage of the program is straight forward in three steps. First, the diffract
 %
 %
 %
-\subsubsection{Resolution enhancement through combination of rear and front pnCCD}
+\subsubsection{Resolution enhancement through combination of rear and front pnCCD}\label{sec:resolution-discussion}
 %%%%%%%%%%%%%%%
 %- Showcase difference of rear pnCCD only vs. front + rear pnCCD vs. front + rear pnCCD 'cropped' for best results. Recycle work from LAMP pnCCD paper
 %%%%%%%%%%%%%%%
@@ -217,6 +217,7 @@ In the far field, Abbe's criterion can be written down as
 % Internal note, Max did check that we are in the far field.
 \begin{equation}
     d = \frac{\lambda}{2n \sin(\frac{\Theta}{2})},
+		\label{eq:abbe-criterion}
 \end{equation}
 with the minimal resolvable feature size $d$, the refractive index $n$ and the half scattering angle $\frac{\Theta}{2}$. The scattering angle is restricted by either the active detector area, which goes back to the typical understanding of a numerical aperture, or the signal intensity up to certain angles. The latter is in interplay with the photon wavelength and object cross-sections. This interplay leads to the current assessment that very high energy photons, e.g. $8$ keV photons that are commonly used for crystallographic purposes, scatter too little signal. Additionally, low-$\vec{Q}$ scattering is often unresolvable due to straylight. As current results indicate, using $0.5-5$ keV photons ultimately leads to higher resolution images than using $8$ keV photons \citep{Aquila-2015-StrucDyn}.\\
 In the far field, we can use the following equation to investigate the pixel size \cite{Williams-2010-NJP}
@@ -234,7 +235,9 @@ This is a factor $\sim 5$ improvement over common cited studies in single partic
 %%%%%%%%%%%%%%%%
 %- Describe my algorithm in 1D in detail
 %%%%%%%%%%%%%%%%
-To display many effects in diffraction pattern, they have sometimes been reduced from two dimensions to merely one. A 1D representation of the data allows easy to interpret comparison to analytical models. To reduce the 2D diffraction data to 1D the program shown in appendix \ref{sec:spherical-integration} has been employed. It is based on Matlab\index{Matlab} to efficiently iterate through pixel arrays. The input for this program are pedestal calibrated diffraction images that have unwanted areas masked out and a true image center defined. Key elements of the algorithm are to iterate through every pixel, filtering signal from noise, determining the $\vec{Q}$-value of every pixel and sum signal over $\vec{Q}$, while normalizing the data over pixel. Additionally, an algorithm has been designed to perform phase retrieval on the 1D data. This program is based on python and can also be found in appendix \ref{sec:1d-phase-retrieval-code}. The input for this algorithm are mirrored, zero-frequency (inverse) shifted 1D diffraction arrays. The algorithm follows the fundamental scheme described in sub-section \ref{sec:phase-retrieval-fundamental}. In the iterative algorithm, the realspace function is forced to be real and positive, which is also the error criterion in real space. The difference to the measured data yields the error criterion in Fourier space. The algorithm allows monitoring of the Fourier- and realspace error, the phase and the actual Fourier and realspace images. The iterative algorithm is aborted based on the error criterion.
+To display many effects in diffraction pattern, they have sometimes been reduced from two dimensions to merely one. A 1D representation of the data allows easy to interpret comparison to analytical models. To reduce the 2D diffraction data to 1D the program shown in appendix \ref{sec:spherical-integration} has been employed. It is based on Matlab\index{Matlab} to efficiently iterate through pixel arrays. The input for this program are pedestal calibrated diffraction images that have unwanted areas masked out and a true image center defined. Key elements of the algorithm are to iterate through every pixel, filtering signal from noise, determining the $\vec{Q}$-value of every pixel and sum signal over $\vec{Q}$, while normalizing the data over pixel. Additionally, an algorithm has been designed to perform phase retrieval on the 1D data.
+%This program is based on python and can also be found in appendix \ref{sec:1d-phase-retrieval-code}. The input for this algorithm are mirrored, zero-frequency (inverse) shifted 1D diffraction arrays.
+The algorithm follows the fundamental scheme described in sub-section \ref{sec:phase-retrieval-fundamental}. Thereby, the realspace data of the object is forced to be real and positive, which is also the error criterion in real space. The difference to the measured data yields the error criterion in Fourier space. The algorithm allows monitoring of the Fourier- and realspace error, the phase and the actual Fourier and realspace images. The iterative algorithm is aborted based on the error criterion.
 %
 %
 %

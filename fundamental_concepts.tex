@@ -216,7 +216,7 @@ Let us describe the appearance of the jet stream (see figure \ref{fig:freeJetExp
 \label{eq:distance-of-mach-disk}
 \end{equation}
 with the nozzle diameter $d$. So the competing stagnation pressure $p_{0}$ and the background pressure $p_{b}$ define the distance of the otherwise static parameters. $p_{b}$ needs to be low enough do drive the Mach disk downstream of the interaction region. By using skimmers and thereby physically separating the jet expansion into separately pumped compartments, the background pressure $p_{b}$ can be reduced, hence $x_{MD}$ increased.\\
-While we have described a cooling gas in the expansion process it should be noted that the clusters are comparably hot. Through the kinetic process described above, they are efficiently heated. The two processes to loose energy are, one, collisions with a chaperone $M$ that deactivates the cluster, or two, evaporation of monomers from the cluster. The evaporation process makes the temperature size-independent, after the clusters have reached a certain minimum size \cite{Farges-1981-SurfSci}. Typically, the jet reaches temperatures of a few Kelvin and the cluster temperature is heavily dependent on their material, particularly the dissociation energy. For this study relevant are mostly the temperature of Xenon cluster that is $~75K$\footnote{To put this temperature in perspective, krypton clusters are $~50K$ and argon cluster $~40K$ \cite{Farges-1981-SurfSci,Gspann-1986-Springer}. Note that in this study the cluster size was $\bar{N} > 800$, hence above the minimum value to be size independent. For the evaporative cooling process to settle at a given temperature, a certain flight distance (in the cited study 6.5cm) should also be taken into account.} and the fact xenon clusters are solid as their melting temperature is higher \cite{Gspann-1986-Springer}. For similar reasons, helium clusters are liquid, which is why they are often called (helium-)droplets. If helium droplets are produced using a cryogenic jet even superfluid helium-droplets can be observed.\\
+While we have described a cooling gas in the expansion process it should be noted that the clusters are comparably hot. Through the kinetic process described above, they are efficiently heated. The two processes to loose energy are, one, collisions with a chaperone $M$ that deactivates the cluster, or two, evaporation of monomers from the cluster. The evaporation process makes the temperature size-independent, after the clusters have reached a certain minimum size \cite{Farges-1981-SurfSci}. Typically, the jet reaches temperatures of a few Kelvin and the cluster temperature is heavily dependent on their material, particularly the dissociation energy. For this study relevant are mostly the temperature of Xenon cluster that is $~75K$\footnote{To put this temperature in perspective, krypton clusters are $~50K$ and argon cluster $~40K$ \citep{Farges-1981-SurfSci,Gspann-1986-Springer}. Note that in this study the cluster size was $\bar{N} > 800$, hence above the minimum value to be size independent. For the evaporative cooling process to settle at a given temperature, a certain flight distance (in the cited study 6.5cm) should also be taken into account.} and the fact xenon clusters are solid as their melting temperature is higher \cite{Gspann-1986-Springer}. For similar reasons, helium clusters are liquid, which is why they are often called (helium-)droplets. If helium droplets are produced using a cryogenic jet even superfluid helium-droplets can be observed.\\
 \begin{table}
 	\centering
 		\begin{tabular}{ | l | l | l | l | l | }
@@ -229,12 +229,12 @@ While we have described a cooling gas in the expansion process it should be note
 \end{table}
 At the current point of the discussion, it should shine out that the average cluster size\index{cluster size} is very much depended on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$ and the nozzle type. Indeed, an empirically found scaling law\index{scaling law} named after Hagena\index{Hagena|see {scaling law}} \cite{Hagena-1972-JCP,Hagena-1981-SurfSci,Hagena-1987-ZeitschriftAMC}, can be written down as
 \begin{equation}
-\Gamma^{*} = K_{\text{gas}} \cdot T_{0}^{0.25q-1.5} \cdot p_{0} \cdot d_{eq}^{q},
+\Gamma^{*} = K_{\text{gas}} \cdot T_{0}^{0.25q-1.5} \cdot p_{0} \cdot d_{eq}^{q}\quad \left[\frac{\text{$\mu$m mbar}}{\text{K}}\right],
 \label{eq:Hagena-parameter}
 \end{equation}
-with the gas specific parameter $K_{\text{gas}}$ that can be found in table \ref{tab:k-parameter} for some rare gases, the gas specific parameter $q$ that varies between 0.5 and 1 and is 0.85 for all rare-gases, and the equivalent nozzle opening $d_{eq}$ that is $d_{eq}=d$ for pinhole sources and for conical nozzles $d_{eq}$ reads
+with the gas specific parameter $K_{\text{gas}}$ that can be found in table \ref{tab:k-parameter} for some rare gases, the gas specific parameter $q$ that varies between 0.5 and 1 and is 0.85 for all rare-gases, and the equivalent nozzle opening $d_{eq}$ that is $d_{eq}=d$ for pinhole sources and for conical nozzles $d_{eq}$ reads \citep{Schorb-2012-Thesis}
 \begin{equation}
-d_{eq} = d\frac{\tan\left(\Phi_{0}\right)}{\tan\left(\Phi\right)}
+d_{eq} = d\frac{\tan\left(\Phi_{0}\right)}{\tan\left(\Phi\right)} = 0.719 \frac{d}{\tan\left(\Phi\right)}
 \label{eq:equivalent-nozzle-opening}
 \end{equation}
 with the half opening angle of the nozzle $\Phi$ and the half opening of the free gas expansion $\Phi_{0}$. The Hagena scaling parameter $\Gamma^{*}$\index{Hagena!scaling parameter} allows us to estimate the mean cluster size, i.e. amount of accumulated particles per cluster $<N>$, as follows
@@ -265,7 +265,7 @@ Experiments using supersonic jets for cluster generation are typically performed
 %%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/pick-up.jpg}
+		\includegraphics[width=0.80\textwidth]{images/pick-up.jpg}
 	\caption[Schematic of a pickup (gas-)source.]{Schematic setup to generate heterogeneous clusters through pickup. Thereby is a first cluster generated via a supersonic gas expansion, which is doped at regions marked A or B. In region A, the dopant gas is mixed in the nozzle such that it becomes part of the nucleus. In region B, the cluster condenses atoms on its surface and commonly gas cells are used to regulate the pressure $p_{\text{skimmer}}$ effectively. $p_{\text{source}}$ is the pressure in the source chamber. The cluster can be detected upon evaporation, i.e. by contact with the chamber, through the pressure $p_{\text{cluster}}$ and the cluster doping can be determined through partial pressures (see text for details). After \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}.}
 	\label{fig:pickupPrinciple}
 \end{figure}
@@ -383,7 +383,7 @@ F_{\text{Sphere}}^{O}\left(\vec{Q}\right) &= \int_{0}^{\pi}\int_{0}^{2\pi}\int_{
 &=\frac{\sin\left(\vec{Q} R\right)-\vec{Q} R\cos\left(\vec{Q} R\right)}{\vec{Q}^{3} R^{3}}=\frac{J_{1}\left(\vec{Q}R\right)}{\vec{Q}R},
 \label{eq:scattering from sphere}
 \end{align}
-with $J_{1}$ being the Bessel function of first kind. Formula \eqref{eq:scattering from sphere} can be easily abused to determine the size of a spherical particle using local minima in the diffraction pattern\footnote{Equation \eqref{eq:scattering from sphere} can be solved numerically for the distance between the first two minima, where $\Delta\vec{Q}R=3.24$, such that $R=\frac{3.24}{\vec{Q}_{\text{min}^{n+1}}-\vec{Q}_{\text{min}^{n}}}$} or through a numerical fit of the resulting curve.
+with $J_{1}$ being the Bessel function of first kind. Formula \eqref{eq:scattering from sphere} can be easily abused to determine the size of a spherical particle using local minima in the diffraction pattern\footnote{Equation \eqref{eq:scattering from sphere} can be solved numerically for the distance between the first two minima $\Delta\vec{Q}R=3.24$, such that $R=\frac{3.24}{\vec{Q}_{\text{min}^{n+1}}-\vec{Q}_{\text{min}^{n}}}$} or through a numerical fit of the resulting curve.
 %
 %
 %\subsection{X-ray diffraction}
