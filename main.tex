@@ -1,5 +1,5 @@
 %%% DOCUMENTCLASS is KOMA-Script scrbook with documentation in http://mirrors.ctan.org/macros/latex/contrib/koma-script/doc/scrguide.pdf
-\documentclass[draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt]{scrbook}
+\documentclass[draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt,headings=openany]{scrbook}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGES
@@ -10,6 +10,7 @@
 \usepackage{amsmath}
 \usepackage{scrhack}
 \usepackage{listings}
+\usepackage[american]{isodate}
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -94,13 +95,15 @@ program@epstopdf=epstopdf
 \include{titlepage}
 \pagenumbering{gobble}
 \include{license}
+%\null\newpage						% ENABLE THIS FOR PRINT
 \pagenumbering{roman}
 %\part*{blabla}
 \include{abstract}
-\include{Kurzfassung}
+%\include{Kurzfassung}		% WORK ON THIS SOON
 \tableofcontents
 \listoffigures
 \listoftables
+%\newpage									% ENABLE THIS FOR PRINT
 \null\newpage
 \pagenumbering{arabic}
 \include{introduction}
@@ -119,14 +122,14 @@ program@epstopdf=epstopdf
 %\newpage
 \include{bibliography}
 %
-\printindex
+%\printindex
 %
 \appendix
 \pagenumbering{Alph}
 %
-%\include{disclaimer}
-%
 \include{publications}
+%
+\include{disclaimer}
 %
 \include{acknowledgment}
 \end{document}

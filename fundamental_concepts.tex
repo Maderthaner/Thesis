@@ -2,7 +2,7 @@
 %%%%%%%%%%%%
 %- Short introduction what we will go over.
 %%%%%%%%%%%%
-This chapter tries to condense the theoretic concepts that will reoccur throughout the present thesis. We start off in section \ref{sec:xfel} with an introduction to the key aspects of X-ray free electron lasers (XFEL) including the beam operating modes self-amplified spontaneous emission (SASE), self-seeding and X-ray pump -- X-ray probe. Section \ref{sec:cluster-theory} is about the formation of rare gas clusters via supersonic jets and pickup sources. We then dive into the interaction of light and matter in section \ref{sec:light-matter-interaction} that discusses coherent, elastic X-ray scattering, and inelastic processes in atoms. The chapter ends with section \ref{sec:ionizatin-of-ext-obj} describing the nanoplasma formation in pristine cluster and core-shell systems.
+This chapter condenses the theoretic concepts that will reoccur throughout the present thesis. We start off in section \ref{sec:xfel} with an introduction to the key aspects of X-ray free electron lasers (XFEL) including the beam operating modes self-amplified spontaneous emission (SASE), self-seeding and X-ray pump -- X-ray probe. Section \ref{sec:cluster-theory} is about the formation of rare gas clusters via supersonic jets and pickup sources. We then dive into the interaction of light and matter in section \ref{sec:light-matter-interaction} that discusses coherent, elastic X-ray scattering, and inelastic processes in atoms. The chapter ends with section \ref{sec:ionizatin-of-ext-obj} describing the nanoplasma formation in pristine cluster and core-shell systems.
 %
 %
 %
@@ -17,7 +17,7 @@ X-rays were first created through \textit{Bremsstrahlung}\index{X-ray!Bremsstrah
 B = \frac{n}{A\ \Theta\ \Delta\! E},
 \label{eq:spectral-brightness}
 \end{equation}
-with $n$ being the number of photons per second, $A$ the source area, $\Theta$ the divergence of the beam, and $\Delta\! E$ 0.1\% of the spectral bandwidth of the light pulse. The spectral brightness is an overall measure of the quality of a light source. The development of modern synchrotron light sources is hence often measured and compared to previous achieved B values. The motivation to improve the spectral brightness is to let a sample interact with as many photons possible, in the shortest time as possible and with an energy resolution as best as possible. In other words, more brilliant light sources are needed to create images of even smaller particles, or investigate dynamics that are even faster.
+with $n$ being the number of photons per second, $A$ the source area, $\Theta$ the divergence of the beam, and $\Delta\! E$ being the spectral bandwidth of the light pulse. The spectral brightness is an overall measure of the quality of a light source. The development of modern synchrotron light sources is hence often measured and compared to previous achieved B values. The motivation to improve the spectral brightness is to let a sample interact with as many photons possible, in the shortest time as possible and with an energy resolution as best as possible. In other words, more brilliant light sources are needed to create images of even smaller particles, or investigate dynamics that are even faster.
 \begin{figure}[t]
 	\centering
 		\includegraphics[width=1.00\textwidth]{images/aerial-view-lcls.jpg}
@@ -66,7 +66,7 @@ Undulator typically have $K<1$ Tcm (and wiggler $K\gg1$ Tcm). Undulator magnets 
 with the kinetic energy $\gamma$ of the electron bunch in the undulator and the electrons observation angle $\Psi$. Summarizing, modern lightsources use undulators to generate radiation as these magnets create more photons that have a narrow spectral bandwidth compared to bending magnets and wiggler. Undulators are characterized by the strength parameter given in equation \ref{eqn:undulator-strength}, which is only dependent on the undulator gap $\lambda_{U}$ and the magnetic field $B$. The fundamental amplified wavelength is given by the resonance condition equation \ref{eqn:fundamental-wavelength}.\\
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/gain-length.JPG}
+		\includegraphics[width=0.75\textwidth]{images/gain-length.JPG}
 	\caption[Undulator gain curve correlated to microbunching.]{Undulator gain curve correlated to microbunching. The X-ray pulse energy is plotted algorithmically over the undulator length $L_{g}$ (blue curve, green dots) and shows an exponential growth until saturation. The electron bunch (red dots) is starts with a random density distribution, as the bunch travels through the undulator modulates the electron density and the electrons are microbunched. Upon optimal microbunching, the X-ray lasing process saturates. From \citep{Rupp-2013-Thesis,Rupp-2016-Springer}}
 	\label{fig:gain-length}
 \end{figure}
@@ -78,7 +78,7 @@ P_{SASE} \propto N_{e}^{2},\quad \mathrm{SASE\ operation}
 SASE spectra can be seen in figure \ref{fig:SASE-spectra}. A SASE spectrum is different from shot-to-shot and has distinct peaks that are defined by the initial photons on top of a more broad background.
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/SASE-spectra.png}
+		\includegraphics[width=0.80\textwidth]{images/SASE-spectra.png}
 	\caption[SASE single-shot and average spectra]{Spectra of FEL SASE operation. The large blue spectra is a SASE spectra from a single FEL shot using a photoelectron spectrometer as described in \citep{Bucher-2014-Unpublished}. Note the spiky peak structure on a background pedestal. Within the narrow bandwidth of a FEL pulse some energies are getting more strongly amplified due to the microbunching. The yellow graph in the inset is an average spectrum of several hundred single-shots and has a low energy tail, which is due to FEL-jitter.}
 	\label{fig:SASE-spectra}
 \end{figure}
@@ -258,14 +258,14 @@ Experiments using supersonic jets for cluster generation are typically performed
 %
 %
 %
-\subsection{Creation of a heterogeneous cluster}\label{sec:heterogeneous-cluster}
+\subsection{Formation of a heterogeneous cluster: The pickup principle}\label{sec:heterogeneous-cluster}
 %%%%%%%%%%%%%%%%%
 %- Heterogeneous clusters, e.g. He Xe\\
 %- Do you have literature on that?
 %%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-		\includegraphics[width=0.80\textwidth]{images/pick-up.jpg}
+		\includegraphics[width=0.80\textwidth]{images/pick-up.png}
 	\caption[Schematic of a pickup (gas-)source.]{Schematic setup to generate heterogeneous clusters through pickup. Thereby is a first cluster generated via a supersonic gas expansion, which is doped at regions marked A or B. In region A, the dopant gas is mixed in the nozzle such that it becomes part of the nucleus. In region B, the cluster condenses atoms on its surface and commonly gas cells are used to regulate the pressure $p_{\text{skimmer}}$ effectively. $p_{\text{source}}$ is the pressure in the source chamber. The cluster can be detected upon evaporation, i.e. by contact with the chamber, through the pressure $p_{\text{cluster}}$ and the cluster doping can be determined through partial pressures (see text for details). After \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}.}
 	\label{fig:pickupPrinciple}
 \end{figure}
@@ -291,7 +291,7 @@ where $\Delta p_{\text{cluster}}$ denotes the partial pressure difference with p
 %- Mie scattering in a nutshell
 %%%%%%%%%%%%%%%%%%%%%%%
 %
-\section{Light-matter interaction}\label{sec:light-matter-interaction}
+\section{Soft X-rays in matter}\label{sec:light-matter-interaction}
 A full description of light-matter interaction is mathematically challenging and not the purpose of this thesis. In the following subsections, we will break down the light-matter interaction into its components. The components of the interaction of photons with matter can be split into fife categories, 1) coherent-elastic scattering (see sub-section \ref{sec:saxs}), 2) inelastic processes (absorption, see sub-section \ref{sec:absorption}), 3) incoherent scattering (Compton effect) and high-energy physics effects of 4) pair production and 5) absorption effects with the nucleus. As it already shines through, the effects are dependent on the wavelength and the cross-sections for 3-5 can be neglected in the soft X-ray regime. We will therefore concentrate the discussion on points 1-2 and restrict ourselves to the for the experiment necessary theory.
 %This section will give  a brief introduction into the elastic scattering of X-rays with matter. The actual scattering process is very complex as it is an interplay of coherent, incoherent and elastic, inelastic processes. Fortunately, we can reduce the scattering description to its main process: The coherent and elastic scattering. In other words, we neglect Compton scattering (incoherent), any kind of absorption processes (inelastic) and effects form the scattering of multiple particles. We will then start this section by looking at the small angle scattering of atoms and continue on to extended objects such as clusters. The section is rounded off by an introduction to the inverse problem and basic algorithm ideas to overcome the issue of phase retrieval.
 %Photons can also be absorbed by atoms in which case an electron get either excited to another state or ionized. At X-ray wavelengths matter typically gets ionized in the inner shells. Upon absorption a cascade of relaxation processes begins and the now ionized atom finds the new most energetic favorable state. These processes are particularly depended on the wavelength of the incident photons but also the type of atom. This chapter is devoted to these processes and particular the absorption process is described in section \ref{sec:absorption} and the relaxation processes in \ref{sec:relaxation}.
@@ -407,7 +407,7 @@ e^{i n k z}= \underbrace{e^{i \left(1-\delta\right)k z}}_{\text{phase shift}}\un
 \end{equation}
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/photoionization.eps}
+		\includegraphics[width=0.90\textwidth]{images/photoionization.eps}
 	\caption[Total absorption cross-sections for helium and xenon.]{Total absorption crosssections $\sigma_{a}$ in megabarn for xenon and helium. The purple curve represents the total cross-section of xenon. The orange dashed curve represents the total cross-section of helium. The red dashed line represents the photon energy used at the experiment described in the present work. Data points from \citep{Elettra-2016-Website,Yeh-1985-AtmDat,Yeh-1993-GBSP}}
 	\label{fig:photoionization}
 \end{figure}
@@ -571,7 +571,7 @@ The nanoplasma expansion is also wavelength dependent. At optical to UV waveleng
 The nanoplasma transition is so interesting is because every matter irradiated by a free-electron laser will undergo a nanoplasma transition and finally disintegrate. This is a challenge for structural biology and called radiation damage  or sample damage\citep{Neutze-2000-Nature}. Sample damage changes the structure of a biomolecule and it is particularly the structure many scientists want to investigate. In order to prevent falsified measurements, one needs to understand the nanoplasma transition as it occurs while the pulse is propagating through the sample. First attempts to perform a combined spectroscopic and imaging technique revealed correlations between the complex refractive index\index{refractive index!complex} \citep{Bostedt-2012-PRL} and the diffraction patterns but also correlations of the ion spectroscopic data and the diffraction patterns intensity \citep{Gorkhover-2012-PRL}. More recently, simulations on diffraction patterns could show the expanding electron density \citep{Gorkhover-2016-NatPho} as it is also shown in figure \ref{fig:tais-nat-photonics}. In this particular study, an infra-red laser was used start (pump) a nanoplasma transition in a xenon cluster and subsequently image (probe) this state with a XFEL pulse. As the time delay between pump and probe pulse is varied, the resulting diffraction patterns of the 15-20 nm Xe-cluster show declining intensities at larger scattering angles with increasing time delay $\Delta t>100 fs$. The loss in signal could be explained through an expanding electron density\index{electron density!expanding} \citep{Hau-Riege-2008-PRE,Peltz-2014-PRL}. The electron density thereby expands increasingly over time due to the Coulomb and Hydrodynamic forces and, first the outer layers expand and at larger time delay also the inner atomic layers. In this study, an electron temperature of ~200eV could be measured by comparing plasma simulations to the ion spectroscopy signal. The possible spatial resolution out of the diffraction patterns has been estimated to be 8 nm but through assuming a shape the electron density model is sensitive below this resolution.\\
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/ken-science.jpg}
+		\includegraphics[width=0.80\textwidth]{images/ken-science.jpg}
 	\caption[Experiment that shows early evolution of the nanoplasma transition.]{X-ray pump -- X-ray probe scattering experiment on Xe-cluster that shows an early evolution of the nanoplasma transition. A, single-shot Bragg peaks at varying time delays. The scattering vector q increases over time delay. B, unit cell length over time delay. The unit cell length decreases, therefore the cluster shrinks in size. C, Lattice disorder over time delay. The measured fcc lattice is becoming disordered after being pumped with a X-ray pulse. From \citep{Ferguson-2016-SciAdv}. Reprinted with permission from AAAS.}
 	\label{fig:ken-science}
 \end{figure}
@@ -589,7 +589,7 @@ These two studies allow us to conclude that the nanoplasma transition is a multi
 To overcome radiation damage, the most common method is to \textit{outrun} radiation damage\index{radiation damage} processes using very short pulses \citep{Neutze-2000-Nature}. Pulses from the XFEL must be shorter than the lifetime of Auger processes, thus on few femtosecond long, to fully outrun the multistep ionization\index{ionization!multistep}. However, by limiting the XFEL pulse duration, one inevitably limits the pulse energy\index{pulse energy} as current pulse compression methods typically generate much less fluence. This means that currently, many coherent diffractive imaging experiments are performed with pulse widths of 40fs or more to generate enough scattered intensity. But even if these technical limitations can are overcome, outrunning radiation damage does not circumvate photoionization and it is therefore expected that also few femtosecond long pulses only reach a certain spatial resolution \citep{Aquila-2015-StrucDyn}. To be more precise, it is an open question, whether electron densities and here particular bonding configuration are obtainable by solely outrunning radiation damage. As radiation damage is unavoidable it can be mitigated in several ways. As the underlying processes are well understood, one way to mitigate for the radiation damage would be to simulate the effects, however, this can only be done for small particles. Another way to fundamentally increase resolution in single particle imaging is due to prior alignment of particles such that their orientation is know while the image is taken. Molecule alignment has seen some success for small molecules \citep{Kupper-2014-PRL} but it is currently unknown, whether this works for larger molecules as the strong light fields, which are needed to align the molecules, may change their structure. Here it should be noted that recent advances with CDI algorithms made it possible to computationally determine the orientation of a particle at the time of imaging \citep{Loh-2009-PRE,Ekeberg-2015-PRL} without prior knowledge if at least a few hundred diffraction images are provided. Anyway. In this thesis, we shall discuss a method to reduce effects of radiation damage through artificial tampered layers. Artificial shells around a sample supply it with electrons and function as sacrificial layer that protects the sample \citep{Hau-Riege-2010-PRL}. For aerosol particles, this method has also only been investigated through ion spectroscopy \citep{Hoener-2008-JPB,Ziemkewitz-2017-unpublished}.
 \begin{figure}
 	\centering
-		\includegraphics[width=0.50\textwidth]{images/Hoener-image.jpg}
+		\includegraphics[width=0.70\textwidth]{images/Hoener-image.jpg}
 	\caption[Time of flight spectra of argon and xenon core-shell systems.]{Time of flight (TOF) traces of argon and xenon core shell systems irradiated with 93eV X-ray pulses from FLASH\index{Free electron LASer in Hamburg!FLASH}. At this energy, mostly Xe is ionized and the ionized atoms create a steep Coulomb potential that traps electrons towards the center of the cluster. The top panel shows smaller clusters with 400 particles, in which the trapping is inefficient, few electron-ion recombinations occur, thus Xe and Ar ions are detected in the TOF detector. The bottom panel shows large clusters with 4000 particles and a thicker argon shell. Here, Xe-ions recombine in the center and the TOF shows mostly Ar ions as the neutral Xe remains undetected. From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Hoener-2008-JPB}.}
 	\label{fig:Hoener-image}
 \end{figure}

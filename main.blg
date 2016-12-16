@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 A level-1 auxiliary file: titlepage.aux
 A level-1 auxiliary file: license.aux
 A level-1 auxiliary file: abstract.aux
-A level-1 auxiliary file: Kurzfassung.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: fundamental_concepts.aux
 A level-1 auxiliary file: experimental_setup.aux
@@ -11,7 +10,8 @@ A level-1 auxiliary file: results.aux
 A level-1 auxiliary file: summary_outlook.aux
 A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: bibliography.aux
-The style file: abbrvnat.bst
+The style file: unsrtnat.bst
 A level-1 auxiliary file: publications.aux
+A level-1 auxiliary file: disclaimer.aux
 A level-1 auxiliary file: acknowledgment.aux
 Database file #1: references.bib

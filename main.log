@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.7.25)  8 DEC 2016 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.7.25)  16 DEC 2016 10:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -1057,10 +1057,33 @@ Package scrhack Info: redefining \lstlistoflistings on input line 137.
 )
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\isodate\isodate.sty
+Package: isodate 2010/01/03 v2.30 Print dates with different formats (HH)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count138
+)
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\isodate\english.idf
+File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH)
+
+Define commands for American date format
+)
+\c@iso@tmpmonth=\count139
+\c@iso@yeartwo=\count140
+\c@iso@slash=\count141
+\c@iso@minus=\count142
+\c@iso@dot=\count143
+\c@iso@@slash=\count144
+\c@iso@@minus=\count145
+\c@iso@@dot=\count146
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip65
-\multirow@cntb=\count138
+\multirow@cntb=\count147
 \multirow@dima=\skip66
 \bigstrutjot=\dimen147
 )
@@ -1078,7 +1101,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-\Gread@gobject=\count139
+\Gread@gobject=\count148
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
@@ -1100,7 +1123,7 @@ Package grfext Info: Graphics extension search list:
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 30.
+Package scrhack Info: loading setspace hack on input line 31.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\setspace.hak"
 File: setspace.hak 2016/06/14 v3.21 KOMA-Script package (hacking package setspace)
@@ -1119,7 +1142,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count140
+\babel@savecnt=\count149
 \U@D=\dimen150
 )
 \l@canadian = a dialect from \language\l@american 
@@ -1138,7 +1161,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip67
 \bibsep=\skip68
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count141
+\c@NAT@ctr=\count150
 )
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
@@ -1147,7 +1170,7 @@ Package: bibentry 2007/10/30 1.5 (PWD)
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 ) (D:\TeX\Texmf-Titlepage\tex\latex\titlepage\titlepage.sty
 Package: titlepage 2013/08/06 v0.4d KOMA presents the title page project 
-\c@titlepage=\count142
+\c@titlepage=\count151
 \titlebox=\box48
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\doclicense\doclicense.sty"
@@ -1158,18 +1181,16 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count143
-\calc@Bcount=\count144
+\calc@Acount=\count152
+\calc@Bcount=\count153
 \calc@Adimen=\dimen151
 \calc@Bdimen=\dimen152
 \calc@Askip=\skip69
 \calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count145
+\calc@Ccount=\count154
 \calc@Cskip=\skip71
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\ifmtarg\ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
@@ -1194,7 +1215,7 @@ File: doclicense-english.ldf
 Writing index file main.idx
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 41.
+(scrhack)             need that hack, on input line 42.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
@@ -1230,15 +1251,15 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 \@linkdim=\dimen153
-\Hy@linkcounter=\count146
-\Hy@pagecounter=\count147
+\Hy@linkcounter=\count155
+\Hy@pagecounter=\count156
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count148
+\Hy@SavedSpaceFactor=\count157
 
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1251,7 +1272,7 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count149
+\c@Hy@tempcnt=\count158
 
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip17
@@ -1259,7 +1280,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen154
-\Fld@menulength=\count150
+\Fld@menulength=\count159
 \Field@Width=\dimen155
 \Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -1271,18 +1292,18 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count151
-\c@Item=\count152
-\c@Hfootnote=\count153
+\Hy@abspage=\count160
+\c@Item=\count161
+\c@Hfootnote=\count162
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\HyAnn@Count=\count154
-\Fld@listcount=\count155
-\c@bookmark@seq@number=\count156
+\HyAnn@Count=\count163
+\Fld@listcount=\count164
+\c@bookmark@seq@number=\count165
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1290,19 +1311,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip73
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 83.
-Package hyperref Info: Option `unicode' set `true' on input line 83.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 84.
+Package hyperref Info: Option `unicode' set `true' on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
 File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 83.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 83.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 83.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
-Package hyperref Info: Option `colorlinks' set `false' on input line 83.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 84.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 84.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 84.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 84.
+Package hyperref Info: Option `colorlinks' set `false' on input line 84.
 
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfx\pdfx.sty
 Package: pdfx 2016/02/04 v1.5.6 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
@@ -2121,12 +2142,12 @@ Using XMP template file: pdfa.xmp
 
 <<pdfa.xmpi>>) (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
 Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
-\csq@reset=\count157
-\csq@gtype=\count158
-\csq@glevel=\count159
-\csq@qlevel=\count160
-\csq@maxlvl=\count161
-\csq@tshold=\count162
+\csq@reset=\count166
+\csq@gtype=\count167
+\csq@glevel=\count168
+\csq@qlevel=\count169
+\csq@maxlvl=\count170
+\csq@tshold=\count171
 \csq@ltx@everypar=\toks26
 
 (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.def
@@ -2149,89 +2170,91 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count163
+\XKV@depth=\count172
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))) (main.aux (titlepage.aux) (license.aux)
-(abstract.aux) (Kurzfassung.aux) (introduction.aux) (fundamental_concepts.aux) (experimental_setup.aux) (methods.aux)
-(results.aux) (summary_outlook.aux) (appendix.aux) (bibliography.aux) (publications.aux) (acknowledgment.aux))
+(abstract.aux) (introduction.aux) (fundamental_concepts.aux) (experimental_setup.aux) (methods.aux) (results.aux)
+(summary_outlook.aux) (appendix.aux) (bibliography.aux) (publications.aux) (disclaimer.aux) (acknowledgment.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 \AtBeginShipoutBox=\box49
  ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-utf8.def"
 File: se-utf8.def 2016/05/16 v1.11 stringenc: UTF-8
 )
-\c@lstlisting=\count164
-Package scrhack Info: undefining \float@addtolists on input line 88.
- (C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+\c@lstlisting=\count173
+Package scrhack Info: undefining \float@addtolists on input line 89.
+
+isodate: babel.sty has been loaded
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
+\scratchcounter=\count174
 \scratchdimen=\dimen157
 \scratchbox=\box50
-\nofMPsegments=\count166
-\nofMParguments=\count167
+\nofMPsegments=\count175
+\nofMParguments=\count176
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count168
+\MPscratchCnt=\count177
 \MPscratchDim=\dimen158
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
 \everyMPtoPDFconversion=\toks30
 )
-Package scrbase Info: activating german \projectpapername on input line 88.
-Package scrbase Info: activating german \seminarpapername on input line 88.
-Package scrbase Info: activating german \studentresearchname on input line 88.
-Package scrbase Info: activating german \diplomathesisname on input line 88.
-Package scrbase Info: activating german \degreethesisname on input line 88.
-Package scrbase Info: activating german \masterthesisname on input line 88.
-Package scrbase Info: activating german \bachelorthesisname on input line 88.
-Package scrbase Info: activating german \ordinal on input line 88.
-Package scrbase Info: activating german \presentedbyname on input line 88.
-Package scrbase Info: activating german \advisorname on input line 88.
-Package scrbase Info: activating german \thename on input line 88.
-Package scrbase Info: activating german \ofthename on input line 88.
-Package scrbase Info: activating german \fromname on input line 88.
-Package scrbase Info: activating german \fromplacename on input line 88.
-Package scrbase Info: activating german \refereename on input line 88.
-Package scrbase Info: activating german \oralexaminationdatename on input line 88.
-Package scrbase Info: activating german \durationname on input line 88.
-Package scrbase Info: activating german \matriculationnumbername on input line 88.
-Package scrbase Info: activating german \coursename on input line 88.
-Package scrbase Info: activating german \companyname on input line 88.
-Package scrbase Info: activating german \examinationname on input line 88.
-Package hyperref Info: Link coloring OFF on input line 88.
+Package scrbase Info: activating german \projectpapername on input line 89.
+Package scrbase Info: activating german \seminarpapername on input line 89.
+Package scrbase Info: activating german \studentresearchname on input line 89.
+Package scrbase Info: activating german \diplomathesisname on input line 89.
+Package scrbase Info: activating german \degreethesisname on input line 89.
+Package scrbase Info: activating german \masterthesisname on input line 89.
+Package scrbase Info: activating german \bachelorthesisname on input line 89.
+Package scrbase Info: activating german \ordinal on input line 89.
+Package scrbase Info: activating german \presentedbyname on input line 89.
+Package scrbase Info: activating german \advisorname on input line 89.
+Package scrbase Info: activating german \thename on input line 89.
+Package scrbase Info: activating german \ofthename on input line 89.
+Package scrbase Info: activating german \fromname on input line 89.
+Package scrbase Info: activating german \fromplacename on input line 89.
+Package scrbase Info: activating german \refereename on input line 89.
+Package scrbase Info: activating german \oralexaminationdatename on input line 89.
+Package scrbase Info: activating german \durationname on input line 89.
+Package scrbase Info: activating german \matriculationnumbername on input line 89.
+Package scrbase Info: activating german \coursename on input line 89.
+Package scrbase Info: activating german \companyname on input line 89.
+Package scrbase Info: activating german \examinationname on input line 89.
+Package hyperref Info: Link coloring OFF on input line 89.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -2251,10 +2274,10 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<doclicense-CC-by.pdf, id=229, 121.45375pt x 43.16125pt>
+<doclicense-CC-by.pdf, id=233, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by.pdf Graphic file (type pdf)
  <use doclicense-CC-by.pdf>
-Package pdftex.def Info: doclicense-CC-by.pdf used on input line 22.
+Package pdftex.def Info: doclicense-CC-by.pdf used on input line 29.
 (pdftex.def)             Requested size: 108.87878pt x 38.69196pt.
 ) [1
 
@@ -2270,143 +2293,113 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 [1
 
 
-]
-\openout2 = `Kurzfassung.aux'.
+] (main.toc
+Underfull \vbox (badness 1009) has occurred while \output is active []
 
- (Kurzfassung.tex) [2
-
-
-] (main.toc [3
-
+ [2
 
 
 ]
-Overfull \hbox (1.21701pt too wide) detected at line 53
+Overfull \hbox (1.21701pt too wide) detected at line 54
  \T1/cmss/bx/n/10.95 105
  []
 
 
-Overfull \hbox (1.21701pt too wide) detected at line 54
+Overfull \hbox (1.21701pt too wide) detected at line 55
  \T1/cmss/bx/n/10.95 107
  []
 
 
 Overfull \hbox (1.21701pt too wide) detected at line 58
- \T1/cmss/bx/n/10.95 113
- []
-
-
-Overfull \hbox (1.21701pt too wide) detected at line 59
- \T1/cmss/bx/n/10.95 133
+ \T1/cmss/bx/n/10.95 111
  []
 
 )
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4] (main.lof [5
+ [3] (main.lof [4
 
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Overfull \hbox (0.69785pt too wide) in paragraph at lines 55--55
- [][] [][]\T1/cmr/m/n/10.95 Single-shot 2D re-con-struc-tions of diffrac-tion pat-tern from sin-gle Xe-cluster. 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [8] (main.lot)
+ [5] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [9
-
+ [6
 
 ]
 \openout2 = `introduction.aux'.
 
  (introduction.tex
 chapter 1.
-)
-Underfull \vbox (badness 2961) has occurred while \output is active []
-
- [1
+[1
 
 
-
-]
-Underfull \vbox (badness 2486) has occurred while \output is active []
-
- [2] [3]
+]) [2]
 \openout2 = `fundamental_concepts.aux'.
 
- (fundamental_concepts.tex [4
-
-
-
-
-]
+ (fundamental_concepts.tex
 chapter 2.
-<images/aerial-view-lcls.jpg, id=586, 986.7264pt x 337.7418pt>
+<images/aerial-view-lcls.jpg, id=545, 986.7264pt x 337.7418pt>
 File: images/aerial-view-lcls.jpg Graphic file (type jpg)
  <use images/aerial-view-lcls.jpg>
 Package pdftex.def Info: images/aerial-view-lcls.jpg used on input line 23.
 (pdftex.def)             Requested size: 418.25555pt x 143.15958pt.
- [5]
+ [3
+
+
+
+]
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [6 <./images/aerial-view-lcls.jpg>]
-<images/Undulator.png, id=621, 1606.0pt x 1011.78pt>
+ [4 <./images/aerial-view-lcls.jpg>]
+<images/Undulator.png, id=579, 1606.0pt x 1011.78pt>
 File: images/Undulator.png Graphic file (type png)
  <use images/Undulator.png>
 Package pdftex.def Info: images/Undulator.png used on input line 43.
 (pdftex.def)             Requested size: 418.25555pt x 263.5043pt.
- [7]
+ [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./images/Undulator.png>]
-<images/gain-length.JPG, id=659, 737.75626pt x 472.01344pt>
+ [6 <./images/Undulator.png>]
+<images/gain-length.JPG, id=615, 737.75626pt x 472.01344pt>
 File: images/gain-length.JPG Graphic file (type jpg)
  <use images/gain-length.JPG>
 Package pdftex.def Info: images/gain-length.JPG used on input line 69.
-(pdftex.def)             Requested size: 418.25555pt x 267.59558pt.
- [9] [10 <./images/gain-length.JPG>] <images/SASE-spectra.png, id=682, 722.7pt x 542.025pt>
+(pdftex.def)             Requested size: 313.69167pt x 200.69308pt.
+ [7] [8 <./images/gain-length.JPG>] <images/SASE-spectra.png, id=638, 722.7pt x 542.025pt>
 File: images/SASE-spectra.png Graphic file (type png)
  <use images/SASE-spectra.png>
 Package pdftex.def Info: images/SASE-spectra.png used on input line 81.
-(pdftex.def)             Requested size: 418.25555pt x 313.68825pt.
+(pdftex.def)             Requested size: 334.60571pt x 250.95557pt.
 
-<images/Soft-X-ray-self-seeding.jpg, id=687, 521.95pt x 526.96875pt>
+<images/Soft-X-ray-self-seeding.jpg, id=643, 521.95pt x 526.96875pt>
 File: images/Soft-X-ray-self-seeding.jpg Graphic file (type jpg)
  <use images/Soft-X-ray-self-seeding.jpg>
 Package pdftex.def Info: images/Soft-X-ray-self-seeding.jpg used on input line 99.
 (pdftex.def)             Requested size: 204.94751pt x 206.91609pt.
 
-<images/spectral-brightness-fletcher-2015.jpg, id=688, 907.39pt x 921.4425pt>
+<images/spectral-brightness-fletcher-2015.jpg, id=644, 907.39pt x 921.4425pt>
 File: images/spectral-brightness-fletcher-2015.jpg Graphic file (type jpg)
 
 <use images/spectral-brightness-fletcher-2015.jpg>
 Package pdftex.def Info: images/spectral-brightness-fletcher-2015.jpg used on input line 100.
 (pdftex.def)             Requested size: 204.94751pt x 208.11703pt.
- [11] [12 <./images/SASE-spectra.png>] [13 <./images/Soft-X-ray-self-seeding.jpg> <./images/spectral-brightness-fletcher
--2015.jpg>]
+ [9] [10 <./images/SASE-spectra.png>] [11 <./images/Soft-X-ray-self-seeding.jpg> <./images/spectral-brightness-fletcher-
+2015.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-<images/Albertos-pump-probe-scheme.png, id=738, 1001.7425pt x 296.10625pt>
+ [12]
+<images/Albertos-pump-probe-scheme.png, id=693, 1001.7425pt x 296.10625pt>
 File: images/Albertos-pump-probe-scheme.png Graphic file (type png)
  <use images/Albertos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Albertos-pump-probe-scheme.png used on input line 125.
 (pdftex.def)             Requested size: 418.25555pt x 123.63182pt.
 
-[15] [16 <./images/Albertos-pump-probe-scheme.png>] <images/Agos-pump-probe-scheme.png, id=769, 961.5925pt x 397.485pt>
+[13] [14 <./images/Albertos-pump-probe-scheme.png>] <images/Agos-pump-probe-scheme.png, id=723, 961.5925pt x 397.485pt>
 File: images/Agos-pump-probe-scheme.png Graphic file (type png)
 
 <use images/Agos-pump-probe-scheme.png>
@@ -2414,46 +2407,46 @@ Package pdftex.def Info: images/Agos-pump-probe-scheme.png used on input line 15
 (pdftex.def)             Requested size: 418.25555pt x 172.89244pt.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 10.95pt on input line 156.
- [17] [18 <./images/Agos-pump-probe-scheme.png>]
-<images/freeJetExpansion.png, id=800, 963.6pt x 542.025pt>
+ [15] [16 <./images/Agos-pump-probe-scheme.png>]
+<images/freeJetExpansion.png, id=754, 963.6pt x 542.025pt>
 File: images/freeJetExpansion.png Graphic file (type png)
  <use images/freeJetExpansion.png>
 Package pdftex.def Info: images/freeJetExpansion.png used on input line 185.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./images/freeJetExpansion.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./images/freeJetExpansion.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [22] [23]
-<images/pick-up.jpg, id=882, 963.6pt x 542.025pt>
-File: images/pick-up.jpg Graphic file (type jpg)
- <use images/pick-up.jpg>
-Package pdftex.def Info: images/pick-up.jpg used on input line 268.
-(pdftex.def)             Requested size: 334.60571pt x 188.2146pt.
+ [20] [21]
+<images/pick-up.png, id=835, 811.3512pt x 316.0608pt>
+File: images/pick-up.png Graphic file (type png)
+ <use images/pick-up.png>
+Package pdftex.def Info: images/pick-up.png used on input line 268.
+(pdftex.def)             Requested size: 334.60571pt x 130.34293pt.
+ [22 <./images/pick-up.png>]
+Underfull \vbox (badness 4699) has occurred while \output is active []
 
+ [23]
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./images/pick-up.jpg>] [25] [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-<images/X-ray-scattering.jpg, id=938, 963.6pt x 542.025pt>
+ [25]
+<images/X-ray-scattering.jpg, id=891, 963.6pt x 542.025pt>
 File: images/X-ray-scattering.jpg Graphic file (type jpg)
  <use images/X-ray-scattering.jpg>
 Package pdftex.def Info: images/X-ray-scattering.jpg used on input line 350.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
-
+ [26 <./images/X-ray-scattering.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./images/X-ray-scattering.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29] [30]
+ [27] [28]
 Package epstopdf Info: Source file: <images/photoionization.eps>
 (epstopdf)                    date: 2016-08-11 18:14:55
 (epstopdf)                    size: 133468 bytes
@@ -2465,28 +2458,28 @@ Package epstopdf Info: Source file: <images/photoionization.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/photoionization-eps-converted-to.pdf, id=981, 289.08pt x 185.69376pt>
+<images/photoionization-eps-converted-to.pdf, id=933, 289.08pt x 185.69376pt>
 File: images/photoionization-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/photoionization-eps-converted-to.pdf>
 Package pdftex.def Info: images/photoionization-eps-converted-to.pdf used on input line 410.
-(pdftex.def)             Requested size: 418.25555pt x 268.68518pt.
+(pdftex.def)             Requested size: 376.42744pt x 241.81554pt.
 
-Underfull \vbox (badness 3049) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./images/photoionization-eps-converted-to.pdf>] [32] [33] <images/el-relaxation.png, id=1051, 963.6pt x 542.025pt>
+ [29 <./images/photoionization-eps-converted-to.pdf>] [30] [31] <images/el-relaxation.png, id=1000, 963.6pt x 542.025pt>
 File: images/el-relaxation.png Graphic file (type png)
  <use images/el-relaxation.png>
 Package pdftex.def Info: images/el-relaxation.png used on input line 518.
 (pdftex.def)             Requested size: 418.25555pt x 235.26619pt.
 
-<images/pnCCD-histogram.png, id=1057, 578.16pt x 433.62pt>
+<images/pnCCD-histogram.png, id=1006, 578.16pt x 433.62pt>
 File: images/pnCCD-histogram.png Graphic file (type png)
  <use images/pnCCD-histogram.png>
 Package pdftex.def Info: images/pnCCD-histogram.png used on input line 525.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/auger-spectra.png, id=1058, 690.32906pt x 450.9347pt>
+<images/auger-spectra.png, id=1007, 690.32906pt x 450.9347pt>
 File: images/auger-spectra.png Graphic file (type png)
  <use images/auger-spectra.png>
 Package pdftex.def Info: images/auger-spectra.png used on input line 526.
@@ -2494,39 +2487,38 @@ Package pdftex.def Info: images/auger-spectra.png used on input line 526.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34] [35 <./images/el-relaxation.png>] [36 <./images/pnCCD-histogram.png> <./images/auger-spectra.png>] [37]
-<images/nano-plasma-schematic.jpg, id=1105, 682.55pt x 195.73125pt>
+ [32] [33 <./images/el-relaxation.png>] [34 <./images/pnCCD-histogram.png> <./images/auger-spectra.png>] [35]
+<images/nano-plasma-schematic.jpg, id=1056, 682.55pt x 195.73125pt>
 File: images/nano-plasma-schematic.jpg Graphic file (type jpg)
  <use images/nano-plasma-schematic.jpg>
 Package pdftex.def Info: images/nano-plasma-schematic.jpg used on input line 553.
 (pdftex.def)             Requested size: 418.25555pt x 119.94243pt.
- [38 <./images/nano-plasma-schematic.jpg>] [39] <images/tais-nat-photonics.jpg, id=1150, 949.5475pt x 795.97375pt>
+ [36 <./images/nano-plasma-schematic.jpg>] [37] <images/tais-nat-photonics.jpg, id=1098, 949.5475pt x 795.97375pt>
 File: images/tais-nat-photonics.jpg Graphic file (type jpg)
 
 <use images/tais-nat-photonics.jpg>
 Package pdftex.def Info: images/tais-nat-photonics.jpg used on input line 567.
 (pdftex.def)             Requested size: 418.25555pt x 350.60605pt.
- <images/ken-science.jpg, id=1160, 1053.9375pt x 583.17876pt>
+ <images/ken-science.jpg, id=1108, 1053.9375pt x 583.17876pt>
 File: images/ken-science.jpg Graphic file (type jpg)
 
 <use images/ken-science.jpg>
 Package pdftex.def Info: images/ken-science.jpg used on input line 574.
-(pdftex.def)             Requested size: 418.25555pt x 231.43427pt.
- [40] [41 <./images/tais-nat-photonics.jpg>] [42 <./images/ken-science.jpg>]
-<images/Hoener-image.jpg, id=1198, 28.45276pt x 32.86293pt>
+(pdftex.def)             Requested size: 334.60571pt x 185.15274pt.
+ [38] [39 <./images/tais-nat-photonics.jpg>]
+<images/Hoener-image.jpg, id=1142, 28.45276pt x 32.86293pt>
 File: images/Hoener-image.jpg Graphic file (type jpg)
  <use images/Hoener-image.jpg>
 Package pdftex.def Info: images/Hoener-image.jpg used on input line 592.
-(pdftex.def)             Requested size: 209.12778pt x 241.67143pt.
-) [43] [44 <./images/Hoener-image.jpg>] [45]
+(pdftex.def)             Requested size: 292.7776pt x 338.33841pt.
+) [40 <./images/ken-science.jpg>]
+Underfull \vbox (badness 2197) has occurred while \output is active []
+
+ [41] [42 <./images/Hoener-image.jpg>] [43]
 \openout2 = `experimental_setup.aux'.
 
- (experimental_setup.tex [46
 
-
-
-
-]
+(experimental_setup.tex
 chapter 3.
 Package epstopdf Info: Source file: <images/beam_layout.eps>
 (epstopdf)                    date: 2014-10-28 22:02:39
@@ -2538,36 +2530,40 @@ Package epstopdf Info: Source file: <images/beam_layout.eps>
 m_layout.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<images/beam_layout-eps-converted-to.pdf, id=1254, 438.63875pt x 147.55125pt>
+<images/beam_layout-eps-converted-to.pdf, id=1192, 438.63875pt x 147.55125pt>
 File: images/beam_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/beam_layout-eps-converted-to.pdf>
 Package pdftex.def Info: images/beam_layout-eps-converted-to.pdf used on input line 24.
 (pdftex.def)             Requested size: 418.25555pt x 140.69746pt.
- <images/Focus-z-scan.png, id=1270, 489.9906pt x 546.3612pt>
+ <images/Focus-z-scan.png, id=1208, 489.9906pt x 546.3612pt>
 File: images/Focus-z-scan.png Graphic file (type png)
 
 <use images/Focus-z-scan.png>
 Package pdftex.def Info: images/Focus-z-scan.png used on input line 32.
 (pdftex.def)             Requested size: 204.94751pt x 228.51974pt.
- <images/Focus-Fractional-Yield.png, id=1271, 578.16pt x 433.62pt>
+ <images/Focus-Fractional-Yield.png, id=1209, 578.16pt x 433.62pt>
 File: images/Focus-Fractional-Yield.png Graphic file (type png)
 
 <use images/Focus-Fractional-Yield.png>
 Package pdftex.def Info: images/Focus-Fractional-Yield.png used on input line 33.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
- [47]
+ [44
+
+
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./images/beam_layout-eps-converted-to.pdf>]
-[49] [50 <./images/Focus-z-scan.png> <./images/Focus-Fractional-Yield.png>]
-<images/imprints/image0025.jpg, id=1329, 1027.84pt x 770.88pt>
+ [45 <./images/beam_layout-eps-converted-to.pdf>]
+[46] [47 <./images/Focus-z-scan.png> <./images/Focus-Fractional-Yield.png>]
+<images/imprints/image0025.jpg, id=1265, 1027.84pt x 770.88pt>
 File: images/imprints/image0025.jpg Graphic file (type jpg)
  <use images/imprints/image0025.jpg>
 Package pdftex.def Info: images/imprints/image0025.jpg used on input line 42.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/image0026.jpg, id=1330, 1027.84pt x 770.88pt>
+<images/imprints/image0026.jpg, id=1266, 1027.84pt x 770.88pt>
 File: images/imprints/image0026.jpg Graphic file (type jpg)
  <use images/imprints/image0026.jpg>
 Package pdftex.def Info: images/imprints/image0026.jpg used on input line 42.
@@ -2583,7 +2579,7 @@ es/imprints/analysis.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/imprints/analysis-eps-converted-to.pdf, id=1331, 289.08pt x 185.69376pt>
+<images/imprints/analysis-eps-converted-to.pdf, id=1267, 289.08pt x 185.69376pt>
 File: images/imprints/analysis-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/imprints/analysis-eps-converted-to.pdf>
@@ -2593,13 +2589,13 @@ Package pdftex.def Info: images/imprints/analysis-eps-converted-to.pdf used on i
 Overfull \vbox (94.93086pt too high) detected at line 42
  []
 
-<images/imprints/image0027.jpg, id=1332, 1027.84pt x 770.88pt>
+<images/imprints/image0027.jpg, id=1268, 1027.84pt x 770.88pt>
 File: images/imprints/image0027.jpg Graphic file (type jpg)
  <use images/imprints/image0027.jpg>
 Package pdftex.def Info: images/imprints/image0027.jpg used on input line 44.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/image0028.jpg, id=1333, 1027.84pt x 770.88pt>
+<images/imprints/image0028.jpg, id=1269, 1027.84pt x 770.88pt>
 File: images/imprints/image0028.jpg Graphic file (type jpg)
  <use images/imprints/image0028.jpg>
 Package pdftex.def Info: images/imprints/image0028.jpg used on input line 44.
@@ -2612,7 +2608,7 @@ Overfull \hbox (31.81973pt too wide) in paragraph at lines 41--47
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./images/imprints/image0025.jpg> <./images/imprints/image0026.jpg> <./images/imprints/analysis-eps-converted-to.pd
+ [48 <./images/imprints/image0025.jpg> <./images/imprints/image0026.jpg> <./images/imprints/analysis-eps-converted-to.pd
 f> <./images/imprints/image0027.jpg> <./images/imprints/image0028.jpg>]
 Package epstopdf Info: Source file: <images/AMO-overview-4.eps>
 (epstopdf)                    date: 2016-11-01 14:38:37
@@ -2624,19 +2620,19 @@ Package epstopdf Info: Source file: <images/AMO-overview-4.eps>
 AMO-overview-4.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
- <images/AMO-overview-4-eps-converted-to.pdf, id=1362, 1625.07124pt x 935.495pt>
+ <images/AMO-overview-4-eps-converted-to.pdf, id=1297, 1625.07124pt x 935.495pt>
 File: images/AMO-overview-4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/AMO-overview-4-eps-converted-to.pdf>
 Package pdftex.def Info: images/AMO-overview-4-eps-converted-to.pdf used on input line 87.
-(pdftex.def)             Requested size: 334.60571pt x 192.6199pt.
- <images/c1-ccd-spec.jpg, id=1366, 1108.8928pt x 627.84563pt>
+(pdftex.def)             Requested size: 376.42744pt x 216.68669pt.
+ <images/c1-ccd-spec.jpg, id=1301, 1108.8928pt x 627.84563pt>
 File: images/c1-ccd-spec.jpg Graphic file (type jpg)
 
 <use images/c1-ccd-spec.jpg>
 Package pdftex.def Info: images/c1-ccd-spec.jpg used on input line 94.
 (pdftex.def)             Requested size: 418.25555pt x 236.81148pt.
- <images/pnCCD-dimensions.jpg, id=1369, 1086.30844pt x 654.19406pt>
+ <images/pnCCD-dimensions.jpg, id=1304, 1086.30844pt x 654.19406pt>
 File: images/pnCCD-dimensions.jpg Graphic file (type jpg)
 
 <use images/pnCCD-dimensions.jpg>
@@ -2647,19 +2643,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--109
 
  []
 
-[52] [53 <./images/AMO-overview-4-eps-converted-to.pdf>]
+[49] [50 <./images/AMO-overview-4-eps-converted-to.pdf>]
 Underfull \vbox (badness 1205) has occurred while \output is active []
 
- [54 <./images/c1-ccd-spec.jpg>] [55 <./images/pnCCD-dimensions.jpg>] <images/pnCCD-detail.png, id=1408, 1102.1175pt x 6
+ [51 <./images/c1-ccd-spec.jpg>] [52 <./images/pnCCD-dimensions.jpg>] <images/pnCCD-detail.png, id=1342, 1102.1175pt x 6
 54.445pt>
 File: images/pnCCD-detail.png Graphic file (type png)
  <use images/pnCCD-detail.png>
 Package pdftex.def Info: images/pnCCD-detail.png used on input line 117.
 (pdftex.def)             Requested size: 334.60571pt x 198.69171pt.
- [56]
+ [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./images/pnCCD-detail.png>]
+ [54 <./images/pnCCD-detail.png>]
 Package epstopdf Info: Source file: <images/amoa1214-querschnitt.eps>
 (epstopdf)                    date: 2016-11-01 16:13:07
 (epstopdf)                    size: 5610786 bytes
@@ -2671,28 +2667,28 @@ mages/amoa1214-querschnitt.eps>
 (epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/amoa1214-querschnitt-eps-converted-to.pdf, id=1423, 1400.23125pt x 650.43pt>
+<images/amoa1214-querschnitt-eps-converted-to.pdf, id=1357, 1400.23125pt x 650.43pt>
 File: images/amoa1214-querschnitt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/amoa1214-querschnitt-eps-converted-to.pdf>
 Package pdftex.def Info: images/amoa1214-querschnitt-eps-converted-to.pdf used on input line 158.
 (pdftex.def)             Requested size: 418.25555pt x 194.2869pt.
- <images/parker-valve.png, id=1436, 1317.92375pt x 461.725pt>
+ <images/parker-valve.png, id=1370, 1317.92375pt x 461.725pt>
 File: images/parker-valve.png Graphic file (type png)
 
 <use images/parker-valve.png>
 Package pdftex.def Info: images/parker-valve.png used on input line 181.
 (pdftex.def)             Requested size: 418.25555pt x 146.52913pt.
- [58] [59 <./images/amoa1214-querschnitt-eps-converted-to.pdf>]
+ [55] [56 <./images/amoa1214-querschnitt-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <./images/parker-valve.png>]
-<images/LCLS-timing-schematic.png, id=1466, 844.1136pt x 329.5512pt>
+ [57 <./images/parker-valve.png>]
+<images/LCLS-timing-schematic.png, id=1400, 844.1136pt x 329.5512pt>
 File: images/LCLS-timing-schematic.png Graphic file (type png)
  <use images/LCLS-timing-schematic.png>
 Package pdftex.def Info: images/LCLS-timing-schematic.png used on input line 195.
 (pdftex.def)             Requested size: 418.25555pt x 163.29176pt.
- [61 <./images/LCLS-timing-schematic.png>]
+ [58 <./images/LCLS-timing-schematic.png>]
 Package epstopdf Info: Source file: <images/gas-jet-flight-times.eps>
 (epstopdf)                    date: 2016-10-30 21:49:11
 (epstopdf)                    size: 60370 bytes
@@ -2703,62 +2699,65 @@ Package epstopdf Info: Source file: <images/gas-jet-flight-times.eps>
 mages/gas-jet-flight-times.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
- <images/gas-jet-flight-times-eps-converted-to.pdf, id=1478, 289.08pt x 179.67125pt>
+ <images/gas-jet-flight-times-eps-converted-to.pdf, id=1412, 289.08pt x 179.67125pt>
 File: images/gas-jet-flight-times-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/gas-jet-flight-times-eps-converted-to.pdf>
 Package pdftex.def Info: images/gas-jet-flight-times-eps-converted-to.pdf used on input line 212.
-(pdftex.def)             Requested size: 418.25555pt x 259.97104pt.
+(pdftex.def)             Requested size: 334.60571pt x 207.97737pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62] [63 <./images/gas-jet-flight-times-eps-converted-to.pdf>] <images/spectrometer.jpg, id=1501, 1485.55pt x 654.445pt
->
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./images/gas-jet-flight-times-eps-converted-to.pdf>] <images/spectrometer.jpg, id=1436, 1485.55pt x 654.445pt>
 File: images/spectrometer.jpg Graphic file (type jpg)
  <use images/spectrometer.jpg>
 Package pdftex.def Info: images/spectrometer.jpg used on input line 248.
 (pdftex.def)             Requested size: 376.42744pt x 165.82774pt.
 
-<images/simion.jpg, id=1505, 1756.5625pt x 738.76pt>
+<images/simion.jpg, id=1440, 1756.5625pt x 738.76pt>
 File: images/simion.jpg Graphic file (type jpg)
  <use images/simion.jpg>
 Package pdftex.def Info: images/simion.jpg used on input line 254.
 (pdftex.def)             Requested size: 376.42744pt x 158.31175pt.
-) [64] [65 <./images/spectrometer.jpg>]
-[66 <./images/simion.jpg>]
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61] [62 <./images/spectrometer.jpg>] [63 <./images/simion.jpg>]
 \openout2 = `methods.aux'.
 
  (methods.tex
 chapter 4.
-<images/daq-architecture.JPG, id=1536, 716.6775pt x 568.37344pt>
+<images/daq-architecture.JPG, id=1470, 716.6775pt x 568.37344pt>
 File: images/daq-architecture.JPG Graphic file (type jpg)
  <use images/daq-architecture.JPG>
 Package pdftex.def Info: images/daq-architecture.JPG used on input line 18.
 (pdftex.def)             Requested size: 418.25555pt x 331.71225pt.
- [67
+ [64
 
 
 
-
-] [68 <./images/daq-architecture.JPG>] <images/pnCCD-electronic-noise.png, id=1553, 578.16pt x 433.62pt>
+] [65 <./images/daq-architecture.JPG>] <images/pnCCD-electronic-noise.png, id=1487, 578.16pt x 433.62pt>
 File: images/pnCCD-electronic-noise.png Graphic file (type png)
 
 <use images/pnCCD-electronic-noise.png>
 Package pdftex.def Info: images/pnCCD-electronic-noise.png used on input line 36.
-(pdftex.def)             Requested size: 334.60571pt x 250.9506pt.
+(pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--55
 
  []
 
-[69] [70 <./images/pnCCD-electronic-noise.png>] [71]
-<images/pnCCD-image-geometry.png, id=1577, 1031.855pt x 1535.7375pt>
+[66] [67 <./images/pnCCD-electronic-noise.png>] [68]
+<images/pnCCD-image-geometry.png, id=1512, 1031.855pt x 1535.7375pt>
 File: images/pnCCD-image-geometry.png Graphic file (type png)
  <use images/pnCCD-image-geometry.png>
 Package pdftex.def Info: images/pnCCD-image-geometry.png used on input line 85.
 (pdftex.def)             Requested size: 334.60571pt x 497.98398pt.
 
-<images/pnCCD-1d-sum.png, id=1579, 578.16pt x 433.62pt>
+<images/pnCCD-1d-sum.png, id=1514, 578.16pt x 433.62pt>
 File: images/pnCCD-1d-sum.png Graphic file (type png)
  <use images/pnCCD-1d-sum.png>
 Package pdftex.def Info: images/pnCCD-1d-sum.png used on input line 92.
@@ -2766,7 +2765,7 @@ Package pdftex.def Info: images/pnCCD-1d-sum.png used on input line 92.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72] [73 <./images/pnCCD-image-geometry.png>]
+ [69] [70 <./images/pnCCD-image-geometry.png>]
 Package epstopdf Info: Source file: <images/electron-density-convoluted-object.eps>
 (epstopdf)                    date: 2016-10-06 16:18:23
 (epstopdf)                    size: 152925 bytes
@@ -2778,7 +2777,7 @@ erted-to.pdf images/electron-density-convoluted-object.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/electron-density-convoluted-object-eps-converted-to.pdf, id=1596, 289.08pt x 183.68625pt>
+<images/electron-density-convoluted-object-eps-converted-to.pdf, id=1531, 289.08pt x 183.68625pt>
 File: images/electron-density-convoluted-object-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/electron-density-convoluted-object-eps-converted-to.pdf>
@@ -2795,7 +2794,7 @@ o.pdf images/beam-convoluted-with-object.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/beam-convoluted-with-object-eps-converted-to.pdf, id=1597, 394.47375pt x 247.92625pt>
+<images/beam-convoluted-with-object-eps-converted-to.pdf, id=1532, 394.47375pt x 247.92625pt>
 File: images/beam-convoluted-with-object-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/beam-convoluted-with-object-eps-converted-to.pdf>
@@ -2804,35 +2803,33 @@ Package pdftex.def Info: images/beam-convoluted-with-object-eps-converted-to.pdf
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74 <./images/pnCCD-1d-sum.png>]
+ [71 <./images/pnCCD-1d-sum.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75 <./images/electron-density-convoluted-object-eps-converted-to.pdf> <./images/beam-convoluted-with-object-eps-conver
+ [72 <./images/electron-density-convoluted-object-eps-converted-to.pdf> <./images/beam-convoluted-with-object-eps-conver
 ted-to.pdf>]
-<images/phase-retrieval-algorithm.jpg, id=1637, 963.6pt x 542.025pt>
-File: images/phase-retrieval-algorithm.jpg Graphic file (type jpg)
- <use images/phase-retrieval-algorithm.jpg>
-Package pdftex.def Info: images/phase-retrieval-algorithm.jpg used on input line 146.
-(pdftex.def)             Requested size: 334.60571pt x 188.2146pt.
+<images/phase-retrieval-algorithm.png, id=1572, 738.1176pt x 267.8808pt>
+File: images/phase-retrieval-algorithm.png Graphic file (type png)
+ <use images/phase-retrieval-algorithm.png>
+Package pdftex.def Info: images/phase-retrieval-algorithm.png used on input line 146.
+(pdftex.def)             Requested size: 334.60571pt x 121.43633pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77 <./images/phase-retrieval-algorithm.jpg>]
-[78] <images/Phase-retrieval-image.png, id=1680, 2055.68pt x 679.53876pt>
+ [73] [74 <./images/phase-retrieval-algorithm.png>]
+<images/Phase-retrieval-image.png, id=1608, 2055.68pt x 679.53876pt>
 File: images/Phase-retrieval-image.png Graphic file (type png)
  <use images/Phase-retrieval-image.png>
 Package pdftex.def Info: images/Phase-retrieval-image.png used on input line 203.
 (pdftex.def)             Requested size: 334.60571pt x 110.6052pt.
 
-<images/Phase-retrieval-error.png, id=1681, 811.5921pt x 343.2825pt>
+<images/Phase-retrieval-error.png, id=1609, 811.5921pt x 343.2825pt>
 File: images/Phase-retrieval-error.png Graphic file (type png)
  <use images/Phase-retrieval-error.png>
 Package pdftex.def Info: images/Phase-retrieval-error.png used on input line 204.
 (pdftex.def)             Requested size: 235.42998pt x 99.58464pt.
- [79 <./images/Phase-retrieval-image.png (PNG copy)> <./images/Phase-retrieval-error.png>]
+ [75]
+[76 <./images/Phase-retrieval-image.png (PNG copy)> <./images/Phase-retrieval-error.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 227--234
 
  []
@@ -2840,7 +2837,524 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--234
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
+ [77]
 Package epstopdf Info: Source file: <images/cluster-generation-2D.eps>
 (epstopdf)                    date: 2016-10-11 17:42:16
-(epstopdf
+(epstopdf)                    size: 6087564 bytes
+(epstopdf)             Output file: <images/cluster-generation-2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 11930639 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/cluster-generation-2D-eps-converted-to.pdf 
+images/cluster-generation-2D.eps>
+(epstopdf)             \includegraphics on input line 250.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/cluster-generation-2D-eps-converted-to.pdf, id=1644, 318.18875pt x 173.64874pt>
+File: images/cluster-generation-2D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/cluster-generation-2D-eps-converted-to.pdf>
+Package pdftex.def Info: images/cluster-generation-2D-eps-converted-to.pdf used on input line 250.
+(pdftex.def)             Requested size: 204.94751pt x 111.84756pt.
+Package epstopdf Info: Source file: <images/cluster-generation-1D.eps>
+(epstopdf)                    date: 2016-10-11 17:42:16
+(epstopdf)                    size: 172293 bytes
+(epstopdf)             Output file: <images/cluster-generation-1D-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 13991 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/cluster-generation-1D-eps-converted-to.pdf 
+images/cluster-generation-1D.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/cluster-generation-1D-eps-converted-to.pdf, id=1645, 289.08pt x 189.70876pt>
+File: images/cluster-generation-1D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/cluster-generation-1D-eps-converted-to.pdf>
+Package pdftex.def Info: images/cluster-generation-1D-eps-converted-to.pdf used on input line 251.
+(pdftex.def)             Requested size: 204.94751pt x 134.4973pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Package epstopdf Info: Source file: <images/cluster-sphere-intact.eps>
+(epstopdf)                    date: 2016-10-11 17:42:16
+(epstopdf)                    size: 334172 bytes
+(epstopdf)             Output file: <images/cluster-sphere-intact-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 33071 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/cluster-sphere-intact-eps-converted-to.pdf 
+images/cluster-sphere-intact.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/cluster-sphere-intact-eps-converted-to.pdf, id=1654, 425.59pt x 265.99374pt>
+File: images/cluster-sphere-intact-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/cluster-sphere-intact-eps-converted-to.pdf>
+Package pdftex.def Info: images/cluster-sphere-intact-eps-converted-to.pdf used on input line 268.
+(pdftex.def)             Requested size: 334.60571pt x 209.13835pt.
+ [79 <./images/cluster-generation-2D-eps-converted-to.pdf> <./images/cluster-generation-1D-eps-converted-to.pdf>]
+<images/Acqiris-waveform-readout.png, id=61865, 695.59875pt x 305.14pt>
+File: images/Acqiris-waveform-readout.png Graphic file (type png)
+ <use images/Acqiris-waveform-readout.png>
+Package pdftex.def Info: images/Acqiris-waveform-readout.png used on input line 284.
+(pdftex.def)             Requested size: 204.94751pt x 89.90376pt.
+Package epstopdf Info: Source file: <images/firstDataPoint.eps>
+(epstopdf)                    date: 2016-10-13 16:15:04
+(epstopdf)                    size: 782382 bytes
+(epstopdf)             Output file: <images/firstDataPoint-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 22586 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/firstDataPoint-eps-converted-to.pdf images/
+firstDataPoint.eps>
+(epstopdf)             \includegraphics on input line 285.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/firstDataPoint-eps-converted-to.pdf, id=61866, 578.16pt x 433.62pt>
+File: images/firstDataPoint-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/firstDataPoint-eps-converted-to.pdf>
+Package pdftex.def Info: images/firstDataPoint-eps-converted-to.pdf used on input line 285.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+Package epstopdf Info: Source file: <images/TOF-trace-light-peak.eps>
+(epstopdf)                    date: 2016-10-13 15:49:22
+(epstopdf)                    size: 1466142 bytes
+(epstopdf)             Output file: <images/TOF-trace-light-peak-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 157760 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/TOF-trace-light-peak-eps-converted-to.pdf i
+mages/TOF-trace-light-peak.eps>
+(epstopdf)             \includegraphics on input line 292.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/TOF-trace-light-peak-eps-converted-to.pdf, id=61873, 578.16pt x 433.62pt>
+File: images/TOF-trace-light-peak-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/TOF-trace-light-peak-eps-converted-to.pdf>
+Package pdftex.def Info: images/TOF-trace-light-peak-eps-converted-to.pdf used on input line 292.
+(pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80 <./images/cluster-sphere-intact-eps-converted-to.pdf>] [81 <./images/Acqiris-waveform-readout.png> <./images/firstD
+ataPoint-eps-converted-to.pdf>] [82 <./images/TOF-trace-light-peak-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/filter-size.eps>
+(epstopdf)                    date: 2016-10-06 13:34:02
+(epstopdf)                    size: 103319 bytes
+(epstopdf)             Output file: <images/filter-size-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 8859 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/filter-size-eps-converted-to.pdf images/fil
+ter-size.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+ <images/filter-size-eps-converted-to.pdf, id=61920, 289.08pt x 190.7125pt>
+File: images/filter-size-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/filter-size-eps-converted-to.pdf>
+Package pdftex.def Info: images/filter-size-eps-converted-to.pdf used on input line 309.
+(pdftex.def)             Requested size: 204.94751pt x 135.20892pt.
+Package epstopdf Info: Source file: <images/filter-sum-frontpnCCD.eps>
+(epstopdf)                    date: 2016-10-05 18:01:44
+(epstopdf)                    size: 107131 bytes
+(epstopdf)             Output file: <images/filter-sum-frontpnCCD-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 9767 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/filter-sum-frontpnCCD-eps-converted-to.pdf 
+images/filter-sum-frontpnCCD.eps>
+(epstopdf)             \includegraphics on input line 310.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/filter-sum-frontpnCCD-eps-converted-to.pdf, id=61921, 289.08pt x 191.71625pt>
+File: images/filter-sum-frontpnCCD-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/filter-sum-frontpnCCD-eps-converted-to.pdf>
+Package pdftex.def Info: images/filter-sum-frontpnCCD-eps-converted-to.pdf used on input line 310.
+(pdftex.def)             Requested size: 204.94751pt x 135.92056pt.
+) [83 <./images/filter-size-eps-converted-to.pdf> <./images/filter-sum-frontpnCCD-eps-converted-to.pdf>] [84]
+\openout2 = `results.aux'.
+
+ (results.tex
+chapter 5.
+<images/size-distributions.pdf, id=61961, 289.08pt x 212.6344pt>
+File: images/size-distributions.pdf Graphic file (type pdf)
+ <use images/size-distributions.pdf>
+Package pdftex.def Info: images/size-distributions.pdf used on input line 20.
+(pdftex.def)             Requested size: 313.69167pt x 230.7481pt.
+Package epstopdf Info: Source file: <images/results/number-of-scatterer.eps>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 111953 bytes
+(epstopdf)             Output file: <images/results/number-of-scatterer-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 10785 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/results/number-of-scatterer-eps-converted-t
+o.pdf images/results/number-of-scatterer.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/results/number-of-scatterer-eps-converted-to.pdf, id=61967, 289.08pt x 174.6525pt>
+File: images/results/number-of-scatterer-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/results/number-of-scatterer-eps-converted-to.pdf>
+Package pdftex.def Info: images/results/number-of-scatterer-eps-converted-to.pdf used on input line 28.
+(pdftex.def)             Requested size: 334.60571pt x 202.16797pt.
+
+Overfull \hbox (6.98837pt too wide) in paragraph at lines 15--33
+\T1/cmr/m/n/10.95 shot diffrac-tion pat-terns of xenon clus-ter to in-ves-ti-gate the nanoplasma tran-si-tion. Thereby
+ []
+
+[85
+
+
+
+]
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+ [86 <./images/size-distributions.pdf>]
+<images/results/Xe-diff-pattern.png, id=61994, 819.06pt x 295.1025pt>
+File: images/results/Xe-diff-pattern.png Graphic file (type png)
+ <use images/results/Xe-diff-pattern.png>
+Package pdftex.def Info: images/results/Xe-diff-pattern.png used on input line 41.
+(pdftex.def)             Requested size: 418.25555pt x 150.6984pt.
+Package epstopdf Info: Source file: <images/results/Xe-reconstructions.eps>
+(epstopdf)                    date: 2016-11-11 17:32:41
+(epstopdf)                    size: 57580 bytes
+(epstopdf)             Output file: <images/results/Xe-reconstructions-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-06 17:39:44
+(epstopdf)                    size: 8391 bytes
+(epstopdf)             Command: <epstopdf --pdf-version 1.4 --outfile=images/results/Xe-reconstructions-eps-converted-to
+.pdf images/results/Xe-reconstructions.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/results/Xe-reconstructions-eps-converted-to.pdf, id=62007, 370.38374pt x 231.86626pt>
+File: images/results/Xe-reconstructions-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/results/Xe-reconstructions-eps-converted-to.pdf>
+Package pdftex.def Info: images/results/Xe-reconstructions-eps-converted-to.pdf used on input line 54.
+(pdftex.def)             Requested size: 334.60571pt x 209.4702pt.
+
+<images/results/amplitude-discussion.png, id=62010, 578.16pt x 433.62pt>
+File: images/results/amplitude-discussion.png Graphic file (type png)
+ <use images/results/amplitude-discussion.png>
+Package pdftex.def Info: images/results/amplitude-discussion.png used on input line 63.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+
+<images/results/phase-discussion.png, id=62011, 578.16pt x 433.62pt>
+File: images/results/phase-discussion.png Graphic file (type png)
+ <use images/results/phase-discussion.png>
+Package pdftex.def Info: images/results/phase-discussion.png used on input line 64.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+
+<images/results/Xe_0_fs.png, id=62015, 578.16pt x 433.62pt>
+File: images/results/Xe_0_fs.png Graphic file (type png)
+ <use images/results/Xe_0_fs.png>
+Package pdftex.def Info: images/results/Xe_0_fs.png used on input line 72.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+
+<images/results/Xe_800_fs.png, id=62016, 578.16pt x 433.62pt>
+File: images/results/Xe_800_fs.png Graphic file (type png)
+ <use images/results/Xe_800_fs.png>
+Package pdftex.def Info: images/results/Xe_800_fs.png used on input line 73.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
+ [87 <./images/results/number-of-scatterer-eps-converted-to.pdf>]
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+ [88 <./images/results/Xe-diff-pattern.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89 <./images/results/Xe-reconstructions-eps-converted-to.pdf>] <images/results/TOF-atomic-xenon.png, id=62055, 578.16p
+t x 433.62pt>
+File: images/results/TOF-atomic-xenon.png Graphic file (type png)
+
+<use images/results/TOF-atomic-xenon.png>
+Package pdftex.def Info: images/results/TOF-atomic-xenon.png used on input line 88.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+
+<images/results/atomic-charge-state-time-resolved.pdf, id=62056, 578.16pt x 433.62pt>
+File: images/results/atomic-charge-state-time-resolved.pdf Graphic file (type pdf)
+
+<use images/results/atomic-charge-state-time-resolved.pdf>
+Package pdftex.def Info: images/results/atomic-charge-state-time-resolved.pdf used on input line 89.
+(pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90 <./images/results/amplitude-discussion.png> <./images/results/phase-discussion.png>]
+Overfull \hbox (6.06139pt too wide) in paragraph at lines 93--113
+\T1/cmr/m/n/10.95 Ion time of flight traces of atomic xenon at dif-fer-ent time de-lays $\OT1/cmr/m/n/10.95 \OML/cmm/m/
+it/10.95 t \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 120\OM
+L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 250\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 400\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/
+10.95 800\OMS/cmsy/m/n/10.95 g$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--113
+
+ []
+
+<images/results/TOF-helium-cluster.png, id=62065, 578.16pt x 433.62pt>
+File: images/results/TOF-helium-cluster.png Graphic file (type png)
+ <use images/results/TOF-helium-cluster.png>
+Package pdftex.def Info: images/results/TOF-helium-cluster.png used on input line 119.
+(pdftex.def)             Requested size: 271.86356pt x 203.89406pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91 <./images/results/Xe_0_fs.png> <./images/results/Xe_800_fs.png>] <images/results/TOF-helium-xenon-cluster-60.png, i
+d=62081, 578.16pt x 433.62pt>
+File: images/results/TOF-helium-xenon-cluster-60.png Graphic file (type png)
+
+<use images/results/TOF-helium-xenon-cluster-60.png>
+Package pdftex.def Info: images/results/TOF-helium-xenon-cluster-60.png used on input line 130.
+(pdftex.def)             Requested size: 271.86356pt x 203.89406pt.
+
+<images/results/TOF-helium-xenon-cluster-13.png, id=62087, 578.16pt x 433.62pt>
+File: images/results/TOF-helium-xenon-cluster-13.png Graphic file (type png)
+
+<use images/results/TOF-helium-xenon-cluster-13.png>
+Package pdftex.def Info: images/results/TOF-helium-xenon-cluster-13.png used on input line 138.
+(pdftex.def)             Requested size: 271.86356pt x 203.89406pt.
+ [92 <./images/results/TOF-atomic-xenon.png> <./images/results/atomic-charge-state-time-resolved.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93 <./images/results/TOF-helium-cluster.png>]
+[94 <./images/results/TOF-helium-xenon-cluster-60.png>]
+Underfull \vbox (badness 2012) has occurred while \output is active []
+
+ [95 <./images/results/TOF-helium-xenon-cluster-13.png>] <images/results/plum-pudding.png, id=62135, 535.7616pt x 697.16
+46pt>
+File: images/results/plum-pudding.png Graphic file (type png)
+ <use images/results/plum-pudding.png>
+Package pdftex.def Info: images/results/plum-pudding.png used on input line 154.
+(pdftex.def)             Requested size: 334.60571pt x 435.40765pt.
+ [96]
+[97 <./images/results/plum-pudding.png>]
+<images/results/reconstructions-to-simulations.png, id=62151, 933.7284pt x 514.0806pt>
+File: images/results/reconstructions-to-simulations.png Graphic file (type png)
+
+<use images/results/reconstructions-to-simulations.png>
+Package pdftex.def Info: images/results/reconstructions-to-simulations.png used on input line 169.
+(pdftex.def)             Requested size: 334.60571pt x 184.2217pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+<images/results/simulations-damage-explain.pdf, id=62160, 616.70403pt x 385.04654pt>
+File: images/results/simulations-damage-explain.pdf Graphic file (type pdf)
+
+<use images/results/simulations-damage-explain.pdf>
+Package pdftex.def Info: images/results/simulations-damage-explain.pdf used on input line 192.
+(pdftex.def)             Requested size: 334.60571pt x 208.91496pt.
+
+<images/results/HeXe-densities-113-05-doping-and-reconstruction.png, id=62166, 542.025pt x 813.2784pt>
+File: images/results/HeXe-densities-113-05-doping-and-reconstruction.png Graphic file (type png)
+
+<use images/results/HeXe-densities-113-05-doping-and-reconstruction.png>
+Package pdftex.def Info: images/results/HeXe-densities-113-05-doping-and-reconstruction.png used on input line 201.
+(pdftex.def)             Requested size: 113.7707pt x 170.71652pt.
+
+<images/results/HeXe-cluster-113-0-5-doping.pdf, id=62167, 633.56702pt x 395.57484pt>
+File: images/results/HeXe-cluster-113-0-5-doping.pdf Graphic file (type pdf)
+
+<use images/results/HeXe-cluster-113-0-5-doping.pdf>
+Package pdftex.def Info: images/results/HeXe-cluster-113-0-5-doping.pdf used on input line 202.
+(pdftex.def)             Requested size: 273.42426pt x 170.71652pt.
+ [99 <./images/results/reconstructions-to-simulations.png>] [100 <./images/results/simulations-damage-explain.pdf>] [101
+ <./images/results/HeXe-densities-113-05-doping-and-reconstruction.png> <./images/results/HeXe-cluster-113-0-5-doping.pd
+f>]
+<images/results/He-diffraction-patterns.png, id=62206, 908.193pt x 308.352pt>
+File: images/results/He-diffraction-patterns.png Graphic file (type png)
+
+<use images/results/He-diffraction-patterns.png>
+Package pdftex.def Info: images/results/He-diffraction-patterns.png used on input line 218.
+(pdftex.def)             Requested size: 418.25555pt x 142.0036pt.
+
+<images/results/HeXe-comparison-0-800-fs.png, id=62209, 946.2552pt x 304.4976pt>
+File: images/results/HeXe-comparison-0-800-fs.png Graphic file (type png)
+
+<use images/results/HeXe-comparison-0-800-fs.png>
+Package pdftex.def Info: images/results/HeXe-comparison-0-800-fs.png used on input line 225.
+(pdftex.def)             Requested size: 418.25555pt x 134.58801pt.
+) [102 <./images/results/He-diffraction-patterns.png>]
+Underfull \vbox (badness 5064) has occurred while \output is active []
+
+ [103 <./images/results/HeXe-comparison-0-800-fs.png>] [104]
+\openout2 = `summary_outlook.aux'.
+
+ (summary_outlook.tex
+chapter 6.
+) [105
+
+
+
+] [106]
+\openout2 = `appendix.aux'.
+
+ (appendix.tex
+chapter 7.
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [107
+
+
+
+]
+(C:\Users\buchermj\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (manuals/combination.py [108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109])) [110]
+\openout2 = `bibliography.aux'.
+
+ (bibliography.tex (main.bbl
+chapter 8.
+[111
+
+
+
+] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+Underfull \hbox (badness 10000) in paragraph at lines 925--935
+\T1/cmtt/m/n/10.95 41 / i = 18 / a = 181001 ? key = crossref . 8294ba41a32aa89b0a6ec0f8b550687f$ \
+ []
+
+[123] [124] [125] [126] [127]
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1293
+[]$\T1/cmtt/m/n/10.95 http : / / www . opticsinfobase . org . ezproxy . lib . purdue . edu / viewmedia . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1293
+\T1/cmtt/m/n/10.95 uri = ao-[]21-[]15-[]2758{&}seq = 0{&}html = true$ \ delimiter"026E30F$npapers3 :
+ []
+
+[128] [129])) [130]
+\openout2 = `publications.aux'.
+
+ (publications.tex
+chapter A.
+
+Overfull \hbox (3.39099pt too wide) in paragraph at lines 5--6
+\T1/cmr/m/n/10.95 Fukuzawa, Ja-son E. Koglin, Yoshi-aki Ku-ma-gai, Al-berto Lut-man, Agostino Marinelli,
+ []
+
+
+Overfull \hbox (13.26181pt too wide) in paragraph at lines 5--6
+\T1/cmr/m/n/10.95 Marc Messer-schmidt, Kiy-onobu Na-gaya, Jim Turner, Kiyoshi Ueda, Garth J. Williams,
+ []
+
+
+Overfull \hbox (4.92267pt too wide) in paragraph at lines 8--9
+[]\T1/cmr/m/n/10.95 A. Picón, C. S. Lehmann, C. Bost-edt, A. Rudenko, A. Marinelli, T. Os-ipov, D. Rolles,
+ []
+
+[1
+
+
+
+]
+Overfull \hbox (3.65955pt too wide) in paragraph at lines 10--11
+\T1/cmr/m/n/10.95 Al-berto Lut-man, Daniel Rat-ner, Ryan N Cof-fee, Max-i-m-il-ian Bucher, Melanie Mucke,
+ []
+
+
+Overfull \hbox (10.01721pt too wide) in paragraph at lines 10--11
+\T1/cmr/m/n/10.95 Mar-cus Agaker, Conny Sathe, Christoph Bost-edt, Joseph Nord-gren, Jan-Erik Rubens-
+ []
+
+) [2]
+\openout2 = `disclaimer.aux'.
+
+ (disclaimer.tex
+chapter B.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 13.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+)
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 16--132
+[] 
+ []
+
+[3
+
+
+
+]
+\openout2 = `acknowledgment.aux'.
+
+ (acknowledgment.tex
+chapter C.
+)
+Package atenddvi Info: Last page = 142.
+ [4
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 135.
+ (main.aux (titlepage.aux) (license.aux) (abstract.aux) (introduction.aux) (fundamental_concepts.aux)
+(experimental_setup.aux) (methods.aux) (results.aux) (summary_outlook.aux) (appendix.aux) (bibliography.aux)
+(publications.aux) (disclaimer.aux) (acknowledgment.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F5A7C91F67307705853174379F084C37;5409.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
+ ) 
+Here is how much of TeX's memory you used:
+ 27704 strings out of 493334
+ 466378 string characters out of 3139243
+ 707410 words of memory out of 3000000
+ 29979 multiletter control sequences out of 15000+200000
+ 26505 words of font info for 61 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,20n,77p,10441b,2532s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk> <C:\Users\buchermj\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+cc0900.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\bucherm
+j\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0500.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\tcrm1095.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users
+\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\buchermj\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecsl1095.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <
+C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Users\buchermj\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ectt1095.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
+95.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk> <C:\Users\buchermj\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecrm1200.pk> <C:\Users\buchermj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Users/buch
+ermj/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/ccicons/ccicons.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (142 pages, 24243757 bytes).
+PDF statistics:
+ 63806 PDF objects out of 66169 (max. 8388607)
+ 673 named destinations out of 1000 (max. 500000)
+ 820 words of extra memory for PDF output out of 10000 (max. 10000000)
+

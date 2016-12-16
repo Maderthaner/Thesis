@@ -35,7 +35,7 @@ The X-ray beam then travels through a set of 4 blades (S) that can be moved inde
 	\label{fig:Focus-z-scan}
 \end{figure}
 The KB optics focus the X-ray beam into the interaction region. The optics consist of two 400 mm long silicon (Si) substrates that are coated with boron carbide (B4C). They reflect the X-rays in grazing incidence at 13.85 mrad and are sometimes called KB mirrors. One mirror reflects the beam in the horizontal and the other reflects the beam in the vertical. As the mirrors are located at different positions, the mirrors are designed to have a focal length of 1600 mm in the horizontal and 1100 mm in the vertical. Additionally, the mirrors are bent to change their focusing position along the Z-axis\footnote{The LCLS uses a right-handed coordinate system, where the index finger (Y-axis) points up and the middle finger (Z-axis) points parallel to the X-ray beam.} and through 1) the study of time-of-flight (TOF)\index{time-of-flight} mass-spectroscopy \citep{Bucher-2016-Unpublished} or 2) imprint analysis\index{imprint} \citep{Hajkova-2011-SPIE,Chalupsky-2011-NIMPR} the focus can be characterized. A study and manipulation of the X-ray focus is necessary to achieve small X-ray focii that increase the fluence of the sample interaction region, which is desired in coherent diffractive imaging as thus more photons scatter from the sample and, ideally, to understand the coherent wavefront that creates an image of the particle better.
-\subsubsection{1) focus characterization using a TOF spectrometer}
+\subsection{Focus characterization using a TOF spectrometer}
 Figure \ref{fig:Focus-z-scan} left shows a focus characterization along the Z-axis using a TOF spectrometer. The fractional neon ion yield per charge state is summed and plotted as a function of Z-position. An area of 2 mm around $\text{Z}=0$ mm could be determined as useful operating condition. Figure \ref{fig:Focus-z-scan} right, compares fractional neon ion yield at optimal focus position from November 2013 \citep{Bucher-2016-Unpublished} to October 2009 \citep{Doumy-2011-PRL}. The comparison reveals that high charge states of neon, for example $Ne^{8+}$ and $Ne^{9+}$, are less frequent due to deteriorated beamline optics.\\
 \begin{figure}
 \begin{tabular}{ccc}
@@ -47,7 +47,7 @@ Figure \ref{fig:Focus-z-scan} left shows a focus characterization along the Z-ax
 \caption[Focal spot analysis via an ex-situ microscope imprint study.]{a)-d), ex-situ microscope imprint study of a lead tungstate\index{lead tungstate} ($\text{PbWO}_{4}$) sample that was irradiated with single LCLS pulses at 1600 eV at different gas attenuation using the LCLS gas attenuator. e) non-linearity in Liu plot due to LCLS's super-gaussian beam profile. The approximate FWHM can be determined from the slope of the linear fits, see more in text.}
 \label{fig:imprint-study}
 \end{figure}
-\subsubsection{2) Focus characterization using an imprint study}
+\subsection{Focus characterization via imprint study}
 Figure \ref{fig:imprint-study} left shows images from a microscope of how a LCLS X-ray pulse at 1600eV interacts with a lead tungstate ($\text{PbWO}_{4}$)\index{lead tungstate} sample at different transmission values T. We can describe the energy fluence E(r) as
 \begin{equation}
 E(r) = E_{0} e^{\frac{-r^{2}}{2 \sigma^{2}}} 
@@ -84,7 +84,7 @@ However, for the described experiment in this thesis, the X-ray beam focal size 
 %%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-		\includegraphics[width=0.80\textwidth]{images/AMO-overview-4.eps}
+		\includegraphics[width=0.90\textwidth]{images/AMO-overview-4.eps}
 	\caption[Overview of the AMO instrument in the LAMP end-station configuration.]{Overview of the AMO instrument in the LAMP end-station configuration. From left to right, the beam propagates through the Kirkpatrick-Baez (KB) optics, the differential pumping (DP) section, the interaction chamber (C1), the front pnCCD chamber (C2-1), the rear pnCCD chamber (C2-2) and finally the diagnostics stand (DIA). The xenon jet is installed including the manipulator that holds the Parker valve, the Xe source chamber and the Xe skimmmer chamber. The helium jet is not included in this drawing but mounted perpendicular to the Xe jet and the vacuum pumps have not been installed as shown here. For scale, the large, open conflat flanges on the C1 chamber are 12 inch.}
 	\label{fig:LAMP-overview}
 \end{figure}
@@ -209,7 +209,7 @@ with $t_{\text{delay}}$ being the delay value for the LCLS EVR control system an
 with the universal gas constant R, the temperature in the stagnation chamber $T_{0}$ and the ratio of specific heats $\gamma = \frac{c_{P}}{c_{V}}$, which is $\gamma = \frac{5}{3}$ for monoatomic gases such as rare gases. The flight time of a certain gas can then be calculated by measuring the distance $d$ between the source and the interaction region (IR), thus $t_{\text{gas flight time}}=\frac{d}{v_{\infty}}$. The approach may be extended to approximate flight times of molecules, e.g. using the mass of CO $m=28$ amu, and also to gas mixtures, for example the mass of a $2\%$ xenon-131 and $98\%$ helium-4 gas mixture can be estimated using a weighted average according to their relative contributions, thus  $m = 6.54$ amu.\\
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/gas-jet-flight-times.eps}
+		\includegraphics[width=0.80\textwidth]{images/gas-jet-flight-times.eps}
 	\caption[Event receiver time delay at LCLS for supersonic gas jets.]{$t_{\text{delay}}$ as a function of the gas source distance to the interaction region. Xenon and argon has been used as sample gas in an Even-Lavie pulsed valve. The calculated delay values (solid lines) agree well with the measured delay times (dashed lines) to overlap the onset of the pulsed jet with the laser.}
 	\label{fig:LCLS-delay-data}
 \end{figure}
@@ -271,7 +271,7 @@ A side view of the spectrometer can be found in figure \ref{fig:simion}. Ion, el
 	Flat lens \#3 & -1639 & Flight tube & 2736 \\ \hline
 	Flight tube & -1714 & - & - \\ \hline
 \end{tabular}
-\caption{Set voltages to the time of flight spectrometer. Ion side use only.}
+\caption{Applied voltages to the time of flight spectrometer. Ion side use only.}
 \label{tab:tof-volategs}
 \end{table}
 %

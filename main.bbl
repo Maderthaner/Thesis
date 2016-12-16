@@ -1,65 +1,73 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{144}
+\begin{thebibliography}{153}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Agi(2007)]{Acqiris-manual}
-\emph{Agilent Acqiris Programmer's guide}.
-\newblock Agilent Technologies, xz130 edition, June 2007.
-\newblock URL
-  \url{https://github.com/Maderthaner/Thesis/blob/master/manuals/U10xx_ProgrammersGuide.pdf}.
-\newblock URL tested on October 13, 2016.
+\bibitem[R\"ontgen(1901)]{Roentgen-NP}
+Wilhelm~Conrad R\"ontgen.
+\newblock The nobel price in physics.
+\newblock The Nobel Foundation, 1901.
+\newblock "`in recognition of the extraordinary services he has rendered by the
+  discovery of the remarkable rays subsequently named after him"'.
 
-\bibitem[Al-Haddad et~al.(2016-2018)Al-Haddad, Picon, Bucher, Doumy, Luttmann,
-  Marinelli, Maxwell, Moeller, Ray, Osipov, Pratt, Young, Southworth, and
-  Bostedt]{Al-Haddad-2017-unpublished}
-A.~Al-Haddad, A.~Picon, M.~Bucher, G.~Doumy, A.~Luttmann, A.~Marinelli,
-  T.~Maxwell, S.~Moeller, D.~Ray, T.~Osipov, S.~Pratt, L.~Young, S.~Southworth,
-  and C.~Bostedt.
-\newblock Working title: Measurement of the ultrafast electronic
-  reconfiguration in atomic co after ionization.
-\newblock unpublished work, 2016-2018.
+\bibitem[Siegbahn(1924)]{Siegbahn-NP}
+Karl Manne~Georg Siegbahn.
+\newblock The nobel price in physics.
+\newblock The Nobel Foundation, 1924.
+\newblock "`for his discoveries and research in the field of X-ray
+  spectroscopy"'.
 
-\bibitem[Alcalde et~al.(2012)Alcalde, Bucher, Emary, and
-  Brandes]{Alcalde-2012-PRE}
-M.~A. Alcalde, M.~Bucher, C.~Emary, and T.~Brandes.
-\newblock {Thermal phase transitions for Dicke-type models in the
-  ultrastrong-coupling limit}.
-\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
-  Physics}, 86\penalty0 (1):\penalty0 4--7, 2012.
-\newblock ISSN 15393755.
-\newblock \doi{10.1103/PhysRevE.86.012101}.
+\bibitem[von Laue(1914)]{Laue-NP}
+Max von Laue.
+\newblock The nobel price in physics.
+\newblock The Nobel Foundation, 1914.
+\newblock "`for his discovery of the diffraction of X-rays by crystals"'.
 
-\bibitem[Allaria et~al.(2012)Allaria, Appio, Badano, Barletta, Bassanese,
-  Biedron, Borga, Busetto, Castronovo, Cinquegrana,
-  et~al.]{Allaria-2012-NatPho}
-E.~Allaria, R.~Appio, L.~Badano, W.~A. Barletta, S.~Bassanese, S.~G. Biedron,
-  A.~Borga, E.~Busetto, D.~Castronovo, P.~Cinquegrana, et~al.
-\newblock Highly coherent and stable pulses from the fermi seeded free-electron
-  laser in the extreme ultraviolet.
-\newblock \emph{Nat. Photonics}, 6\penalty0 (10):\penalty0 699--704, 2012.
-\newblock ISSN 1749-4885.
-\newblock \doi{10.1038/nphoton.2012.233}.
-\newblock URL \url{<Go to ISI>://WOS:000309523900018}.
+\bibitem[Bragg and Bragg(1915)]{Bragg-NP}
+Sir William~Henry Bragg and William~Lawrence Bragg.
+\newblock The nobel price in physics.
+\newblock The Nobel Foundation, 1915.
+\newblock "`for their services in the analysis of crystal structure by means of
+  X-rays"'.
 
-\bibitem[Als-Nielsen and McMorrow(2011)]{Als-Nielson-2011-JWS}
-J.~Als-Nielsen and D.~McMorrow.
-\newblock \emph{Elements of modern X-ray physics}.
-\newblock John Wiley \& Sons, 2011.
+\bibitem[Ackermann et~al.(2007)Ackermann, Asova, Ayvazyan, Azima, Baboi,
+  B{\"a}hr, Balandin, Beutner, Brandt, Bolzmann, et~al.]{Ackermann-2007-NPho}
+Wet~al Ackermann, G~Asova, V~Ayvazyan, A~Azima, N~Baboi, J~B{\"a}hr,
+  V~Balandin, B~Beutner, A~Brandt, A~Bolzmann, et~al.
+\newblock Operation of a free-electron laser from the extreme ultraviolet to
+  the water window.
+\newblock \emph{Nature photonics}, 1\penalty0 (6):\penalty0 336--342, 2007.
 
-\bibitem[Amann et~al.(2012)Amann, Berg, Blank, Decker, Ding, Emma, Feng,
-  Frisch, Fritz, Hastings, et~al.]{Amann-2012-NatPho}
-J.~Amann, W.~Berg, V.~Blank, F.~J. Decker, Y.~Ding, P.~Emma, Y.~Feng,
-  J.~Frisch, D.~Fritz, J.~Hastings, et~al.
-\newblock Demonstration of self-seeding in a hard-x-ray free-electron laser.
-\newblock \emph{Nat. Photonics}, 6\penalty0 (10):\penalty0 693--698, 2012.
-\newblock ISSN 1749-4885.
-\newblock \doi{10.1038/NPHOTON.2012.180}.
-\newblock URL
-  \url{http://www.nature.com/nphoton/journal/v6/n10/pdf/nphoton.2012.180.pdf}.
+\bibitem[Chapman et~al.(2006)Chapman, Barty, Bogan, Boutet, Frank, Hau-Riege,
+  Marchesini, Woods, Bajt, Benner, et~al.]{Chapman-2006-NatPhys}
+Henry~N. Chapman, Anton Barty, Michael~J. Bogan, Sébastien Boutet, Matthias
+  Frank, Stefan~P. Hau-Riege, Stefano Marchesini, Bruce~W. Woods, Saša Bajt,
+  W.~Henry Benner, et~al.
+\newblock Femtosecond diffractive imaging with a soft-x-ray free-electron
+  laser.
+\newblock \emph{Nature Physics}, 2\penalty0 (12):\penalty0 839--843, 2006.
+\newblock \doi{10.1038/nphys461}.
+\newblock URL \url{<Go to ISI>://WOS:000242478000021}.
+
+\bibitem[Chapman et~al.(2011)Chapman, Fromme, Barty, White, Kirian, Aquila,
+  Hunter, Schulz, DePonte, Weierstall, et~al.]{Chapman-2011-Nature}
+H.~N. Chapman, P.~Fromme, A.~Barty, T.~A. White, R.~A. Kirian, A.~Aquila, M.~S.
+  Hunter, J.~Schulz, D.~P. DePonte, U.~Weierstall, et~al.
+\newblock Femtosecond x-ray protein nanocrystallography.
+\newblock \emph{Nature}, 470\penalty0 (7332):\penalty0 73--77, 2011.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature09750}.
+
+\bibitem[Neutze et~al.(2000)Neutze, Wouts, van~der Spoel, Weckert, and
+  Hajdu]{Neutze-2000-Nature}
+R.~Neutze, R.~Wouts, D.~van~der Spoel, E.~Weckert, and J.~Hajdu.
+\newblock Potential for biomolecular imaging with femtosecond x-ray pulses.
+\newblock \emph{Nature}, 406\penalty0 (6797):\penalty0 752--757, 2000.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/35021099}.
 
 \bibitem[Aquila et~al.(2015)Aquila, Barty, Bostedt, Boutet, Carini, dePonte,
   Drell, Doniach, Downing, Earnest, et~al.]{Aquila-2015-StrucDyn}
@@ -69,71 +77,191 @@ A.~Aquila, A.~Barty, C.~Bostedt, S.~Boutet, G.~Carini, D.~dePonte, P.~Drell,
 \newblock \emph{Structural Dynamics}, 2\penalty0 (4):\penalty0 041701, 2015.
 \newblock \doi{http://dx.doi.org/10.1063/1.4918726}.
 
-\bibitem[Arbeiter and Fennel(2010)]{Arbeiter-2010-PRA}
-M.~Arbeiter and T.~Fennel.
-\newblock {Ionization heating in rare-gas clusters under intense XUV laser
-  pulses}.
-\newblock \emph{Physical Review A - Atomic, Molecular, and Optical Physics},
-  82\penalty0 (1):\penalty0 1--7, 2010.
-\newblock ISSN 10502947.
-\newblock \doi{10.1103/PhysRevA.82.013201}.
+\bibitem[Seibert et~al.(2011)Seibert, Ekeberg, Maia, Svenda, Andreasson,
+  Jonsson, Odic, Iwan, Rocker, Westphal, et~al.]{Seibert-2011-Nature}
+M.~M. Seibert, T.~Ekeberg, F.~R. Maia, M.~Svenda, J.~Andreasson, O.~Jonsson,
+  D.~Odic, B.~Iwan, A.~Rocker, D.~Westphal, et~al.
+\newblock Single mimivirus particles intercepted and imaged with an x-ray
+  laser.
+\newblock \emph{Nature}, 470\penalty0 (7332):\penalty0 78--81, 2011.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature09748}.
 
-\bibitem[Arbeiter and Fennel(2011)]{Arbeiter-2011-NJP}
-M.~Arbeiter and T.~Fennel.
-\newblock Rare-gas clusters in intense vuv, xuv and soft x-ray pulses:
-  signatures of the transition from nanoplasma-driven cluster expansion to
-  coulomb explosion in ion and electron spectra.
-\newblock \emph{New Journal of Physics}, 13\penalty0 (5):\penalty0 053022,
-  2011.
-\newblock \doi{http://dx.doi.org/10.1088/1367-2630/13/5/053022}.
+\bibitem[Gomez et~al.(2014)Gomez, Ferguson, Cryan, Bacellar, Tanyag, Jones,
+  Schorb, Anielski, Belkacem, Bernando, et~al.]{Gomez-2014-Science}
+Luis~F. Gomez, Ken~R. Ferguson, James~P. Cryan, Camila Bacellar, Rico Mayro~P.
+  Tanyag, Curtis Jones, Sebastian Schorb, Denis Anielski, Ali Belkacem, Charles
+  Bernando, et~al.
+\newblock Shapes and vorticities of superfluid helium nanodroplets.
+\newblock \emph{Science}, 345\penalty0 (6199):\penalty0 906--909, 2014.
 
-\bibitem[Attwood(2000)]{Attwood-2007-CUP}
-D.~Attwood.
-\newblock \emph{Soft x-rays and extreme ultraviolet radiation}.
-\newblock Cambridge university press, 2000.
-\newblock ISBN 0-521-65214-6.
+\bibitem[Ekeberg et~al.(2015)Ekeberg, Svenda, Abergel, Maia, Seltzer, Claverie,
+  Hantke, Jonsson, Nettelblad, van~der Schot, et~al.]{Ekeberg-2015-PRL}
+Tomas Ekeberg, Martin Svenda, Chantal Abergel, Filipe~R.N.C. Maia, Virginie
+  Seltzer, Jean-Michel Claverie, Max Hantke, Olof Jonsson, Carl Nettelblad,
+  Gijs van~der Schot, et~al.
+\newblock Three-dimensional reconstruction of the giant mimivirus particle with
+  an x-ray free-electron laser.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 098102, Mar 2015.
+\newblock \doi{10.1103/PhysRevLett.114.098102}.
 
-\bibitem[Augustin et~al.(1974)Augustin, Boyarski, Breidenbach, Bulos, Dakin,
-  Feldman, Fischer, Fryberger, Hanson, Jean-Marie, Larsen, L\"uth, Lynch, Lyon,
-  Morehouse, Paterson, Perl, Richter, Rapidis, Schwitters, Tanenbaum, Vannucci,
-  Abrams, Briggs, Chinowsky, Friedberg, Goldhaber, Hollebeek, Kadyk, Lulu,
-  Pierre, Trilling, Whitaker, Wiss, and Zipse]{Richter-PRL-1974}
-J.~E. Augustin, A.~M. Boyarski, M.~Breidenbach, F.~Bulos, J.~T. Dakin, G.~J.
-  Feldman, G.~E. Fischer, D.~Fryberger, G.~Hanson, B.~Jean-Marie, R.~R. Larsen,
-  V.~L\"uth, H.~L. Lynch, D.~Lyon, C.~C. Morehouse, J.~M. Paterson, M.~L. Perl,
-  B.~Richter, P.~Rapidis, R.~F. Schwitters, W.~M. Tanenbaum, F.~Vannucci, G.~S.
-  Abrams, D.~Briggs, W.~Chinowsky, C.~E. Friedberg, G.~Goldhaber, R.~J.
-  Hollebeek, J.~A. Kadyk, B.~Lulu, F.~Pierre, G.~H. Trilling, J.~S. Whitaker,
-  J.~Wiss, and J.~E. Zipse.
-\newblock Discovery of a narrow resonance in ${e}^{+}{e}^{-}$ annihilation.
-\newblock \emph{Phys. Rev. Lett.}, 33:\penalty0 1406--1408, Dec 1974.
-\newblock \doi{10.1103/PhysRevLett.33.1406}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.33.1406}.
-
-\bibitem[Bartell(1986)]{Bartell-1986-ChemRev}
-L.~S. Bartell.
-\newblock {Diffraction studies of clusters generated in supersonic flow}.
-\newblock \emph{Chemical Reviews}, 86\penalty0 (3):\penalty0 491, 1986.
-\newblock ISSN 0009-2665.
-\newblock \doi{10.1021/cr00073a001}.
-
-\bibitem[Bates(1981)]{Bates-1981-Optik}
-R.~Bates.
-\newblock {Fourier phase problems are uniquely solvable in more than one
-  dimension, 1. Underlying theory}, 1981.
-\newblock ISSN 00304026.
-
-\bibitem[Behrens et~al.(2014)Behrens, Decker, Ding, Dolgashev, Frisch, Huang,
-  Krejcik, Loos, Lutman, Maxwell, et~al.]{Behrens-2014-NatCom}
-C.~Behrens, F.~J. Decker, Y.~Ding, V.~A. Dolgashev, J.~Frisch, Z.~Huang,
-  P.~Krejcik, H.~Loos, A.~Lutman, T.~J. Maxwell, et~al.
-\newblock Few-femtosecond time-resolved measurements of x-ray free-electron
-  lasers.
-\newblock \emph{Nat. Commun.}, 5:\penalty0 3762, 2014.
+\bibitem[Barke et~al.(2015)Barke, Hartmann, Rupp, Fl{\"{u}}ckiger, Sauppe,
+  Adolph, Schorb, Bostedt, Treusch, Peltz, Bartling, Fennel, Meiwes-Broer, and
+  M{\"{o}}ller]{Barke-2015-NatComm}
+I.~Barke, H.~Hartmann, D.~Rupp, L.~Fl{\"{u}}ckiger, M.~Sauppe, M.~Adolph,
+  S.~Schorb, C.~Bostedt, R.~Treusch, C.~Peltz, S.~Bartling, T.~Fennel, K.-H.
+  Meiwes-Broer, and T.~M{\"{o}}ller.
+\newblock {The 3D-architecture of individual free silver nanoparticles captured
+  by X-ray scattering.}
+\newblock \emph{Nature communications}, 6:\penalty0 6187, 2015.
 \newblock ISSN 2041-1723.
-\newblock \doi{10.1038/ncomms4762}.
+\newblock \doi{10.1038/ncomms7187}.
 \newblock URL
-  \url{http://www.nature.com/ncomms/2014/140430/ncomms4762/full/ncomms4762.html}.
+  \url{http://www.nature.com/ncomms/2015/150204/ncomms7187/full/ncomms7187.html}.
+
+\bibitem[Emma et~al.(2010)Emma, Akre, Arthur, Bionta, Bostedt, Bozek,
+  Brachmann, Bucksbaum, Coffee, Decker, et~al.]{Emma-2010-NatPho}
+P.~Emma, R.~Akre, J.~Arthur, R.~Bionta, C.~Bostedt, J.~Bozek, A.~Brachmann,
+  P.~Bucksbaum, R.~Coffee, F.~J. Decker, et~al.
+\newblock First lasing and operation of an ångstrom-wavelength free-electron
+  laser.
+\newblock \emph{Nat. Photonics}, 4\penalty0 (9):\penalty0 641--647, 2010.
+\newblock ISSN 1749-4885.
+
+\bibitem[Bostedt et~al.(2016)Bostedt, Boutet, Fritz, Huang, Lee, Lemke, Robert,
+  Schlotter, Turner, and Williams]{Bostedt-2016-RMP}
+Christoph Bostedt, S\'ebastien Boutet, David~M. Fritz, Zhirong Huang, Hae~Ja
+  Lee, Henrik~T. Lemke, Aymeric Robert, William~F. Schlotter, Joshua~J. Turner,
+  and Garth~J. Williams.
+\newblock Linac coherent light source: The first five years.
+\newblock \emph{Rev. Mod. Phys.}, 88:\penalty0 015007, Mar 2016.
+\newblock \doi{10.1103/RevModPhys.88.015007}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/RevModPhys.88.015007}.
+
+\bibitem[Young et~al.(2010)Young, Kanter, Krassig, Li, March, Pratt, Santra,
+  Southworth, Rohringer, Dimauro, et~al.]{Young-2010-Nature}
+L.~Young, E.~P. Kanter, B.~Krassig, Y.~Li, A.~M. March, S.~T. Pratt, R.~Santra,
+  S.~H. Southworth, N.~Rohringer, L.~F. Dimauro, et~al.
+\newblock Femtosecond electronic response of atoms to ultra-intense x-rays.
+\newblock \emph{Nature}, 466\penalty0 (7302):\penalty0 56--61, 2010.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature09177}.
+
+\bibitem[Gorkhover et~al.(2016)Gorkhover, Schorb, Coffee, Adolph, Foucar, Rupp,
+  Aquila, Bozek, Epp, Erk, Gumprecht, Holmegaard, Hartmann, Hartmann, Hauser,
+  Holl, H{\"{o}}mke, Johnsson, Kimmel, K{\"{u}}hnel, Messerschmidt, Reich,
+  Rouz{\'{e}}e, Rudek, Schmidt, Schulz, Soltau, Stern, Weidenspointner, White,
+  K{\"{u}}pper, Str{\"{u}}der, Schlichting, Ullrich, Rolles, Rudenko,
+  M{\"{o}}ller, and Bostedt]{Gorkhover-2016-NatPho}
+Tais Gorkhover, Sebastian Schorb, Ryan Coffee, Marcus Adolph, Lutz Foucar,
+  Daniela Rupp, Andrew Aquila, John~D. Bozek, Sascha~W. Epp, Benjamin Erk, Lars
+  Gumprecht, Lotte Holmegaard, Andreas Hartmann, Robert Hartmann, G{\"{u}}nter
+  Hauser, Peter Holl, Andre H{\"{o}}mke, Per Johnsson, Nils Kimmel, Kai-Uwe
+  K{\"{u}}hnel, Marc Messerschmidt, Christian Reich, Arnaud Rouz{\'{e}}e,
+  Benedikt Rudek, Carlo Schmidt, Joachim Schulz, Heike Soltau, Stephan Stern,
+  Georg Weidenspointner, Bill White, Jochen K{\"{u}}pper, Lothar Str{\"{u}}der,
+  Ilme Schlichting, Joachim Ullrich, Daniel Rolles, Artem Rudenko, Thomas
+  M{\"{o}}ller, and Christoph Bostedt.
+\newblock {Femtosecond and nanometre visualization of structural dynamics in
+  superheated nanoparticles}.
+\newblock \emph{Nature Photonics}, 10\penalty0 (2):\penalty0 93--97, 2016.
+\newblock ISSN 1749-4885.
+\newblock \doi{10.1038/nphoton.2015.264}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/nphoton.2015.264}.
+
+\bibitem[Quiney and Nugent(2010)]{Quiney-2010-NatPhys}
+Harry~M. Quiney and Keith~A. Nugent.
+\newblock {Biomolecular imaging and electronic damage using X-ray free-electron
+  lasers}.
+\newblock \emph{Nature Physics}, 6\penalty0 (12):\penalty0 16, 2010.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys1859}.
+\newblock URL \url{http://arxiv.org/abs/1007.0074}.
+
+\bibitem[K{\"u}pper et~al.(2014)K{\"u}pper, Stern, Holmegaard, Filsinger,
+  Rouzée, Rudenko, Johnsson, Martin, Adolph, Aquila, et~al.]{Kupper-2014-PRL}
+Jochen K{\"u}pper, Stephan Stern, Lotte Holmegaard, Frank Filsinger, Arnaud
+  Rouzée, Artem Rudenko, Per Johnsson, Andrew~V. Martin, Marcus Adolph, Andrew
+  Aquila, et~al.
+\newblock X-ray diffraction from isolated and strongly aligned gas-phase
+  molecules with a free-electron laser.
+\newblock \emph{Phys. Rev. Lett.}, 112\penalty0 (8):\penalty0 083002, 2014.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.112.083002}.
+\newblock PRL.
+
+\bibitem[Hau-Riege et~al.(2004)Hau-Riege, London, and
+  Szoke]{Hau-Riege-2004-PRE}
+Stefan~P Hau-Riege, Richard~a London, and Abraham Szoke.
+\newblock {Dynamics of biological molecules irradiated by short x-ray pulses}.
+\newblock \emph{Physical Review E}, 69\penalty0 (5):\penalty0 051906, may 2004.
+\newblock ISSN 1539-3755.
+\newblock \doi{10.1103/PhysRevE.69.051906}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevE.69.051906}.
+
+\bibitem[Hau-Riege et~al.(2010{\natexlab{a}})Hau-Riege, Boutet, Barty, Bajt,
+  Bogan, Frank, Andreasson, Iwan, Seibert, Hajdu, Sakdinawat, Schulz, Treusch,
+  and Chapman]{Hau-Riege-2010-PRL}
+Stefan~P. Hau-Riege, S{\'{e}}bastien Boutet, Anton Barty, Sa{\v{s}}a Bajt,
+  Michael~J. Bogan, Matthias Frank, Jakob Andreasson, Bianca Iwan, M.~Marvin
+  Seibert, Janos Hajdu, Anne Sakdinawat, Joachim Schulz, Rolf Treusch, and
+  Henry~N. Chapman.
+\newblock {Sacrificial tamper slows down sample explosion in FLASH dffraction
+  eperiments}.
+\newblock \emph{Physical Review Letters}, 104\penalty0 (February):\penalty0
+  1--4, 2010{\natexlab{a}}.
+\newblock ISSN 00319007.
+\newblock \doi{10.1103/PhysRevLett.104.064801}.
+
+\bibitem[Mills et~al.(2005)Mills, Helliwell, Kvick, Ohta, Robinson, and
+  Authier]{Mills-2005-IUCR}
+D.~M. Mills, J.~R. Helliwell, {\AA}~Kvick, T.~Ohta, I.~A. Robinson, and
+  A.~Authier.
+\newblock {Report of the working group on synchrotron radiation nomenclature -
+  Brightness, spectral brightness or brilliance?}
+\newblock \emph{Journal of Synchrotron Radiation}, 12\penalty0 (3):\penalty0
+  385, 2005.
+\newblock ISSN 09090495.
+\newblock \doi{10.1107/S090904950500796X}.
+
+\bibitem[Als-Nielsen and McMorrow(2011)]{Als-Nielson-2011-JWS}
+Jens Als-Nielsen and Des McMorrow.
+\newblock \emph{Elements of modern X-ray physics}.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem[Laboratory(2009)]{SLAC-2009-Flickr}
+SLAC National~Accelerator Laboratory.
+\newblock Lcls aerial overlay, 2009.
+\newblock URL \url{https://www.flickr.com/photos/slaclab/8577624017/}.
+\newblock Downloaded from SLAC's Flickr.
+
+\bibitem[Bucksbaum et~al.(2011)Bucksbaum, Coffee, and
+  Berrah]{Bucksbaum-2011-Book}
+Philip~H. Bucksbaum, Ryan Coffee, and Nora Berrah.
+\newblock \emph{Chapter 5 - The First Atomic and Molecular Experiments at the
+  Linac Coherent Light Source X-Ray Free Electron Laser}, volume Volume 60,
+  pages 239--289.
+\newblock Academic Press, 2011.
+\newblock ISBN 1049-250X.
+\newblock \doi{http://dx.doi.org/10.1016/B978-0-12-385508-4.00005-X}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B978012385508400005X}.
+
+\bibitem[Williams(2016)]{Williams-2016-PC}
+G~J Williams.
+\newblock personal communication, 2016.
+
+\bibitem[Hecht(2008)]{Hecht-2008-OPN}
+Jeff Hecht.
+\newblock The history of the x-ray laser.
+\newblock \emph{Optics and Photonics News}, 19\penalty0 (5):\penalty0 26--33,
+  2008.
+
+\bibitem[Kondratenko and Saldin(1980)]{Kondratenko-1980-PA}
+A.M. Kondratenko and E.~L. Saldin.
+\newblock {Generation of coherent radiation by a relativistic electron beam in
+  an ondulator*}.
+\newblock \emph{Particle Accelerators}, 10:\penalty0 207--216, 1980.
+\newblock \doi{1003-0207}.
 
 \bibitem[Bonifacio et~al.(1984)Bonifacio, Pellegrini, and
   Narducci]{Bonifacio-1984-OC}
@@ -145,70 +273,10 @@ R.~Bonifacio, C.~Pellegrini, and L.~M. Narducci.
 \newblock ISSN 00304018.
 \newblock \doi{10.1016/0030-4018(84)90105-6}.
 
-\bibitem[Bostedt et~al.(2008)Bostedt, Thomas, Hoener, Eremina, Fennel,
-  Meiwes-Broer, Wabnitz, Kuhlmann, Pl{\"{o}}njes, Tiedtke, Treusch, Feldhaus,
-  {De Castro}, and M{\"{o}}ller]{Bostedt-2008-PRL}
-C.~Bostedt, H.~Thomas, M.~Hoener, E.~Eremina, T.~Fennel, K.~H. Meiwes-Broer,
-  H.~Wabnitz, M.~Kuhlmann, E.~Pl{\"{o}}njes, K.~Tiedtke, R.~Treusch,
-  J.~Feldhaus, A.~R.~B. {De Castro}, and T.~M{\"{o}}ller.
-\newblock {Multistep ionization of argon clusters in intense femtosecond
-  extreme ultraviolet pulses}.
-\newblock \emph{Physical Review Letters}, 100\penalty0 (13):\penalty0 12--14,
-  2008.
-\newblock ISSN 00319007.
-\newblock \doi{10.1103/PhysRevLett.100.133401}.
-
-\bibitem[Bostedt et~al.(2010{\natexlab{a}})Bostedt, Adolph, Eremina, Hoener,
-  Rupp, Schorb, Thomas, de~Castro, and M{\"{o}}ller]{Bostedt-2010-JPB}
-C.~Bostedt, M.~Adolph, E.~Eremina, M.~Hoener, D.~Rupp, S.~Schorb, H.~Thomas,
-  A.~R.~B. de~Castro, and T.~M{\"{o}}ller.
-\newblock {Clusters in intense FLASH pulses: ultrafast ionization dynamics and
-  electron emission studied with spectroscopic and scattering techniques}.
-\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
-  43:\penalty0 194011, 2010{\natexlab{a}}.
-\newblock ISSN 0953-4075.
-\newblock \doi{10.1088/0953-4075/43/19/194011}.
-
-\bibitem[Bostedt et~al.(2010{\natexlab{b}})Bostedt, Thomas, Hoener,
-  M{\"{o}}ller, Saalmann, Georgescu, Gnodtke, and Rost]{Bostedt-2010-NJP}
-C.~Bostedt, H.~Thomas, M.~Hoener, T.~M{\"{o}}ller, U.~Saalmann, I.~Georgescu,
-  C.~Gnodtke, and J.~M. Rost.
-\newblock {Fast electrons from multi-electron dynamics in xenon clusters
-  induced by inner-shell ionization}.
-\newblock \emph{New Journal of Physics}, 12, 2010{\natexlab{b}}.
-\newblock ISSN 13672630.
-\newblock \doi{10.1088/1367-2630/12/8/083004}.
-
-\bibitem[Bostedt et~al.(2012)Bostedt, Eremina, Rupp, Adolph, Thomas, Hoener,
-  de~Castro, Tiggesbaumker, Meiwes-Broer, Laarmann, et~al.]{Bostedt-2012-PRL}
-C.~Bostedt, E.~Eremina, D.~Rupp, M.~Adolph, H.~Thomas, M.~Hoener, A.~R.
-  de~Castro, J.~Tiggesbaumker, K.~H. Meiwes-Broer, T.~Laarmann, et~al.
-\newblock Ultrafast x-ray scattering of xenon nanoparticles: imaging transient
-  states of matter.
-\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (9):\penalty0 093401, 2012.
-\newblock ISSN 1079-7114.
-\newblock \doi{10.1103/PhysRevLett.108.093401​}.
-\newblock URL
-  \url{http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.093401}.
-
-\bibitem[Bostedt et~al.(2013)Bostedt, Bozek, Bucksbaum, Coffee, Hastings,
-  Huang, Lee, Schorb, Corlett, Denes, et~al.]{Bostedt-2013-JPB}
-C.~Bostedt, J.~D. Bozek, P.~H. Bucksbaum, R.~N. Coffee, J.~B. Hastings,
-  Z.~Huang, R.~W. Lee, S.~Schorb, J.~N. Corlett, P.~Denes, et~al.
-\newblock Ultra-fast and ultra-intense x-ray sciences: first results from the
-  linac coherent light source free-electron laser.
-\newblock \emph{J. Phys. B}, 46\penalty0 (16):\penalty0 164003, 2013.
-\newblock ISSN 0953-4075.
-\newblock \doi{10.1088/0953-4075/46/16/164003}.
-\newblock URL \url{http://iopscience.iop.org/0953-4075/46/16/164003}.
-
-\bibitem[Bozek(2009)]{Bozek-2009-EPJST}
-J.~D. Bozek.
-\newblock Amo instrumentation for the lcls x-ray fel.
-\newblock \emph{The European Physical Journal Special Topics}, 169\penalty0
-  (1):\penalty0 129--132, 2009.
-\newblock ISSN 1951-6355.
-\newblock \doi{10.1140/epjst/e2009-00982-y}.
+\bibitem[Holst and Horvath(2005)]{holst-2005-wiki}
+Bastian Holst and Arpad Horvath.
+\newblock Undulator, Jul 2005.
+\newblock URL \url{https://commons.wikimedia.org/wiki/file:undulator.png}.
 
 \bibitem[Brown et~al.(1983)Brown, Halbach, Harris, and
   Winick]{Brown-1983-NIMPR}
@@ -221,226 +289,57 @@ G.~Brown, K.~Halbach, J.~Harris, and H.~Winick.
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/0167508783911055}.
 
-\bibitem[Bruck and Sodin(1979)]{Bruck-1979-OpticsCom}
-Y.~Bruck and L.~Sodin.
-\newblock {On the ambiguity of the image reconstruction problem}.
-\newblock \emph{Optics Communications}, 30\penalty0 (3):\penalty0 304--308,
-  1979.
-\newblock ISSN 00304018.
-\newblock \doi{10.1016/0030-4018(79)90358-4}.
+\bibitem[Williams(2009)]{Williams-2009-xb}
+Gwyn~P Williams, editor.
+\newblock \emph{X-ray data booklet}.
+\newblock Lawrence Berkeley National Laboratory, 2009.
+\newblock URL \url{http://cxro.lbl.gov/x-ray-data-booklet}.
+
+\bibitem[Kim(1986)]{Kim-1986-NIMPRA}
+Kwang-Je Kim.
+\newblock {Angular distribution of undulator power for an arbitrary deflection
+  parameter K}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  246\penalty0 (1-3):\penalty0 67--70, may 1986.
+\newblock ISSN 01689002.
+\newblock \doi{10.1016/0168-9002(86)90047-1}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/0168900286900471}.
+
+\bibitem[Huang and Kim(2007)]{Huang-2007-PRSTAB}
+Zhirong Huang and Kwang-Je Kim.
+\newblock Review of x-ray free-electron laser theory.
+\newblock \emph{Phys. Rev. ST Accel. Beams}, 10:\penalty0 034801, Mar 2007.
+\newblock \doi{10.1103/PhysRevSTAB.10.034801}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.10.034801}.
+
+\bibitem[Rupp(2013)]{Rupp-2013-Thesis}
+Daniela Rupp.
+\newblock \emph{Ionization and plasma dynamics of single large xenon clusters
+  in superintense XUV pulses}.
+\newblock Thesis, Technische Universit{\"a}t Berlin, 2013.
+
+\bibitem[Rupp(2016)]{Rupp-2016-Springer}
+Daniela Rupp.
+\newblock \emph{Ionization and plasma dynamics of single large xenon clusters
+  in superintense XUV pulses}.
+\newblock Springer, 2016.
 
 \bibitem[Bucher et~al.(2014)Bucher, Ferguson, T., and
   C.]{Bucher-2014-Unpublished}
-M.~Bucher, K.~R. Ferguson, G.~T., and B.~C.
+M.~Bucher, K.~R. Ferguson, Gorkhover T., and Bostedt C.
 \newblock A transmissive single-shot soft x-ray spectrometer.
 \newblock Unpublished study on feasibility of a spectrometer that is based on
   photoemission., 2014.
 
-\bibitem[Bucher et~al.(2016)Bucher, Ferguson, T., and
-  C.]{Bucher-2016-Unpublished}
-M.~Bucher, K.~R. Ferguson, G.~T., and B.~C.
-\newblock The lamp endstation in the amo instrument at the linac coherent light
-  source.
-\newblock Unpublished study on the LAMP endstation with focus on the pnCCD
-  detectors., 2016.
-
-\bibitem[Bucksbaum et~al.(2011)Bucksbaum, Coffee, and
-  Berrah]{Bucksbaum-2011-Book}
-P.~H. Bucksbaum, R.~Coffee, and N.~Berrah.
-\newblock \emph{Chapter 5 - The First Atomic and Molecular Experiments at the
-  Linac Coherent Light Source X-Ray Free Electron Laser}, volume Volume 60,
-  pages 239--289.
-\newblock Academic Press, 2011.
-\newblock ISBN 1049-250X.
-\newblock \doi{http://dx.doi.org/10.1016/B978-0-12-385508-4.00005-X}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/B978012385508400005X}.
-
-\bibitem[Castagna et~al.(2013)Castagna, Murphy, Bozek, and
-  Berrah]{Castagna-2013-JPCS}
-J.~C. Castagna, B.~Murphy, J.~Bozek, and N.~Berrah.
-\newblock X-ray split and delay system for soft x-rays at lcls.
-\newblock \emph{J. Phys.: Conf. Ser.}, 425\penalty0 (15):\penalty0 152021,
-  2013.
-\newblock ISSN 1742-6596.
-\newblock \doi{10.1088/1742-6596/425/15/152021}.
-\newblock URL \url{http://iopscience.iop.org/1742-6596/425/15/152021}.
-
-\bibitem[Chalupsk{\'{y}} et~al.(2010)Chalupsk{\'{y}}, Krzywinski, Juha,
-  H{\'{a}}jkov{\'{a}}, Cihelka, Burian, Vy{\v{s}}{\'{i}}n, Gaudin, Gleeson,
-  Jurek, Khorsand, Klinger, Wabnitz, Sobierajski, St{\"{o}}rmer, Tiedtke, and
-  Toleikis]{Chalupsky-2010-OE}
-J.~Chalupsk{\'{y}}, J.~Krzywinski, L.~Juha, V.~H{\'{a}}jkov{\'{a}}, J.~Cihelka,
-  T.~Burian, L.~Vy{\v{s}}{\'{i}}n, J.~Gaudin, A.~Gleeson, M.~Jurek, a.~R.
-  Khorsand, D.~Klinger, H.~Wabnitz, R.~Sobierajski, M.~St{\"{o}}rmer,
-  K.~Tiedtke, and S.~Toleikis.
-\newblock {Spot size characterization of focused non-Gaussian X-ray laser
-  beams}.
-\newblock \emph{Optics Express}, 18\penalty0 (26):\penalty0 27836, 2010.
-\newblock ISSN 1094-4087.
-\newblock \doi{10.1364/OE.18.027836}.
-\newblock URL
-  \url{https://www.osapublishing.org/abstract.cfm?URI=oe-18-26-27836}.
-
-\bibitem[Chalupsky et~al.(2011)Chalupsky, Bohacek, Hajkova, Hau-Riege, Heimann,
-  Juha, Krzywinski, Messerschmidt, Moeller, Nagler,
-  et~al.]{Chalupsky-2011-NIMPR}
-J.~Chalupsky, P.~Bohacek, V.~Hajkova, S.~P. Hau-Riege, P.~A. Heimann, L.~Juha,
-  J.~Krzywinski, M.~Messerschmidt, S.~P. Moeller, B.~Nagler, et~al.
-\newblock Comparing different approaches to characterization of focused x-ray
-  laser beams.
-\newblock \emph{Nucl. Instrum. Methods Phys. Res. A}, 631\penalty0
-  (1):\penalty0 130--133, 2011.
-\newblock ISSN 0168-9002.
-\newblock \doi{10.1016/j.nima.2010.12.040}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0168900210027816}.
-
-\bibitem[Chalupsk{\'{y}} et~al.(2013)Chalupsk{\'{y}}, Burian,
-  H{\'{a}}jkov{\'{a}}, Juha, Polcar, Gaudin, Nagasono, Sobierajski, Yabashi,
-  and Krzywinski]{Chalupsky-2013-OE}
-J.~Chalupsk{\'{y}}, T.~Burian, V.~H{\'{a}}jkov{\'{a}}, L.~Juha, T.~Polcar,
-  J.~Gaudin, M.~Nagasono, R.~Sobierajski, M.~Yabashi, and J.~Krzywinski.
-\newblock {Fluence scan: an unexplored property of a laser beam.}
-\newblock \emph{Optics express}, 21\penalty0 (22):\penalty0 26363--75, 2013.
-\newblock ISSN 1094-4087.
-\newblock \doi{10.1364/OE.21.026363}.
-\newblock URL
-  \url{http://www.opticsinfobase.org/viewmedia.cfm?uri=oe-21-22-26363{\&}seq=0{\&}html=true}.
-
-\bibitem[collaboration(2015-2016)]{SPI-2015-unpublished}
-S.~collaboration.
-\newblock Straylight effects in the amo instrument at the lcls.
-\newblock Currently no publication in progress., 2015-2016.
-
-\bibitem[Coster and {L. Kronig}(1935)]{Coster-1935-Physica}
-D.~Coster and R.~D. {L. Kronig}.
-\newblock {New type of auger effect and its influence on the x-ray spectrum}.
-\newblock \emph{Physica}, 2\penalty0 (1-12):\penalty0 13--24, jan 1935.
-\newblock ISSN 00318914.
-\newblock \doi{10.1016/S0031-8914(35)90060-X}.
-\newblock URL
-  \url{http://linkinghub.elsevier.com/retrieve/pii/S003189143590060X}.
-
-\bibitem[Cowan(1981)]{Cowan-1981-Cal}
-R.~D. Cowan.
-\newblock \emph{The theory of atomic structure and spectra}.
-\newblock University of California Press, 1981.
-\newblock URL \url{http://aphysics2.lanl.gov/tempweb/lanl/}.
-
-\bibitem[Dakovski et~al.(2015)Dakovski, Heimann, Holmes, Krupin, Minitti,
-  Mitra, Moeller, Rowen, Schlotter, and Turner]{Dakovski-2015-JSR}
-G.~L. Dakovski, P.~Heimann, M.~Holmes, O.~Krupin, M.~P. Minitti, A.~Mitra,
-  S.~Moeller, M.~Rowen, W.~F. Schlotter, and J.~J. Turner.
-\newblock The soft x-ray research instrument at the linac coherent light
-  source.
-\newblock \emph{J. Synchrotron Rad.}, 22\penalty0 (3):\penalty0 498--502, 2015.
-
-\bibitem[Demtr{\"o}der(2005)]{Demtroder-2005-Springer}
-W.~Demtr{\"o}der.
-\newblock \emph{Experimentalphysik 3: Atome, Molek{\"u}le und Festk{\"o}rper}.
-\newblock Springer Verlag, 2005.
-
-\bibitem[Doumy et~al.(2011)Doumy, Roedig, Son, Blaga, DiChiara, Santra, Berrah,
-  Bostedt, Bozek, Bucksbaum, et~al.]{Doumy-2011-PRL}
-G.~Doumy, C.~Roedig, S.~K. Son, C.~I. Blaga, A.~D. DiChiara, R.~Santra,
-  N.~Berrah, C.~Bostedt, J.~D. Bozek, P.~H. Bucksbaum, et~al.
-\newblock Nonlinear atomic response to intense ultrashort x rays.
-\newblock \emph{Phys. Rev. Lett.}, 106\penalty0 (8):\penalty0 083002, 2011.
-\newblock ISSN 1079-7114.
-
-\bibitem[Ekeberg et~al.(2015)Ekeberg, Svenda, Abergel, Maia, Seltzer, Claverie,
-  Hantke, Jonsson, Nettelblad, van~der Schot, et~al.]{Ekeberg-2015-PRL}
-T.~Ekeberg, M.~Svenda, C.~Abergel, F.~R. Maia, V.~Seltzer, J.-M. Claverie,
-  M.~Hantke, O.~Jonsson, C.~Nettelblad, G.~van~der Schot, et~al.
-\newblock Three-dimensional reconstruction of the giant mimivirus particle with
-  an x-ray free-electron laser.
-\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 098102, Mar 2015.
-\newblock \doi{10.1103/PhysRevLett.114.098102}.
-
-\bibitem[Emma et~al.(2004)Emma, Bane, Cornacchia, Huang, Schlarb, Stupakov, and
-  Walz]{Emma-2004-PRL}
-P.~Emma, K.~Bane, M.~Cornacchia, Z.~Huang, H.~Schlarb, G.~Stupakov, and
-  D.~Walz.
-\newblock Femtosecond and subfemtosecond x-ray pulses from a self-amplified
-  spontaneous-emission–based free-electron laser.
-\newblock \emph{Phys. Rev. Lett.}, 92\penalty0 (7):\penalty0 074801, 2004.
-
-\bibitem[Emma et~al.(2010)Emma, Akre, Arthur, Bionta, Bostedt, Bozek,
-  Brachmann, Bucksbaum, Coffee, Decker, et~al.]{Emma-2010-NatPho}
-P.~Emma, R.~Akre, J.~Arthur, R.~Bionta, C.~Bostedt, J.~Bozek, A.~Brachmann,
-  P.~Bucksbaum, R.~Coffee, F.~J. Decker, et~al.
-\newblock First lasing and operation of an ångstrom-wavelength free-electron
-  laser.
-\newblock \emph{Nat. Photonics}, 4\penalty0 (9):\penalty0 641--647, 2010.
-\newblock ISSN 1749-4885.
-
-\bibitem[Farges et~al.(1981)Farges, de~Feraudy, Raoult, and
-  Torchet]{Farges-1981-SurfSci}
-J.~Farges, M.~F. de~Feraudy, B.~Raoult, and G.~Torchet.
-\newblock {Structure and temperature of rare gas clusters in a supersonic
-  expansion}.
-\newblock \emph{Surface Science}, 106\penalty0 (1-3):\penalty0 95--100, 1981.
-\newblock ISSN 00396028.
-\newblock \doi{10.1016/0039-6028(81)90186-2}.
-
-\bibitem[Fennel et~al.(2010)Fennel, Meiwes-Broer, Tiggesbaumker, Reinhard,
-  Dinh, and Suraud]{Fennel-2010-RMP}
-T.~Fennel, K.-H. Meiwes-Broer, J.~Tiggesbaumker, P.-G. Reinhard, P.~M. Dinh,
-  and E.~Suraud.
-\newblock Laser-driven nonlinear cluster dynamics.
-\newblock \emph{Rev. Mod. Phys.}, 82:\penalty0 1793--1842, 2010.
-\newblock \doi{http://dx.doi.org/10.1103/RevModPhys.82.1793}.
-
-\bibitem[Ferguson(2016)]{Ferguson-2016-PhD}
-K.~R. Ferguson.
-\newblock \emph{Crystal Structure Determinations of Xenon Nanoparticles and
-  X-ray Induced Transient Lattice Contraction in the Solid-to-Plasma
-  Transition}.
-\newblock PhD thesis, Stanford University, Feburary 2016.
-
-\bibitem[Ferguson et~al.(2014)Ferguson, Bucher, Gorkhover, and
-  C.]{Ferguson-2014-Unpublished}
-K.~R. Ferguson, M.~Bucher, T.~Gorkhover, and B.~C.
-\newblock Absorption spectroscopy on co and {$CO_{2}$} molecules.
-\newblock Unpublished study on CO and {$CO_{2}$} molceules using an ion time of
-  flight spectrometer that is proportional to the ion yield., 2014.
-
-\bibitem[Ferguson et~al.(2015)Ferguson, Bucher, Bozek, Carron, Castagna,
-  Coffee, Curiel, Holmes, Krzywinski, Messerschmidt, et~al.]{Ferguson-2015-JSR}
-K.~R. Ferguson, M.~Bucher, J.~D. Bozek, S.~Carron, J.-C. Castagna, R.~Coffee,
-  G.~I. Curiel, M.~Holmes, J.~Krzywinski, M.~Messerschmidt, et~al.
-\newblock The atomic, molecular and optical science instrument at the linac
-  coherent light source.
-\newblock \emph{J. Synchrotron Rad.}, 22\penalty0 (3):\penalty0 492--497, 2015.
-
-\bibitem[Ferguson et~al.(2016)Ferguson, Bucher, Gorkhover, Boutet, Fukuzawa,
-  Koglin, Kumagai, Lutman, Marinelli, Messerschmidt, Nagaya, Turner, Ueda,
-  Williams, Bucksbaum, and Bostedt]{Ferguson-2016-SciAdv}
-K.~R. Ferguson, M.~Bucher, T.~Gorkhover, S.~Boutet, H.~Fukuzawa, J.~E. Koglin,
-  Y.~Kumagai, A.~Lutman, A.~Marinelli, M.~Messerschmidt, K.~Nagaya, J.~Turner,
-  K.~Ueda, G.~J. Williams, P.~H. Bucksbaum, and C.~Bostedt.
-\newblock Transient lattice contraction in the solid-to-plasma transition.
-\newblock \emph{Science Advances}, 2\penalty0 (1), 2016.
-\newblock \doi{10.1126/sciadv.1500837}.
-\newblock URL \url{http://advances.sciencemag.org/content/2/1/e1500837}.
-
-\bibitem[Fienup(1978)]{Fienup-1978-OL}
-J.~R. Fienup.
-\newblock {Reconstruction of an object from the modulus of its Fourier
-  transform}.
-\newblock \emph{Optics letters}, 3\penalty0 (1):\penalty0 27--29, 1978.
-\newblock ISSN 0146-9592.
-\newblock \doi{10.1364/OL.3.000027}.
-
-\bibitem[Fienup(1982)]{Fienup-1982-AO}
-J.~R. Fienup.
-\newblock {Phase retrieval algorithms: a comparison}.
-\newblock \emph{Applied Optics}, 21\penalty0 (15):\penalty0 2758--2769, 1982.
-\newblock ISSN 0003-6935.
-\newblock \doi{10.1364/AO.21.002758}.
-\newblock URL
-  \url{http://www.opticsinfobase.org.ezproxy.lib.purdue.edu/viewmedia.cfm?uri=ao-21-15-2758{\&}seq=0{\&}html=true$\backslash$npapers3://publication/doi/10.1364/AO.21.002758}.
+\bibitem[Kim et~al.(2008)Kim, Shvyd'ko, and Reiche]{Kim-2008-PRL}
+Kwang-Je Kim, Yuri Shvyd'ko, and Sven Reiche.
+\newblock A proposal for an x-ray free-electron laser oscillator with an
+  energy-recovery linac.
+\newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 244802, Jun 2008.
+\newblock \doi{10.1103/PhysRevLett.100.244802}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.100.244802}.
 
 \bibitem[Fletcher et~al.(2015)Fletcher, Lee, D{\"o}ppner, Galtier, Nagler,
   Heimann, Fortmann, LePape, Ma, Millot, et~al.]{Fletcher-2015-NatPho}
@@ -452,623 +351,16 @@ L.~B. Fletcher, H.~J. Lee, T.~D{\"o}ppner, E.~Galtier, B.~Nagler, P.~Heimann,
 \newblock ISSN 1748-0221.
 \newblock \doi{10.1038/nphoton.2015.41}.
 
-\bibitem[Gomez et~al.(2011)Gomez, Loginov, Sliter, and Vilesov]{Gomez-2011-JCP}
-L.~F. Gomez, E.~Loginov, R.~Sliter, and A.~F. Vilesov.
-\newblock {Sizes of large He droplets}.
-\newblock \emph{Journal of Chemical Physics}, 135\penalty0 (15), 2011.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.3650235}.
-
-\bibitem[Gomez et~al.(2014)Gomez, Ferguson, Cryan, Bacellar, Tanyag, Jones,
-  Schorb, Anielski, Belkacem, Bernando, et~al.]{Gomez-2014-Science}
-L.~F. Gomez, K.~R. Ferguson, J.~P. Cryan, C.~Bacellar, R.~M.~P. Tanyag,
-  C.~Jones, S.~Schorb, D.~Anielski, A.~Belkacem, C.~Bernando, et~al.
-\newblock Shapes and vorticities of superfluid helium nanodroplets.
-\newblock \emph{Science}, 345\penalty0 (6199):\penalty0 906--909, 2014.
-
-\bibitem[Gorkhover(2014)]{Gorkhover-2014-Thesis}
-T.~Gorkhover.
-\newblock \emph{Ultrafast light induced dynamics of Xe nanoparticles studies
-  with a combination of intense infrared and x-ray pulses}.
-\newblock Thesis, Technische Universit{\"a}t Berlin, 2014.
-
-\bibitem[Gorkhover et~al.(2012)Gorkhover, Adolph, Rupp, Schorb, Epp, Erk,
-  Foucar, Hartmann, Kimmel, Kuhnel, et~al.]{Gorkhover-2012-PRL}
-T.~Gorkhover, M.~Adolph, D.~Rupp, S.~Schorb, S.~W. Epp, B.~Erk, L.~Foucar,
-  R.~Hartmann, N.~Kimmel, K.~U. Kuhnel, et~al.
-\newblock Nanoplasma dynamics of single large xenon clusters irradiated with
-  superintense x-ray pulses from the linac coherent light source free-electron
-  laser.
-\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (24):\penalty0 245005, 2012.
-\newblock ISSN 1079-7114.
-\newblock \doi{10.1103/PhysRevLett.108.245005}.
-
-\bibitem[Gorkhover et~al.(2016)Gorkhover, Schorb, Coffee, Adolph, Foucar, Rupp,
-  Aquila, Bozek, Epp, Erk, Gumprecht, Holmegaard, Hartmann, Hartmann, Hauser,
-  Holl, H{\"{o}}mke, Johnsson, Kimmel, K{\"{u}}hnel, Messerschmidt, Reich,
-  Rouz{\'{e}}e, Rudek, Schmidt, Schulz, Soltau, Stern, Weidenspointner, White,
-  K{\"{u}}pper, Str{\"{u}}der, Schlichting, Ullrich, Rolles, Rudenko,
-  M{\"{o}}ller, and Bostedt]{Gorkhover-2016-NatPho}
-T.~Gorkhover, S.~Schorb, R.~Coffee, M.~Adolph, L.~Foucar, D.~Rupp, A.~Aquila,
-  J.~D. Bozek, S.~W. Epp, B.~Erk, L.~Gumprecht, L.~Holmegaard, A.~Hartmann,
-  R.~Hartmann, G.~Hauser, P.~Holl, A.~H{\"{o}}mke, P.~Johnsson, N.~Kimmel,
-  K.-U. K{\"{u}}hnel, M.~Messerschmidt, C.~Reich, A.~Rouz{\'{e}}e, B.~Rudek,
-  C.~Schmidt, J.~Schulz, H.~Soltau, S.~Stern, G.~Weidenspointner, B.~White,
-  J.~K{\"{u}}pper, L.~Str{\"{u}}der, I.~Schlichting, J.~Ullrich, D.~Rolles,
-  A.~Rudenko, T.~M{\"{o}}ller, and C.~Bostedt.
-\newblock {Femtosecond and nanometre visualization of structural dynamics in
-  superheated nanoparticles}.
-\newblock \emph{Nature Photonics}, 10\penalty0 (2):\penalty0 93--97, 2016.
+\bibitem[Amann et~al.(2012)Amann, Berg, Blank, Decker, Ding, Emma, Feng,
+  Frisch, Fritz, Hastings, et~al.]{Amann-2012-NatPho}
+J.~Amann, W.~Berg, V.~Blank, F.~J. Decker, Y.~Ding, P.~Emma, Y.~Feng,
+  J.~Frisch, D.~Fritz, J.~Hastings, et~al.
+\newblock Demonstration of self-seeding in a hard-x-ray free-electron laser.
+\newblock \emph{Nat. Photonics}, 6\penalty0 (10):\penalty0 693--698, 2012.
 \newblock ISSN 1749-4885.
-\newblock \doi{10.1038/nphoton.2015.264}.
-\newblock URL \url{http://www.nature.com/doifinder/10.1038/nphoton.2015.264}.
-
-\bibitem[Gough et~al.(1985)Gough, Mengel, Rowntree, and
-  Scoles]{Gough-1985-JChemPhys}
-T.~E. Gough, M.~Mengel, P.~a. Rowntree, and G.~Scoles.
-\newblock {Infrared spectroscopy at the surface of clusters: SF6 on Ar}.
-\newblock \emph{The Journal of Chemical Physics}, 83\penalty0 (10):\penalty0
-  4958, 1985.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.449757}.
+\newblock \doi{10.1038/NPHOTON.2012.180}.
 \newblock URL
-  \url{http://scitation.aip.org/content/aip/journal/jcp/83/10/10.1063/1.449757}.
-
-\bibitem[Gspann(1986)]{Gspann-1986-Springer}
-J.~Gspann.
-\newblock On the phase of metal clusters.
-\newblock In F.~Tr{\"{a}}ger and G.~zu~Putlitz, editors, \emph{Metal Clusters},
-  pages 43--45, Berlin, Heidelberg, April 1986. Springer Berlin Heidelberg.
-\newblock ISBN 978-3-642-71571-6.
-\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-71571-6{\_}7}.
-
-\bibitem[Guinier and Fournet(1955)]{Guinier-1955-JWS}
-A.~Guinier and G.~Fournet.
-\newblock \emph{Small-angle scattering of X-rays}.
-\newblock J. Wiley {\&} Sons, New York, 1955.
-
-\bibitem[Haberland(1994)]{Haberland-1994-Springer}
-H.~Haberland.
-\newblock \emph{Clusters of atoms and Molecules I, vol. 52 of Springer Series
-  in Chemical Physics}.
-\newblock Springer-Verlag, Berlin, 1994.
-
-\bibitem[Hagena(1972)]{Hagena-1972-JCP}
-O.~F. Hagena.
-\newblock {Cluster Formation in Expanding Supersonic Jets: Effect of Pressure,
-  Temperature, Nozzle Size, and Test Gas}.
-\newblock \emph{The Journal of Chemical Physics}, 56\penalty0 (5):\penalty0
-  1793, 1972.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.1677455}.
-\newblock URL
-  \url{http://scitation.aip.org/content/aip/journal/jcp/56/5/10.1063/1.1677455}.
-
-\bibitem[Hagena(1981)]{Hagena-1981-SurfSci}
-O.~F. Hagena.
-\newblock {Nucleation and growth of clusters in expanding nozzle flows}.
-\newblock \emph{Surface Science}, 106\penalty0 (1-3):\penalty0 101--116, 1981.
-\newblock ISSN 00396028.
-\newblock \doi{10.1016/0039-6028(81)90187-4}.
-
-\bibitem[Hagena(1987)]{Hagena-1987-ZeitschriftAMC}
-O.~F. Hagena.
-\newblock {Condensation in free jets: Comparison of rare gases and metals}.
-\newblock \emph{Zeitschrift f{\"{u}}r Physik D Atoms, Molecules and Clusters},
-  4\penalty0 (3):\penalty0 291--299, 1987.
-\newblock ISSN 01787683.
-\newblock \doi{10.1007/BF01436638}.
-
-\bibitem[Hantke et~al.(2014)Hantke, Hasse, Maia, Ekeberg, John, Svenda, Loh,
-  Martin, Timneanu, Larsson, et~al.]{Hantke-2014-NatPho}
-M.~F. Hantke, D.~Hasse, F.~R. N.~C. Maia, T.~Ekeberg, K.~John, M.~Svenda, N.~D.
-  Loh, A.~V. Martin, N.~Timneanu, D.~S.~D. Larsson, et~al.
-\newblock High-throughput imaging of heterogeneous cell organelles with an
-  x-ray laser.
-\newblock \emph{Nat. Photonics}, 8:\penalty0 943–949, 2014.
-\newblock \doi{10.1038/nphoton.2014.270}.
-
-\bibitem[Hau-Riege and Chapman(2008)]{Hau-Riege-2008-PRE}
-S.~P. Hau-Riege and H.~N. Chapman.
-\newblock {Modeling of the damage dynamics of nanospheres exposed to x-ray
-  free-electron-laser radiation}.
-\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
-  Physics}, 77\penalty0 (4):\penalty0 1--4, 2008.
-\newblock ISSN 15393755.
-\newblock \doi{10.1103/PhysRevE.77.041902}.
-
-\bibitem[Hau-Riege et~al.(2004)Hau-Riege, London, and
-  Szoke]{Hau-Riege-2004-PRE}
-S.~P. Hau-Riege, R.~a. London, and A.~Szoke.
-\newblock {Dynamics of biological molecules irradiated by short x-ray pulses}.
-\newblock \emph{Physical Review E}, 69\penalty0 (5):\penalty0 051906, may 2004.
-\newblock ISSN 1539-3755.
-\newblock \doi{10.1103/PhysRevE.69.051906}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevE.69.051906}.
-
-\bibitem[Hau-Riege et~al.(2010{\natexlab{a}})Hau-Riege, Bionta, Ryutov, London,
-  Ables, Kishiyama, Shen, McKernan, McMahon, Messerschmidt, Krzywinski, Stefan,
-  Turner, and Ziaja]{Hau-Riege-2010-PRL-2}
-S.~P. Hau-Riege, R.~M. Bionta, D.~D. Ryutov, R.~A. London, E.~Ables, K.~I.
-  Kishiyama, S.~Shen, M.~A. McKernan, D.~H. McMahon, M.~Messerschmidt,
-  J.~Krzywinski, P.~Stefan, J.~Turner, and B.~Ziaja.
-\newblock Near-ultraviolet luminescence of ${\mathbf{n}}_{2}$ irradiated by
-  short x-ray pulses.
-\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 043003, Jul
-  2010{\natexlab{a}}.
-\newblock \doi{10.1103/PhysRevLett.105.043003}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.105.043003}.
-
-\bibitem[Hau-Riege et~al.(2010{\natexlab{b}})Hau-Riege, Boutet, Barty, Bajt,
-  Bogan, Frank, Andreasson, Iwan, Seibert, Hajdu, Sakdinawat, Schulz, Treusch,
-  and Chapman]{Hau-Riege-2010-PRL}
-S.~P. Hau-Riege, S.~Boutet, A.~Barty, S.~Bajt, M.~J. Bogan, M.~Frank,
-  J.~Andreasson, B.~Iwan, M.~M. Seibert, J.~Hajdu, A.~Sakdinawat, J.~Schulz,
-  R.~Treusch, and H.~N. Chapman.
-\newblock {Sacrificial tamper slows down sample explosion in FLASH dffraction
-  eperiments}.
-\newblock \emph{Physical Review Letters}, 104\penalty0 (February):\penalty0
-  1--4, 2010{\natexlab{b}}.
-\newblock ISSN 00319007.
-\newblock \doi{10.1103/PhysRevLett.104.064801}.
-
-\bibitem[Hecht(2008)]{Hecht-2008-OPN}
-J.~Hecht.
-\newblock The history of the x-ray laser.
-\newblock \emph{Optics and Photonics News}, 19\penalty0 (5):\penalty0 26--33,
-  2008.
-
-\bibitem[Henke et~al.(1993)Henke, Gullikson, and Davis]{Henke-1993-ADNDT}
-B.~Henke, E.~Gullikson, and J.~Davis.
-\newblock {X-Ray interactions: photoabsorption, scattering, transmission, and
-  reflection at E = 50-30,000 eV, Z = 1-92}, 1993.
-\newblock ISSN 0092640X.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0092640X83710132}.
-
-\bibitem[Ho(2016)]{Ho-2016-PC}
-P.~J. Ho.
-\newblock personal communication, August 2016.
-
-\bibitem[Ho et~al.(2014)Ho, Bostedt, Schorb, and Young]{Ho-2014-PRL}
-P.~J. Ho, C.~Bostedt, S.~Schorb, and L.~Young.
-\newblock Theoretical tracking of resonance-enhanced multiple ionization
-  pathways in x-ray free-electron laser pulses.
-\newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 253001, 2014.
-
-\bibitem[Hoener et~al.(2008)Hoener, Bostedt, Thomas, Landt, Eremina, Wabnitz,
-  Laarmann, Treusch, {De Castro}, and M{\"{o}}ller]{Hoener-2008-JPB}
-M.~Hoener, C.~Bostedt, H.~Thomas, L.~Landt, E.~Eremina, H.~Wabnitz,
-  T.~Laarmann, R.~Treusch, A.~R.~B. {De Castro}, and T.~M{\"{o}}ller.
-\newblock {Charge recombination in soft x-ray laser produced nanoplasmas}.
-\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
-  41\penalty0 (18):\penalty0 181001, 2008.
-\newblock ISSN 0953-4075.
-\newblock \doi{10.1088/0953-4075/41/18/181001}.
-\newblock URL
-  \url{http://stacks.iop.org/0953-4075/41/i=18/a=181001?key=crossref.8294ba41a32aa89b0a6ec0f8b550687f$\backslash$nhttp://iopscience.iop.org/0953-4075/41/18/181001}.
-
-\bibitem[Holst and Horvath(2005)]{holst-2005-wiki}
-B.~Holst and A.~Horvath.
-\newblock Undulator, Jul 2005.
-\newblock URL \url{https://commons.wikimedia.org/wiki/file:undulator.png}.
-
-\bibitem[Huang and Kim(2007)]{Huang-2007-PRSTAB}
-Z.~Huang and K.-J. Kim.
-\newblock Review of x-ray free-electron laser theory.
-\newblock \emph{Phys. Rev. ST Accel. Beams}, 10:\penalty0 034801, Mar 2007.
-\newblock \doi{10.1103/PhysRevSTAB.10.034801}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.10.034801}.
-
-\bibitem[Juha et~al.(2011)Juha, Bajt, and London]{Hajkova-2011-SPIE}
-L.~Juha, S.~Bajt, and R.~A. London, editors.
-\newblock \emph{X-ray laser-induced ablation of lead compounds}, volume 8077,
-  2011.
-\newblock \doi{10.1117/12.890134}.
-\newblock URL \url{http://dx.doi.org/10.1117/12.890134}.
-
-\bibitem[Kelleher et~al.(1990)Kelleher, Flanagan, and
-  Kornberg]{KELLEHER-1990-cell}
-R.~J. Kelleher, P.~M. Flanagan, and R.~D. Kornberg.
-\newblock A novel mediator between activator proteins and the rna polymerase ii
-  transcription apparatus.
-\newblock \emph{Cell}, 61\penalty0 (7):\penalty0 1209 -- 1215, 1990.
-\newblock ISSN 0092-8674.
-\newblock \doi{http://dx.doi.org/10.1016/0092-8674(90)90685-8}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/0092867490906858}.
-
-\bibitem[Kim(1986)]{Kim-1986-NIMPRA}
-K.-J. Kim.
-\newblock {Angular distribution of undulator power for an arbitrary deflection
-  parameter K}.
-\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  246\penalty0 (1-3):\penalty0 67--70, may 1986.
-\newblock ISSN 01689002.
-\newblock \doi{10.1016/0168-9002(86)90047-1}.
-\newblock URL
-  \url{http://linkinghub.elsevier.com/retrieve/pii/0168900286900471}.
-
-\bibitem[Kim et~al.(2008)Kim, Shvyd'ko, and Reiche]{Kim-2008-PRL}
-K.-J. Kim, Y.~Shvyd'ko, and S.~Reiche.
-\newblock A proposal for an x-ray free-electron laser oscillator with an
-  energy-recovery linac.
-\newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 244802, Jun 2008.
-\newblock \doi{10.1103/PhysRevLett.100.244802}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.100.244802}.
-
-\bibitem[Kimberg et~al.(2016)Kimberg, Sanchez-Gonzalez, Mercadier, Weninger,
-  Lutman, Ratner, Coffee, Bucher, Mucke, Agaker, Sathe, Bostedt, Nordgren,
-  Rubensson, and Rohringer]{Kimberg-2016-FD}
-V.~Kimberg, A.~Sanchez-Gonzalez, L.~Mercadier, C.~Weninger, A.~Lutman,
-  D.~Ratner, R.~N. Coffee, M.~Bucher, M.~Mucke, M.~Agaker, C.~Sathe,
-  C.~Bostedt, J.~Nordgren, J.-E. Rubensson, and N.~Rohringer.
-\newblock Stimulated x-ray raman scattering - a critical assessment of the
-  building block of nonlinear x-ray spectroscopy.
-\newblock \emph{Faraday Discuss.}, pages~--, 2016.
-\newblock \doi{10.1039/C6FD00103C}.
-\newblock URL \url{http://dx.doi.org/10.1039/C6FD00103C}.
-
-\bibitem[Kirkpatrick and Baez(1948)]{Kirkpatrick-1948-JOSA}
-P.~Kirkpatrick and A.~V. Baez.
-\newblock {Formation of optical images by X-rays.}
-\newblock \emph{Journal of the Optical Society of America}, 38\penalty0
-  (1895):\penalty0 766--774, sep 1948.
-\newblock ISSN 0030-3941.
-\newblock \doi{10.1364/JOSA.38.000766}.
-\newblock URL
-  \url{https://www.osapublishing.org/abstract.cfm?URI=josa-38-9-766}.
-
-\bibitem[Kondratenko and Saldin(1980)]{Kondratenko-1980-PA}
-A.~Kondratenko and E.~L. Saldin.
-\newblock {Generation of coherent radiation by a relativistic electron beam in
-  an ondulator*}.
-\newblock \emph{Particle Accelerators}, 10:\penalty0 207--216, 1980.
-\newblock \doi{1003-0207}.
-
-\bibitem[Krainyukova(2006)]{Krainyukova-2006-TSF}
-N.~V. Krainyukova.
-\newblock {'The crystal structure problem' in noble gas nanoclusters}.
-\newblock \emph{Thin Solid Films}, 515\penalty0 (4):\penalty0 1658--1663, 2006.
-\newblock ISSN 00406090.
-\newblock \doi{10.1016/j.tsf.2006.05.041}.
-
-\bibitem[Krause et~al.(1970)Krause, Stevie, Lewis, Carlson, and
-  Moddeman]{Krause-1970-PhysLettA}
-M.~Krause, F.~Stevie, L.~Lewis, T.~Carlson, and W.~Moddeman.
-\newblock {Multiple excitation of neon by photon and electron impact}.
-\newblock \emph{Physics Letters A}, 31\penalty0 (2):\penalty0 81--82, jan 1970.
-\newblock ISSN 03759601.
-\newblock \doi{10.1016/0375-9601(70)91039-X}.
-\newblock URL
-  \url{http://linkinghub.elsevier.com/retrieve/pii/037596017091039X}.
-
-\bibitem[Krejcik et~al.(2007)Krejcik, Allison, Akre, Kotturi, Browne, Dusatko,
-  White, Rogind, Gromme, Dalesio, et~al.]{Krejcik-2007-DIPAC}
-P.~Krejcik, S.~Allison, R.~Akre, K.~Kotturi, M.~Browne, J.~Dusatko, W.~White,
-  D.~Rogind, A.~Gromme, L.~Dalesio, et~al.
-\newblock Timing and synchronization at the lcls.
-\newblock In \emph{Presented at}, number SLAC-PUB-12593 in 8th European
-  Workshop on Beam Diagnostics and Instrumentation for Particle Accelerators,
-  pages 373--375, 2007.
-
-\bibitem[K{\"u}pper et~al.(2014)K{\"u}pper, Stern, Holmegaard, Filsinger,
-  Rouzée, Rudenko, Johnsson, Martin, Adolph, Aquila, et~al.]{Kupper-2014-PRL}
-J.~K{\"u}pper, S.~Stern, L.~Holmegaard, F.~Filsinger, A.~Rouzée, A.~Rudenko,
-  P.~Johnsson, A.~V. Martin, M.~Adolph, A.~Aquila, et~al.
-\newblock X-ray diffraction from isolated and strongly aligned gas-phase
-  molecules with a free-electron laser.
-\newblock \emph{Phys. Rev. Lett.}, 112\penalty0 (8):\penalty0 083002, 2014.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.112.083002}.
-\newblock PRL.
-
-\bibitem[Laarmann et~al.(2004)Laarmann, {De Castro}, G{\"{u}}rtler, Laasch,
-  Schulz, Wabnitz, and M{\"{o}}ller]{Laarmann-2004-PRL}
-T.~Laarmann, A.~R.~B. {De Castro}, P.~G{\"{u}}rtler, W.~Laasch, J.~Schulz,
-  H.~Wabnitz, and T.~M{\"{o}}ller.
-\newblock {Interaction of Argon clusters with intense VUV-laser radiation: The
-  role of electronic structure in the energy-deposition process}.
-\newblock \emph{Physical Review Letters}, 92\penalty0 (14):\penalty0 143401--1,
-  2004.
-\newblock ISSN 00319007.
-\newblock \doi{10.1103/PhysRevLett.92.143401}.
-
-\bibitem[Laarmann et~al.(2005)Laarmann, Rusek, Wabnitz, Schulz, {De Castro},
-  G\"{u}rtler, Laasch, and M\"{o}ller]{Laarmann-2005-PRL}
-T.~Laarmann, M.~Rusek, H.~Wabnitz, J.~Schulz, A.~R.~B. {De Castro},
-  P.~G\"{u}rtler, W.~Laasch, and T.~M\"{o}ller.
-\newblock {Emission of thermally activated electrons from rare gas clusters
-  irradiated with intense VUV light pulses from a free electron laser}.
-\newblock \emph{Physical Review Letters}, 95\penalty0 (6):\penalty0 3--6, 2005.
-\newblock ISSN 00319007.
-\newblock \doi{10.1103/PhysRevLett.95.063402}.
-
-\bibitem[Laboratory(2009)]{SLAC-2009-Flickr}
-S.~N.~A. Laboratory.
-\newblock Lcls aerial overlay, 2009.
-\newblock URL \url{https://www.flickr.com/photos/slaclab/8577624017/}.
-\newblock Downloaded from SLAC's Flickr.
-
-\bibitem[Lehmann et~al.(2016)Lehmann, Pic??n, Bostedt, Rudenko, Marinelli,
-  Moonshiram, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
-  Gorkhover, Ho, Kanter, Kr??ssig, Krzywinski, Lutman, March, Ray, Young,
-  Pratt, and Southworth]{Lehmann-2016-PRA}
-C.~S. Lehmann, A.~Pic??n, C.~Bostedt, A.~Rudenko, A.~Marinelli, D.~Moonshiram,
-  T.~Osipov, D.~Rolles, N.~Berrah, C.~Bomme, M.~Bucher, G.~Doumy, B.~Erk, K.~R.
-  Ferguson, T.~Gorkhover, P.~J. Ho, E.~P. Kanter, B.~Kr??ssig, J.~Krzywinski,
-  A.~A. Lutman, A.~M. March, D.~Ray, L.~Young, S.~T. Pratt, and S.~H.
-  Southworth.
-\newblock {Ultrafast x-ray-induced nuclear dynamics in diatomic molecules using
-  femtosecond x-ray-pump-x-ray-probe spectroscopy}.
-\newblock \emph{Physical Review A - Atomic, Molecular, and Optical Physics},
-  94\penalty0 (1):\penalty0 1--7, 2016.
-\newblock ISSN 10941622.
-\newblock \doi{10.1103/PhysRevA.94.013426}.
-
-\bibitem[Lezius et~al.(1998)Lezius, Dobosz, Normand, and
-  Schmidt]{Lezius-1998-PRL}
-M.~Lezius, S.~Dobosz, D.~Normand, and M.~Schmidt.
-\newblock {Explosion Dynamics of Rare Gas Clusters in Strong Laser Fields}.
-\newblock \emph{Physical Review Letters}, 80\penalty0 (2):\penalty0 261--264,
-  1998.
-\newblock ISSN 0031-9007.
-\newblock \doi{10.1103/PhysRevLett.80.261}.
-
-\bibitem[Liekhus-Schmaltz et~al.(2015)Liekhus-Schmaltz, Tenney, Osipov,
-  Sanchez-Gonzalez, Berrah, Boll, Bomme, Bostedt, Bozek, Carron, Coffee, Devin,
-  Erk, Ferguson, Field, Foucar, Frasinski, Glownia, G{\"{u}}hr, Kamalov,
-  Krzywinski, Li, Marangos, Martinez, McFarland, Miyabe, Murphy, Natan, Rolles,
-  Rudenko, Siano, Simpson, Spector, Swiggers, Walke, Wang, Weber, Bucksbaum,
-  and Petrovic]{Liekhus-Schmaltz-2015-NatComm}
-C.~E. Liekhus-Schmaltz, I.~Tenney, T.~Osipov, A.~Sanchez-Gonzalez, N.~Berrah,
-  R.~Boll, C.~Bomme, C.~Bostedt, J.~D. Bozek, S.~Carron, R.~Coffee, J.~Devin,
-  B.~Erk, K.~R. Ferguson, R.~W. Field, L.~Foucar, L.~J. Frasinski, J.~M.
-  Glownia, M.~G{\"{u}}hr, A.~Kamalov, J.~Krzywinski, H.~Li, J.~P. Marangos,
-  T.~J. Martinez, B.~K. McFarland, S.~Miyabe, B.~Murphy, A.~Natan, D.~Rolles,
-  A.~Rudenko, M.~Siano, E.~R. Simpson, L.~Spector, M.~Swiggers, D.~Walke,
-  S.~Wang, T.~Weber, P.~H. Bucksbaum, and V.~S. Petrovic.
-\newblock {Ultrafast isomerization initiated by X-ray core ionization.}
-\newblock \emph{Nature communications}, 6:\penalty0 8199, 2015.
-\newblock ISSN 2041-1723.
-\newblock \doi{10.1038/ncomms9199}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/26354002}.
-
-\bibitem[Lippmann et~al.(1984)Lippmann, Schieve, and
-  Canestaro]{Lippmann-1984-JCP}
-D.~Lippmann, W.~C. Schieve, and C.~Canestaro.
-\newblock {Clustering time dependence in molecular dynamics: A kinetic model}.
-\newblock \emph{The Journal of Chemical Physics}, 81\penalty0 (11):\penalty0
-  4969, 1984.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.447481}.
-\newblock URL
-  \url{http://link.aip.org/link/JCPSA6/v81/i11/p4969/s1{\&}Agg=doi}.
-
-\bibitem[Liu(1982)]{Liu-1982-OptLett}
-J.~M. Liu.
-\newblock Simple technique for measurements of pulsed gaussian-beam spot sizes.
-\newblock \emph{Opt. Lett.}, 7\penalty0 (5):\penalty0 196--198, May 1982.
-\newblock \doi{10.1364/OL.7.000196}.
-\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-5-196}.
-
-\bibitem[Loh and Elser(2009)]{Loh-2009-PRE}
-N.~T.~D. Loh and V.~Elser.
-\newblock {Reconstruction algorithm for single-particle diffraction imaging
-  experiments}.
-\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
-  Physics}, 80\penalty0 (2):\penalty0 1--20, 2009.
-\newblock ISSN 15393755.
-\newblock \doi{10.1103/PhysRevE.80.026705}.
-
-\bibitem[Luke(2005)]{Luke-2005-IP}
-D.~R. Luke.
-\newblock Relaxed averaged alternating reflections for diffraction imaging.
-\newblock \emph{Inverse Problems}, 21\penalty0 (1):\penalty0 37, 2005.
-\newblock URL \url{http://stacks.iop.org/0266-5611/21/i=1/a=004}.
-
-\bibitem[Lutman et~al.(2013)Lutman, Coffee, Ding, Huang, Krzywinski, Maxwell,
-  Messerschmidt, and Nuhn]{Lutman-2013-PRL}
-A.~A. Lutman, R.~Coffee, Y.~Ding, Z.~Huang, J.~Krzywinski, T.~Maxwell,
-  M.~Messerschmidt, and H.~D. Nuhn.
-\newblock Experimental demonstration of femtosecond two-color x-ray
-  free-electron lasers.
-\newblock \emph{Phys. Rev. Lett.}, 110\penalty0 (13):\penalty0 134801, 2013.
-\newblock ISSN 0031-9007.
-
-\bibitem[MacDonald et~al.(2016)MacDonald, Gorkhover, Bachmann, Bucher, Carron,
-  Coffee, Drake, Ferguson, Fletcher, Gamboa, Glenzer, G{\"{o}}de, Hau-Riege,
-  Kraus, Krzywinski, Levitan, Meiwes-Broer, O'Grady, Osipov, Pardini, Peltz,
-  Skruszewicz, Swiggers, Bostedt, Fennel, and
-  D{\"{o}}ppner]{MacDonald-2016-RSI}
-M.~J. MacDonald, T.~Gorkhover, B.~Bachmann, M.~Bucher, S.~Carron, R.~N. Coffee,
-  R.~P. Drake, K.~R. Ferguson, L.~B. Fletcher, E.~J. Gamboa, S.~H. Glenzer,
-  S.~G{\"{o}}de, S.~P. Hau-Riege, D.~Kraus, J.~Krzywinski, A.~L. Levitan, K.-H.
-  Meiwes-Broer, C.~P. O'Grady, T.~Osipov, T.~Pardini, C.~Peltz, S.~Skruszewicz,
-  M.~Swiggers, C.~Bostedt, T.~Fennel, and T.~D{\"{o}}ppner.
-\newblock {Measurement of high-dynamic range x-ray Thomson scattering spectra
-  for the characterization of nano-plasmas at LCLS}.
-\newblock \emph{Review of Scientific Instruments}, 87\penalty0 (11):\penalty0
-  11E709, nov 2016.
-\newblock ISSN 0034-6748.
-\newblock \doi{10.1063/1.4960502}.
-\newblock URL
-  \url{http://scitation.aip.org/content/aip/journal/rsi/87/11/10.1063/1.4960502}.
-
-\bibitem[Maia(2012)]{Maia-2012-NatMet}
-F.~R. Maia.
-\newblock The coherent x-ray imaging data bank.
-\newblock \emph{Nat. Methods}, 9\penalty0 (9):\penalty0 854--855, 2012.
-\newblock ISSN 1548-7091.
-\newblock \doi{10.1038/nmeth.2110}.
-
-\bibitem[Maia et~al.(2010)Maia, Ekeberg, van~der Spoel, and
-  Hajdu]{Maia-2010-JAC}
-F.~R. N.~C. Maia, T.~Ekeberg, D.~van~der Spoel, and J.~Hajdu.
-\newblock {Hawk: the image reconstruction package for coherent X-ray
-  diffractive imaging}.
-\newblock \emph{Journal of Applied Crystallography}, 43\penalty0 (6):\penalty0
-  1535--1539, Dec 2010.
-\newblock \doi{10.1107/S0021889810036083}.
-\newblock URL \url{http://dx.doi.org/10.1107/S0021889810036083}.
-
-\bibitem[Marinelli et~al.(2015)Marinelli, Ratner, Lutman, Turner, Welch,
-  Decker, Loos, Behrens, Gilevich, Miahnahri, et~al.]{Marinelli-2015-NatComm}
-A.~Marinelli, D.~Ratner, A.~Lutman, J.~Turner, J.~Welch, F.-J. Decker, H.~Loos,
-  C.~Behrens, S.~Gilevich, A.~Miahnahri, et~al.
-\newblock High-intensity double-pulse x-ray free-electron laser.
-\newblock \emph{Nature communications}, 6, 2015.
-
-\bibitem[Miehle et~al.(1989)Miehle, Kandler, Leisner, and
-  Echt]{Miehle-1989-JCP}
-W.~Miehle, O.~Kandler, T.~Leisner, and O.~Echt.
-\newblock Mass spectrometric evidence for icosahedral structure in large rare
-  gas clusters: Ar, kr, xe.
-\newblock \emph{The Journal of chemical physics}, 91\penalty0 (10):\penalty0
-  5940--5952, 1989.
-
-\bibitem[Miller(1988)]{Miller-1988-Oxford}
-D.~R. Miller.
-\newblock Free jet sources.
-\newblock In G.~Scoles, editor, \emph{Atomic and Molecular Beam Methods},
-  chapter~2, pages 14--53. Oxford University Press, Inc., 1988.
-
-\bibitem[Mills et~al.(2005)Mills, Helliwell, Kvick, Ohta, Robinson, and
-  Authier]{Mills-2005-IUCR}
-D.~M. Mills, J.~R. Helliwell, {\AA}.~Kvick, T.~Ohta, I.~A. Robinson, and
-  A.~Authier.
-\newblock {Report of the working group on synchrotron radiation nomenclature -
-  Brightness, spectral brightness or brilliance?}
-\newblock \emph{Journal of Synchrotron Radiation}, 12\penalty0 (3):\penalty0
-  385, 2005.
-\newblock ISSN 09090495.
-\newblock \doi{10.1107/S090904950500796X}.
-
-\bibitem[Moeller et~al.(2011)Moeller, Arthur, Brachmann, Coffee, Decker, Ding,
-  Dowell, Edstrom, Emma, Feng, et~al.]{Moeller-2011-NIMPR}
-S.~Moeller, J.~Arthur, A.~Brachmann, R.~Coffee, F.~J. Decker, Y.~Ding,
-  D.~Dowell, S.~Edstrom, P.~Emma, Y.~Feng, et~al.
-\newblock Photon beamlines and diagnostics at lcls.
-\newblock \emph{Nucl. Instrum. Methods Phys. Res. A}, 635\penalty0
-  (1):\penalty0 S6--S11, 2011.
-\newblock ISSN 0168-9002.
-\newblock \doi{10.1016/j.nima.2010.10.125}.
-
-\bibitem[Munke et~al.(2016)Munke, Andreasson, Aquila, Awel, Ayyer, Barty, Bean,
-  Berntsen, Bielecki, Boutet, Bucher, Chapman, Daurer, DeMirci, Elser, Fromme,
-  Hajdu, Hantke, Higashiura, Hogue, Hosseinizadeh, Kim, Kirian, Reddy, Lan,
-  Larsson, Liu, Loh, Maia, Mancuso, M{\"{u}}hlig, Nakagawa, Nam, Nelson,
-  Nettelblad, Okamoto, Ourmazd, Rose, van~der Schot, Schwander, Seibert,
-  Sellberg, Sierra, Song, Svenda, Timneanu, Vartanyants, Westphal, Wiedorn,
-  Williams, Xavier, Yoon, and Zook]{Munke-2016-naturedata}
-A.~Munke, J.~Andreasson, A.~Aquila, S.~Awel, K.~Ayyer, A.~Barty, R.~J. Bean,
-  P.~Berntsen, J.~Bielecki, S.~Boutet, M.~Bucher, H.~N. Chapman, B.~J. Daurer,
-  H.~DeMirci, V.~Elser, P.~Fromme, J.~Hajdu, M.~F. Hantke, A.~Higashiura, B.~G.
-  Hogue, A.~Hosseinizadeh, Y.~Kim, R.~A. Kirian, H.~K. Reddy, T.-Y. Lan, D.~S.
-  Larsson, H.~Liu, N.~D. Loh, F.~R. Maia, A.~P. Mancuso, K.~M{\"{u}}hlig,
-  A.~Nakagawa, D.~Nam, G.~Nelson, C.~Nettelblad, K.~Okamoto, A.~Ourmazd,
-  M.~Rose, G.~van~der Schot, P.~Schwander, M.~M. Seibert, J.~A. Sellberg, R.~G.
-  Sierra, C.~Song, M.~Svenda, N.~Timneanu, I.~A. Vartanyants, D.~Westphal,
-  M.~O. Wiedorn, G.~J. Williams, P.~L. Xavier, C.~H. Yoon, and J.~Zook.
-\newblock {Coherent diffraction of single Rice Dwarf virus particles using hard
-  X-rays at the Linac Coherent Light Source}.
-\newblock \emph{Scientific Data}, 3:\penalty0 160064, aug 2016.
-\newblock ISSN 2052-4463.
-\newblock \doi{10.1038/sdata.2016.64}.
-\newblock URL \url{http://www.nature.com/articles/sdata201664}.
-
-\bibitem[Murphy et~al.(2012)Murphy, Castagna, Bozek, and
-  Berrah]{Murphy-2012-SPIE}
-B.~F. Murphy, J.-C. Castagna, J.~D. Bozek, and N.~Berrah.
-\newblock Mirror-based soft x-ray split-and-delay system for femtosecond
-  pump-probe experiments at lcls.
-\newblock In \emph{X-Ray Free-Electron Lasers: Beam Diagnostics, Beamline
-  Instrumentation, and Applications}, volume 8504, pages 850409--850409--7,
-  2012.
-\newblock \doi{10.1117/12.928538}.
-\newblock URL \url{http://dx.doi.org/10.1117/12.928538}.
-
-\bibitem[Neutze et~al.(2000)Neutze, Wouts, van~der Spoel, Weckert, and
-  Hajdu]{Neutze-2000-Nature}
-R.~Neutze, R.~Wouts, D.~van~der Spoel, E.~Weckert, and J.~Hajdu.
-\newblock Potential for biomolecular imaging with femtosecond x-ray pulses.
-\newblock \emph{Nature}, 406\penalty0 (6797):\penalty0 752--757, 2000.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/35021099}.
-
-\bibitem[Osipov(2013)]{Osipov-2013-PC}
-T.~Osipov.
-\newblock personal communication, 2013.
-
-\bibitem[Peltz et~al.(2014)Peltz, Varin, Brabec, and Fennel]{Peltz-2014-PRL}
-C.~Peltz, C.~Varin, T.~Brabec, and T.~Fennel.
-\newblock {Time-resolved x-ray imaging of anisotropic nanoplasma expansion}.
-\newblock \emph{Physical Review Letters}, 113\penalty0 (3):\penalty0 1--6,
-  2014.
-\newblock ISSN 10797114.
-\newblock \doi{10.1103/PhysRevLett.113.133401}.
-
-\bibitem[Perazzo(2016)]{Amadeo-2016-SLAC}
-A.~Perazzo.
-\newblock Lcls data analysis strategy.
-\newblock Technical report, SLAC National Accelerator Laboratory, Febuary 2016.
-\newblock URL
-  \url{https://portal.slac.stanford.edu/sites/lcls_public/Documents/LCLSDataAnalysisStrategy.pdf}.
-
-\bibitem[Perl et~al.(1975)Perl, Abrams, Boyarski, Breidenbach, Briggs, Bulos,
-  Chinowsky, Dakin, Feldman, Friedberg, Fryberger, Goldhaber, Hanson, Heile,
-  Jean-Marie, Kadyk, Larsen, Litke, L\"uke, Lulu, L\"uth, Lyon, Morehouse,
-  Paterson, Pierre, Pun, Rapidis, Richter, Sadoulet, Schwitters, Tanenbaum,
-  Trilling, Vannucci, Whitaker, Winkelmann, and Wiss]{Perl-PRL-1975}
-M.~L. Perl, G.~S. Abrams, A.~M. Boyarski, M.~Breidenbach, D.~D. Briggs,
-  F.~Bulos, W.~Chinowsky, J.~T. Dakin, G.~J. Feldman, C.~E. Friedberg,
-  D.~Fryberger, G.~Goldhaber, G.~Hanson, F.~B. Heile, B.~Jean-Marie, J.~A.
-  Kadyk, R.~R. Larsen, A.~M. Litke, D.~L\"uke, B.~A. Lulu, V.~L\"uth, D.~Lyon,
-  C.~C. Morehouse, J.~M. Paterson, F.~M. Pierre, T.~P. Pun, P.~A. Rapidis,
-  B.~Richter, B.~Sadoulet, R.~F. Schwitters, W.~Tanenbaum, G.~H. Trilling,
-  F.~Vannucci, J.~S. Whitaker, F.~C. Winkelmann, and J.~E. Wiss.
-\newblock Evidence for anomalous lepton production in ${e}^{+}-{e}^{-}$
-  annihilation.
-\newblock \emph{Phys. Rev. Lett.}, 35:\penalty0 1489--1492, Dec 1975.
-\newblock \doi{10.1103/PhysRevLett.35.1489}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.35.1489}.
-
-\bibitem[Pic{\'{o}}n et~al.(2016)Pic{\'{o}}n, Lehmann, Bostedt, Rudenko,
-  Marinelli, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
-  Gorkhover, Ho, Kanter, Kr{\"{a}}ssig, Krzywinski, Lutman, March, Moonshiram,
-  Ray, Young, Pratt, and Southworth]{Picon-2016-NatComm}
-A.~Pic{\'{o}}n, C.~S. Lehmann, C.~Bostedt, A.~Rudenko, A.~Marinelli, T.~Osipov,
-  D.~Rolles, N.~Berrah, C.~Bomme, M.~Bucher, G.~Doumy, B.~Erk, K.~R. Ferguson,
-  T.~Gorkhover, P.~J. Ho, E.~P. Kanter, B.~Kr{\"{a}}ssig, J.~Krzywinski, A.~A.
-  Lutman, A.~M. March, D.~Moonshiram, D.~Ray, L.~Young, S.~T. Pratt, and S.~H.
-  Southworth.
-\newblock {Hetero-site-specific X-ray pump-probe spectroscopy for femtosecond
-  intramolecular dynamics}.
-\newblock \emph{Nature Communications}, 7\penalty0 (May):\penalty0 11652, 2016.
-\newblock ISSN 2041-1723.
-\newblock \doi{10.1038/ncomms11652}.
-\newblock URL \url{http://www.nature.com/doifinder/10.1038/ncomms11652}.
-
-\bibitem[Pro(2014)]{Galayda-2014-IPAC}
-\emph{THE LINAC COHERENT LIGHT SOURCE-II PROJECT}, 2014. Proceedings of IPAC
-  2014.
-\newblock URL
-  \url{http://accelconf.web.cern.ch/AccelConf/IPAC2014/papers/tuoca01.pdf}.
-
-\bibitem[Pugliese and Paolucci(2016)]{Elettra-2016-Website}
-R.~Pugliese and G.~Paolucci.
-\newblock Atomic calculation of photoionization cross-sections and asymmetry
-  parameters, August 2016.
-\newblock URL \url{https://vuo.elettra.eu/services/elements/WebElements.html}.
-
-\bibitem[Quiney and Nugent(2010)]{Quiney-2010-NatPhys}
-H.~M. Quiney and K.~A. Nugent.
-\newblock {Biomolecular imaging and electronic damage using X-ray free-electron
-  lasers}.
-\newblock \emph{Nature Physics}, 6\penalty0 (12):\penalty0 16, 2010.
-\newblock ISSN 1745-2473.
-\newblock \doi{10.1038/nphys1859}.
-\newblock URL \url{http://arxiv.org/abs/1007.0074}.
+  \url{http://www.nature.com/nphoton/journal/v6/n10/pdf/nphoton.2012.180.pdf}.
 
 \bibitem[Ratner et~al.(2015)Ratner, Abela, Amann, Behrens, Bohler, Bouchard,
   Bostedt, Boyes, Chow, Cocco, Decker, Ding, Eckman, Emma, Fairley, Feng,
@@ -1088,6 +380,353 @@ D.~Ratner, R.~Abela, J.~Amann, C.~Behrens, D.~Bohler, G.~Bouchard, C.~Bostedt,
 \newblock \doi{10.1103/PhysRevLett.114.054801}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.114.054801}.
 
+\bibitem[Allaria et~al.(2012)Allaria, Appio, Badano, Barletta, Bassanese,
+  Biedron, Borga, Busetto, Castronovo, Cinquegrana,
+  et~al.]{Allaria-2012-NatPho}
+E.~Allaria, R.~Appio, L.~Badano, W.~A. Barletta, S.~Bassanese, S.~G. Biedron,
+  A.~Borga, E.~Busetto, D.~Castronovo, P.~Cinquegrana, et~al.
+\newblock Highly coherent and stable pulses from the fermi seeded free-electron
+  laser in the extreme ultraviolet.
+\newblock \emph{Nat. Photonics}, 6\penalty0 (10):\penalty0 699--704, 2012.
+\newblock ISSN 1749-4885.
+\newblock \doi{10.1038/nphoton.2012.233}.
+\newblock URL \url{<Go to ISI>://WOS:000309523900018}.
+
+\bibitem[Ferguson et~al.(2014)Ferguson, Bucher, Gorkhover, and
+  C.]{Ferguson-2014-Unpublished}
+K.~R. Ferguson, M.~Bucher, T.~Gorkhover, and Bostedt C.
+\newblock Absorption spectroscopy on co and {$CO_{2}$} molecules.
+\newblock Unpublished study on CO and {$CO_{2}$} molceules using an ion time of
+  flight spectrometer that is proportional to the ion yield., 2014.
+
+\bibitem[Kimberg et~al.(2016)Kimberg, Sanchez-Gonzalez, Mercadier, Weninger,
+  Lutman, Ratner, Coffee, Bucher, Mucke, Agaker, Sathe, Bostedt, Nordgren,
+  Rubensson, and Rohringer]{Kimberg-2016-FD}
+Victor Kimberg, Alvaro Sanchez-Gonzalez, Laurent Mercadier, Clemens Weninger,
+  Alberto Lutman, Daniel Ratner, Ryan~N Coffee, Maximilian Bucher, Melanie
+  Mucke, Marcus Agaker, Conny Sathe, Christoph Bostedt, Joseph Nordgren,
+  Jan-Erik Rubensson, and Nina Rohringer.
+\newblock Stimulated x-ray raman scattering - a critical assessment of the
+  building block of nonlinear x-ray spectroscopy.
+\newblock \emph{Faraday Discuss.}, pages~--, 2016.
+\newblock \doi{10.1039/C6FD00103C}.
+\newblock URL \url{http://dx.doi.org/10.1039/C6FD00103C}.
+
+\bibitem[Castagna et~al.(2013)Castagna, Murphy, Bozek, and
+  Berrah]{Castagna-2013-JPCS}
+J.~C. Castagna, B.~Murphy, J.~Bozek, and N.~Berrah.
+\newblock X-ray split and delay system for soft x-rays at lcls.
+\newblock \emph{J. Phys.: Conf. Ser.}, 425\penalty0 (15):\penalty0 152021,
+  2013.
+\newblock ISSN 1742-6596.
+\newblock \doi{10.1088/1742-6596/425/15/152021}.
+\newblock URL \url{http://iopscience.iop.org/1742-6596/425/15/152021}.
+
+\bibitem[Murphy et~al.(2012)Murphy, Castagna, Bozek, and
+  Berrah]{Murphy-2012-SPIE}
+Brendan~F. Murphy, Jean-Charles Castagna, John~D. Bozek, and Nora Berrah.
+\newblock Mirror-based soft x-ray split-and-delay system for femtosecond
+  pump-probe experiments at lcls.
+\newblock In \emph{X-Ray Free-Electron Lasers: Beam Diagnostics, Beamline
+  Instrumentation, and Applications}, volume 8504, pages 850409--850409--7,
+  2012.
+\newblock \doi{10.1117/12.928538}.
+\newblock URL \url{http://dx.doi.org/10.1117/12.928538}.
+
+\bibitem[Lutman et~al.(2013)Lutman, Coffee, Ding, Huang, Krzywinski, Maxwell,
+  Messerschmidt, and Nuhn]{Lutman-2013-PRL}
+A.~A. Lutman, R.~Coffee, Y.~Ding, Z.~Huang, J.~Krzywinski, T.~Maxwell,
+  M.~Messerschmidt, and H.~D. Nuhn.
+\newblock Experimental demonstration of femtosecond two-color x-ray
+  free-electron lasers.
+\newblock \emph{Phys. Rev. Lett.}, 110\penalty0 (13):\penalty0 134801, 2013.
+\newblock ISSN 0031-9007.
+
+\bibitem[Marinelli et~al.(2015)Marinelli, Ratner, Lutman, Turner, Welch,
+  Decker, Loos, Behrens, Gilevich, Miahnahri, et~al.]{Marinelli-2015-NatComm}
+A~Marinelli, D~Ratner, AA~Lutman, J~Turner, J~Welch, F-J Decker, H~Loos,
+  C~Behrens, S~Gilevich, AA~Miahnahri, et~al.
+\newblock High-intensity double-pulse x-ray free-electron laser.
+\newblock \emph{Nature communications}, 6, 2015.
+
+\bibitem[Pic{\'{o}}n et~al.(2016)Pic{\'{o}}n, Lehmann, Bostedt, Rudenko,
+  Marinelli, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
+  Gorkhover, Ho, Kanter, Kr{\"{a}}ssig, Krzywinski, Lutman, March, Moonshiram,
+  Ray, Young, Pratt, and Southworth]{Picon-2016-NatComm}
+A.~Pic{\'{o}}n, C.~S. Lehmann, C.~Bostedt, A.~Rudenko, A.~Marinelli, T.~Osipov,
+  D.~Rolles, N.~Berrah, C.~Bomme, M.~Bucher, G.~Doumy, B.~Erk, K.~R. Ferguson,
+  T.~Gorkhover, P.~J. Ho, E.~P. Kanter, B.~Kr{\"{a}}ssig, J~Krzywinski, A~A
+  Lutman, A~M March, D~Moonshiram, D~Ray, L~Young, S~T Pratt, and S.~H.
+  Southworth.
+\newblock {Hetero-site-specific X-ray pump-probe spectroscopy for femtosecond
+  intramolecular dynamics}.
+\newblock \emph{Nature Communications}, 7\penalty0 (May):\penalty0 11652, 2016.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms11652}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/ncomms11652}.
+
+\bibitem[Ferguson et~al.(2016)Ferguson, Bucher, Gorkhover, Boutet, Fukuzawa,
+  Koglin, Kumagai, Lutman, Marinelli, Messerschmidt, Nagaya, Turner, Ueda,
+  Williams, Bucksbaum, and Bostedt]{Ferguson-2016-SciAdv}
+Ken~R. Ferguson, Maximilian Bucher, Tais Gorkhover, S{\'e}bastien Boutet,
+  Hironobu Fukuzawa, Jason~E. Koglin, Yoshiaki Kumagai, Alberto Lutman,
+  Agostino Marinelli, Marc Messerschmidt, Kiyonobu Nagaya, Jim Turner, Kiyoshi
+  Ueda, Garth~J. Williams, Philip~H. Bucksbaum, and Christoph Bostedt.
+\newblock Transient lattice contraction in the solid-to-plasma transition.
+\newblock \emph{Science Advances}, 2\penalty0 (1), 2016.
+\newblock \doi{10.1126/sciadv.1500837}.
+\newblock URL \url{http://advances.sciencemag.org/content/2/1/e1500837}.
+
+\bibitem[Liekhus-Schmaltz et~al.(2015)Liekhus-Schmaltz, Tenney, Osipov,
+  Sanchez-Gonzalez, Berrah, Boll, Bomme, Bostedt, Bozek, Carron, Coffee, Devin,
+  Erk, Ferguson, Field, Foucar, Frasinski, Glownia, G{\"{u}}hr, Kamalov,
+  Krzywinski, Li, Marangos, Martinez, McFarland, Miyabe, Murphy, Natan, Rolles,
+  Rudenko, Siano, Simpson, Spector, Swiggers, Walke, Wang, Weber, Bucksbaum,
+  and Petrovic]{Liekhus-Schmaltz-2015-NatComm}
+Chelsea~E Liekhus-Schmaltz, Ian Tenney, Timur Osipov, Alvaro Sanchez-Gonzalez,
+  Nora Berrah, Rebecca Boll, Cedric Bomme, Christoph Bostedt, John~D Bozek,
+  Sebastian Carron, Ryan Coffee, Julien Devin, Benjamin Erk, Ken~R Ferguson,
+  Robert~W Field, Lutz Foucar, Leszek~J Frasinski, James~M Glownia, Markus
+  G{\"{u}}hr, Andrei Kamalov, Jacek Krzywinski, Heng Li, Jonathan~P Marangos,
+  Todd~J Martinez, Brian~K McFarland, Shungo Miyabe, Brendan Murphy, Adi Natan,
+  Daniel Rolles, Artem Rudenko, Marco Siano, Emma~R Simpson, Limor Spector,
+  Michele Swiggers, Daniel Walke, Song Wang, Thorsten Weber, Philip~H
+  Bucksbaum, and Vladimir~S Petrovic.
+\newblock {Ultrafast isomerization initiated by X-ray core ionization.}
+\newblock \emph{Nature communications}, 6:\penalty0 8199, 2015.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms9199}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/26354002}.
+
+\bibitem[Pro(2014)]{Galayda-2014-IPAC}
+\emph{THE LINAC COHERENT LIGHT SOURCE-II PROJECT}, 2014. Proceedings of IPAC
+  2014.
+\newblock URL
+  \url{http://accelconf.web.cern.ch/AccelConf/IPAC2014/papers/tuoca01.pdf}.
+
+\bibitem[Emma et~al.(2004)Emma, Bane, Cornacchia, Huang, Schlarb, Stupakov, and
+  Walz]{Emma-2004-PRL}
+P.~Emma, K.~Bane, M.~Cornacchia, Z.~Huang, H.~Schlarb, G.~Stupakov, and
+  D.~Walz.
+\newblock Femtosecond and subfemtosecond x-ray pulses from a self-amplified
+  spontaneous-emission–based free-electron laser.
+\newblock \emph{Phys. Rev. Lett.}, 92\penalty0 (7):\penalty0 074801, 2004.
+
+\bibitem[Haberland(1994)]{Haberland-1994-Springer}
+H~Haberland.
+\newblock \emph{Clusters of atoms and Molecules I, vol. 52 of Springer Series
+  in Chemical Physics}.
+\newblock Springer-Verlag, Berlin, 1994.
+
+\bibitem[Miehle et~al.(1989)Miehle, Kandler, Leisner, and
+  Echt]{Miehle-1989-JCP}
+W~Miehle, O~Kandler, T~Leisner, and O~Echt.
+\newblock Mass spectrometric evidence for icosahedral structure in large rare
+  gas clusters: Ar, kr, xe.
+\newblock \emph{The Journal of chemical physics}, 91\penalty0 (10):\penalty0
+  5940--5952, 1989.
+
+\bibitem[Vandewaal(1993)]{VanDeWaal-1993-JCP}
+B~W Vandewaal.
+\newblock {Icosahedral, decahedral, fcc, and defect-fcc structural models for
+  Ar-N clusters, n{\textgreater}=500 - how plausible are they?}
+\newblock \emph{J Chem Phys}, 98\penalty0 (6):\penalty0 4909--4919, 1993.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.464946}.
+
+\bibitem[Krainyukova(2006)]{Krainyukova-2006-TSF}
+Nina~V. Krainyukova.
+\newblock {'The crystal structure problem' in noble gas nanoclusters}.
+\newblock \emph{Thin Solid Films}, 515\penalty0 (4):\penalty0 1658--1663, 2006.
+\newblock ISSN 00406090.
+\newblock \doi{10.1016/j.tsf.2006.05.041}.
+
+\bibitem[Lippmann et~al.(1984)Lippmann, Schieve, and
+  Canestaro]{Lippmann-1984-JCP}
+D.~Lippmann, W.~C. Schieve, and C.~Canestaro.
+\newblock {Clustering time dependence in molecular dynamics: A kinetic model}.
+\newblock \emph{The Journal of Chemical Physics}, 81\penalty0 (11):\penalty0
+  4969, 1984.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.447481}.
+\newblock URL
+  \url{http://link.aip.org/link/JCPSA6/v81/i11/p4969/s1{\&}Agg=doi}.
+
+\bibitem[{W.H. Zurek} and {W.C. Shieve}(1980)]{Zurek-1980-JCP}
+{W.H. Zurek} and {W.C. Shieve}.
+\newblock {Multistep Clustering and Nucleation}.
+\newblock \emph{Journal of Physical Chemistry}, 84\penalty0 (12):\penalty0
+  1479--1482, 1980.
+\newblock ISSN 0022-3654.
+\newblock \doi{10.1021/j100449a010}.
+
+\bibitem[Soler et~al.(1982)Soler, Garc\'{\i}a, Echt, Sattler, and
+  Recknagel]{Soler-1982-PRL}
+J.~M. Soler, N.~Garc\'{\i}a, O.~Echt, K.~Sattler, and E.~Recknagel.
+\newblock Microcluster growth: Transition from successive monomer addition to
+  coagulation.
+\newblock \emph{Phys. Rev. Lett.}, 49:\penalty0 1857--1860, Dec 1982.
+\newblock \doi{10.1103/PhysRevLett.49.1857}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.49.1857}.
+
+\bibitem[Miller(1988)]{Miller-1988-Oxford}
+David~R. Miller.
+\newblock Free jet sources.
+\newblock In Giacinto Scoles, editor, \emph{Atomic and Molecular Beam Methods},
+  chapter~2, pages 14--53. Oxford University Press, Inc., 1988.
+
+\bibitem[Yamada et~al.(2001)Yamada, Matsuo, Toyoda, and
+  Kirkpatrick]{Yamada-2001-SciDir}
+I.~Yamada, J.~Matsuo, N.~Toyoda, and A.~Kirkpatrick.
+\newblock Materials processing by gas cluster ion beams.
+\newblock \emph{Materials Science and Engineering: R: Reports}, 34\penalty0
+  (6):\penalty0 231--295, 2001.
+\newblock ISSN 0927796X.
+\newblock \doi{10.1016/S0927-796X(01)00034-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0927796X01000341}.
+
+\bibitem[Farges et~al.(1981)Farges, de~Feraudy, Raoult, and
+  Torchet]{Farges-1981-SurfSci}
+J.~Farges, M.~F. de~Feraudy, B.~Raoult, and G.~Torchet.
+\newblock {Structure and temperature of rare gas clusters in a supersonic
+  expansion}.
+\newblock \emph{Surface Science}, 106\penalty0 (1-3):\penalty0 95--100, 1981.
+\newblock ISSN 00396028.
+\newblock \doi{10.1016/0039-6028(81)90186-2}.
+
+\bibitem[Gspann(1986)]{Gspann-1986-Springer}
+J~Gspann.
+\newblock On the phase of metal clusters.
+\newblock In Frank Tr{\"{a}}ger and Gisbert zu~Putlitz, editors, \emph{Metal
+  Clusters}, pages 43--45, Berlin, Heidelberg, April 1986. Springer Berlin
+  Heidelberg.
+\newblock ISBN 978-3-642-71571-6.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-71571-6{\_}7}.
+
+\bibitem[Schorb(2012)]{Schorb-2012-Thesis}
+Sebastian Schorb.
+\newblock \emph{Size-dependent ultrafast ionization dynamics of nanoscale
+  samples in intense femtosecond x-ray free-electron laser pulses}.
+\newblock Thesis, Technische Universitat Berlin, 2012.
+
+\bibitem[Hagena(1972)]{Hagena-1972-JCP}
+Otto~F. Hagena.
+\newblock {Cluster Formation in Expanding Supersonic Jets: Effect of Pressure,
+  Temperature, Nozzle Size, and Test Gas}.
+\newblock \emph{The Journal of Chemical Physics}, 56\penalty0 (5):\penalty0
+  1793, 1972.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.1677455}.
+\newblock URL
+  \url{http://scitation.aip.org/content/aip/journal/jcp/56/5/10.1063/1.1677455}.
+
+\bibitem[Hagena(1981)]{Hagena-1981-SurfSci}
+Otto~F. Hagena.
+\newblock {Nucleation and growth of clusters in expanding nozzle flows}.
+\newblock \emph{Surface Science}, 106\penalty0 (1-3):\penalty0 101--116, 1981.
+\newblock ISSN 00396028.
+\newblock \doi{10.1016/0039-6028(81)90187-4}.
+
+\bibitem[Hagena(1987)]{Hagena-1987-ZeitschriftAMC}
+Otto~F. Hagena.
+\newblock {Condensation in free jets: Comparison of rare gases and metals}.
+\newblock \emph{Zeitschrift f{\"{u}}r Physik D Atoms, Molecules and Clusters},
+  4\penalty0 (3):\penalty0 291--299, 1987.
+\newblock ISSN 01787683.
+\newblock \doi{10.1007/BF01436638}.
+
+\bibitem[Bartell(1986)]{Bartell-1986-ChemRev}
+Lawrence~S Bartell.
+\newblock {Diffraction studies of clusters generated in supersonic flow}.
+\newblock \emph{Chemical Reviews}, 86\penalty0 (3):\penalty0 491, 1986.
+\newblock ISSN 0009-2665.
+\newblock \doi{10.1021/cr00073a001}.
+
+\bibitem[Rupp et~al.(2014)Rupp, Adolph, Fl??ckiger, Gorkhover, M{\"u}ller,
+  M{\"u}ller, Sauppe, Wolter, Schorb, Treusch, Bostedt, and
+  M{\"o}ller]{Rupp-2014-JCP}
+Daniela Rupp, Marcus Adolph, Leonie Fl??ckiger, Tais Gorkhover, Jan~Philippe
+  M{\"u}ller, Maria M{\"u}ller, Mario Sauppe, David Wolter, Sebastian Schorb,
+  Rolf Treusch, Christoph Bostedt, and Thomas M{\"o}ller.
+\newblock {Generation and structure of extremely large clusters in pulsed
+  jets}.
+\newblock \emph{Journal of Chemical Physics}, 141\penalty0 (4), 2014.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.4890323}.
+\newblock URL \url{http://dx.doi.org/10.1063/1.4890323}.
+
+\bibitem[Gough et~al.(1985)Gough, Mengel, Rowntree, and
+  Scoles]{Gough-1985-JChemPhys}
+T.~E. Gough, M.~Mengel, P.~a. Rowntree, and G.~Scoles.
+\newblock {Infrared spectroscopy at the surface of clusters: SF6 on Ar}.
+\newblock \emph{The Journal of Chemical Physics}, 83\penalty0 (10):\penalty0
+  4958, 1985.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.449757}.
+\newblock URL
+  \url{http://scitation.aip.org/content/aip/journal/jcp/83/10/10.1063/1.449757}.
+
+\bibitem[Gomez et~al.(2011)Gomez, Loginov, Sliter, and Vilesov]{Gomez-2011-JCP}
+Luis~F. Gomez, Evgeny Loginov, Russell Sliter, and Andrey~F. Vilesov.
+\newblock {Sizes of large He droplets}.
+\newblock \emph{Journal of Chemical Physics}, 135\penalty0 (15), 2011.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.3650235}.
+
+\bibitem[Guinier and Fournet(1955)]{Guinier-1955-JWS}
+Andr{\'e} Guinier and G{\'e}rard Fournet.
+\newblock \emph{Small-angle scattering of X-rays}.
+\newblock J. Wiley {\&} Sons, New York, 1955.
+
+\bibitem[Attwood(2000)]{Attwood-2007-CUP}
+David Attwood.
+\newblock \emph{Soft x-rays and extreme ultraviolet radiation}.
+\newblock Cambridge university press, 2000.
+\newblock ISBN 0-521-65214-6.
+
+\bibitem[Pugliese and Paolucci(2016)]{Elettra-2016-Website}
+Roberto Pugliese and Giorgio Paolucci.
+\newblock Atomic calculation of photoionization cross-sections and asymmetry
+  parameters, August 2016.
+\newblock URL \url{https://vuo.elettra.eu/services/elements/WebElements.html}.
+
+\bibitem[Yeh and Lindau(1985)]{Yeh-1985-AtmDat}
+JJ~Yeh and I~Lindau.
+\newblock Atomic subshell photoionization cross sections and asymmetry
+  parameters: 1$\geq$ z $\geq$ 103.
+\newblock \emph{Atomic data and nuclear data tables}, 32\penalty0 (1):\penalty0
+  1--155, 1985.
+
+\bibitem[Yeh(1993)]{Yeh-1993-GBSP}
+J-J Yeh.
+\newblock \emph{Atomic calculation of photoionization cross-sections and
+  asymmetry parameters}.
+\newblock Gordon \& Breach Science Publ.; AT\&T Bell Laboratories, 1993.
+
+\bibitem[Cowan(1981)]{Cowan-1981-Cal}
+Robert~D Cowan.
+\newblock \emph{The theory of atomic structure and spectra}.
+\newblock University of California Press, 1981.
+\newblock URL \url{http://aphysics2.lanl.gov/tempweb/lanl/}.
+
+\bibitem[Demtr{\"o}der(2005)]{Demtroder-2005-Springer}
+Wolfgang Demtr{\"o}der.
+\newblock \emph{Experimentalphysik 3: Atome, Molek{\"u}le und Festk{\"o}rper}.
+\newblock Springer Verlag, 2005.
+
+\bibitem[Ho(2016)]{Ho-2016-PC}
+Phay~J. Ho.
+\newblock personal communication, August 2016.
+
+\bibitem[Bucher et~al.(2016)Bucher, Ferguson, T., and
+  C.]{Bucher-2016-Unpublished}
+M.~Bucher, K.~R. Ferguson, Gorkhover T., and Bostedt C.
+\newblock The lamp endstation in the amo instrument at the linac coherent light
+  source.
+\newblock Unpublished study on the LAMP endstation with focus on the pnCCD
+  detectors., 2016.
+
 \bibitem[Rudek et~al.(2012)Rudek, Son, Foucar, Epp, Erk, Hartmann, Adolph,
   Andritschke, Aquila, Berrah, et~al.]{Rudek-2012-NatPho}
 B.~Rudek, S.~K. Son, L.~Foucar, S.~W. Epp, B.~Erk, R.~Hartmann, M.~Adolph,
@@ -1098,38 +737,333 @@ B.~Rudek, S.~K. Son, L.~Foucar, S.~W. Epp, B.~Erk, R.~Hartmann, M.~Adolph,
 \newblock ISSN 1749-4885.
 \newblock \doi{10.1038/Nphoton.2012.261}.
 
-\bibitem[Rupp(2013)]{Rupp-2013-Thesis}
-D.~Rupp.
-\newblock \emph{Ionization and plasma dynamics of single large xenon clusters
-  in superintense XUV pulses}.
-\newblock Thesis, Technische Universit{\"a}t Berlin, 2013.
+\bibitem[Krause et~al.(1970)Krause, Stevie, Lewis, Carlson, and
+  Moddeman]{Krause-1970-PhysLettA}
+M.O. Krause, F.A. Stevie, L.J. Lewis, T.A. Carlson, and W.E. Moddeman.
+\newblock {Multiple excitation of neon by photon and electron impact}.
+\newblock \emph{Physics Letters A}, 31\penalty0 (2):\penalty0 81--82, jan 1970.
+\newblock ISSN 03759601.
+\newblock \doi{10.1016/0375-9601(70)91039-X}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/037596017091039X}.
 
-\bibitem[Rupp(2016)]{Rupp-2016-Springer}
-D.~Rupp.
-\newblock \emph{Ionization and plasma dynamics of single large xenon clusters
-  in superintense XUV pulses}.
-\newblock Springer, 2016.
+\bibitem[Coster and {L. Kronig}(1935)]{Coster-1935-Physica}
+D.~Coster and R.~De {L. Kronig}.
+\newblock {New type of auger effect and its influence on the x-ray spectrum}.
+\newblock \emph{Physica}, 2\penalty0 (1-12):\penalty0 13--24, jan 1935.
+\newblock ISSN 00318914.
+\newblock \doi{10.1016/S0031-8914(35)90060-X}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S003189143590060X}.
 
-\bibitem[Rupp et~al.(2014)Rupp, Adolph, Fl??ckiger, Gorkhover, M{\"u}ller,
-  M{\"u}ller, Sauppe, Wolter, Schorb, Treusch, Bostedt, and
-  M{\"o}ller]{Rupp-2014-JCP}
-D.~Rupp, M.~Adolph, L.~Fl??ckiger, T.~Gorkhover, J.~P. M{\"u}ller,
-  M.~M{\"u}ller, M.~Sauppe, D.~Wolter, S.~Schorb, R.~Treusch, C.~Bostedt, and
-  T.~M{\"o}ller.
-\newblock {Generation and structure of extremely large clusters in pulsed
-  jets}.
-\newblock \emph{Journal of Chemical Physics}, 141\penalty0 (4), 2014.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.4890323}.
-\newblock URL \url{http://dx.doi.org/10.1063/1.4890323}.
+\bibitem[Fennel et~al.(2010)Fennel, Meiwes-Broer, Tiggesbaumker, Reinhard,
+  Dinh, and Suraud]{Fennel-2010-RMP}
+Th. Fennel, K.-H. Meiwes-Broer, J.~Tiggesbaumker, P.-G. Reinhard, P.~M. Dinh,
+  and E.~Suraud.
+\newblock Laser-driven nonlinear cluster dynamics.
+\newblock \emph{Rev. Mod. Phys.}, 82:\penalty0 1793--1842, 2010.
+\newblock \doi{http://dx.doi.org/10.1103/RevModPhys.82.1793}.
 
-\bibitem[Sayre(1952)]{Sayre-1952-ActCryst}
-D.~Sayre.
-\newblock {Some implications of a theorem due to Shannon}.
-\newblock \emph{Acta Crystallographica}, 5\penalty0 (6):\penalty0 843--843,
-  1952.
-\newblock ISSN 0365-110X.
-\newblock \doi{10.1107/S0365110X52002276}.
+\bibitem[Arbeiter and Fennel(2011)]{Arbeiter-2011-NJP}
+Mathias Arbeiter and Thomas Fennel.
+\newblock Rare-gas clusters in intense vuv, xuv and soft x-ray pulses:
+  signatures of the transition from nanoplasma-driven cluster expansion to
+  coulomb explosion in ion and electron spectra.
+\newblock \emph{New Journal of Physics}, 13\penalty0 (5):\penalty0 053022,
+  2011.
+\newblock \doi{http://dx.doi.org/10.1088/1367-2630/13/5/053022}.
+
+\bibitem[Bostedt et~al.(2010{\natexlab{a}})Bostedt, Adolph, Eremina, Hoener,
+  Rupp, Schorb, Thomas, de~Castro, and M{\"{o}}ller]{Bostedt-2010-JPB}
+C~Bostedt, M~Adolph, E~Eremina, M~Hoener, D~Rupp, S~Schorb, H~Thomas, A~R~B
+  de~Castro, and T~M{\"{o}}ller.
+\newblock {Clusters in intense FLASH pulses: ultrafast ionization dynamics and
+  electron emission studied with spectroscopic and scattering techniques}.
+\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
+  43:\penalty0 194011, 2010{\natexlab{a}}.
+\newblock ISSN 0953-4075.
+\newblock \doi{10.1088/0953-4075/43/19/194011}.
+
+\bibitem[Wabnitz et~al.(2002)Wabnitz, Bittner, de~Castro, D{\"{o}}hrmann,
+  G{\"{u}}rtler, Laarmann, Laasch, Schulz, Swiderski, von Haeften,
+  M{\"{o}}ller, Faatz, Fateev, Feldhaus, Gerth, Hahn, Saldin, Schneidmiller,
+  Sytchev, Tiedtke, Treusch, and Yurkov]{Wabnitz-2002-Nature}
+H~Wabnitz, L~Bittner, a~R~B de~Castro, R~D{\"{o}}hrmann, P~G{\"{u}}rtler,
+  T~Laarmann, W~Laasch, J~Schulz, A~Swiderski, K~von Haeften, T~M{\"{o}}ller,
+  B~Faatz, A~Fateev, J~Feldhaus, C~Gerth, U~Hahn, E~Saldin, E~Schneidmiller,
+  K~Sytchev, K~Tiedtke, R~Treusch, and M~Yurkov.
+\newblock {Multiple ionization of atom clusters by intense soft X-rays from a
+  free-electron laser.}
+\newblock \emph{Nature}, 420\penalty0 (6915):\penalty0 482--5, 2002.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature01197}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/12466837}.
+
+\bibitem[Laarmann et~al.(2004)Laarmann, {De Castro}, G{\"{u}}rtler, Laasch,
+  Schulz, Wabnitz, and M{\"{o}}ller]{Laarmann-2004-PRL}
+T.~Laarmann, A.~R~B {De Castro}, P.~G{\"{u}}rtler, W.~Laasch, J.~Schulz,
+  H.~Wabnitz, and T.~M{\"{o}}ller.
+\newblock {Interaction of Argon clusters with intense VUV-laser radiation: The
+  role of electronic structure in the energy-deposition process}.
+\newblock \emph{Physical Review Letters}, 92\penalty0 (14):\penalty0 143401--1,
+  2004.
+\newblock ISSN 00319007.
+\newblock \doi{10.1103/PhysRevLett.92.143401}.
+
+\bibitem[Bostedt et~al.(2008)Bostedt, Thomas, Hoener, Eremina, Fennel,
+  Meiwes-Broer, Wabnitz, Kuhlmann, Pl{\"{o}}njes, Tiedtke, Treusch, Feldhaus,
+  {De Castro}, and M{\"{o}}ller]{Bostedt-2008-PRL}
+C.~Bostedt, H.~Thomas, M.~Hoener, E.~Eremina, T.~Fennel, K.~H. Meiwes-Broer,
+  H.~Wabnitz, M.~Kuhlmann, E.~Pl{\"{o}}njes, K.~Tiedtke, R.~Treusch,
+  J.~Feldhaus, A.~R~B {De Castro}, and T.~M{\"{o}}ller.
+\newblock {Multistep ionization of argon clusters in intense femtosecond
+  extreme ultraviolet pulses}.
+\newblock \emph{Physical Review Letters}, 100\penalty0 (13):\penalty0 12--14,
+  2008.
+\newblock ISSN 00319007.
+\newblock \doi{10.1103/PhysRevLett.100.133401}.
+
+\bibitem[Laarmann et~al.(2005)Laarmann, Rusek, Wabnitz, Schulz, {De Castro},
+  G\"{u}rtler, Laasch, and M\"{o}ller]{Laarmann-2005-PRL}
+T.~Laarmann, M.~Rusek, H.~Wabnitz, J.~Schulz, A.~R~B {De Castro},
+  P.~G\"{u}rtler, W.~Laasch, and T.~M\"{o}ller.
+\newblock {Emission of thermally activated electrons from rare gas clusters
+  irradiated with intense VUV light pulses from a free electron laser}.
+\newblock \emph{Physical Review Letters}, 95\penalty0 (6):\penalty0 3--6, 2005.
+\newblock ISSN 00319007.
+\newblock \doi{10.1103/PhysRevLett.95.063402}.
+
+\bibitem[Bostedt et~al.(2010{\natexlab{b}})Bostedt, Thomas, Hoener,
+  M{\"{o}}ller, Saalmann, Georgescu, Gnodtke, and Rost]{Bostedt-2010-NJP}
+Christoph Bostedt, Heiko Thomas, Matthias Hoener, Thomas M{\"{o}}ller, Ulf
+  Saalmann, Ionut Georgescu, Christian Gnodtke, and Jan~Michael Rost.
+\newblock {Fast electrons from multi-electron dynamics in xenon clusters
+  induced by inner-shell ionization}.
+\newblock \emph{New Journal of Physics}, 12, 2010{\natexlab{b}}.
+\newblock ISSN 13672630.
+\newblock \doi{10.1088/1367-2630/12/8/083004}.
+
+\bibitem[Arbeiter and Fennel(2010)]{Arbeiter-2010-PRA}
+Mathias Arbeiter and Thomas Fennel.
+\newblock {Ionization heating in rare-gas clusters under intense XUV laser
+  pulses}.
+\newblock \emph{Physical Review A - Atomic, Molecular, and Optical Physics},
+  82\penalty0 (1):\penalty0 1--7, 2010.
+\newblock ISSN 10502947.
+\newblock \doi{10.1103/PhysRevA.82.013201}.
+
+\bibitem[Lezius et~al.(1998)Lezius, Dobosz, Normand, and
+  Schmidt]{Lezius-1998-PRL}
+M.~Lezius, S.~Dobosz, D.~Normand, and M.~Schmidt.
+\newblock {Explosion Dynamics of Rare Gas Clusters in Strong Laser Fields}.
+\newblock \emph{Physical Review Letters}, 80\penalty0 (2):\penalty0 261--264,
+  1998.
+\newblock ISSN 0031-9007.
+\newblock \doi{10.1103/PhysRevLett.80.261}.
+
+\bibitem[Springate et~al.(2000)Springate, Hay, Tisch, Mason, Ditmire,
+  Hutchinson, and Marangos]{Springate-2000-PRA}
+E.~Springate, N.~Hay, J.~W.~G. Tisch, M.~B. Mason, T.~Ditmire, M.~H.~R.
+  Hutchinson, and J.~P. Marangos.
+\newblock Explosion of atomic clusters irradiated by high-intensity laser
+  pulses: Scaling of ion energies with cluster and laser parameters.
+\newblock \emph{Phys. Rev. A}, 61:\penalty0 063201, May 2000.
+\newblock \doi{10.1103/PhysRevA.61.063201}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevA.61.063201}.
+
+\bibitem[Bostedt et~al.(2012)Bostedt, Eremina, Rupp, Adolph, Thomas, Hoener,
+  de~Castro, Tiggesbaumker, Meiwes-Broer, Laarmann, et~al.]{Bostedt-2012-PRL}
+C.~Bostedt, E.~Eremina, D.~Rupp, M.~Adolph, H.~Thomas, M.~Hoener, A.~R.
+  de~Castro, J.~Tiggesbaumker, K.~H. Meiwes-Broer, T.~Laarmann, et~al.
+\newblock Ultrafast x-ray scattering of xenon nanoparticles: imaging transient
+  states of matter.
+\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (9):\penalty0 093401, 2012.
+\newblock ISSN 1079-7114.
+\newblock \doi{10.1103/PhysRevLett.108.093401​}.
+\newblock URL
+  \url{http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.093401}.
+
+\bibitem[Gorkhover et~al.(2012)Gorkhover, Adolph, Rupp, Schorb, Epp, Erk,
+  Foucar, Hartmann, Kimmel, Kuhnel, et~al.]{Gorkhover-2012-PRL}
+T.~Gorkhover, M.~Adolph, D.~Rupp, S.~Schorb, S.~W. Epp, B.~Erk, L.~Foucar,
+  R.~Hartmann, N.~Kimmel, K.~U. Kuhnel, et~al.
+\newblock Nanoplasma dynamics of single large xenon clusters irradiated with
+  superintense x-ray pulses from the linac coherent light source free-electron
+  laser.
+\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (24):\penalty0 245005, 2012.
+\newblock ISSN 1079-7114.
+\newblock \doi{10.1103/PhysRevLett.108.245005}.
+
+\bibitem[Hau-Riege and Chapman(2008)]{Hau-Riege-2008-PRE}
+Stefan~P. Hau-Riege and Henry~N. Chapman.
+\newblock {Modeling of the damage dynamics of nanospheres exposed to x-ray
+  free-electron-laser radiation}.
+\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics}, 77\penalty0 (4):\penalty0 1--4, 2008.
+\newblock ISSN 15393755.
+\newblock \doi{10.1103/PhysRevE.77.041902}.
+
+\bibitem[Peltz et~al.(2014)Peltz, Varin, Brabec, and Fennel]{Peltz-2014-PRL}
+Christian Peltz, Charles Varin, Thomas Brabec, and Thomas Fennel.
+\newblock {Time-resolved x-ray imaging of anisotropic nanoplasma expansion}.
+\newblock \emph{Physical Review Letters}, 113\penalty0 (3):\penalty0 1--6,
+  2014.
+\newblock ISSN 10797114.
+\newblock \doi{10.1103/PhysRevLett.113.133401}.
+
+\bibitem[Loh and Elser(2009)]{Loh-2009-PRE}
+Ne~Te~Duane Loh and Veit Elser.
+\newblock {Reconstruction algorithm for single-particle diffraction imaging
+  experiments}.
+\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics}, 80\penalty0 (2):\penalty0 1--20, 2009.
+\newblock ISSN 15393755.
+\newblock \doi{10.1103/PhysRevE.80.026705}.
+
+\bibitem[Hoener et~al.(2008)Hoener, Bostedt, Thomas, Landt, Eremina, Wabnitz,
+  Laarmann, Treusch, {De Castro}, and M{\"{o}}ller]{Hoener-2008-JPB}
+Matthias Hoener, Christoph Bostedt, H.~Thomas, L.~Landt, E.~Eremina,
+  H.~Wabnitz, T.~Laarmann, R.~Treusch, A.~R.~B. {De Castro}, and Thomas
+  M{\"{o}}ller.
+\newblock {Charge recombination in soft x-ray laser produced nanoplasmas}.
+\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
+  41\penalty0 (18):\penalty0 181001, 2008.
+\newblock ISSN 0953-4075.
+\newblock \doi{10.1088/0953-4075/41/18/181001}.
+\newblock URL
+  \url{http://stacks.iop.org/0953-4075/41/i=18/a=181001?key=crossref.8294ba41a32aa89b0a6ec0f8b550687f$\backslash$nhttp://iopscience.iop.org/0953-4075/41/18/181001}.
+
+\bibitem[Ziemkewitz et~al.(2017)Ziemkewitz, Bacellar, Chatterley, Bucher,
+  Ferguson, Gorkhover, Mueller, Rupp, Curtis, Tanyag, Bernando, Gomez, Kwok,
+  Carron, Cryan, Krzywinski, Lutman, Marinelli, Maxwell, Turner, Decker,
+  Neumark, M\"{o}ller, Vilesov, Bostedt, and
+  Gessner]{Ziemkewitz-2017-unpublished}
+Michael Ziemkewitz, Camila Bacellar, Adam Chatterley, Maximilian Bucher,
+  Kenneth Ferguson, Taisa Gorkhover, Maria Mueller, Daniela Rupp, Jones Curtis,
+  Rico Mayro~P. Tanyag, Charles Bernando, Luis Gomez, Justing Kwok, Sebastian
+  Carron, James Cryan, Jacek Krzywinski, Alberto Lutman, Agostino Marinelli,
+  Timothy Maxwell, Jim Turner, Franz-Josef Decker, Daniel~M. Neumark, Thomas
+  M\"{o}ller, Andrey Vilesov, Christoph Bostedt, and Oliver Gessner.
+\newblock Controlling explosion dynamics in mixed solid/superfluid clusters
+  with x-ray double pulses.
+\newblock in preparation, 2017.
+
+\bibitem[Augustin et~al.(1974)Augustin, Boyarski, Breidenbach, Bulos, Dakin,
+  Feldman, Fischer, Fryberger, Hanson, Jean-Marie, Larsen, L\"uth, Lynch, Lyon,
+  Morehouse, Paterson, Perl, Richter, Rapidis, Schwitters, Tanenbaum, Vannucci,
+  Abrams, Briggs, Chinowsky, Friedberg, Goldhaber, Hollebeek, Kadyk, Lulu,
+  Pierre, Trilling, Whitaker, Wiss, and Zipse]{Richter-PRL-1974}
+J.~E. Augustin, A.~M. Boyarski, M.~Breidenbach, F.~Bulos, J.~T. Dakin, G.~J.
+  Feldman, G.~E. Fischer, D.~Fryberger, G.~Hanson, B.~Jean-Marie, R.~R. Larsen,
+  V.~L\"uth, H.~L. Lynch, D.~Lyon, C.~C. Morehouse, J.~M. Paterson, M.~L. Perl,
+  B.~Richter, P.~Rapidis, R.~F. Schwitters, W.~M. Tanenbaum, F.~Vannucci, G.~S.
+  Abrams, D.~Briggs, W.~Chinowsky, C.~E. Friedberg, G.~Goldhaber, R.~J.
+  Hollebeek, J.~A. Kadyk, B.~Lulu, F.~Pierre, G.~H. Trilling, J.~S. Whitaker,
+  J.~Wiss, and J.~E. Zipse.
+\newblock Discovery of a narrow resonance in ${e}^{+}{e}^{-}$ annihilation.
+\newblock \emph{Phys. Rev. Lett.}, 33:\penalty0 1406--1408, Dec 1974.
+\newblock \doi{10.1103/PhysRevLett.33.1406}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.33.1406}.
+
+\bibitem[Taylor(1967)]{Taylor-SLAC-1967}
+R.~E. Taylor.
+\newblock \emph{Nucleon Form Factors above 6 GeV}.
+\newblock SLAC National Accelerator Laboratory, Sep 1967.
+\newblock URL
+  \url{http://www.osti.gov/accomplishments/documents/fullText/ACC0171.pdf}.
+
+\bibitem[Perl et~al.(1975)Perl, Abrams, Boyarski, Breidenbach, Briggs, Bulos,
+  Chinowsky, Dakin, Feldman, Friedberg, Fryberger, Goldhaber, Hanson, Heile,
+  Jean-Marie, Kadyk, Larsen, Litke, L\"uke, Lulu, L\"uth, Lyon, Morehouse,
+  Paterson, Pierre, Pun, Rapidis, Richter, Sadoulet, Schwitters, Tanenbaum,
+  Trilling, Vannucci, Whitaker, Winkelmann, and Wiss]{Perl-PRL-1975}
+M.~L. Perl, G.~S. Abrams, A.~M. Boyarski, M.~Breidenbach, D.~D. Briggs,
+  F.~Bulos, W.~Chinowsky, J.~T. Dakin, G.~J. Feldman, C.~E. Friedberg,
+  D.~Fryberger, G.~Goldhaber, G.~Hanson, F.~B. Heile, B.~Jean-Marie, J.~A.
+  Kadyk, R.~R. Larsen, A.~M. Litke, D.~L\"uke, B.~A. Lulu, V.~L\"uth, D.~Lyon,
+  C.~C. Morehouse, J.~M. Paterson, F.~M. Pierre, T.~P. Pun, P.~A. Rapidis,
+  B.~Richter, B.~Sadoulet, R.~F. Schwitters, W.~Tanenbaum, G.~H. Trilling,
+  F.~Vannucci, J.~S. Whitaker, F.~C. Winkelmann, and J.~E. Wiss.
+\newblock Evidence for anomalous lepton production in ${e}^{+}-{e}^{-}$
+  annihilation.
+\newblock \emph{Phys. Rev. Lett.}, 35:\penalty0 1489--1492, Dec 1975.
+\newblock \doi{10.1103/PhysRevLett.35.1489}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.35.1489}.
+
+\bibitem[Kelleher et~al.(1990)Kelleher, Flanagan, and
+  Kornberg]{KELLEHER-1990-cell}
+Raymond~J. Kelleher, Peter~M. Flanagan, and Roger~D. Kornberg.
+\newblock A novel mediator between activator proteins and the rna polymerase ii
+  transcription apparatus.
+\newblock \emph{Cell}, 61\penalty0 (7):\penalty0 1209 -- 1215, 1990.
+\newblock ISSN 0092-8674.
+\newblock \doi{http://dx.doi.org/10.1016/0092-8674(90)90685-8}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0092867490906858}.
+
+\bibitem[Bostedt et~al.(2013)Bostedt, Bozek, Bucksbaum, Coffee, Hastings,
+  Huang, Lee, Schorb, Corlett, Denes, et~al.]{Bostedt-2013-JPB}
+C.~Bostedt, J.~D. Bozek, P.~H. Bucksbaum, R.~N. Coffee, J.~B. Hastings,
+  Z.~Huang, R.~W. Lee, S.~Schorb, J.~N. Corlett, P.~Denes, et~al.
+\newblock Ultra-fast and ultra-intense x-ray sciences: first results from the
+  linac coherent light source free-electron laser.
+\newblock \emph{J. Phys. B}, 46\penalty0 (16):\penalty0 164003, 2013.
+\newblock ISSN 0953-4075.
+\newblock \doi{10.1088/0953-4075/46/16/164003}.
+\newblock URL \url{http://iopscience.iop.org/0953-4075/46/16/164003}.
+
+\bibitem[Ferguson et~al.(2015)Ferguson, Bucher, Bozek, Carron, Castagna,
+  Coffee, Curiel, Holmes, Krzywinski, Messerschmidt, et~al.]{Ferguson-2015-JSR}
+Ken~R. Ferguson, Maximilian Bucher, John~D. Bozek, Sebastian Carron,
+  Jean-Charles Castagna, Ryan Coffee, G.~Ivan Curiel, Michael Holmes, Jacek
+  Krzywinski, Marc Messerschmidt, et~al.
+\newblock The atomic, molecular and optical science instrument at the linac
+  coherent light source.
+\newblock \emph{J. Synchrotron Rad.}, 22\penalty0 (3):\penalty0 492--497, 2015.
+
+\bibitem[Bozek(2009)]{Bozek-2009-EPJST}
+J.~D. Bozek.
+\newblock Amo instrumentation for the lcls x-ray fel.
+\newblock \emph{The European Physical Journal Special Topics}, 169\penalty0
+  (1):\penalty0 129--132, 2009.
+\newblock ISSN 1951-6355.
+\newblock \doi{10.1140/epjst/e2009-00982-y}.
+
+\bibitem[Moeller et~al.(2011)Moeller, Arthur, Brachmann, Coffee, Decker, Ding,
+  Dowell, Edstrom, Emma, Feng, et~al.]{Moeller-2011-NIMPR}
+S.~Moeller, J.~Arthur, A.~Brachmann, R.~Coffee, F.~J. Decker, Y.~Ding,
+  D.~Dowell, S.~Edstrom, P.~Emma, Y.~Feng, et~al.
+\newblock Photon beamlines and diagnostics at lcls.
+\newblock \emph{Nucl. Instrum. Methods Phys. Res. A}, 635\penalty0
+  (1):\penalty0 S6--S11, 2011.
+\newblock ISSN 0168-9002.
+\newblock \doi{10.1016/j.nima.2010.10.125}.
+
+\bibitem[Behrens et~al.(2014)Behrens, Decker, Ding, Dolgashev, Frisch, Huang,
+  Krejcik, Loos, Lutman, Maxwell, et~al.]{Behrens-2014-NatCom}
+C.~Behrens, F.~J. Decker, Y.~Ding, V.~A. Dolgashev, J.~Frisch, Z.~Huang,
+  P.~Krejcik, H.~Loos, A.~Lutman, T.~J. Maxwell, et~al.
+\newblock Few-femtosecond time-resolved measurements of x-ray free-electron
+  lasers.
+\newblock \emph{Nat. Commun.}, 5:\penalty0 3762, 2014.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms4762}.
+\newblock URL
+  \url{http://www.nature.com/ncomms/2014/140430/ncomms4762/full/ncomms4762.html}.
+
+\bibitem[Hau-Riege et~al.(2010{\natexlab{b}})Hau-Riege, Bionta, Ryutov, London,
+  Ables, Kishiyama, Shen, McKernan, McMahon, Messerschmidt, Krzywinski, Stefan,
+  Turner, and Ziaja]{Hau-Riege-2010-PRL-2}
+Stefan~P. Hau-Riege, Richard~M. Bionta, Dmitri~D. Ryutov, Richard~A. London,
+  Elden Ables, Keith~I. Kishiyama, Stewart Shen, Mark~A. McKernan, Donn~H.
+  McMahon, Marc Messerschmidt, Jacek Krzywinski, Peter Stefan, James Turner,
+  and Beata Ziaja.
+\newblock Near-ultraviolet luminescence of ${\mathbf{n}}_{2}$ irradiated by
+  short x-ray pulses.
+\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 043003, Jul
+  2010{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevLett.105.043003}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.105.043003}.
 
 \bibitem[Schlotter et~al.(2012)Schlotter, Turner, Rowen, Heimann, Holmes,
   Krupin, Messerschmidt, Moeller, Krzywinski, Soufli,
@@ -1143,103 +1077,26 @@ W.~F. Schlotter, J.~J. Turner, M.~Rowen, P.~Heimann, M.~Holmes, O.~Krupin,
 \newblock ISSN 0034-6748.
 \newblock \doi{10.1063/1.3698294}.
 
-\bibitem[Schorb(2012)]{Schorb-2012-Thesis}
-S.~Schorb.
-\newblock \emph{Size-dependent ultrafast ionization dynamics of nanoscale
-  samples in intense femtosecond x-ray free-electron laser pulses}.
-\newblock Thesis, Technische Universitat Berlin, 2012.
-
-\bibitem[Schorb et~al.(2012)Schorb, Rupp, Swiggers, Coffee, Messerschmidt,
-  Williams, Bozek, Wada, Kornilov, M{\"o}ller, et~al.]{Schorb-2012-PRL}
-S.~Schorb, D.~Rupp, M.~L. Swiggers, R.~N. Coffee, M.~Messerschmidt,
-  G.~Williams, J.~D. Bozek, S.-I. Wada, O.~Kornilov, T.~M{\"o}ller, et~al.
-\newblock Size-dependent ultrafast ionization dynamics of nanoscale samples in
-  intense femtosecond x-ray free-electron-laser pulses.
-\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (23):\penalty0 233401, 2012.
-\newblock ISSN 1079-7114.
-
-\bibitem[Sch{\"{u}}tte et~al.(2014)Sch{\"{u}}tte, Campi, Arbeiter, Fennel,
-  Vrakking, and Rouz{\'{e}}e]{Schutte-2014-PRL}
-B.~Sch{\"{u}}tte, F.~Campi, M.~Arbeiter, T.~Fennel, M.~J.~J. Vrakking, and
-  A.~Rouz{\'{e}}e.
-\newblock {Tracing Electron-Ion Recombination in Nanoplasmas Produced by
-  Extreme-Ultraviolet Irradiation of Rare-Gas Clusters}.
-\newblock \emph{Physical Review Letters}, 112\penalty0 (25):\penalty0 253401,
-  jun 2014.
-\newblock ISSN 0031-9007.
-\newblock \doi{10.1103/PhysRevLett.112.253401}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.112.253401}.
-
-\bibitem[Sch{\"{u}}tte et~al.(2015)Sch{\"{u}}tte, Oelze, Krikunova, Arbeiter,
-  Fennel, Vrakking, and Rouz{\'{e}}e]{Schutte-2015-JPhysB}
-B.~Sch{\"{u}}tte, T.~Oelze, M.~Krikunova, M.~Arbeiter, T.~Fennel, M.~J.~J.
-  Vrakking, and A.~Rouz{\'{e}}e.
-\newblock {Real-time fragmentation dynamics of clusters ionized by intense
-  extreme-ultraviolet pulses}.
-\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
-  48\penalty0 (18):\penalty0 185101, sep 2015.
-\newblock ISSN 0953-4075.
-\newblock \doi{10.1088/0953-4075/48/18/185101}.
-\newblock URL
-  \url{http://stacks.iop.org/0953-4075/48/i=18/a=185101?key=crossref.13a394e28d564cde75229740d33c06f7}.
-
-\bibitem[Sch{\"{u}}tte and Buck(2002)]{Schutte-2002-IJMS}
-S.~Sch{\"{u}}tte and U.~Buck.
-\newblock {Strong fragmentation of large rare gas clusters by high energy
-  electron impact}.
-\newblock \emph{International Journal of Mass Spectrometry}, 220\penalty0
-  (2):\penalty0 183--192, 2002.
-\newblock ISSN 13873806.
-\newblock \doi{10.1016/S1387-3806(02)00670-X}.
-
-\bibitem[Seibert et~al.(2010)Seibert, Boutet, Svenda, Ekeberg, Maia, Bogan,
-  Timmneanu, Barty, Hau-Riege, Caleman, et~al.]{Seibert-2010-JPhysB}
-M.~M. Seibert, S.~Boutet, M.~Svenda, T.~Ekeberg, F.~R. N.~C. Maia, M.~J. Bogan,
-  N.~Timmneanu, A.~Barty, S.~Hau-Riege, C.~Caleman, et~al.
-\newblock Femtosecond diffractive imaging of biological cells.
-\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
-  43\penalty0 (19):\penalty0 194015, 2010.
-\newblock URL \url{http://stacks.iop.org/0953-4075/43/i=19/a=194015}.
-
-\bibitem[Seibert et~al.(2011)Seibert, Ekeberg, Maia, Svenda, Andreasson,
-  Jonsson, Odic, Iwan, Rocker, Westphal, et~al.]{Seibert-2011-Nature}
-M.~M. Seibert, T.~Ekeberg, F.~R. Maia, M.~Svenda, J.~Andreasson, O.~Jonsson,
-  D.~Odic, B.~Iwan, A.~Rocker, D.~Westphal, et~al.
-\newblock Single mimivirus particles intercepted and imaged with an x-ray
-  laser.
-\newblock \emph{Nature}, 470\penalty0 (7332):\penalty0 78--81, 2011.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature09748}.
-
-\bibitem[Soler et~al.(1982)Soler, Garc\'{\i}a, Echt, Sattler, and
-  Recknagel]{Soler-1982-PRL}
-J.~M. Soler, N.~Garc\'{\i}a, O.~Echt, K.~Sattler, and E.~Recknagel.
-\newblock Microcluster growth: Transition from successive monomer addition to
-  coagulation.
-\newblock \emph{Phys. Rev. Lett.}, 49:\penalty0 1857--1860, Dec 1982.
-\newblock \doi{10.1103/PhysRevLett.49.1857}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.49.1857}.
-
 \bibitem[Soufli et~al.(2012)Soufli, Fernández-Perea, Baker, Robinson,
   Gullikson, Heimann, Yashchuk, McKinney, Schlotter, and
   Rowen]{Soufli-2012-AppOpt}
-R.~Soufli, M.~Fernández-Perea, S.~L. Baker, J.~C. Robinson, E.~M. Gullikson,
-  P.~Heimann, V.~V. Yashchuk, W.~R. McKinney, W.~F. Schlotter, and M.~Rowen.
+Regina Soufli, Mónica Fernández-Perea, Sherry~L Baker, Jeff~C Robinson,
+  Eric~M Gullikson, Philip Heimann, Valeriy~V Yashchuk, Wayne~R McKinney,
+  William~F Schlotter, and Michael Rowen.
 \newblock Development and calibration of mirrors and gratings for the soft
   x-ray materials science beamline at the linac coherent light source
   free-electron laser.
 \newblock \emph{Appl. Opt.}, 51\penalty0 (12):\penalty0 2118--2128, 2012.
 \newblock \doi{10.1364/Ao.51.002118}.
 
-\bibitem[Springate et~al.(2000)Springate, Hay, Tisch, Mason, Ditmire,
-  Hutchinson, and Marangos]{Springate-2000-PRA}
-E.~Springate, N.~Hay, J.~W.~G. Tisch, M.~B. Mason, T.~Ditmire, M.~H.~R.
-  Hutchinson, and J.~P. Marangos.
-\newblock Explosion of atomic clusters irradiated by high-intensity laser
-  pulses: Scaling of ion energies with cluster and laser parameters.
-\newblock \emph{Phys. Rev. A}, 61:\penalty0 063201, May 2000.
-\newblock \doi{10.1103/PhysRevA.61.063201}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevA.61.063201}.
+\bibitem[Dakovski et~al.(2015)Dakovski, Heimann, Holmes, Krupin, Minitti,
+  Mitra, Moeller, Rowen, Schlotter, and Turner]{Dakovski-2015-JSR}
+Georgi~L. Dakovski, Philip Heimann, Michael Holmes, Oleg Krupin, Michael~P.
+  Minitti, Ankush Mitra, Stefan Moeller, Michael Rowen, William~F. Schlotter,
+  and Joshua~J. Turner.
+\newblock The soft x-ray research instrument at the linac coherent light
+  source.
+\newblock \emph{J. Synchrotron Rad.}, 22\penalty0 (3):\penalty0 498--502, 2015.
 
 \bibitem[Strüder et~al.(2010)Strüder, Epp, Rolles, Hartmann, Holl, Lutz,
   Soltau, Eckart, Reich, Heinzinger, Thamm, Rudenko, Krasniqi, Kühnel, Bauer,
@@ -1248,14 +1105,16 @@ E.~Springate, N.~Hay, J.~W.~G. Tisch, M.~B. Mason, T.~Ditmire, M.~H.~R.
   Pietsch, Walenta, Leitenberger, Bostedt, Möller, Rupp, Adolph, Graafsma,
   Hirsemann, Gärtner, Richter, Foucar, Shoeman, Schlichting, and
   Ullrich]{Strueder-2010-NIMPA}
-L.~Strüder, S.~Epp, D.~Rolles, R.~Hartmann, P.~Holl, G.~Lutz, H.~Soltau,
-  R.~Eckart, C.~Reich, K.~Heinzinger, C.~Thamm, A.~Rudenko, F.~Krasniqi, K.-U.
-  Kühnel, C.~Bauer, C.-D. Schröter, R.~Moshammer, S.~Techert, D.~Miessner,
-  M.~Porro, O.~Hälker, N.~Meidinger, N.~Kimmel, R.~Andritschke, F.~Schopper,
-  G.~Weidenspointner, A.~Ziegler, D.~Pietschner, S.~Herrmann, U.~Pietsch,
-  A.~Walenta, W.~Leitenberger, C.~Bostedt, T.~Möller, D.~Rupp, M.~Adolph,
-  H.~Graafsma, H.~Hirsemann, K.~Gärtner, R.~Richter, L.~Foucar, R.~L. Shoeman,
-  I.~Schlichting, and J.~Ullrich.
+Lothar Strüder, Sascha Epp, Daniel Rolles, Robert Hartmann, Peter Holl,
+  Gerhard Lutz, Heike Soltau, Rouven Eckart, Christian Reich, Klaus Heinzinger,
+  Christian Thamm, Artem Rudenko, Faton Krasniqi, Kai-Uwe Kühnel, Christian
+  Bauer, Claus-Dieter Schröter, Robert Moshammer, Simone Techert, Danilo
+  Miessner, Matteo Porro, Olaf Hälker, Norbert Meidinger, Nils Kimmel, Robert
+  Andritschke, Florian Schopper, Georg Weidenspointner, Alexander Ziegler,
+  Daniel Pietschner, Sven Herrmann, Ullrich Pietsch, Albert Walenta, Wolfram
+  Leitenberger, Christoph Bostedt, Thomas Möller, Daniela Rupp, Marcus Adolph,
+  Heinz Graafsma, Helmut Hirsemann, Klaus Gärtner, Rainer Richter, Lutz
+  Foucar, Robert~L. Shoeman, Ilme Schlichting, and Joachim Ullrich.
 \newblock Large-format, high-speed, x-ray pnccds combined with electron and ion
   imaging spectrometers in a multipurpose chamber for experiments at 4th
   generation light sources.
@@ -1267,112 +1126,360 @@ L.~Strüder, S.~Epp, D.~Rolles, R.~Hartmann, P.~Holl, G.~Lutz, H.~Soltau,
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0168900209023900}.
 
-\bibitem[Taylor(1967)]{Taylor-SLAC-1967}
-R.~E. Taylor.
-\newblock \emph{Nucleon Form Factors above 6 GeV}.
-\newblock SLAC National Accelerator Laboratory, Sep 1967.
-\newblock URL
-  \url{http://www.osti.gov/accomplishments/documents/fullText/ACC0171.pdf}.
-
 \bibitem[Turner(2016)]{Turner-2016-PC}
-J.~Turner.
+Jim Turner.
 \newblock personal communication, 2016.
 
-\bibitem[Vandewaal(1993)]{VanDeWaal-1993-JCP}
-B.~W. Vandewaal.
-\newblock {Icosahedral, decahedral, fcc, and defect-fcc structural models for
-  Ar-N clusters, n{\textgreater}=500 - how plausible are they?}
-\newblock \emph{J Chem Phys}, 98\penalty0 (6):\penalty0 4909--4919, 1993.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.464946}.
+\bibitem[Kirkpatrick and Baez(1948)]{Kirkpatrick-1948-JOSA}
+Paul Kirkpatrick and A~V Baez.
+\newblock {Formation of optical images by X-rays.}
+\newblock \emph{Journal of the Optical Society of America}, 38\penalty0
+  (1895):\penalty0 766--774, sep 1948.
+\newblock ISSN 0030-3941.
+\newblock \doi{10.1364/JOSA.38.000766}.
+\newblock URL
+  \url{https://www.osapublishing.org/abstract.cfm?URI=josa-38-9-766}.
 
-\bibitem[Wabnitz et~al.(2002)Wabnitz, Bittner, de~Castro, D{\"{o}}hrmann,
-  G{\"{u}}rtler, Laarmann, Laasch, Schulz, Swiderski, von Haeften,
-  M{\"{o}}ller, Faatz, Fateev, Feldhaus, Gerth, Hahn, Saldin, Schneidmiller,
-  Sytchev, Tiedtke, Treusch, and Yurkov]{Wabnitz-2002-Nature}
-H.~Wabnitz, L.~Bittner, a.~R.~B. de~Castro, R.~D{\"{o}}hrmann,
-  P.~G{\"{u}}rtler, T.~Laarmann, W.~Laasch, J.~Schulz, A.~Swiderski, K.~von
-  Haeften, T.~M{\"{o}}ller, B.~Faatz, A.~Fateev, J.~Feldhaus, C.~Gerth,
-  U.~Hahn, E.~Saldin, E.~Schneidmiller, K.~Sytchev, K.~Tiedtke, R.~Treusch, and
-  M.~Yurkov.
-\newblock {Multiple ionization of atom clusters by intense soft X-rays from a
-  free-electron laser.}
-\newblock \emph{Nature}, 420\penalty0 (6915):\penalty0 482--5, 2002.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature01197}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/12466837}.
+\bibitem[collaboration(2015-2016)]{SPI-2015-unpublished}
+SPI collaboration.
+\newblock Straylight effects in the amo instrument at the lcls.
+\newblock Currently no publication in progress., 2015-2016.
 
-\bibitem[{W.H. Zurek} and {W.C. Shieve}(1980)]{Zurek-1980-JCP}
-{W.H. Zurek} and {W.C. Shieve}.
-\newblock {Multistep Clustering and Nucleation}.
-\newblock \emph{Journal of Physical Chemistry}, 84\penalty0 (12):\penalty0
-  1479--1482, 1980.
-\newblock ISSN 0022-3654.
-\newblock \doi{10.1021/j100449a010}.
+\bibitem[Juha et~al.(2011)Juha, Bajt, and London]{Hajkova-2011-SPIE}
+Libor Juha, Saša Bajt, and Richard~A. London, editors.
+\newblock \emph{X-ray laser-induced ablation of lead compounds}, volume 8077,
+  2011.
+\newblock \doi{10.1117/12.890134}.
+\newblock URL \url{http://dx.doi.org/10.1117/12.890134}.
 
-\bibitem[Williams(2016)]{Williams-2016-PC}
-G.~J. Williams.
-\newblock personal communication, 2016.
+\bibitem[Chalupsky et~al.(2011)Chalupsky, Bohacek, Hajkova, Hau-Riege, Heimann,
+  Juha, Krzywinski, Messerschmidt, Moeller, Nagler,
+  et~al.]{Chalupsky-2011-NIMPR}
+J.~Chalupsky, P.~Bohacek, V.~Hajkova, S.~P. Hau-Riege, P.~A. Heimann, L.~Juha,
+  J.~Krzywinski, M.~Messerschmidt, S.~P. Moeller, B.~Nagler, et~al.
+\newblock Comparing different approaches to characterization of focused x-ray
+  laser beams.
+\newblock \emph{Nucl. Instrum. Methods Phys. Res. A}, 631\penalty0
+  (1):\penalty0 130--133, 2011.
+\newblock ISSN 0168-9002.
+\newblock \doi{10.1016/j.nima.2010.12.040}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900210027816}.
+
+\bibitem[Doumy et~al.(2011)Doumy, Roedig, Son, Blaga, DiChiara, Santra, Berrah,
+  Bostedt, Bozek, Bucksbaum, et~al.]{Doumy-2011-PRL}
+G.~Doumy, C.~Roedig, S.~K. Son, C.~I. Blaga, A.~D. DiChiara, R.~Santra,
+  N.~Berrah, C.~Bostedt, J.~D. Bozek, P.~H. Bucksbaum, et~al.
+\newblock Nonlinear atomic response to intense ultrashort x rays.
+\newblock \emph{Phys. Rev. Lett.}, 106\penalty0 (8):\penalty0 083002, 2011.
+\newblock ISSN 1079-7114.
+
+\bibitem[Liu(1982)]{Liu-1982-OptLett}
+J.~M. Liu.
+\newblock Simple technique for measurements of pulsed gaussian-beam spot sizes.
+\newblock \emph{Opt. Lett.}, 7\penalty0 (5):\penalty0 196--198, May 1982.
+\newblock \doi{10.1364/OL.7.000196}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-5-196}.
+
+\bibitem[Henke et~al.(1993)Henke, Gullikson, and Davis]{Henke-1993-ADNDT}
+B.L. Henke, E.M. Gullikson, and J.C. Davis.
+\newblock {X-Ray interactions: photoabsorption, scattering, transmission, and
+  reflection at E = 50-30,000 eV, Z = 1-92}, 1993.
+\newblock ISSN 0092640X.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0092640X83710132}.
+
+\bibitem[Chalupsk{\'{y}} et~al.(2010)Chalupsk{\'{y}}, Krzywinski, Juha,
+  H{\'{a}}jkov{\'{a}}, Cihelka, Burian, Vy{\v{s}}{\'{i}}n, Gaudin, Gleeson,
+  Jurek, Khorsand, Klinger, Wabnitz, Sobierajski, St{\"{o}}rmer, Tiedtke, and
+  Toleikis]{Chalupsky-2010-OE}
+J~Chalupsk{\'{y}}, J~Krzywinski, L~Juha, V~H{\'{a}}jkov{\'{a}}, J~Cihelka,
+  T~Burian, L.~Vy{\v{s}}{\'{i}}n, J~Gaudin, A~Gleeson, M~Jurek, a~R Khorsand,
+  D~Klinger, H~Wabnitz, R~Sobierajski, M~St{\"{o}}rmer, K~Tiedtke, and
+  S~Toleikis.
+\newblock {Spot size characterization of focused non-Gaussian X-ray laser
+  beams}.
+\newblock \emph{Optics Express}, 18\penalty0 (26):\penalty0 27836, 2010.
+\newblock ISSN 1094-4087.
+\newblock \doi{10.1364/OE.18.027836}.
+\newblock URL
+  \url{https://www.osapublishing.org/abstract.cfm?URI=oe-18-26-27836}.
+
+\bibitem[Chalupsk{\'{y}} et~al.(2013)Chalupsk{\'{y}}, Burian,
+  H{\'{a}}jkov{\'{a}}, Juha, Polcar, Gaudin, Nagasono, Sobierajski, Yabashi,
+  and Krzywinski]{Chalupsky-2013-OE}
+Jarom{\'{i}}r Chalupsk{\'{y}}, Tom{\'{a}}{\v{s}} Burian, V{\v{e}}ra
+  H{\'{a}}jkov{\'{a}}, Libor Juha, Tom{\'{a}}{\v{s}} Polcar, J{\'{e}}r{\^{o}}me
+  Gaudin, Mitsuru Nagasono, Ryszard Sobierajski, Makina Yabashi, and Jacek
+  Krzywinski.
+\newblock {Fluence scan: an unexplored property of a laser beam.}
+\newblock \emph{Optics express}, 21\penalty0 (22):\penalty0 26363--75, 2013.
+\newblock ISSN 1094-4087.
+\newblock \doi{10.1364/OE.21.026363}.
+\newblock URL
+  \url{http://www.opticsinfobase.org/viewmedia.cfm?uri=oe-21-22-26363{\&}seq=0{\&}html=true}.
+
+\bibitem[Ferguson(2016)]{Ferguson-2016-PhD}
+Kenneth~R. Ferguson.
+\newblock \emph{Crystal Structure Determinations of Xenon Nanoparticles and
+  X-ray Induced Transient Lattice Contraction in the Solid-to-Plasma
+  Transition}.
+\newblock PhD thesis, Stanford University, Feburary 2016.
+
+\bibitem[Krejcik et~al.(2007)Krejcik, Allison, Akre, Kotturi, Browne, Dusatko,
+  White, Rogind, Gromme, Dalesio, et~al.]{Krejcik-2007-DIPAC}
+P~Krejcik, S~Allison, R~Akre, K~Kotturi, M~Browne, J~Dusatko, W~White,
+  D~Rogind, A~Gromme, L~Dalesio, et~al.
+\newblock Timing and synchronization at the lcls.
+\newblock In \emph{Presented at}, number SLAC-PUB-12593 in 8th European
+  Workshop on Beam Diagnostics and Instrumentation for Particle Accelerators,
+  pages 373--375, 2007.
+
+\bibitem[Ho et~al.(2014)Ho, Bostedt, Schorb, and Young]{Ho-2014-PRL}
+Phay~J. Ho, Christoph Bostedt, Sebastian Schorb, and Linda Young.
+\newblock Theoretical tracking of resonance-enhanced multiple ionization
+  pathways in x-ray free-electron laser pulses.
+\newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 253001, 2014.
+
+\bibitem[Osipov(2013)]{Osipov-2013-PC}
+T.~Osipov.
+\newblock personal communication, 2013.
+
+\bibitem[Perazzo(2016)]{Amadeo-2016-SLAC}
+Amadeo Perazzo.
+\newblock Lcls data analysis strategy.
+\newblock Technical report, SLAC National Accelerator Laboratory, Febuary 2016.
+\newblock URL
+  \url{https://portal.slac.stanford.edu/sites/lcls_public/Documents/LCLSDataAnalysisStrategy.pdf}.
+
+\bibitem[Bruck and Sodin(1979)]{Bruck-1979-OpticsCom}
+Yu.M. Bruck and L.G. Sodin.
+\newblock {On the ambiguity of the image reconstruction problem}.
+\newblock \emph{Optics Communications}, 30\penalty0 (3):\penalty0 304--308,
+  1979.
+\newblock ISSN 00304018.
+\newblock \doi{10.1016/0030-4018(79)90358-4}.
+
+\bibitem[Bates(1981)]{Bates-1981-Optik}
+RHT Bates.
+\newblock {Fourier phase problems are uniquely solvable in more than one
+  dimension, 1. Underlying theory}, 1981.
+\newblock ISSN 00304026.
+
+\bibitem[Sayre(1952)]{Sayre-1952-ActCryst}
+D.~Sayre.
+\newblock {Some implications of a theorem due to Shannon}.
+\newblock \emph{Acta Crystallographica}, 5\penalty0 (6):\penalty0 843--843,
+  1952.
+\newblock ISSN 0365-110X.
+\newblock \doi{10.1107/S0365110X52002276}.
 
 \bibitem[Williams et~al.(2010)Williams, Quiney, Peele, and
   Nugent]{Williams-2010-NJP}
-G.~J. Williams, H.~M. Quiney, A.~G. Peele, and K.~A. Nugent.
+G~J Williams, H~M Quiney, A~G Peele, and K~A Nugent.
 \newblock Fresnel coherent diffractive imaging: treatment and analysis of data.
 \newblock \emph{New Journal of Physics}, 12\penalty0 (3):\penalty0 035020,
   2010.
 \newblock URL \url{http://stacks.iop.org/1367-2630/12/i=3/a=035020}.
 
-\bibitem[Williams(2009)]{Williams-2009-xb}
-G.~P. Williams, editor.
-\newblock \emph{X-ray data booklet}.
-\newblock Lawrence Berkeley National Laboratory, 2009.
-\newblock URL \url{http://cxro.lbl.gov/x-ray-data-booklet}.
-
-\bibitem[Yamada et~al.(2001)Yamada, Matsuo, Toyoda, and
-  Kirkpatrick]{Yamada-2001-SciDir}
-I.~Yamada, J.~Matsuo, N.~Toyoda, and A.~Kirkpatrick.
-\newblock Materials processing by gas cluster ion beams.
-\newblock \emph{Materials Science and Engineering: R: Reports}, 34\penalty0
-  (6):\penalty0 231--295, 2001.
-\newblock ISSN 0927796X.
-\newblock \doi{10.1016/S0927-796X(01)00034-1}.
+\bibitem[Fienup(1982)]{Fienup-1982-AO}
+J~R Fienup.
+\newblock {Phase retrieval algorithms: a comparison}.
+\newblock \emph{Applied Optics}, 21\penalty0 (15):\penalty0 2758--2769, 1982.
+\newblock ISSN 0003-6935.
+\newblock \doi{10.1364/AO.21.002758}.
 \newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0927796X01000341}.
+  \url{http://www.opticsinfobase.org.ezproxy.lib.purdue.edu/viewmedia.cfm?uri=ao-21-15-2758{\&}seq=0{\&}html=true$\backslash$npapers3://publication/doi/10.1364/AO.21.002758}.
 
-\bibitem[Yeh and Lindau(1985)]{Yeh-1985-AtmDat}
-J.~Yeh and I.~Lindau.
-\newblock Atomic subshell photoionization cross sections and asymmetry
-  parameters: 1$\geq$ z $\geq$ 103.
-\newblock \emph{Atomic data and nuclear data tables}, 32\penalty0 (1):\penalty0
-  1--155, 1985.
+\bibitem[Fienup(1978)]{Fienup-1978-OL}
+J~R Fienup.
+\newblock {Reconstruction of an object from the modulus of its Fourier
+  transform}.
+\newblock \emph{Optics letters}, 3\penalty0 (1):\penalty0 27--29, 1978.
+\newblock ISSN 0146-9592.
+\newblock \doi{10.1364/OL.3.000027}.
 
-\bibitem[Yeh(1993)]{Yeh-1993-GBSP}
-J.-J. Yeh.
-\newblock \emph{Atomic calculation of photoionization cross-sections and
-  asymmetry parameters}.
-\newblock Gordon \& Breach Science Publ.; AT\&T Bell Laboratories, 1993.
+\bibitem[Maia et~al.(2010)Maia, Ekeberg, van~der Spoel, and
+  Hajdu]{Maia-2010-JAC}
+Filipe R. N.~C. Maia, Tomas Ekeberg, David van~der Spoel, and Janos Hajdu.
+\newblock {Hawk: the image reconstruction package for coherent X-ray
+  diffractive imaging}.
+\newblock \emph{Journal of Applied Crystallography}, 43\penalty0 (6):\penalty0
+  1535--1539, Dec 2010.
+\newblock \doi{10.1107/S0021889810036083}.
+\newblock URL \url{http://dx.doi.org/10.1107/S0021889810036083}.
 
-\bibitem[Young et~al.(2010)Young, Kanter, Krassig, Li, March, Pratt, Santra,
-  Southworth, Rohringer, Dimauro, et~al.]{Young-2010-Nature}
-L.~Young, E.~P. Kanter, B.~Krassig, Y.~Li, A.~M. March, S.~T. Pratt, R.~Santra,
-  S.~H. Southworth, N.~Rohringer, L.~F. Dimauro, et~al.
-\newblock Femtosecond electronic response of atoms to ultra-intense x-rays.
-\newblock \emph{Nature}, 466\penalty0 (7302):\penalty0 56--61, 2010.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature09177}.
+\bibitem[Seibert et~al.(2010)Seibert, Boutet, Svenda, Ekeberg, Maia, Bogan,
+  Timmneanu, Barty, Hau-Riege, Caleman, et~al.]{Seibert-2010-JPhysB}
+M~Marvin Seibert, S{\'e}bastien Boutet, Martin Svenda, Tomas Ekeberg, Filipe R
+  N~C Maia, Michael~J. Bogan, Nicusor Timmneanu, Anton Barty, Stefan Hau-Riege,
+  Carl Caleman, et~al.
+\newblock Femtosecond diffractive imaging of biological cells.
+\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
+  43\penalty0 (19):\penalty0 194015, 2010.
+\newblock URL \url{http://stacks.iop.org/0953-4075/43/i=19/a=194015}.
 
-\bibitem[Ziemkewitz et~al.(2017)Ziemkewitz, Bacellar, Chatterley, Bucher,
-  Ferguson, Gorkhover, Mueller, Rupp, Curtis, Tanyag, Bernando, Gomez, Kwok,
-  Carron, Cryan, Krzywinski, Lutmann, Marinelli, Maxwell, Turner, Decker,
-  Neumark, M\"{o}ller, Vilesov, Bostedt, and
-  Gessner]{Ziemkewitz-2017-unpublished}
-M.~Ziemkewitz, C.~Bacellar, A.~Chatterley, M.~Bucher, K.~Ferguson,
-  T.~Gorkhover, M.~Mueller, D.~Rupp, J.~Curtis, R.~M.~P. Tanyag, C.~Bernando,
-  L.~Gomez, J.~Kwok, S.~Carron, J.~Cryan, J.~Krzywinski, A.~Lutmann,
-  A.~Marinelli, T.~Maxwell, J.~Turner, F.-J. Decker, D.~M. Neumark,
-  T.~M\"{o}ller, A.~Vilesov, C.~Bostedt, and O.~Gessner.
-\newblock Controlling explosion dynamics in mixed solid/superfluid clusters
-  with x-ray double pulses.
-\newblock in preparation, 2017.
+\bibitem[Maia(2012)]{Maia-2012-NatMet}
+Filipe~RNC Maia.
+\newblock The coherent x-ray imaging data bank.
+\newblock \emph{Nat. Methods}, 9\penalty0 (9):\penalty0 854--855, 2012.
+\newblock ISSN 1548-7091.
+\newblock \doi{10.1038/nmeth.2110}.
+
+\bibitem[Luke(2005)]{Luke-2005-IP}
+D~Russell Luke.
+\newblock Relaxed averaged alternating reflections for diffraction imaging.
+\newblock \emph{Inverse Problems}, 21\penalty0 (1):\penalty0 37, 2005.
+\newblock URL \url{http://stacks.iop.org/0266-5611/21/i=1/a=004}.
+
+\bibitem[Hantke et~al.(2014)Hantke, Hasse, Maia, Ekeberg, John, Svenda, Loh,
+  Martin, Timneanu, Larsson, et~al.]{Hantke-2014-NatPho}
+Max~F. Hantke, Dirk Hasse, Filipe R. N.~C. Maia, Tomas Ekeberg, Katja John,
+  Martin Svenda, N.~Duane Loh, Andrew~V. Martin, Nicusor Timneanu, Daniel S.~D.
+  Larsson, et~al.
+\newblock High-throughput imaging of heterogeneous cell organelles with an
+  x-ray laser.
+\newblock \emph{Nat. Photonics}, 8:\penalty0 943–949, 2014.
+\newblock \doi{10.1038/nphoton.2014.270}.
+
+\bibitem[Agi(2007)]{Acqiris-manual}
+\emph{Agilent Acqiris Programmer's guide}.
+\newblock Agilent Technologies, xz130 edition, June 2007.
+\newblock URL
+  \url{https://github.com/Maderthaner/Thesis/blob/master/manuals/U10xx_ProgrammersGuide.pdf}.
+\newblock URL tested on October 13, 2016.
+
+\bibitem[Sch{\"{u}}tte and Buck(2002)]{Schutte-2002-IJMS}
+Stefan Sch{\"{u}}tte and Udo Buck.
+\newblock {Strong fragmentation of large rare gas clusters by high energy
+  electron impact}.
+\newblock \emph{International Journal of Mass Spectrometry}, 220\penalty0
+  (2):\penalty0 183--192, 2002.
+\newblock ISSN 13873806.
+\newblock \doi{10.1016/S1387-3806(02)00670-X}.
+
+\bibitem[Gorkhover(2014)]{Gorkhover-2014-Thesis}
+Tais Gorkhover.
+\newblock \emph{Ultrafast light induced dynamics of Xe nanoparticles studies
+  with a combination of intense infrared and x-ray pulses}.
+\newblock Thesis, Technische Universit{\"a}t Berlin, 2014.
+
+\bibitem[Schorb et~al.(2012)Schorb, Rupp, Swiggers, Coffee, Messerschmidt,
+  Williams, Bozek, Wada, Kornilov, M{\"o}ller, et~al.]{Schorb-2012-PRL}
+Sebastian Schorb, Daniela Rupp, Michelle~L Swiggers, Ryan~N Coffee, Marc
+  Messerschmidt, Garth Williams, John~D Bozek, Shin-Ichi Wada, Oleg Kornilov,
+  Thomas M{\"o}ller, et~al.
+\newblock Size-dependent ultrafast ionization dynamics of nanoscale samples in
+  intense femtosecond x-ray free-electron-laser pulses.
+\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (23):\penalty0 233401, 2012.
+\newblock ISSN 1079-7114.
+
+\bibitem[Sch{\"{u}}tte et~al.(2015)Sch{\"{u}}tte, Oelze, Krikunova, Arbeiter,
+  Fennel, Vrakking, and Rouz{\'{e}}e]{Schutte-2015-JPhysB}
+Bernd Sch{\"{u}}tte, Tim Oelze, Maria Krikunova, Mathias Arbeiter, Thomas
+  Fennel, Marc J~J Vrakking, and Arnaud Rouz{\'{e}}e.
+\newblock {Real-time fragmentation dynamics of clusters ionized by intense
+  extreme-ultraviolet pulses}.
+\newblock \emph{Journal of Physics B: Atomic, Molecular and Optical Physics},
+  48\penalty0 (18):\penalty0 185101, sep 2015.
+\newblock ISSN 0953-4075.
+\newblock \doi{10.1088/0953-4075/48/18/185101}.
+\newblock URL
+  \url{http://stacks.iop.org/0953-4075/48/i=18/a=185101?key=crossref.13a394e28d564cde75229740d33c06f7}.
+
+\bibitem[Sch{\"{u}}tte et~al.(2014)Sch{\"{u}}tte, Campi, Arbeiter, Fennel,
+  Vrakking, and Rouz{\'{e}}e]{Schutte-2014-PRL}
+B.~Sch{\"{u}}tte, F.~Campi, M.~Arbeiter, Th~Fennel, M.~J.~J. Vrakking, and
+  A.~Rouz{\'{e}}e.
+\newblock {Tracing Electron-Ion Recombination in Nanoplasmas Produced by
+  Extreme-Ultraviolet Irradiation of Rare-Gas Clusters}.
+\newblock \emph{Physical Review Letters}, 112\penalty0 (25):\penalty0 253401,
+  jun 2014.
+\newblock ISSN 0031-9007.
+\newblock \doi{10.1103/PhysRevLett.112.253401}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.112.253401}.
+
+\bibitem[Lehmann et~al.(2016)Lehmann, Pic??n, Bostedt, Rudenko, Marinelli,
+  Moonshiram, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
+  Gorkhover, Ho, Kanter, Kr??ssig, Krzywinski, Lutman, March, Ray, Young,
+  Pratt, and Southworth]{Lehmann-2016-PRA}
+C.~S. Lehmann, A.~Pic??n, C.~Bostedt, A.~Rudenko, A.~Marinelli, D.~Moonshiram,
+  T.~Osipov, D.~Rolles, N.~Berrah, C.~Bomme, M.~Bucher, G.~Doumy, B.~Erk, K.~R.
+  Ferguson, T.~Gorkhover, P.~J. Ho, E.~P. Kanter, B.~Kr??ssig, J.~Krzywinski,
+  A.~A. Lutman, A.~M. March, D.~Ray, L.~Young, S.~T. Pratt, and S.~H.
+  Southworth.
+\newblock {Ultrafast x-ray-induced nuclear dynamics in diatomic molecules using
+  femtosecond x-ray-pump-x-ray-probe spectroscopy}.
+\newblock \emph{Physical Review A - Atomic, Molecular, and Optical Physics},
+  94\penalty0 (1):\penalty0 1--7, 2016.
+\newblock ISSN 10941622.
+\newblock \doi{10.1103/PhysRevA.94.013426}.
+
+\bibitem[Al-Haddad et~al.(2016-2017)Al-Haddad, Picon, Bucher, Doumy, Luttmann,
+  Marinelli, Maxwell, Moeller, Ray, Osipov, Pratt, Young, Southworth, and
+  Bostedt]{Al-Haddad-2017-unpublished}
+Andre Al-Haddad, Antonio Picon, Maximilian Bucher, Gilles Doumy, Alberto
+  Luttmann, Ago Marinelli, Timothy Maxwell, Stefan Moeller, Dipawnita Ray,
+  Timur Osipov, Stephen Pratt, Linda Young, Stephen Southworth, and Christoph
+  Bostedt.
+\newblock Working title: Measurement of the ultrafast electronic
+  reconfiguration in atomic co after ionization.
+\newblock unpublished work, 2016-2017.
+
+\bibitem[Alcalde et~al.(2012)Alcalde, Bucher, Emary, and
+  Brandes]{Alcalde-2012-PRE}
+M.~Aparicio Alcalde, M.~Bucher, C.~Emary, and T.~Brandes.
+\newblock {Thermal phase transitions for Dicke-type models in the
+  ultrastrong-coupling limit}.
+\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics}, 86\penalty0 (1):\penalty0 4--7, 2012.
+\newblock ISSN 15393755.
+\newblock \doi{10.1103/PhysRevE.86.012101}.
+
+\bibitem[Munke et~al.(2016)Munke, Andreasson, Aquila, Awel, Ayyer, Barty, Bean,
+  Berntsen, Bielecki, Boutet, Bucher, Chapman, Daurer, DeMirci, Elser, Fromme,
+  Hajdu, Hantke, Higashiura, Hogue, Hosseinizadeh, Kim, Kirian, Reddy, Lan,
+  Larsson, Liu, Loh, Maia, Mancuso, M{\"{u}}hlig, Nakagawa, Nam, Nelson,
+  Nettelblad, Okamoto, Ourmazd, Rose, van~der Schot, Schwander, Seibert,
+  Sellberg, Sierra, Song, Svenda, Timneanu, Vartanyants, Westphal, Wiedorn,
+  Williams, Xavier, Yoon, and Zook]{Munke-2016-naturedata}
+Anna Munke, Jakob Andreasson, Andrew Aquila, Salah Awel, Kartik Ayyer, Anton
+  Barty, Richard~J. Bean, Peter Berntsen, Johan Bielecki, S{\'{e}}bastien
+  Boutet, Maximilian Bucher, Henry~N. Chapman, Benedikt~J. Daurer, Hasan
+  DeMirci, Veit Elser, Petra Fromme, Janos Hajdu, Max~F. Hantke, Akifumi
+  Higashiura, Brenda~G. Hogue, Ahmad Hosseinizadeh, Yoonhee Kim, Richard~A.
+  Kirian, Hemanth~K.N. Reddy, Ti-Yen Lan, Daniel~S.D. Larsson, Haiguang Liu,
+  N.~Duane Loh, Filipe~R.N.C. Maia, Adrian~P. Mancuso, Kerstin M{\"{u}}hlig,
+  Atsushi Nakagawa, Daewoong Nam, Garrett Nelson, Carl Nettelblad, Kenta
+  Okamoto, Abbas Ourmazd, Max Rose, Gijs van~der Schot, Peter Schwander,
+  M.~Marvin Seibert, Jonas~A. Sellberg, Raymond~G. Sierra, Changyong Song,
+  Martin Svenda, Nicusor Timneanu, Ivan~A. Vartanyants, Daniel Westphal, Max~O.
+  Wiedorn, Garth~J. Williams, Paulraj~Lourdu Xavier, Chun~Hong Yoon, and James
+  Zook.
+\newblock {Coherent diffraction of single Rice Dwarf virus particles using hard
+  X-rays at the Linac Coherent Light Source}.
+\newblock \emph{Scientific Data}, 3:\penalty0 160064, aug 2016.
+\newblock ISSN 2052-4463.
+\newblock \doi{10.1038/sdata.2016.64}.
+\newblock URL \url{http://www.nature.com/articles/sdata201664}.
+
+\bibitem[MacDonald et~al.(2016)MacDonald, Gorkhover, Bachmann, Bucher, Carron,
+  Coffee, Drake, Ferguson, Fletcher, Gamboa, Glenzer, G{\"{o}}de, Hau-Riege,
+  Kraus, Krzywinski, Levitan, Meiwes-Broer, O'Grady, Osipov, Pardini, Peltz,
+  Skruszewicz, Swiggers, Bostedt, Fennel, and
+  D{\"{o}}ppner]{MacDonald-2016-RSI}
+M.~J. MacDonald, T.~Gorkhover, B.~Bachmann, M.~Bucher, S.~Carron, R.~N. Coffee,
+  R.~P. Drake, K.~R. Ferguson, L.~B. Fletcher, E.~J. Gamboa, S.~H. Glenzer,
+  S.~G{\"{o}}de, S.~P. Hau-Riege, D.~Kraus, J.~Krzywinski, A.~L. Levitan, K.-H.
+  Meiwes-Broer, C.~P. O'Grady, T.~Osipov, T.~Pardini, C.~Peltz, S.~Skruszewicz,
+  M.~Swiggers, C.~Bostedt, T.~Fennel, and T.~D{\"{o}}ppner.
+\newblock {Measurement of high-dynamic range x-ray Thomson scattering spectra
+  for the characterization of nano-plasmas at LCLS}.
+\newblock \emph{Review of Scientific Instruments}, 87\penalty0 (11):\penalty0
+  11E709, nov 2016.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.4960502}.
+\newblock URL
+  \url{http://scitation.aip.org/content/aip/journal/rsi/87/11/10.1063/1.4960502}.
 
 \end{thebibliography}

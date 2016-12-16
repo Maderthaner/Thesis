@@ -1,8 +1,23 @@
+%
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}
+	\addtocounter{footnote}{-1}
+	\endgroup
+	}
+%
+%
+%
 \selectlanguage{german}
+%
 \chapter[Disclaimer]{Eidesstattliche Versicherung}
-Hiermit erkläre ich, dass ich die vorliegende Arbeit selbständig und eigenhändig sowie ohne unerlaubte fremde Hilfe und ausschließlich unter Verwendung der aufgeführten Quellen und Hilfsmittel angefertigt habe.\\
+Hiermit erkläre ich, dass ich die vorliegende Arbeit selbständig und eigenhändig, sowie ohne unerlaubte fremde Hilfe und ausschließlich unter Verwendung der aufgeführten Quellen und Hilfsmittel angefertigt habe.\\
 
-Berlin, den \textsc{\today}\\
-\hspace{2.5cm}\rule{8cm}{0.4pt}\\
+\blfootnote{Diese Seite wurde maschinell gefertigt. Ein unterschriebenes Exemplar dieser Dissertation ist in der Universit\"atsbibiothek der Technischen Universit\"at Berlin hinterlegt.}
+%
+\hspace{8cm}Chicago, den \today\\
+\hspace{2.5cm}\rule{15cm}{0.4pt}\\
 \hspace{2.5cm}Maximilian Jakob Bucher
+\hspace{8cm}Ort, Datum\\
+%
 \selectlanguage{english}
