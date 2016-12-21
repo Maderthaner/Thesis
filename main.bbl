@@ -1,17 +1,10 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{153}
+\begin{thebibliography}{157}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[R\"ontgen(1901)]{Roentgen-NP}
-Wilhelm~Conrad R\"ontgen.
-\newblock The nobel price in physics.
-\newblock The Nobel Foundation, 1901.
-\newblock "`in recognition of the extraordinary services he has rendered by the
-  discovery of the remarkable rays subsequently named after him"'.
 
 \bibitem[Siegbahn(1924)]{Siegbahn-NP}
 Karl Manne~Georg Siegbahn.
@@ -273,6 +266,62 @@ R.~Bonifacio, C.~Pellegrini, and L.~M. Narducci.
 \newblock ISSN 00304018.
 \newblock \doi{10.1016/0030-4018(84)90105-6}.
 
+\bibitem[Dell'Angela et~al.(2013)Dell'Angela, Anniyev, Beye, Coffee, Fohlisch,
+  Gladh, Katayama, Kaya, Krupin, LaRue, et~al.]{Dell'Angela-2013-Science}
+M.~Dell'Angela, T.~Anniyev, M.~Beye, R.~Coffee, A.~Fohlisch, J.~Gladh,
+  T.~Katayama, S.~Kaya, O.~Krupin, J.~LaRue, et~al.
+\newblock Real-time observation of surface bond breaking with an x-ray laser.
+\newblock \emph{Science}, 339\penalty0 (6125):\penalty0 1302--1305, 2013.
+\newblock ISSN 0036-8075.
+
+\bibitem[Pic{\'{o}}n et~al.(2016)Pic{\'{o}}n, Lehmann, Bostedt, Rudenko,
+  Marinelli, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
+  Gorkhover, Ho, Kanter, Kr{\"{a}}ssig, Krzywinski, Lutman, March, Moonshiram,
+  Ray, Young, Pratt, and Southworth]{Picon-2016-NatComm}
+A.~Pic{\'{o}}n, C.~S. Lehmann, C.~Bostedt, A.~Rudenko, A.~Marinelli, T.~Osipov,
+  D.~Rolles, N.~Berrah, C.~Bomme, M.~Bucher, G.~Doumy, B.~Erk, K.~R. Ferguson,
+  T.~Gorkhover, P.~J. Ho, E.~P. Kanter, B.~Kr{\"{a}}ssig, J~Krzywinski, A~A
+  Lutman, A~M March, D~Moonshiram, D~Ray, L~Young, S~T Pratt, and S.~H.
+  Southworth.
+\newblock {Hetero-site-specific X-ray pump-probe spectroscopy for femtosecond
+  intramolecular dynamics}.
+\newblock \emph{Nature Communications}, 7\penalty0 (May):\penalty0 11652, 2016.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms11652}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/ncomms11652}.
+
+\bibitem[Rohringer et~al.(2012)Rohringer, Ryan, London, Purvis, Albert, Dunn,
+  Bozek, Bostedt, Graf, Hill, et~al.]{Rohringer-2012-Nature}
+N.~Rohringer, D.~Ryan, R.~A. London, M.~Purvis, F.~Albert, J.~Dunn, J.~D.
+  Bozek, C.~Bostedt, A.~Graf, R.~Hill, et~al.
+\newblock Atomic inner-shell x-ray laser at 1.46 nanometres pumped by an x-ray
+  free-electron laser.
+\newblock \emph{Nature}, 481\penalty0 (7382):\penalty0 488--491, 2012.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/Nature10721}.
+
+\bibitem[Berrah et~al.(2011)Berrah, Fang, Murphy, Osipov, Ueda, Kukk, Feifel,
+  van~der Meulen, Salen, Schmidt, et~al.]{Berrah-2011-PNAS}
+Nora Berrah, Li~Fang, Brendan Murphy, Timur Osipov, Kiyoshi Ueda, Edwin Kukk,
+  Raimund Feifel, Peter van~der Meulen, Peter Salen, Henning~T. Schmidt, et~al.
+\newblock Double-core-hole spectroscopy for chemical analysis with an intense
+  x-ray femtosecond laser.
+\newblock \emph{Proc. Natl. Acad. Sci. USA}, 108\penalty0 (41):\penalty0
+  16912--16915, 2011.
+\newblock \doi{10.1073/pnas.1111380108}.
+\newblock URL \url{http://www.pnas.org/content/108/41/16912.abstract}.
+
+\bibitem[Gorkhover et~al.(2012)Gorkhover, Adolph, Rupp, Schorb, Epp, Erk,
+  Foucar, Hartmann, Kimmel, Kuhnel, et~al.]{Gorkhover-2012-PRL}
+T.~Gorkhover, M.~Adolph, D.~Rupp, S.~Schorb, S.~W. Epp, B.~Erk, L.~Foucar,
+  R.~Hartmann, N.~Kimmel, K.~U. Kuhnel, et~al.
+\newblock Nanoplasma dynamics of single large xenon clusters irradiated with
+  superintense x-ray pulses from the linac coherent light source free-electron
+  laser.
+\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (24):\penalty0 245005, 2012.
+\newblock ISSN 1079-7114.
+\newblock \doi{10.1103/PhysRevLett.108.245005}.
+
 \bibitem[Holst and Horvath(2005)]{holst-2005-wiki}
 Bastian Holst and Arpad Horvath.
 \newblock Undulator, Jul 2005.
@@ -448,22 +497,6 @@ A~Marinelli, D~Ratner, AA~Lutman, J~Turner, J~Welch, F-J Decker, H~Loos,
   C~Behrens, S~Gilevich, AA~Miahnahri, et~al.
 \newblock High-intensity double-pulse x-ray free-electron laser.
 \newblock \emph{Nature communications}, 6, 2015.
-
-\bibitem[Pic{\'{o}}n et~al.(2016)Pic{\'{o}}n, Lehmann, Bostedt, Rudenko,
-  Marinelli, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
-  Gorkhover, Ho, Kanter, Kr{\"{a}}ssig, Krzywinski, Lutman, March, Moonshiram,
-  Ray, Young, Pratt, and Southworth]{Picon-2016-NatComm}
-A.~Pic{\'{o}}n, C.~S. Lehmann, C.~Bostedt, A.~Rudenko, A.~Marinelli, T.~Osipov,
-  D.~Rolles, N.~Berrah, C.~Bomme, M.~Bucher, G.~Doumy, B.~Erk, K.~R. Ferguson,
-  T.~Gorkhover, P.~J. Ho, E.~P. Kanter, B.~Kr{\"{a}}ssig, J~Krzywinski, A~A
-  Lutman, A~M March, D~Moonshiram, D~Ray, L~Young, S~T Pratt, and S.~H.
-  Southworth.
-\newblock {Hetero-site-specific X-ray pump-probe spectroscopy for femtosecond
-  intramolecular dynamics}.
-\newblock \emph{Nature Communications}, 7\penalty0 (May):\penalty0 11652, 2016.
-\newblock ISSN 2041-1723.
-\newblock \doi{10.1038/ncomms11652}.
-\newblock URL \url{http://www.nature.com/doifinder/10.1038/ncomms11652}.
 
 \bibitem[Ferguson et~al.(2016)Ferguson, Bucher, Gorkhover, Boutet, Fukuzawa,
   Koglin, Kumagai, Lutman, Marinelli, Messerschmidt, Nagaya, Turner, Ueda,
@@ -883,16 +916,21 @@ C.~Bostedt, E.~Eremina, D.~Rupp, M.~Adolph, H.~Thomas, M.~Hoener, A.~R.
 \newblock URL
   \url{http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.093401}.
 
-\bibitem[Gorkhover et~al.(2012)Gorkhover, Adolph, Rupp, Schorb, Epp, Erk,
-  Foucar, Hartmann, Kimmel, Kuhnel, et~al.]{Gorkhover-2012-PRL}
-T.~Gorkhover, M.~Adolph, D.~Rupp, S.~Schorb, S.~W. Epp, B.~Erk, L.~Foucar,
-  R.~Hartmann, N.~Kimmel, K.~U. Kuhnel, et~al.
-\newblock Nanoplasma dynamics of single large xenon clusters irradiated with
-  superintense x-ray pulses from the linac coherent light source free-electron
-  laser.
-\newblock \emph{Phys. Rev. Lett.}, 108\penalty0 (24):\penalty0 245005, 2012.
-\newblock ISSN 1079-7114.
-\newblock \doi{10.1103/PhysRevLett.108.245005}.
+\bibitem[Rupp et~al.(2016)Rupp, Fl\"uckiger, Adolph, Gorkhover, Krikunova,
+  M\"uller, M\"uller, Oelze, Ovcharenko, R\"oben, Sauppe, Schorb, Wolter,
+  Mitzner, W\"ostmann, Roling, Harmand, Treusch, Arbeiter, Fennel, Bostedt, and
+  M\"oller]{Rupp-2016-PRL}
+Daniela Rupp, Leonie Fl\"uckiger, Marcus Adolph, Tais Gorkhover, Maria
+  Krikunova, Jan~Philippe M\"uller, Maria M\"uller, Tim Oelze, Yevheniy
+  Ovcharenko, Benjamin R\"oben, Mario Sauppe, Sebastian Schorb, David Wolter,
+  Rolf Mitzner, Michael W\"ostmann, Sebastian Roling, Marion Harmand, Rolf
+  Treusch, Mathias Arbeiter, Thomas Fennel, Christoph Bostedt, and Thomas
+  M\"oller.
+\newblock Recombination-enhanced surface expansion of clusters in intense soft
+  x-ray laser pulses.
+\newblock \emph{Phys. Rev. Lett.}, 117:\penalty0 153401, Oct 2016.
+\newblock \doi{10.1103/PhysRevLett.117.153401}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.117.153401}.
 
 \bibitem[Hau-Riege and Chapman(2008)]{Hau-Riege-2008-PRE}
 Stefan~P. Hau-Riege and Henry~N. Chapman.
@@ -1251,6 +1289,10 @@ Amadeo Perazzo.
 \newblock Technical report, SLAC National Accelerator Laboratory, Febuary 2016.
 \newblock URL
   \url{https://portal.slac.stanford.edu/sites/lcls_public/Documents/LCLSDataAnalysisStrategy.pdf}.
+
+\bibitem[Hantke and Foucar(2016)]{Hantke-Foucard-2016-PC}
+Max~F. Hantke and Lutz Foucar.
+\newblock personal communication, June 2016.
 
 \bibitem[Bruck and Sodin(1979)]{Bruck-1979-OpticsCom}
 Yu.M. Bruck and L.G. Sodin.

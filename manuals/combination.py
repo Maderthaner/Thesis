@@ -6,7 +6,7 @@ gapTop =231			# In pixel
 gapBot =252			# In pixel
 
 ### offset between rear and front pnCCDs 
-xShift =-1				# In pixel
+xShift =-1			# In pixel
 
 ############## Things to adjust per run/experiment
 pixelSizePnccd=75*10**-6 	# Size of a pixel in meter.
@@ -34,7 +34,7 @@ def qVector(pixel, pixelSize, distanceToDetector, waveLength):
 
 ### Reading intensity files, 
 intFrontTop=	# Adapt to your needs
-intRear=		# Adapt to your needs
+intRear=	# Adapt to your needs
 intFrontBottom=	# Adapt to your needs
 
 ### Intensity normalization and offset of electronic noise.
