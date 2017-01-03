@@ -6,20 +6,20 @@
 \contentsline {section}{\numberline {2.1}Why X-ray free electron lasers?}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}From bending magnets to undulators}{6}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Self amplification by spontaneous emission}{8}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Soft X-ray self seeding}{10}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Novel X-ray pump\IeC {\textendash }probe techniques}{13}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.3}Soft X-ray self-seeding}{10}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Novel X-ray pump\IeC {\textendash }probe techniques}{14}{subsection.2.1.4}
 \contentsline {subsubsection}{\nonumberline Undulator parameters $K_{1,2}$ based pump--probe scheme}{14}{section*.5}
 \contentsline {subsubsection}{\nonumberline Twin bunch or Lorentz factor $\gamma $ based pump--probe scheme}{16}{section*.6}
 \contentsline {section}{\numberline {2.2}Rare gas clusters}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Generation of homogenous cluster}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Creation of heterogeneous cluster: The pickup principle}{23}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Soft X-rays in matter}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.1}Generation of homogenous clusters}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Creation of heterogeneous clusters: The pickup principle}{23}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Soft X-rays in matter}{25}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Small angle X-ray scattering}{25}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Ionization of matter}{29}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Charge migration}{33}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Ionization of clusters in intense X-ray pulses}{35}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Formation and expansion of a nanoplasma}{36}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Imaging of transient states}{39}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Imaging of transient states}{37}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Tampered layers to inhibit the nanoplasma expansion}{40}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Experimental Setup}{43}{chapter.3}
 \contentsline {section}{\numberline {3.1}The AMO instrument and FEE at the LCLS}{43}{section.3.1}
@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {4.1}The computing environment at LCLS}{63}{section.4.1}
 \contentsline {section}{\numberline {4.2}pnCCD photon detectors}{65}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{67}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Impact of X-ray pump -- X-ray probe on diffraction pattern}{71}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Impact of the X-ray pump--X-ray probe on diffraction pattern}{71}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Phase retrieval from a single diffraction pattern}{72}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Principle of phase retrieval}{73}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}2D reconstructions and image resolution}{73}{subsection.4.3.2}
@@ -46,16 +46,16 @@
 \contentsline {section}{\numberline {4.6}Data filtering}{82}{section.4.6}
 \contentsline {chapter}{\numberline {5}Results and discussion}{84}{chapter.5}
 \contentsline {section}{\numberline {5.1}Structural damage in Xe-cluster induced by intense X-rays}{84}{section.5.1}
-\contentsline {section}{\numberline {5.2}Time-depended response of Xe-atoms due to a X-ray pump--probe beam}{91}{section.5.2}
-\contentsline {section}{\numberline {5.3}Time-resolved response of highly ionized He- and HeXe-cluster}{92}{section.5.3}
+\contentsline {section}{\numberline {5.2}Time-dependent response of Xe-atoms due to an X-ray pump--probe beam}{91}{section.5.2}
+\contentsline {section}{\numberline {5.3}Time-resolved response of highly ionized He- and HeXe-clusters}{91}{section.5.3}
 \contentsline {section}{\numberline {5.4}Condensation of xenon in helium cluster: Plum-pudding type cluster}{95}{section.5.4}
-\contentsline {section}{\numberline {5.5}Understanding structural damage in plum-pudding type cluster}{99}{section.5.5}
+\contentsline {section}{\numberline {5.5}Understanding structural damage in the plum-pudding type cluster}{98}{section.5.5}
 \contentsline {section}{\numberline {5.6}Sacrificial layers: Comparison of structural damage in He- and HeXe-cluster}{101}{section.5.6}
-\contentsline {chapter}{\numberline {6}Summary and outlook}{104}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendix}{106}{chapter.7}
-\contentsline {section}{\numberline {7.1}Matlab code on spherical integrations}{106}{section.7.1}
-\contentsline {section}{\numberline {7.2}Python code on combining detectors}{107}{section.7.2}
-\contentsline {chapter}{\numberline {8}Bibliography}{110}{chapter.8}
+\contentsline {chapter}{\numberline {6}Summary and outlook}{105}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendix}{107}{chapter.7}
+\contentsline {section}{\numberline {7.1}Matlab code on spherical integrations}{107}{section.7.1}
+\contentsline {section}{\numberline {7.2}Python code on combining detectors}{108}{section.7.2}
+\contentsline {chapter}{\numberline {8}Bibliography}{111}{chapter.8}
 \contentsline {chapter}{\numberline {A}Publications by the author}{A}{appendix.A}
 \select@language {german}
 \contentsline {chapter}{\numberline {B}Disclaimer}{C}{appendix.B}

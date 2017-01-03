@@ -9,13 +9,13 @@
   \indexspace
 
   \item bending magnets, \hyperpage{6}
-  \item Bragg's law, \hyperpage{39}
+  \item Bragg's law, \hyperpage{40}
   \item brilliance, \hyperindexformat{\see{spectral brightness}}{4}
 
   \indexspace
 
   \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{37}
+  \item Coulomb potential, \hyperpage{36}
 
   \indexspace
 
@@ -49,7 +49,7 @@
   \item ionization
     \subitem energy, \hyperpage{31}
     \subitem inner, \hyperpage{37}
-    \subitem multistep, \hyperpage{36, 37}
+    \subitem multistep, \hyperpage{36}
 
   \indexspace
 
@@ -67,10 +67,10 @@
   \indexspace
 
   \item nanoplasma
-    \subitem expansion, \hyperpage{87}
+    \subitem expansion, \hyperpage{86}
     \subitem transition, \hyperpage{36}
   \item nanoplasma expansion
-    \subitem Coulomb trapping, \hyperpage{87}
+    \subitem Coulomb trapping, \hyperpage{86}
 
   \indexspace
 
@@ -81,7 +81,7 @@
   \indexspace
 
   \item photoionization, \hyperpage{31}
-  \item plum-pudding, \hyperpage{104}
+  \item plum-pudding, \hyperpage{105}
   \item pnCCD, \hyperpage{52}
     \subitem CAMEX, \hyperpage{53}
     \subitem common mode, \hyperpage{65}
@@ -105,12 +105,12 @@
     \subitem soft x-ray, \hyperpage{13}
   \item slippage, \hyperpage{10}
   \item spectral brightness, \hyperpage{4}
-  \item superstructure, \hyperpage{98}
+  \item superstructure, \hyperpage{97}
 
   \indexspace
 
   \item time of flight
-    \subitem mass spectroscopy, \hyperpage{41}
+    \subitem mass spectroscopy, \hyperpage{42}
   \item time-of-flight, \hyperpage{46}
 
   \indexspace

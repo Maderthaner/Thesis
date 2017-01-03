@@ -3,11 +3,11 @@
 \BOOKMARK [1][-]{section.2.1}{2.1\040Why\040X-ray\040free\040electron\040lasers?}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1\040From\040bending\040magnets\040to\040undulators}{section.2.1}% 4
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2\040Self\040amplification\040by\040spontaneous\040emission}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3\040Soft\040X-ray\040self\040seeding}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3\040Soft\040X-ray\040self-seeding}{section.2.1}% 6
 \BOOKMARK [2][-]{subsection.2.1.4}{2.1.4\040Novel\040X-ray\040pump\205probe\040techniques}{section.2.1}% 7
 \BOOKMARK [1][-]{section.2.2}{2.2\040Rare\040gas\040clusters}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1\040Generation\040of\040homogenous\040cluster}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2\040Creation\040of\040heterogeneous\040cluster:\040The\040pickup\040principle}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1\040Generation\040of\040homogenous\040clusters}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2\040Creation\040of\040heterogeneous\040clusters:\040The\040pickup\040principle}{section.2.2}% 10
 \BOOKMARK [1][-]{section.2.3}{2.3\040Soft\040X-rays\040in\040matter}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.3.1}{2.3.1\040Small\040angle\040X-ray\040scattering}{section.2.3}% 12
 \BOOKMARK [2][-]{subsection.2.3.2}{2.3.2\040Ionization\040of\040matter}{section.2.3}% 13
@@ -29,7 +29,7 @@
 \BOOKMARK [1][-]{section.4.1}{4.1\040The\040computing\040environment\040at\040LCLS}{chapter.4}% 29
 \BOOKMARK [1][-]{section.4.2}{4.2\040pnCCD\040photon\040detectors}{chapter.4}% 30
 \BOOKMARK [2][-]{subsection.4.2.1}{4.2.1\040Combining\040multiple\040pnCCD\040detectors}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2\040Impact\040of\040X-ray\040pump\040\205\040X-ray\040probe\040on\040diffraction\040pattern}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2\040Impact\040of\040the\040X-ray\040pump\205X-ray\040probe\040on\040diffraction\040pattern}{section.4.2}% 32
 \BOOKMARK [1][-]{section.4.3}{4.3\040Phase\040retrieval\040from\040a\040single\040diffraction\040pattern}{chapter.4}% 33
 \BOOKMARK [2][-]{subsection.4.3.1}{4.3.1\040Principle\040of\040phase\040retrieval}{section.4.3}% 34
 \BOOKMARK [2][-]{subsection.4.3.2}{4.3.2\0402D\040reconstructions\040and\040image\040resolution}{section.4.3}% 35
@@ -39,10 +39,10 @@
 \BOOKMARK [1][-]{section.4.6}{4.6\040Data\040filtering}{chapter.4}% 39
 \BOOKMARK [0][-]{chapter.5}{5\040Results\040and\040discussion}{}% 40
 \BOOKMARK [1][-]{section.5.1}{5.1\040Structural\040damage\040in\040Xe-cluster\040induced\040by\040intense\040X-rays}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.2}{5.2\040Time-depended\040response\040of\040Xe-atoms\040due\040to\040a\040X-ray\040pump\205probe\040beam}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.3}{5.3\040Time-resolved\040response\040of\040highly\040ionized\040He-\040and\040HeXe-cluster}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.2}{5.2\040Time-dependent\040response\040of\040Xe-atoms\040due\040to\040an\040X-ray\040pump\205probe\040beam}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{5.3\040Time-resolved\040response\040of\040highly\040ionized\040He-\040and\040HeXe-clusters}{chapter.5}% 43
 \BOOKMARK [1][-]{section.5.4}{5.4\040Condensation\040of\040xenon\040in\040helium\040cluster:\040Plum-pudding\040type\040cluster}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.5}{5.5\040Understanding\040structural\040damage\040in\040plum-pudding\040type\040cluster}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.5}{5.5\040Understanding\040structural\040damage\040in\040the\040plum-pudding\040type\040cluster}{chapter.5}% 45
 \BOOKMARK [1][-]{section.5.6}{5.6\040Sacrificial\040layers:\040Comparison\040of\040structural\040damage\040in\040He-\040and\040HeXe-cluster}{chapter.5}% 46
 \BOOKMARK [0][-]{chapter.6}{6\040Summary\040and\040outlook}{}% 47
 \BOOKMARK [0][-]{chapter.7}{7\040Appendix}{}% 48
