@@ -231,13 +231,14 @@ v_{\infty}=\sqrt{\frac{2 R}{m_{gas}}\left(\frac{\gamma}{\gamma-1}\right) T_{0}},
 \end{equation}
 with $R$ being the universal gas constant. The expansion speed of the gas gives the name to such types of gas sources, namely supersonic jets. This equation is also useful to calculate gas or cluster flight times -- $t_{\text{flight}}=\frac{D}{v_{\infty}}$ -- if the distance $D$ from nozzle to interaction point is known (see Section \ref{sec:jet-timing}). \\[1\baselineskip]
 %
-Let us describe the appearance of the jet stream (see Figure \ref{fig:freeJetExpansion}) next. Upon exiting the nozzle, the Mach number increases by a wide margin ($M\gg 1$), that means that the gas travels faster than information in this medium. Here, a \textit{zone of silence} is formed, where the gas flow is not influenced by other particles, thus uninterrupted. As the supersonic flow is exiting the nozzle it has to turn around the edge of the nozzle to further expand and the supersonic flow turns by actually creating smaller Mach waves. At the borders of the \textit{zone of silence}, $M$ decreases drastically resulting in dense regions that are called \textit{barrel shock} to the sides and \textit{Mach disk} downstream the gas flow. For an unhindered transport of the gas and clusters to the interaction region, the interaction region needs to be within the \textit{zone of silence}. We can express the distance from the nozzle to the Mach disk $x_{MD}$ through
+Let us describe the appearance of the jet stream (see Figure \ref{fig:freeJetExpansion}) next \citep{Miller-1988-Oxford}. Upon exiting the nozzle, the Mach number increases by a wide margin ($M\gg 1$). This means that the gas travels faster than information in this medium. Here, a \textit{zone of silence} is formed, where the gas flow is not influenced by other particles or boundary conditions. As the supersonic flow exits the nozzle, it has to turn around the edge of the nozzle to further expand and it does so by actually creating smaller Mach waves. At the borders of the zone of silence, $M$ decreases drastically, resulting in dense regions that are called \textit{barrel shock} to the sides and \textit{Mach disk shock} downstream the gas flow. For an unhindered transport of the gas and clusters to the interaction region, the interaction region needs to be within the zone of silence. We can express the distance from the nozzle to the Mach disk $x_{MD}$ through
 \begin{equation}
 \frac{x_{MD}}{d}=0.67\sqrt{\frac{p_{0}}{p_{b}}},
 \label{eq:distance-of-mach-disk}
 \end{equation}
-with the nozzle diameter $d$. So the competing stagnation pressure $p_{0}$ and the background pressure $p_{b}$ define the distance of the otherwise static parameters. $p_{b}$ needs to be low enough do drive the Mach disk downstream of the interaction region. By using skimmers and thereby physically separating the jet expansion into separately pumped compartments, the background pressure $p_{b}$ can be reduced, hence $x_{MD}$ increased.\\
-While we have described a cooling gas in the expansion process it should be noted that the clusters are comparably hot. Through the kinetic process described above, they are efficiently heated. The two processes to loose energy are, one, collisions with a chaperone $M$ that deactivates the cluster, or two, evaporation of monomers from the cluster. The evaporation process makes the temperature size-independent, after the clusters have reached a certain minimum size \cite{Farges-1981-SurfSci}. Typically, the jet reaches temperatures of a few Kelvin and the cluster temperature is heavily dependent on their material, particularly the dissociation energy. For this study relevant are mostly the temperature of Xenon cluster that is $~75K$\footnote{To put this temperature in perspective, krypton clusters are $~50K$ and argon cluster $~40K$ \citep{Farges-1981-SurfSci,Gspann-1986-Springer}. Note that in this study the cluster size was $\bar{N} > 800$, hence above the minimum value to be size independent. For the evaporative cooling process to settle at a given temperature, a certain flight distance (in the cited study 6.5cm) should also be taken into account.} and the fact xenon clusters are solid as their melting temperature is higher \cite{Gspann-1986-Springer}. For similar reasons, helium clusters are liquid, which is why they are often called (helium-)droplets. If helium droplets are produced using a cryogenic jet even superfluid helium-droplets can be observed.\\
+with the nozzle diameter $d$. So the competing stagnation pressure $p_{0}$ and the background pressure $p_{b}$ define the distance of the otherwise static parameters. $p_{b}$ needs to be low enough to drive the Mach disk downstream of the interaction region. By using skimmers and thereby physically separating the jet expansion into separately pumped compartments, the background pressure $p_{b}$ can be reduced, hence $x_{MD}$ increased.\\[1\baselineskip]
+%
+While we have described a cooling gas in the expansion process it should be noted that the clusters are comparably hot. Through the kinetic process described above, they are efficiently heated. The two processes to lose energy are, one, collisions with a chaperone $M$ that deactivates the cluster, or two, evaporation of monomers from the cluster. The evaporation process makes the temperature size-independent, after the clusters have reached a certain minimum size \cite{Farges-1981-SurfSci}. Typically, the jet reaches temperatures of a few Kelvin and the cluster temperature is heavily dependent on their material, particularly the dissociation energy. Relevant for this study are the temperature of Xenon cluster, which is $\sim 75K$\footnote{To put this temperature in perspective, krypton clusters are $~50K$ and argon clusters $~40K$ \citep{Farges-1981-SurfSci,Gspann-1986-Springer}. Note that in this study the cluster size was $\bar{N} > 800$, hence above the minimum value to be size independent. For the evaporative cooling process to settle at a given temperature, a certain flight distance (in the cited study 6.5 cm) should also be taken into account.}, and the fact that xenon clusters are solid as their melting temperature is higher \cite{Gspann-1986-Springer}. For similar reasons, helium clusters are liquid, which is why they are often called (helium-)droplets. If helium droplets are produced using a cryogenic jet even superfluid helium-droplets can be observed.\\[1\baselineskip]
 \begin{table}
 	\centering
 		\begin{tabular}{ | l | l | l | l | l | }
@@ -248,32 +249,32 @@ While we have described a cooling gas in the expansion process it should be note
 	\caption[Parameter $K_{\text{gas}}$ values for rare-gases.]{Parameter $K_{\text{gas}}$ values for rare-gases \cite{Schorb-2012-Thesis}.}
 	\label{tab:k-parameter}
 \end{table}
-At the current point of the discussion, it should shine out that the average cluster size\index{cluster size} is very much dependent on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$ and the nozzle type. Indeed, an empirically found scaling law\index{scaling law} named after Hagena\index{Hagena|see {scaling law}} \cite{Hagena-1972-JCP,Hagena-1981-SurfSci,Hagena-1987-ZeitschriftAMC}, can be written down as
+At the current point of the discussion, it should be apparent that the average cluster size\index{cluster size} is very much dependent on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$ and the nozzle diameter. Indeed, an empirically found scaling law\index{scaling law}, named after Hagena\index{Hagena|see {scaling law}} \cite{Hagena-1972-JCP,Hagena-1981-SurfSci,Hagena-1987-ZeitschriftAMC}, can be written down as
 \begin{equation}
-\Gamma^{*} = K_{\text{gas}} \cdot T_{0}^{0.25q-1.5} \cdot p_{0} \cdot d_{eq}^{q}\quad \left[\frac{\text{$\mu$m mbar}}{\text{K}}\right],
+\Gamma^{*} = K_{\text{gas}} \cdot T_{0}^{0.25x-1.5} \cdot p_{0} \cdot d_{eq}^{x}\quad \left[\frac{\text{$\mu$m mbar}}{\text{K}}\right],
 \label{eq:Hagena-parameter}
 \end{equation}
-with the gas specific parameter $K_{\text{gas}}$ that can be found in Table \ref{tab:k-parameter} for some rare-gases, the gas specific parameter $q$ that varies between 0.5 and 1 and is 0.85 for all rare-gases, and the equivalent nozzle opening $d_{eq}$ that is $d_{eq}=d$ for pinhole sources and for conical nozzles $d_{eq}$ reads \citep{Schorb-2012-Thesis}
+with the gas-specific parameter $K_{\text{gas}}$ that can be found in Table \ref{tab:k-parameter} for some rare-gases, the gas specific parameter $x$ that varies between 0.5 and 1 and is 0.85 for all rare-gases, and the equivalent nozzle opening, $d_{eq}$, that is $d_{eq}=d$ for pinhole sources and for conical nozzles $d_{eq}$ becomes \citep{Schorb-2012-Thesis}
 \begin{equation}
 d_{eq} = d\frac{\tan\left(\Phi_{0}\right)}{\tan\left(\Phi\right)} = 0.719 \frac{d}{\tan\left(\Phi\right)}
 \label{eq:equivalent-nozzle-opening}
 \end{equation}
 with the half opening angle of the nozzle $\Phi$ and the half opening of the free gas expansion $\Phi_{0}$. The Hagena scaling parameter $\Gamma^{*}$\index{Hagena!scaling parameter} allows us to estimate the mean cluster size, i.e., amount of accumulated particles per cluster $<N>$, as follows
 \begin{itemize}
-	\item $\Gamma^{*} < 350$, no cluster formation observed.
+	\item $\Gamma^{*} < 350$, no cluster formation is observed;
 	\item $350 < \Gamma^{*} < 1800$, in this region $<N>$ reads
 		\begin{equation}
-		<N> = 38.4 \left(\frac{\Gamma^{*}}{1000}\right)^{1.64}
+		<N> = 38.4 \left(\frac{\Gamma^{*}}{1000}\right)^{1.64};
 		\label{eq:intermediate-hagena-scaling}
 		\end{equation}
-	\item $1800 < \Gamma^{*}$, in this region $<N>$ reads
+	\item $1800 < \Gamma^{*}$, in this region $<N>$ is
 		\begin{equation}
-		<N> = 33.0 \left(\frac{\Gamma^{*}}{1000}\right)^{2.35}
+		<N> = 33.0 \left(\frac{\Gamma^{*}}{1000}\right)^{2.35}.
 		\label{eq:large-hagena-scaling}
 		\end{equation}
 \end{itemize}
-Supersonic jets generally create clusters of different sizes. This size distribution is centered around $<N>$ and for solid rare-gas clusters this distribution is a log-normal distribution. The size distribution can be an experimental challenge, especially when size dependent effects are investigated. Historically, electron diffraction \cite{Farges-1981-SurfSci,Bartell-1986-ChemRev} has been used to determine the mean cluster size, mean temperature and mean geometry. Today, free electron laser allow the determination of the size of a single cluster through a diffraction image and by measuring enough single clusters, one can reproduce size distributions of a supersonic jet as shown in Figure \ref{fig:size-distributions}.\\
-Experiments using supersonic jets for cluster generation are typically performed with pulsed valves to decrease cost and gas load in the overall system. Upon opening and closing of the valve, the gas density varies. This mostly affects the cluster size and one would expect to see smaller clusters. This remains true in the beginning of the pulse but in the \textit{afterpulse}\index{afterpulse} one finds giant clusters that exceed the above described scaling laws due to the effects when closing the valve \cite{Rupp-2014-JCP}.
+Supersonic jets generally create clusters of different sizes. This size distribution is centered around $<N>$ and for solid rare-gas clusters this distribution is a log-normal distribution. The size distribution can be an experimental challenge, especially when size dependent effects are investigated. Historically, electron diffraction \cite{Farges-1981-SurfSci,Bartell-1986-ChemRev} has been used to determine the mean cluster size, mean temperature and mean geometry. Today, free electron lasers allow the determination of the size of a single cluster through a diffraction image, and by measuring enough single clusters, one can reproduce size distributions of a supersonic jet as shown in Figure \ref{fig:size-distributions}.\\[1\baselineskip]
+Experiments using supersonic jets for cluster generation are typically performed with pulsed valves to decrease cost and gas load in the overall system. Upon opening and closing of the valve, the gas density varies. This mostly affects the cluster size and one would expect to see smaller clusters. This remains true in the beginning of the pulse but in the \textit{afterpulse}\index{afterpulse} one finds giant clusters that exceed the above-described scaling laws due to the effects when closing the valve \cite{Rupp-2014-JCP}.
 %
 %
 %
@@ -290,19 +291,21 @@ Experiments using supersonic jets for cluster generation are typically performed
 	\caption[Schematic of a pickup (gas-)source.]{Schematic setup to generate heterogeneous clusters through pickup. Thereby is a cluster generated via supersonic gas expansion, which is doped at regions marked A or B. In region A, the dopant gas is mixed in the nozzle such that it becomes part of the nucleus. In region B, the cluster condenses atoms on its surface from the background gas of pressure $p_{\text{du}}$. The cluster can be detected upon evaporation, e.g., due to contact with the chamber, through the pressure $p_{\text{de}}$. After \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}.}
 	\label{fig:pickupPrinciple}
 \end{figure}
-A possibility to create heterogeneous clusters is through the principle of picking-up atoms or molecules \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different pickup places, one, monomers are added to the cluster in region A of Figure \ref{fig:pickupPrinciple} that represents the nozzle of a supersonic source, or two, they can be picked up by a cluster in region B for example through an increased background pressure $p_{b2}$ with the dopant material. If clusters pick up atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they stick to the surface of solid clusters. If a (super-)liquid cluster picks up a dopant, it may move within the droplet. Since the traversing cluster is much larger and heavier than a colliding monomer the trajectory is not affected significantly. Already pressures of $p_{b2}=10^{-11}$ bars over a pickup length of a few centimeters can dope the cluster in significant form. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much gas-load on the overall system.\\
-The collision with the cluster and a dopant\index{dopant} does add energy to the cluster just as the cluster growth process itself. This is why the initial cluster will loose particles through evaporation upon pick up of a dopant \citep{Gomez-2011-JCP}. The loss of particles through evaporative cooling is dependent on the ratio of dissociation energies of the two materials and can be written down as
+A possibility to create heterogeneous clusters is through the principle of picking-up atoms or molecules \cite{Gough-1985-JChemPhys,Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different pickup places, one, monomers are added to the cluster in region A of Figure \ref{fig:pickupPrinciple} that represents the nozzle of a supersonic source, or two, they can be picked up by a cluster in region B for example through an increased background pressure $p_{b2}$ with the dopant material. If clusters pick up atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they stick to the surface of solid clusters. If a (super-)liquid cluster picks up a dopant, it may move within the droplet. Since the traversing cluster is much larger and heavier than a colliding monomer, the trajectory is not affected significantly. Already pressures of $p_{b2}=10^{-11}$ bar over a pickup length of a few centimeters can dope the cluster significantly. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much gas-load on the overall system. In this work, gaseous xenon was picked up by superfluid helium droplets in region B. To understand doping levels, the following considerations are helpful.\\[1\baselineskip]
+%
+The collision with the cluster and a dopant\index{dopant} does add energy to the cluster, as does the cluster growth process itself. This is why the initial cluster will lose particles through evaporation upon pick up of a dopant \citep{Gomez-2011-JCP}. The loss of particles through evaporative cooling is dependent on the ratio of dissociation energies of the two materials and can be expressed as
 \begin{equation}
 N_{\text{Evaporated from cluster}} \approx \frac{\epsilon_{\text{cluster}}}{\epsilon_{\text{dopant}}},
 \label{eq:evaporated-amount}
 \end{equation}
-with the dissociation energy of the cluster $\epsilon_{\text{cluster}}$ and of the dopant $\epsilon_{\text{dopant}}$. In the case, where a helium droplet is doped with xenon atoms, we may use the dissociation energies of helium $\epsilon_{He}=0.6\cdot 10^{-3}$ eV and xenon $\epsilon_{Xe}=0.6\cdot 10^{-3}$ eV \citep{Gomez-2011-JCP,Gomez-2014-Science}, such that approximately 250 helium atoms evaporate by picking up 1 xenon atom.\\
-We can extend this idea to estimate the amount of picked-up atoms, if we were to know the amount of atoms in the cluster before and after the pickup area. An estimate of the initial cluster size $\left\langle N_{\text{cluster}}\right\rangle$ can be reached through the scaling laws\footnote{As already established the actual cluster size produced with a supersonic jet will vary, hence the average cluster size $\left\langle N_{\text{cluster}}\right\rangle$.} as discussed in Section \ref{sec:homogenous-cluster}. A measure to estimate the cluster size after the pickup can be established through measuring the partial pressure of the cluster material $p_{\text{cluster}}$ of helium\footnote{For example with a residual gas analyzer.}, when the particle jet hits a wall and evaporates (see Figure \ref{fig:pickupPrinciple}). The partial pressure $p_{\text{cluster}}$ then scales linearly with the initial cluster size $\left\langle N_{\text{cluster}}\right\rangle$, such that
+with the dissociation energy of the cluster $\epsilon_{\text{cluster}}$ and of the dopant $\epsilon_{\text{dopant}}$. In the case where a helium droplet is doped with xenon atoms, we may use the dissociation energies of helium, $\epsilon_{He}\approx 0.6\cdot 10^{-3}$ eV, and xenon, $\epsilon_{Xe}\approx 0.15$ eV \citep{Gomez-2011-JCP,Gomez-2014-Science}, to conclude that approximately 250 helium atoms evaporate by picking up 1 xenon atom.\\[1\baselineskip]
+%
+Now we can extend this idea to estimate the number of picked-up atoms, if we were to know the number of atoms in the cluster before and after the pickup area. An estimate of the initial cluster size $\left\langle N_{\text{cluster}}\right\rangle$ can be reached through the scaling laws\footnote{As already established the actual cluster size produced with a supersonic jet will vary, hence the average cluster size $\left\langle N_{\text{cluster}}\right\rangle$.} as discussed in Section \ref{sec:homogenous-cluster}. An estimate of the cluster size after the pickup can be established through measuring the partial pressure of the cluster material without the pickup, $p_{\text{de}}$, for example, in the detection chamber when the particle jet hits a wall and evaporates\footnote{For example with a residual gas analyzer.} (see Figure \ref{fig:pickupPrinciple}), and the partial pressure with pickup, $\Delta p_{\text{de}}$. The relative difference $\tfrac{\Delta p_{\text{de}}}{p_{\text{de}}}$ then scales with
 \begin{equation}
-\left\langle N_{\text{dopant}}\right\rangle \approx \frac{\epsilon_{\text{cluster}}}{\epsilon_{\text{dopant}}} \cdot \frac{\Delta p_{\text{cluster}} \left\langle N_{\text{cluster}}\right\rangle}{p_{\text{cluster}}},
+\left\langle N_{\text{dopant}}\right\rangle \approx \frac{\epsilon_{\text{cluster}}}{\epsilon_{\text{dopant}}} \cdot \frac{\Delta p_{\text{de}} \left\langle N_{\text{cluster}}\right\rangle}{p_{\text{de}}},
 \label{eq:average-dopant}
 \end{equation}
-where $\Delta p_{\text{cluster}}$ denotes the partial pressure difference between with pickup and without.
+and the amount of picked up atoms, $\left\langle N_{\text{dopant}}\right\rangle$, can be estimated on average.
 %%%
 %\section{Introduction into X-ray scattering}\label{sec:scattering-theory}
 %%%%%%%%%%%%%%%%%%%%%
@@ -313,98 +316,125 @@ where $\Delta p_{\text{cluster}}$ denotes the partial pressure difference betwee
 %%%%%%%%%%%%%%%%%%%%%%%
 %
 \section{Soft X-rays in matter}\label{sec:light-matter-interaction}
-We may break down the light-matter interaction into five categories, 1) coherent-elastic scattering (see sub-Section \ref{sec:saxs}), 2) inelastic processes (absorption, see sub-Section \ref{sec:absorption}), 3) incoherent scattering (Compton effect) and high-energy physics effects of 4) pair production and 5) absorption effects with the nucleus. The effects are dependent on the wavelength and the cross-sections for 3-5 can be neglected in the soft X-ray regime. We will therefore concentrate the following sections on points 1-2 and restrict ourselves to the for the experiment necessary theory.
+%We may break down the light-matter interaction into five categories, 1) coherent-elastic scattering (see sub-Section \ref{sec:saxs}), 2) resonant processes (absorption, see sub-Section \ref{sec:absorption}), 3) incoherent scattering (Compton effect), high-energy physics effects of 4) pair production, and 5) absorption effects with the nucleus. The effects are dependent on the wavelength and the cross-sections for  effects 3-5 are so small that they can be neglected in the soft X-ray regime. We will therefore concentrate the following sub-sections on points 1-2 and restrict ourselves to the for the experiment necessary theory.
+When light interacts with a nanoparticle it either scatters or is absorbed. Although XFEL are intense lightsources, we can reduce the considerations in this section to the elastic and coherent scattering as well as relevant resonant effects. The Section \ref{sec:saxs} discusses the scattering of an electron and extends this concept to the scattering and imaging of a nanoparticle. The Section \ref{sec:absorption} discusses several effects due to absorption and the Section \ref{sec:relaxation} discusses effects that occur after the absorption of a photon. This way, we follow the discussion in \citep{Als-Nielson-2011-JWS} and avoid effects that have negligible cross-sections such as the Compton effect, the pair-production, and the scattering from the nucleus. 
 %This section will give  a brief introduction into the elastic scattering of X-rays with matter. The actual scattering process is very complex as it is an interplay of coherent, incoherent and elastic, inelastic processes. Fortunately, we can reduce the scattering description to its main process: The coherent and elastic scattering. In other words, we neglect Compton scattering (incoherent), any kind of absorption processes (inelastic) and effects form the scattering of multiple particles. We will then start this section by looking at the small angle scattering of atoms and continue on to extended objects such as clusters. The section is rounded off by an introduction to the inverse problem and basic algorithm ideas to overcome the issue of phase retrieval.
 %Photons can also be absorbed by atoms in which case an electron get either excited to another state or ionized. At X-ray wavelengths matter typically gets ionized in the inner shells. Upon absorption a cascade of relaxation processes begins and the now ionized atom finds the new most energetic favorable state. These processes are particularly dependent on the wavelength of the incident photons but also the type of atom. This chapter is devoted to these processes and particular the absorption process is described in Section \ref{sec:absorption} and the relaxation processes in \ref{sec:relaxation}.
 %
 %
 %
-\subsection{Small angle X-ray scattering}\label{sec:saxs}
+\subsection{Diffractive imaging}\label{sec:saxs}
 %%%%%%%%%%
 %- Switch to Guiniers approximation and description\\
 %- Work towards small angle scattering of small particles\\
 %- Particular spheres\\
 %- Discuss extreme positions
 %%%%%%%%%%%
-We can describe a linear polarized, electric field of a continuous electromagnetic wave via the following expression \citep{Als-Nielson-2011-JWS}
+When light interacts with nanoobjects the fundamental scatterers are electrons. Let us first consider the scattering of an electron as a result of being accelerated in an electro-magnetic field, i.e., a light wave. Then, we proceed to the scattering of an atom followed by the scattering of an extended object with a continuous electron density.\\[1\baselineskip]
+%We can describe an electric field of a light wave semi-classically via the following expression \citep{Als-Nielson-2011-JWS}
+%\begin{equation}
+%\vec{E}(\vec{r},t) = \vec{\epsilon} E_{0} e^{i \left(\vec{k}\cdot\vec{r}-\omega_{0}t\right)},
+%\end{equation}
+%with $\vec{r}$ the Cartesian coordinate vector, $\hbar \vec{k}$ the momentum of a photon, $\hbar \omega_{0}$ the energy of a photon, $E_{0}$ the incident amplitude, and \vec{\epsilon} an unit vector due to the polarization. $\vec{\epsilon}$ obeys $\vec{\epsilon}\cdot\vec{k}=\vec{k}\cdot\vec{E}=\vec{k}\cdot\vec{B}=0$, with the magnetic field $\vec{B}$, as the electro-magnetic waves are transverse. To avoid delving into a quantum mechanic description, we shall call \vec{k} the wavevector.
+Let us intriduce the electric field of an incident wave $E_{in}=E_{0}e^{-i\omega t}$ that will irradiate an electron. The electron is accelerated in this electric field and will thus start to emit radiation similarly to a small dipole antenna. We can write this radiated electric field as \citep{Als-Nielson-2011-JWS}
 \begin{equation}
-\vec{E}(\vec{r},t) = \vec{\epsilon} E_{0} e^{i \vec{k}\cdot\vec{r}},
+E_{rad}(R,t)=-\underbrace{\left(\frac{e^2}{4\pi \epsilon_0 m c^2}\right)}_{r_{0}}\ E_{in}\ \frac{e^{i k R}}{R} \cos\left(\psi\right),
+\label{eq:radiated-by-electron}
 \end{equation}
-with $\vec{E}(\vec{r},t)$ being the electromagnetic field of the wave, the wave vector $\vec{k}$, the Cartesian coordinate vector $\vec{r}$, the complex amplitude if the electric field is then $E_{0}\exp^{i \vec{k}\cdot\vec{r}}$ and because of the polarization we use $\vec{\epsilon}$ such that $\vec{\epsilon}\cdot\vec{k}=\vec{k}\cdot\vec{E}=\vec{k}\cdot\vec{H}=0$. Through a relative comparison, of the incoming intensity $I_{0}$ and the scattered intensity $I_{\text{sc}}$, we can phenomenological establish the differential cross-section over a certain solid angle $\Delta \Omega$ as
+with $k$ being the usual wave-number, $R$ being the distance from the source of radiation, $\psi$ being the observation angle, and $r_0$ being the \textit{Thomson scattering length}, or the \textit{classical electron radius}. $r_0$ can be written in practical units as
+\begin{equation}
+r_0 = \frac{e^2}{4\pi \epsilon_0 m c^2} = 2.82\cdot 10^{-5}\si{\angstrom},
+\label{eq:thomson-scattering-length}
+\end{equation}
+where $-e$ is the charge of the radiating electron, $m$ is the mass of the electron, $c$ is the speed of light, and $\epsilon_0$ is the permittivity of free space.\\[1\baselineskip]
+%
+Now we would like to understand the cross-section of this scattering process better. We can establish a \textit{differential cross-section}, $\left(\tfrac{d\sigma}{d\Omega}\right)$, which follows the same concept of the already discussed example in Equation \eqref{eq:absorption-cross-section}. The only difference is that we now consider a scattered intensity, $I_{sc}$, of an incident flux, $\left(I_{0}/A_{0}\right)$, into a solid angle, $\Delta \Omega$. We may express this as
 \begin{align}
-\left(\frac{d\sigma}{d\Omega}\right)&=\frac{\left(\text{Number of X-rays scattered per second into $\Delta \Omega$}\right)}{\left(\text{Incident flux}\right)\left(\Delta\Omega\right)}=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega},
+\left(\frac{d\sigma}{d\Omega}\right)&=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega}=\frac{\left|E_{rad}\right|^2 R^2}{\left|E_{in}\right|^2}=r_0^2 \cos^{2}\left(\psi\right).
 \label{eq:scattering-crosssection}
 \end{align}
-with $A_{0}$ being the covered area of the incident beam. If an electro-magnetic wave encounters an electron, we can describe the scattering semi-classical by imagining how an electron starts to oscillate once it sees an incoming electric wave. The electron then functions as a dipole antenna eventually radiating the wave into a certain solid angle $\Delta \Omega$. Depending on the polarization of the incident beam we can reduce Equation \eqref{eq:scattering-crosssection} to \citep{Als-Nielson-2011-JWS}
+By integrating over the full angular space, the total cross-section of the scattering of an electron, $\sigma_{T}$, results in
 \begin{align}
-\left(\frac{d\sigma}{d\Omega}\right)&=r_{0}^{2}P,
-\intertext{with the classical electron radius $r_{0}=2.82\ 10^{-5}\text{\AA}$ and the polarization factor P}
-P&=\begin{cases}
-1& \text{vertical scattering plane},\\
-\cos^{2}\left(\Psi\right)&\text{horizontal scattering plane},\\
-\frac{1}{2}\left(1+\cos^{2}\left(\Psi\right)\right)& \text{unpolarized source.}
-\end{cases}
+\sigma_{T} = \left(\frac{8\pi}{3}\right) r_{0}^{2} = \SI{0.665}{\barn}
+\label{eq:Thomson-cross-section}
 \end{align}
-We can now move on and use this knowledge for atoms, where we have Z electrons. To describe electrons in an atom, let us proceed by introducing the electron density $\rho_{e}\left(\vec{r}\right)$ that describes the probability density of electrons in an atom. Figure \ref{fig:X-ray-scattering} illustrates the scattering process in one atom. An incident beam with wave number $\vec{k}$ is elasticly scattered at a point $\vec{r}$ into a wave with $\vec{k}'$ such that $\left|\vec{k}\right|=\left|\vec{k}'\right|$. In this wave picture, the scattering process must be seen as a superposition of waves and it is particular illustrated how the wave scattered at the origin of the atom is scattered as well. As both waves are scattered at different points, they have an optical path difference $2 \delta$. This difference in path length results in a phase difference to each other and eventually leads to interference between the waves. So, we can describe the phase difference $\Delta \Phi\left(\vec{r}\right)$ of the waves scattered at $\vec{r}$ and the origin by
+%\begin{align}
+%\left(\frac{d\sigma}{d\Omega}\right)&=\frac{\left(\text{Number of X-rays scattered per second into $\Delta \Omega$}\right)}{\left(\text{Incident flux}\right)\left(\Delta\Omega\right)}=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega},
+%\label{eq:scattering-crosssection}
+%\end{align}
+%with $A_{0}$ being the covered area of the incident beam. If an electro-magnetic wave encounters an electron, we can describe the scattering semi-classical by imagining how an electron starts to oscillate once it sees an incoming electric wave. The electron then functions as a dipole antenna eventually radiating the wave into a certain solid angle $\Delta \Omega$. Depending on the polarization of the incident beam we can reduce Equation \eqref{eq:scattering-crosssection} to \citep{Als-Nielson-2011-JWS}
+%\begin{align}
+%\left(\frac{d\sigma}{d\Omega}\right)&=r_{0}^{2}P,
+%\intertext{with the classical electron radius $r_{0}=2.82\ 10^{-5}\text{\AA}$ and the polarization factor P}
+%P&=\begin{cases}
+%1& \text{vertical scattering plane},\\
+%\cos^{2}\left(\Psi\right)&\text{horizontal scattering plane}, and\\
+%\frac{1}{2}\left(1+\cos^{2}\left(\Psi\right)\right)& \text{unpolarized source.}
+%\end{cases}
+%\end{align}
+We can now move on and use this knowledge for atoms, where we have Z electrons. To describe electrons in an atom, let us introduce an electron density $\rho_{e}\left(\vec{r}\right)$ that describes the probability density of electrons in an atom. Figure \ref{fig:X-ray-scattering} illustrates the scattering process by one atom. An incident beam, with wave vector $\vec{k}$, is elastically scattered at a point $\vec{r}$ into a wave with $\vec{k}'$ such that $\left|\vec{k}\right|=\left|\vec{k}'\right|$. As the illustrated waves are scattered at different points, they have an optical path difference of $2 \delta$. This difference in path length results in a phase difference in the wavefront, which leads to interference. We can describe this phase difference, $\Delta \Phi\left(\vec{r}\right)$, of the waves scattered at $\vec{r}$ and the origin by
 \begin{equation}
 \Delta \Phi\left(\vec{r}\right) = \left(\vec{k}-\vec{k}'\right)\cdot \vec{r} = \vec{Q} \cdot r,
 \label{eq:phase-difference}
 \end{equation}
-with $\vec{Q}$ being denoted as the \textit{wave vector transfer}\index{wave vector!transfer}. Through trigonometry, we can establish the more common denotation of the wave-vector $\vec{Q}$
+with $\vec{Q}$ being denoted as the \textit{wave-vector transfer}\index{wave vector!transfer}. Through trigonometry, we can establish the more common denotation of the wave-vector $\vec{Q}$
 \begin{equation}
 \vec{Q}=2 \left|\vec{k}\right| \sin\left(\frac{\Theta}{2}\right)=\frac{4 \pi}{\lambda}\sin\left(\frac{\Theta}{2}\right),
 \label{eq:Q-scattering-angle}
 \end{equation}
-with the wavelength of the light $\lambda$ and the scattering angle $\Theta$.\\
-A volume element $d\vec{r}$ at $\vec{r}$ will now scatter depending on its electron density, namely by $-r_{0}\rho\left(\vec{r}\right)d\vec{r}$. At scattering angle $\Theta=0$, i.e., $\vec{Q}=0$ the atomic scattering factor $f^{0}$ is
-\begin{equation}
-f^{0}\left(\vec{Q}\rightarrow 0\right)=Z,
-\label{eq:transform-number-of-particles}
-\end{equation}
-because all scatterer are in phase. As we increase the scattering angle $\Theta$, the phase difference $\Delta \Phi\left(\vec{r}\right)$ leads to interference, which we can describe by multiplying a phase factor $e^{i \vec{Q}\cdot \vec{r}}$ to the electron density $-r_{0}\rho\left(\vec{r}\right)d\vec{r}$. In the limit of $\vec{Q}\rightarrow\infty$, the atomic scattering factor then is $f^{0}\left(\vec{Q}\rightarrow\infty\right)=0$. We can integrate over the total scattering length, and write down
-\begin{equation}
--r_{0} f^{0}\left(\vec{Q}\right)=-r_{0}\int\rho_{e}\left(\vec{r}\right)e^{i \vec{Q}\cdot \vec{r}}d\vec{r}.
-\label{eq:scattering-integral}
-\end{equation}
+with the wavelength of the light $\lambda$ and the scattering angle $\Theta$.\\[1\baselineskip]
 \begin{figure}
 	\centering
 		\includegraphics[width=1.00\textwidth]{images/X-ray-scattering.jpg}
 	\caption[Principle of scattering rays of an atom.]{Principle of scattering rays of an atom. After \cite{Als-Nielson-2011-JWS,Guinier-1955-JWS}.}
 	\label{fig:X-ray-scattering}
 \end{figure}
-This important result is called the atomic scattering factor in units of $-r_{0}$. It can be understood as a Fourier transform of the electron density of an atom.\\
+%
+A volume element $d\vec{r}$ of the atom at $\vec{r}$ will now scatter proportional to its electron density, namely by $-r_{0}\rho\left(\vec{r}\right)d\vec{r}$. At scattering angle $\Theta=0$, i.e., $\vec{Q}=0$ the \textit{atomic scattering factor}, $f^{0}$, is
+\begin{equation}
+f^{0}\left(\vec{Q}\rightarrow 0\right)=Z,
+\label{eq:transform-number-of-particles}
+\end{equation}
+because all scatterers are in phase. As we increase the angle $\Theta$, the phase difference, $\Delta \Phi\left(\vec{r}\right)$, leads to interference. We can describe this by multiplying a phase factor $e^{i \vec{Q}\cdot \vec{r}}$ to the contribution of the scattered field, $-r_{0}\rho\left(\vec{r}\right)d\vec{r}$. In the limit of $\vec{Q}\rightarrow\infty$, the atomic scattering factor then is $f^{0}\left(\vec{Q}\rightarrow\infty\right)=0$. We can integrate to obtain the total scattering volume, and note
+\begin{equation}
+-r_{0} f^{0}\left(\vec{Q}\right)=-r_{0}\int\rho_{e}\left(\vec{r}\right)e^{i \vec{Q}\cdot \vec{r}}d\vec{r}.
+\label{eq:scattering-integral}
+\end{equation}
+This important result is called the atomic scattering factor in units of $-r_{0}$. It can be understood as a Fourier transformation of the electron density of an atom.\\[1\baselineskip]
+%
 Let us continue with the scattering of a molecule or cluster that consist of multiple atoms. We can label the atoms in such an object by
 \begin{equation}
-F^{object}\left(\vec{Q}\right)=\sum_{j}f_{j}^{O}\left(\vec{Q}\right)e^{i \vec{Q}\cdot \vec{r}},
+F^{0}\left(\vec{Q}\right)=\sum_{\vec{r}_j}f_{j}^{0}\left(\vec{Q}\right)e^{i \vec{Q}\cdot \vec{r_{j}}},
 \label{eq:scattering-factor-object}
 \end{equation}
-with the atomic scattering factors $f_{j}^{0}\left(\vec{Q}\right)$ for the $j$'th atom and call $-r_{0} F^{object}$ the scattering length of the object. Strictly speaking and as defined in \eqref{eq:scattering-factor-object}, $F^{object}\left(\vec{Q}\right)$ and $f_{j}^{Q}\left(\vec{Q}\right)$ is $\vec{Q}$ dependent. As this is inconvenient, let us consider the following evidence in order to neglect this dependency. In the angular range of $\vec{Q}$, where $F^{Object}\left(\vec{Q}\right)$ is not 0, $f_{j}^{Q}$ can be considered constant \citep[see][p. 6-7]{Guinier-1955-JWS}. In human hemoglobin, the range in which the molecule scattering length $F^{Object}\left(\vec{Q}\right)$ is not 0, the carbon atomic form factors change less than $0.4$\%. Neglecting this $\vec{Q}$ dependency in $f_{j}^{Q}$ allows us to describe the scattering length of extended objects $F^{Object}\left(\vec{Q}\right)$ via one continuous electron density $\rho_{e}\left(\vec{r}\right)$, where certain volume elements $d\vec{r}$ scatter proportional to their electron density $\rho_{e}\left(\vec{r}\right)$. Let us write down the more convinient expression for the scattering length of an object
+with the atomic scattering factors $f_{j}^{0}\left(\vec{Q}\right)$ for the $j$'th atom and call $F^{0}$ the single particle \textit{structure factor}. However, it is well known that for coherent and monochromatic radiation the scattered amplitude, $A(q)$, of a nanoparticle can be written in the kinematical approximaton\footnote{Sometimes called the weak-scattering limit, where multiple scattering effects are neglected.} as follows \citep{Vartanyants-2001-JOP}
+%Strictly speaking and as defined in \eqref{eq:scattering-factor-object}, $F^{object}\left(\vec{Q}\right)$ and $f_{j}^{Q}\left(\vec{Q}\right)$ is $\vec{Q}$ dependent. As this is inconvenient, let us consider the following evidence in order to neglect this dependency. In the angular range of $\vec{Q}$, where $F^{Object}\left(\vec{Q}\right)$ is not 0, $f_{j}^{Q}$ can be considered constant \citep[see][p. 6-7]{Guinier-1955-JWS}. In human hemoglobin, the range in which the molecule scattering length $F^{Object}\left(\vec{Q}\right)$ is not 0, the carbon atomic form factors change less than $0.4$\%. Neglecting this $\vec{Q}$ dependency in $f_{j}^{Q}$ allows us to describe the scattering length of extended objects $F^{Object}\left(\vec{Q}\right)$ via one continuous electron density $\rho_{e}\left(\vec{r}\right)$, where certain volume elements $d\vec{r}$ scatter proportional to their electron density $\rho_{e}\left(\vec{r}\right)$. Let us write down the more convinient expression for the scattering length of an object
 \begin{equation}
--r_{0}F^{O}=-r_{0}\int \rho\left(\vec{r}\right) e^{i \vec{Q}\cdot r}d\vec{r},
+A(\vec{Q})=\int \rho\left(\vec{r}\right) e^{i \vec{Q}\cdot r}d\vec{r},
 \label{eq:scattering-factor-general}
 \end{equation}
-and we can see that it is mostly the phase factor that yields information about the structure of the object as it is the phase factor that constitutes the diffraction pattern.\\
-The total scattered intensity $I\left(\vec{Q}\right)$ in a diffraction pattern can expressed through
+where $\rho\left(\vec{r}\right)$ is the electron density of the scattering nanoparticle. The scattered intensity in a diffraction pattern can be expressed by
 \begin{equation}
-I\left(\vec{Q}\right)=\left|A\right|^{2}=I_{0}\left|F^{0}\left(\vec{Q}\right)\right|^{2},
+I_{sc}\left(\vec{Q}\right)=I_{0}\left|A(\vec{Q})\right|^{2}
 \label{eq:scattered-intensity}
 \end{equation}
-where an incident beam with intensity $I_{0}$ with a complex amplitude $A$\index{amplitude!complex} performs an operation that can be interpreted as a Fourier transform of the objects electron density. The process of measuring the scattered light, for example through a detector, merely measures the modulo of an amplitude $\left|A\right|^{2}$, which eliminates the phase factor $e^{i\Delta\Phi\left(\vec{r}\right)}\cdot e^{-i\Delta\Phi\left(\vec{r}\right)}=1$. In order to reconstruct the object that scattered in realspace, e.g., to understand its shape or to study its function, we need to recover the for the structure most important phase information. We will discuss iterative algorithms that can recover phase information in Section \ref{sec:phase-retrieval}.\\
-Let us briefly address the scattering of a rare-gas cluster, as the cluster can be considered as a sphere alike object in sub-nanometer approximation\footnote{Considering experimental details from Chapter \ref{ch:exp_setup}}. We can express the electron density of a simple sphere with radius $R$ as 
+where an incident beam with intensity $I_{0}$\footnote{Here, we make use of the Born approximation and the intensity of the incident beam becomes constant, which holds true in the kinematical approximation} and complex amplitude $A$\index{amplitude!complex} performs an operation that can be interpreted as a Fourier transformation of the object's electron density. The process of measuring the scattered light, for example through a detector, merely measures the scattered intensity and thus only the modulo of an amplitude $\left|A\right|^{2}$, which eliminates the phase factor: $e^{i\Delta\Phi\left(\vec{r}\right)}\cdot e^{-i\Delta\Phi\left(\vec{r}\right)}=1$. In order to reconstruct an image of the nanoparticle that scattered, for example to understand its shape or to study its function, we need to recover the phase information. We will discuss iterative algorithms that can recover the phase factor in Section \ref{sec:phase-retrieval}.\\[1\baselineskip]
+%
+Let us now make use of above's theory and address the scattering of a rare-gas cluster, as they will reoccur throughout this thesis. We may thus express an electron density of the desired object and Fourier transform it into reciprocal space to understand diffraction patterns better. Due to current resolution limitations\footnote{Considering experimental details from Chapter \ref{ch:exp_setup}}, we may approximate the shape of a few nanometer-sized cluster with a sphere. The density, $\rho$, of a hard sphere with radius, $r$, can be expressed by 
 \begin{align}
 \rho\left(\vec{r}\right)&=\begin{cases}
-1& \text{for $R \geq \vec{r} \geq 0$},\\
-0&\text{for $R > \vec{r}$}.
+\rho& \text{for $r \geq \vec{r} \geq 0$},\\
+0&\text{for $r > \vec{r}$}.
 \end{cases}
 \label{eq:el-density}
 \end{align}
-Using Equation \eqref{eq:el-density}, we can solve the integral in Equation \eqref{eq:scattering-factor-general} by transforming into spherical coordinates
+Using Equation \eqref{eq:el-density}, we can solve the integral in Equation \eqref{eq:scattering-factor-general} by making use of spherical coordinates,
 \begin{align}
-F_{\text{Sphere}}^{O}\left(\vec{Q}\right) &= \int_{0}^{\pi}\int_{0}^{2\pi}\int_{0}^{R} r^{2}  sin\left(\Theta\right) e^{i \vec{Q} r \cos\left(\Theta\right)} dr d\Theta d\Phi\\
-&=\frac{\sin\left(\vec{Q} R\right)-\vec{Q} R\cos\left(\vec{Q} R\right)}{\vec{Q}^{3} R^{3}}=\frac{J_{1}\left(\vec{Q}R\right)}{\vec{Q}R},
+A_{\text{Sphere}}\left(\vec{Q}\right) &= \int_{0}^{\pi}\int_{0}^{2\pi}\int_{0}^{r} \bar{R}^{2}  sin\left(\Theta\right) e^{i \vec{Q} \bar{R} \cos\left(\Theta\right)} d\bar{R} d\Theta d\Phi\\
+&=\rho\left(\frac{4}{3\pi}r^{3}\right)\frac{\sin\left(\vec{Q} r\right)-\vec{Q} r\cos\left(\vec{Q} r\right)}{\vec{Q}^{3} r^{3}}.
 \label{eq:scattering from sphere}
 \end{align}
-with $J_{1}$ being the Bessel function of first kind. Formula \eqref{eq:scattering from sphere} can be easily abused to determine the size of a spherical particle using local minima in the diffraction pattern\footnote{Equation \eqref{eq:scattering from sphere} can be solved numerically for the distance between the first two minima $\Delta\vec{Q}R=3.24$, such that $R=\frac{3.24}{\vec{Q}_{\text{min}^{n+1}}-\vec{Q}_{\text{min}^{n}}}$} or through a numerical fit of the resulting curve.
+Formula \eqref{eq:scattering from sphere} can be exploited to determine the size of a spherical particle, i.e., a cluster, using local minima in the diffraction pattern\footnote{Equation \eqref{eq:scattering from sphere} can be solved numerically for the distance between the first two minima, $\vec{Q}_{\text{min}^{n}}$ and $\vec{Q}_{\text{min}^{n+1}}$, such that $r=\frac{3.24}{\vec{Q}_{\text{min}^{n+1}}-\vec{Q}_{\text{min}^{n}}}$.} or through a numerical fit of the resulting curve.
 %
 %
 %\subsection{X-ray diffraction}
@@ -414,7 +444,7 @@ with $J_{1}$ being the Bessel function of first kind. Formula \eqref{eq:scatteri
 %
 %
 \subsection{Ionization of matter}\label{sec:absorption}
-Let us quickly remember the atomic scattering factor $f^{0}\left(\vec{Q}\right)$ that were introduced in the last section by neglecting a variety of (wavelength dependent) effects through Fourier transforming the electron density of an atom. As we established, we can compare the photon-electron interaction to the analogue of the forced harmonic oscillator, where an electric field drives a (bound) electron. However, it is not only the light field that drives the electron, also the electron has an effect to the light field. As the wave propagates through a medium, the phase velocity of light $v_{\text{phase}}$ is slower than the speed of light in vacuum $c$ due to interacting with electrons. We can describe this effect via the refractive index $n\equiv c/v_{phase}$\index{refractive index}. Another aspect to consider is a reduction of the amplitude of the incoming electro-magnetic wave (absorption), when the energy of the photons is higher than the binding energies of electrons \citep{Als-Nielson-2011-JWS,Attwood-2007-CUP}. These two effects are connected to the atomic scattering factors $f^{0}\left(\vec{Q}\right)$ and are called dispersion corrections. Let us include these corrections to the atomic scattering factor and define the atomic form factor
+Let us return the atomic scattering factor $f^{0}\left(\vec{Q}\right)$ that were introduced in the last section by neglecting a variety of (wavelength dependent) effects through Fourier transforming the electron density of an atom. As we established, we can compare the photon-electron interaction to the analogue of the forced harmonic oscillator, where an electric field drives a (bound) electron. However, it is not only the light field that drives the electron, also the electron has an effect to the light field. As the wave propagates through a medium, the phase velocity of light $v_{\text{phase}}$ is slower than the speed of light in vacuum $c$ due to interacting with electrons. We can describe this effect via the refractive index $n\equiv c/v_{phase}$\index{refractive index}. Another aspect to consider is a reduction of the amplitude of the incoming electro-magnetic wave (absorption), when the energy of the photons is higher than the binding energies of electrons \citep{Als-Nielson-2011-JWS,Attwood-2007-CUP}. These two effects are connected to the atomic scattering factors $f^{0}\left(\vec{Q}\right)$ and are called dispersion corrections. Let us include these corrections to the atomic scattering factor and define the atomic form factor
 \begin{equation}
 f\left(\vec{Q},\hbar\omega\right)=f^{0}\left(Q\right)+f'\left(\hbar\omega\right)+i f''\left(\hbar\omega\right),
 \label{eq:scattering-factor-dispersion-corr}

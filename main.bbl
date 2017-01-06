@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{157}
+\begin{thebibliography}{158}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -711,6 +711,16 @@ Luis~F. Gomez, Evgeny Loginov, Russell Sliter, and Andrey~F. Vilesov.
 Andr{\'e} Guinier and G{\'e}rard Fournet.
 \newblock \emph{Small-angle scattering of X-rays}.
 \newblock J. Wiley {\&} Sons, New York, 1955.
+
+\bibitem[Vartanyants and Robinson(2001)]{Vartanyants-2001-JOP}
+I~A Vartanyants and I~K Robinson.
+\newblock {Partial coherence effects on the imaging of small crystals using
+  coherent x-ray diffraction}.
+\newblock \emph{Journal of Physics: Condensed Matter}, 13\penalty0
+  (47):\penalty0 10593, 2001.
+\newblock ISSN 0953-8984.
+\newblock \doi{10.1088/0953-8984/13/47/305}.
+\newblock URL \url{http://stacks.iop.org/0953-8984/13/i=47/a=305}.
 
 \bibitem[Attwood(2000)]{Attwood-2007-CUP}
 David Attwood.

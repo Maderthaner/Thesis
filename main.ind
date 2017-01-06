@@ -2,7 +2,7 @@
 
   \item afterpulse, \hyperpage{22}
   \item algorithm
-    \subitem coalescent-photon finding, \hyperpage{34}
+    \subitem coalescent-photon finding, \hyperpage{33}
   \item amplitude
     \subitem complex, \hyperpage{27}
 
@@ -47,9 +47,9 @@
 
   \item imprint, \hyperpage{46}
   \item ionization
-    \subitem energy, \hyperpage{30}
+    \subitem energy, \hyperpage{31}
     \subitem inner, \hyperpage{36}
-    \subitem multistep, \hyperpage{36}
+    \subitem multistep, \hyperpage{35, 36}
 
   \indexspace
 
@@ -68,7 +68,7 @@
 
   \item nanoplasma
     \subitem expansion, \hyperpage{86}
-    \subitem transition, \hyperpage{35}
+    \subitem transition, \hyperpage{36}
   \item nanoplasma expansion
     \subitem Coulomb trapping, \hyperpage{86}
 
@@ -120,7 +120,7 @@
   \indexspace
 
   \item wave vector
-    \subitem transfer, \hyperpage{25}
+    \subitem transfer, \hyperpage{26}
   \item wiggler, \hyperpage{6}
 
   \indexspace
