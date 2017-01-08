@@ -81,15 +81,15 @@
   \indexspace
 
   \item plum-pudding, \hyperpage{105}
-  \item pnCCD, \hyperpage{53}
-    \subitem CAMEX, \hyperpage{54}
+  \item pnCCD, \hyperpage{52}, \hyperpage{55}
+    \subitem CAMEX, \hyperpage{55}
     \subitem common mode, \hyperpage{66}
-    \subitem Data Acquisition, \hyperpage{54}
-    \subitem gain, \hyperpage{54}
-    \subitem module, \hyperpage{53}
+    \subitem Data Acquisition, \hyperpage{55}
+    \subitem gain, \hyperpage{55}
+    \subitem module, \hyperpage{54}
     \subitem pedestal correction, \hyperpage{66}
-    \subitem pixel size, \hyperpage{53}
-  \item psana, \hyperpage{54}
+    \subitem pixel size, \hyperpage{54}
+  \item psana, \hyperpage{55}
     \subitem calibman, \hyperpage{66}
   \item pulse energy, \hyperpage{41}
 

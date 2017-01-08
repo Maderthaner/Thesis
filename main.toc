@@ -22,14 +22,14 @@
 \contentsline {subsection}{\numberline {2.4.2}Imaging of transient states}{38}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Tampered layers to inhibit the nanoplasma expansion}{41}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Experimental Setup}{44}{chapter.3}
-\contentsline {section}{\numberline {3.1}The AMO instrument and FEE at the LCLS}{44}{section.3.1}
+\contentsline {section}{\numberline {3.1}The AMO instrument and FEE at the LCLS}{45}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Focus characterization using a TOF spectrometer}{47}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Focus characterization via imprint study}{48}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}The LAMP end-station at AMO}{49}{section.3.2}
-\contentsline {section}{\numberline {3.3}The large area pn-CCD detectors}{53}{section.3.3}
-\contentsline {section}{\numberline {3.4}Sample delivery}{55}{section.3.4}
+\contentsline {section}{\numberline {3.3}The large area pn-CCD detectors}{52}{section.3.3}
+\contentsline {section}{\numberline {3.4}Sample delivery}{56}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{58}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Time of flight mass-spectrometer}{60}{section.3.5}
+\contentsline {section}{\numberline {3.5}Time of flight mass-spectrometer}{61}{section.3.5}
 \contentsline {chapter}{\numberline {4}Methods}{64}{chapter.4}
 \contentsline {section}{\numberline {4.1}The computing environment at LCLS}{64}{section.4.1}
 \contentsline {section}{\numberline {4.2}pnCCD photon detectors}{66}{section.4.2}

@@ -1222,13 +1222,6 @@ G.~Doumy, C.~Roedig, S.~K. Son, C.~I. Blaga, A.~D. DiChiara, R.~Santra,
 \newblock \emph{Phys. Rev. Lett.}, 106\penalty0 (8):\penalty0 083002, 2011.
 \newblock ISSN 1079-7114.
 
-\bibitem[Liu(1982)]{Liu-1982-OptLett}
-J.~M. Liu.
-\newblock Simple technique for measurements of pulsed gaussian-beam spot sizes.
-\newblock \emph{Opt. Lett.}, 7\penalty0 (5):\penalty0 196--198, May 1982.
-\newblock \doi{10.1364/OL.7.000196}.
-\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-5-196}.
-
 \bibitem[Henke et~al.(1993)Henke, Gullikson, and Davis]{Henke-1993-ADNDT}
 B.L. Henke, E.M. Gullikson, and J.C. Davis.
 \newblock {X-Ray interactions: photoabsorption, scattering, transmission, and
@@ -1236,6 +1229,13 @@ B.L. Henke, E.M. Gullikson, and J.C. Davis.
 \newblock ISSN 0092640X.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0092640X83710132}.
+
+\bibitem[Liu(1982)]{Liu-1982-OptLett}
+J.~M. Liu.
+\newblock Simple technique for measurements of pulsed gaussian-beam spot sizes.
+\newblock \emph{Opt. Lett.}, 7\penalty0 (5):\penalty0 196--198, May 1982.
+\newblock \doi{10.1364/OL.7.000196}.
+\newblock URL \url{http://ol.osa.org/abstract.cfm?URI=ol-7-5-196}.
 
 \bibitem[Chalupsk{\'{y}} et~al.(2010)Chalupsk{\'{y}}, Krzywinski, Juha,
   H{\'{a}}jkov{\'{a}}, Cihelka, Burian, Vy{\v{s}}{\'{i}}n, Gaudin, Gleeson,

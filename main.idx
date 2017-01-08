@@ -40,14 +40,14 @@
 \indexentry{imprint|hyperpage}{47}
 \indexentry{lead tungstate|hyperpage}{48}
 \indexentry{lead tungstate|hyperpage}{48}
-\indexentry{pnCCD|hyperpage}{53}
-\indexentry{pnCCD!module|hyperpage}{53}
-\indexentry{pnCCD!pixel size|hyperpage}{53}
-\indexentry{pnCCD|hyperpage}{53}
-\indexentry{pnCCD!CAMEX|hyperpage}{54}
-\indexentry{pnCCD!Data Acquisition|hyperpage}{54}
-\indexentry{psana|hyperpage}{54}
-\indexentry{pnCCD!gain|hyperpage}{54}
+\indexentry{pnCCD|hyperpage}{52}
+\indexentry{pnCCD!module|hyperpage}{54}
+\indexentry{pnCCD!pixel size|hyperpage}{54}
+\indexentry{pnCCD|hyperpage}{55}
+\indexentry{pnCCD!CAMEX|hyperpage}{55}
+\indexentry{pnCCD!Data Acquisition|hyperpage}{55}
+\indexentry{psana|hyperpage}{55}
+\indexentry{pnCCD!gain|hyperpage}{55}
 \indexentry{psana!calibman|hyperpage}{66}
 \indexentry{pnCCD!pedestal correction|hyperpage}{66}
 \indexentry{pnCCD!common mode|hyperpage}{66}
