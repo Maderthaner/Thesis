@@ -31,7 +31,7 @@
 
   \indexspace
 
-  \item Fourier Transform, \hyperpage{80}
+  \item Fourier Transform, \hyperpage{81}
   \item Free electron LASer in Hamburg
     \subitem FLASH, \hyperpage{41, 42}
 
@@ -41,7 +41,7 @@
     \subitem scaling parameter, \hyperpage{21}
   \item Hawk software package, \hyperpage{75}
   \item Helium
-    \subitem liquid density, \hyperpage{80}
+    \subitem liquid density, \hyperpage{81}
 
   \indexspace
 
@@ -61,7 +61,7 @@
 
   \indexspace
 
-  \item Matlab, \hyperpage{79, 80}
+  \item Matlab, \hyperpage{79}, \hyperpage{81}
   \item microbunching, \hyperpage{10}
 
   \indexspace
@@ -127,6 +127,6 @@
   \item X-ray
     \subitem Bremsstrahlung, \hyperpage{4}
   \item Xenon
-    \subitem bulk density, \hyperpage{80}
+    \subitem bulk density, \hyperpage{81}
 
 \end{theindex}
