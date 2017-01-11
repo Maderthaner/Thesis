@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2016.7.25)  11 JAN 2017 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2016.7.25)  11 JAN 2017 14:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -3285,21 +3285,7 @@ File: images/results/HeXe-comparison-0-800-fs.png Graphic file (type png)
 <use images/results/HeXe-comparison-0-800-fs.png>
 Package pdftex.def Info: images/results/HeXe-comparison-0-800-fs.png used on input line 232.
 (pdftex.def)             Requested size: 418.25555pt x 134.58801pt.
-)
-Runaway argument?
-{{sec:helium-xenon-data}. 
-! File ended while scanning use of \T@ref.
-<inserted text> 
-                \par 
-l.127 \include{results}
-                       
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-[104 <./images/results/He-diffraction-patterns.pdf>] [105 <./images/results/HeXe-comparison-0-800-fs.png>] [106]
-[107]
+) [104 <./images/results/He-diffraction-patterns.pdf>] [105 <./images/results/HeXe-comparison-0-800-fs.png>] [106] [107]
 \openout2 = `summary_outlook.aux'.
 
  (summary_outlook.tex
@@ -3479,9 +3465,9 @@ type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (146 pages, 11465618 bytes).
+Output written on main.pdf (146 pages, 11465840 bytes).
 PDF statistics:
- 3755 PDF objects out of 4296 (max. 8388607)
+ 3756 PDF objects out of 4296 (max. 8388607)
  691 named destinations out of 1000 (max. 500000)
  820 words of extra memory for PDF output out of 10000 (max. 10000000)
 
