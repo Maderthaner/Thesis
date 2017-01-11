@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{158}
+\begin{thebibliography}{159}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1450,6 +1450,16 @@ B.~Sch{\"{u}}tte, F.~Campi, M.~Arbeiter, Th~Fennel, M.~J.~J. Vrakking, and
 \newblock ISSN 0031-9007.
 \newblock \doi{10.1103/PhysRevLett.112.253401}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.112.253401}.
+
+\bibitem[Mikaberidze et~al.(2008)Mikaberidze, Saalmann, and
+  Rost]{Mikaberidze-2008-PRA}
+Alexey Mikaberidze, Ulf Saalmann, and Jan~M. Rost.
+\newblock {Energy absorption of xenon clusters in helium nanodroplets under
+  strong laser pulses}.
+\newblock \emph{Physical Review A}, 77\penalty0 (4):\penalty0 041201, apr 2008.
+\newblock ISSN 1050-2947.
+\newblock \doi{10.1103/PhysRevA.77.041201}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevA.77.041201}.
 
 \bibitem[Lehmann et~al.(2016)Lehmann, Pic??n, Bostedt, Rudenko, Marinelli,
   Moonshiram, Osipov, Rolles, Berrah, Bomme, Bucher, Doumy, Erk, Ferguson,
