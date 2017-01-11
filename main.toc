@@ -45,17 +45,17 @@
 \contentsline {section}{\numberline {4.5}Acqiris data sampling considerations}{82}{section.4.5}
 \contentsline {section}{\numberline {4.6}Data filtering}{84}{section.4.6}
 \contentsline {chapter}{\numberline {5}Results and discussion}{86}{chapter.5}
-\contentsline {section}{\numberline {5.1}Structural damage in Xe-cluster induced by intense X-rays}{86}{section.5.1}
+\contentsline {section}{\numberline {5.1}Structural damage in Xe-clusters induced by intense X-rays}{86}{section.5.1}
 \contentsline {section}{\numberline {5.2}Time-dependent response of Xe-atoms due to an X-ray pump--probe beam}{93}{section.5.2}
-\contentsline {section}{\numberline {5.3}Time-resolved response of highly ionized He- and HeXe-clusters}{93}{section.5.3}
+\contentsline {section}{\numberline {5.3}Time-resolved response of highly ionized He- and HeXe-clusters}{94}{section.5.3}
 \contentsline {section}{\numberline {5.4}Condensation of xenon in helium cluster: Plum-pudding type cluster}{97}{section.5.4}
-\contentsline {section}{\numberline {5.5}Understanding structural damage in the plum-pudding type cluster}{100}{section.5.5}
+\contentsline {section}{\numberline {5.5}Understanding structural damage in the plum-pudding type cluster}{101}{section.5.5}
 \contentsline {section}{\numberline {5.6}Sacrificial layers: Comparison of structural damage in He- and HeXe-cluster}{103}{section.5.6}
-\contentsline {chapter}{\numberline {6}Summary and outlook}{106}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendix}{108}{chapter.7}
-\contentsline {section}{\numberline {7.1}Matlab code on spherical integrations}{108}{section.7.1}
-\contentsline {section}{\numberline {7.2}Python code on combining detectors}{109}{section.7.2}
-\contentsline {chapter}{\numberline {8}Bibliography}{112}{chapter.8}
+\contentsline {chapter}{\numberline {6}Summary and outlook}{107}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendix}{109}{chapter.7}
+\contentsline {section}{\numberline {7.1}Matlab code on spherical integrations}{109}{section.7.1}
+\contentsline {section}{\numberline {7.2}Python code on combining detectors}{110}{section.7.2}
+\contentsline {chapter}{\numberline {8}Bibliography}{113}{chapter.8}
 \contentsline {chapter}{\numberline {A}Publications by the author}{A}{appendix.A}
 \select@language {german}
 \contentsline {chapter}{\numberline {B}Disclaimer}{C}{appendix.B}
