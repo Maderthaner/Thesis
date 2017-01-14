@@ -43,13 +43,13 @@ The KB-optics focus the X-ray beam into the interaction region. The optics consi
 %
 \subsection{Focus characterization using a TOF spectrometer}
 %
-Figure \ref{fig:Focus-z-scan} left shows a focus characterization along the Z-axis using a TOF spectrometer. The fractional neon ion yield per charge state is summed and plotted as a function of Z-position. A 2 mm region centering around the focal plane at $\text{Z}=0$ mm was located, where the beam was suitable for the experiment. The right panel of Figure \ref{fig:Focus-z-scan} compares the fractional neon ion yield at the optimal focus position from November 2013 \citep{Bucher-2016-Unpublished} to October 2009 \citep{Doumy-2011-PRL}. The comparison reveals that high-charge states of neon, for example, $Ne^{8+}$ and $Ne^{9+}$ are less frequent. We attribute this to deteriorated beamline optics.\\
+The left panel in Figure \ref{fig:Focus-z-scan} shows a focus characterization along the Z-axis using a TOF spectrometer. The fractional neon ion yield per charge state is summed and plotted as a function of Z-position. A 2 mm region centering around the focal plane at $\text{Z}=0$ mm was located, where the beam was suitable for the experiment. The right panel of Figure \ref{fig:Focus-z-scan} compares the fractional neon ion yield at the optimal focus position from November 2013 \citep{Bucher-2016-Unpublished} to October 2009 \citep{Doumy-2011-PRL}. The comparison reveals that high-charge states of neon, for example, $Ne^{8+}$ and $Ne^{9+}$, are less frequent. We attribute this to deteriorated beamline optics.\\
 \begin{figure}
 \begin{tabular}{ccc}
   \includegraphics[width=0.25\textwidth]{images/imprints/image0025.jpg} & \includegraphics[width=0.25\textwidth]{images/imprints/image0026.jpg} & \multirow{3}{*}[1.5cm]{\includegraphics[width=0.49\textwidth]{images/imprints/analysis.pdf}} \\
-(a) & (b) & \\[6pt]
+a) & b) & \\[6pt]
  \includegraphics[width=0.25\textwidth]{images/imprints/image0027.jpg} & \includegraphics[width=0.25\textwidth]{images/imprints/image0028.jpg} &  \\
-(c) & (d) & (e)
+c) & d) & e)
 \end{tabular}
 \caption[Focal spot analysis via an ex-situ microscope imprint study.]{a)-d) Ex-situ microscope imprint study of a lead tungstate\index{lead tungstate} ($\text{PbWO}_{4}$) sample that was irradiated with single, 1600 eV LCLS pulses at different gas attenuation. e) Non-linearity in Liu plot due to LCLS's super-gaussian beam profile. The approximate FWHM$\approx 3.4\ \mu$m is determined from the slope of the linear fits, see more in text.}
 \label{fig:imprint-study}
@@ -59,16 +59,16 @@ Figure \ref{fig:Focus-z-scan} left shows a focus characterization along the Z-ax
 %
 \subsection{Focus characterization via imprint study}
 %
-Figure \ref{fig:imprint-study} left shows images from an optical microscope of the result of a LCLS X-ray pulse at 1600eV interacting with a lead tungstate ($\text{PbWO}_{4}$)\index{lead tungstate} sample at different transmission values, $T$. We can describe the energy fluence E(r) as
+The panels a) to d) in Figure \ref{fig:imprint-study} show images from an optical microscope of the result of a LCLS X-ray pulse at 1600 eV interacting with a lead tungstate ($\text{PbWO}_{4}$)\index{lead tungstate} sample at different transmission values, $T$. We can describe the energy fluence, E(R), as
 \begin{equation}
-E(r) = E_{0} e^{\frac{-r^{2}}{2 \sigma^{2}}} 
+E(R) = E_{0} e^{\frac{-R^{2}}{2 \sigma^{2}}},
 \end{equation}
-with the radial coordinate $r$, a characteristic radius $\sigma$ and the peak fluence $E_{0}$. Typically, $\sigma$ stays a constant beam parameter, but different peak fluences change the crater area in the sample, e.g., more peak fluence usually increases the crater area as more of the $\text{PbWO}_{4}$ surface is irradiated with powers above the damage threshold. We can measure the peak fluence, $E_{0}$, proportional to the pulse energy, $E_{p}$, which is measured with the gas detector. Let us explicitlly note $E_{p}\propto E_{0}$. Now, we can express the peak fluence more conveniently in terms of the pressure, $p$, in the gas attenuator
+with the radial coordinate $R$, a characteristic radius $\sigma$, and the peak fluence $E_{0}$. Typically, $\sigma$ stays a constant beam parameter, but different peak fluences change the crater-area in the sample, e.g., more peak fluence usually increases the crater-area as more of the $\text{PbWO}_{4}$ surface is irradiated with power densities above the damage threshold. We can measure the peak fluence, $E_{0}$, through to the pulse energy, $E_{p}$, which is measured with the gas detector. Let us explicitly note the proportional depedency, $E_{p}\propto E_{0}$. Now, we can express the peak fluence more conveniently in terms of the pressure, $p$, in the gas attenuator
 \begin{equation}
 \log(E_{0}) = \log(E_{\text{in}})+\log(T)= -p \cdot c + \text{const.},
 \label{eq:gaussian-beam-imprint}
 \end{equation}
-with the peak fluence into the gas attenuator $E_{in}$ and the transmission $T$. In the gas attenuator, the transmission is $T=e^{-p \cdot c}$ and a constant $c$. The constant $c$ can be derived from \citep{Henke-1993-ADNDT}. For the LCLS attenuator filled with nitrogen gas (N2) over its 410 cm length at 1600 eV photon energy, $c\approx 0.5611415 \text{ Torr}^{-1}$. We can further approximate the crater surface area using a circle. The area then is $\pi r_{0}^{2}$, with the crater radius $r_{0}$. As shown in \citep{Liu-1982-OptLett}, $r_{0}^{2}=2\sigma^{2}log(\frac{E_{0}^{2}}{E_{0}^{1}})$, with $E_{0}^{1/2}$ being the peak fluence at two different attenuation levels. Thus, the slope of a linear fit between the two points $E_{0}^{1/2}$ is $2 \pi \sigma^{2}$. The full width at half maximum (FWHM) is $\text{FWHM}=2\sqrt{2 ln(2)}\sigma$. Figure \ref{fig:imprint-study} right shows the crater area as a function of $-log(T)= p \cdot c$ (Liu's plot) and is fitted with two linear fits. The data indicates non-linearities that come from a super-gaussian beam profile \citep{Chalupsky-2010-OE,Chalupsky-2013-OE}. In this data set, using the slope of the linear fit at smaller transmissions, a $\text{FWHM}\approx \SI{3.4}{\micro\meter}$ is determined.\\[1\baselineskip]
+with the peak fluence into the gas attenuator $E_{in}$ and the transmission $T$. In the gas attenuator, the transmission is $T=e^{-p \cdot c}$ and a constant $c$. The constant $c$ can be derived from \citep{Henke-1993-ADNDT}. For the LCLS attenuator filled with nitrogen gas (N2) over its 410 cm length at 1600 eV photon energy, $c\approx 0.5611415 \text{ Torr}^{-1}$. We can further approximate the crater surface area using a circle. The area then is $\pi r_{0}^{2}$, with the crater radius $r_{0}$. As shown in \citep{Liu-1982-OptLett}, $r_{0}^{2}=2\sigma^{2}log(\frac{E_{0}^{2}}{E_{0}^{1}})$, with $E_{0}^{1/2}$ being the peak fluence at two different attenuation levels. Thus, the slope of a linear fit between the two points $E_{0}^{1/2}$ is $2 \pi \sigma^{2}$. The full-width at half-maximum (FWHM) is $\text{FWHM}=2\sqrt{2 ln(2)}\sigma$. Figure \ref{fig:imprint-study} right shows the crater-area as a function of $-log(T)= p \cdot c$ (Liu's plot) and is fitted with two linear fits. The data indicates non-linearities that come from a super-Gaussian beam-profile \citep{Chalupsky-2010-OE,Chalupsky-2013-OE}. In this data set, using the slope of the linear fit at smaller transmissions, a $\text{FWHM}\approx \SI{3.4}{\micro\meter}$ is determined.\\[1\baselineskip]
 %
 However, for the described experiment in this thesis, the X-ray beam focal size was determined to be $\text{FWHM}\approx \SI{1.5}{\micro\meter}$, with an effective area of $\SI{5}{\micro\meter\squared}$ \citep{Bucher-2016-Unpublished}. The LCLS beam parameters are summarized in Table \ref{tab:beam-params}. The pulse duration was determined through analysis of the electron beam and the delay, $\Delta$t, precision is estimated from geometric considerations of the delay chicane (see also Section \ref{sec:novel-pump--probe-tech}).
 \begin{table}
@@ -111,7 +111,7 @@ The beam then travels into the C1 chamber that encloses the interaction region. 
 \begin{figure}
 	\centering
 		\includegraphics[width=1.0\textwidth]{images/pnCCD-dimensions.jpg}
-	\caption[Rear and front pnCCD detector geometry in the LAMP instrument.]{Side view of the rear and front pnCCD detector in C1, C2-1 and C2-2. The interaction region (IR) is in the center of C1. The beam propagates along the Z-axis where the rear (top) pnCCD is placed $728.53$ mm away from the IR (original engineering distances). The half detector height is $38.3$ mm and results in a scattering angle of $\Theta = 4.26$°. With the gate-valve installed, the front pnCCDs are able to travel along the Z-axis from $370.9$ mm to $120.9$ mm downstream of the IR. The front pnCCDs position along the Y-axis is adjustable and they can detect photons up to $48.3$ mm from the beam axis. At maximum extension, the pnCCDs are able to detect photons up to a scattering angle of $\Theta=38.11$°.}
+	\caption[Rear and front pnCCD detector geometry in the LAMP instrument.]{Side view of the rear and front pnCCD detector inside LAMP. The interaction region (IR) is in the center of C1. The beam propagates along the Z-axis where the rear (top) pnCCD is placed $728.53$ mm away from the IR (original engineering distances). The half detector height is $38.3$ mm and results in a scattering angle of $\Theta = 4.26$°. With the gate-valve installed, the front pnCCDs are able to travel along the Z-axis from $370.9$ mm to $120.9$ mm downstream of the IR. The front pnCCDs position along the Y-axis is adjustable and they can detect photons up to $48.3$ mm from the beam axis. At maximum extension, the pnCCDs are able to detect photons up to a scattering angle of $\Theta=38.11$°.}
 	\label{fig:pnCCD-dimensions}
 \end{figure}
 In the center of C1, where sample and X-rays interact, a time-of-flight spectrometer is located (see Figure \ref{fig:c1-ccd-spec}), which we will describe in the Section \ref{sec:TOF-spectrometer}. The beam then passes between the modules of the front pnCCD, which is mounted on a moveable stage. Another in-vacuum manifold allows the use of another YAG crystal (D), an optical filter and a B4C beam stop just before the rear pnCCD. Figure \ref{fig:pnCCD-dimensions} shows relevant engineering design distances of the pnCCD detectors inside the LAMP instrument. These distances are relevant for the digital combination of pnCCD-images in different planes, which we will discuss in Section \ref{sec:combination-of-images}. In the following, we consider the instrument to have the gate valve mounted and that the FEL focus position is in the center of the C1 chamber. The distance from the focus to the bottom-rear pnCCD detector module is $731.68$ mm and the top-rear pnCCD module is $3.15$ mm closer to the C-1 chamber\footnote{These design distances are offset by $\sim +\SI{5}{\milli\meter}$ along the Z-axis due to customization during the initial setup.}. As mentioned, the front pnCCD can be moved along the Z-axis. The distance from the front-bottom pnCCD module to the focus can be set between $117.75$ mm and $367.75$ mm. The front-top pnCCD module is again $3.15$ mm closer to the center of C1. The front detectors can also be moved along the Y-axis and the maximum extent is $48.3$ mm from the beam to the onset of the detector. The manufacturing size of the gate-valve along the Z-axis is $150.6$ mm. In the described experiment, the front pnCCD modules were in the most rear position.\\
@@ -237,32 +237,32 @@ with $f_{\text{rr}}$ being the repetition rate of the event code.
 %
 %
 %
-\section{Time of flight mass-spectrometer}\label{sec:TOF-spectrometer}
+\section{Time-of-flight mass-spectrometer}\label{sec:TOF-spectrometer}
 %%%%%%%%%%%%
 %- fundamental aspects to the TOF detector\\
 %- I'm hoping on some specific drawings from Timur / LCLS and SIMION simulations from Timur here.
 %%%%%%%%%%%%%
-An ion time of flight spectrometer was used in the interaction region to detect xenon and helium ions. A time of flight spectrometer uses electric fields to accelerate ions from the interaction region towards a detector. The detector unit often consists of a micro-channel plate (MCP) that allows a position sensitive detection of the particle signal. In the first stage, the ions are accelerated from the IR towards the detector. Here, the electric potential energy is converted into kinetic energy
+An ion time-of-flight spectrometer was used in the interaction region to detect xenon and helium ions. A time-of-flight spectrometer uses electric fields to accelerate ions from the interaction region towards a detector. The detector unit often consists of a micro-channel plate (MCP) that allows a position sensitive detection of the particle signal. In the first stage, the ions are accelerated from the IR towards the detector. Here, the electric potential energy is converted into kinetic energy
 \begin{align}
 q U &= \frac{1}{2}m \left(\frac{d_{1}}{t_{1}}\right)^{2},\\
 t_{1} &= \sqrt{\frac{m}{2qU}}\cdot d_{1},
 \end{align}
-with $q$ being the elementary charge of the ion, $U$ the voltage difference, $d_{1}$ the distance between the IR and spectrometer, $m$ is the mass of the ion, and $t_{1}$ is the time of flight in the acceleration stage. The ions then travel through a drift tube of length $d_{2}$ that is field free. As the velocity remains constant, we can write down
+with $q$ being the elementary charge of the ion, $U$ the voltage difference, $d_{1}$ the distance between the IR and spectrometer, $m$ is the mass of the ion, and $t_{1}$ is the time-of-flight in the acceleration stage. The ions then travel through a drift tube of length $d_{2}$ that is field free. As the velocity remains constant, we can write down
 \begin{equation}
 t_{2} = \sqrt{\frac{m}{2qU}}\cdot d_{2},
 \end{equation}
-with $t_{2}$ being the time of flight in the drift tube. The total flight time can then be written as
+with $t_{2}$ being the time-of-flight in the drift tube. The total flight time can then be written as
 \begin{align}
-t_{\text{time of flight}}&=t_{1}+t_{2}=\sqrt{\frac{m}{2 q U}} \left(d_{1}+d_{2}\right), \quad \text{and explicitly}\\
-t_{\text{time of flight}} &\propto \sqrt{\frac{m}{q}}.
+t_{\text{time-of-flight}}&=t_{1}+t_{2}=\sqrt{\frac{m}{2 q U}} \left(d_{1}+d_{2}\right), \quad \text{and explicitly}\\
+t_{\text{time-of-flight}} &\propto \sqrt{\frac{m}{q}}.
 \end{align}
-Typical for an experiment, all values aside from $m$ and $q$ can be considered constant. As the spectrometer is a cylindrical system, the time of flight denotes the final position on the detector and vice versa. Therefore, the position sensitive MCP yields insight into the $t_{\text{time of flight}} \propto\sqrt{\frac{m}{q}}$ of the ensemble of ions in the IR upon interaction with an X-ray pulse. Usually, ions start with a kinetic energy $E_{kin}\neq 0$, such that the flight times are altered. This results in a distribution of the ion signal instead of a strict peak structure. Atomic ion time of flight data typically exhibits a distinct peak structure while the signal from clusters is strongly broadened due to kinetic energy release from collective effects. Using this information, element specific data including insight in the ionization cascades can be gained \citep{Ho-2014-PRL}.\\[1\baselineskip]
+Typical for an experiment, all values aside from $m$ and $q$ can be considered constant. As the spectrometer is a cylindrical system, the time-of-flight denotes the final position on the detector and vice versa. Therefore, the position sensitive MCP yields insight into the $t_{\text{time-of-flight}} \propto\sqrt{\frac{m}{q}}$ of the ensemble of ions in the IR upon interaction with an X-ray pulse. Usually, ions start with a kinetic energy $E_{kin}\neq 0$, such that the flight times are altered. This results in a distribution of the ion signal instead of a strict peak structure. Atomic ion time-of-flight data typically exhibits a distinct peak structure while the signal from clusters is strongly broadened due to kinetic energy release from collective effects. Using this information, element specific data including insight in the ionization cascades can be gained \citep{Ho-2014-PRL}.\\[1\baselineskip]
 \begin{figure}
    \includegraphics[width=1.\linewidth]{images/spectrometer.jpg}
     \caption{Drawing of the time-of-flight spectrometer.}
 \label{fig:spectrometer-detail}
 \end{figure}
-The configuration of the here used time of flight spectrometer is depicted in Figure \ref{fig:spectrometer-detail}. It consists of an electron and a, longer, ion side. With $\pm 5$ keV power supplies, ions can be detected up to kinetic energies of 50 eV with a time of flight resolution of 100 ps \citep{Ferguson-2015-JSR}. If only the ion side is used, ions with kinetic energies of up to 100 eV can be detected. The use of $\pm 10$ keV power supplies allows a detection of kinetic energies up to 150 eV. Electrons can be measured up to kinetic energies of 150 eV using $\pm 5$ keV power supplies, 300 eV if only the electron side is used and 400 eV when using $\pm 10$ keV power supplies. Ions and electrons can be detected whether they are emitted in any direction, in other words the spectrometer has a $4\pi$ solid angle collection \citep{Osipov-2013-PC}.
+The configuration of the here used time-of-flight spectrometer is depicted in Figure \ref{fig:spectrometer-detail}. It consists of an electron and a, longer, ion side. With $\pm 5$ keV power supplies, ions can be detected up to kinetic energies of 50 eV with a time-of-flight resolution of 100 ps \citep{Ferguson-2015-JSR}. If only the ion side is used, ions with kinetic energies of up to 100 eV can be detected. The use of $\pm 10$ keV power supplies allows a detection of kinetic energies up to 150 eV. Electrons can be measured up to kinetic energies of 150 eV using $\pm 5$ keV power supplies, 300 eV if only the electron side is used and 400 eV when using $\pm 10$ keV power supplies. Ions and electrons can be detected whether they are emitted in any direction, in other words the spectrometer has a $4\pi$ solid angle collection \citep{Osipov-2013-PC}.
 \begin{figure}
    \includegraphics[width=1.\linewidth]{images/simion.jpg}
     \caption[Sideview of the spectrometer showing ion, electron and photon trajectories.]{Sideview of the spectrometer showing ion, electron and photon trajectories upon interaction with LCLS. The image was created with SIMION. From \citep{Osipov-2013-PC}.}
@@ -284,7 +284,7 @@ A side view of the spectrometer can be found in Figure \ref{fig:simion}. Ion, el
 	Flat lens \#3 & -1639 & Flight tube & 2736 \\ \hline
 	Flight tube & -1714 & - & - \\ \hline
 \end{tabular}
-\caption{Applied voltages to the time of flight spectrometer (ion side use only).}
+\caption{Applied voltages to the time-of-flight spectrometer (ion side use only).}
 \label{tab:tof-volategs}
 \end{table}
 %

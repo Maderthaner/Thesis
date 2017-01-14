@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    264286,       4791]
-NotebookOptionsPosition[    263302,       4753]
-NotebookOutlinePosition[    263658,       4769]
-CellTagsIndexPosition[    263615,       4766]
+NotebookDataLength[    265286,       4804]
+NotebookOptionsPosition[    264304,       4766]
+NotebookOutlinePosition[    264659,       4782]
+CellTagsIndexPosition[    264616,       4779]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -140,9 +140,9 @@ Cell[BoxData[
     RowBox[{"FrameLabel", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{
-      "\"\<Spatial frequencies \!\(\*OverscriptBox[\(Q\), \(\[RightVector]\)]\
-\) in \!\(\*SuperscriptBox[\(m\), \(-1\)]\)\>\"", ",", 
-       "\"\<Intensity in arb. units\>\""}], "}"}]}], ",", 
+      "\"\<Spatial frequencies \[LeftBracketingBar]\!\(\*OverscriptBox[\(Q\), \
+\(\[RightVector]\)]\)\[RightBracketingBar] in \!\(\*SuperscriptBox[\(m\), \
+\(-1\)]\)\>\"", ",", "\"\<Intensity in arb. units\>\""}], "}"}]}], ",", 
     RowBox[{"FrameStyle", "\[Rule]", 
      RowBox[{"Directive", "[", "14", "]"}]}], ",", 
     RowBox[{"PlotLegend", "\[Rule]", 
@@ -155,8 +155,9 @@ Cell[BoxData[
         RowBox[{"\"\<Scattering of sphere\>\"", ",", "14"}], "]"}], ",", 
        RowBox[{"Style", "[", 
         RowBox[{
-        "\"\<\[Proportional] \!\(\*SuperscriptBox[\(q\), \(-4\)]\)\>\"", ",", 
-         "14"}], "]"}]}], "}"}]}], ",", 
+        "\"\<\[Proportional] \[LeftBracketingBar]\!\(\*OverscriptBox[\(Q\), \
+\(\[RightVector]\)]\)\!\(\*SuperscriptBox[\(\[RightBracketingBar]\), \
+\(-4\)]\)\>\"", ",", "14"}], "]"}]}], "}"}]}], ",", 
     RowBox[{"LegendPosition", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{
@@ -188,7 +189,8 @@ Cell[BoxData[
   3.690135900606471*^9}, {3.69140885914683*^9, 3.6914088945912657`*^9}, {
   3.691408941092671*^9, 3.691408996079063*^9}, {3.691410371024171*^9, 
   3.691410556912175*^9}, {3.691411307577279*^9, 3.691411312583556*^9}, {
-  3.6914114637328777`*^9, 3.691411468223737*^9}}],
+  3.6914114637328777`*^9, 3.691411468223737*^9}, {3.6934153748397827`*^9, 
+  3.69341538386169*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{InsetBox[
@@ -1455,9 +1457,9 @@ RFMnWEt1Zgw/wf5BcifYyYXdiw3B/ovOTvAeoMzrBe9U+x+ePXgb
      Frame->True,
      FrameLabel->{
        FormBox[
-       "\"Spatial frequencies \\!\\(\\*OverscriptBox[\\(Q\\), \\(\
-\[RightVector]\\)]\\) in \\!\\(\\*SuperscriptBox[\\(m\\), \\(-1\\)]\\)\"", 
-        TraditionalForm], 
+       "\"Spatial frequencies \[LeftBracketingBar]\\!\\(\\*OverscriptBox[\\(Q\
+\\), \\(\[RightVector]\\)]\\)\[RightBracketingBar] in \
+\\!\\(\\*SuperscriptBox[\\(m\\), \\(-1\\)]\\)\"", TraditionalForm], 
        FormBox["\"Intensity in arb. units\"", TraditionalForm]},
      FrameStyle->Directive[14],
      FrameTicks->{{{{9.210340371976184, 
@@ -1715,7 +1717,9 @@ RFMnWEt1Zgw/wf5BcifYyYXdiw3B/ovOTvAeoMzrBe9U+x+ePXgb
                PlotRange->{{0, 1}, {0, 1}}], {0.08, 0.08}, {
               Left, Bottom}, {1, 1}], InsetBox[
               
-              StyleBox["\<\"\[Proportional] \\!\\(\\*SuperscriptBox[\\(q\\), \
+              StyleBox["\<\"\[Proportional] \
+\[LeftBracketingBar]\\!\\(\\*OverscriptBox[\\(Q\\), \
+\\(\[RightVector]\\)]\\)\\!\\(\\*SuperscriptBox[\\(\[RightBracketingBar]\\), \
 \\(-4\\)]\\)\"\>",
                StripOnInput->False,
                FontSize->14], {1.2100000000000002`, 0.58}, {-1, 0}, 
@@ -1750,7 +1754,8 @@ RFMnWEt1Zgw/wf5BcifYyYXdiw3B/ovOTvAeoMzrBe9U+x+ePXgb
   ImageSize->Automatic,
   PlotRange->All]], "Output",
  CellChangeTimes->{{3.691410442840419*^9, 3.69141055771539*^9}, 
-   3.691411313993034*^9, {3.6914114646229897`*^9, 3.691411483570284*^9}}]
+   3.691411313993034*^9, {3.6914114646229897`*^9, 3.691411483570284*^9}, 
+   3.693415395353058*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -1833,9 +1838,9 @@ Cell[BoxData[
     RowBox[{"FrameLabel", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{
-      "\"\<Spatial frequencies \!\(\*OverscriptBox[\(Q\), \(\[RightVector]\)]\
-\) in \!\(\*SuperscriptBox[\(m\), \(-1\)]\)\>\"", ",", 
-       "\"\<Intensity in arb. units\>\""}], "}"}]}], ",", 
+      "\"\<Spatial frequencies \[LeftBracketingBar]\!\(\*OverscriptBox[\(Q\), \
+\(\[RightVector]\)]\)\[RightBracketingBar] in \!\(\*SuperscriptBox[\(m\), \
+\(-1\)]\)\>\"", ",", "\"\<Intensity in arb. units\>\""}], "}"}]}], ",", 
     RowBox[{"FrameStyle", "\[Rule]", 
      RowBox[{"Directive", "[", "14", "]"}]}], ",", 
     RowBox[{"PlotLegend", "\[Rule]", 
@@ -1848,8 +1853,9 @@ Cell[BoxData[
         RowBox[{"\"\<Scattering of sphere\>\"", ",", "14"}], "]"}], ",", 
        RowBox[{"Style", "[", 
         RowBox[{
-        "\"\<\[Proportional] \!\(\*SuperscriptBox[\(q\), \(-4\)]\)\>\"", ",", 
-         "14"}], "]"}]}], "}"}]}], ",", 
+        "\"\<\[Proportional] \[LeftBracketingBar]\!\(\*OverscriptBox[\(Q\), \
+\(\[RightVector]\)]\)\!\(\*SuperscriptBox[\(\[RightBracketingBar]\), \
+\(-4\)]\)\>\"", ",", "14"}], "]"}]}], "}"}]}], ",", 
     RowBox[{"LegendPosition", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{
@@ -1879,7 +1885,8 @@ Cell[BoxData[
    3.6901354456596203`*^9, 3.69013549954947*^9}, {3.690135552190712*^9, 
    3.690135552477826*^9}, {3.690135668298398*^9, 3.690135810580606*^9}, {
    3.690135903576161*^9, 3.6901359036883583`*^9}, {3.691411209744865*^9, 
-   3.69141132464764*^9}, {3.691411438042508*^9, 3.691411438185336*^9}}],
+   3.69141132464764*^9}, {3.691411438042508*^9, 3.691411438185336*^9}, {
+   3.6934153669538593`*^9, 3.693415387781397*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{InsetBox[
@@ -2954,9 +2961,9 @@ aHvxRe1pMfa/s9aBr89yztcC7PusqYNtaRcWD+VhX3JDHWztObU3OBv7dUJ1
      Frame->True,
      FrameLabel->{
        FormBox[
-       "\"Spatial frequencies \\!\\(\\*OverscriptBox[\\(Q\\), \\(\
-\[RightVector]\\)]\\) in \\!\\(\\*SuperscriptBox[\\(m\\), \\(-1\\)]\\)\"", 
-        TraditionalForm], 
+       "\"Spatial frequencies \[LeftBracketingBar]\\!\\(\\*OverscriptBox[\\(Q\
+\\), \\(\[RightVector]\\)]\\)\[RightBracketingBar] in \
+\\!\\(\\*SuperscriptBox[\\(m\\), \\(-1\\)]\\)\"", TraditionalForm], 
        FormBox["\"Intensity in arb. units\"", TraditionalForm]},
      FrameStyle->Directive[14],
      FrameTicks->{{{{11.512925464970229`, 
@@ -3214,7 +3221,9 @@ aHvxRe1pMfa/s9aBr89yztcC7PusqYNtaRcWD+VhX3JDHWztObU3OBv7dUJ1
                PlotRange->{{0, 1}, {0, 1}}], {0.08, 0.08}, {
               Left, Bottom}, {1, 1}], InsetBox[
               
-              StyleBox["\<\"\[Proportional] \\!\\(\\*SuperscriptBox[\\(q\\), \
+              StyleBox["\<\"\[Proportional] \
+\[LeftBracketingBar]\\!\\(\\*OverscriptBox[\\(Q\\), \
+\\(\[RightVector]\\)]\\)\\!\\(\\*SuperscriptBox[\\(\[RightBracketingBar]\\), \
 \\(-4\\)]\\)\"\>",
                StripOnInput->False,
                FontSize->14], {1.2100000000000002`, 0.58}, {-1, 0}, 
@@ -3252,7 +3261,7 @@ aHvxRe1pMfa/s9aBr89yztcC7PusqYNtaRcWD+VhX3JDHWztObU3OBv7dUJ1
   3.69013523228342*^9, 3.690135269841811*^9, {3.69013545574888*^9, 
    3.690135470119265*^9}, 3.6901355010346613`*^9, 3.690135553753213*^9, {
    3.690135671755084*^9, 3.690135811374114*^9}, {3.691411226730653*^9, 
-   3.691411325536458*^9}, 3.691411438974818*^9}]
+   3.691411325536458*^9}, 3.691411438974818*^9, 3.6934153987740498`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -3335,9 +3344,9 @@ Cell[BoxData[
     RowBox[{"FrameLabel", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{
-      "\"\<Spatial frequencies \!\(\*OverscriptBox[\(Q\), \(\[RightVector]\)]\
-\) in \!\(\*SuperscriptBox[\(m\), \(-1\)]\)\>\"", ",", 
-       "\"\<Intensity in arb. units\>\""}], "}"}]}], ",", 
+      "\"\<Spatial frequencies \[LeftBracketingBar]\!\(\*OverscriptBox[\(Q\), \
+\(\[RightVector]\)]\)\[RightBracketingBar] in \!\(\*SuperscriptBox[\(m\), \
+\(-1\)]\)\>\"", ",", "\"\<Intensity in arb. units\>\""}], "}"}]}], ",", 
     RowBox[{"FrameStyle", "\[Rule]", 
      RowBox[{"Directive", "[", "14", "]"}]}], ",", 
     RowBox[{"PlotLegend", "\[Rule]", 
@@ -3350,8 +3359,9 @@ Cell[BoxData[
         RowBox[{"\"\<Scattering of sphere\>\"", ",", "14"}], "]"}], ",", 
        RowBox[{"Style", "[", 
         RowBox[{
-        "\"\<\[Proportional] \!\(\*SuperscriptBox[\(q\), \(-4\)]\)\>\"", ",", 
-         "14"}], "]"}]}], "}"}]}], ",", 
+        "\"\<\[Proportional] \[LeftBracketingBar]\!\(\*OverscriptBox[\(Q\), \
+\(\[RightVector]\)]\)\!\(\*SuperscriptBox[\(\[RightBracketingBar]\), \
+\(-4\)]\)\>\"", ",", "14"}], "]"}]}], "}"}]}], ",", 
     RowBox[{"LegendPosition", "\[Rule]", 
      RowBox[{"{", 
       RowBox[{
@@ -3379,7 +3389,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.690135906344371*^9, 3.690135915250889*^9}, {
   3.6901359506572657`*^9, 3.6901359783183413`*^9}, {3.690136010645665*^9, 
   3.690136011051824*^9}, {3.6914113440703497`*^9, 3.6914114578189898`*^9}, {
-  3.691412102344963*^9, 3.6914121024255943`*^9}}],
+  3.691412102344963*^9, 3.6914121024255943`*^9}, {3.693415262415658*^9, 
+  3.6934153201675797`*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{InsetBox[
@@ -4451,9 +4462,9 @@ aHvxRe1pMfa/s9aBr89yztcC7PusqYNtaRcWD+VhX3JDHWztObU3OBv7dUJ1
      Frame->True,
      FrameLabel->{
        FormBox[
-       "\"Spatial frequencies \\!\\(\\*OverscriptBox[\\(Q\\), \\(\
-\[RightVector]\\)]\\) in \\!\\(\\*SuperscriptBox[\\(m\\), \\(-1\\)]\\)\"", 
-        TraditionalForm], 
+       "\"Spatial frequencies \[LeftBracketingBar]\\!\\(\\*OverscriptBox[\\(Q\
+\\), \\(\[RightVector]\\)]\\)\[RightBracketingBar] in \
+\\!\\(\\*SuperscriptBox[\\(m\\), \\(-1\\)]\\)\"", TraditionalForm], 
        FormBox["\"Intensity in arb. units\"", TraditionalForm]},
      FrameStyle->Directive[14],
      FrameTicks->{{{{11.512925464970229`, 
@@ -4711,7 +4722,9 @@ aHvxRe1pMfa/s9aBr89yztcC7PusqYNtaRcWD+VhX3JDHWztObU3OBv7dUJ1
                PlotRange->{{0, 1}, {0, 1}}], {0.08, 0.08}, {
               Left, Bottom}, {1, 1}], InsetBox[
               
-              StyleBox["\<\"\[Proportional] \\!\\(\\*SuperscriptBox[\\(q\\), \
+              StyleBox["\<\"\[Proportional] \
+\[LeftBracketingBar]\\!\\(\\*OverscriptBox[\\(Q\\), \
+\\(\[RightVector]\\)]\\)\\!\\(\\*SuperscriptBox[\\(\[RightBracketingBar]\\), \
 \\(-4\\)]\\)\"\>",
                StripOnInput->False,
                FontSize->14], {1.2100000000000002`, 0.58}, {-1, 0}, 
@@ -4747,12 +4760,12 @@ aHvxRe1pMfa/s9aBr89yztcC7PusqYNtaRcWD+VhX3JDHWztObU3OBv7dUJ1
   PlotRange->All]], "Output",
  CellChangeTimes->{{3.6901359362913218`*^9, 3.690135979338187*^9}, 
    3.6901423790151978`*^9, {3.691411371047666*^9, 3.691411458608694*^9}, 
-   3.6914121033485403`*^9}]
+   3.6914121033485403`*^9, {3.693415336142284*^9, 3.693415345940198*^9}}]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{749, 855},
-WindowMargins->{{157, Automatic}, {Automatic, 0}},
+WindowSize->{925, 794},
+WindowMargins->{{88, Automatic}, {Automatic, 0}},
 FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
 2010)",
 StyleDefinitions->"Default.nb"
@@ -4771,26 +4784,26 @@ Notebook[{
 Cell[557, 20, 857, 26, 71, "Input"],
 Cell[CellGroupData[{
 Cell[1439, 50, 104, 1, 24, "Subsubsection"],
-Cell[1546, 53, 744, 22, 125, "Input"],
+Cell[1546, 53, 744, 22, 80, "Input"],
 Cell[CellGroupData[{
-Cell[2315, 79, 4336, 111, 278, "Input"],
-Cell[6654, 192, 90020, 1560, 240, "Output"]
+Cell[2315, 79, 4503, 113, 235, "Input"],
+Cell[6821, 194, 90180, 1563, 240, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[96723, 1758, 106, 1, 24, "Subsubsection"],
-Cell[96832, 1761, 272, 7, 73, "Input"],
+Cell[97050, 1763, 106, 1, 24, "Subsubsection"],
+Cell[97159, 1766, 272, 7, 43, "Input"],
 Cell[CellGroupData[{
-Cell[97129, 1772, 4187, 109, 263, "Input"],
-Cell[101319, 1883, 78806, 1371, 240, "Output"]
+Cell[97456, 1777, 4356, 111, 220, "Input"],
+Cell[101815, 1890, 78964, 1373, 240, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[180174, 3260, 114, 1, 24, "Subsubsection"],
-Cell[180291, 3263, 285, 7, 88, "Input"],
+Cell[180828, 3269, 114, 1, 24, "Subsubsection"],
+Cell[180945, 3272, 285, 7, 43, "Input"],
 Cell[CellGroupData[{
-Cell[180601, 3274, 4024, 107, 263, "Input"],
-Cell[184628, 3383, 78646, 1366, 240, "Output"]
+Cell[181255, 3283, 4192, 109, 220, "Input"],
+Cell[185450, 3394, 78826, 1368, 240, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
