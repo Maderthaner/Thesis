@@ -4,22 +4,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Aerial view of the Linac Coherent Light Source.}}{5}{figure.2.1}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Schematic setup of an undulator.}}{7}{figure.2.2}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Schematics of several X-ray generating methods.}}{7}{figure.2.2}
 \contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Undulator gain curve correlated to microbunching.}}{9}{figure.2.3}
 \contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces SASE single-shot and average spectra}}{10}{figure.2.4}
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Soft X-ray self-seeding spectra and brilliance of various lightsources.}}{11}{figure.2.5}
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Schematic setup of an undulator based pump--probe scheme.}}{14}{figure.2.6}
-\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Schematic setup of a bunch based pump-probe setup.}}{16}{figure.2.7}
-\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces Schematic of a supersonic gas expansion into a vacuum.}}{19}{figure.2.8}
-\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Schematic of a pickup (gas-)source.}}{23}{figure.2.9}
-\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Principle of scattering rays of an atom.}}{27}{figure.2.10}
-\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Total absorption cross-sections for helium and xenon.}}{30}{figure.2.11}
-\contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Schematic illustration of common charge transfer processes}}{34}{figure.2.12}
-\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Fluorescence spectra from xenon and neon K-LL Auger spectrum.}}{35}{figure.2.13}
-\contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Schematic of the nanoplasma creation and expansion.}}{37}{figure.2.14}
-\contentsline {figure}{\numberline {\relax 2.15}{\ignorespaces Measurement and simulation of the nanoplasma expansion in Xe-clusters.}}{39}{figure.2.15}
-\contentsline {figure}{\numberline {\relax 2.16}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{40}{figure.2.16}
-\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Time of flight spectra of argon and xenon core-shell systems.}}{43}{figure.2.17}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Schematic setup of the soft X-ray self-seeding system at LCLS. From citep{Ratner-2015-PRL}. Reprinted with permission from APS.}}{11}{figure.2.5}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Soft X-ray self-seeding spectra and brilliance of various lightsources.}}{12}{figure.2.6}
+\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Schematic setup of an undulator based pump--probe scheme.}}{14}{figure.2.7}
+\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces Schematic setup of a bunch based pump-probe setup.}}{16}{figure.2.8}
+\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Schematic of a supersonic gas expansion into a vacuum.}}{18}{figure.2.9}
+\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Schematic of a pickup (gas-)source.}}{23}{figure.2.10}
+\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Principle of scattering rays of an atom.}}{26}{figure.2.11}
+\contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Total absorption cross-sections for helium and xenon.}}{29}{figure.2.12}
+\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Schematic illustration of common charge transfer processes}}{34}{figure.2.13}
+\contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Fluorescence spectra from xenon and neon K-LL Auger spectrum.}}{34}{figure.2.14}
+\contentsline {figure}{\numberline {\relax 2.15}{\ignorespaces Schematic of the nanoplasma creation and expansion.}}{36}{figure.2.15}
+\contentsline {figure}{\numberline {\relax 2.16}{\ignorespaces Measurement and simulation of the nanoplasma expansion in Xe-clusters.}}{39}{figure.2.16}
+\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{40}{figure.2.17}
+\contentsline {figure}{\numberline {\relax 2.18}{\ignorespaces Time of flight spectra of argon and xenon core-shell systems.}}{42}{figure.2.18}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Schematic overview of the AMO beamline instrumentation.}}{46}{figure.3.1}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Focal spot analysis using a time-of-flight ion spectrometer.}}{47}{figure.3.2}
@@ -28,42 +29,42 @@
 \contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Inside view of the C1 chamber showcasing the interaction region.}}{51}{figure.3.5}
 \contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Rear and front pnCCD detector geometry in the LAMP instrument.}}{52}{figure.3.6}
 \contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Geometry of a single pnCCD module.}}{54}{figure.3.7}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Sideview of double sample jet configuration.}}{56}{figure.3.8}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Sideview of double sample jet configuration.}}{57}{figure.3.8}
 \contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Schematic of the Parker-Hannifin Series 99 valve.}}{58}{figure.3.9}
 \contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Schematic of LCLS EVR timing system.}}{59}{figure.3.10}
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Event receiver time delay at LCLS for supersonic gas jets.}}{60}{figure.3.11}
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Drawing of the time-of-flight spectrometer.}}{62}{figure.3.12}
-\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Sideview of the spectrometer showing ion, electron and photon trajectories.}}{63}{figure.3.13}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Event receiver time delay at LCLS for supersonic gas jets.}}{61}{figure.3.11}
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Drawing of the time-of-flight spectrometer.}}{63}{figure.3.12}
+\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Sideview of the spectrometer showing ion, electron and photon trajectories.}}{64}{figure.3.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Diagram of the computing environment at LCLS and DAQ traffic.}}{65}{figure.4.1}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces ADU histograms from electronic noise of unilluminated pnCCDs.}}{67}{figure.4.2}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Front and rear pnCCD arranged to combine measured diffraction image.}}{71}{figure.4.3}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Spherical projection of 2D diffraction image onto 1D.}}{72}{figure.4.4}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Influence of X-ray pump--X-ray probe study in diffraction image.}}{72}{figure.4.5}
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Example of a phase retrieval algorithm.}}{74}{figure.4.6}
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Illustration of resolution enhancement and diffraction image cropping.}}{77}{figure.4.7}
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Used electron densities in 2D real and Fourier space simulations.}}{80}{figure.4.8}
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Comparison of analytical derived scattering and numerical simulations.}}{81}{figure.4.9}
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces First data point in Acqiris sampling.}}{82}{figure.4.10}
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Using light peak to find absolute time zero in Acqiris traces.}}{83}{figure.4.11}
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Average cluster size correlated to measured intensity on front pnCCD.}}{84}{figure.4.12}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Diagram of the computing environment at LCLS and DAQ traffic.}}{66}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces ADU histograms from electronic noise of unilluminated pnCCDs.}}{68}{figure.4.2}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Front and rear pnCCD arranged to combine measured diffraction image.}}{72}{figure.4.3}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Spherical projection of 2D diffraction image onto 1D.}}{73}{figure.4.4}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Influence of X-ray pump--X-ray probe study in diffraction image.}}{73}{figure.4.5}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Example of a phase retrieval algorithm.}}{75}{figure.4.6}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Illustration of resolution enhancement and diffraction image cropping.}}{78}{figure.4.7}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Used electron densities in 2D real and Fourier space simulations.}}{81}{figure.4.8}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Comparison of analytical derived scattering and numerical simulations.}}{82}{figure.4.9}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces First data point in Acqiris sampling.}}{83}{figure.4.10}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Using light peak to find absolute time zero in Acqiris traces.}}{84}{figure.4.11}
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Average cluster size correlated to measured intensity on front pnCCD.}}{85}{figure.4.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Single Xe-cluster size distribution at varying time delay $\Delta t$.}}{87}{figure.5.1}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Time-resolved behavior of number of scatterers due to nanoplasma expansion}}{88}{figure.5.2}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Single-shot 2D reconstructions of $\sim 25$ nm radius Xe-clusters.}}{89}{figure.5.3}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Single-shot 1D reconstruction of $\sim 30$ nm radius Xe-cluster}}{90}{figure.5.4}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Recovered Amplitudes $\left |A\right |$ and phase factor of 1D reconstruction}}{91}{figure.5.5}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Single-shot diffraction pattern of Xe-cluster at varying time delays}}{92}{figure.5.6}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Time-resolved answer of atomic xenon in TOF spectroscopy.}}{93}{figure.5.7}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Time-resolved answer of He-clusters in TOF spectroscopy.}}{94}{figure.5.8}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces TOF spectra of HeXe-clusters with $\sim 0.6\%$ Xe-doping at various delays $\Delta t$.}}{95}{figure.5.9}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces TOF spectra of HeXe-clusters with $\sim 0.06\%$ Xe-doping at various delays $\Delta t$.}}{97}{figure.5.10}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Reconstruction of HeXe-clusters and simulated electron densities.}}{98}{figure.5.11}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Hypothetical arrangement of Xe-clusters within He-droplets.}}{99}{figure.5.12}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Single Xe-cluster size distribution at varying time delay $\Delta t$.}}{88}{figure.5.1}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Time-resolved behavior of number of scatterers due to nanoplasma expansion}}{89}{figure.5.2}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Single-shot 2D reconstructions of \SI {\sim 25}{\nano \meter } radius Xe-clusters.}}{90}{figure.5.3}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Single-shot 1D reconstruction of \SI {\sim 30}{\nano \meter } radius Xe-cluster}}{91}{figure.5.4}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Recovered Amplitudes $\delimiter 69640972 A\delimiter 86418188 $ and phase factor of 1D reconstruction}}{92}{figure.5.5}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Single-shot diffraction pattern of Xe-cluster at varying time delays}}{93}{figure.5.6}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Time-resolved answer of atomic xenon in TOF spectroscopy.}}{94}{figure.5.7}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Time-resolved answer of He-clusters in TOF spectroscopy.}}{95}{figure.5.8}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces TOF spectra of HeXe-clusters with \SI {\sim 0.6}{\percent } Xe-doping at various delays $\Delta t$.}}{96}{figure.5.9}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces TOF spectra of HeXe-clusters with \SI {\sim 0.06}{\percent } Xe-doping at various delays $\Delta t$.}}{98}{figure.5.10}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Reconstruction of HeXe-clusters and simulated electron densities.}}{99}{figure.5.11}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Hypothetical arrangement of Xe-clusters within He-droplets.}}{100}{figure.5.12}
 \contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Simulated structural damage scenarios in HeXe-clusters.}}{102}{figure.5.13}
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Simulation and exp. data: Structural damage in He-droplet.}}{103}{figure.5.14}
-\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Single-shot diffraction images of He-droplets at different time delays}}{104}{figure.5.15}
-\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Single-shot diffraction patterns of HeXe-cluster at different time delays}}{105}{figure.5.16}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Simulation and exp. data: Structural damage in He-droplet.}}{104}{figure.5.14}
+\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Single-shot diffraction images of He-droplets at different time delays}}{105}{figure.5.15}
+\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces Single-shot diffraction patterns of HeXe-cluster at different time delays}}{106}{figure.5.16}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

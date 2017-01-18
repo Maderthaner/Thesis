@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{159}
+\begin{thebibliography}{157}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -243,11 +243,14 @@ Philip~H. Bucksbaum, Ryan Coffee, and Nora Berrah.
 G~J Williams.
 \newblock personal communication, 2016.
 
-\bibitem[Hecht(2008)]{Hecht-2008-OPN}
-Jeff Hecht.
-\newblock The history of the x-ray laser.
-\newblock \emph{Optics and Photonics News}, 19\penalty0 (5):\penalty0 26--33,
-  2008.
+\bibitem[Madey(1971)]{Madey-1971-JAP}
+John M~J Madey.
+\newblock {Stimulated Emission of Bremsstrahlung in a Periodic Magnetic Field}.
+\newblock \emph{Journal of Applied Physics}, 42\penalty0 (5):\penalty0
+  1906--1913, apr 1971.
+\newblock ISSN 0021-8979.
+\newblock \doi{10.1063/1.1660466}.
+\newblock URL \url{http://aip.scitation.org/doi/10.1063/1.1660466}.
 
 \bibitem[Kondratenko and Saldin(1980)]{Kondratenko-1980-PA}
 A.M. Kondratenko and E.~L. Saldin.
@@ -322,10 +325,11 @@ T.~Gorkhover, M.~Adolph, D.~Rupp, S.~Schorb, S.~W. Epp, B.~Erk, L.~Foucar,
 \newblock ISSN 1079-7114.
 \newblock \doi{10.1103/PhysRevLett.108.245005}.
 
-\bibitem[Holst and Horvath(2005)]{holst-2005-wiki}
-Bastian Holst and Arpad Horvath.
-\newblock Undulator, Jul 2005.
-\newblock URL \url{https://commons.wikimedia.org/wiki/file:undulator.png}.
+\bibitem[Rupp(2013)]{Rupp-2013-Thesis}
+Daniela Rupp.
+\newblock \emph{Ionization and plasma dynamics of single large xenon clusters
+  in superintense XUV pulses}.
+\newblock Thesis, Technische Universit{\"a}t Berlin, 2013.
 
 \bibitem[Brown et~al.(1983)Brown, Halbach, Harris, and
   Winick]{Brown-1983-NIMPR}
@@ -344,6 +348,13 @@ Gwyn~P Williams, editor.
 \newblock Lawrence Berkeley National Laboratory, 2009.
 \newblock URL \url{http://cxro.lbl.gov/x-ray-data-booklet}.
 
+\bibitem[Huang and Kim(2007)]{Huang-2007-PRSTAB}
+Zhirong Huang and Kwang-Je Kim.
+\newblock Review of x-ray free-electron laser theory.
+\newblock \emph{Phys. Rev. ST Accel. Beams}, 10:\penalty0 034801, Mar 2007.
+\newblock \doi{10.1103/PhysRevSTAB.10.034801}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.10.034801}.
+
 \bibitem[Kim(1986)]{Kim-1986-NIMPRA}
 Kwang-Je Kim.
 \newblock {Angular distribution of undulator power for an arbitrary deflection
@@ -355,19 +366,6 @@ Kwang-Je Kim.
 \newblock \doi{10.1016/0168-9002(86)90047-1}.
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/0168900286900471}.
-
-\bibitem[Huang and Kim(2007)]{Huang-2007-PRSTAB}
-Zhirong Huang and Kwang-Je Kim.
-\newblock Review of x-ray free-electron laser theory.
-\newblock \emph{Phys. Rev. ST Accel. Beams}, 10:\penalty0 034801, Mar 2007.
-\newblock \doi{10.1103/PhysRevSTAB.10.034801}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevSTAB.10.034801}.
-
-\bibitem[Rupp(2013)]{Rupp-2013-Thesis}
-Daniela Rupp.
-\newblock \emph{Ionization and plasma dynamics of single large xenon clusters
-  in superintense XUV pulses}.
-\newblock Thesis, Technische Universit{\"a}t Berlin, 2013.
 
 \bibitem[Rupp(2016)]{Rupp-2016-Springer}
 Daniela Rupp.
@@ -530,12 +528,6 @@ Chelsea~E Liekhus-Schmaltz, Ian Tenney, Timur Osipov, Alvaro Sanchez-Gonzalez,
 \newblock ISSN 2041-1723.
 \newblock \doi{10.1038/ncomms9199}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/26354002}.
-
-\bibitem[Pro(2014)]{Galayda-2014-IPAC}
-\emph{THE LINAC COHERENT LIGHT SOURCE-II PROJECT}, 2014. Proceedings of IPAC
-  2014.
-\newblock URL
-  \url{http://accelconf.web.cern.ch/AccelConf/IPAC2014/papers/tuoca01.pdf}.
 
 \bibitem[Emma et~al.(2004)Emma, Bane, Cornacchia, Huang, Schlarb, Stupakov, and
   Walz]{Emma-2004-PRL}
