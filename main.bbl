@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{157}
+\begin{thebibliography}{161}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -34,6 +34,34 @@ Wet~al Ackermann, G~Asova, V~Ayvazyan, A~Azima, N~Baboi, J~B{\"a}hr,
   the water window.
 \newblock \emph{Nature photonics}, 1\penalty0 (6):\penalty0 336--342, 2007.
 
+\bibitem[Chapman et~al.(2011)Chapman, Fromme, Barty, White, Kirian, Aquila,
+  Hunter, Schulz, DePonte, Weierstall, et~al.]{Chapman-2011-Nature}
+H.~N. Chapman, P.~Fromme, A.~Barty, T.~A. White, R.~A. Kirian, A.~Aquila, M.~S.
+  Hunter, J.~Schulz, D.~P. DePonte, U.~Weierstall, et~al.
+\newblock Femtosecond x-ray protein nanocrystallography.
+\newblock \emph{Nature}, 470\penalty0 (7332):\penalty0 73--77, 2011.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature09750}.
+
+\bibitem[Emma et~al.(2010)Emma, Akre, Arthur, Bionta, Bostedt, Bozek,
+  Brachmann, Bucksbaum, Coffee, Decker, et~al.]{Emma-2010-NatPho}
+P.~Emma, R.~Akre, J.~Arthur, R.~Bionta, C.~Bostedt, J.~Bozek, A.~Brachmann,
+  P.~Bucksbaum, R.~Coffee, F.~J. Decker, et~al.
+\newblock First lasing and operation of an ångstrom-wavelength free-electron
+  laser.
+\newblock \emph{Nat. Photonics}, 4\penalty0 (9):\penalty0 641--647, 2010.
+\newblock ISSN 1749-4885.
+
+\bibitem[Bostedt et~al.(2016)Bostedt, Boutet, Fritz, Huang, Lee, Lemke, Robert,
+  Schlotter, Turner, and Williams]{Bostedt-2016-RMP}
+Christoph Bostedt, S\'ebastien Boutet, David~M. Fritz, Zhirong Huang, Hae~Ja
+  Lee, Henrik~T. Lemke, Aymeric Robert, William~F. Schlotter, Joshua~J. Turner,
+  and Garth~J. Williams.
+\newblock Linac coherent light source: The first five years.
+\newblock \emph{Rev. Mod. Phys.}, 88:\penalty0 015007, Mar 2016.
+\newblock \doi{10.1103/RevModPhys.88.015007}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/RevModPhys.88.015007}.
+
 \bibitem[Chapman et~al.(2006)Chapman, Barty, Bogan, Boutet, Frank, Hau-Riege,
   Marchesini, Woods, Bajt, Benner, et~al.]{Chapman-2006-NatPhys}
 Henry~N. Chapman, Anton Barty, Michael~J. Bogan, Sébastien Boutet, Matthias
@@ -44,31 +72,6 @@ Henry~N. Chapman, Anton Barty, Michael~J. Bogan, Sébastien Boutet, Matthias
 \newblock \emph{Nature Physics}, 2\penalty0 (12):\penalty0 839--843, 2006.
 \newblock \doi{10.1038/nphys461}.
 \newblock URL \url{<Go to ISI>://WOS:000242478000021}.
-
-\bibitem[Chapman et~al.(2011)Chapman, Fromme, Barty, White, Kirian, Aquila,
-  Hunter, Schulz, DePonte, Weierstall, et~al.]{Chapman-2011-Nature}
-H.~N. Chapman, P.~Fromme, A.~Barty, T.~A. White, R.~A. Kirian, A.~Aquila, M.~S.
-  Hunter, J.~Schulz, D.~P. DePonte, U.~Weierstall, et~al.
-\newblock Femtosecond x-ray protein nanocrystallography.
-\newblock \emph{Nature}, 470\penalty0 (7332):\penalty0 73--77, 2011.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature09750}.
-
-\bibitem[Neutze et~al.(2000)Neutze, Wouts, van~der Spoel, Weckert, and
-  Hajdu]{Neutze-2000-Nature}
-R.~Neutze, R.~Wouts, D.~van~der Spoel, E.~Weckert, and J.~Hajdu.
-\newblock Potential for biomolecular imaging with femtosecond x-ray pulses.
-\newblock \emph{Nature}, 406\penalty0 (6797):\penalty0 752--757, 2000.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/35021099}.
-
-\bibitem[Aquila et~al.(2015)Aquila, Barty, Bostedt, Boutet, Carini, dePonte,
-  Drell, Doniach, Downing, Earnest, et~al.]{Aquila-2015-StrucDyn}
-A.~Aquila, A.~Barty, C.~Bostedt, S.~Boutet, G.~Carini, D.~dePonte, P.~Drell,
-  S.~Doniach, K.~H. Downing, T.~Earnest, et~al.
-\newblock The linac coherent light source single particle imaging road map.
-\newblock \emph{Structural Dynamics}, 2\penalty0 (4):\penalty0 041701, 2015.
-\newblock \doi{http://dx.doi.org/10.1063/1.4918726}.
 
 \bibitem[Seibert et~al.(2011)Seibert, Ekeberg, Maia, Svenda, Andreasson,
   Jonsson, Odic, Iwan, Rocker, Westphal, et~al.]{Seibert-2011-Nature}
@@ -111,25 +114,6 @@ I.~Barke, H.~Hartmann, D.~Rupp, L.~Fl{\"{u}}ckiger, M.~Sauppe, M.~Adolph,
 \newblock \doi{10.1038/ncomms7187}.
 \newblock URL
   \url{http://www.nature.com/ncomms/2015/150204/ncomms7187/full/ncomms7187.html}.
-
-\bibitem[Emma et~al.(2010)Emma, Akre, Arthur, Bionta, Bostedt, Bozek,
-  Brachmann, Bucksbaum, Coffee, Decker, et~al.]{Emma-2010-NatPho}
-P.~Emma, R.~Akre, J.~Arthur, R.~Bionta, C.~Bostedt, J.~Bozek, A.~Brachmann,
-  P.~Bucksbaum, R.~Coffee, F.~J. Decker, et~al.
-\newblock First lasing and operation of an ångstrom-wavelength free-electron
-  laser.
-\newblock \emph{Nat. Photonics}, 4\penalty0 (9):\penalty0 641--647, 2010.
-\newblock ISSN 1749-4885.
-
-\bibitem[Bostedt et~al.(2016)Bostedt, Boutet, Fritz, Huang, Lee, Lemke, Robert,
-  Schlotter, Turner, and Williams]{Bostedt-2016-RMP}
-Christoph Bostedt, S\'ebastien Boutet, David~M. Fritz, Zhirong Huang, Hae~Ja
-  Lee, Henrik~T. Lemke, Aymeric Robert, William~F. Schlotter, Joshua~J. Turner,
-  and Garth~J. Williams.
-\newblock Linac coherent light source: The first five years.
-\newblock \emph{Rev. Mod. Phys.}, 88:\penalty0 015007, Mar 2016.
-\newblock \doi{10.1103/RevModPhys.88.015007}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/RevModPhys.88.015007}.
 
 \bibitem[Young et~al.(2010)Young, Kanter, Krassig, Li, March, Pratt, Santra,
   Southworth, Rohringer, Dimauro, et~al.]{Young-2010-Nature}
@@ -204,6 +188,14 @@ Stefan~P. Hau-Riege, S{\'{e}}bastien Boutet, Anton Barty, Sa{\v{s}}a Bajt,
   1--4, 2010{\natexlab{a}}.
 \newblock ISSN 00319007.
 \newblock \doi{10.1103/PhysRevLett.104.064801}.
+
+\bibitem[Aquila et~al.(2015)Aquila, Barty, Bostedt, Boutet, Carini, dePonte,
+  Drell, Doniach, Downing, Earnest, et~al.]{Aquila-2015-StrucDyn}
+A.~Aquila, A.~Barty, C.~Bostedt, S.~Boutet, G.~Carini, D.~dePonte, P.~Drell,
+  S.~Doniach, K.~H. Downing, T.~Earnest, et~al.
+\newblock The linac coherent light source single particle imaging road map.
+\newblock \emph{Structural Dynamics}, 2\penalty0 (4):\penalty0 041701, 2015.
+\newblock \doi{http://dx.doi.org/10.1063/1.4918726}.
 
 \bibitem[Mills et~al.(2005)Mills, Helliwell, Kvick, Ohta, Robinson, and
   Authier]{Mills-2005-IUCR}
@@ -388,6 +380,24 @@ Kwang-Je Kim, Yuri Shvyd'ko, and Sven Reiche.
 \newblock \doi{10.1103/PhysRevLett.100.244802}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.100.244802}.
 
+\bibitem[Ratner et~al.(2015)Ratner, Abela, Amann, Behrens, Bohler, Bouchard,
+  Bostedt, Boyes, Chow, Cocco, Decker, Ding, Eckman, Emma, Fairley, Feng,
+  Field, Flechsig, Gassner, Hastings, Heimann, Huang, Kelez, Krzywinski, Loos,
+  Lutman, Marinelli, Marcus, Maxwell, Montanez, Moeller, Morton, Nuhn, Rodes,
+  Schlotter, Serkez, Stevens, Turner, Walz, Welch, and Wu]{Ratner-2015-PRL}
+D.~Ratner, R.~Abela, J.~Amann, C.~Behrens, D.~Bohler, G.~Bouchard, C.~Bostedt,
+  M.~Boyes, K.~Chow, D.~Cocco, F.~J. Decker, Y.~Ding, C.~Eckman, P.~Emma,
+  D.~Fairley, Y.~Feng, C.~Field, U.~Flechsig, G.~Gassner, J.~Hastings,
+  P.~Heimann, Z.~Huang, N.~Kelez, J.~Krzywinski, H.~Loos, A.~Lutman,
+  A.~Marinelli, G.~Marcus, T.~Maxwell, P.~Montanez, S.~Moeller, D.~Morton,
+  H.~D. Nuhn, N.~Rodes, W.~Schlotter, S.~Serkez, T.~Stevens, J.~Turner,
+  D.~Walz, J.~Welch, and J.~Wu.
+\newblock Experimental demonstration of a soft x-ray self-seeded free-electron
+  laser.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 054801, Feb 2015.
+\newblock \doi{10.1103/PhysRevLett.114.054801}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.114.054801}.
+
 \bibitem[Fletcher et~al.(2015)Fletcher, Lee, D{\"o}ppner, Galtier, Nagler,
   Heimann, Fortmann, LePape, Ma, Millot, et~al.]{Fletcher-2015-NatPho}
 L.~B. Fletcher, H.~J. Lee, T.~D{\"o}ppner, E.~Galtier, B.~Nagler, P.~Heimann,
@@ -408,24 +418,6 @@ J.~Amann, W.~Berg, V.~Blank, F.~J. Decker, Y.~Ding, P.~Emma, Y.~Feng,
 \newblock \doi{10.1038/NPHOTON.2012.180}.
 \newblock URL
   \url{http://www.nature.com/nphoton/journal/v6/n10/pdf/nphoton.2012.180.pdf}.
-
-\bibitem[Ratner et~al.(2015)Ratner, Abela, Amann, Behrens, Bohler, Bouchard,
-  Bostedt, Boyes, Chow, Cocco, Decker, Ding, Eckman, Emma, Fairley, Feng,
-  Field, Flechsig, Gassner, Hastings, Heimann, Huang, Kelez, Krzywinski, Loos,
-  Lutman, Marinelli, Marcus, Maxwell, Montanez, Moeller, Morton, Nuhn, Rodes,
-  Schlotter, Serkez, Stevens, Turner, Walz, Welch, and Wu]{Ratner-2015-PRL}
-D.~Ratner, R.~Abela, J.~Amann, C.~Behrens, D.~Bohler, G.~Bouchard, C.~Bostedt,
-  M.~Boyes, K.~Chow, D.~Cocco, F.~J. Decker, Y.~Ding, C.~Eckman, P.~Emma,
-  D.~Fairley, Y.~Feng, C.~Field, U.~Flechsig, G.~Gassner, J.~Hastings,
-  P.~Heimann, Z.~Huang, N.~Kelez, J.~Krzywinski, H.~Loos, A.~Lutman,
-  A.~Marinelli, G.~Marcus, T.~Maxwell, P.~Montanez, S.~Moeller, D.~Morton,
-  H.~D. Nuhn, N.~Rodes, W.~Schlotter, S.~Serkez, T.~Stevens, J.~Turner,
-  D.~Walz, J.~Welch, and J.~Wu.
-\newblock Experimental demonstration of a soft x-ray self-seeded free-electron
-  laser.
-\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 054801, Feb 2015.
-\newblock \doi{10.1103/PhysRevLett.114.054801}.
-\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.114.054801}.
 
 \bibitem[Allaria et~al.(2012)Allaria, Appio, Badano, Barletta, Bassanese,
   Biedron, Borga, Busetto, Castronovo, Cinquegrana,
@@ -594,23 +586,6 @@ J.~M. Soler, N.~Garc\'{\i}a, O.~Echt, K.~Sattler, and E.~Recknagel.
 \newblock \doi{10.1103/PhysRevLett.49.1857}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.49.1857}.
 
-\bibitem[Miller(1988)]{Miller-1988-Oxford}
-David~R. Miller.
-\newblock Free jet sources.
-\newblock In Giacinto Scoles, editor, \emph{Atomic and Molecular Beam Methods},
-  chapter~2, pages 14--53. Oxford University Press, Inc., 1988.
-
-\bibitem[Yamada et~al.(2001)Yamada, Matsuo, Toyoda, and
-  Kirkpatrick]{Yamada-2001-SciDir}
-I.~Yamada, J.~Matsuo, N.~Toyoda, and A.~Kirkpatrick.
-\newblock Materials processing by gas cluster ion beams.
-\newblock \emph{Materials Science and Engineering: R: Reports}, 34\penalty0
-  (6):\penalty0 231--295, 2001.
-\newblock ISSN 0927796X.
-\newblock \doi{10.1016/S0927-796X(01)00034-1}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0927796X01000341}.
-
 \bibitem[Farges et~al.(1981)Farges, de~Feraudy, Raoult, and
   Torchet]{Farges-1981-SurfSci}
 J.~Farges, M.~F. de~Feraudy, B.~Raoult, and G.~Torchet.
@@ -628,6 +603,30 @@ J~Gspann.
   Heidelberg.
 \newblock ISBN 978-3-642-71571-6.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-71571-6{\_}7}.
+
+\bibitem[Gomez et~al.(2011)Gomez, Loginov, Sliter, and Vilesov]{Gomez-2011-JCP}
+Luis~F. Gomez, Evgeny Loginov, Russell Sliter, and Andrey~F. Vilesov.
+\newblock {Sizes of large He droplets}.
+\newblock \emph{Journal of Chemical Physics}, 135\penalty0 (15), 2011.
+\newblock ISSN 00219606.
+\newblock \doi{10.1063/1.3650235}.
+
+\bibitem[Miller(1988)]{Miller-1988-Oxford}
+David~R. Miller.
+\newblock Free jet sources.
+\newblock In Giacinto Scoles, editor, \emph{Atomic and Molecular Beam Methods},
+  chapter~2, pages 14--53. Oxford University Press, Inc., 1988.
+
+\bibitem[Yamada et~al.(2001)Yamada, Matsuo, Toyoda, and
+  Kirkpatrick]{Yamada-2001-SciDir}
+I.~Yamada, J.~Matsuo, N.~Toyoda, and A.~Kirkpatrick.
+\newblock Materials processing by gas cluster ion beams.
+\newblock \emph{Materials Science and Engineering: R: Reports}, 34\penalty0
+  (6):\penalty0 231--295, 2001.
+\newblock ISSN 0927796X.
+\newblock \doi{10.1016/S0927-796X(01)00034-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0927796X01000341}.
 
 \bibitem[Schorb(2012)]{Schorb-2012-Thesis}
 Sebastian Schorb.
@@ -661,12 +660,46 @@ Otto~F. Hagena.
 \newblock ISSN 01787683.
 \newblock \doi{10.1007/BF01436638}.
 
-\bibitem[Bartell(1986)]{Bartell-1986-ChemRev}
-Lawrence~S Bartell.
-\newblock {Diffraction studies of clusters generated in supersonic flow}.
-\newblock \emph{Chemical Reviews}, 86\penalty0 (3):\penalty0 491, 1986.
-\newblock ISSN 0009-2665.
-\newblock \doi{10.1021/cr00073a001}.
+\bibitem[Buck and Krohne(1996)]{Buck-1996-JChemPhys}
+Udo Buck and Reinhard Krohne.
+\newblock {Cluster size determination from diffractive He atom scattering}.
+\newblock \emph{The Journal of Chemical Physics}, 105\penalty0 (13):\penalty0
+  5408--5415, oct 1996.
+\newblock ISSN 0021-9606.
+\newblock \doi{10.1063/1.472406}.
+\newblock URL
+  \url{http://link.aip.org/link/JCPSA6/v105/i13/p5408/s1{\&}Agg=doi$\backslash$nhttp://scitation.aip.org/content/aip/journal/jcp/105/13/10.1063/1.472406
+  http://aip.scitation.org/doi/10.1063/1.472406}.
+
+\bibitem[Dorchies et~al.(2003)Dorchies, Blasco, Caillaud, Stevefelt, Stenz,
+  Boldarev, and Gasilov]{Dorchies-2003-PRA}
+F.~Dorchies, F.~Blasco, T.~Caillaud, J.~Stevefelt, C.~Stenz, A.~S. Boldarev,
+  and V.~A. Gasilov.
+\newblock {Spatial distribution of cluster size and density in supersonic jets
+  as targets for intense laser pulses}.
+\newblock \emph{Physical Review A}, 68\penalty0 (2):\penalty0 023201, aug 2003.
+\newblock ISSN 1050-2947.
+\newblock \doi{10.1103/PhysRevA.68.023201}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevA.68.023201}.
+
+\bibitem[Hagena(1992)]{Hagena-1992-RSI}
+Otto~F. Hagena.
+\newblock {Cluster ion sources (invited)}.
+\newblock \emph{Review of Scientific Instruments}, 63\penalty0 (4):\penalty0
+  2374--2379, apr 1992.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.1142933}.
+\newblock URL \url{http://aip.scitation.org/doi/10.1063/1.1142933}.
+
+\bibitem[Bush et~al.(1998)Bush, Bell, Frey, and Mestdagh]{Bush-1998-JPhysChemA}
+Andrew~M Bush, Andrew~J Bell, Jeremy~G Frey, and J.-M. Mestdagh.
+\newblock {Rayleigh Scattering of Laser and Synchrotron Radiation from Pulsed
+  Free Jets of Ar n and (N 2 O) n Clusters}.
+\newblock \emph{The Journal of Physical Chemistry A}, 102\penalty0
+  (32):\penalty0 6457--6463, aug 1998.
+\newblock ISSN 1089-5639.
+\newblock \doi{10.1021/jp9814810}.
+\newblock URL \url{http://pubs.acs.org/doi/abs/10.1021/jp9814810}.
 
 \bibitem[Rupp et~al.(2014)Rupp, Adolph, Fl??ckiger, Gorkhover, M{\"u}ller,
   M{\"u}ller, Sauppe, Wolter, Schorb, Treusch, Bostedt, and
@@ -681,23 +714,34 @@ Daniela Rupp, Marcus Adolph, Leonie Fl??ckiger, Tais Gorkhover, Jan~Philippe
 \newblock \doi{10.1063/1.4890323}.
 \newblock URL \url{http://dx.doi.org/10.1063/1.4890323}.
 
+\bibitem[Bartell(1986)]{Bartell-1986-ChemRev}
+Lawrence~S Bartell.
+\newblock {Diffraction studies of clusters generated in supersonic flow}.
+\newblock \emph{Chemical Reviews}, 86\penalty0 (3):\penalty0 491, 1986.
+\newblock ISSN 0009-2665.
+\newblock \doi{10.1021/cr00073a001}.
+
+\bibitem[Rupp et~al.(2012)Rupp, Adolph, Gorkhover, Schorb, Wolter, Hartmann,
+  Kimmel, Reich, Feigl, de~Castro, et~al.]{Rupp-2012-NJP}
+D~Rupp, M~Adolph, T~Gorkhover, S~Schorb, D~Wolter, R~Hartmann, N~Kimmel,
+  C~Reich, T~Feigl, A~R~B de~Castro, et~al.
+\newblock Identification of twinned gas phase clusters by single-shot
+  scattering with intense soft x-ray pulses.
+\newblock \emph{New Journal of Physics}, 14\penalty0 (5):\penalty0 055016,
+  2012.
+\newblock URL \url{http://stacks.iop.org/1367-2630/14/i=5/a=055016}.
+
 \bibitem[Gough et~al.(1985)Gough, Mengel, Rowntree, and
   Scoles]{Gough-1985-JChemPhys}
 T.~E. Gough, M.~Mengel, P.~a. Rowntree, and G.~Scoles.
-\newblock {Infrared spectroscopy at the surface of clusters: SF6 on Ar}.
+\newblock {Infrared spectroscopy at the surface of clusters: SF 6 on Ar}.
 \newblock \emph{The Journal of Chemical Physics}, 83\penalty0 (10):\penalty0
-  4958, 1985.
-\newblock ISSN 00219606.
+  4958--4961, nov 1985.
+\newblock ISSN 0021-9606.
 \newblock \doi{10.1063/1.449757}.
 \newblock URL
-  \url{http://scitation.aip.org/content/aip/journal/jcp/83/10/10.1063/1.449757}.
-
-\bibitem[Gomez et~al.(2011)Gomez, Loginov, Sliter, and Vilesov]{Gomez-2011-JCP}
-Luis~F. Gomez, Evgeny Loginov, Russell Sliter, and Andrey~F. Vilesov.
-\newblock {Sizes of large He droplets}.
-\newblock \emph{Journal of Chemical Physics}, 135\penalty0 (15), 2011.
-\newblock ISSN 00219606.
-\newblock \doi{10.1063/1.3650235}.
+  \url{http://scitation.aip.org/content/aip/journal/jcp/83/10/10.1063/1.449757
+  http://aip.scitation.org/doi/10.1063/1.449757}.
 
 \bibitem[Guinier and Fournet(1955)]{Guinier-1955-JWS}
 Andr{\'e} Guinier and G{\'e}rard Fournet.

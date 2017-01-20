@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{\nonumberline The Twin-bunch or Lorentz factor based pump--probe scheme}{15}{section*.6}
 \contentsline {section}{\numberline {2.2}Rare-gas clusters}{16}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Generation of homogenous clusters}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Creation of heterogeneous clusters: The pickup principle}{22}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Creation of heterogeneous clusters: The pickup principle}{23}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Soft X-rays in matter}{24}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Diffractive imaging}{24}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Ionization of matter}{28}{subsection.2.3.2}

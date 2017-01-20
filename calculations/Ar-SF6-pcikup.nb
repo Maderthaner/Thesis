@@ -1,0 +1,80 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1835,         70]
+NotebookOptionsPosition[      1403,         49]
+NotebookOutlinePosition[      1762,         65]
+CellTagsIndexPosition[      1719,         62]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"\[CapitalGamma]", "=", 
+  RowBox[{"1646", "*", 
+   SuperscriptBox["300", 
+    RowBox[{
+     RowBox[{"0.25", " ", "0.85"}], " ", "-", " ", "1.5"}]], "15500", " ", 
+   SuperscriptBox["500", "0.85"]}]}]], "Input",
+ CellChangeTimes->{{3.6938542770386953`*^9, 3.693854309764894*^9}, {
+  3.69385434871054*^9, 3.6938543515642033`*^9}}],
+
+Cell[BoxData["3.247823480607859`*^6"], "Output",
+ CellChangeTimes->{3.693854310925205*^9, 3.693854352163872*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"33", "*", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    FractionBox["\[CapitalGamma]", "1000"], ")"}], "2.35"]}]], "Input",
+ CellChangeTimes->{{3.693854342276678*^9, 3.6938543647558317`*^9}}],
+
+Cell[BoxData["5.898697438298449`*^9"], "Output",
+ CellChangeTimes->{3.6938543651828527`*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 755},
+WindowMargins->{{207, Automatic}, {-186, Automatic}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 352, 8, 30, "Input"],
+Cell[934, 32, 112, 1, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1083, 38, 209, 5, 46, "Input"],
+Cell[1295, 45, 92, 1, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
