@@ -127,8 +127,8 @@ A special free electron laser (FEL) beam mode is the seeded type. In contrast to
 \begin{figure}
 	\centering
 		\includegraphics[width=0.40\textwidth]{images/Soft-X-ray-self-seeding.pdf}
-		\includegraphics[width=0.40\textwidth]{images/spectral-brightness-fletcher-2015.jpg}
-	\caption[Soft X-ray self-seeding spectra and brilliance of various lightsources.]{Left, normalized average spectra of soft X-ray self-seeding (SXRSS) operations using the AMO instrument at LCLS \citep[see][]{Bucher-2014-Unpublished}. The self-seeding spectra is characterized by a sharp spectral peak around a desired energy accompanied by a SASE-radiation-type spectral pedestal. The often undesired SASE pedestal is suppressed, when the electron bunch travel through undulators is shortened. The right image shows the peak spectral brightness of various light sources over a wide photon energy range. SXRSS operations have a spectral brightness that exceeds current SASE FEL sources. From \citep{Fletcher-2015-NatPho}.}
+		\includegraphics[width=0.40\textwidth]{images/spectral-brightness-fletcher-2015-corr.jpg}
+	\caption[Soft X-ray self-seeding spectra and brilliance of various lightsources.]{Left, normalized average spectra of soft X-ray self-seeding (SXRSS) operations using the AMO instrument at LCLS \citep[see][]{Bucher-2014-Unpublished}. The self-seeding spectra is characterized by a sharp spectral peak around a desired energy accompanied by a SASE-radiation-type spectral pedestal. The often undesired SASE pedestal is suppressed, when the electron bunch travel through undulators is shortened. The right image shows the peak spectral brightness of various light sources over a wide photon energy range. SXRSS operations have a spectral brightness that exceeds current SASE FEL sources. Adapted from \citep{Fletcher-2015-NatPho}.}
 	\label{fig:soft-xray-self-seeding}
 \end{figure}
 %
@@ -159,7 +159,7 @@ The in this thesis used accelerator-based X-ray pump--X-ray probe method, can al
 %
 %
 %
-\subsubsection{Undulator parameter-$K$ based pump--probe schemes}
+\subsubsection{Undulator parameter-$K$ based pump--probe schemes}\label{sec:k-based-pump--probe}
 %
 \begin{figure}
 	\centering
@@ -192,14 +192,14 @@ with $N_{u}$ being the undulator periods. Given the parameters in study \citep{L
 %
 %
 %
-\subsubsection{The Twin-bunch or Lorentz factor based pump--probe scheme}
+\subsubsection{The Twin-bunch or Lorentz factor based pump--probe scheme}\label{sec:twin-bunch-pump-probe}
 \begin{figure}
 	\centering
 		\includegraphics[width=1.00\textwidth]{images/Agos-pump-probe-scheme.png}
 	\caption[Schematic setup of a bunch based pump-probe setup.]{Schematic setup of the two bunch, two color pump--probe setup at LCLS. Two laser pulses shot at a cathode create two electron bunches with a delay $\Delta t$ on the picosecond timescale. Two magnetic chicanes compress the bunches such that a delay $\Delta t$ is on the ten femtosecond timescale. Both pulses go through one undulator section and the lasing process is saturated. The relative color separation is on the order of $\SI{1}{\percent}$ between the bunches. From \citep[\href{http://creativecommons.org/licenses/by/4.0/}{\ccby}]{Marinelli-2015-NatComm}.}
 	\label{fig:Agos-pump-probe-scheme}
 \end{figure}
-The second developed accelerator-based X-ray pump-X-ray probe technique at LCLS \citep{Marinelli-2015-NatComm} uses two electron bunches of different energy. A schematic setup of this beam operation can be found in Figure \ref{fig:Agos-pump-probe-scheme}. The electron bunches are created through a double laser pulse that impinges on a photocathode. Initially, these two bunches are delayed by a few picoseconds, however, two magnetic chicanes compress the peak current of the electron bunches from \SI{20}{\ampere} to \SI{4}{\kilo\ampere} such that after the acceleration in the linac a time delay on the ten-femtosecond timescale is achieved. Also after the acceleration stage, the electron bunch also have a difference in kinetic energy, i.e., Lorentz factor, $\gamma$. When the electron bunches then travel through the undulator section, both pulses saturate in their lasing process at different colors. For \SI{8.3}{\kilo\electronvolt} photons, both pulses combined can reach pulse energies of \SI{1.2}{\milli\joule}, the color separation is $100$ eV, and the time separation ranges from $\Delta t_{\text{min}}=\SI{0}{\femto\second}$ to $\Delta t_{\text{max}}=\SI{100}{\femto\second}$. For hard X-rays, this method requires the pump-pulse to have a higher photon energy than the probe-pulse, although their respective intensities may vary. For soft X-rays, the slotted spoiler foil can be used. This enables further control over the electron bunches and allows crossing time zero with both pulses.
+The second developed accelerator-based X-ray pump-X-ray probe technique at LCLS \citep{Marinelli-2015-NatComm} uses two electron bunches of different energy. A schematic setup of this beam operation can be found in Figure \ref{fig:Agos-pump-probe-scheme}. The electron bunches are created through a double laser pulse that impinges on a photo-cathode. Initially, these two bunches are delayed by a few picoseconds, however, two magnetic chicanes compress the peak current of the electron bunches from \SI{20}{\ampere} to \SI{4}{\kilo\ampere} such that after the acceleration in the linac a time delay on the ten-femtosecond timescale is achieved. Also after the acceleration stage, the electron bunch also have a difference in kinetic energy, i.e., Lorentz factor, $\gamma$. When the electron bunches then travel through the undulator section, both pulses saturate in their lasing process at different colors. For \SI{8.3}{\kilo\electronvolt} photons, both pulses combined can reach pulse energies of \SI{1.2}{\milli\joule}, the color separation is $100$ eV, and the time separation ranges from $\Delta t_{\text{min}}=\SI{0}{\femto\second}$ to $\Delta t_{\text{max}}=\SI{100}{\femto\second}$. For hard X-rays, this method requires the pump-pulse to have a higher photon energy than the probe-pulse, although their respective intensities may vary. For soft X-rays, the slotted spoiler foil can be used. This enables further control over the electron bunches and allows crossing time zero with both pulses.
 %%%
 \section{Rare-gas clusters}\label{sec:cluster-theory}
 %%%%%%%%
@@ -339,9 +339,9 @@ Supersonic jets generally create clusters of different sizes. This size distribu
 	\caption[Schematic of a pickup (gas-)source.]{Schematic setup to generate heterogeneous clusters through pickup. Thereby is a cluster generated via supersonic gas expansion, which is doped at regions marked A or B. In region A, the dopant gas is mixed in the nozzle such that it becomes part of the nucleus. In region B, the cluster condenses atoms on its surface from the background gas of the chamber with pressure $p_{\text{du}}$. The cluster can be detected upon evaporation, e.g., due to contact with the chamber, through the pressure $p_{\text{de}}$. After \citep{Gough-1985-JChemPhys,Haberland-1994-Springer}.}
 	\label{fig:pickupPrinciple}
 \end{figure}
-A possibility to create heterogeneous clusters is through the principle of picking-up atoms or molecules \citep{Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different places where the cluster encounters a dopant material, one, monomers are added to the cluster in region A of Figure \ref{fig:pickupPrinciple}, which represents the nozzle of a supersonic source and can be achieved by, e.g., co-expanding a gas-mixture; two, they can be picked up by a cluster in region B, for example, through an increased chamber pressure $p_{du}$ with the dopant material. If clusters encounter atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they typically stick to the surface of solid clusters. If a liquid or superfluid cluster picks up a dopant, it may move within the droplet. Since the traversing cluster is much larger and heavier than a colliding monomer, the trajectory is not affected significantly. Ar-cluster with $\left\langle N\right\rangle = \num{5.9e9}$ particles can pick-up \SI{0.05}{\percent} as many SF6 molecules with chamber pressures of $p_{du}=\SI{2e-8}{\bar}$ over a pickup length of a few centimeters \citep{Gough-1985-JChemPhys}. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much gas-load on the overall system. In this work, gaseous xenon was picked up by superfluid helium droplets in region B.\\[1\baselineskip]
+A possibility to create heterogeneous clusters is through the principle of picking-up atoms or molecules \citep{Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different places where the cluster encounters a dopant material, one, monomers are added to the cluster in region A of Figure \ref{fig:pickupPrinciple}, which represents the nozzle of a supersonic source and can be achieved by, e.g., co-expanding a gas-mixture; two, they can be picked up by a cluster in region B, for example, through an increased chamber pressure $p_{du}$ with the dopant material. If clusters encounter atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they typically stick to the surface of solid clusters. If a liquid or superfluid cluster picks up a dopant, it may move within the droplet. Since the traversing cluster is much larger and heavier than a colliding monomer, the trajectory is not affected significantly. Ar-cluster with $\left\langle N\right\rangle = \num{5.9e9}$ particles can pick-up \SI{0.05}{\percent} as many SF6 molecules with chamber pressures of $p_{du}=\SI{2e-5}{\milli\bar}$ over a pickup length of a few centimeters \citep{Gough-1985-JChemPhys}. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much gas-load on the overall system. In this work, gaseous xenon was picked up by superfluid helium droplets in region B.\\[1\baselineskip]
 %
-To understand the doping process further, the following considerations are helpful. When a cluster and a dopant\index{dopant} bond, the binding energy that is specific to the materials is added system. This is similar to the cluster growth process itself. The cluster will lose this energy through evaporation of monomers \citep{Gomez-2011-JCP}. The loss of particles through evaporative cooling is dependent on the ratio of binding energies of the two materials and can be expressed as
+To understand the doping process further, the following considerations are useful. When a cluster and a dopant\index{dopant} bond, the binding energy that is specific to the materials is added system. This is similar to the cluster growth process itself. The cluster will lose this energy through evaporation of monomers \citep{Gomez-2011-JCP}. The loss of particles through evaporative cooling is dependent on the ratio of binding energies of the two materials and can be expressed as
 \begin{equation}
 N_{\text{Evaporated from cluster}} \approx \frac{\epsilon_{\text{cluster}}}{\epsilon_{\text{dopant}}},
 \label{eq:evaporated-amount}
@@ -363,187 +363,43 @@ such that the mean amount of picked up atoms, $\left\langle N_{\text{dopant}}\ri
 %- Mie scattering in a nutshell
 %%%%%%%%%%%%%%%%%%%%%%%
 %
-\section{Soft X-rays in matter}\label{sec:light-matter-interaction}
+\section{Fundamental processes of soft X-rays and nanoparticles}\label{sec:light-matter-interaction}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{images/absorption-cross-section-carbon-ken.jpg}
+	\caption{The total cross-section of atomic carbon, $\sigma_{\text{tot}}$, as a function of energy. Several processes add to, $\sigma_{\text{tot}}$: $\tau$, is the photoionization; $\sigma_{\text{coh}}$, is coherent scattering; $\sigma_{\text{incoh}}$, is the incoherent scattering; $\sigma_{ph}$, is photonuclear absorption; $\kappa_{n}$, and $\kappa_{e}$, are pair-production events. At the experimental photon energy of \SI{837}{\electronvolt}, the dominant effects are photoionization and coherent scattering. From \citep{Ferguson-2016-PhD,Williams-2009-xb}.}
+	\label{fig:absorption-cross-section-carbon-ken}
+\end{figure}
+%
 %We may break down the light-matter interaction into five categories, 1) coherent-elastic scattering (see sub-Section \ref{sec:saxs}), 2) resonant processes (absorption, see sub-Section \ref{sec:absorption}), 3) incoherent scattering (Compton effect), high-energy physics effects of 4) pair production, and 5) absorption effects with the nucleus. The effects are dependent on the wavelength and the cross-sections for  effects 3-5 are so small that they can be neglected in the soft X-ray regime. We will therefore concentrate the following sub-sections on points 1-2 and restrict ourselves to the for the experiment necessary theory.
-When light interacts with a nanoparticle it either scatters or is absorbed. Although XFEL are intense lightsources, we can reduce the considerations in this section to the elastic and coherent scattering as well as relevant resonant effects. The Section \ref{sec:saxs} discusses the scattering of an electron and extends this concept to the scattering and imaging of a nanoparticle. The Section \ref{sec:absorption} discusses several effects due to absorption and the Section \ref{sec:relaxation} discusses effects that occur after the absorption of a photon. This way, we follow the discussion in \citep{Als-Nielson-2011-JWS} and avoid effects that have negligible cross-sections such as the Compton effect, the pair-production, and the scattering from the nucleus. 
+Nanoparticle respond to intense X-ray radiation by scattering or absorbing the rays. Figure \ref{fig:absorption-cross-section-carbon-ken} shows the most probable processes in the X-ray wavelength range. For soft X-rays, the processes can be reduced to the photoionization process and the coherent and elastic scattering. The Section \ref{sec:absorption} discusses photoionization and the resulting core-hole decay processes; section \ref{sec:saxs} discusses the coherent and elastic scattering of an electron and extends this concept to the scattering and imaging of a nanoparticle; the section \ref{sec:generalized-index-of-refraction} generalizes the refractive index. The chapter follows the discussion in \citep{Als-Nielson-2011-JWS} and avoid effects that have negligible cross-sections such as the Compton effect, the pair-production, and the scattering from the nucleus.
 %This section will give  a brief introduction into the elastic scattering of X-rays with matter. The actual scattering process is very complex as it is an interplay of coherent, incoherent and elastic, inelastic processes. Fortunately, we can reduce the scattering description to its main process: The coherent and elastic scattering. In other words, we neglect Compton scattering (incoherent), any kind of absorption processes (inelastic) and effects form the scattering of multiple particles. We will then start this section by looking at the small angle scattering of atoms and continue on to extended objects such as clusters. The section is rounded off by an introduction to the inverse problem and basic algorithm ideas to overcome the issue of phase retrieval.
 %Photons can also be absorbed by atoms in which case an electron get either excited to another state or ionized. At X-ray wavelengths matter typically gets ionized in the inner shells. Upon absorption a cascade of relaxation processes begins and the now ionized atom finds the new most energetic favorable state. These processes are particularly dependent on the wavelength of the incident photons but also the type of atom. This chapter is devoted to these processes and particular the absorption process is described in Section \ref{sec:absorption} and the relaxation processes in \ref{sec:relaxation}.
 %
 %
 %
-\subsection{Diffractive imaging}\label{sec:saxs}
-%%%%%%%%%%
-%- Switch to Guiniers approximation and description\\
-%- Work towards small angle scattering of small particles\\
-%- Particular spheres\\
-%- Discuss extreme positions
-%%%%%%%%%%%
-When light interacts with nanoobjects the fundamental scatterers are electrons. Let us first consider the scattering of an electron as a result of being accelerated in an electro-magnetic field, i.e., a light wave. Then, we proceed to the scattering of an atom followed by the scattering of an extended object with a continuous electron density.\\[1\baselineskip]
-%We can describe an electric field of a light wave semi-classically via the following expression \citep{Als-Nielson-2011-JWS}
-%\begin{equation}
-%\vec{E}(\vec{r},t) = \vec{\epsilon} E_{0} e^{i \left(\vec{k}\cdot\vec{r}-\omega_{0}t\right)},
-%\end{equation}
-%with $\vec{r}$ the Cartesian coordinate vector, $\hbar \vec{k}$ the momentum of a photon, $\hbar \omega_{0}$ the energy of a photon, $E_{0}$ the incident amplitude, and \vec{\epsilon} an unit vector due to the polarization. $\vec{\epsilon}$ obeys $\vec{\epsilon}\cdot\vec{k}=\vec{k}\cdot\vec{E}=\vec{k}\cdot\vec{B}=0$, with the magnetic field $\vec{B}$, as the electro-magnetic waves are transverse. To avoid delving into a quantum mechanic description, we shall call \vec{k} the wavevector.
-Let us intriduce the electric field of an incident wave $E_{in}=E_{0}e^{-i\omega t}$ that will irradiate an electron. The electron is accelerated in this electric field and will thus start to emit radiation similarly to a small dipole antenna. We can write this radiated electric field as \citep{Als-Nielson-2011-JWS}
-\begin{equation}
-E_{rad}(R,t)=-\underbrace{\left(\frac{e^2}{4\pi \epsilon_0 m c^2}\right)}_{r_{0}}\ E_{in}\ \frac{e^{i k R}}{R} \cos\left(\psi\right),
-\label{eq:radiated-by-electron}
-\end{equation}
-with $k$ being the usual wave-number, $R$ being the distance from the source of radiation, $\psi$ being the observation angle, and $r_0$ being the \textit{Thomson scattering length}, or the \textit{classical electron radius}. $r_0$ can be written in practical units as
-\begin{equation}
-r_0 = \frac{e^2}{4\pi \epsilon_0 m c^2} = 2.82\cdot 10^{-5}\si{\angstrom},
-\label{eq:thomson-scattering-length}
-\end{equation}
-where $-e$ is the charge of the radiating electron, $m$ is the mass of the electron, $c$ is the speed of light, and $\epsilon_0$ is the permittivity of free space.\\[1\baselineskip]
+\subsection{Photoionization and core-hole decay}\label{sec:absorption}
 %
-Now we would like to understand the cross-section of this scattering process better. We can establish a \textit{differential cross-section}, $\left(\tfrac{d\sigma}{d\Omega}\right)$, which follows the same concept of the already discussed example in Equation \eqref{eq:absorption-cross-section}. The only difference is that we now consider a scattered intensity, $I_{sc}$, of an incident flux, $\left(I_{0}/A_{0}\right)$, into a solid angle, $\Delta \Omega$. We may express this as
-\begin{align}
-\left(\frac{d\sigma}{d\Omega}\right)&=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega}=\frac{\lvert E_{rad}\rvert^2 R^2}{\lvert E_{in}\rvert^2}=r_0^2 \cos^{2}\left(\psi\right).
-\label{eq:scattering-crosssection}
-\end{align}
-By integrating over the full angular space, the total cross-section of the scattering of an electron, $\sigma_{T}$, results in
-\begin{align}
-\sigma_{T} = \left(\frac{8\pi}{3}\right) r_{0}^{2} = \SI{0.665}{\barn}
-\label{eq:Thomson-cross-section}
-\end{align}
-%\begin{align}
-%\left(\frac{d\sigma}{d\Omega}\right)&=\frac{\left(\text{Number of X-rays scattered per second into $\Delta \Omega$}\right)}{\left(\text{Incident flux}\right)\left(\Delta\Omega\right)}=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega},
-%\label{eq:scattering-crosssection}
-%\end{align}
-%with $A_{0}$ being the covered area of the incident beam. If an electro-magnetic wave encounters an electron, we can describe the scattering semi-classical by imagining how an electron starts to oscillate once it sees an incoming electric wave. The electron then functions as a dipole antenna eventually radiating the wave into a certain solid angle $\Delta \Omega$. Depending on the polarization of the incident beam we can reduce Equation \eqref{eq:scattering-crosssection} to \citep{Als-Nielson-2011-JWS}
-%\begin{align}
-%\left(\frac{d\sigma}{d\Omega}\right)&=r_{0}^{2}P,
-%\intertext{with the classical electron radius $r_{0}=2.82\ 10^{-5}\text{\AA}$ and the polarization factor P}
-%P&=\begin{cases}
-%1& \text{vertical scattering plane},\\
-%\cos^{2}\left(\Psi\right)&\text{horizontal scattering plane}, and\\
-%\frac{1}{2}\left(1+\cos^{2}\left(\Psi\right)\right)& \text{unpolarized source.}
-%\end{cases}
-%\end{align}
-We can now move on and use this knowledge for atoms, where we have Z electrons. To describe electrons in an atom, let us introduce an electron density $\rho_{e}\left(\vec{r}\right)$ that describes the probability density of electrons in an atom. Figure \ref{fig:X-ray-scattering} illustrates the scattering process by one atom. An incident beam, with wave vector $\vec{k}$, is elastically scattered at a point $\vec{r}$ into a wave with $\vec{k}'$ such that $\lvert \vec{k}\rvert=\lvert \vec{k}'\rvert$. As the illustrated waves are scattered at different points, they have an optical path difference of $2 \delta$. This difference in path length results in a phase difference in the wavefront, which leads to interference. We can describe this phase difference, $\Delta \Phi\left(\vec{R}\right)$, of the waves scattered at $\vec{R}$ and the origin by
-\begin{equation}
-\Delta \Phi\left(\vec{r}\right) = \left(\vec{k}-\vec{k}'\right)\cdot \vec{R} = \vec{Q} \cdot \vec{R},
-\label{eq:phase-difference}
-\end{equation}
-with $\vec{Q}$ being denoted as the \textit{wave-vector transfer}\index{wave vector!transfer}. Through trigonometry, we can establish the more common denotation of the wave-vector, $\vec{Q}$, as
-\begin{equation}
-\lvert \vec{Q}\rvert=2 \lvert \vec{k}\rvert \sin\left(\frac{\Theta}{2}\right)=\frac{4 \pi}{\lambda}\sin\left(\frac{\Theta}{2}\right),
-\label{eq:Q-scattering-angle}
-\end{equation}
-with the wavelength of the light, $\lambda$, the scattering angle, $\Theta$, and the so-called spatial frequencies, $\lvert \vec{Q}\rvert$.\\[1\baselineskip]
 \begin{figure}
 	\centering
-		\includegraphics[width=1.00\textwidth]{images/X-ray-scattering.jpg}
-	\caption[Principle of scattering rays of an atom.]{Principle of scattering rays of an atom. After \citep{Als-Nielson-2011-JWS,Guinier-1955-JWS}.}
-	\label{fig:X-ray-scattering}
+		\includegraphics[width=0.80\textwidth]{images/el-relaxation.png}
+	\caption[Schematic illustration of common charge transfer processes]{Schematic illustration of common charge transfer processes. a) Photoionization: Describes a direct emission of a K-shell electron after absorbing an X-ray photon. b) Auger decay: A relaxation process, where a K-shell hole is filled with an electron from the L-shell and the remaining energy is released through emission of an electron in an outer shell. c) Fluorescence: An electron hole is filled with an electron from an outer shell and the remaining energy is released through photons. After \citep{Als-Nielson-2011-JWS}.}
+	\label{fig:el-relaxation}
 \end{figure}
 %
-A volume element $d\vec{R}$ of the atom at $\vec{R}$ will now scatter proportional to its electron density, which we can express by $-r_{0}\ \rho\left(\vec{R}\right)d\vec{R}$. At scattering angle $\Theta=\vec{Q}=0$, the \textit{atomic scattering factor}, $f^{0}$, is
-\begin{equation}
-f^{0}\left(\vec{Q}\rightarrow 0\right)=Z,
-\label{eq:transform-number-of-particles}
-\end{equation}
-because all scatterers are in phase. As we increase the angle $\Theta$, the phase difference, $\Delta \Phi\left(\vec{R}\right)$, leads to interference. We can describe this by multiplying a phase factor $e^{i \vec{Q}\cdot \vec{R}}$ to the contribution of the scattered field, $-r_{0}\ \rho\left(\vec{R}\right)d\vec{R}$. In the limit of $\vec{Q}\rightarrow\infty$, the atomic form factor then is $f^{0}\left(\vec{Q}\rightarrow\infty\right)=0$. Let us gather these phenomenological arguments and integrate over them to obtain the total scattering volume, which reads
-\begin{equation}
--r_{0} f^{0}\left(\vec{Q}\right)=-r_{0}\int\rho_{e}\left(\vec{R}\right)e^{i \vec{Q}\cdot \vec{R}}d\vec{R}.
-\label{eq:scattering-integral}
-\end{equation}
-This important result is called the atomic form factor in units of $-r_{0}$. It can be understood as a Fourier transformation of the electron density of an atom.\\[1\baselineskip]
-%
-Let us continue with the scattering of a molecule or cluster that consist of multiple atoms. We can pick up the idea from above and construct a molcule by iterating though the individual atoms. The atoms can be labeled and iterated using the expression
-\begin{equation}
-F^{0}\left(\vec{Q}\right)=\sum_{\vec{R}_j}f_{j}^{0}\left(\vec{Q}\right)e^{i \vec{Q}\cdot \vec{R_{j}}},
-\label{eq:scattering-factor-object}
-\end{equation}
-with the atomic form factors $f_{j}^{0}\left(\vec{Q}\right)$ for the $j$'th atom. Let us call $F^{0}$ the single particle \textit{structure factor}. However, it is well known that for coherent and monochromatic radiation the scattered amplitude, $A(\vec{Q})$, of a nanoparticle can be written in the kinematical approximaton\footnote{Sometimes called the weak-scattering limit, where multiple scattering effects are neglected.} as follows \citep{Vartanyants-2001-JOP}
-%Strictly speaking and as defined in \eqref{eq:scattering-factor-object}, $F^{object}\left(\vec{Q}\right)$ and $f_{j}^{Q}\left(\vec{Q}\right)$ is $\vec{Q}$ dependent. As this is inconvenient, let us consider the following evidence in order to neglect this dependency. In the angular range of $\vec{Q}$, where $F^{Object}\left(\vec{Q}\right)$ is not 0, $f_{j}^{Q}$ can be considered constant \citep[see][p. 6-7]{Guinier-1955-JWS}. In human hemoglobin, the range in which the molecule scattering length $F^{Object}\left(\vec{Q}\right)$ is not 0, the carbon atomic form factors change less than $0.4$\%. Neglecting this $\vec{Q}$ dependency in $f_{j}^{Q}$ allows us to describe the scattering length of extended objects $F^{Object}\left(\vec{Q}\right)$ via one continuous electron density $\rho_{e}\left(\vec{r}\right)$, where certain volume elements $d\vec{r}$ scatter proportional to their electron density $\rho_{e}\left(\vec{r}\right)$. Let us write down the more convinient expression for the scattering length of an object
-\begin{equation}
-A(\vec{Q})=\int \rho\left(\vec{R}\right) e^{i \vec{Q}\cdot R}d\vec{R},
-\label{eq:scattered-amplitude}
-\end{equation}
-where $\rho\left(\vec{R}\right)$ is the electron density of the scattering nanoparticle. The scattered intensity in a diffraction pattern can be expressed by
-\begin{equation}
-I_{sc}\left(\vec{Q}\right)=I_{0}\lvert A(\vec{Q})\rvert^{2}
-\label{eq:scattered-intensity}
-\end{equation}
-where an incident beam with intensity $I_{0}$\footnote{Here, we make use of the Born approximation and the intensity of the incident beam becomes constant, which holds true in the kinematical approximation} and complex amplitude $A$\index{amplitude!complex} performs an operation that can be interpreted as a Fourier transformation of the object's electron density. The process of measuring the scattered light, for example through a detector, merely measures the scattered intensity and thus only the modulo of an amplitude $\lvert A\rvert^{2}$, which eliminates the phase factor: $e^{i\Delta\Phi\left(\vec{R}\right)}\cdot e^{-i\Delta\Phi\left(\vec{R}\right)}=1$. In order to reconstruct an image of the nanoparticle that scattered, for example to understand its shape or to study its function, we need to recover the phase information. We will discuss iterative algorithms that can recover the phase factor in Section \ref{sec:phase-retrieval}.\\[1\baselineskip]
-%
-Let us now make use of above's theory and address the scattering of a rare-gas cluster, as they will reoccur throughout this thesis. We may thus express an electron density of the desired object and Fourier transform it into reciprocal space to understand diffraction patterns better. Due to current resolution limitations\footnote{Considering experimental details from Chapter \ref{ch:exp_setup}}, we may approximate the shape of a few nanometer-sized cluster with a sphere. The density, $\rho$, of a hard sphere with radius, $r$, can be expressed by 
-\begin{align}
-\rho\left(\vec{R}\right)&=\begin{cases}
-\rho& \text{for $r \geq \vec{R} \geq 0$},\\
-0&\text{for $r > \vec{R}$}.
-\end{cases}
-\label{eq:el-density}
-\end{align}
-Using Equation \eqref{eq:el-density}, we can solve the integral in Equation \eqref{eq:scattered-amplitude} by making use of spherical coordinates,
-\begin{align}
-A_{\text{Sphere}}\left(\vec{Q}\right) &= \int_{0}^{\pi}\int_{0}^{2\pi}\int_{0}^{r} R^{2}  \sin\left(\Theta\right) e^{i \vec{Q} R \cos\left(\Theta\right)} dR d\Theta d\Phi\\
-&=\rho\left(\frac{4}{3\pi}r^{3}\right)\frac{\sin\left(\vec{Q} r\right)-\vec{Q} r\cos\left(\vec{Q} r\right)}{\vec{Q}^{3} r^{3}}.
-\label{eq:scattering from sphere}
-\end{align}
-Formula \eqref{eq:scattering from sphere} can be exploited to determine the size of a spherical particle, i.e., a cluster, using local minima in the diffraction pattern\footnote{Equation \eqref{eq:scattering from sphere} can be solved numerically for the distance between the first two minima, $\vec{Q}_{\text{min}^{n}}$ and $\vec{Q}_{\text{min}^{n+1}}$, such that $r=\frac{3.24}{\vec{Q}_{\text{min}^{n+1}}-\vec{Q}_{\text{min}^{n}}}$.} or through a numerical fit of the resulting curve.
-%
-%
-%\subsection{X-ray diffraction}
-%- I wonder if I should include this to talk about 'what happens on faster timescales' using Ken's work.
+Given the photon energies of soft X-rays, atoms are typically core-ionized when absorbing a soft X-ray photon, which is depicted in Figure \ref{fig:el-relaxation} a) Photoionization. This typically leaves the atom in an excited state. In order to emit energy, the core-hole usually decays according to the schematics in Figure \ref{fig:el-relaxation} b) Auger decay and c) Fluorescence, whereby the Auger decay is the dominant process.\\[1\baselineskip]
 %
 %
 %
-%
-\subsection{Ionization of matter}\label{sec:absorption}
-Last section, we established that an electron was accelerated by a light field and radiated as a result.
-%in th
-%by disregarding a variety of effects through Fourier transforming the electron density of an atom.
-%As we have already discussed, the electron is accelerated by the lightfield
-%As we established, we can compare the photon-electron interaction to the analogue of the forced harmonic oscillator, where an electric field drives a (bound) electron.
-But it is not only the light field that drives the electron, also the electron has an effect on the light field. As the wave propagates through a medium, for example from air through glass, it interacts with it and changes direction according to Snell's law \citep{Als-Nielson-2011-JWS}. Here, a medium is attributed a refractive index,\index{refractive index}
-\begin{equation}
-n\equiv\frac{c}{v_{\text{phase}}},
-\label{eq:refractive-index}
-\end{equation}
-where $v_{\text{phase}}$ is the phase velocity, to account for this interaction. $n$ is wavelength dependent and for visible wavelengths it ranges between 1.2 and 2. X-rays have usually higher energies than the transition energies of most atoms and the refractive index turns out to $n<1$. As a result one usually speaks of a \textit{phase advance} as an X-ray field traverses an object.
-%The phase velocity of light, $v_{\text{phase}}$, is slower than the speed of light in vacuum $c$ due to interacting with electrons. We can describe this effect via the refractive index $n\equiv c/v_{phase}$.
-Intuitively there must be another aspect to consider when the light wave is traveling through a medium. This is a reduction of the amplitude of the incoming light wave. Particularly, when the energy of the photons is higher than the binding energies of electrons there must be absorption. We shall not derive this topic to its full extent as it can be found in \citep[][p. 55 ff]{Attwood-2007-CUP}, but we shall qualitatively compare the equation for the complex refractive index $n\left(\omega\right)$ to the atomic form factor, $f^{0}\left(\vec{Q}\right)$, which was introduced in the last section. For simplicity, we reduce the following considerations to the case of forward scattering, where $\vec{Q}=\Theta=0$.\\[1\baselineskip]
 \begin{figure}
 	\centering
 		\includegraphics[width=0.80\textwidth]{images/photoionization.eps}
 	\caption[Total absorption cross-sections for helium and xenon.]{Total absorption cross-sections $\sigma_{a}$ in megabarn for xenon (purple line) and helium (orange dashed). The photon energy of the described experiment is \SI{\sim 837}{\electronvolt} (red dashed). Data points from \citep{Elettra-2016-Website,Yeh-1985-AtmDat,Yeh-1993-GBSP}.}
 	\label{fig:photoionization}
 \end{figure}
- Imagine an electro-magnetic wave propagating in a medium with the above considerations. The wave travels along the $Z$-axis and can be written as \citep{Als-Nielson-2011-JWS,Attwood-2007-CUP}
-\begin{equation}
-e^{i n k Z}= \underbrace{e^{i \left(1-\delta\right)k Z}}_{\text{phase shift}}\underbrace{e^{-\beta Z}}_{absorption},
-\label{eq:wave-in-medium}
-\end{equation}
-where $n$ is the complex refractive index, $\delta$ the real dispersion-correction\index{dispersion correction!complex} resulting in a phase shift of the wave and $\beta$ being the imaginary dispersion-correction resulting in a decline in amplitude of the wave\footnote{We jump between the wave and particle picture as it pleases us. Here, a decline in amplitude in the wave picture can be read as absorption in the particle picture.}. The relation between the complex refractive index $n$, $\beta$, and $\delta$ is explicitly given by
-\begin{equation}
-n=\frac{c}{v_{\text{phase}}}=1-\delta+i\beta.
-\label{eq:complex-refractive-index}
-\end{equation}
-Let us now consider the atomic form factor. One would imagine that the acceleration of a bound electron in an atom is affected. Electrons that are tightly bound, e.g., in the K-shell, are less ``free'' than those with little binding energy. Overall, the atomic form factor must be reduced by a wavelength dependent amount, which we denote as $f^{'}$. The other wavelength dependent effect is absorption, which we can introduce as $f^{''}$. These two effects are called dispersion corrections to the non-resonant atomic scattering factor, $f^{0}$. Let us include these corrections to the atomic scattering factor and note
-\begin{equation}
-f\left(\vec{Q},\hbar\omega\right)=f^{0}\left(\vec{Q}\right)+f'\left(\hbar\omega\right)+i f''\left(\hbar\omega\right).
-\label{eq:scattering-factor-dispersion-corr}
-\end{equation}
-In the limit of high photon energies $\hbar \omega$, bound electrons can be largely seen as free, as the binding energies become a minor factor, therefore $f'\left(\hbar\omega\right)\rightarrow 0$ and $f''\left(\hbar\omega\right)\rightarrow 0$. As the photon energies, $\hbar \omega$, are closer to the atomic level, which is the case at soft X-rays for many materials, $f'\left(\hbar\omega\right)$ and $f''\left(\hbar\omega\right)$ can become large factors.\\[1\baselineskip]
-We can compare Equation \eqref{eq:complex-refractive-index} to Equation \eqref{eq:scattering-factor-dispersion-corr} and realize that we are allowed to define the dispersion relation through the atomic form factor as \citep[see][p.~76]{Als-Nielson-2011-JWS}
-\begin{equation}
-n= 1- \frac{2\pi \rho_{atom}r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\hbar\omega\right)+i f''\left(\hbar\omega\right)\right),
-\label{eq:eq:complex-refractive-index-atomic-factors}
-\end{equation}
-with the atomic number density $\rho_{atom}$ and we identify explicitly
-\begin{align}
-\delta &= \frac{2 \pi \rho_{atom} r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\hbar\omega\right)\right),\quad \text{and}\\
-\beta &= - \left(\frac{2\pi \rho_{atom}r_{0}}{k^{2}}\right)f''\left(\hbar\omega\right).
-\label{eq:delta-and-beta}
-\end{align}
-We have already established in Equation \eqref{eq:wave-in-medium} that $\beta$ reduces the amplitude of the incoming wave through absorption. Using this insight about absorption, we can rewrite Equation \eqref{eq:delta-and-beta} and define $f''\left(\hbar\omega\right)$ in terms of being proportional to an absorption cross section, $\sigma_{a}$, which reads
-\begin{equation}
-f''\left(\hbar\omega\right)=-\left(\frac{k}{4\pi r_{0}}\right)\sigma_{a}.
-\label{eq:f-2-definition}
-\end{equation}
-Figure \ref{fig:photoionization} shows the total absorption cross-sections $\sigma_{a}$ for xenon and helium at various photon energies. The photon energy of the experiment was $\SI{837}{\electronvolt}$. For helium, the photon energy is much greater than the binding energy and thus the absorption cross-section is low. For the thightly bound electrons in xenon, the absorption cross-section is relevant as the photon energy is near the atomic levels. The absorption cross-section shows a resonant-type behavior, when the photon energy would be directly on an atomic level. To get a better understanding of the absorption cross-section with regard to atomic levels, Table \ref{tab:xenon-photoionization-cross-section} and \ref{tab:helium-xenon-ionization} show the differential photo-absorption cross sections and ionization potentials for various energy levels and ionization configurations at the experimental photon energy $\SI{837}{\electronvolt}$ for xenon and helium. The calculations were performed with the Los Alamos Atomic Physics code based on \citep{Cowan-1981-Cal}.
+%
+%Figure \ref{fig:photoionization} shows the total absorption cross-sections $\sigma_{a}$ for xenon and helium for various photon energies. The photon energy of the experiment was $\SI{837}{\electronvolt}$. For helium, the photon energy is much greater than the binding energy and thus the absorption cross-section is low. For the tightly bound electrons in xenon, the absorption cross-section is relevant as the photon energy is near the atomic levels. The absorption cross-section shows a resonant-type behavior, when the photon energy would be directly on an atomic level. To get a better understanding of the absorption cross-section with regard to atomic levels, Table \ref{tab:xenon-photoionization-cross-section} and \ref{tab:helium-xenon-ionization} show the differential photo-absorption cross sections and ionization potentials for various energy levels and ionization configurations at the experimental photon energy $\SI{837}{\electronvolt}$ for xenon and helium. The calculations were performed with the Los Alamos Atomic Physics code based on \citep{Cowan-1981-Cal}.\\[1\baselineskip]
+Photoionization is the process, where an atom or molecule is transformed into an ion through absorption of a photon and emission of an electron (see Figure \ref{fig:el-relaxation} a). Hereby, the photon energy must be higher than the ionization threshold. Figure \ref{fig:photoionization} shows the total absorption cross-sections, $\sigma_{a}$, for xenon and helium for various photon energies. $\sigma_{a}$ is strongly dependent on the photon energies as resonant behavior occurs near absorption edges. The experimental photon energy of \SI{837}{\electronvolt} has been chosen such that xenon absorbs photons dominantly over helium but is off-resonance.
 \begin{table}
 	\centering
 		\begin{tabular}{ | c | c | c | c | }
@@ -565,7 +421,8 @@ Figure \ref{fig:photoionization} shows the total absorption cross-sections $\sig
 	\caption[Differential absorption cross-sections and ionization potentials for xenon.]{Differential absorption cross-sections and ionization potentials for certain electronic configurations of xenon at 837eV. Calculations based on \citep{Cowan-1981-Cal}.}
 	\label{tab:xenon-photoionization-cross-section}
 \end{table}
-It appears that certain energy levels, or here subshells if one disregards the hyperfine structure\footnote{A shift in energy levels due to interaction of electrons with the nucleus \citep[see][p~166~ff.]{Demtroder-2005-Springer}.}, tend to have a higher absorption cross-section than others. This brings us back to the picture of the forced harmonic oscillator, where an electron is driven by a light field. If the frequency of the light field is close to the eigenfrequency of the bound electron, in other words, if the energy of a photon is close to the energy level of a bound electron, the system is in resonance and absorption is highly likely. As the photon energy and electron level energy differ, the system is off resonance and it is less likely to absorb a photon. As energy levels in atoms are discrete, electrons can only be excited from one energy level to another or need a certain (minimal) ionization energy\index{ionization!energy} to ionize an atom and excite an electron into the continuum. Therefore, the likelihood of a core-electron that is strongly bound being ionized is by far the most probable using X-rays.
+%It appears that certain energy levels, or here subshells if one disregards the hyperfine structure\footnote{A shift in energy levels due to interaction of electrons with the nucleus \citep[see][p~166~ff.]{Demtroder-2005-Springer}.}, tend to have a higher absorption cross-section than others. This brings us back to the picture of the forced harmonic oscillator, where an electron is driven by a light field. If the frequency of the light field is close to the eigenfrequency of the bound electron, in other words, if the energy of a photon is close to the energy level of a bound electron, the system is in resonance and absorption is highly likely. As the photon energy and electron level energy differ, the system is off resonance and it is less likely to absorb a photon. As energy levels in atoms are discrete, electrons can only be excited from one energy level to another or need a certain (minimal) ionization energy\index{ionization!energy} to ionize an atom and excite an electron into the continuum. Therefore, the likelihood of a core-electron that is strongly bound being ionized is by far the most probable using X-rays.
+The total absorption cross-section is consisting of the differential absorption cross-sections that are specific for the subshells\footnote{Disregarding the hyperfine structure, which is a shift in atomic energy levels due to interaction of electrons with the nucleus \citep{Demtroder-2005-Springer}.} in an atom. Table \ref{tab:xenon-photoionization-cross-section} shows the differential absorption cross-sections and ionization potentials for xenon. If the photon energy is below the ionization threshold of a subshell, the differential cross-section becomes near zero. At the photon energy of \SI{837}{\electronvolt}, xenon mainly absorbs photons in the 3d-subshell.
 \begin{table}
 	\centering
 		\begin{tabular}{ | c | c | c | c | }
@@ -583,7 +440,28 @@ It appears that certain energy levels, or here subshells if one disregards the h
 	\caption[Absorption cross-sections and ionization potentials for xenon and helium]{Absorption cross-sections $\sigma_{a}$ and ionization potentials for certain electronic configurations, including certain ionization profiles. Calculations based on \citep{Cowan-1981-Cal}.}
 	\label{tab:helium-xenon-ionization}
 \end{table}
-When a core electron gets ionized, the electronic structure changes and particular ionization energies and (absorption) cross-sections change. To discuss the parameters that are most applicable to this thesis, a comparison of the most probable transition at the photon energy \SI{837}{\electronvolt} is given for helium and xenon in Table \ref{tab:helium-xenon-ionization}. The ionization energies change drastically, whether a core electron or a less tightly bound electron is ionized. As per absorption cross-sections, helium can be considered transparent and xenon atoms have a much larger absorption cross-section. The number of ionization configurations can become rather complex and the table shall give the reader merely a broad understanding of some likely configurations.\\[1\baselineskip]
+%To discuss the parameters that are most applicable to this thesis, a comparison of the most probable transition at the photon energy \SI{837}{\electronvolt} is given for helium and xenon in Table \ref{tab:helium-xenon-ionization}. The ionization energies change drastically, whether a core electron or a less tightly bound electron is ionized. As per absorption cross-sections, helium can be considered transparent and xenon atoms have a much larger absorption cross-section. 
+After ionization, the electronic structure of an atom changes, which alters particular ionization energies and absorption cross-sections. Table \ref{tab:helium-xenon-ionization} shows total absorption cross-sections for helium and xenon in various electronic configurations. The number of ionization configurations is numerous and the table shall give the reader merely an impression of the change in some for the experiment likely configurations.\\[1\baselineskip]
+%
+%
+%
+\begin{figure}
+	\centering
+		\includegraphics[width=.49\textwidth]{images/pnCCD-histogram.png}
+		\includegraphics[width=.49\textwidth]{images/auger-spectra.png}
+	\caption[Fluorescence peaks from xenon and neon K-LL Auger spectrum.]{Left spectra shows fluorescence peaks from xenon and oxygen illuminated with \SI{1.5}{\kilo\electronvolt} photons from the LCLS; detected with pnCCD detectors \citep{Bucher-2016-Unpublished, Rudek-2012-NatPho}. The green curve is an ADU histogram of the pnCCD detector and the blue curve uses a coalescent photon finder. Right, partial K-LL Auger spectrum with rel. energy 0 corresponding to \SI{804.5}{\electronvolt}. Spectrum is measured with a photoelectron spectrometer \citep{Bucher-2014-Unpublished}, peaks identified as in \citep{Krause-1970-PhysLettA}.}
+	\label{fig:pnCCD-histogram}
+\end{figure}
+%
+The Auger decay is a two-step process (see Figure \ref{fig:el-relaxation} b); one, an outer shell electron is emitted into the continuum, the so-called \textit{Auger-electron}\footnote{Named after the French physicist Pierre Auger.}; two, another electron in the atom simultaneously fills the electron-hole \citep{schmidt-1997}. An \textit{Auger decay} typically occurs on the few femtoseconds timescale after core-ionization \citep{Buth-2003-JCP}. Emitted Auger-electrons have discrete energies depending on the combination of electrons involved in the process. One can use this attribute to, for example, identify elements or calibrate energies. The right panel of Figure \ref{fig:pnCCD-histogram} shows a partial K-LL\footnote{This nomenclature means a single core-hole in the K-shell decays into two holes in the L-shell.} Auger spectrum from neon illuminated by \SI{1050}{\electronvolt} photons from the LCLS and measured with a hemispherical analyzer as described in \citep{Bucher-2014-Unpublished}. In this example, neon is ionized in the K-shell and an electron-hole in the 1s shell is created. An electron from the L-shell fills the 1s hole and another electron from the L-shell, the Auger electron, is emitted into the continuum. As there is a variety of electronic configurations that can be involved in this process multiple peaks appear for similar occupation configurations, e.g., 1s - 2p2p. More complex structures, called satellites, appear when the atom is already ionized, for example, when an atom has a hole in the L-shell and then photoionization creates another hole in the K-shell will lead to KL-LLL satellites \citep{schmidt-1997}. Double K-ionized atoms will produce so-called hypersatellites \citep{Briand-1971-PRL}, which occurs in the intense soft X-ray pulses of LCLS \citep{Berrah-2011-PNAS}. The transition can also be of the same shell and is then called a Coster-Kronig transition, for example, the N-NN Coster-Kronig transitions in xenon \citep{Coster-1935-Physica}.\\[1\baselineskip]
+%
+Fluorescence is the emission of light by a material that has been photoexcited (see Figure \ref{fig:el-relaxation} c). Is the material illuminated with soft X-rays, the fluorescence leads to the emission of X-rays that have usually very specific energies, e.g., K$_\alpha$-, K$_\beta$-, and L$_\alpha$-lines. These can be used for, e.g., element identification, or chemical analysis. Fluorescence often occurs on the nanosecond timescale \citep{Berezin-2011-ChemRev} and typically for soft X-rays is that the Auger decay-rates beat the Fluorescence decay-rates. The left panel of Figure \ref{fig:pnCCD-histogram} shows fluorescence peaks that contribute to the background signal when diffraction images are taken with the pnCCD detectors (see Section \ref{sec:pnCCD}).\\[1\baselineskip]
+%
+%In this measurement, xenon atoms and residual oxygen atoms have been illuminated with 1500 eV photons from the Linac Coherent Light Source and the fluorescence photons have been measured with the LAMP pnCCD detectors that are described in Section \ref{sec:pnCCD}. 
+%The green curve is a ADU histogram of the pixel-detector using the detector calibrations described in Section \ref{sec:pnccd-corr}. The blue curve additionally uses a coalescent-photon finding algorithm\index{algorithm!coalescent-photon finding} looks for pixels above a certain threshold and includes neighboring pixels above a certain, lower threshold, thus correcting the measured signal to yield a proper ADU count per photon.\\[1\baselineskip]
+%
+%
+%
 %Similarly to the estimate made in Equation \eqref{eq:absorption-cross-section}, it is very unlikely for an atom to absorb more than two photons in one pulse of a free electron laser, which is why we only consider the most probably transitions here to get an understanding how the absorption cross-sections change.\\
 % \begin{table}
 % 	\centering
@@ -599,10 +477,130 @@ When a core electron gets ionized, the electronic structure changes and particul
 % 	\caption{caption. Calculations based on \citep{Cowan-1981-Cal}.}
 % 	\label{tab:xenon-ionization}
 % \end{table}{}
-The total atomic scattering factors, $f^{0}$, for neutral and ionized, helium and xenon can be found in Table \ref{tab:helium-xenon-el-scattering-crossection}. It is interesting to see that although a xenon atom has only 27 times more electrons than a helium atom the scattering factor $f^{0}$ of neutral xenon is over 900 times stronger than helium. Upon ionization, the absolute changes in $f^{0}$ of helium are therefore smaller compared to xenon. The relative change in helium of $f^{0}$ after one electron is ionized is \SI{\sim 75}{\percent}, thus (ionized) helium barely scatters. As xenon has multiple occupied subshells, the scattering factors of different ionized subshells are shown in Table \ref{tab:helium-xenon-el-scattering-crossection}. As discussed, it is most likely to ionize the xenon 3d subshell, however, within a few femtoseconds subsequent relaxation processes\footnote{See the following Section \ref{sec:relaxation}.} lead to different ionization configurations, for example a double ionized 5p subshell. For the scattering factor, there is little change whether the 3d or 5p subshell becomes ionized and the change in $f^{0}$ is only \SI{\sim 0.05}{\percent}. As xenon has 54 electrons, the relative change upon ionization of one electron in $f^{0}$ is only \SI{3}{\percent}. Xenon is therefore a much stronger scatterer than helium and xenon still scatters well upon ionization of inner or outer shell electrons.  
+%In the experiment described in the following chapters, the photon energy is explicitly chosen to have a comparably high absorption cross-section for xenon -- but is off the absorption resonance --, a comparably low absorption cross-section for helium, and a wavelength short enough to receive high resolution images through coherent diffraction imaging. In such a setting, xenon is most likely to absorb X-rays and helium can be considered transparent.
+%
+%
+%
+%
+%
+\subsection{From Thomson scattering to diffractive imaging}\label{sec:saxs}
+%%%%%%%%%%
+%- Switch to Guiniers approximation and description\\
+%- Work towards small angle scattering of small particles\\
+%- Particular spheres\\
+%- Discuss extreme positions
+%%%%%%%%%%%
+When light interacts with a nanoparticle, it dominantly scatterers of electrons. Let us first consider the elastic scattering of a free electron, or \textit{Thomson scattering}, as a result of being accelerated in an electro-magnetic field. Then, we proceed to the scattering of an atom followed by the scattering of an extended object with a continuous electron density. We end the section with some considerations that are relevant for this work.\\[1\baselineskip]
+%We can describe an electric field of a light wave semi-classically via the following expression \citep{Als-Nielson-2011-JWS}
+%\begin{equation}
+%\vec{E}(\vec{r},t) = \vec{\epsilon} E_{0} e^{i \left(\vec{k}\cdot\vec{r}-\omega_{0}t\right)},
+%\end{equation}
+%with $\vec{r}$ the Cartesian coordinate vector, $\hbar \vec{k}$ the momentum of a photon, $\hbar \omega_{0}$ the energy of a photon, $E_{0}$ the incident amplitude, and \vec{\epsilon} an unit vector due to the polarization. $\vec{\epsilon}$ obeys $\vec{\epsilon}\cdot\vec{k}=\vec{k}\cdot\vec{E}=\vec{k}\cdot\vec{B}=0$, with the magnetic field $\vec{B}$, as the electro-magnetic waves are transverse. To avoid delving into a quantum mechanic description, we shall call \vec{k} the wavevector.
+Let us introduce the electric field of an incident wave $E_{in}=E_{0}e^{-i\omega t}$ that irradiates an electron. The electron is accelerated in this electric field and emits radiation similarly to a small dipole antenna. We can write this radiated electric field as \citep{Als-Nielson-2011-JWS}
+\begin{equation}
+E_{rad}(R,t)=-\underbrace{\left(\frac{e^2}{4\pi \epsilon_0 m c^2}\right)}_{r_{0}}\ E_{in}\ \frac{e^{i k R}}{R} \cos\left(\psi\right),
+\label{eq:radiated-by-electron}
+\end{equation}
+with $k$ being the usual wave-number, $R$ being the distance from the source of radiation, $\psi$ being the observation angle, and $r_0$ being the \textit{Thomson scattering length}, or the \textit{classical electron radius}. $r_0$ can be written in practical units as
+\begin{equation}
+r_0 = \frac{e^2}{4\pi \epsilon_0 m c^2} = 2.82\cdot 10^{-5}\si{\angstrom},
+\label{eq:thomson-scattering-length}
+\end{equation}
+where $-e$ is the charge of the radiating electron, $m$ is the mass of the electron, $c$ is the speed of light, and $\epsilon_0$ is the permittivity of free space.\\[1\baselineskip]
+%
+Now we would like to understand the cross-section of this scattering process better. We can establish a \textit{differential cross-section}, $\left(\tfrac{d\sigma}{d\Omega}\right)$, which follows the same concept of the already discussed example in Equation \eqref{eq:absorption-cross-section}. The only difference is that we now consider a scattered intensity, $I_{sc}$, of an incident flux, $\left(I_{0}/A_{0}\right)$, into a solid angle, $\Delta \Omega$. We may express this as
+\begin{align}
+\left(\frac{d\sigma}{d\Omega}\right)&=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega}=\frac{\lvert E_{rad}\rvert^2 R^2}{\lvert E_{in}\rvert^2}=r_0^2 \cos^{2}\left(\psi\right),
+\label{eq:scattering-crosssection}
+\end{align}
+which is also called the differential cross-section for \textit{Thomson scattering}. By integrating over the full angular space, the total cross-section for Thomson scattering, $\sigma_{T}$, results in
+\begin{align}
+\sigma_{T} = \left(\frac{8\pi}{3}\right) r_{0}^{2} = \SI{0.665}{\barn}
+\label{eq:Thomson-cross-section}
+\end{align}
+%\begin{align}
+%\left(\frac{d\sigma}{d\Omega}\right)&=\frac{\left(\text{Number of X-rays scattered per second into $\Delta \Omega$}\right)}{\left(\text{Incident flux}\right)\left(\Delta\Omega\right)}=\frac{I_{sc}}{\left(I_{0}/A_{0}\right)\Delta\Omega},
+%\label{eq:scattering-crosssection}
+%\end{align}
+%with $A_{0}$ being the covered area of the incident beam. If an electro-magnetic wave encounters an electron, we can describe the scattering semi-classical by imagining how an electron starts to oscillate once it sees an incoming electric wave. The electron then functions as a dipole antenna eventually radiating the wave into a certain solid angle $\Delta \Omega$. Depending on the polarization of the incident beam we can reduce Equation \eqref{eq:scattering-crosssection} to \citep{Als-Nielson-2011-JWS}
+%\begin{align}
+%\left(\frac{d\sigma}{d\Omega}\right)&=r_{0}^{2}P,
+%\intertext{with the classical electron radius $r_{0}=2.82\ 10^{-5}\text{\AA}$ and the polarization factor P}
+%P&=\begin{cases}
+%1& \text{vertical scattering plane},\\
+%\cos^{2}\left(\Psi\right)&\text{horizontal scattering plane}, and\\
+%\frac{1}{2}\left(1+\cos^{2}\left(\Psi\right)\right)& \text{unpolarized source.}
+%\end{cases}
+%\end{align}
+We can now move on and use this knowledge for atoms, where we have Z electrons. To describe electrons in an atom, let us introduce an electron density $\rho_{e}\left(\vec{r}\right)$ that describes the probability density of electrons in an atom. Figure \ref{fig:X-ray-scattering} illustrates the scattering process by one atom. An incident beam, with wave-vector $\vec{k}$, is elastically scattered at the origin, O, into a wave with $\vec{k}'$ such that $\lvert \vec{k}\rvert=\lvert \vec{k}'\rvert$. 
+%We can describe this phase difference, $\Delta \Phi\left(\vec{R}\right)$, of the waves scattered at $\vec{R}$ and the origin by
+It is useful to define the \textit{wave-vector transfer}\index{wave-vector!transfer}, $\vec{Q} = \vec{k}-\vec{k}'$, which we can write in terms of the \textit{scattering angle}, $\Theta$, as
+\begin{equation}
+\lvert \vec{Q}\rvert=2 \lvert \vec{k}\rvert \sin\left(\frac{\Theta}{2}\right)=\frac{4 \pi}{\lambda}\sin\left(\frac{\Theta}{2}\right),
+\label{eq:Q-scattering-angle}
+\end{equation}
+where $\lambda$ is the wavelength of the light.\\[1\baselineskip]
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{images/X-ray-scattering.pdf}
+	\caption[Principle of scattering rays of an atom.]{Principle of scattering rays of an atom. After \citep{Als-Nielson-2011-JWS,Guinier-1955-JWS}.}
+	\label{fig:X-ray-scattering}
+\end{figure}
+%
+A volume element $d\vec{R}$ of the atom at $\vec{R}$ will now scatter waves proportional to its electron density, which we can express by $-r_{0}\ \rho\left(\vec{R}\right)d\vec{R}$. At scattering angle $\Theta=\vec{Q}=0$, the \textit{atomic scattering factor}, $f^{0}$, can be shown to be
+\begin{equation}
+f^{0}\left(\vec{Q}\rightarrow 0\right)=Z,
+\label{eq:transform-number-of-particles}
+\end{equation}
+because all scatterers are in phase. As we increase the scattering angle $\Theta$, a wave that is scattered at the origin, O, and one at $\vec{R}$ have an optical path difference of $2 \delta$. This difference in path length results in a phase difference, $\Delta \Phi$, in the wavefront. $\Delta \Phi$ can be expressed as 
+\begin{equation}
+\Delta \Phi = \left(\vec{k}-\vec{k}'\right)\cdot \vec{R} = \vec{Q}\cdot \vec{R}.
+\label{eq:phase-difference}
+\end{equation}
+We may multiply a \textit{phase factor}, $e^{i \vec{Q}\cdot \vec{R}}$, to the contribution of the scattered field, $-r_{0}\ \rho\left(\vec{R}\right)d\vec{R}$, to argue that the volume elements start to scatter out of phase. As a consequence and in the limit of $\vec{Q}\rightarrow\infty$, the atomic form factor is $f^{0}\left(\vec{Q}\rightarrow\infty\right)=0$. Let us gather these phenomenological arguments, integrate over them to obtain the total scattering volume, and note
+\begin{equation}
+-r_{0} f^{0}\left(\vec{Q}\right)=-r_{0}\int\rho_{e}\left(\vec{R}\right)e^{i \vec{Q}\cdot \vec{R}}d\vec{R}.
+\label{eq:scattering-integral}
+\end{equation}
+This important result is called the atomic form factor in units of $-r_{0}$. It can be understood as a Fourier transformation of the electron density of an atom.\\[1\baselineskip]
+%
+Let us continue with the scattering of a molecule or cluster that consist of multiple atoms. We can label the atoms in such an object by
+\begin{equation}
+F^{0}\left(\vec{Q}\right)=\sum_{\vec{R}_j}f_{j}^{0}\left(\vec{Q}\right)e^{i \vec{Q}\cdot \vec{R_{j}}},
+\label{eq:scattering-factor-object}
+\end{equation}
+with the atomic form factors $f_{j}^{0}\left(\vec{Q}\right)$ for the $j$'th atom and call $F^{0}$ the single particle \textit{structure factor}. For coherent and monochromatic radiation the scattered amplitude, $A(\vec{Q})$, of a nanoparticle can be written in the kinematical approximation\footnote{Sometimes called the weak-scattering limit, where multiple scattering effects are neglected.} as \citep{Vartanyants-2001-JOP}
+%Strictly speaking and as defined in \eqref{eq:scattering-factor-object}, $F^{object}\left(\vec{Q}\right)$ and $f_{j}^{Q}\left(\vec{Q}\right)$ is $\vec{Q}$ dependent. As this is inconvenient, let us consider the following evidence in order to neglect this dependency. In the angular range of $\vec{Q}$, where $F^{Object}\left(\vec{Q}\right)$ is not 0, $f_{j}^{Q}$ can be considered constant \citep[see][p. 6-7]{Guinier-1955-JWS}. In human hemoglobin, the range in which the molecule scattering length $F^{Object}\left(\vec{Q}\right)$ is not 0, the carbon atomic form factors change less than $0.4$\%. Neglecting this $\vec{Q}$ dependency in $f_{j}^{Q}$ allows us to describe the scattering length of extended objects $F^{Object}\left(\vec{Q}\right)$ via one continuous electron density $\rho_{e}\left(\vec{r}\right)$, where certain volume elements $d\vec{r}$ scatter proportional to their electron density $\rho_{e}\left(\vec{r}\right)$. Let us write down the more convinient expression for the scattering length of an object
+\begin{equation}
+A(\vec{Q})=\int \rho\left(\vec{R}\right) e^{i \vec{Q}\cdot R}d\vec{R},
+\label{eq:scattered-amplitude}
+\end{equation}
+where $\rho\left(\vec{R}\right)$ is the electron density of the scattering nanoparticle. This operation can again be interpreted as a Fourier transformation of the single particle’s electron density. But only scattered intensities can be measured with, e.g., a CCD detector. So, the scattered intensity in a diffraction pattern can be expressed by
+\begin{equation}
+I_{sc}\left(\vec{Q}\right)=I_{0}\lvert A(\vec{Q})\rvert^{2},
+\label{eq:scattered-intensity}
+\end{equation}
+where $I_{0}$ is the intensity of an incident beam\footnote{Here, we make use of the Born approximation and the intensity of the incident beam becomes constant, which holds true in the kinematical approximation}. Unfortunately, the operations on the amplitude, $\lvert A(\vec{Q})\rvert^{2}$, eliminate the phase factor, such that merely an inverse Fourier transformation cannot be used to reconstruct the real-space electron density from measured intensities. This is known as \textit{inverse problem} and can be solved via iterative phase-retrieval algorithms that we will discuss in Section \ref{sec:phase-retrieval}.\\[1\baselineskip]
+%
+Let us now make use of above's theory and address the scattering of a rare-gas cluster, as they will reoccur throughout this thesis. We may thus express an electron density of the desired object and Fourier transform it into reciprocal space to understand diffraction patterns better. Due to current resolution limitations\footnote{Considering experimental details from Chapter \ref{ch:exp_setup}}, we may approximate the shape of a few nanometer-sized cluster with a sphere. The density, $\rho$, of a hard sphere with radius, $r$, can be expressed by 
+\begin{align}
+\rho\left(\vec{R}\right)&=\begin{cases}
+\rho& \text{for $r \geq \lvert\vec{R}\rvert \geq 0$},\\
+0&\text{for $r > \lvert\vec{R}\rvert$}.
+\end{cases}
+\label{eq:el-density}
+\end{align}
+Using this equation, we can solve the integral in Equation \eqref{eq:scattered-amplitude} by making use of spherical coordinates,
+\begin{align}
+A_{\text{Sphere}}\left(\vec{Q}\right) &= \int_{0}^{\pi}\int_{0}^{2\pi}\int_{0}^{r} R^{2}  \sin\left(\Theta\right) e^{i \vec{Q} R \cos\left(\Theta\right)} dR d\Theta d\Phi,\\
+&=\rho\left(\frac{4}{3\pi}r^{3}\right)\frac{\sin\left(\vec{Q} r\right)-\vec{Q} r\cos\left(\vec{Q} r\right)}{\vec{Q}^{3} r^{3}}.
+\label{eq:scattering from sphere}
+\end{align}
+This result can be exploited to determine the size of a spherical particle, i.e., a cluster, using local minima in the diffraction pattern\footnote{Equation \eqref{eq:scattering from sphere} can be solved numerically for the distance between the first two minima, $\vec{Q}_{\text{min}^{n}}$ and $\vec{Q}_{\text{min}^{n+1}}$, such that $r=\frac{3.24}{\vec{Q}_{\text{min}^{n+1}}-\vec{Q}_{\text{min}^{n}}}$.} or through a numerical fit of the resulting curve.\\[1\baselineskip]
+%
 \begin{table}
 	\centering
-		\begin{tabular}{ | c | c | }
+		\begin{tabular}{ | c | r | }
 		\hline
 			El. Configuration, & Scattering factor \\
 			and ionized subshell & $f^{0}$ in barn \\ \hline
@@ -613,45 +611,83 @@ The total atomic scattering factors, $f^{0}$, for neutral and ionized, helium an
 			Xe\textsuperscript{+1},\ 5p5 & 1814.68  \\ \hline
 			Xe\textsuperscript{+2},\ 5p4 & 1754.08  \\ \hline
 		\end{tabular}
-	\caption[Atomic scattering factors for helium and xenon.]{Atomic scattering factor $f^{0}$ for certain electron configurations. Calculations based on Equation \eqref{eq:scattering-integral}. From \citep{Ho-2016-PC}.}
+	\caption[Atomic scattering factors for helium and xenon.]{Atomic scattering factor $f^{0}$ for certain electron configurations. From \citep{Ho-2016-PC}.}
 	\label{tab:helium-xenon-el-scattering-crossection}
 \end{table}
-In the experiment described in the following chapters, the photon energy is explicitly chosen to have a comparably high absorption cross-section for xenon -- but is off the absorption resonance --, a comparably low absorption cross-section for helium, and a wavelength short enough to receive high resolution images through coherent diffraction imaging. In such a setting, xenon is most likely to absorb X-rays and helium can be considered transparent.
+%
+The total atomic scattering factors, $f^{0}$, for helium and xenon in some electron configurations can be found in Table \ref{tab:helium-xenon-el-scattering-crossection}. The $f^{0}$ calculations are based on Equation \eqref{eq:scattering-integral} \citep{Ho-2016-PC}. Xenon atoms scatter dominantly over helium atoms as xenon's $f^{0}$ is over \num{700} times larger than helium's. This means for the diffraction images of mixed HeXe-clusters that xenon atoms contribute as much as helium atoms when the doping level is \SI{\sim 0.14}{\percent}. Also upon ionization, xenon atoms scatter dominantly; singly ionized xenon atoms have $f^{0}$ reduced by only \SI{\sim 3}{\percent} and singly ionized helium atoms have $f^{0}$ reduced by \SI{\sim 75}{\percent} compared to their neutral electron configurations. For the same ionization level in xenon, e.g., $Xe\textsuperscript{+1}$, but different electron configurations, $f^{0}$ varies only on the order of \SI{\sim 0.05}{\percent}, which is a small effect compared to the change in $f^{0}$ when xenon becomes increasingly ionized.
+%It is interesting to see that although a xenon atom has only 27 times more electrons than a helium atom the scattering factor $f^{0}$ of neutral xenon is over 900 times stronger than helium. Upon ionization, the absolute changes in $f^{0}$ of helium are therefore smaller compared to xenon. The relative change in helium of $f^{0}$ after one electron is ionized is \SI{\sim 30}{\percent}, thus (ionized) helium barely scatters. As xenon has multiple occupied subshells, the scattering factors of different ionized subshells are shown in Table \ref{tab:helium-xenon-el-scattering-crossection}. As discussed, it is most likely to ionize the xenon 3d subshell, however, within a few femtoseconds subsequent relaxation processes\footnote{See the following Section \ref{sec:relaxation}.} lead to different ionization configurations, for example a double ionized 5p subshell. For the scattering factor, there is little change whether the 3d or 5p subshell becomes ionized and the change in $f^{0}$ is only 
+%s xenon has 54 electrons, the relative change upon ionization of one electron in $f^{0}$ is only \SI{3}{\percent}. Xenon is therefore a much stronger scatterer than helium and xenon still scatters well upon ionization of inner or outer shell electrons.  
 %
 %
 %
+\subsection{Generalized index of refraction}\label{sec:generalized-index-of-refraction}
+Last section established that an electron was accelerated by a light field and radiated as a result.
+%in th
+%by disregarding a variety of effects through Fourier transforming the electron density of an atom.
+%As we have already discussed, the electron is accelerated by the lightfield
+%As we established, we can compare the photon-electron interaction to the analogue of the forced harmonic oscillator, where an electric field drives a (bound) electron.
+But it is not only the light field that drives the electron, also the electron has an effect on the light field. Ultimately, this effect changes how rays scatter of extended objects and therefore our interpretation of recovered real-space electron densities. The atomic form factor can be corrected for these effects with the so-called \textit{dispersion corrections}. We shall not derive this topic to its full extent as it can be found in \citep[][p. 55 ff]{Attwood-2007-CUP}, but we shall qualitatively compare the equation for the complex refractive index, $n\left(\omega\right)$, to the resonant description of the atomic form factor, $f\left(\vec{Q},\omega\right)$. For simplicity, we reduce the following considerations to the case of forward scattering, where $\vec{Q}=\Theta=0$.\\[1\baselineskip]
+%
+As a wave propagates through a medium, for example, from air through water, it changes direction according to \textit{Snell's law} \citep{Als-Nielson-2011-JWS}. Here, a medium is attributed a refractive index,\index{refractive index}
+\begin{equation}
+n=\frac{c}{v_{\text{phase}}},
+\label{eq:refractive-index}
+\end{equation}
+where $v_{\text{phase}}$ is the phase velocity that changes inside the material. $n$ is wavelength dependent and for visible wavelengths, it ranges between 1.2 and 2, which indicates $v_{\text{phase}}<c$. X-rays usually have a refractive index of $n<1$. As a result, one usually speaks of a \textit{phase advance} when an X-ray field traverses an object.
+%The phase velocity of light, $v_{\text{phase}}$, is slower than the speed of light in vacuum $c$ due to interacting with electrons. We can describe this effect via the refractive index $n\equiv c/v_{phase}$.
+Another aspect, when a light wave is traveling through, e.g, from air through water, is the attenuation of the amplitude. When a light wave travels through a medium along the $Z$-axis, its amplitude is reduced by $e^{\mu Z/2}$, with $\mu$ being the \textit{absorption coefficient}.
+%Particularly, when the energy of the photons is higher than the binding energies of electrons there must be absorption.
+%Imagine an electro-magnetic wave propagating in a medium with the above considerations. The wave travels along the $Z$-axis and can be written as \citep{Als-Nielson-2011-JWS,Attwood-2007-CUP}
+The amplitude of an electro-magnetic wave that propagates through a medium along the $Z$-axis with wave number $k$ and the above considerations can be expressed as \citep{Attwood-2007-CUP}
+\begin{equation}
+e^{i n k Z}= \underbrace{e^{i k Z}}_{\text{vacuum propagation}} \underbrace{e^{i \left(\delta\right)k Z}}_{\text{phase shift}} \underbrace{e^{-\beta k Z}}_{\text{decay}},
+\label{eq:wave-in-medium}
+\end{equation}
+where $n$ is the complex refractive index, $\delta$ is its real part resulting in a phase shift of the wave, and $i \beta=i \mu/(2 k)$ is the imaginary part resulting in a decline of the amplitude of the wave. The complex refractive index, $n$, is thus usually written as
+\begin{equation}
+n=1-\delta+i\beta.
+\label{eq:complex-refractive-index}
+\end{equation}
+But the refractive index can also be written in terms of the atomic form factor. For this, let us imagine electrons in an atom. The electrons response to being driven by a light field is reduced depending on their binding energies. This can be denoted as $f^{'}$. The bound electrons can also be photoionized, which can be accounted for by an imaginary factor, $i f^{''}$, similar to above. These two resonant effects are called dispersion corrections to the non-resonant atomic scattering factor, $f^{0}$. Let us include these corrections to the atomic scattering factor\index{dispersion correction!complex} and note
+%These above considerations also apply to the atomic form factor and we may write the atomic form factor including the dispersion corrections 
+\begin{equation}
+f\left(\vec{Q},\omega\right)=f^{0}\left(\vec{Q}\right)+f'\left(\omega\right)+i f''\left(\omega\right).
+\label{eq:scattering-factor-dispersion-corr}
+\end{equation}
+Above resonance $\omega$, bound electrons can be largely seen as free electrons such that $f'\left(\omega\right)\rightarrow 0$ and $f''\left(\omega\right)\rightarrow 0$. Close to resonance, $f'\left(\omega\right)$ and $f''\left(\omega\right)$ can become large factors.\\[1\baselineskip]
+%
+We can compare Equation \eqref{eq:complex-refractive-index} to Equation \eqref{eq:scattering-factor-dispersion-corr} and note the complex refractive index through the atomic form factor as \citep{Als-Nielson-2011-JWS}
+\begin{equation}
+n= 1- \frac{2\pi \rho_{atom}r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\omega\right)+i f''\left(\omega\right)\right),
+\label{eq:eq:complex-refractive-index-atomic-factors}
+\end{equation}
+with the atomic number density, $\rho_{atom}$. The real and imaginary parts of the refractive index then read
+\begin{align}
+\delta &= \frac{2 \pi \rho_{atom} r_{0}}{k^{2}}\left(f^{0}\left(\vec{Q}=0\right)+f'\left(\omega\right)\right),\quad \text{and}\\
+\beta &= - \left(\frac{2\pi \rho_{atom}r_{0}}{k^{2}}\right)f''\left(\omega\right),
+\label{eq:delta-and-beta}
+\end{align}
+with
+\begin{equation}
+f''\left(\omega\right)=-\left(\frac{k}{4\pi r_{0}}\right)\sigma_{a},
+\label{eq:f-2-definition}
+\end{equation}
+where $\sigma_{a}$ is the absorption cross-setion.
 %
 %
-\subsection{Charge migration}\label{sec:relaxation}
-%%%
-\begin{figure}
-	\centering
-		\includegraphics[width=0.80\textwidth]{images/el-relaxation.png}
-	\caption[Schematic illustration of common charge transfer processes]{Schematic illustration of common charge transfer processes. a) Photoionization: Describes a direct emission of a K-shell electron after absorbing an X-ray photon. b) Auger decay: A relaxation process, where a K-shell hole is filled with an electron from the L-shell and the remaining energy is released through emission of an electron in an outer shell. c) Fluoresence:An electron hole is filled with an electron from an outer shell and the remaining energy is released through photons. After \citep[][p.~19]{Als-Nielson-2011-JWS}.}
-	\label{fig:el-relaxation}
-\end{figure}
-After an atom has been (core-)ionized due to absorption of a photon as depicted in Figure \ref{fig:el-relaxation} a), the atom is usually not in its most energetically favorable state. In order to emit energy and transition into its new ground state, the atom can emit particles according to the schematics in Figure \ref{fig:el-relaxation} b) and c). In a fluorescence decay, as shown in Figure \ref{fig:el-relaxation} c), the electron hole in the (K-)shell is filled by an electron in an energetically higher shell, here L or M shell, and thereby emits a photon of the discrete energy difference between the transitioning levels. If one spectroscopically resolves the signal, the discrete peaks are element-specific and modern photoemission spectroscopy can yield insight into, for example, element identification, excitation dynamics or chemical bonding.
-\begin{figure}
-	\centering
-		\includegraphics[width=.49\textwidth]{images/pnCCD-histogram.png}
-		\includegraphics[width=.49\textwidth]{images/auger-spectra.png}
-	\caption[Fluorescence spectra from xenon and neon K-LL Auger spectrum.]{Left spectra shows fluorescence peaks from xenon and oxygen illuminated with 1.5keV photons from the LCLS; detected with pnCCD detectors \citep{Bucher-2016-Unpublished, Rudek-2012-NatPho}. The green curve is an ADU histogram of the pnCCD detector and the blue curve uses a coalescent photon finder. Right, partial K-LL Auger spectrum with rel. energy 0 corresponding to 804.5 eV. Spectrum measured with photoelectron spectrometer \citep{Bucher-2014-Unpublished}, peaks identified as in \citep{Krause-1970-PhysLettA}.}
-	\label{fig:pnCCD-histogram}
-\end{figure}
-The left panel of Figure \ref{fig:pnCCD-histogram} shows measured fluorescence lines of oxygen and xenon. In this measurement, xenon atoms and residual oxygen atoms have been illuminated with 1500 eV photons from the Linac Coherent Light Source and the fluorescence photons have been measured with the LAMP pnCCD detectors that are described in Section \ref{sec:pnCCD}. The green curve is a ADU histogram of the pixel-detector using the detector calibrations described in Section \ref{sec:pnccd-corr}. The blue curve additionally uses a photon-finding algorithm as the signal from just one fluorescence photon splits into multiple pixels. The coalescent-photon finding algorithm\index{algorithm!coalescent-photon finding} looks for pixels above a certain threshold and includes neighboring pixels above a certain, lower threshold, thus correcting the measured signal to yield a proper ADU count per photon.\\[1\baselineskip]
 %
-The Auger decay is another possibility for the atom to emit energy through a two-step process. One, an outer shell electron is emitted into the continuum, the so-called \textit{Auger-electron}\footnote{Named after the French physicist Pierre Auger.}. Two, another electron in the atom simultaneously fills the electron-hole. An \textit{Auger decay} occurs typically on the few femtoseconds timescale after ionization \citep{Krause-1970-PhysLettA}. Emitted Auger-electrons have discrete energies depending on the combination of electrons involved in the process. Similar to fluorescence spectroscopy, one can use this attribute to, for example, identify elements or calibrate energies. Figure \ref{fig:pnCCD-histogram} right shows a partial K-LL\footnote{This nomenclature means a single hole in the K-shell is followed by a two holes in the L shell after the Auger decay.} Auger spectrum from neon illuminated by 1050 eV photons from the LCLS and measured with a hemispherical analyzer as described in \citep{Bucher-2014-Unpublished}. In this example, neon is ionized in the K-shell and an electron-hole in the 1s shell is created. An electron from the L-shell fills the 1s hole and another electron from the L-shell, the Auger electron, is emitted into the continuum. As there is a variety of electronic configurations that can be involved in this process multiple peaks appear for similar occupation configurations, e.g., 1s - 2p2p. More complex structures, called satellites, appear when the atom is already ionized, for example, the atom has a hole in the L-shell and then an absorption that creates another hole in the K-shell. This will lead to KL-LLL satellites.\\
-Similar to the Auger decay, where electrons from an outer shell are involved in the relaxation process, the transition can also be of the same shell and is then called a Coster-Kronig transition. Relevant transitions are for example the N-NN Coster-Kronig transitions in xenon \citep{Coster-1935-Physica}.
+%\subsection{Charge migration}\label{sec:relaxation}
 %\\So far we have looked at X-ray induced processes from atoms. Extended objects, whether a bio-molecule or a cluster, will respond differently than just the atoms they consist of. Nanometer-sized objects will develop a distinct character due to their electronic bond with other particles. This includes rare-gas clusters that are weakly bound Van der Waals forces. We shall explore this behavior in the next Section \ref{sec:ionizatin-of-ext-obj}.
 %
 %
 %
 %
-\section{Ionization of clusters in intense X-ray pulses}\label{sec:ionizatin-of-ext-obj}
+\section{Clusters in intense X-ray pulses}\label{sec:ionizatin-of-ext-obj}
 %%%%%%%%%%%%%%%%%%%
 %- Short introduction coming from inelastic scattering
 %%%%%%%%%%%%%%%%%%%
-The response of a cluster upon irradiation with light often differs from just the atomic response. Collective effects change the (microscopic) sample environment and it is now the collective of atoms that generate a response to the interacting light. Clusters provide, therefore, a testbed environment to study collective effects ranging from atomic, to molecular and to bulk material attributes. While we went over some benefits of using clusters in Section \ref{sec:cluster-theory}, it shall also be said that they provide an ideal testbed sample to control light-driven many-particle processes \citep{Fennel-2010-RMP}. In this section, we study how rare-gas clusters respond to femtosecond long, high intense X-ray pulses and reflect on recent experiments.
+The response of a cluster upon irradiation with light often differs from just the atomic response. In the soft X-ray region, the ionization of clusters is initially founded by the ionization of atoms but the sample environment and physical effects are dominated by the overall response. As discussed in Section \ref{sec:cluster-theory}, clusters have testbed environment properties that allow studying effects ranging from atomic, to molecular and to bulk material attributes. This is why they are an ideal testbed sample to control light-driven many-particle processes \citep{Fennel-2010-RMP}. In Section \ref{sec:nanoplasma-expansion}, we summarize how rare-gas clusters respond to femtosecond long, high-intense X-ray pulses and reflect on recent experiments; Section \ref{sec:tampered-layers} discusses how tamper layers shows evidence of how the nanoplasma expansion is slowed down.
 %
 %
 %
@@ -662,21 +698,25 @@ The response of a cluster upon irradiation with light often differs from just th
 \begin{figure}
 	\centering
 		\includegraphics[width=1.00\textwidth]{images/nano-plasma-schematic.jpg}
-	\caption[Schematic of the nanoplasma creation and expansion.]{Schematic of the nanoplasma creation and expansion. In step a) X-ray photons ionize electrons from a cluster. b) Subsequent \textit{multistep ionizations}\index{ionization!multistep} try to relax the electronically excited system, deepening the Coulomb potential of the cluster. Step c) shows a deepened Coulomb potential of the cluster, due to which the multistep ionization becomes (partially) frustrated and electrons are trapped in the potential. In step d) trapped electrons collide and start to thermalize. Collisions can lead to emission of trapped electrons. d) The superheated nanoplasma starts to expand. From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Arbeiter-2011-NJP}.}
+	\caption[Schematic of the nanoplasma creation and expansion.]{Schematic of the nanoplasma creation and expansion. In step a) X-ray photons ionize the atoms of a cluster. b) Subsequent \textit{multistep ionizations}\index{ionization!multistep} try to relax the electronically excited system, deepening the Coulomb potential of the cluster. Step c) shows a deepened Coulomb potential of the cluster, due to which the multistep ionization becomes (partially) frustrated and electrons are trapped in the potential. In step d) trapped electrons collide and start to thermalize. Collisions can lead to emission of trapped electrons. d) The superheated nanoplasma starts to expand. From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Arbeiter-2011-NJP}.}
 	\label{fig:nano-plasma-schematic}
 \end{figure}
- Let us recapture the scattering and absorption effects discussed in last section Section \ref{sec:light-matter-interaction}. Equation \eqref{eq:scattered-amplitude} indicates how the diffracted amplitude of a nanoparticle can be calculated. Although we disregard inelastic or incoherent processes, the modulo of the amplitude is close to actual measured scattering patterns. However, if we consider the resonant effects discussed in Section \ref{sec:absorption}, it should be clear that the structure factor of a nanoparticle is affected by the dispersion corrections $f'\left(\omega\right)$ and $f''\left(\omega\right)$ that reduce the atomic scattering length, $-r_{0}f^{0}\left(\vec{Q}\right)$. On the one hand, a dominating change in the atomic scattering length is driven by the absorption process that we introduced via the imaginary dispersion correction $i f''\left(\omega\right)$. Upon ionization, the atomic scattering factors, $f^{0}\left(\vec{Q}\right)$, change as the absorption cross-sections start to vary. These small changes are indicated in Table \ref{tab:helium-xenon-ionization} and such processes are exptected to occur on the few femtoseconds timescale, on which the ionization dynamics occur. Additionally, due to photoionized electronsin the atom, the atomic scattering factors change on the few femtoseconds timescale. Such small changes are indicated in Table \ref{tab:helium-xenon-el-scattering-crossection}. On the other hand, there are X-ray induced effects that change the scattering behavior of the collective of atoms, i.e., the cluster. We know from previous experiments \citep{Gorkhover-2016-NatPho} that these changes are related to the nanoplasma expansion and can significantly affect diffraction patterns.\\[1\baselineskip]
+%Let us recapture the scattering and absorption effects discussed in last section Section \ref{sec:light-matter-interaction}. Equation \eqref{eq:scattered-amplitude} indicates how the diffracted amplitude of a nanoparticle can be calculated. Although we disregard inelastic or incoherent processes, the modulo of the amplitude is close to actual measured scattering patterns. However, if we consider the resonant effects discussed in Section \ref{sec:absorption}, it should be clear that the structure factor of a nanoparticle is affected by the dispersion corrections $f'\left(\omega\right)$ and $f''\left(\omega\right)$ that reduce the atomic scattering length, $-r_{0}f^{0}\left(\vec{Q}\right)$. On the one hand, a dominating change in the atomic scattering length is driven by the absorption process that we introduced via the imaginary dispersion correction $i f''\left(\omega\right)$. Upon ionization, the atomic scattering factors, $f^{0}\left(\vec{Q}\right)$, change as the absorption cross-sections start to vary. These small changes are indicated in Table \ref{tab:helium-xenon-ionization} and such processes are exptected to occur on the few femtoseconds timescale, on which the ionization dynamics occur. Additionally, due to photoionized electronsin the atom, the atomic scattering factors change on the few femtoseconds timescale. Such small changes are indicated in Table \ref{tab:helium-xenon-el-scattering-crossection}. On the other hand, there are X-ray induced effects that change the scattering behavior of the collective of atoms, i.e., the cluster. We know from previous experiments \citep{Gorkhover-2016-NatPho} that these changes are related to the nanoplasma expansion and can significantly affect diffraction patterns.\\[1\baselineskip]
 %
- Let us follow Figure \ref{fig:nano-plasma-schematic} and \citep{Arbeiter-2011-NJP,Bostedt-2010-JPB} in the next five steps to get a better understanding of the nanoplasma phase-transition. Step a) of the nanoplasma transition\index{nanoplasma!transition}, the cluster gets ionized due to intense radiation\footnote{The wavelength of radiation must be above the ionization threshold of at least one subshell, however, it must not be X-rays with a wavelength on the nanometer length scale.}. Step b), further ionization through emission of photo electrons and Auger electrons lead to a so-called \textit{multistep ionization}\index{ionization!multistep} that steepens the Coulomb potential\index{Coulomb potential} \citep{Wabnitz-2002-Nature,Laarmann-2004-PRL,Bostedt-2008-PRL}. Step c), the multistep ionization is suppressed (or frustrated) because the Coulomb potential depth is larger than the atomic excess energy of photo- and Auger electrons. The emitted electrons are now trapped in the cluster potential and are \textit{quasi-free}. Upon increasing \textit{inner ionization}\index{ionization!inner}, the nanometer-sized object undergoes a phase transition to a nanoplasma\footnote{Plasma is another state of matter, similar to solid, liquid and gaseous, where molecular bonds dissociate and positive and negative particles are present in increasing numbers.}. Step d), the temperature of the nanoplasma is initially defined by the atomic excess energies (a rather discrete spectrum) but collisions with other particles lead to a (kinetic) energy distribution of the electrons that is similar to thermal distributions and can be measured via the spectra of evaporated electrons \citep{Laarmann-2005-PRL,Bostedt-2010-NJP}. Step e) Hydrodynamic and Coulomb forces drive an expansion of the cluster and the cluster will ultimately disintegrate. The hydrodynamic portion of the force is due to the developing hot plasma and the resulting increase in outward pressure, whereas the Coulomb portion comes from the repelling force of like charges. Both forces reasonably describe the expansion process, are not mutually exclusive and depend mostly on sample size and irradiation technique.\\[1\baselineskip]
- %
-Regarding the sample size, large clusters efficiently trap electrons in their Coulomb potentials such that the quasi-free electrons thermalize and subsequently heat the nucleus. The hot nanoplasma system then tries to expand due to the increase in internal pressure. Electrons thermalize on the attosecond timescale and simulations show that the energy transfer to the ions can be as fast as 50 fs \citep{Arbeiter-2010-PRA}. Small clusters trap photo- and Auger-electrons less efficiently and electrons are free such that the heating process is suppressed. In the case of small clusters, the ions see the repelling force due to Coulomb interaction of like charges with each other \citep{Lezius-1998-PRL}.\\[1\baselineskip]
+%Let us follow Figure \ref{fig:nano-plasma-schematic} and \citep{Arbeiter-2011-NJP,Bostedt-2010-JPB} in the next five steps to get an understanding of the nanoplasma formation.
+The nanoplasma formation and subsequent expansion summarize the processes that are responsible for sample damage in diffractive imaging due to highly intense X-ray pulses. This section first discusses the nanoplasma formation and expansion of clusters in soft X-rays, then discusses the \textit{electronic damage} and \textit{structural damage} that are imposed in nanoparticles, summarizes recent experiments that study the nanoplasma evolution, and ends with some remarks for this thesis.\\[1\baselineskip]
 %
-The nanoplasma expansion is also wavelength dependent. At optical to UV wavelengths strong field ionization can lead to ionization of clusters and a subsequent nanoplasma expansion \citep{Springate-2000-PRA}. At VUV, XUV and soft X-rays, direct photoionization becomes the main driver of the nanoplasma expansion and depending on the wavelength, certain multistep ionization cascades are enabled \citep{Arbeiter-2011-NJP}. It remains to discuss the radiation intensity, which affects the ultimately achieved charge-state combination. The more intense the radiation is, the more energy is absorbed by the cluster. For the nanoplasma this determines the electron temperature and possibly the expansion speed.
+For soft X-rays, the nanoplasma formation\index{nanoplasma!formation} and expansion for clusters is schematically shown in Figure \ref{fig:nano-plasma-schematic} and the following steps describe it in more detail \citep{Arbeiter-2011-NJP,Bostedt-2010-JPB}. Step a) the cluster is strongly ionized. Step b), further ionization through emission of photo electrons and Auger electrons lead to a \textit{multistep ionization}\index{ionization!multistep} that deepens the Coulomb potential\index{Coulomb potential} \citep{Wabnitz-2002-Nature,Laarmann-2004-PRL,Bostedt-2008-PRL}. Step c), the multistep ionization is suppressed or, so-called, \textit{frustrated} because the Coulomb potential depth is larger than the excess energies of photo- and Auger electrons. The emitted electrons are now trapped in the cluster potential and are \textit{quasi-free}. As a result, the cluster forms a nanoplasma\footnote{Plasma is another state of matter, similar to solid, liquid and gaseous, where molecular bonds dissociate and positive and negative particles are present in increasing numbers.}. Step d), the kinetic energies of the trapped electrons is initially defined by the discrete excess energies of, e.g., the Auger electrons, but collisions with other particles lead to a kinetic energy distribution that is similar to thermal distributions and can be measured via the spectra of emitted electrons \citep{Laarmann-2005-PRL,Bostedt-2010-NJP}. Step e) An \textit{hydrodynamic expansion} and \textit{Coulomb explosion} are the key mechanisms that now drive an expansion of the cluster until the cluster ultimately disintegrates.\\[1\baselineskip]
+%
+Both expansion mechanisms reasonably describe the expansion process, are not mutually exclusive, and mostly depend on sample size and irradiation technique. Regarding the sample size, large clusters tend to efficiently trap electrons in their deep Coulomb potentials that thermalize efficiently, which leads to an expansion that is rather driven by hydrodynamic forces due to comparably high electron temperatures. It has been shown that electrons thermalize on the attosecond timescale and that the energy transfer to the ions can be as fast as 50 fs \citep{Arbeiter-2010-PRA}. Small clusters trap photo- and Auger-electrons less efficiently and electrons are free such that the heating process is suppressed. In this case, the ions see the repelling force due to Coulomb interaction of like charges \citep{Lezius-1998-PRL}.\\[1\baselineskip]
+%
+We focus here on the soft X-ray wavelength range, but to give an idea of wavelength dependent aspects in the nanoplasma formation, it can be said that for optical to ultraviolet (UV) pulses, strong field ionization can lead to ionization of clusters and a subsequent nanoplasma expansion \citep{Springate-2000-PRA}. In the vacuum-ultraviolet (VUV) range, \textit{inverse Bremstrahlung heating} leads to efficient energy absorption in clusters and the ionization is driven by collisions inside the strongly coupled plasma \citep{Wabnitz-2002-Nature}. In the extreme-ultraviolet (XUV) to soft X-ray range, direct photoionization and subsequent multistep ionization becomes the main driver of the ionization, as described above. However, depending on the exact wavelength, certain multistep ionization cascades are enabled \citep{Arbeiter-2011-NJP}.\\[1\baselineskip]
+%It remains to discuss the radiation intensity, which affects the ultimately achieved charge-state combination. The more intense the radiation is, the more energy is absorbed by the cluster. For the nanoplasma this determines the electron temperature and possibly the expansion speed.
 %Following a similar line of argumentation, low energy ionizing photons allow efficient trapping of photo and Auger electrons, thus favorable conditions for a hydrodynamic expansion. Conversely, high photon energies\footnote{Meaning hard X-ray with wavelenghs on the {\AA}ngstrom length scale as soft X-rays have similar photon energies as trapping potentials and multistep ionization deepens the Coulomb potential enough.} lead to more atomic excess energy such that more electrons overcome the trapping potential, thus favorable conditions for a Coulomb expansion. However, this line is very element dependent and atoms with large atomic mass, such as Xenon\footnote{Find ionization energies for specific subshells in Table \ref{tab:xenon-photoionization-cross-section} and deepened Coulomb potential ionization energies after ionization of Xe, here Xe$^+1$ and Xe$^{+2}$ for different subshell ionization configurations, in Table \ref{tab:helium-xenon-ionization}.} would require photon energies $E_{ph}$ of $5.5keV\ll E_{ph} < 34.6k eV$ or $34.6keV\gg E_{ph}$ and since mostly the immediate process upon photon absorption is wavelength dependent and the electron trapping of the majority of subsequent multistep ionizations will be mostly dependent on the cluster size.\\
 %
 %
 %
-\subsection{Imaging of transient states}
+%\subsection{Imaging of transient states}
 \begin{figure}
 	\centering
 		\includegraphics[width=1.00\textwidth]{images/tais-nat-photonics.jpg}
@@ -684,33 +724,56 @@ The nanoplasma expansion is also wavelength dependent. At optical to UV waveleng
 	\label{fig:tais-nat-photonics}
 \end{figure}
 %The nanoplasma transition is so interesting is because every matter irradiated by a free-electron laser will undergo a nanoplasma transition and finally disintegrate. This is a challenge for structural biology and called radiation damage  or sample damage \citep{Neutze-2000-Nature}. Sample damage changes the structure of a biomolecule and it is particularly the structure many scientists want to investigate. In order to prevent falsified measurements, one needs to understand the nanoplasma transition as it occurs while the pulse is propagating through the sample.
-To study the nanoplasma transition, a coincident imaging and spectroscopy technique has proven successful \citep{Bostedt-2012-PRL}. First experiments aimed to reveal correlations between the diffraction patterns and the ion spectroscopic data \citep{Gorkhover-2012-PRL,Rupp-2016-PRL}. The advent of pump--probe techniques has been combined with the coincident measuring technique and recently, snapshots were taken of the expanding electron density \citep{Gorkhover-2016-NatPho}. The snapshots are shown in Figure \ref{fig:tais-nat-photonics}. In this particular study, an infra-red pump-laser was used to cause a nanoplasma transition in a xenon cluster and subsequently image this state with an XFEL probe-pulse. As the time delay between pump- and probe-pulse is varied, the resulting diffraction patterns of the \SIrange{15}{20}{\nano\meter} Xe-cluster show declining intensities at larger scattering angles with increasing time delay, $\Delta t>100$ fs. The loss in signal could be explained through an expanding electron density\index{electron density!expanding} \citep{Hau-Riege-2008-PRE,Peltz-2014-PRL}. The electron density expands increasingly over time due to the Coulomb and Hydrodynamic forces. First, the outer layers expand, and second, for larger time delay also the inner atomic layers start to expand. In that study, an electron temperature of \SI{\sim 200}{\electronvolt} could be measured by comparing plasma simulations to the ion spectroscopy signal. The spatial resolution of the diffraction patterns has been estimated to be 8 nm, but by assuming a spherical shape of the clusters, the electron density model is sensitive below this resolution.\\[1\baselineskip]
+The nanoplasma formation affects particularly two aspects in any kind of sample: One, electronic damage; the electronic configuration of a sample changes inevitably due to photoionization and subsequent processes, which is expected to break bonds and changing scattering factors and thus limits the achievable information from diffraction images; However, these processes are well understood such that, for smaller samples, computer simulations may account for such changes \citep{Aquila-2015-StrucDyn,Quiney-2010-NatPhys}. Two, structural damage; the nanoplasma expansion leads to structural changes due to the movement of nuclei \citep{Neutze-2000-Nature}. It is currently an active field to investigate the nanoplasma expansion and determine particularly the timescales on which the expansion occurs, the effect on the measured signal, and the actual structural changes \citep{Bostedt-2012-PRL}. Initial experiments aimed to reveal correlations between diffraction images and ion spectroscopic data using a coincident imaging and spectroscopy technique \citep{Gorkhover-2012-PRL,Rupp-2016-PRL}.\\[1\baselineskip]
+%
+With the advent of ultrafast pump--probe techniques at XFELs, the nanoplasma expansion could be initiated in a controlled way using the pump-pulse, while the probe-pulse creates a snapshot of the nanoplasma formation and expansion. A first experiment used an infra-red-pump and soft X-ray FEL-probe pulse \citep{Schorb-2012-APL} to study the nanoplasma expansion \citep{Gorkhover-2016-NatPho}. Figure \ref{fig:tais-nat-photonics} shows diffraction images of Xe-clusters from this study. The diffraction images have been fitted with Fourier-transformed electron densities. As the time delay, $\Delta t$, between pump- and probe-pulse is varied on the hundred femtoseconds timescale, the diffraction images of the \SIrange{15}{20}{\nano\meter} radius Xe-cluster show declining intensities at larger spatial frequencies, $q$. The loss in signal could be explained through a surface softening of the electron density\index{electron density!surface softening} \citep{Hau-Riege-2008-PRE,Peltz-2014-PRL}. This means for the nanoplasma expansion that initially the outer atomic layers of a Xe-cluster expand, and only at longer time delays inner atomic layers begin to expand. It remains however a question, whether the nanoplasma responds similarly to an X-ray induced formation.\\[1\baselineskip]
+%In that study, an electron temperature of \SI{\sim 200}{\electronvolt} could be measured by comparing plasma simulations to the ion spectroscopy signal. The spatial resolution of the diffraction patterns has been estimated to be 8 nm, but by assuming a spherical shape of the clusters, the electron density model is sensitive below this resolution.
 \begin{figure}
 	\centering
 		\includegraphics[width=0.80\textwidth]{images/ken-science.jpg}
-	\caption[Experiment that shows early evolution of the nanoplasma transition.]{X-ray pump--X-ray probe scattering experiment on an Xe-cluster that shows an early evolution of the nanoplasma transition. A, single-shot Bragg peaks at varying time delays. The scattering vector q increases over time delay. B, unit cell length over time delay. The unit cell length decreases, therefore the cluster shrinks in size. C, Lattice disorder over time delay. The measured fcc lattice is becoming disordered after being pumped with an X-ray pulse. From \citep{Ferguson-2016-SciAdv}. Reprinted with permission from AAAS.}
+	\caption[Experiment that shows early evolution of the nanoplasma transition.]{X-ray pump--X-ray probe scattering experiment on an Xe-cluster that shows an early evolution of the nanoplasma transition. A, single-shot Bragg peaks at varying time delays. The scattering vector q increases over time delay. B, unit cell length over time delay. The clusters undergoe a \textit{transient lattice compression}. C, Lattice disorder over time delay. The measured fcc lattice is becoming disordered after being pumped with an X-ray pulse. From \citep{Ferguson-2016-SciAdv}. Reprinted with permission from AAAS.}
 	\label{fig:ken-science}
 \end{figure}
-In another study with shorter time delays of $\Delta t<100$ fs, xenon clusters compress in size \citep{Ferguson-2016-SciAdv}. Since clusters form as a crystal\footnote{See Section \ref{sec:homogenous-cluster}.}, one can determine their structure through crystallographic approaches as it is explained in full detail in \citep[][chapter 5]{Als-Nielson-2011-JWS}\footnote{In short, crystals scatter light and create Bragg spots at large $\lvert \vec{Q}\rvert$-values. These Bragg spotts occur when Bragg's law is fulfilled. Bragg's law reads $m \lambda = 2d \sin\left(\frac{\Theta}{2}\right)$,\index{Bragg's law} with $m$ being an integer, $\lambda$ being the wavelength of the scattered light, $d$ the distance between crystalline layers and $\Theta$ the scattering angle. When Bragg's condition is fulfilled, the rays interfere constructively and the location of the Bragg peaks gives insight to the crystalline structure.}. Figure \ref{fig:ken-science}a shows Bragg peaks, which occur under certain conditions over the scattering vector, $\vec{Q_{\text{peak}}}$. In the figure, the signal moves to larger scattering vectors and, as $\lvert \vec{Q_{\text{peak}}}\rvert=\tfrac{2\pi}{a}$, the unit cell length $a$ shrinks over the time delay $\Delta t =$ \SIrange{0}{100}{\femto\second}. This unintuitive and contradictory result is attributed to the changes in electronic configuration upon ionization. Electrons that are trapped in the cluster's Coulomb potential have an increased mobility and are able to contribute comparably to valence electrons and, therefore, change the chemical bonding character of the Van der Waals cluster. As a result, the unit cell changes on the {\AA}ngstrom length scale and the lattice becomes increasingly disordered (see Figure \ref{fig:ken-science}c).\\[1\baselineskip]
-These two studies allow us to conclude that the nanoplasma transition is a multistep process. First, the initial ionization occurs, followed by an increased Coulomb potential that traps electrons, which then change the structure of the nanosample, e.g., compression of a lattice. Eventually, the system becomes strongly ionized and hot such that Coulomb and hydrodynamic forces start an expansion of the system until the sample disintegrates into its atomic components.
+So, an X-ray pump--X-ray probe study using the technique described in section \ref{sec:twin-bunch-pump-probe} followed at a later time \citep{Ferguson-2016-SciAdv}. Here, a coincident measurement of Bragg powder patterns and ion spectroscopy data was performed and time delays up to $\Delta t<100$ fs could be observed.
+%, xenon clusters compress in size. Since clusters form as a crystal\footnote{See Section \ref{sec:homogenous-cluster}.}, one can determine their structure through crystallographic approaches as it is explained in full detail in \citep[][chapter 5]{Als-Nielson-2011-JWS}
+%\footnote{In short, crystals scatter light and create Bragg spots at large $\lvert \vec{Q}\rvert$-values. These Bragg spotts occur when Bragg's law is fulfilled. Bragg's law reads $m \lambda = 2d \sin\left(\frac{\Theta}{2}\right)$,\index{Bragg's law} with $m$ being an integer, $\lambda$ being the wavelength of the scattered light, $d$ the distance between crystalline layers and $\Theta$ the scattering angle. When Bragg's condition is fulfilled, the rays interfere constructively and the location of the Bragg peaks gives insight to the crystalline structure.}. 
+%which occur under certain conditions over the scattering vector, $\vec{Q_{\text{peak}}}$. In the figure, the signal moves to larger scattering vectors and, as $\lvert \vec{Q_{\text{peak}}}\rvert=\tfrac{2\pi}{a}$, 
+Figure \ref{fig:ken-science}a shows the measured Bragg peaks of Xe-clusters as a function of $\Delta t$. The analyzed signal shows that the unit cell length shrinks over the time delay range $\Delta t =$ \SIrange{0}{80}{\femto\second}, which means that the cluster undergoes a \textit{transient lattice compression} before it begins the nanoplasma expansion. This unintuitive and contradictory result is attributed to the changes in electronic configuration upon ionization. Electrons that are trapped in the cluster's Coulomb potential have an increased mobility and are able to contribute comparably to valence electrons and, therefore, change the chemical bonding character of the Van der Waals cluster. Due to the limitations in the time delay, it could not be measured whether the transient lattice compression immediately transforms into a nanoplasma expansion.\\[1\baselineskip]
+%As a result, the unit cell changes on the {\AA}ngstrom length scale and the lattice becomes increasingly disordered (see Figure \ref{fig:ken-science}c).
+%These two studies allow us to conclude that the nanoplasma transition is a multistep process. First, the initial ionization occurs, followed by an increased Coulomb potential that traps electrons, which then change the structure of the nanosample, e.g., compression of a lattice. Eventually, the system becomes strongly ionized and hot such that Coulomb and hydrodynamic forces start an expansion of the system until the sample disintegrates into its atomic components.
+Part of this thesis is to complement and build on the results of the above studies (see Section \ref{sec:xenon-data}). The in this thesis used X-ray pump--X-ray probe method (see Section \ref{sec:k-based-pump--probe}) has similar parameters than current bio-molecule imaging setups such that a nanoplasma formation and expansion can be observed under the conditions of single molecule imaging, where radiation damage remains a major challenge. Furthermore, the pump--probe method allows a time delay range from $\Delta t=$ \SIrange{0}{800}{\femto\second}, thus extending the time delay window of above's X-ray pump--X-ray probe study.
 %
 %
 %
-\subsection{Tampered layers to inhibit the nanoplasma expansion}
+\subsection{Sacrificial layers slow the nanoplasma expansion}\label{sec:tampered-layers}
 %%%%%%%%%%%%%%
 %- Step by step explanation on the formation of the nanoplasma, pointing out the differences between tampered and pristine clusters
 %
 %
+%
 %%%%%%%%%%%%
-%To overcome radiation damage, the most common method is to \textit{outrun} radiation damage\index{radiation damage} processes using very short pulses \citep{Neutze-2000-Nature}.
-As we have discussed, the nanoplasma phase-transition occurs on the femtosecond timescale and affects diffraction patterns. To \textit{outrun} this radiation damage, pulses from the XFEL must be shorter than the lifetime of Auger processes, thus a few femtoseconds long. And by limiting the XFEL pulse duration, one limits the pulse energy\index{pulse energy} as current bunch compression methods typically generate much less fluence. Often, this fluence is not enough and means that many coherent diffractive imaging experiments are currently performed with pulse widths of 40 fs or more to generate enough scattered intensity. But even if these technical limitations can be overcome, outrunning radiation damage does not circumvent photoionization and it is therefore expected that few-femtoseconds long pulses have spatial resolution limitations \citep{Aquila-2015-StrucDyn}. To be more precise, it is an open question, whether electron densities and particular bonding configuration are obtainable by solely outrunning radiation damage. Although radiation damage is unavoidable it can be mitigated in several ways. One way to mitigate radiation damage is to simulate the effects, however, this can only be done for small particles. Another way is to fundamentally increase resolution in single particle imaging due to prior alignment of particles such that their orientation is known while the image is taken. Molecule alignment has seen some success for small molecules \citep{Kupper-2014-PRL}, but it is currently unknown, whether this is applicable for larger molecules. The strong light fields that are needed to align the molecules, may change their structure. Here, it should be noted that recent advances with diffractive imaging algorithms made it possible to computationally determine the orientation of a particle at the time of imaging \citep{Loh-2009-PRE,Ekeberg-2015-PRL}. The orientation can be atomatically determined -- without prior knowledge -- when at least a few hundred diffraction images are provided. However, in this thesis, we shall discuss a method to reduce the effects of radiation damage through artificial tamper layers. Artificial shells around a sample supply it with electrons and function as a sacrificial layer that protects the sample \citep{Hau-Riege-2010-PRL}. For aerosol particles, this method has only been investigated through ion spectroscopy \citep{Hoener-2008-JPB,Ziemkewitz-2017-unpublished}.\\[1\baselineskip]
+As we have discussed in the last section, radiation damage occurs as the light pulse propagates through the particle on the timescale of Auger decay rates. Thus, the principle of \textit{diffraction before destruction} \citep{Neutze-2000-Nature} demands stringent lightsource parameters to image a nanoparticle before structural damage, namely X-ray fluences of \SIrange{e13}{e15}{\photons\per\square\micro\meter} and pulse lengths of a few femtoseconds or shorter \citep{Hau-Riege-2005-PRE}. But these parameters are likely not achievable with the currently planned XFEL lightsources \citep{Huldt-2003-JSB}. There have been several proposals to reduce the requirements to lightsources \citep{Aquila-2015-StrucDyn} by either reducing or accounting for the effects of radiation damage. The following lists three promising candidates: One, Radiation damage effects can - in principle - be computer simulated and accounted for when imaging smaller biological molecules. Two, single particles can be aligned prior to the imaging process \citep{Hau-Riege-2005-PRE} and the known orientation of a reproducible nanoparticle in a 2D projection, i.e., the diffraction image, allows, for example, the averaging of multiple diffraction images; molecule alignment has seen some success for small molecules \citep{Kupper-2014-PRL}, but it is currently unknown, whether this is applicable for larger molecules. The strong light fields that are needed to align the molecules, may change the molecule's structure. Three, nanoparticles or biological molecules can be encapsulated with sacrificial layers or tamper layers \citep{Hau-Riege-2007-PRL}, which slow the progress of the nanoplasma expansion. The layers supply the imaged nanoparticle with electrons and the ionized tamper layers expand first, thereby delaying structural and electronic damage of the sample. This allows longer lightpulses to perform the diffractive imaging (see Figure \ref{fig:tamper-layer} and the left panel of \ref{fig:sacrificial-image}). Part of this thesis is to show experimental evidence of sacrificial layers in supersonic gas jet injected nanoparticles (see Section \ref{sec:hexe--and-he-TOF}ff) and is discussed in more detail below.\\[1\baselineskip]
+%
+Initially water has been proposed as tamper layer for biological particles \citep{Hau-Riege-2007-PRL} but recent discussions \citep{Aquila-2015-StrucDyn} suggest that water tamper layers tend to become uneven in thicker layers and they are usually not uniform around the sample due to a mix of hydrophobic and hydrophilic surfaces on typical biological particles. However, it is important to have a uniform and thin tamper layer to cope with the additions from the layer to the diffraction image. These additions can be reduced by simply averaging multiple diffraction patterns while accounting for the orientation of the nanoparticle and by correcting for the average coherent additions from the layer \citep{Hau-Riege-2007-PRL,Maia-2009-PRE}. Tamper layers have been used recently \citep{Hau-Riege-2010-PRL} at FLASH\footnote{Short for \textbf{F}ree electron \textbf{LAS}er in \textbf{H}amburg. An XUV free electron laser in Hamburg, Germany.}\index{Free electron LASer in Hamburg!FLASH} using fixed targets that were mounted on a stage as a sample. Here, a silicon tamper layer was placed around an aluminum pillar and compared to an aluminum pillar without a tamper layer (see Figure \ref{fig:tamper-layer}). The effects were immediately obvious and the tamper layer ensured the sample integrity over a period of at least \SI{5}{\pico\second} after the irradiation with a \SI{25}{\femto\second}-long \SI{13.5}{\nano\meter} FLASH pulse.\\[1\baselineskip]
+%
 \begin{figure}
 	\centering
-		\includegraphics[height=0.7\textwidth]{images/Hoener-image.jpg}
-	\caption[Time of flight spectra of argon and xenon core-shell systems.]{Time of flight (TOF) traces of argon and xenon core shell systems irradiated with 93 eV X-ray pulses. At this energy, mostly Xe is ionized and the ionized atoms create a steep Coulomb potential that traps electrons towards the center of the cluster. The top panel shows smaller clusters with 400 particles, in which the trapping is inefficient, few electron-ion recombinations occur, thus Xe and Ar ions are detected in the TOF detector. The bottom panel shows large clusters with 4000 particles and a thicker argon shell. Here, Xe-ions recombine in the center and the TOF shows mostly Ar-ions as the neutral xenon remains undetected. From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Hoener-2008-JPB}.}
-	\label{fig:Hoener-image}
+		\includegraphics[width=0.49\textwidth]{images/tamper-layers.png}
+		\includegraphics[width=0.4\textwidth]{images/Hoener-image.jpg}
+	\caption[Effects of tamper layers to nanoparticles that undergo a nanoplasma formation.]{Left panel: Simulations of atomic layers of a nanoparticle that undergoes a nanoplasma formation without tamper layers (left) and with tamper layers (right, tamper dashed line). From \citep{Hau-Riege-2007-PRL}. Reprinted with permission from APS. Right panel: TOF traces of ArXe-cluster of different sizes, $\left\langle N\right\rangle$. From \citep[\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}]{Hoener-2008-JPB}.}
+	\label{fig:sacrificial-image}
 \end{figure}
-In the study shown in Figure \ref{fig:Hoener-image}, a core-shell system of argon and xenon was constructed and here xenon is to the sample and argon corresponds to the sacrificial layer around the particle (see figure). The heterogeneous clusters were irradiated with 93 eV photons from \textit{FLASH}\footnote{Short for \textbf{F}ree electron \textbf{LAS}er in \textbf{H}amburg. An extreme ultra violet (XUV) free electron laser in Hamburg, Germany.}\index{Free electron LASer in Hamburg!FLASH}. At this photon energy, mostly xenon atoms are ionized. As described in the nanoplasma creation process (see Section \ref{sec:nanoplasma-expansion}), the increasingly ionized cluster creates a steep Coulomb potential, trapping electrons. Trapped electrons are available for recombination with the ionized atoms. In the small core-shell system of ArXe with 400 particles (Figure \ref{fig:Hoener-image} top-panel), the time of flight mass spectroscopy\index{time of flight!mass spectroscopy} data show Xe and Ar ions. These ions mean that the charge recombination is suppressed and the cluster disintegrates upon irradiation. In the large ArXe-cluster system with 4000 particles (bottom-panel), mostly Ar ions are in the TOF data. These ions mean that the Xe-ions in the center of the cluster recombine with the electrons that were attracted to the center of the core-shell system due to the steep Coulomb potential of the large cluster. Neutrally charged xenon is not detected by the TOF detector. The Ar-ions in the outer layers contributed electrons to the center of the cluster but were shed off the mixed ArXe-cluster. It is also evident that the argon atoms in the large cluster case release more kinetic energy than in the small cluster case, which is a size-dependent effect that shows an energy transfer process from the initially ionized Xe-core to the Ar-shell.
+%
+Another study \citep{Hoener-2008-JPB} that is very close to the idea of tamper layers and the work described in this thesis is shown in the right panel of Figure \ref{fig:sacrificial-image}. Here pristine Ar- and Xe- clusters as well as heterogeneous ArXe-clusters were investigated. The two rare-gases form a \textit{core--shell system}, whereby the cluster's core consists of Xe-atoms and the shell is build of Ar-atoms. The clusters were irradiated with \SI{93}{\electronvolt} photons from FLASH to undergo a nanoplasma formation and expansion. At this photon energy, dominantly xenon atoms are ionized. The experiment reveals that in smaller core--shell systems of ArXe-clusters with \num{400} particles (Figure \ref{fig:sacrificial-image} top-right panel) the time-of-flight (TOF) mass spectroscopy\index{time of flight!mass spectroscopy} (see Section \ref{sec:TOF-spectrometer}) data show Xe- and Ar-ions, while in larger core--shell systems of ArXe-clusters with \num{4000} particles (Figure \ref{fig:sacrificial-image} bottom-right panel) dominantly Ar-ions can be found in the TOF data. As we have discussed in Section \ref{sec:nanoplasma-expansion}, larger nanoparticles trap electrons efficiently in their deep Coulomb potential. These trapped electrons are available for recombination with other ionized atoms in the cluster. For the large ArXe-cluster, the data shows that Xe-ions recombine with the electrons that were attracted to the center of the core--shell system due to the deep Coulomb potential. Neutral xenon atoms are not detected by the TOF detector. The Ar-ions in the outer layers contributed electrons to the center of the cluster but were shed off the mixed ArXe-cluster. It is also evident that the argon atoms in the large cluster case release more kinetic energy than in the small cluster case, which is a size-dependent effect that shows an energy transfer process from the initially ionized Xe-core to the Ar-shell. Summarizing, the Ar-shell behaves as a tamper layer that reduces the nanoplasma formation of the Xe-core by transferring charges from the shell to the core, which is called \textit{charge transfer ionization}, and transporting kinetic energy away from the Xe-core.\\[1\baselineskip]
+%
+These are promising results that tamper layers slow and reduce the nanoplasma formation and expansion of nanoparticles that are exposed to highly intense X-ray pulses such as the ones from LCLS. While the underlying processes of a tamper layer are more and more understood and its application for diffractive imaging is widely supported, experiments have not jet produced data that comes close to the conditions of typical diffractive imaging setups at XFELs, where nanoparticles are typically injected using gas or aerosol jets to take diffraction images at high rates. The sample injection then opposes the question, which tamper material should be used and how can it be placed reproducible around a nanoparticle?
+%
+Helium droplets have a long tradition to study effects of embedded species due to the unique attributes of the quantum fluid \citep{VonHaeften-1997-PRL,VonPietrowski-2006-EPJ,Stienkemeier-2006-JPhysB,Buchta-2013-JCPA,Gomez-2014-Science}. Recently, heterogeneous HeXe-clusters were studied theoretically as a core--shell system \citep{Mikaberidze-2008-PRA} and it was proposed to use a helium tamper layer to slow and reduce the effects of a nanoplasma formation and expansion upon irradiation with an XFEL. Part of this thesis is to develop the experimental aspects of such an experiment (see Chapter \ref{ch:exp_setup}) and analyze the effects of the helium tamper layer onto the Xe-cluster during the nanoplasma formation and expansion (see Chapters \ref{ch:methods} and \ref{ch:results}).\\[1\baselineskip]
+%Another way is to fundamentally increase resolution in single particle imaging due to prior alignment of particles such that their orientation is known while the image is taken. 
+%As we have discussed, the nanoplasma formation occurs on the femtosecond timescale and affects diffraction patterns. To \textit{outrun} this radiation damage, pulses from the XFEL must be shorter than the lifetime of Auger processes, thus a few femtoseconds long. And by limiting the XFEL pulse duration, one limits the pulse energy\index{pulse energy} as current bunch compression methods typically generate much less fluence. Often, this fluence is not enough and means that many coherent diffractive imaging experiments are currently performed with pulse widths of 40 fs or more to generate enough scattered intensity. But even if these technical limitations can be overcome, outrunning radiation damage does not circumvent photoionization and it is therefore expected that few-femtoseconds long pulses have spatial resolution limitations \citep{Aquila-2015-StrucDyn}. To be more precise, it is an open question, whether electron densities and particular bonding configuration are obtainable by solely outrunning radiation damage. Although radiation damage is unavoidable it can be mitigated in several ways. 
+%One way to mitigate radiation damage is to simulate the effects, however, this can only be done for small particles. 
+%Here, it should be noted that recent advances with diffractive imaging algorithms made it possible to computationally determine the orientation of a particle at the time of imaging \citep{Loh-2009-PRE,Ekeberg-2015-PRL}. The orientation can be aromatically determined -- without prior knowledge -- when at least a few hundred diffraction images are provided. However, in this thesis, we shall discuss a method to reduce the effects of radiation damage through artificial tamper layers. Artificial shells around a sample supply it with electrons and function as a sacrificial layer that protects the sample \citep{Hau-Riege-2010-PRL}. For aerosol particles, this method has only been investigated through ion spectroscopy \citep{Hoener-2008-JPB,Ziemkewitz-2017-unpublished}.\\[1\baselineskip]
+%
 %
 %
 %

@@ -1,32 +1,27 @@
 \begin{theindex}
 
   \item afterpulse, \hyperpage{22}
-  \item algorithm
-    \subitem coalescent-photon finding, \hyperpage{33}
-  \item amplitude
-    \subitem complex, \hyperpage{27}
 
   \indexspace
 
   \item bending magnets, \hyperpage{6}
-  \item Bragg's law, \hyperpage{38}
   \item brilliance, \hyperindexformat{\see{spectral brightness}}{4}
 
   \indexspace
 
   \item cluster size, \hyperpage{21}
-  \item Coulomb potential, \hyperpage{37}
+  \item Coulomb potential, \hyperpage{36}
 
   \indexspace
 
   \item dispersion correction
-    \subitem complex, \hyperpage{29}
+    \subitem complex, \hyperpage{35}
   \item dopant, \hyperpage{23}
 
   \indexspace
 
   \item electron density
-    \subitem expanding, \hyperpage{38}
+    \subitem surface softening, \hyperpage{39}
   \item emittance, \hyperpage{10}
 
   \indexspace
@@ -47,9 +42,7 @@
 
   \item imprint, \hyperpage{47}
   \item ionization
-    \subitem energy, \hyperpage{31}
-    \subitem inner, \hyperpage{37}
-    \subitem multistep, \hyperpage{36, 37}
+    \subitem multistep, \hyperpage{36}
 
   \indexspace
 
@@ -68,7 +61,7 @@
 
   \item nanoplasma
     \subitem expansion, \hyperpage{90}
-    \subitem transition, \hyperpage{37}
+    \subitem formation, \hyperpage{36}
   \item nanoplasma expansion
     \subitem Coulomb trapping, \hyperpage{89}
 
@@ -91,24 +84,23 @@
     \subitem pixel size, \hyperpage{55}
   \item psana, \hyperpage{55}
     \subitem calibman, \hyperpage{67}
-  \item pulse energy, \hyperpage{41}
 
   \indexspace
 
-  \item refractive index, \hyperpage{28}
+  \item refractive index, \hyperpage{34}
 
   \indexspace
 
   \item scaling law, \hyperpage{21}
   \item self-seeding, \hyperpage{11}
-    \subitem soft x-ray, \hyperpage{12}
+    \subitem soft x-ray, \hyperpage{13}
   \item spectral brightness, \hyperpage{4}
   \item superstructure, \hyperpage{102}
 
   \indexspace
 
   \item time of flight
-    \subitem mass spectroscopy, \hyperpage{41}
+    \subitem mass spectroscopy, \hyperpage{42}
   \item time-of-flight, \hyperpage{47}
 
   \indexspace
@@ -117,8 +109,8 @@
 
   \indexspace
 
-  \item wave vector
-    \subitem transfer, \hyperpage{26}
+  \item wave-vector
+    \subitem transfer, \hyperpage{30}
   \item wiggler, \hyperpage{6}
 
   \indexspace
