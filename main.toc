@@ -1,7 +1,10 @@
-\select@language {german}
-\select@language {german}
-\select@language {english}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {american}
+\select@language {american}
+\select@language {american}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\select@language {american}
 \contentsline {chapter}{\numberline {2}Fundamental Concepts}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Why X-ray free electron lasers?}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}From bending magnets to undulators}{6}{subsection.2.1.1}
@@ -14,21 +17,22 @@
 \contentsline {subsection}{\numberline {2.2.1}Generation of homogenous clusters}{17}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Creation of heterogeneous clusters: The pickup principle}{22}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Fundamental processes of soft X-rays and nanoparticles}{24}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Photoionization and core-hole decay}{25}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}From Thomson scattering to diffractive imaging}{29}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.1}Photoionization and core-hole decay}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}From Thomson scattering to diffractive imaging}{30}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Generalized index of refraction}{34}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Clusters in intense X-ray pulses}{35}{section.2.4}
+\contentsline {section}{\numberline {2.4}Clusters in intense X-ray pulses}{36}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Formation and expansion of a nanoplasma}{36}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Sacrificial layers slow the nanoplasma expansion}{40}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}Experimental Setup}{44}{chapter.3}
-\contentsline {section}{\numberline {3.1}The AMO instrument and FEE at the LCLS}{45}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Focus characterization using a TOF spectrometer}{47}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Focus characterization via imprint study}{48}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}The LAMP end-station at AMO}{49}{section.3.2}
-\contentsline {section}{\numberline {3.3}The large area pn-CCD detectors}{53}{section.3.3}
-\contentsline {section}{\numberline {3.4}Sample delivery}{56}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{59}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Time-of-flight mass-spectrometer}{61}{section.3.5}
+\contentsline {chapter}{\numberline {3}Experimental Considerations}{44}{chapter.3}
+\contentsline {section}{\numberline {3.1}The X-ray beam transport to the LAMP end-station}{45}{section.3.1}
+\contentsline {section}{\numberline {3.2}The LAMP end-station at the AMO instrument}{47}{section.3.2}
+\contentsline {section}{\numberline {3.3}The large area pnCCD detectors}{51}{section.3.3}
+\contentsline {section}{\numberline {3.4}Sample delivery}{54}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{56}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Time-of-flight mass-spectrometer}{59}{section.3.5}
+\contentsline {section}{\numberline {3.6}Focus characterization}{62}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Focus characterization using a TOF spectrometer}{62}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Focus characterization via imprint study}{62}{subsection.3.6.2}
 \contentsline {chapter}{\numberline {4}Methods}{65}{chapter.4}
 \contentsline {section}{\numberline {4.1}The computing environment at LCLS}{65}{section.4.1}
 \contentsline {section}{\numberline {4.2}pnCCD photon detectors}{67}{section.4.2}
@@ -55,8 +59,8 @@
 \contentsline {section}{\numberline {7.1}Matlab code on spherical integrations}{110}{section.7.1}
 \contentsline {section}{\numberline {7.2}Python code on combining detectors}{111}{section.7.2}
 \contentsline {chapter}{\numberline {8}Bibliography}{114}{chapter.8}
-\contentsline {chapter}{\numberline {A}Publications by the author}{A}{appendix.A}
+\contentsline {chapter}{\numberline {A}Publikationsliste}{A}{appendix.A}
 \select@language {german}
-\contentsline {chapter}{\numberline {B}Disclaimer}{C}{appendix.B}
-\select@language {english}
+\contentsline {chapter}{\numberline {B}Eidesstattliche Versicherung}{C}{appendix.B}
+\select@language {american}
 \contentsline {chapter}{\numberline {C}Acknowledgment}{D}{appendix.C}

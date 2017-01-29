@@ -1,8 +1,11 @@
-\select@language {german}
-\select@language {german}
-\select@language {english}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {american}
+\select@language {american}
+\select@language {american}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Computer simulations of \SI {7.5}{\nano \meter } radius aluminum spheres with tamper layers}}{3}{figure.1.1}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Computer simulations of aluminum spheres with tamper layers}}{3}{figure.1.1}
+\select@language {american}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Aerial view of the Linac Coherent Light Source.}}{5}{figure.2.1}
 \contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Schematics of several X-ray generating methods.}}{7}{figure.2.2}
@@ -14,29 +17,29 @@
 \contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces Schematic setup of a bunch based pump-probe setup.}}{16}{figure.2.8}
 \contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Schematic of a supersonic gas expansion into a vacuum.}}{19}{figure.2.9}
 \contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Schematic of a pickup (gas-)source.}}{23}{figure.2.10}
-\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces The total cross-section of atomic carbon, $\sigma _{\text {tot}}$, as a function of energy. Several processes add to, $\sigma _{\text {tot}}$: $\tau $, is the photoionization; $\sigma _{\text {coh}}$, is coherent scattering; $\sigma _{\text {incoh}}$, is the incoherent scattering; $\sigma _{ph}$, is photonuclear absorption; $\kappa _{n}$, and $\kappa _{e}$, are pair-production events. At the experimental photon energy of \SI {837}{\electronvolt }, the dominant effects are photoionization and coherent scattering. From \citep {Ferguson-2016-PhD,Williams-2009-xb}.}}{25}{figure.2.11}
+\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Total cross-section of atomic carbon.}}{25}{figure.2.11}
 \contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Schematic illustration of common charge transfer processes}}{26}{figure.2.12}
-\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Total absorption cross-sections for helium and xenon.}}{26}{figure.2.13}
-\contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Fluorescence peaks from xenon and neon K-LL Auger spectrum.}}{28}{figure.2.14}
+\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Total absorption cross-sections for helium and xenon.}}{27}{figure.2.13}
+\contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Fluorescence peaks from xenon and neon K-LL Auger spectrum.}}{29}{figure.2.14}
 \contentsline {figure}{\numberline {\relax 2.15}{\ignorespaces Principle of scattering rays of an atom.}}{31}{figure.2.15}
 \contentsline {figure}{\numberline {\relax 2.16}{\ignorespaces Schematic of the nanoplasma creation and expansion.}}{36}{figure.2.16}
-\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Measurement and simulation of the nanoplasma expansion in Xe-clusters.}}{38}{figure.2.17}
+\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Measurement and simulation of the nanoplasma expansion in Xe-clusters.}}{39}{figure.2.17}
 \contentsline {figure}{\numberline {\relax 2.18}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{40}{figure.2.18}
-\contentsline {figure}{\numberline {\relax 2.19}{\ignorespaces Effects of tamper layers to nanoparticles that undergo a nanoplasma formation.}}{42}{figure.2.19}
+\contentsline {figure}{\numberline {\relax 2.19}{\ignorespaces Tamper layers and nanoparticles that undergo a nanoplasma formation.}}{42}{figure.2.19}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Schematic overview of the AMO beamline instrumentation.}}{46}{figure.3.1}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Focal spot analysis using a time-of-flight ion spectrometer.}}{47}{figure.3.2}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Focal spot analysis via an ex-situ microscope imprint study.}}{48}{figure.3.3}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Overview of the AMO instrument in the LAMP end-station configuration.}}{50}{figure.3.4}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Inside view of the C1 chamber showcasing the interaction region.}}{51}{figure.3.5}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Rear and front pnCCD detector geometry in the LAMP instrument.}}{52}{figure.3.6}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Geometry of a single pnCCD module.}}{54}{figure.3.7}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Sideview of double sample jet configuration.}}{57}{figure.3.8}
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Schematic of the Parker-Hannifin Series 99 valve.}}{58}{figure.3.9}
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Schematic of LCLS EVR timing system.}}{59}{figure.3.10}
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Event receiver time delay at LCLS for supersonic gas jets.}}{61}{figure.3.11}
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Drawing of the time-of-flight spectrometer.}}{63}{figure.3.12}
-\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Sideview of the spectrometer showing ion, electron and photon trajectories.}}{64}{figure.3.13}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Overview of the AMO instrument in the LAMP end-station configuration.}}{48}{figure.3.2}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Inside view of the C1 chamber showcasing the interaction region.}}{49}{figure.3.3}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Rear and front pnCCD detector geometry in the LAMP instrument.}}{50}{figure.3.4}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Geometry of a single pnCCD module.}}{52}{figure.3.5}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Sideview of double sample jet configuration.}}{54}{figure.3.6}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Schematic of the Parker-Hannifin Series 99 valve.}}{56}{figure.3.7}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Schematic of LCLS EVR timing system.}}{57}{figure.3.8}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Event receiver time delay at LCLS for supersonic gas jets.}}{58}{figure.3.9}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Drawing of the time-of-flight spectrometer.}}{60}{figure.3.10}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Sideview of the spectrometer showing ion, electron and photon trajectories.}}{61}{figure.3.11}
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Focal spot analysis using a time-of-flight ion spectrometer.}}{62}{figure.3.12}
+\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Focal spot analysis via an ex-situ microscope imprint study.}}{63}{figure.3.13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Diagram of the computing environment at LCLS and DAQ traffic.}}{66}{figure.4.1}
 \contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces ADU histograms from electronic noise of unilluminated pnCCDs.}}{68}{figure.4.2}
@@ -73,5 +76,5 @@
 \addvspace {10\p@ }
 \select@language {german}
 \addvspace {10\p@ }
-\select@language {english}
+\select@language {american}
 \addvspace {10\p@ }

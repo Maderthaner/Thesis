@@ -1,5 +1,5 @@
 %%% DOCUMENTCLASS is KOMA-Script scrbook with documentation in http://mirrors.ctan.org/macros/latex/contrib/koma-script/doc/scrguide.pdf
-\documentclass[draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt,headings=openany]{scrbook}
+\documentclass[american,draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt,headings=openany]{scrbook}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGES
@@ -15,15 +15,18 @@
 \usepackage{cancel}
 \usepackage{siunitx}
 \sisetup{
-	%fixed-exponent 				= 3				 ,
-	list-units 						=	brackets	,
-	list-final-separator 	= {, and }	,
-	exponent-product			= \cdot			,
-	range-units						= brackets	,
+	%fixed-exponent 		= 3				,
+	list-units 				=	brackets	,
+	list-final-separator 	= {, and }		,
+	exponent-product		= \cdot			,
+	range-units				= brackets		,
 	%scientific-notation 	= fixed			,
+	alsoload				=	hep			,
+	alsoload				=	binary		,
 	separate-uncertainty	=	true			
 }%
-\DeclareSIUnit[number-unit-product = {}]\photons{photons}
+\DeclareSIUnit[number-unit-product = {}]\photons{\, photons}
+\DeclareSIUnit[number-unit-product = {}]\pixels{\, pixels}
 %
 \usepackage{multirow}
 \usepackage{graphicx}
@@ -42,10 +45,61 @@ program@epstopdf=epstopdf
 %}
 %–––––––––––––––––––––––––––––––––––
 \usepackage{setspace}%
-\usepackage[english,german]{babel}
+\usepackage[main=american,german]{babel}
 \usepackage{hologo}
-\usepackage[numbers,sort&compress]{natbib}
-\usepackage{bibentry}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Bib stuff
+\usepackage[english=american]{csquotes}
+\usepackage[style=phys,
+			natbib=true,
+			backend=biber,
+			sorting=none,
+			bibencoding=utf8,
+			articletitle=true,
+			biblabel=brackets,
+			pageranges=false,
+			maxnames=10,
+			minnames=10,
+			defernumbers=true
+]{biblatex}
+%
+\usepackage{xpatch}
+%
+\newbibmacro*{name:bold}[2]{%
+  \def\do##1{\iffieldequalstr{hash}{##1}{\bfseries\listbreak}{}}%
+  \dolistloop{\boldnames}%
+}
+%
+\newcommand*{\boldnames}{}
+%
+\xpretobibmacro{name:family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:given-family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:family-given}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:delim}{\begingroup\normalfont}{}{}
+%
+\xapptobibmacro{name:family}{\endgroup}{}{}
+\xapptobibmacro{name:given-family}{\endgroup}{}{}
+\xapptobibmacro{name:family-given}{\endgroup}{}{}
+\xapptobibmacro{name:delim}{\endgroup}{}{}
+%
+\renewcommand*{\boldnames}{}
+\forcsvlist{\listadd\boldnames}
+  {{a8515f7f0ac3f1c06269b73d54120ce0}}
+\forcsvlist{\listadd\boldnames}
+  {{f61b622ebbc08176588c61a0ba5515e2}}
+%
+\addbibresource{references.bib}
+%
+\defbibenvironment{mypubs}
+ {\list
+     {\setcounter{maxnames}{99}}
+     {\setlength{\leftmargin}{\bibhang}%
+      \setlength{\itemindent}{-\leftmargin}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\item}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{makeidx}
 \usepackage{titlepage}
 \usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={english}]{doclicense}
@@ -102,9 +156,9 @@ program@epstopdf=epstopdf
 %
 %
 \begin{document}
-\nobibliography*
+%\nobibliography*
 \onehalfspacing
-\selectlanguage{english}
+\selectlanguage{american}
 \pagenumbering{alph}
 %\maketitle
 \include{titlepage}
@@ -121,6 +175,7 @@ program@epstopdf=epstopdf
 %\newpage									% ENABLE THIS FOR PRINT
 \null\newpage
 \pagenumbering{arabic}
+\selectlanguage{american}
 \include{introduction}
 %\clearpage
 \include{fundamental_concepts}
@@ -135,14 +190,22 @@ program@epstopdf=epstopdf
 %
 \include{appendix}
 %\newpage
-\include{bibliography}
+%\include{bibliography}
+%\bibliographystyle{apsrev}
+%\nocite{apsrev41Control}
+\printbibliography[notkeyword=nothesis]
+\null
+\clearpage
+%,revtex-custom
 %
 %\printindex
 %
 \appendix
 \pagenumbering{Alph}
 %
-\include{publications}
+\nocite{Alcalde-2012-PRE}
+\newrefcontext[sorting=ydnt]
+\printbibliography[env=mypubs, title={Publikationsliste}, subtype=mypubs]
 %
 \include{disclaimer}
 %
