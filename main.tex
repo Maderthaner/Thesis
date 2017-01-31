@@ -21,8 +21,7 @@
 	exponent-product		= \cdot			,
 	range-units				= brackets		,
 	%scientific-notation 	= fixed			,
-	alsoload				=	hep			,
-	alsoload				=	binary		,
+	binary-units				=	true		,
 	separate-uncertainty	=	true			
 }%
 \DeclareSIUnit[number-unit-product = {}]\photons{\, photons}
@@ -54,13 +53,14 @@ program@epstopdf=epstopdf
 			natbib=true,
 			backend=biber,
 			sorting=none,
+			sortcites=true,
 			bibencoding=utf8,
 			articletitle=true,
 			biblabel=brackets,
 			pageranges=false,
 			maxnames=10,
 			minnames=10,
-			defernumbers=true
+			defernumbers=false
 ]{biblatex}
 %
 \usepackage{xpatch}
@@ -83,10 +83,6 @@ program@epstopdf=epstopdf
 \xapptobibmacro{name:delim}{\endgroup}{}{}
 %
 \renewcommand*{\boldnames}{}
-\forcsvlist{\listadd\boldnames}
-  {{a8515f7f0ac3f1c06269b73d54120ce0}}
-\forcsvlist{\listadd\boldnames}
-  {{f61b622ebbc08176588c61a0ba5515e2}}
 %
 \addbibresource{references.bib}
 %
@@ -205,6 +201,10 @@ program@epstopdf=epstopdf
 %
 \nocite{Alcalde-2012-PRE}
 \newrefcontext[sorting=ydnt]
+\forcsvlist{\listadd\boldnames}
+  {{a8515f7f0ac3f1c06269b73d54120ce0}}
+\forcsvlist{\listadd\boldnames}
+  {{f61b622ebbc08176588c61a0ba5515e2}}
 \printbibliography[env=mypubs, title={Publikationsliste}, subtype=mypubs]
 %
 \include{disclaimer}

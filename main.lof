@@ -19,40 +19,39 @@
 \contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Schematic of a pickup (gas-)source.}}{23}{figure.2.10}
 \contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Total cross-section of atomic carbon.}}{25}{figure.2.11}
 \contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Schematic illustration of common charge transfer processes}}{26}{figure.2.12}
-\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Total absorption cross-sections for helium and xenon.}}{27}{figure.2.13}
-\contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Fluorescence peaks from xenon and neon K-LL Auger spectrum.}}{29}{figure.2.14}
+\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Total absorption cross-sections for helium and xenon.}}{26}{figure.2.13}
+\contentsline {figure}{\numberline {\relax 2.14}{\ignorespaces Fluorescence peaks from xenon and neon K-LL Auger spectrum.}}{28}{figure.2.14}
 \contentsline {figure}{\numberline {\relax 2.15}{\ignorespaces Principle of scattering rays of an atom.}}{31}{figure.2.15}
 \contentsline {figure}{\numberline {\relax 2.16}{\ignorespaces Schematic of the nanoplasma creation and expansion.}}{36}{figure.2.16}
-\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Measurement and simulation of the nanoplasma expansion in Xe-clusters.}}{39}{figure.2.17}
-\contentsline {figure}{\numberline {\relax 2.18}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{40}{figure.2.18}
+\contentsline {figure}{\numberline {\relax 2.17}{\ignorespaces Measurement and simulation of the nanoplasma expansion in Xe-clusters.}}{38}{figure.2.17}
+\contentsline {figure}{\numberline {\relax 2.18}{\ignorespaces Experiment that shows early evolution of the nanoplasma transition.}}{39}{figure.2.18}
 \contentsline {figure}{\numberline {\relax 2.19}{\ignorespaces Tamper layers and nanoparticles that undergo a nanoplasma formation.}}{42}{figure.2.19}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Schematic overview of the AMO beamline instrumentation.}}{46}{figure.3.1}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Overview of the AMO instrument in the LAMP end-station configuration.}}{48}{figure.3.2}
 \contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Inside view of the C1 chamber showcasing the interaction region.}}{49}{figure.3.3}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Rear and front pnCCD detector geometry in the LAMP instrument.}}{50}{figure.3.4}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces pnCCD detector geometry in the LAMP instrument.}}{50}{figure.3.4}
 \contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Geometry of a single pnCCD module.}}{52}{figure.3.5}
 \contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Sideview of double sample jet configuration.}}{54}{figure.3.6}
 \contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Schematic of the Parker-Hannifin Series 99 valve.}}{56}{figure.3.7}
 \contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Schematic of LCLS EVR timing system.}}{57}{figure.3.8}
 \contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Event receiver time delay at LCLS for supersonic gas jets.}}{58}{figure.3.9}
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Drawing of the time-of-flight spectrometer.}}{60}{figure.3.10}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Drawing of the time-of-flight spectrometer.}}{61}{figure.3.10}
 \contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Sideview of the spectrometer showing ion, electron and photon trajectories.}}{61}{figure.3.11}
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Focal spot analysis using a time-of-flight ion spectrometer.}}{62}{figure.3.12}
-\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Focal spot analysis via an ex-situ microscope imprint study.}}{63}{figure.3.13}
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Focal spot analysis using a time-of-flight ion spectrometer.}}{63}{figure.3.12}
+\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Focal spot analysis via an ex-situ microscope imprint study.}}{64}{figure.3.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Diagram of the computing environment at LCLS and DAQ traffic.}}{66}{figure.4.1}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces ADU histograms from electronic noise of unilluminated pnCCDs.}}{68}{figure.4.2}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Front and rear pnCCD arranged to combine measured diffraction image.}}{72}{figure.4.3}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Spherical projection of 2D diffraction image onto 1D.}}{73}{figure.4.4}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Influence of X-ray pump--X-ray probe study in diffraction image.}}{73}{figure.4.5}
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Example of a phase retrieval algorithm.}}{75}{figure.4.6}
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Illustration of resolution enhancement and diffraction image cropping.}}{78}{figure.4.7}
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Used electron densities in 2D real and Fourier space simulations.}}{81}{figure.4.8}
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Comparison of analytical derived scattering and numerical simulations.}}{82}{figure.4.9}
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces First data point in Acqiris sampling.}}{83}{figure.4.10}
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Using light peak to find absolute time zero in Acqiris traces.}}{84}{figure.4.11}
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Average cluster size correlated to measured intensity on front pnCCD.}}{85}{figure.4.12}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Diagram of the computing environment at LCLS and DAQ traffic.}}{67}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces ADU histograms from electronic noise of dark pnCCDs.}}{69}{figure.4.2}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Front and rear pnCCD arranged to combine measured diffraction image.}}{73}{figure.4.3}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Spherical projection of 2D diffraction image onto 1D.}}{74}{figure.4.4}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Example of a phase retrieval algorithm.}}{76}{figure.4.5}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Illustration of resolution enhancement and diffraction image cropping.}}{78}{figure.4.6}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Influence of X-ray pump--X-ray probe pulses to a diffraction image.}}{81}{figure.4.7}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Used electron densities in 2D real and Fourier space simulations.}}{82}{figure.4.8}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Comparison of analytical derived scattering and numerical simulations.}}{84}{figure.4.9}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Average cluster size correlated to measured intensity on front pnCCD.}}{85}{figure.4.10}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Schematic of data treatment and hit-finding procedures.}}{86}{figure.4.11}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Single Xe-cluster size distribution at varying time delay $\Delta t$.}}{88}{figure.5.1}
 \contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Time-resolved behavior of number of scatterers due to nanoplasma expansion}}{89}{figure.5.2}

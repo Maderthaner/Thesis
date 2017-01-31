@@ -17,35 +17,34 @@
 \contentsline {subsection}{\numberline {2.2.1}Generation of homogenous clusters}{17}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Creation of heterogeneous clusters: The pickup principle}{22}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Fundamental processes of soft X-rays and nanoparticles}{24}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Photoionization and core-hole decay}{26}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}From Thomson scattering to diffractive imaging}{30}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Generalized index of refraction}{34}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Clusters in intense X-ray pulses}{36}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Formation and expansion of a nanoplasma}{36}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.3.1}Photoionization and core-hole decay}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}From Thomson scattering to diffractive imaging}{29}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Generalized index of refraction}{33}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Clusters in intense X-ray pulses}{35}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Formation and expansion of a nanoplasma}{35}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Sacrificial layers slow the nanoplasma expansion}{40}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}Experimental Considerations}{44}{chapter.3}
 \contentsline {section}{\numberline {3.1}The X-ray beam transport to the LAMP end-station}{45}{section.3.1}
 \contentsline {section}{\numberline {3.2}The LAMP end-station at the AMO instrument}{47}{section.3.2}
 \contentsline {section}{\numberline {3.3}The large area pnCCD detectors}{51}{section.3.3}
 \contentsline {section}{\numberline {3.4}Sample delivery}{54}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{56}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{57}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}Time-of-flight mass-spectrometer}{59}{section.3.5}
 \contentsline {section}{\numberline {3.6}Focus characterization}{62}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Focus characterization using a TOF spectrometer}{62}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Focus characterization via imprint study}{62}{subsection.3.6.2}
-\contentsline {chapter}{\numberline {4}Methods}{65}{chapter.4}
-\contentsline {section}{\numberline {4.1}The computing environment at LCLS}{65}{section.4.1}
-\contentsline {section}{\numberline {4.2}pnCCD photon detectors}{67}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{69}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Impact of the X-ray pump--X-ray probe on diffraction pattern}{71}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Phase retrieval from a single diffraction pattern}{74}{section.4.3}
+\contentsline {subsection}{\numberline {3.6.2}Focus characterization via imprint study}{63}{subsection.3.6.2}
+\contentsline {chapter}{\numberline {4}Methods}{66}{chapter.4}
+\contentsline {section}{\numberline {4.1}The computing environment at LCLS}{66}{section.4.1}
+\contentsline {section}{\numberline {4.2}pnCCD photon detectors}{68}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{70}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Phase retrieval from a single diffraction pattern}{72}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Principle of phase retrieval}{75}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}2D reconstructions and image resolution}{76}{subsection.4.3.2}
 \contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{76}{section*.7}
 \contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{77}{section*.8}
 \contentsline {subsection}{\numberline {4.3.3}1D projections and phase reconstructions}{80}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}2D electron density and diffraction image simulations}{80}{section.4.4}
-\contentsline {section}{\numberline {4.5}Acqiris data sampling considerations}{83}{section.4.5}
+\contentsline {section}{\numberline {4.4}Impact of the X-ray pump--X-ray probe on diffraction pattern}{81}{section.4.4}
+\contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{83}{section.4.5}
 \contentsline {section}{\numberline {4.6}Data filtering}{85}{section.4.6}
 \contentsline {chapter}{\numberline {5}Results and discussion}{87}{chapter.5}
 \contentsline {section}{\numberline {5.1}Structural damage in Xe-clusters induced by intense X-rays}{87}{section.5.1}

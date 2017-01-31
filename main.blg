@@ -1,19 +1,23 @@
-[0] Config.pm:340> INFO - This is Biber 2.4
-[1] Config.pm:343> INFO - Logfile is 'main.blg'
-[51] biber-darwin:287> INFO - === Sun Jan 29, 2017, 08:23:50
-[71] Biber.pm:347> INFO - Reading 'main.bcf'
-[184] Biber.pm:741> INFO - Found 178 citekeys in bib section 0
-[199] Biber.pm:3150> INFO - Processing section 0
-[254] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
-[316] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[385] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
-[3965] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3965] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3965] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[3965] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
-[6067] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6067] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6067] Biber.pm:3027> INFO - Sorting list 'ydnt/global' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[6067] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
-[6781] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[6857] bbl.pm:615> INFO - Output to main.bbl
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'main.blg'
+[34] biber-MSWIN64:303> INFO - === 
+[63] Biber.pm:359> INFO - Reading 'main.bcf'
+[173] Biber.pm:835> INFO - Found 180 citekeys in bib section 0
+[199] Biber.pm:3670> INFO - Processing section 0
+[223] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[282] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[384] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[1009] Utils.pm:164> WARN - ISBN '1044-0305' in entry 'Murray-2013-IUPAC' is invalid - run biber with '--validate_datamodel' for details.
+[1010] Utils.pm:164> WARN - month field 'jan' in entry 'Murray-2013-IUPAC' is not an integer - this will probably not sort properly.
+[1082] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\buchermj\AppData\Local\Temp\Ph7pDHI_QW\references.bib_8020.utf8, line 7231, warning: undefined macro "1946-06"
+[1213] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1214] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1214] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[1214] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1357] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1357] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1357] Biber.pm:3499> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[1357] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1616] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1716] bbl.pm:712> INFO - Output to main.bbl
+[1717] Biber.pm:109> INFO - WARNINGS: 3
