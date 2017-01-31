@@ -238,7 +238,7 @@
       \field{title}{{The LAMP endstation in the AMO instrument at the Linac Coherent Light Source}}
       \field{year}{2017}
     \endentry
-    \entry{Al-Haddad-2017-unpublished}{unpublished}{}
+    \entry{Al-Haddad-2017-unpublished}{inproceedings}{}
       \name{author}{14}{}{%
         {{hash=8df4725a124e48a5cb8184529588acc1}{%
            family={Al-Haddad},
@@ -319,8 +319,9 @@
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{unpublished work}
-      \field{title}{{Working title: Measurement of the ultrafast electronic reconfiguration in atomic CO after ionization}}
+      \field{booktitle}{{48th Annual Meeting of the APS Division of Atomic, Molecular and Optical Physics}}
+      \field{month}{6}
+      \field{title}{{Time-resolved Two-Color X-ray Pump/X-ray Probe Photoelectron Spectroscopy at LCLS}}
       \field{year}{2017}
     \endentry
     \entry{Berrah-2016-OE}{article}{}
@@ -24661,7 +24662,7 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevLett.112.253401
       \endverb
     \endentry
-    \entry{Al-Haddad-2017-unpublished}{unpublished}{}
+    \entry{Al-Haddad-2017-unpublished}{inproceedings}{}
       \name{author}{14}{}{%
         {{hash=8df4725a124e48a5cb8184529588acc1}{%
            family={Al-Haddad},
@@ -24742,8 +24743,9 @@
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{unpublished work}
-      \field{title}{{Working title: Measurement of the ultrafast electronic reconfiguration in atomic CO after ionization}}
+      \field{booktitle}{{48th Annual Meeting of the APS Division of Atomic, Molecular and Optical Physics}}
+      \field{month}{6}
+      \field{title}{{Time-resolved Two-Color X-ray Pump/X-ray Probe Photoelectron Spectroscopy at LCLS}}
       \field{year}{2017}
     \endentry
     \entry{Alcalde-2012-PRE}{article}{}

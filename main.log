@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2016.7.25)  31 JAN 2017 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2016.7.25)  31 JAN 2017 16:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -2735,12 +2735,17 @@ Package pdftex.def Info: doclicense-CC-by.pdf used on input line 29.
 ) [1
 
 
- <C:/Program Files/MiKTeX 2.9/tex/latex/doclicense/doclicense-CC-by.pdf>]
+ <C:/Program Files/MiKTeX 2.9/tex/latex/doclicense/doclicense-CC-by.pdf>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.163 \null\newpage
+                   						% ENABLE THIS FOR PRINT [2
+
+]
 \openout2 = `abstract.aux'.
 
- (abstract.tex)
-[1
-
+ (abstract.tex) [1
 
 ] (main.toc
 Underfull \vbox (badness 1009) has occurred while \output is active []
@@ -2784,7 +2789,7 @@ Overfull \hbox (1.21701pt too wide) detected at line 60
 
  (introduction.tex
 chapter 1.
-<images/tamper-layer.png, id=498, 552.0625pt x 312.16624pt>
+<images/tamper-layer.png, id=501, 552.0625pt x 312.16624pt>
 File: images/tamper-layer.png Graphic file (type png)
  <use images/tamper-layer.png>
 Package pdftex.def Info: images/tamper-layer.png used on input line 23.
@@ -2804,7 +2809,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 (fundamental_concepts.tex
 chapter 2.
-<images/aerial-view-lcls.jpg, id=550, 986.7264pt x 337.7418pt>
+<images/aerial-view-lcls.jpg, id=553, 986.7264pt x 337.7418pt>
 File: images/aerial-view-lcls.jpg Graphic file (type jpg)
  <use images/aerial-view-lcls.jpg>
 Package pdftex.def Info: images/aerial-view-lcls.jpg used on input line 23.
@@ -2817,7 +2822,7 @@ Underfull \vbox (badness 1715) has occurred while \output is active []
 
 
 ] [5 <./images/aerial-view-lcls.jpg>]
-<images/bending-to-FEL.png, id=596, 654.445pt x 550.055pt>
+<images/bending-to-FEL.png, id=599, 654.445pt x 550.055pt>
 File: images/bending-to-FEL.png Graphic file (type png)
  <use images/bending-to-FEL.png>
 Package pdftex.def Info: images/bending-to-FEL.png used on input line 49.
@@ -2831,7 +2836,7 @@ Underfull \vbox (badness 1735) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./images/bending-to-FEL.png>]
-<images/gain-length.JPG, id=630, 737.75626pt x 472.01344pt>
+<images/gain-length.JPG, id=633, 737.75626pt x 472.01344pt>
 File: images/gain-length.JPG Graphic file (type jpg)
  <use images/gain-length.JPG>
 Package pdftex.def Info: images/gain-length.JPG used on input line 83.
@@ -2840,7 +2845,7 @@ Package pdftex.def Info: images/gain-length.JPG used on input line 83.
 Underfull \vbox (badness 7451) has occurred while \output is active []
 
  [9 <./images/gain-length.JPG>]
-<images/SASE-spectra.png, id=658, 722.7pt x 542.025pt>
+<images/SASE-spectra.png, id=661, 722.7pt x 542.025pt>
 File: images/SASE-spectra.png Graphic file (type png)
  <use images/SASE-spectra.png>
 Package pdftex.def Info: images/SASE-spectra.png used on input line 99.
@@ -2849,19 +2854,19 @@ Package pdftex.def Info: images/SASE-spectra.png used on input line 99.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./images/SASE-spectra.png>]
-<images/seeded.png, id=669, 501.875pt x 117.43875pt>
+<images/seeded.png, id=673, 501.875pt x 117.43875pt>
 File: images/seeded.png Graphic file (type png)
  <use images/seeded.png>
 Package pdftex.def Info: images/seeded.png used on input line 120.
 (pdftex.def)             Requested size: 376.42744pt x 88.08778pt.
 
-<images/Soft-X-ray-self-seeding.pdf, id=672, 522.95375pt x 536.0025pt>
+<images/Soft-X-ray-self-seeding.pdf, id=676, 522.95375pt x 536.0025pt>
 File: images/Soft-X-ray-self-seeding.pdf Graphic file (type pdf)
  <use images/Soft-X-ray-self-seeding.pdf>
 Package pdftex.def Info: images/Soft-X-ray-self-seeding.pdf used on input line 129.
 (pdftex.def)             Requested size: 167.29967pt x 171.47522pt.
 
-<images/spectral-brightness-fletcher-2015-corr.jpg, id=673, 907.39pt x 921.4425pt>
+<images/spectral-brightness-fletcher-2015-corr.jpg, id=677, 907.39pt x 921.4425pt>
 File: images/spectral-brightness-fletcher-2015-corr.jpg Graphic file (type jpg)
 
 <use images/spectral-brightness-fletcher-2015-corr.jpg>
@@ -2869,7 +2874,7 @@ Package pdftex.def Info: images/spectral-brightness-fletcher-2015-corr.jpg used 
 (pdftex.def)             Requested size: 167.29967pt x 169.88773pt.
  [11 <./images/seeded.png (PNG copy)>] [12 <./images/Soft-X-ray-self-seeding.pdf> <./images/spectral-brightness-fletcher
 -2015-corr.jpg>] [13]
-<images/Albertos-pump-probe-scheme.png, id=747, 1001.7425pt x 296.10625pt>
+<images/Albertos-pump-probe-scheme.png, id=750, 1001.7425pt x 296.10625pt>
 File: images/Albertos-pump-probe-scheme.png Graphic file (type png)
  <use images/Albertos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Albertos-pump-probe-scheme.png used on input line 166.
@@ -2883,12 +2888,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--195
 
  []
 
-<images/Agos-pump-probe-scheme.png, id=774, 961.5925pt x 397.485pt>
+<images/Agos-pump-probe-scheme.png, id=777, 961.5925pt x 397.485pt>
 File: images/Agos-pump-probe-scheme.png Graphic file (type png)
  <use images/Agos-pump-probe-scheme.png>
 Package pdftex.def Info: images/Agos-pump-probe-scheme.png used on input line 198.
 (pdftex.def)             Requested size: 418.25555pt x 172.89244pt.
- [16 <./images/Agos-pump-probe-scheme.png>] [17] <images/freeJetExpansion.png, id=821, 918.43124pt x 509.905pt>
+ [16 <./images/Agos-pump-probe-scheme.png>] [17] <images/freeJetExpansion.png, id=824, 918.43124pt x 509.905pt>
 File: images/freeJetExpansion.png Graphic file (type png)
 
 <use images/freeJetExpansion.png>
@@ -2907,7 +2912,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2452) has occurred while \output is active []
 
  [21]
-<images/pick-up.pdf, id=890, 806.01125pt x 316.18124pt>
+<images/pick-up.pdf, id=893, 806.01125pt x 316.18124pt>
 File: images/pick-up.pdf Graphic file (type pdf)
  <use images/pick-up.pdf>
 Package pdftex.def Info: images/pick-up.pdf used on input line 338.
@@ -2921,13 +2926,13 @@ Underfull \hbox (badness 1584) in paragraph at lines 339--339
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./images/pick-up.pdf>]
-<images/absorption-cross-section-carbon-ken.jpg, id=964, 432.20294pt x 264.99pt>
+<images/absorption-cross-section-carbon-ken.jpg, id=967, 432.20294pt x 264.99pt>
 File: images/absorption-cross-section-carbon-ken.jpg Graphic file (type jpg)
 
 <use images/absorption-cross-section-carbon-ken.jpg>
 Package pdftex.def Info: images/absorption-cross-section-carbon-ken.jpg used on input line 369.
 (pdftex.def)             Requested size: 334.60571pt x 205.15486pt.
- [24] <images/el-relaxation.png, id=982, 714.5094pt x 392.1852pt>
+ [24] <images/el-relaxation.png, id=985, 714.5094pt x 392.1852pt>
 File: images/el-relaxation.png Graphic file (type png)
 
 <use images/el-relaxation.png>
@@ -2943,19 +2948,19 @@ Package epstopdf Info: Source file: <images/photoionization.eps>
 /photoionization.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
- <images/photoionization-eps-converted-to.pdf, id=987, 289.08pt x 185.69376pt>
+ <images/photoionization-eps-converted-to.pdf, id=990, 289.08pt x 185.69376pt>
 File: images/photoionization-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/photoionization-eps-converted-to.pdf>
 Package pdftex.def Info: images/photoionization-eps-converted-to.pdf used on input line 396.
 (pdftex.def)             Requested size: 334.60571pt x 214.94872pt.
- <images/pnCCD-histogram.png, id=1002, 578.16pt x 433.62pt>
+ <images/pnCCD-histogram.png, id=1005, 578.16pt x 433.62pt>
 File: images/pnCCD-histogram.png Graphic file (type png)
 
 <use images/pnCCD-histogram.png>
 Package pdftex.def Info: images/pnCCD-histogram.png used on input line 450.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
- <images/auger-spectra.png, id=1003, 690.32906pt x 450.9347pt>
+ <images/auger-spectra.png, id=1006, 690.32906pt x 450.9347pt>
 File: images/auger-spectra.png Graphic file (type png)
 
 <use images/auger-spectra.png>
@@ -2971,7 +2976,7 @@ onverted-to.pdf>] [27] [28 <./images/pnCCD-histogram.png> <./images/auger-spectr
 Underfull \vbox (badness 7468) has occurred while \output is active []
 
  [29]
-<images/X-ray-scattering.pdf, id=1084, 410.53375pt x 216.81pt>
+<images/X-ray-scattering.pdf, id=1087, 410.53375pt x 216.81pt>
 File: images/X-ray-scattering.pdf Graphic file (type pdf)
  <use images/X-ray-scattering.pdf>
 Package pdftex.def Info: images/X-ray-scattering.pdf used on input line 545.
@@ -2996,19 +3001,19 @@ Underfull \vbox (badness 2922) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-<images/nano-plasma-schematic.jpg, id=1180, 682.55pt x 195.73125pt>
+<images/nano-plasma-schematic.jpg, id=1184, 682.55pt x 195.73125pt>
 File: images/nano-plasma-schematic.jpg Graphic file (type jpg)
  <use images/nano-plasma-schematic.jpg>
 Package pdftex.def Info: images/nano-plasma-schematic.jpg used on input line 700.
 (pdftex.def)             Requested size: 418.25555pt x 119.94243pt.
 
-<images/tais-nat-photonics.jpg, id=1198, 949.5475pt x 795.97375pt>
+<images/tais-nat-photonics.jpg, id=1202, 949.5475pt x 795.97375pt>
 File: images/tais-nat-photonics.jpg Graphic file (type jpg)
  <use images/tais-nat-photonics.jpg>
 Package pdftex.def Info: images/tais-nat-photonics.jpg used on input line 722.
 (pdftex.def)             Requested size: 418.25555pt x 350.60605pt.
 
-<images/ken-science.jpg, id=1212, 1053.9375pt x 583.17876pt>
+<images/ken-science.jpg, id=1216, 1053.9375pt x 583.17876pt>
 File: images/ken-science.jpg Graphic file (type jpg)
  <use images/ken-science.jpg>
 Package pdftex.def Info: images/ken-science.jpg used on input line 733.
@@ -3023,13 +3028,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39 <./images/ken-science.jpg>]
-<images/tamper-layers.png, id=1279, 544.0325pt x 449.68pt>
+<images/tamper-layers.png, id=1282, 544.0325pt x 449.68pt>
 File: images/tamper-layers.png Graphic file (type png)
  <use images/tamper-layers.png>
 Package pdftex.def Info: images/tamper-layers.png used on input line 761.
 (pdftex.def)             Requested size: 204.94751pt x 169.40494pt.
 
-<images/Hoener-image.jpg, id=1280, 28.45276pt x 32.86293pt>
+<images/Hoener-image.jpg, id=1283, 28.45276pt x 32.86293pt>
 File: images/Hoener-image.jpg Graphic file (type jpg)
  <use images/Hoener-image.jpg>
 Package pdftex.def Info: images/Hoener-image.jpg used on input line 762.
@@ -3066,7 +3071,7 @@ m_layout.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/beam_layout-eps-converted-to.pdf, id=1370, 438.63875pt x 147.55125pt>
+<images/beam_layout-eps-converted-to.pdf, id=1373, 438.63875pt x 147.55125pt>
 File: images/beam_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/beam_layout-eps-converted-to.pdf>
@@ -3086,19 +3091,19 @@ Package epstopdf Info: Source file: <images/AMO-overview-4.eps>
 AMO-overview-4.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
- <images/AMO-overview-4-eps-converted-to.pdf, id=1421, 1625.07124pt x 935.495pt>
+ <images/AMO-overview-4-eps-converted-to.pdf, id=1425, 1625.07124pt x 935.495pt>
 File: images/AMO-overview-4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/AMO-overview-4-eps-converted-to.pdf>
 Package pdftex.def Info: images/AMO-overview-4-eps-converted-to.pdf used on input line 73.
 (pdftex.def)             Requested size: 376.42744pt x 216.68669pt.
- <images/c1-ccd-spec.jpg, id=1425, 1108.8928pt x 627.84563pt>
+ <images/c1-ccd-spec.jpg, id=1429, 1108.8928pt x 627.84563pt>
 File: images/c1-ccd-spec.jpg Graphic file (type jpg)
 
 <use images/c1-ccd-spec.jpg>
 Package pdftex.def Info: images/c1-ccd-spec.jpg used on input line 82.
 (pdftex.def)             Requested size: 418.25555pt x 236.81148pt.
- <images/pnCCD-dimensions.jpg, id=1427, 1086.30844pt x 654.19406pt>
+ <images/pnCCD-dimensions.jpg, id=1431, 1086.30844pt x 654.19406pt>
 File: images/pnCCD-dimensions.jpg Graphic file (type jpg)
 
 <use images/pnCCD-dimensions.jpg>
@@ -3111,7 +3116,7 @@ Underfull \vbox (badness 1205) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50 <./images/pnCCD-dimensions.jpg>]
-<images/pnCCD-detail.png, id=1463, 1102.1175pt x 654.445pt>
+<images/pnCCD-detail.png, id=1466, 1102.1175pt x 654.445pt>
 File: images/pnCCD-detail.png Graphic file (type png)
  <use images/pnCCD-detail.png>
 Package pdftex.def Info: images/pnCCD-detail.png used on input line 106.
@@ -3131,20 +3136,20 @@ mages/amoa1214-querschnitt.eps>
 (epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/amoa1214-querschnitt-eps-converted-to.pdf, id=1486, 1400.23125pt x 650.43pt>
+<images/amoa1214-querschnitt-eps-converted-to.pdf, id=1489, 1400.23125pt x 650.43pt>
 File: images/amoa1214-querschnitt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/amoa1214-querschnitt-eps-converted-to.pdf>
 Package pdftex.def Info: images/amoa1214-querschnitt-eps-converted-to.pdf used on input line 159.
 (pdftex.def)             Requested size: 418.25555pt x 194.2869pt.
- <images/parker-valve.jpg, id=1499, 1317.92375pt x 461.725pt>
+ <images/parker-valve.jpg, id=1502, 1317.92375pt x 461.725pt>
 File: images/parker-valve.jpg Graphic file (type jpg)
 
 <use images/parker-valve.jpg>
 Package pdftex.def Info: images/parker-valve.jpg used on input line 183.
 (pdftex.def)             Requested size: 418.25555pt x 146.52913pt.
  [54 <./images/amoa1214-querschnitt-eps-converted-to.pdf>] [55]
-<images/LCLS-timing-schematic.png, id=1526, 844.1136pt x 329.0694pt>
+<images/LCLS-timing-schematic.png, id=1529, 844.1136pt x 329.0694pt>
 File: images/LCLS-timing-schematic.png Graphic file (type png)
  <use images/LCLS-timing-schematic.png>
 Package pdftex.def Info: images/LCLS-timing-schematic.png used on input line 197.
@@ -3163,7 +3168,7 @@ Package epstopdf Info: Source file: <images/gas-jet-flight-times.eps>
 mages/gas-jet-flight-times.eps>
 (epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
- <images/gas-jet-flight-times-eps-converted-to.pdf, id=1545, 289.08pt x 179.67125pt>
+ <images/gas-jet-flight-times-eps-converted-to.pdf, id=1548, 289.08pt x 179.67125pt>
 File: images/gas-jet-flight-times-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/gas-jet-flight-times-eps-converted-to.pdf>
@@ -3173,13 +3178,13 @@ Package pdftex.def Info: images/gas-jet-flight-times-eps-converted-to.pdf used o
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-<images/spectrometer.jpg, id=1573, 1485.55pt x 654.445pt>
+<images/spectrometer.jpg, id=1576, 1485.55pt x 654.445pt>
 File: images/spectrometer.jpg Graphic file (type jpg)
  <use images/spectrometer.jpg>
 Package pdftex.def Info: images/spectrometer.jpg used on input line 267.
 (pdftex.def)             Requested size: 418.25555pt x 184.25194pt.
 
-<images/simion.jpg, id=1575, 1756.5625pt x 738.76pt>
+<images/simion.jpg, id=1578, 1756.5625pt x 738.76pt>
 File: images/simion.jpg Graphic file (type jpg)
  <use images/simion.jpg>
 Package pdftex.def Info: images/simion.jpg used on input line 273.
@@ -3187,31 +3192,31 @@ Package pdftex.def Info: images/simion.jpg used on input line 273.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60] [61 <./images/spectrometer.jpg> <./images/simion.jpg>] <images/Focus-z-scan.png, id=1595, 489.9906pt x 546.3612pt>
+ [60] [61 <./images/spectrometer.jpg> <./images/simion.jpg>] <images/Focus-z-scan.png, id=1598, 489.9906pt x 546.3612pt>
 File: images/Focus-z-scan.png Graphic file (type png)
  <use images/Focus-z-scan.png>
 Package pdftex.def Info: images/Focus-z-scan.png used on input line 308.
 (pdftex.def)             Requested size: 167.29967pt x 186.544pt.
 
-<images/Focus-Fractional-Yield.png, id=1596, 578.16pt x 433.62pt>
+<images/Focus-Fractional-Yield.png, id=1599, 578.16pt x 433.62pt>
 File: images/Focus-Fractional-Yield.png Graphic file (type png)
  <use images/Focus-Fractional-Yield.png>
 Package pdftex.def Info: images/Focus-Fractional-Yield.png used on input line 309.
 (pdftex.def)             Requested size: 225.85518pt x 169.389pt.
  [62]
-<images/imprints/image0025.jpg, id=1605, 1027.84pt x 770.88pt>
+<images/imprints/image0025.jpg, id=1608, 1027.84pt x 770.88pt>
 File: images/imprints/image0025.jpg Graphic file (type jpg)
  <use images/imprints/image0025.jpg>
 Package pdftex.def Info: images/imprints/image0025.jpg used on input line 322.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/image0026.jpg, id=1606, 1027.84pt x 770.88pt>
+<images/imprints/image0026.jpg, id=1609, 1027.84pt x 770.88pt>
 File: images/imprints/image0026.jpg Graphic file (type jpg)
  <use images/imprints/image0026.jpg>
 Package pdftex.def Info: images/imprints/image0026.jpg used on input line 322.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/analysis.pdf, id=1607, 289.08pt x 184.31258pt>
+<images/imprints/analysis.pdf, id=1610, 289.08pt x 184.31258pt>
 File: images/imprints/analysis.pdf Graphic file (type pdf)
  <use images/imprints/analysis.pdf>
 Package pdftex.def Info: images/imprints/analysis.pdf used on input line 322.
@@ -3220,13 +3225,13 @@ Package pdftex.def Info: images/imprints/analysis.pdf used on input line 322.
 Overfull \vbox (93.95164pt too high) detected at line 322
  []
 
-<images/imprints/image0027.jpg, id=1608, 1027.84pt x 770.88pt>
+<images/imprints/image0027.jpg, id=1611, 1027.84pt x 770.88pt>
 File: images/imprints/image0027.jpg Graphic file (type jpg)
  <use images/imprints/image0027.jpg>
 Package pdftex.def Info: images/imprints/image0027.jpg used on input line 324.
 (pdftex.def)             Requested size: 104.56389pt x 78.42169pt.
 
-<images/imprints/image0028.jpg, id=1609, 1027.84pt x 770.88pt>
+<images/imprints/image0028.jpg, id=1612, 1027.84pt x 770.88pt>
 File: images/imprints/image0028.jpg Graphic file (type jpg)
  <use images/imprints/image0028.jpg>
 Package pdftex.def Info: images/imprints/image0028.jpg used on input line 324.
@@ -3243,7 +3248,7 @@ jpg>] [65]
 
  (methods.tex
 chapter 4.
-<images/daq-architecture.JPG, id=1659, 716.6775pt x 568.37344pt>
+<images/daq-architecture.JPG, id=1662, 716.6775pt x 568.37344pt>
 File: images/daq-architecture.JPG Graphic file (type jpg)
  <use images/daq-architecture.JPG>
 Package pdftex.def Info: images/daq-architecture.JPG used on input line 17.
@@ -3252,7 +3257,7 @@ Package pdftex.def Info: images/daq-architecture.JPG used on input line 17.
 
 
 
-] [67 <./images/daq-architecture.JPG>] <images/pnCCD-electronic-noise.png, id=1677, 578.16pt x 433.62pt>
+] [67 <./images/daq-architecture.JPG>] <images/pnCCD-electronic-noise.png, id=1680, 578.16pt x 433.62pt>
 File: images/pnCCD-electronic-noise.png Graphic file (type png)
 
 <use images/pnCCD-electronic-noise.png>
@@ -3267,32 +3272,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--57
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71]
-<images/pnCCD-image-geometry.png, id=1714, 1031.855pt x 1535.7375pt>
+<images/pnCCD-image-geometry.png, id=1717, 1031.855pt x 1535.7375pt>
 File: images/pnCCD-image-geometry.png Graphic file (type png)
  <use images/pnCCD-image-geometry.png>
 Package pdftex.def Info: images/pnCCD-image-geometry.png used on input line 88.
 (pdftex.def)             Requested size: 334.60571pt x 497.98398pt.
 
-<images/pnCCD-1d-sum.png, id=1716, 578.16pt x 433.62pt>
+<images/pnCCD-1d-sum.png, id=1719, 578.16pt x 433.62pt>
 File: images/pnCCD-1d-sum.png Graphic file (type png)
  <use images/pnCCD-1d-sum.png>
 Package pdftex.def Info: images/pnCCD-1d-sum.png used on input line 95.
 (pdftex.def)             Requested size: 278.83694pt x 209.12778pt.
  [72] [73 <./images/pnCCD-image-geometry.png>] [74 <./images/pnCCD-1d-sum.png>] <images/phase-retrieval-algorithm.png, i
-d=1741, 738.1176pt x 267.8808pt>
+d=1744, 738.1176pt x 267.8808pt>
 File: images/phase-retrieval-algorithm.png Graphic file (type png)
 
 <use images/phase-retrieval-algorithm.png>
 Package pdftex.def Info: images/phase-retrieval-algorithm.png used on input line 123.
 (pdftex.def)             Requested size: 334.60571pt x 121.43633pt.
  [75] [76 <./images/phase-retrieval-algorithm.png>]
-<images/Phase-retrieval-image.png, id=1779, 2055.68pt x 679.53876pt>
+<images/Phase-retrieval-image.png, id=1783, 2055.68pt x 679.53876pt>
 File: images/Phase-retrieval-image.png Graphic file (type png)
  <use images/Phase-retrieval-image.png>
 Package pdftex.def Info: images/Phase-retrieval-image.png used on input line 181.
 (pdftex.def)             Requested size: 418.25555pt x 138.25908pt.
 
-<images/Phase-retrieval-error.png, id=1780, 811.5921pt x 343.2825pt>
+<images/Phase-retrieval-error.png, id=1784, 811.5921pt x 343.2825pt>
 File: images/Phase-retrieval-error.png Graphic file (type png)
  <use images/Phase-retrieval-error.png>
 Package pdftex.def Info: images/Phase-retrieval-error.png used on input line 182.
@@ -3307,7 +3312,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--217
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79] [80]
-<images/electron-density-convoluted-object.png, id=1825, 1027.84pt x 658.46pt>
+<images/electron-density-convoluted-object.png, id=1828, 1027.84pt x 658.46pt>
 File: images/electron-density-convoluted-object.png Graphic file (type png)
 
 <use images/electron-density-convoluted-object.png>
@@ -3324,20 +3329,20 @@ o.pdf images/beam-convoluted-with-object.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/beam-convoluted-with-object-eps-converted-to.pdf, id=1826, 394.47375pt x 247.92625pt>
+<images/beam-convoluted-with-object-eps-converted-to.pdf, id=1829, 394.47375pt x 247.92625pt>
 File: images/beam-convoluted-with-object-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/beam-convoluted-with-object-eps-converted-to.pdf>
 Package pdftex.def Info: images/beam-convoluted-with-object-eps-converted-to.pdf used on input line 231.
 (pdftex.def)             Requested size: 204.94751pt x 128.8089pt.
  [81 <./images/electron-density-convoluted-object.png> <./images/beam-convoluted-with-object-eps-converted-to.pdf>]
-<images/cluster-generation-2D.jpg, id=1847, 1027.84pt x 561.09625pt>
+<images/cluster-generation-2D.jpg, id=1850, 1027.84pt x 561.09625pt>
 File: images/cluster-generation-2D.jpg Graphic file (type jpg)
  <use images/cluster-generation-2D.jpg>
 Package pdftex.def Info: images/cluster-generation-2D.jpg used on input line 260.
 (pdftex.def)             Requested size: 204.94751pt x 111.87479pt.
 
-<images/cluster-generation-1D.png, id=1848, 1027.84pt x 674.52pt>
+<images/cluster-generation-1D.png, id=1851, 1027.84pt x 674.52pt>
 File: images/cluster-generation-1D.png Graphic file (type png)
  <use images/cluster-generation-1D.png>
 Package pdftex.def Info: images/cluster-generation-1D.png used on input line 261.
@@ -3346,25 +3351,25 @@ Package pdftex.def Info: images/cluster-generation-1D.png used on input line 261
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82 <./images/cluster-generation-2D.jpg> <./images/cluster-generation-1D.png>] <images/cluster-sphere-intact.png, id=18
-57, 1045.9075pt x 731.73375pt>
+61, 1045.9075pt x 731.73375pt>
 File: images/cluster-sphere-intact.png Graphic file (type png)
 
 <use images/cluster-sphere-intact.png>
 Package pdftex.def Info: images/cluster-sphere-intact.png used on input line 285.
 (pdftex.def)             Requested size: 334.60571pt x 234.09259pt.
- [83] <images/filter-size.pdf, id=1869, 289.08pt x 189.99281pt>
+ [83] <images/filter-size.pdf, id=1872, 289.08pt x 189.99281pt>
 File: images/filter-size.pdf Graphic file (type pdf)
 
 <use images/filter-size.pdf>
 Package pdftex.def Info: images/filter-size.pdf used on input line 335.
 (pdftex.def)             Requested size: 204.94751pt x 134.6987pt.
- <images/filter-sum-frontpnCCD.pdf, id=1870, 289.08pt x 176.86176pt>
+ <images/filter-sum-frontpnCCD.pdf, id=1873, 289.08pt x 176.86176pt>
 File: images/filter-sum-frontpnCCD.pdf Graphic file (type pdf)
 
 <use images/filter-sum-frontpnCCD.pdf>
 Package pdftex.def Info: images/filter-sum-frontpnCCD.pdf used on input line 336.
 (pdftex.def)             Requested size: 209.12778pt x 127.94485pt.
- <images/data-flow-chart.png, id=1879, 929.3922pt x 241.8636pt>
+ <images/data-flow-chart.png, id=1882, 929.3922pt x 241.8636pt>
 File: images/data-flow-chart.png Graphic file (type png)
 
 <use images/data-flow-chart.png>
@@ -3381,7 +3386,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (results.tex
 chapter 5.
-<images/size-distributions.pdf, id=1921, 289.08pt x 212.6344pt>
+<images/size-distributions.pdf, id=1924, 289.08pt x 212.6344pt>
 File: images/size-distributions.pdf Graphic file (type pdf)
  <use images/size-distributions.pdf>
 Package pdftex.def Info: images/size-distributions.pdf used on input line 19.
@@ -3397,7 +3402,7 @@ o.pdf images/results/number-of-scatterer.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/results/number-of-scatterer-eps-converted-to.pdf, id=1927, 289.08pt x 174.6525pt>
+<images/results/number-of-scatterer-eps-converted-to.pdf, id=1930, 289.08pt x 174.6525pt>
 File: images/results/number-of-scatterer-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/results/number-of-scatterer-eps-converted-to.pdf>
@@ -3411,13 +3416,13 @@ Package pdftex.def Info: images/results/number-of-scatterer-eps-converted-to.pdf
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
  [88 <./images/size-distributions.pdf>]
-<images/results/Xe_0_fs.png, id=1953, 578.16pt x 433.62pt>
+<images/results/Xe_0_fs.png, id=1957, 578.16pt x 433.62pt>
 File: images/results/Xe_0_fs.png Graphic file (type png)
  <use images/results/Xe_0_fs.png>
 Package pdftex.def Info: images/results/Xe_0_fs.png used on input line 44.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/results/Xe_800_fs.png, id=1954, 578.16pt x 433.62pt>
+<images/results/Xe_800_fs.png, id=1958, 578.16pt x 433.62pt>
 File: images/results/Xe_800_fs.png Graphic file (type png)
  <use images/results/Xe_800_fs.png>
 Package pdftex.def Info: images/results/Xe_800_fs.png used on input line 45.
@@ -3433,26 +3438,26 @@ Package epstopdf Info: Source file: <images/results/Xe-reconstructions.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/results/Xe-reconstructions-eps-converted-to.pdf, id=1959, 370.38374pt x 231.86626pt>
+<images/results/Xe-reconstructions-eps-converted-to.pdf, id=1963, 370.38374pt x 231.86626pt>
 File: images/results/Xe-reconstructions-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/results/Xe-reconstructions-eps-converted-to.pdf>
 Package pdftex.def Info: images/results/Xe-reconstructions-eps-converted-to.pdf used on input line 53.
 (pdftex.def)             Requested size: 334.60571pt x 209.4702pt.
 
-<images/results/amplitude-discussion.png, id=1964, 578.16pt x 433.62pt>
+<images/results/amplitude-discussion.png, id=1968, 578.16pt x 433.62pt>
 File: images/results/amplitude-discussion.png Graphic file (type png)
  <use images/results/amplitude-discussion.png>
 Package pdftex.def Info: images/results/amplitude-discussion.png used on input line 62.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/results/phase-discussion.png, id=1965, 578.16pt x 433.62pt>
+<images/results/phase-discussion.png, id=1969, 578.16pt x 433.62pt>
 File: images/results/phase-discussion.png Graphic file (type png)
  <use images/results/phase-discussion.png>
 Package pdftex.def Info: images/results/phase-discussion.png used on input line 63.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/results/Xe-diff-pattern.png, id=1969, 741.4902pt x 297.2706pt>
+<images/results/Xe-diff-pattern.png, id=1973, 741.4902pt x 297.2706pt>
 File: images/results/Xe-diff-pattern.png Graphic file (type png)
  <use images/results/Xe-diff-pattern.png>
 Package pdftex.def Info: images/results/Xe-diff-pattern.png used on input line 71.
@@ -3468,13 +3473,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91 <./images/results/Xe-reconstructions-eps-converted-to.pdf>] [92 <./images/results/amplitude-discussion.png> <./imag
 es/results/phase-discussion.png>]
-<images/results/TOF-atomic-xenon.png, id=2021, 578.16pt x 433.62pt>
+<images/results/TOF-atomic-xenon.png, id=2024, 578.16pt x 433.62pt>
 File: images/results/TOF-atomic-xenon.png Graphic file (type png)
  <use images/results/TOF-atomic-xenon.png>
 Package pdftex.def Info: images/results/TOF-atomic-xenon.png used on input line 91.
 (pdftex.def)             Requested size: 204.94751pt x 153.7079pt.
 
-<images/results/atomic-charge-state-time-resolved.pdf, id=2022, 578.16pt x 433.62pt>
+<images/results/atomic-charge-state-time-resolved.pdf, id=2025, 578.16pt x 433.62pt>
 File: images/results/atomic-charge-state-time-resolved.pdf Graphic file (type pdf)
 
 <use images/results/atomic-charge-state-time-resolved.pdf>
@@ -3484,7 +3489,7 @@ Package pdftex.def Info: images/results/atomic-charge-state-time-resolved.pdf us
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93 <./images/results/Xe-diff-pattern.png>]
-<images/results/TOF-helium-cluster.png, id=2032, 578.16pt x 433.62pt>
+<images/results/TOF-helium-cluster.png, id=2035, 578.16pt x 433.62pt>
 File: images/results/TOF-helium-cluster.png Graphic file (type png)
  <use images/results/TOF-helium-cluster.png>
 Package pdftex.def Info: images/results/TOF-helium-cluster.png used on input line 122.
@@ -3493,14 +3498,14 @@ Package pdftex.def Info: images/results/TOF-helium-cluster.png used on input lin
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [94 <./images/results/TOF-atomic-xenon.png> <./images/results/atomic-charge-state-time-resolved.pdf>]
-<images/results/TOF-helium-xenon-cluster-60.png, id=2065, 578.16pt x 433.62pt>
+<images/results/TOF-helium-xenon-cluster-60.png, id=2069, 578.16pt x 433.62pt>
 File: images/results/TOF-helium-xenon-cluster-60.png Graphic file (type png)
 
 <use images/results/TOF-helium-xenon-cluster-60.png>
 Package pdftex.def Info: images/results/TOF-helium-xenon-cluster-60.png used on input line 133.
 (pdftex.def)             Requested size: 271.86356pt x 203.89406pt.
 
-<images/results/TOF-helium-xenon-cluster-13.png, id=2072, 578.16pt x 433.62pt>
+<images/results/TOF-helium-xenon-cluster-13.png, id=2076, 578.16pt x 433.62pt>
 File: images/results/TOF-helium-xenon-cluster-13.png Graphic file (type png)
 
 <use images/results/TOF-helium-xenon-cluster-13.png>
@@ -3510,14 +3515,14 @@ Package pdftex.def Info: images/results/TOF-helium-xenon-cluster-13.png used on 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97]
-<images/results/reconstructions-to-simulations.png, id=2096, 933.7284pt x 514.0806pt>
+<images/results/reconstructions-to-simulations.png, id=2099, 933.7284pt x 514.0806pt>
 File: images/results/reconstructions-to-simulations.png Graphic file (type png)
 
 <use images/results/reconstructions-to-simulations.png>
 Package pdftex.def Info: images/results/reconstructions-to-simulations.png used on input line 158.
 (pdftex.def)             Requested size: 334.60571pt x 184.2217pt.
 
-<images/results/plum-pudding.png, id=2100, 444.15938pt x 662.475pt>
+<images/results/plum-pudding.png, id=2103, 444.15938pt x 662.475pt>
 File: images/results/plum-pudding.png Graphic file (type png)
  <use images/results/plum-pudding.png>
 Package pdftex.def Info: images/results/plum-pudding.png used on input line 166.
@@ -3536,21 +3541,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--192
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [101]
-<images/results/simulations-damage-explain2.pdf, id=2128, 388.65201pt x 242.47289pt>
+<images/results/simulations-damage-explain2.pdf, id=2131, 388.65201pt x 242.47289pt>
 File: images/results/simulations-damage-explain2.pdf Graphic file (type pdf)
 
 <use images/results/simulations-damage-explain2.pdf>
 Package pdftex.def Info: images/results/simulations-damage-explain2.pdf used on input line 198.
 (pdftex.def)             Requested size: 292.7776pt x 182.66817pt.
 
-<images/results/HeXe-densities-113-05-doping-and-reconstruction.png, id=2134, 542.025pt x 813.2784pt>
+<images/results/HeXe-densities-113-05-doping-and-reconstruction.png, id=2137, 542.025pt x 813.2784pt>
 File: images/results/HeXe-densities-113-05-doping-and-reconstruction.png Graphic file (type png)
 
 <use images/results/HeXe-densities-113-05-doping-and-reconstruction.png>
 Package pdftex.def Info: images/results/HeXe-densities-113-05-doping-and-reconstruction.png used on input line 207.
 (pdftex.def)             Requested size: 113.7707pt x 170.71652pt.
 
-<images/results/HeXe-cluster-113-0-5-doping2.pdf, id=2135, 412.74202pt x 257.50203pt>
+<images/results/HeXe-cluster-113-0-5-doping2.pdf, id=2138, 412.74202pt x 257.50203pt>
 File: images/results/HeXe-cluster-113-0-5-doping2.pdf Graphic file (type pdf)
 
 <use images/results/HeXe-cluster-113-0-5-doping2.pdf>
@@ -3569,14 +3574,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103] [104 <./images/results/HeXe-densities-113-05-doping-and-reconstruction.png> <./images/results/HeXe-cluster-113-0-
 5-doping2.pdf>]
-<images/results/He-diffraction-patterns.pdf, id=2182, 892.33376pt x 307.1475pt>
+<images/results/He-diffraction-patterns.pdf, id=2185, 892.33376pt x 307.1475pt>
 File: images/results/He-diffraction-patterns.pdf Graphic file (type pdf)
 
 <use images/results/He-diffraction-patterns.pdf>
 Package pdftex.def Info: images/results/He-diffraction-patterns.pdf used on input line 224.
 (pdftex.def)             Requested size: 418.25555pt x 143.96565pt.
 
-<images/results/HeXe-comparison-0-800-fs.png, id=2186, 946.2552pt x 304.4976pt>
+<images/results/HeXe-comparison-0-800-fs.png, id=2189, 946.2552pt x 304.4976pt>
 File: images/results/HeXe-comparison-0-800-fs.png Graphic file (type png)
 
 <use images/results/HeXe-comparison-0-800-fs.png>
@@ -3672,7 +3677,7 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 16--210
  (acknowledgment.tex
 chapter C.
 )
-Package atenddvi Info: Last page = 142.
+Package atenddvi Info: Last page = 143.
  [4
 
 
@@ -3686,7 +3691,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 213.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B8AC97D4EE4CDA7F600B7205C1A68F9F;5401.
+(rerunfilecheck)             Checksum: 602EBE6310F984FF2C20036D14701642;5416.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3695,7 +3700,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
 Here is how much of TeX's memory you used:
  36370 strings out of 493334
  668187 string characters out of 3139243
- 1570564 words of memory out of 3000000
+ 1570681 words of memory out of 3000000
  38519 multiletter control sequences out of 15000+200000
  29770 words of font info for 71 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -3731,9 +3736,9 @@ onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (142 pages, 12061712 bytes).
+Output written on main.pdf (143 pages, 12062210 bytes).
 PDF statistics:
- 3939 PDF objects out of 4296 (max. 8388607)
+ 3942 PDF objects out of 4296 (max. 8388607)
  706 named destinations out of 1000 (max. 500000)
  822 words of extra memory for PDF output out of 10000 (max. 10000000)
 

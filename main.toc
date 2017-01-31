@@ -30,9 +30,9 @@
 \contentsline {section}{\numberline {3.4}Sample delivery}{54}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{57}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}Time-of-flight mass-spectrometer}{59}{section.3.5}
-\contentsline {section}{\numberline {3.6}Focus characterization}{62}{section.3.6}
+\contentsline {section}{\numberline {3.6}X-ray focus characterization}{62}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Focus characterization using a TOF spectrometer}{62}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Focus characterization via imprint study}{63}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.2}Focus characterization via an imprint study}{63}{subsection.3.6.2}
 \contentsline {chapter}{\numberline {4}Methods}{66}{chapter.4}
 \contentsline {section}{\numberline {4.1}The computing environment at LCLS}{66}{section.4.1}
 \contentsline {section}{\numberline {4.2}pnCCD photon detectors}{68}{section.4.2}
