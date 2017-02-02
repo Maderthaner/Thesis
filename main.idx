@@ -1,55 +1,55 @@
-\indexentry{X-ray!Bremsstrahlung|hyperpage}{4}
-\indexentry{brilliance|hyperindexformat{\see{spectral brightness}}}{4}
-\indexentry{spectral brightness|hyperpage}{4}
-\indexentry{Linac Coherent Light Source|hyperpage}{5}
-\indexentry{LCLS|hyperindexformat{\seealso {Linac Coherent Light Source}}}{5}
+\indexentry{X-ray!Bremsstrahlung|hyperpage}{5}
+\indexentry{brilliance|hyperindexformat{\see{spectral brightness}}}{5}
+\indexentry{spectral brightness|hyperpage}{5}
 \indexentry{Linac Coherent Light Source|hyperpage}{6}
-\indexentry{lightsource|hyperpage}{6}
-\indexentry{bending magnets|hyperpage}{6}
-\indexentry{wiggler|hyperpage}{6}
-\indexentry{undulator|hyperpage}{7}
-\indexentry{microbunching|hyperpage}{8}
-\indexentry{emittance|hyperpage}{10}
-\indexentry{self-seeding|hyperpage}{11}
-\indexentry{self-seeding!soft x-ray|hyperpage}{13}
-\indexentry{cluster size|hyperpage}{21}
-\indexentry{scaling law|hyperpage}{21}
-\indexentry{Hagena|hyperindexformat{\see {scaling law}}}{21}
-\indexentry{Hagena!scaling parameter|hyperpage}{21}
-\indexentry{afterpulse|hyperpage}{22}
-\indexentry{dopant|hyperpage}{23}
-\indexentry{wave-vector!transfer|hyperpage}{30}
-\indexentry{refractive index|hyperpage}{34}
-\indexentry{dispersion correction!complex|hyperpage}{34}
-\indexentry{ionization!multistep|hyperpage}{36}
-\indexentry{nanoplasma!formation|hyperpage}{36}
-\indexentry{ionization!multistep|hyperpage}{36}
-\indexentry{Coulomb potential|hyperpage}{36}
-\indexentry{electron density!surface softening|hyperpage}{39}
-\indexentry{Free electron LASer in Hamburg!FLASH|hyperpage}{41}
-\indexentry{time-of-flight!mass spectroscopy|hyperpage}{41}
-\indexentry{time-of-flight|hyperpage}{47}
-\indexentry{imprint|hyperpage}{47}
-\indexentry{pnCCD!module|hyperpage}{51}
-\indexentry{pnCCD!pixel size|hyperpage}{51}
-\indexentry{pnCCD|hyperpage}{53}
+\indexentry{LCLS|hyperindexformat{\seealso {Linac Coherent Light Source}}}{6}
+\indexentry{Linac Coherent Light Source|hyperpage}{7}
+\indexentry{lightsource|hyperpage}{7}
+\indexentry{bending magnets|hyperpage}{7}
+\indexentry{wiggler|hyperpage}{7}
+\indexentry{undulator|hyperpage}{8}
+\indexentry{microbunching|hyperpage}{9}
+\indexentry{emittance|hyperpage}{11}
+\indexentry{self-seeding|hyperpage}{12}
+\indexentry{self-seeding!soft x-ray|hyperpage}{14}
+\indexentry{cluster size|hyperpage}{22}
+\indexentry{scaling law|hyperpage}{22}
+\indexentry{Hagena|hyperindexformat{\see {scaling law}}}{22}
+\indexentry{Hagena!scaling parameter|hyperpage}{22}
+\indexentry{afterpulse|hyperpage}{23}
+\indexentry{dopant|hyperpage}{24}
+\indexentry{wave-vector!transfer|hyperpage}{31}
+\indexentry{refractive index|hyperpage}{35}
+\indexentry{dispersion correction!complex|hyperpage}{35}
+\indexentry{ionization!multistep|hyperpage}{37}
+\indexentry{nanoplasma!formation|hyperpage}{37}
+\indexentry{ionization!multistep|hyperpage}{37}
+\indexentry{Coulomb potential|hyperpage}{37}
+\indexentry{electron density!surface softening|hyperpage}{40}
+\indexentry{Free electron LASer in Hamburg!FLASH|hyperpage}{42}
+\indexentry{time-of-flight!mass spectroscopy|hyperpage}{42}
+\indexentry{time-of-flight|hyperpage}{48}
+\indexentry{imprint|hyperpage}{48}
+\indexentry{pnCCD!module|hyperpage}{52}
+\indexentry{pnCCD!pixel size|hyperpage}{52}
+\indexentry{pnCCD|hyperpage}{52}
 \indexentry{pnCCD!CAMEX|hyperpage}{53}
 \indexentry{pnCCD!gain|hyperpage}{53}
-\indexentry{lead tungstate|hyperpage}{63}
 \indexentry{lead tungstate|hyperpage}{64}
-\indexentry{psana!calibman|hyperpage}{68}
-\indexentry{pnCCD!pedestal correction|hyperpage}{68}
-\indexentry{pnCCD!common mode|hyperpage}{68}
+\indexentry{lead tungstate|hyperpage}{64}
+\indexentry{psana!calibman|hyperpage}{69}
+\indexentry{pnCCD!pedestal correction|hyperpage}{69}
+\indexentry{pnCCD!common mode|hyperpage}{69}
 \indexentry{oversampling|hyperpage}{75}
 \indexentry{oversampling!Nyquist-Shannon sampling theorem|hyperpage}{75}
 \indexentry{oversampling!Nyquist rate|hyperpage}{75}
 \indexentry{Hawk software package|hyperpage}{76}
-\indexentry{Matlab|hyperpage}{80}
-\indexentry{Xenon!bulk density|hyperpage}{83}
+\indexentry{Matlab|hyperpage}{81}
+\indexentry{Xenon!bulk density|hyperpage}{84}
 \indexentry{Helium!liquid density|hyperpage}{84}
 \indexentry{Fourier Transform|hyperpage}{84}
 \indexentry{Matlab|hyperpage}{84}
 \indexentry{nanoplasma expansion!Coulomb trapping|hyperpage}{89}
 \indexentry{nanoplasma!expansion|hyperpage}{90}
 \indexentry{superstructure|hyperpage}{102}
-\indexentry{plum-pudding|hyperpage}{108}
+\indexentry{plum-pudding|hyperpage}{109}

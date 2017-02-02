@@ -15,13 +15,13 @@
 \usepackage{cancel}
 \usepackage{siunitx}
 \sisetup{
-	%fixed-exponent 			= 3					,
-	list-units 						=	brackets	,
-	list-final-separator 	= {, and }	,
-	exponent-product			= \cdot			,
-	range-units						= brackets	,
+	%fixed-exponent 		= 3				,
+	list-units 				=	brackets	,
+	list-final-separator 	= {, and }		,
+	exponent-product		= \cdot			,
+	range-units				= brackets		,
 	%scientific-notation 	= fixed			,
-	binary-units					=	true			,
+	binary-units				=	true		,
 	separate-uncertainty	=	true			
 }%
 \DeclareSIUnit[number-unit-product = {}]\photons{\, photons}
@@ -182,7 +182,7 @@ program@epstopdf=epstopdf
 %\newpage
 \include{summary_outlook}
 %
-\backmatter
+\newpage\backmatter
 \include{appendix}
 %\newpage
 %\include{bibliography}

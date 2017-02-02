@@ -1,67 +1,67 @@
 \begin{theindex}
 
-  \item afterpulse, \hyperpage{22}
+  \item afterpulse, \hyperpage{23}
 
   \indexspace
 
-  \item bending magnets, \hyperpage{6}
-  \item brilliance, \hyperindexformat{\see{spectral brightness}}{4}
+  \item bending magnets, \hyperpage{7}
+  \item brilliance, \hyperindexformat{\see{spectral brightness}}{5}
 
   \indexspace
 
-  \item cluster size, \hyperpage{21}
-  \item Coulomb potential, \hyperpage{36}
+  \item cluster size, \hyperpage{22}
+  \item Coulomb potential, \hyperpage{37}
 
   \indexspace
 
   \item dispersion correction
-    \subitem complex, \hyperpage{34}
-  \item dopant, \hyperpage{23}
+    \subitem complex, \hyperpage{35}
+  \item dopant, \hyperpage{24}
 
   \indexspace
 
   \item electron density
-    \subitem surface softening, \hyperpage{39}
-  \item emittance, \hyperpage{10}
+    \subitem surface softening, \hyperpage{40}
+  \item emittance, \hyperpage{11}
 
   \indexspace
 
   \item Fourier Transform, \hyperpage{84}
   \item Free electron LASer in Hamburg
-    \subitem FLASH, \hyperpage{41}
+    \subitem FLASH, \hyperpage{42}
 
   \indexspace
 
-  \item Hagena, \hyperindexformat{\see {scaling law}}{21}
-    \subitem scaling parameter, \hyperpage{21}
+  \item Hagena, \hyperindexformat{\see {scaling law}}{22}
+    \subitem scaling parameter, \hyperpage{22}
   \item Hawk software package, \hyperpage{76}
   \item Helium
     \subitem liquid density, \hyperpage{84}
 
   \indexspace
 
-  \item imprint, \hyperpage{47}
+  \item imprint, \hyperpage{48}
   \item ionization
-    \subitem multistep, \hyperpage{36}
+    \subitem multistep, \hyperpage{37}
 
   \indexspace
 
   \item LCLS, 
-		\hyperindexformat{\seealso {Linac Coherent Light Source}}{5}
-  \item lead tungstate, \hyperpage{63, 64}
-  \item lightsource, \hyperpage{6}
-  \item Linac Coherent Light Source, \hyperpage{5, 6}
+		\hyperindexformat{\seealso {Linac Coherent Light Source}}{6}
+  \item lead tungstate, \hyperpage{64}
+  \item lightsource, \hyperpage{7}
+  \item Linac Coherent Light Source, \hyperpage{6, 7}
 
   \indexspace
 
-  \item Matlab, \hyperpage{80}, \hyperpage{84}
-  \item microbunching, \hyperpage{8}
+  \item Matlab, \hyperpage{81}, \hyperpage{84}
+  \item microbunching, \hyperpage{9}
 
   \indexspace
 
   \item nanoplasma
     \subitem expansion, \hyperpage{90}
-    \subitem formation, \hyperpage{36}
+    \subitem formation, \hyperpage{37}
   \item nanoplasma expansion
     \subitem Coulomb trapping, \hyperpage{89}
 
@@ -73,49 +73,49 @@
 
   \indexspace
 
-  \item plum-pudding, \hyperpage{108}
-  \item pnCCD, \hyperpage{53}
+  \item plum-pudding, \hyperpage{109}
+  \item pnCCD, \hyperpage{52}
     \subitem CAMEX, \hyperpage{53}
-    \subitem common mode, \hyperpage{68}
+    \subitem common mode, \hyperpage{69}
     \subitem gain, \hyperpage{53}
-    \subitem module, \hyperpage{51}
-    \subitem pedestal correction, \hyperpage{68}
-    \subitem pixel size, \hyperpage{51}
+    \subitem module, \hyperpage{52}
+    \subitem pedestal correction, \hyperpage{69}
+    \subitem pixel size, \hyperpage{52}
   \item psana
-    \subitem calibman, \hyperpage{68}
+    \subitem calibman, \hyperpage{69}
 
   \indexspace
 
-  \item refractive index, \hyperpage{34}
+  \item refractive index, \hyperpage{35}
 
   \indexspace
 
-  \item scaling law, \hyperpage{21}
-  \item self-seeding, \hyperpage{11}
-    \subitem soft x-ray, \hyperpage{13}
-  \item spectral brightness, \hyperpage{4}
+  \item scaling law, \hyperpage{22}
+  \item self-seeding, \hyperpage{12}
+    \subitem soft x-ray, \hyperpage{14}
+  \item spectral brightness, \hyperpage{5}
   \item superstructure, \hyperpage{102}
 
   \indexspace
 
-  \item time-of-flight, \hyperpage{47}
-    \subitem mass spectroscopy, \hyperpage{41}
+  \item time-of-flight, \hyperpage{48}
+    \subitem mass spectroscopy, \hyperpage{42}
 
   \indexspace
 
-  \item undulator, \hyperpage{7}
+  \item undulator, \hyperpage{8}
 
   \indexspace
 
   \item wave-vector
-    \subitem transfer, \hyperpage{30}
-  \item wiggler, \hyperpage{6}
+    \subitem transfer, \hyperpage{31}
+  \item wiggler, \hyperpage{7}
 
   \indexspace
 
   \item X-ray
-    \subitem Bremsstrahlung, \hyperpage{4}
+    \subitem Bremsstrahlung, \hyperpage{5}
   \item Xenon
-    \subitem bulk density, \hyperpage{83}
+    \subitem bulk density, \hyperpage{84}
 
 \end{theindex}
