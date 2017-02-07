@@ -10,25 +10,25 @@
   \indexspace
 
   \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{37}
+  \item Coulomb potential, \hyperpage{38}
 
   \indexspace
 
   \item dispersion correction
-    \subitem complex, \hyperpage{35}
-  \item dopant, \hyperpage{24}
+    \subitem complex, \hyperpage{36}
+  \item dopant, \hyperpage{25}
 
   \indexspace
 
   \item electron density
-    \subitem surface softening, \hyperpage{40}
+    \subitem surface softening, \hyperpage{39}
   \item emittance, \hyperpage{11}
 
   \indexspace
 
   \item Fourier Transform, \hyperpage{84}
   \item Free electron LASer in Hamburg
-    \subitem FLASH, \hyperpage{42}
+    \subitem FLASH, \hyperpage{43}
 
   \indexspace
 
@@ -42,7 +42,7 @@
 
   \item imprint, \hyperpage{48}
   \item ionization
-    \subitem multistep, \hyperpage{37}
+    \subitem multistep, \hyperpage{37, 38}
 
   \indexspace
 
@@ -60,10 +60,10 @@
   \indexspace
 
   \item nanoplasma
-    \subitem expansion, \hyperpage{90}
-    \subitem formation, \hyperpage{37}
+    \subitem expansion, \hyperpage{96}
+    \subitem formation, \hyperpage{38}
   \item nanoplasma expansion
-    \subitem Coulomb trapping, \hyperpage{89}
+    \subitem Coulomb trapping, \hyperpage{96}
 
   \indexspace
 
@@ -73,7 +73,7 @@
 
   \indexspace
 
-  \item plum-pudding, \hyperpage{109}
+  \item plum-pudding, \hyperpage{114}
   \item pnCCD, \hyperpage{52}
     \subitem CAMEX, \hyperpage{53}
     \subitem common mode, \hyperpage{69}
@@ -94,12 +94,11 @@
   \item self-seeding, \hyperpage{12}
     \subitem soft x-ray, \hyperpage{14}
   \item spectral brightness, \hyperpage{5}
-  \item superstructure, \hyperpage{102}
 
   \indexspace
 
   \item time-of-flight, \hyperpage{48}
-    \subitem mass spectroscopy, \hyperpage{42}
+    \subitem mass spectroscopy, \hyperpage{43}
 
   \indexspace
 
@@ -108,7 +107,7 @@
   \indexspace
 
   \item wave-vector
-    \subitem transfer, \hyperpage{31}
+    \subitem transfer, \hyperpage{32}
   \item wiggler, \hyperpage{7}
 
   \indexspace

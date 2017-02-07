@@ -2,7 +2,7 @@
 %%%%%%%%%%%%
 %- Short introduction what we will go over.
 %%%%%%%%%%%%
-This chapter condenses the theoretical concepts that will recur throughout this thesis. The chapter starts off in Section \ref{sec:xfel} with an introduction to the key aspects of X-ray free electron lasers (XFEL), including the beam operating modes \textit{self-amplified spontaneous emission} (SASE), \textit{self-seeding} and \textit{multipulse} operations. Section \ref{sec:cluster-theory} is about the formation of rare-gas clusters via supersonic jets and pickup sources. We then dive into the interaction of light and matter in Section \ref{sec:light-matter-interaction} that discusses coherent, elastic X-ray scattering, and inelastic processes in atoms. The chapter ends with Section \ref{sec:ionizatin-of-ext-obj}, describing nanoplasma formation in pristine cluster and core-shell systems.
+This chapter condenses the theoretical concepts that will recur throughout this thesis. The chapter starts off in Section \ref{sec:xfel} with an introduction to the key aspects of X-ray free electron lasers (XFEL), including the beam operating modes \textit{self-amplified spontaneous emission} (SASE), \textit{self-seeding}, and \textit{multipulse} operations. Section \ref{sec:cluster-theory} is about the formation of rare-gas clusters via supersonic jets and pickup sources. We then dive into the interaction of light and matter in Section \ref{sec:light-matter-interaction} that discusses coherent, elastic X-ray scattering, and absorption in atoms. The chapter ends with Section \ref{sec:ionizatin-of-ext-obj}, describing nanoplasma formation in pristine cluster and core-shell systems.
 %
 %
 %
@@ -315,7 +315,14 @@ There is a range, where the mean cluster size appears to deviate from Hagena's l
 		\label{eq:dorchies-scaling}
 		\end{equation}
 \end{itemize}
-Note, however, that for larger cluster sizes, the Equation \eqref{eq:large-hagena-scaling} becomes true again \citep{Hagena-1992-RSI,Bush-1998-JPhysChemA}.\\[1\baselineskip]
+Note, however, that for larger cluster sizes, the Equation \eqref{eq:large-hagena-scaling} becomes true again \citep{Hagena-1992-RSI,Bush-1998-JPhysChemA}. The average number of atoms, $\left\langle N\right\rangle$, which arrange to a cluster, is in this thesis usually expressed as the radius of a cluster. To transform the number of atoms, $\left\langle N\right\rangle$, to a radius, a good approximation can be achieved by using the atomic Wigner-Seitz radius, $R_{s}$. It can be noted as \cite{Arbeiter-2010-PRA,Gomez-2011-JCP}
+\begin{align}
+R_{s} &= \left(\frac{3 M}{4 \pi\, \rho\, N_{A}}\right)^{\frac{1}{3}},
+\label{eq:wigner-seitz-radius}
+\intertext{where $M$ is the molar mass, $\rho$ is the mass density, and $N_{A}$ is the Avogadro number. The cluster radius, $r$, can then be noted as,}
+r &= R_{s} \left\langle N\right\rangle^{\frac{1}{3}},
+\end{align}
+which is typically given in \AA. Using the mass density for superfluid He-droplets, $R_{s}^{He}\approx \SI{2.2}{\angstrom}$ and for solid xenon, $R_{s}^{Xe} \approx \SI{1.7}{\angstrom}$. Note, that this varies with temperature and phase state quite drastically.\\[1\baselineskip]
 %
 Experiments using supersonic jets for cluster generation are sometimes performed with pulsed valves to decrease cost and gas load in the overall system. Upon opening and closing of the valve, the gas density can vary. This affects the cluster size and one would expect to see smaller clusters. It has been observed that one finds smaller clusters in the beginning of the pulse, but in the \textit{afterpulse}\index{afterpulse} one finds giant clusters that exceed the above-described scaling laws due to the effects when closing the valve \citep{Rupp-2014-JCP}.\\[1\baselineskip]
 %
@@ -337,7 +344,7 @@ Supersonic jets generally create clusters of different sizes. This size distribu
 	\caption[Schematic of a pickup (gas-)source.]{Schematic setup to generate heterogeneous clusters through pickup. Thereby is a cluster generated via supersonic gas expansion, which is doped at regions marked A or B. In region A, the dopant gas is mixed in the nozzle such that it becomes part of the nucleus. In region B, the cluster condenses atoms on its surface from the background gas of the chamber with pressure $p_{\text{du}}$. The cluster can be detected upon evaporation, e.g., due to contact with the chamber, through the pressure $p_{\text{de}}$. After \citep{Gough-1985-JChemPhys,Haberland-1994-Springer}.}
 	\label{fig:pickupPrinciple}
 \end{figure}
-A possibility to create heterogeneous clusters is through the principle of picking-up atoms or molecules \citep{Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different places where the cluster encounters a dopant material, one, monomers are added to the cluster in region A of Figure \ref{fig:pickupPrinciple}, which represents the nozzle of a supersonic source and can be achieved by, e.g., co-expanding a gas-mixture; two, they can be picked up by a cluster in region B, for example, through an increased chamber pressure $p_{du}$ with the dopant material. If clusters encounter atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they typically stick to the surface of solid clusters. If a liquid or superfluid cluster picks up a dopant, it may move within the droplet. Since the traversing cluster is much larger and heavier than a colliding monomer, the trajectory is not affected significantly. Ar-cluster with $\left\langle N\right\rangle = \num{5.9e9}$ particles can pick-up \SI{0.05}{\percent} as many SF6 molecules with chamber pressures of $p_{du}=\SI{2e-3}{\pascal}$ over a pickup length of a few centimeters \citep{Gough-1985-JChemPhys}. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much gas-load on the overall system. In this work, gaseous xenon was picked up by superfluid helium droplets in region B.\\[1\baselineskip]
+A possibility to create heterogeneous clusters is through the principle of picking-up atoms or molecules \citep{Haberland-1994-Springer}. Figure \ref{fig:pickupPrinciple} illustrates pickup regions that are typically used in an experiment. Mainly, there are two different places where the cluster encounters a dopant material, one, monomers are added to the cluster in region A of Figure \ref{fig:pickupPrinciple}, which represents the nozzle of a supersonic source and can be achieved by, e.g., co-expanding a gas-mixture; two, they can be picked up by a cluster in region B, for example, through an increased chamber pressure $p_{du}$ with the dopant material. If clusters encounter atoms or molecules in the nozzle region A, they can become part of the cluster formation and can be found inside of solid clusters. If atoms or molecules are picked up in region B, they typically stick to the surface of solid clusters. If a liquid or superfluid cluster picks up a dopant, it may move within the droplet \cite{Hartmann-1995-PRL}. Since the traversing cluster is much larger and heavier than a colliding monomer, the trajectory is not affected significantly. Ar-cluster with $\left\langle N\right\rangle = \num{5.9e9}$ particles can pick-up \SI{0.05}{\percent} as many SF$_{6}$ molecules with chamber pressures of $p_{du}=\SI{2e-3}{\pascal}$ over a pickup length of a few centimeters \citep{Gough-1985-JChemPhys}. At these low pressures, picking up atoms or molecules in region B requires less gas load on the system but is also less efficient than picking up in region B. To increase the pickup levels in region B, a gas cell can be used as much higher pressures can be achieved within the gas cell without putting too much gas-load on the overall system. In this work, gaseous xenon was picked up by superfluid helium droplets in region B.\\[1\baselineskip]
 %
 To understand the doping process further, the following considerations are useful. When a cluster and a dopant\index{dopant} bond, the binding energy that is specific to the materials is added to the system. This is similar to the cluster growth process itself. The cluster will lose this energy through evaporation of monomers \citep{Gomez-2011-JCP}. The loss of particles through evaporative cooling is dependent on the ratio of binding energies of the two materials and can be expressed as
 \begin{equation}
@@ -416,7 +423,7 @@ Photoionization is the process, where an atom or molecule is transformed into an
 			O & 5s & 0.0040 & 27.3  \\ 
 			\ & 5p & 0.0120 & 12.5  \\ \hline
 		\end{tabular}
-	\caption[Differential absorption cross-sections and ionization potentials for xenon.]{Differential absorption cross-sections and ionization potentials for certain electronic configurations of xenon at 837eV. Calculations based on \citep{Cowan-1981-Cal}.}
+	\caption[Subshell absorption cross-sections and ionization potentials for xenon.]{Subshell absorption cross-sections and ionization potentials for certain electronic configurations of xenon at 837eV. Calculations based on \citep{Cowan-1981-Cal}.}
 	\label{tab:xenon-photoionization-cross-section}
 \end{table}
 %It appears that certain energy levels, or here subshells if one disregards the hyperfine structure\footnote{A shift in energy levels due to interaction of electrons with the nucleus \citep[see][p~166~ff.]{Demtroder-2005-Springer}.}, tend to have a higher absorption cross-section than others. This brings us back to the picture of the forced harmonic oscillator, where an electron is driven by a light field. If the frequency of the light field is close to the eigenfrequency of the bound electron, in other words, if the energy of a photon is close to the energy level of a bound electron, the system is in resonance and absorption is highly likely. As the photon energy and electron level energy differ, the system is off resonance and it is less likely to absorb a photon. As energy levels in atoms are discrete, electrons can only be excited from one energy level to another or need a certain (minimal) ionization energy\index{ionization!energy} to ionize an atom and excite an electron into the continuum. Therefore, the likelihood of a core-electron that is strongly bound being ionized is by far the most probable using X-rays.
@@ -600,8 +607,8 @@ This result can be exploited to determine the size of a spherical particle, i.e.
 	\centering
 		\begin{tabular}{ | c | r | }
 		\hline
-			El. Configuration, & Scattering factor \\
-			and ionized subshell & $f^{0}$ in barn \\ \hline
+			El. Configuration, & Scattering cross-section \\
+			and ionized subshell & $\lvert-r_{0}f^{0}\rvert^2$ in barn \\ \hline
 			He\textsuperscript{+0},\ 1s2 & 2.55  \\ \hline
 			He\textsuperscript{+1},\ 1s1 & 0.65  \\ \hline
 			Xe\textsuperscript{+0},\ 5p6 & 1874.36  \\ \hline
@@ -609,7 +616,7 @@ This result can be exploited to determine the size of a spherical particle, i.e.
 			Xe\textsuperscript{+1},\ 5p5 & 1814.68  \\ \hline
 			Xe\textsuperscript{+2},\ 5p4 & 1754.08  \\ \hline
 		\end{tabular}
-	\caption[Atomic scattering factors for helium and xenon.]{Atomic scattering factor $f^{0}$ for certain electron configurations. From \citep{Ho-2016-PC}.}
+	\caption[Atomic scattering factors for helium and xenon.]{Atomic scattering cross-sections $\lvert-r_{0}f^{0}\rvert^2$ for certain electron configurations. From \citep{Ho-2016-PC}.}
 	\label{tab:helium-xenon-el-scattering-crossection}
 \end{table}
 %
