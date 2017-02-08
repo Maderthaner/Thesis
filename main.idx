@@ -4,29 +4,29 @@
 \indexentry{Linac Coherent Light Source|hyperpage}{6}
 \indexentry{LCLS|hyperindexformat{\seealso {Linac Coherent Light Source}}}{6}
 \indexentry{Linac Coherent Light Source|hyperpage}{7}
-\indexentry{lightsource|hyperpage}{7}
+\indexentry{light source|hyperpage}{7}
 \indexentry{bending magnets|hyperpage}{7}
 \indexentry{wiggler|hyperpage}{7}
 \indexentry{undulator|hyperpage}{8}
 \indexentry{microbunching|hyperpage}{9}
 \indexentry{emittance|hyperpage}{11}
 \indexentry{self-seeding|hyperpage}{12}
-\indexentry{self-seeding!soft x-ray|hyperpage}{14}
+\indexentry{self-seeding!soft x-ray|hyperpage}{13}
 \indexentry{cluster size|hyperpage}{22}
 \indexentry{scaling law|hyperpage}{22}
 \indexentry{Hagena|hyperindexformat{\see {scaling law}}}{22}
 \indexentry{Hagena!scaling parameter|hyperpage}{22}
 \indexentry{afterpulse|hyperpage}{23}
-\indexentry{dopant|hyperpage}{25}
-\indexentry{wave-vector!transfer|hyperpage}{32}
+\indexentry{dopant|hyperpage}{24}
+\indexentry{wave-vector!transfer|hyperpage}{31}
 \indexentry{refractive index|hyperpage}{35}
 \indexentry{dispersion correction!complex|hyperpage}{36}
 \indexentry{ionization!multistep|hyperpage}{37}
-\indexentry{nanoplasma!formation|hyperpage}{38}
-\indexentry{ionization!multistep|hyperpage}{38}
-\indexentry{Coulomb potential|hyperpage}{38}
-\indexentry{electron density!surface softening|hyperpage}{39}
-\indexentry{Free electron LASer in Hamburg!FLASH|hyperpage}{43}
+\indexentry{nanoplasma!formation|hyperpage}{37}
+\indexentry{ionization!multistep|hyperpage}{37}
+\indexentry{Coulomb potential|hyperpage}{37}
+\indexentry{electron density!surface softening|hyperpage}{40}
+\indexentry{Free electron LASer in Hamburg!FLASH|hyperpage}{42}
 \indexentry{time-of-flight!mass spectroscopy|hyperpage}{43}
 \indexentry{time-of-flight|hyperpage}{48}
 \indexentry{imprint|hyperpage}{48}
@@ -49,6 +49,4 @@
 \indexentry{Helium!liquid density|hyperpage}{84}
 \indexentry{Fourier Transform|hyperpage}{84}
 \indexentry{Matlab|hyperpage}{84}
-\indexentry{nanoplasma expansion!Coulomb trapping|hyperpage}{96}
-\indexentry{nanoplasma!expansion|hyperpage}{96}
 \indexentry{plum-pudding|hyperpage}{114}

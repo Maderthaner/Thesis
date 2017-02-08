@@ -10,25 +10,25 @@
   \indexspace
 
   \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{38}
+  \item Coulomb potential, \hyperpage{37}
 
   \indexspace
 
   \item dispersion correction
     \subitem complex, \hyperpage{36}
-  \item dopant, \hyperpage{25}
+  \item dopant, \hyperpage{24}
 
   \indexspace
 
   \item electron density
-    \subitem surface softening, \hyperpage{39}
+    \subitem surface softening, \hyperpage{40}
   \item emittance, \hyperpage{11}
 
   \indexspace
 
   \item Fourier Transform, \hyperpage{84}
   \item Free electron LASer in Hamburg
-    \subitem FLASH, \hyperpage{43}
+    \subitem FLASH, \hyperpage{42}
 
   \indexspace
 
@@ -42,14 +42,14 @@
 
   \item imprint, \hyperpage{48}
   \item ionization
-    \subitem multistep, \hyperpage{37, 38}
+    \subitem multistep, \hyperpage{37}
 
   \indexspace
 
   \item LCLS, 
 		\hyperindexformat{\seealso {Linac Coherent Light Source}}{6}
   \item lead tungstate, \hyperpage{64}
-  \item lightsource, \hyperpage{7}
+  \item light source, \hyperpage{7}
   \item Linac Coherent Light Source, \hyperpage{6, 7}
 
   \indexspace
@@ -60,10 +60,7 @@
   \indexspace
 
   \item nanoplasma
-    \subitem expansion, \hyperpage{96}
-    \subitem formation, \hyperpage{38}
-  \item nanoplasma expansion
-    \subitem Coulomb trapping, \hyperpage{96}
+    \subitem formation, \hyperpage{37}
 
   \indexspace
 
@@ -92,7 +89,7 @@
 
   \item scaling law, \hyperpage{22}
   \item self-seeding, \hyperpage{12}
-    \subitem soft x-ray, \hyperpage{14}
+    \subitem soft x-ray, \hyperpage{13}
   \item spectral brightness, \hyperpage{5}
 
   \indexspace
@@ -107,7 +104,7 @@
   \indexspace
 
   \item wave-vector
-    \subitem transfer, \hyperpage{32}
+    \subitem transfer, \hyperpage{31}
   \item wiggler, \hyperpage{7}
 
   \indexspace

@@ -1,26 +1,29 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'main.blg'
-[36] biber-MSWIN64:303> INFO - === 
-[67] Biber.pm:359> INFO - Reading 'main.bcf'
-[183] Biber.pm:835> INFO - Found 186 citekeys in bib section 0
-[210] Biber.pm:3670> INFO - Processing section 0
-[235] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[293] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[395] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[749] Utils.pm:164> WARN - month field 'Aug' in entry 'Hartmann-1995-PRL' is not an integer - this will probably not sort properly.
-[965] Utils.pm:164> WARN - ISBN '1044-0305' in entry 'Murray-2013-IUPAC' is invalid - run biber with '--validate_datamodel' for details.
-[965] Utils.pm:164> WARN - month field 'jan' in entry 'Murray-2013-IUPAC' is not an integer - this will probably not sort properly.
-[1032] Utils.pm:164> WARN - month field 'Apr' in entry 'Gomez-2012-PRL' is not an integer - this will probably not sort properly.
-[1035] Utils.pm:164> WARN - month field 'Jun' in entry 'Loginov-2011-PRL' is not an integer - this will probably not sort properly.
-[1039] Utils.pm:164> WARN - month field 'June' in entry 'Al-Haddad-2017-unpublished' is not an integer - this will probably not sort properly.
+[33] biber-MSWIN64:303> INFO - === 
+[61] Biber.pm:359> INFO - Reading 'main.bcf'
+[167] Biber.pm:835> INFO - Found 195 citekeys in bib section 0
+[193] Biber.pm:3670> INFO - Processing section 0
+[216] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[275] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[378] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[733] Utils.pm:164> WARN - month field 'Aug' in entry 'Hartmann-1995-PRL' is not an integer - this will probably not sort properly.
+[771] Utils.pm:164> WARN - month field 'may' in entry 'Ditmire-1996-PRA' is not an integer - this will probably not sort properly.
+[798] Utils.pm:164> WARN - month field 'may' in entry 'Curwood-2013-PRA' is not an integer - this will probably not sort properly.
+[955] Utils.pm:164> WARN - ISBN '1044-0305' in entry 'Murray-2013-IUPAC' is invalid - run biber with '--validate_datamodel' for details.
+[955] Utils.pm:164> WARN - month field 'jan' in entry 'Murray-2013-IUPAC' is not an integer - this will probably not sort properly.
+[998] Utils.pm:164> WARN - month field 'oct' in entry 'Geilhufe-2014-OptcsExp' is not an integer - this will probably not sort properly.
+[1027] Utils.pm:164> WARN - month field 'Apr' in entry 'Gomez-2012-PRL' is not an integer - this will probably not sort properly.
+[1030] Utils.pm:164> WARN - month field 'Jun' in entry 'Loginov-2011-PRL' is not an integer - this will probably not sort properly.
+[1034] Utils.pm:164> WARN - month field 'June' in entry 'Al-Haddad-2017-unpublished' is not an integer - this will probably not sort properly.
+[1177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 [1178] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1179] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[1179] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1327] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1327] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1328] Biber.pm:3499> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[1328] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1178] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[1178] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1325] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1325] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1326] Biber.pm:3499> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[1326] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
 [1590] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1687] bbl.pm:712> INFO - Output to main.bbl
-[1688] Biber.pm:109> INFO - WARNINGS: 6
+[1689] bbl.pm:712> INFO - Output to main.bbl
+[1690] Biber.pm:109> INFO - WARNINGS: 9
