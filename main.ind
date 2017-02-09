@@ -10,7 +10,7 @@
   \indexspace
 
   \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{38}
+  \item Coulomb potential, \hyperpage{37}
 
   \indexspace
 
@@ -26,7 +26,7 @@
 
   \indexspace
 
-  \item Fourier Transform, \hyperpage{84}
+  \item Fourier Transform, \hyperpage{86}
   \item Free electron LASer in Hamburg
     \subitem FLASH, \hyperpage{43}
 
@@ -34,13 +34,13 @@
 
   \item Hagena, \hyperindexformat{\see {scaling law}}{22}
     \subitem scaling parameter, \hyperpage{22}
-  \item Hawk software package, \hyperpage{76}
+  \item Hawk software package, \hyperpage{78}
   \item Helium
-    \subitem liquid density, \hyperpage{84}
+    \subitem liquid density, \hyperpage{86}
 
   \indexspace
 
-  \item imprint, \hyperpage{48}
+  \item imprint, \hyperpage{50}
   \item ionization
     \subitem multistep, \hyperpage{37, 38}
 
@@ -48,38 +48,38 @@
 
   \item LCLS, 
 		\hyperindexformat{\seealso {Linac Coherent Light Source}}{6}
-  \item lead tungstate, \hyperpage{64}
+  \item lead tungstate, \hyperpage{66}
   \item light source, \hyperpage{7}
   \item Linac Coherent Light Source, \hyperpage{6, 7}
 
   \indexspace
 
-  \item Matlab, \hyperpage{81}, \hyperpage{84}
+  \item Matlab, \hyperpage{83}, \hyperpage{86}
   \item microbunching, \hyperpage{9}
 
   \indexspace
 
   \item nanoplasma
-    \subitem formation, \hyperpage{38}
+    \subitem formation, \hyperpage{37}
 
   \indexspace
 
-  \item oversampling, \hyperpage{75}
-    \subitem Nyquist rate, \hyperpage{75}
-    \subitem Nyquist-Shannon sampling theorem, \hyperpage{75}
+  \item oversampling, \hyperpage{77}
+    \subitem Nyquist rate, \hyperpage{77}
+    \subitem Nyquist-Shannon sampling theorem, \hyperpage{77}
 
   \indexspace
 
-  \item plum-pudding, \hyperpage{114}
-  \item pnCCD, \hyperpage{52}
-    \subitem CAMEX, \hyperpage{53}
-    \subitem common mode, \hyperpage{69}
-    \subitem gain, \hyperpage{53}
-    \subitem module, \hyperpage{52}
-    \subitem pedestal correction, \hyperpage{69}
-    \subitem pixel size, \hyperpage{52}
+  \item plum-pudding, \hyperpage{116}
+  \item pnCCD, \hyperpage{54}
+    \subitem CAMEX, \hyperpage{55}
+    \subitem common mode, \hyperpage{71}
+    \subitem gain, \hyperpage{55}
+    \subitem module, \hyperpage{54}
+    \subitem pedestal correction, \hyperpage{71}
+    \subitem pixel size, \hyperpage{54}
   \item psana
-    \subitem calibman, \hyperpage{69}
+    \subitem calibman, \hyperpage{71}
 
   \indexspace
 
@@ -94,8 +94,8 @@
 
   \indexspace
 
-  \item time-of-flight, \hyperpage{48}
-    \subitem mass spectroscopy, \hyperpage{43}
+  \item time-of-flight, \hyperpage{50}
+    \subitem mass spectroscopy, \hyperpage{44}
 
   \indexspace
 
@@ -112,6 +112,6 @@
   \item X-ray
     \subitem Bremsstrahlung, \hyperpage{5}
   \item Xenon
-    \subitem bulk density, \hyperpage{84}
+    \subitem bulk density, \hyperpage{86}
 
 \end{theindex}

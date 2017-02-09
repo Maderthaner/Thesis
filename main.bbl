@@ -494,6 +494,32 @@
       \verb 10.1103/RevModPhys.88.015007
       \endverb
     \endentry
+    \entry{los-alamos-2016}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f1c02f86222814769e5115924fb28b46}{%
+           family={Cowan},
+           familyi={C\bibinitperiod},
+           given={R.D.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Los Alamos National Laboratory}%
+      }
+      \strng{namehash}{f1c02f86222814769e5115924fb28b46}
+      \strng{fullhash}{f1c02f86222814769e5115924fb28b46}
+      \strng{authornamehash}{f1c02f86222814769e5115924fb28b46}
+      \strng{authorfullhash}{f1c02f86222814769e5115924fb28b46}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Los Alamos Atomic Physics Codes}}
+      \field{urlyear}{}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://aphysics2.lanl.gov/tempweb/lanl/
+      \endverb
+    \endentry
     \entry{Damiani-2016-JSR}{article}{}
       \name{author}{11}{}{%
         {{hash=c30f42af92c0658c83814c394f3cb7d3}{%
@@ -9840,7 +9866,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
       \field{number}{12}
-      \field{title}{Femtosecond diffractive imaging with a soft-X-ray free-electron laser}
+      \field{title}{{Femtosecond diffractive imaging with a soft-X-ray free-electron laser}}
       \field{type}{Journal Article}
       \field{volume}{2}
       \field{year}{2006}
@@ -13601,7 +13627,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
       \field{number}{12}
-      \field{title}{Femtosecond diffractive imaging with a soft-X-ray free-electron laser}
+      \field{title}{{Femtosecond diffractive imaging with a soft-X-ray free-electron laser}}
       \field{type}{Journal Article}
       \field{volume}{2}
       \field{year}{2006}
@@ -16869,8 +16895,8 @@
       \strng{fullhash}{2b97091ab85a85a94f2a934a88e14309}
       \strng{authornamehash}{2b97091ab85a85a94f2a934a88e14309}
       \strng{authorfullhash}{2b97091ab85a85a94f2a934a88e14309}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1742-6596}
@@ -16938,8 +16964,8 @@
       \strng{authorfullhash}{bd20ac394976c8d638aae44769c62da4}
       \strng{editornamehash}{494a54a787f9e75cb9cd83c7edc7d720}
       \strng{editorfullhash}{494a54a787f9e75cb9cd83c7edc7d720}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{X-Ray Free-Electron Lasers: Beam Diagnostics, Beamline Instrumentation, and Applications}
@@ -17023,8 +17049,8 @@
       \strng{fullhash}{3d2bf6d57a769f2e76963fbc410b055f}
       \strng{authornamehash}{bef48cef84bd8850e9ddcc6e849404d4}
       \strng{authorfullhash}{3d2bf6d57a769f2e76963fbc410b055f}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1094-4087}
@@ -18029,8 +18055,8 @@
       \strng{authorfullhash}{2b1f75d39ac930297138a7e483cbcb06}
       \strng{editornamehash}{2c340dbd37c4e86f6a4cb0750db048d1}
       \strng{editorfullhash}{2c340dbd37c4e86f6a4cb0750db048d1}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Atomic and Molecular Beam Methods}
@@ -18313,8 +18339,8 @@
       \strng{fullhash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authornamehash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authorfullhash}{286853644e0de8879a7bb71a8143d91a}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0034-6748}
@@ -18360,8 +18386,8 @@
       \strng{fullhash}{2f7d96efea0fa41bf9e148095868c6a0}
       \strng{authornamehash}{2f7d96efea0fa41bf9e148095868c6a0}
       \strng{authorfullhash}{2f7d96efea0fa41bf9e148095868c6a0}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1089-5639}
@@ -18846,6 +18872,32 @@
       \field{title}{Atomic Calculation of Photoionization Cross-Sections and Asymmetry Parameters}
       \field{year}{1993}
     \endentry
+    \entry{los-alamos-2016}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f1c02f86222814769e5115924fb28b46}{%
+           family={Cowan},
+           familyi={C\bibinitperiod},
+           given={R.D.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Los Alamos National Laboratory}%
+      }
+      \strng{namehash}{f1c02f86222814769e5115924fb28b46}
+      \strng{fullhash}{f1c02f86222814769e5115924fb28b46}
+      \strng{authornamehash}{f1c02f86222814769e5115924fb28b46}
+      \strng{authorfullhash}{f1c02f86222814769e5115924fb28b46}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Los Alamos Atomic Physics Codes}}
+      \field{urlyear}{}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://aphysics2.lanl.gov/tempweb/lanl/
+      \endverb
+    \endentry
     \entry{Cowan-1981-Cal}{book}{}
       \name{author}{1}{}{%
         {{hash=79726013fc2058270889cd0e7e229354}{%
@@ -19264,6 +19316,50 @@
       \endverb
       \verb{url}
       \verb http://pubs.acs.org/doi/pdf/10.1021/cr900343z
+      \endverb
+    \endentry
+    \entry{Ho-2014-PRL}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4c60f8fb9618197acf2ff6fcc3a80825}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Phay\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a7bf85309a23ed4a79c9809d8be69fe5}{%
+           family={Bostedt},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=48a2dc6acea544f5a0c20983b07c340f}{%
+           family={Schorb},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=993f1f8b6e5762c66b33615d691214bf}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b02e5c305a37bfcb340b88888f7d6dcd}
+      \strng{fullhash}{b02e5c305a37bfcb340b88888f7d6dcd}
+      \strng{authornamehash}{b02e5c305a37bfcb340b88888f7d6dcd}
+      \strng{authorfullhash}{b02e5c305a37bfcb340b88888f7d6dcd}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Physical Review Letter}
+      \field{month}{12}
+      \field{number}{25}
+      \field{title}{{Theoretical Tracking of Resonance-Enhanced Multiple Ionization Pathways in X-ray Free-Electron Laser Pulses}}
+      \field{volume}{113}
+      \field{year}{2014}
+      \field{pages}{253001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/physrevlett.113.253001
       \endverb
     \endentry
     \entry{Guinier-1955-JWS}{book}{}
@@ -20765,8 +20861,8 @@
       \strng{fullhash}{5a8f51a691406a3d910b42153a29a926}
       \strng{authornamehash}{5a8f51a691406a3d910b42153a29a926}
       \strng{authorfullhash}{5a8f51a691406a3d910b42153a29a926}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -20826,8 +20922,8 @@
       \strng{fullhash}{1aa995f702b72c2f0cdf6e4402c1d9f6}
       \strng{authornamehash}{1aa995f702b72c2f0cdf6e4402c1d9f6}
       \strng{authorfullhash}{1aa995f702b72c2f0cdf6e4402c1d9f6}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1434-6060}
@@ -20863,8 +20959,8 @@
       \strng{fullhash}{332959bcd9bf4ab0a799fb3c08641403}
       \strng{authornamehash}{332959bcd9bf4ab0a799fb3c08641403}
       \strng{authorfullhash}{332959bcd9bf4ab0a799fb3c08641403}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics}
@@ -20965,8 +21061,8 @@
       \strng{fullhash}{994845f8e32453f1aef3fbb6ae026174}
       \strng{authornamehash}{a322b7ee87abe3f9d6dd1b94ffde2104}
       \strng{authorfullhash}{994845f8e32453f1aef3fbb6ae026174}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1089-5639}
@@ -25185,50 +25281,6 @@
       \verb 10.1107/S1600576716009201
       \endverb
     \endentry
-    \entry{Ho-2014-PRL}{article}{}
-      \name{author}{4}{}{%
-        {{hash=4c60f8fb9618197acf2ff6fcc3a80825}{%
-           family={Ho},
-           familyi={H\bibinitperiod},
-           given={Phay\bibnamedelima J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=a7bf85309a23ed4a79c9809d8be69fe5}{%
-           family={Bostedt},
-           familyi={B\bibinitperiod},
-           given={Christoph},
-           giveni={C\bibinitperiod}}}%
-        {{hash=48a2dc6acea544f5a0c20983b07c340f}{%
-           family={Schorb},
-           familyi={S\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=993f1f8b6e5762c66b33615d691214bf}{%
-           family={Young},
-           familyi={Y\bibinitperiod},
-           given={Linda},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{b02e5c305a37bfcb340b88888f7d6dcd}
-      \strng{fullhash}{b02e5c305a37bfcb340b88888f7d6dcd}
-      \strng{authornamehash}{b02e5c305a37bfcb340b88888f7d6dcd}
-      \strng{authorfullhash}{b02e5c305a37bfcb340b88888f7d6dcd}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{25}
-      \field{journaltitle}{Physical Review Letter}
-      \field{month}{12}
-      \field{number}{25}
-      \field{title}{{Theoretical Tracking of Resonance-Enhanced Multiple Ionization Pathways in X-ray Free-Electron Laser Pulses}}
-      \field{volume}{113}
-      \field{year}{2014}
-      \field{pages}{253001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/physrevlett.113.253001
-      \endverb
-    \endentry
     \entry{Schutte-2015-JPhysB}{article}{}
       \name{author}{7}{}{%
         {{hash=94c9b13bd93baf862af9f595f17111c7}{%
@@ -25523,8 +25575,8 @@
       \strng{fullhash}{f44055f9e0b222798825f8b1b75c4fe1}
       \strng{authornamehash}{f44055f9e0b222798825f8b1b75c4fe1}
       \strng{authorfullhash}{f44055f9e0b222798825f8b1b75c4fe1}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ultrafast light induced dynamics of Xe nanoparticles studies with a combination of intense infrared and x-ray pulses}
