@@ -2652,6 +2652,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
       \field{journaltitle}{Nature Communications}
+      \field{month}{2}
       \field{title}{{The 3D-architecture of individual free silver nanoparticles captured by X-ray scattering.}}
       \field{volume}{6}
       \field{year}{2015}
@@ -4126,7 +4127,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science}
       \field{number}{6199}
-      \field{title}{Shapes and vorticities of superfluid helium nanodroplets}
+      \field{title}{{Shapes and vorticities of superfluid helium nanodroplets}}
       \field{type}{Journal Article}
       \field{volume}{345}
       \field{year}{2014}
@@ -5038,6 +5039,40 @@
       \verb 10.1126/science.1231711
       \endverb
     \endentry
+    \entry{Karplus-NP}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=5743d79be0ffa377a441f1fe37a0d8cd}{%
+           family={Karplus},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fbcc405a8e05845d902b1dea21f064ad}{%
+           family={Levitt},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61b54c88bc31516307cc386ff516f31b}{%
+           family={Warshel},
+           familyi={W\bibinitperiod},
+           given={Arieh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \strng{fullhash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \strng{authornamehash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \strng{authorfullhash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{The Nobel Foundation}
+      \field{note}{``For the development of multiscale models for complex chemical systems''}
+      \field{title}{{The Nobel Price in Chemistry}}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://www.nobelprize.org/nobel_prizes/chemistry/laureates/2013/
+      \endverb
+    \endentry
     \entry{Lutman-2013-PRL}{article}{}
       \name{author}{8}{}{%
         {{hash=c280724cb9add2d9f06510d8690d5803}{%
@@ -5633,6 +5668,35 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevLett.108.245005
+      \endverb
+    \endentry
+    \entry{Kobilka-NP}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d5385f91bc68e2f1a4a0cce8ed763e17}{%
+           family={Lefkowitz},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b4494fe9dadbd7bc3300ce3d94df9547}{%
+           family={Kobilka},
+           familyi={K\bibinitperiod},
+           given={Brian\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \strng{fullhash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \strng{authornamehash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \strng{authorfullhash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{The Nobel Foundation}
+      \field{note}{``For studies of G-protein-coupled receptors''}
+      \field{title}{{The Nobel Price in Chemistry}}
+      \field{year}{2012}
+      \verb{url}
+      \verb https://www.nobelprize.org/nobel_prizes/chemistry/laureates/2012/
       \endverb
     \endentry
     \entry{Maia-2012-NatMet}{article}{}
@@ -8091,7 +8155,7 @@
       \field{journaltitle}{Reviews of Modern Physics}
       \field{month}{6}
       \field{number}{2}
-      \field{title}{Laser-driven nonlinear cluster dynamics}
+      \field{title}{{Laser-driven nonlinear cluster dynamics}}
       \field{volume}{82}
       \field{year}{2010}
       \field{pages}{1793\bibrangedash 1842}
@@ -12956,6 +13020,69 @@
       \verb https://www.nobelprize.org/nobel_prizes/physics/laureates/1915/
       \endverb
     \endentry
+    \entry{Karplus-NP}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=5743d79be0ffa377a441f1fe37a0d8cd}{%
+           family={Karplus},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fbcc405a8e05845d902b1dea21f064ad}{%
+           family={Levitt},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61b54c88bc31516307cc386ff516f31b}{%
+           family={Warshel},
+           familyi={W\bibinitperiod},
+           given={Arieh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \strng{fullhash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \strng{authornamehash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \strng{authorfullhash}{c95d07b49b770c9b9872b6ddb4dc5a55}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{The Nobel Foundation}
+      \field{note}{``For the development of multiscale models for complex chemical systems''}
+      \field{title}{{The Nobel Price in Chemistry}}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://www.nobelprize.org/nobel_prizes/chemistry/laureates/2013/
+      \endverb
+    \endentry
+    \entry{Kobilka-NP}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d5385f91bc68e2f1a4a0cce8ed763e17}{%
+           family={Lefkowitz},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b4494fe9dadbd7bc3300ce3d94df9547}{%
+           family={Kobilka},
+           familyi={K\bibinitperiod},
+           given={Brian\bibnamedelima K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \strng{fullhash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \strng{authornamehash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \strng{authorfullhash}{5f7c3ab1f0d30882f3b545892dc5d1f7}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{The Nobel Foundation}
+      \field{note}{``For studies of G-protein-coupled receptors''}
+      \field{title}{{The Nobel Price in Chemistry}}
+      \field{year}{2012}
+      \verb{url}
+      \verb https://www.nobelprize.org/nobel_prizes/chemistry/laureates/2012/
+      \endverb
+    \endentry
     \entry{Ackermann-2007-NPho}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -13018,8 +13145,8 @@
       \strng{fullhash}{9da500f3f9ae17e2d531fad4b7ae7c8f}
       \strng{authornamehash}{9da500f3f9ae17e2d531fad4b7ae7c8f}
       \strng{authorfullhash}{9da500f3f9ae17e2d531fad4b7ae7c8f}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Photonics}
@@ -13093,8 +13220,8 @@
       \strng{fullhash}{f450e2d473b6ffcc5795f8ac02e4bf6e}
       \strng{authornamehash}{f450e2d473b6ffcc5795f8ac02e4bf6e}
       \strng{authorfullhash}{f450e2d473b6ffcc5795f8ac02e4bf6e}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -13315,8 +13442,8 @@
       \strng{fullhash}{077d11fbb3033b620c92f6623733efac}
       \strng{authornamehash}{88886954eaa08f94ef5012fbbf5122db}
       \strng{authorfullhash}{077d11fbb3033b620c92f6623733efac}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1749-4885}
@@ -13393,8 +13520,8 @@
       \strng{fullhash}{f470a44636af9d6c61ba66e506c1dc3f}
       \strng{authornamehash}{f470a44636af9d6c61ba66e506c1dc3f}
       \strng{authorfullhash}{f470a44636af9d6c61ba66e506c1dc3f}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -13468,8 +13595,8 @@
       \strng{fullhash}{c1fbd547e6958521782541eea3838c61}
       \strng{authornamehash}{c1fbd547e6958521782541eea3838c61}
       \strng{authorfullhash}{c1fbd547e6958521782541eea3838c61}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
@@ -13546,8 +13673,8 @@
       \strng{fullhash}{98339a92490a0403bac0f69498b7cdbe}
       \strng{authornamehash}{98339a92490a0403bac0f69498b7cdbe}
       \strng{authorfullhash}{98339a92490a0403bac0f69498b7cdbe}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -13628,7 +13755,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science}
       \field{number}{6199}
-      \field{title}{Shapes and vorticities of superfluid helium nanodroplets}
+      \field{title}{{Shapes and vorticities of superfluid helium nanodroplets}}
       \field{type}{Journal Article}
       \field{volume}{345}
       \field{year}{2014}
@@ -13799,6 +13926,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
       \field{journaltitle}{Nature Communications}
+      \field{month}{2}
       \field{title}{{The 3D-architecture of individual free silver nanoparticles captured by X-ray scattering.}}
       \field{volume}{6}
       \field{year}{2015}
@@ -13963,6 +14091,87 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1038/nature09177
+      \endverb
+    \endentry
+    \entry{Bostedt-2012-PRL}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=1eff8bf926766def47498beeb65eac5c}{%
+           family={Bostedt},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1ffc062e23718ae96df8966ea652487d}{%
+           family={Eremina},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=237b19667100ddc2208372a3c4a5e748}{%
+           family={Rupp},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d62c32d3082fdcbe6dba93f7389e2433}{%
+           family={Adolph},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07cc3169626af6d81fd68cde326a392d}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1b47f16a103e188c3b3f49e7a0e5b7b7}{%
+           family={Hoener},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15904d531a2d390f74f002d62f66efc7}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7e9b6ad1fdac5c082ea486a84b78e754}{%
+           family={Tiggesbaumker},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=97f9bb9bc34a862c439cd47cf2f07c5f}{%
+           family={Meiwes-Broer},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2357f4d0ddbcc5c03260d7f852cc1774}{%
+           family={Laarmann},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{80f32ae8f8a30f8650d564d85073ae75}
+      \strng{fullhash}{80f32ae8f8a30f8650d564d85073ae75}
+      \strng{authornamehash}{80f32ae8f8a30f8650d564d85073ae75}
+      \strng{authorfullhash}{80f32ae8f8a30f8650d564d85073ae75}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1079-7114}
+      \field{journaltitle}{Physical Review Letter}
+      \field{number}{9}
+      \field{title}{{Ultrafast x-ray scattering of xenon nanoparticles: imaging transient states of matter}}
+      \field{type}{Journal Article}
+      \field{volume}{108}
+      \field{year}{2012}
+      \field{pages}{093401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.108.093401​
+      \endverb
+      \verb{url}
+      \verb http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.093401
       \endverb
     \endentry
     \entry{Gorkhover-2016-NatPho}{article}{}
@@ -14434,8 +14643,8 @@
       \strng{fullhash}{54d384daec4acdf88d67a65bc3aa7317}
       \strng{authornamehash}{3252e66788adf9af0f331e407384700f}
       \strng{authorfullhash}{54d384daec4acdf88d67a65bc3aa7317}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{041701}
@@ -14489,8 +14698,8 @@
       \strng{fullhash}{1fd44bf74defde7401a0d5aa92290064}
       \strng{authornamehash}{1fd44bf74defde7401a0d5aa92290064}
       \strng{authorfullhash}{1fd44bf74defde7401a0d5aa92290064}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2469-9926}
@@ -14529,8 +14738,8 @@
       \strng{fullhash}{0334164f32f2cf1ef3420498567d79b4}
       \strng{authornamehash}{0334164f32f2cf1ef3420498567d79b4}
       \strng{authorfullhash}{0334164f32f2cf1ef3420498567d79b4}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -14911,6 +15120,60 @@
       \field{month}{09}
       \field{year}{2016}
     \endentry
+    \entry{Fennel-2010-RMP}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5d87f092c497b96010ea3f8aef9cab7d}{%
+           family={Fennel},
+           familyi={F\bibinitperiod},
+           given={Th.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7e4f0514ea9df444c31ef2d1b371b3c9}{%
+           family={Meiwes-Broer},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={K.-H.},
+           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=7e9b6ad1fdac5c082ea486a84b78e754}{%
+           family={Tiggesbaumker},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=79b3603326a64324d53355bad8a9e9d7}{%
+           family={Reinhard},
+           familyi={R\bibinitperiod},
+           given={P.-G.},
+           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=3c928bc3942b7a075c1ad961a30e850f}{%
+           family={Dinh},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1a8c57874676c61d3839db2679c40431}{%
+           family={Suraud},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9395d9af6af400300e82d36e1b91b0f}
+      \strng{fullhash}{a9395d9af6af400300e82d36e1b91b0f}
+      \strng{authornamehash}{a9395d9af6af400300e82d36e1b91b0f}
+      \strng{authorfullhash}{a9395d9af6af400300e82d36e1b91b0f}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{{Laser-driven nonlinear cluster dynamics}}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{1793\bibrangedash 1842}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.82.1793
+      \endverb
+    \endentry
     \entry{Mills-2005-IUCR}{article}{}
       \name{author}{6}{}{%
         {{hash=a872804bad7312bfe6a6f452eeb9a109}{%
@@ -14951,8 +15214,8 @@
       \strng{fullhash}{53b8f0228611f9235daee6c5657f73ad}
       \strng{authornamehash}{53b8f0228611f9235daee6c5657f73ad}
       \strng{authorfullhash}{53b8f0228611f9235daee6c5657f73ad}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09090495}
@@ -14987,8 +15250,8 @@
       \strng{fullhash}{24287e28d0ee331fdc9a0396ce96a201}
       \strng{authornamehash}{24287e28d0ee331fdc9a0396ce96a201}
       \strng{authorfullhash}{24287e28d0ee331fdc9a0396ce96a201}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -15010,8 +15273,8 @@
       \strng{fullhash}{e2fa743f633137a182b7924749403323}
       \strng{authornamehash}{e2fa743f633137a182b7924749403323}
       \strng{authorfullhash}{e2fa743f633137a182b7924749403323}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{{Flickr}}
@@ -15189,6 +15452,162 @@
       \verb 10.1016/0030-4018(84)90105-6
       \endverb
     \endentry
+    \entry{Berrah-2011-PNAS}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=1254ae9b5817fe81e22fa6164245ce31}{%
+           family={Berrah},
+           familyi={B\bibinitperiod},
+           given={Nora},
+           giveni={N\bibinitperiod}}}%
+        {{hash=56ba8a2b2197e55b30b43f7cf2797097}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b0e20e5ae6e1892a688dfba455fc907d}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2d81d3a84968a2d66734e3f61e2fad39}{%
+           family={Osipov},
+           familyi={O\bibinitperiod},
+           given={Timur},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ac8a2be22185ab34c74e23a34122151f}{%
+           family={Ueda},
+           familyi={U\bibinitperiod},
+           given={Kiyoshi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9220ad7c41458e23726da4d999a3010e}{%
+           family={Kukk},
+           familyi={K\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9a8b1a4fd8df8afcda24d8fb0532731b}{%
+           family={Feifel},
+           familyi={F\bibinitperiod},
+           given={Raimund},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c30b1ccbc2ef98c1834a1ab49547fb7f}{%
+           family={Meulen},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=13636a76cb7bf7118c9cb401eac12cfc}{%
+           family={Salen},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3d05b0c008737905ddd6765ba75c5d9d}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Henning\bibnamedelima T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0f9880d2e187224284eacd9213e330d}
+      \strng{fullhash}{c0f9880d2e187224284eacd9213e330d}
+      \strng{authornamehash}{c0f9880d2e187224284eacd9213e330d}
+      \strng{authorfullhash}{c0f9880d2e187224284eacd9213e330d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{41}
+      \field{title}{Double-core-hole spectroscopy for chemical analysis with an intense X-ray femtosecond laser}
+      \field{type}{Journal Article}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{16912\bibrangedash 16915}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1073/pnas.1111380108
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/108/41/16912.abstract
+      \endverb
+    \endentry
+    \entry{Rohringer-2012-Nature}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=6830080455dd96e75f48f7ff251bedf2}{%
+           family={Rohringer},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=520b3b3fcdb757a859b80c96da28307a}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3d1ab02cc5ae92c83a1e6ea3ca5d47e3}{%
+           family={London},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=61b91ce1fab524f755069d32e3a4b432}{%
+           family={Purvis},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=34282ef9f485d56850fe8c9090915c56}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e981c89a60af5fb42dc1428fe3bf5cbd}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a6e89ec9a9206316f1a41cb3aab353fa}{%
+           family={Bozek},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1eff8bf926766def47498beeb65eac5c}{%
+           family={Bostedt},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cb054b39b5ae401538a8027246f12289}{%
+           family={Graf},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=773bd309096699461718925827ec087f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4aa10f09441e5b54e78d994fcdeecb2}
+      \strng{fullhash}{b4aa10f09441e5b54e78d994fcdeecb2}
+      \strng{authornamehash}{b4aa10f09441e5b54e78d994fcdeecb2}
+      \strng{authorfullhash}{b4aa10f09441e5b54e78d994fcdeecb2}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{number}{7382}
+      \field{title}{Atomic inner-shell X-ray laser at 1.46 nanometres pumped by an X-ray free-electron laser}
+      \field{type}{Journal Article}
+      \field{volume}{481}
+      \field{year}{2012}
+      \field{pages}{488\bibrangedash 491}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/Nature10721
+      \endverb
+    \endentry
     \entry{Dell-Angela-2013-Science}{article}{}
       \name{author}{24}{}{%
         {{hash=c89b9872ad57915a4138751966385ca3}{%
@@ -15319,8 +15738,8 @@
       \strng{fullhash}{2421b4a00ae6ea07a99ff2fa359cc349}
       \strng{authornamehash}{e097a80c2313d18e69023b1f3d16a596}
       \strng{authorfullhash}{2421b4a00ae6ea07a99ff2fa359cc349}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0036-8075}
@@ -15469,8 +15888,8 @@
       \strng{fullhash}{9dcbd2fbf29397ee1c446a85e08355fe}
       \strng{authornamehash}{c0734043c6b8af097ad197f51284b3a2}
       \strng{authorfullhash}{9dcbd2fbf29397ee1c446a85e08355fe}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -15487,162 +15906,6 @@
       \endverb
       \verb{url}
       \verb http://www.nature.com/doifinder/10.1038/ncomms11652
-      \endverb
-    \endentry
-    \entry{Rohringer-2012-Nature}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=6830080455dd96e75f48f7ff251bedf2}{%
-           family={Rohringer},
-           familyi={R\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=520b3b3fcdb757a859b80c96da28307a}{%
-           family={Ryan},
-           familyi={R\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3d1ab02cc5ae92c83a1e6ea3ca5d47e3}{%
-           family={London},
-           familyi={L\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=61b91ce1fab524f755069d32e3a4b432}{%
-           family={Purvis},
-           familyi={P\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=34282ef9f485d56850fe8c9090915c56}{%
-           family={Albert},
-           familyi={A\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=e981c89a60af5fb42dc1428fe3bf5cbd}{%
-           family={Dunn},
-           familyi={D\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a6e89ec9a9206316f1a41cb3aab353fa}{%
-           family={Bozek},
-           familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=1eff8bf926766def47498beeb65eac5c}{%
-           family={Bostedt},
-           familyi={B\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=cb054b39b5ae401538a8027246f12289}{%
-           family={Graf},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=773bd309096699461718925827ec087f}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{b4aa10f09441e5b54e78d994fcdeecb2}
-      \strng{fullhash}{b4aa10f09441e5b54e78d994fcdeecb2}
-      \strng{authornamehash}{b4aa10f09441e5b54e78d994fcdeecb2}
-      \strng{authorfullhash}{b4aa10f09441e5b54e78d994fcdeecb2}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0028-0836}
-      \field{journaltitle}{Nature}
-      \field{number}{7382}
-      \field{title}{Atomic inner-shell X-ray laser at 1.46 nanometres pumped by an X-ray free-electron laser}
-      \field{type}{Journal Article}
-      \field{volume}{481}
-      \field{year}{2012}
-      \field{pages}{488\bibrangedash 491}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1038/Nature10721
-      \endverb
-    \endentry
-    \entry{Berrah-2011-PNAS}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=1254ae9b5817fe81e22fa6164245ce31}{%
-           family={Berrah},
-           familyi={B\bibinitperiod},
-           given={Nora},
-           giveni={N\bibinitperiod}}}%
-        {{hash=56ba8a2b2197e55b30b43f7cf2797097}{%
-           family={Fang},
-           familyi={F\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b0e20e5ae6e1892a688dfba455fc907d}{%
-           family={Murphy},
-           familyi={M\bibinitperiod},
-           given={Brendan},
-           giveni={B\bibinitperiod}}}%
-        {{hash=2d81d3a84968a2d66734e3f61e2fad39}{%
-           family={Osipov},
-           familyi={O\bibinitperiod},
-           given={Timur},
-           giveni={T\bibinitperiod}}}%
-        {{hash=ac8a2be22185ab34c74e23a34122151f}{%
-           family={Ueda},
-           familyi={U\bibinitperiod},
-           given={Kiyoshi},
-           giveni={K\bibinitperiod}}}%
-        {{hash=9220ad7c41458e23726da4d999a3010e}{%
-           family={Kukk},
-           familyi={K\bibinitperiod},
-           given={Edwin},
-           giveni={E\bibinitperiod}}}%
-        {{hash=9a8b1a4fd8df8afcda24d8fb0532731b}{%
-           family={Feifel},
-           familyi={F\bibinitperiod},
-           given={Raimund},
-           giveni={R\bibinitperiod}}}%
-        {{hash=c30b1ccbc2ef98c1834a1ab49547fb7f}{%
-           family={Meulen},
-           familyi={M\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           prefix={van\bibnamedelima der},
-           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
-        {{hash=13636a76cb7bf7118c9cb401eac12cfc}{%
-           family={Salen},
-           familyi={S\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=3d05b0c008737905ddd6765ba75c5d9d}{%
-           family={Schmidt},
-           familyi={S\bibinitperiod},
-           given={Henning\bibnamedelima T.},
-           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{c0f9880d2e187224284eacd9213e330d}
-      \strng{fullhash}{c0f9880d2e187224284eacd9213e330d}
-      \strng{authornamehash}{c0f9880d2e187224284eacd9213e330d}
-      \strng{authorfullhash}{c0f9880d2e187224284eacd9213e330d}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences}
-      \field{number}{41}
-      \field{title}{Double-core-hole spectroscopy for chemical analysis with an intense X-ray femtosecond laser}
-      \field{type}{Journal Article}
-      \field{volume}{108}
-      \field{year}{2011}
-      \field{pages}{16912\bibrangedash 16915}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1073/pnas.1111380108
-      \endverb
-      \verb{url}
-      \verb http://www.pnas.org/content/108/41/16912.abstract
       \endverb
     \endentry
     \entry{Gorkhover-2012-PRL}{article}{}
@@ -15704,8 +15967,8 @@
       \strng{fullhash}{dd4fcba89ae9b679bd897aca32867440}
       \strng{authornamehash}{dd4fcba89ae9b679bd897aca32867440}
       \strng{authorfullhash}{dd4fcba89ae9b679bd897aca32867440}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1079-7114}
@@ -15924,8 +16187,8 @@
       \strng{fullhash}{948afbfaca68a2e3532925a4b24d21c8}
       \strng{authornamehash}{948afbfaca68a2e3532925a4b24d21c8}
       \strng{authorfullhash}{948afbfaca68a2e3532925a4b24d21c8}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Unpublished study on feasibility of a spectrometer that is based on photoemission.}
@@ -16270,8 +16533,8 @@
       \strng{fullhash}{f42de3e686f5f5fd7bed0eddae20d08b}
       \strng{authornamehash}{f42de3e686f5f5fd7bed0eddae20d08b}
       \strng{authorfullhash}{f42de3e686f5f5fd7bed0eddae20d08b}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Photonics}
@@ -16341,8 +16604,8 @@
       \strng{fullhash}{8cbec1c2ced644e4c2859e794cbc9e27}
       \strng{authornamehash}{8cbec1c2ced644e4c2859e794cbc9e27}
       \strng{authorfullhash}{8cbec1c2ced644e4c2859e794cbc9e27}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1749-4885}
@@ -16420,8 +16683,8 @@
       \strng{fullhash}{5e0cf351b8a202439e6506857f1f95d0}
       \strng{authornamehash}{5e0cf351b8a202439e6506857f1f95d0}
       \strng{authorfullhash}{5e0cf351b8a202439e6506857f1f95d0}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1749-4885}
@@ -16827,8 +17090,8 @@
       \strng{fullhash}{24606155d802dfa15a72b4e76aebae2d}
       \strng{authornamehash}{24606155d802dfa15a72b4e76aebae2d}
       \strng{authorfullhash}{24606155d802dfa15a72b4e76aebae2d}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -16935,8 +17198,8 @@
       \strng{fullhash}{d1f9f8a24ccaf36bd14a188eba6a04cc}
       \strng{authornamehash}{f9871e06ffa1e8d7bb4a60ab9095190b}
       \strng{authorfullhash}{d1f9f8a24ccaf36bd14a188eba6a04cc}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -17037,8 +17300,8 @@
       \strng{fullhash}{d65baca37b35a5f2f57cb987dd38fcbf}
       \strng{authornamehash}{d69295ca06c017368e3ea489dcd5f9ab}
       \strng{authorfullhash}{d65baca37b35a5f2f57cb987dd38fcbf}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -17255,8 +17518,8 @@
       \strng{fullhash}{355c667753b1fb979918f4e7c49cf4a8}
       \strng{authornamehash}{f065442e96a469f99332223d345de1aa}
       \strng{authorfullhash}{355c667753b1fb979918f4e7c49cf4a8}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
@@ -17316,8 +17579,8 @@
       \strng{fullhash}{c6363e737690648b955075e7fdab65c7}
       \strng{authornamehash}{c6363e737690648b955075e7fdab65c7}
       \strng{authorfullhash}{c6363e737690648b955075e7fdab65c7}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review Letter}
@@ -17348,8 +17611,8 @@
       \strng{fullhash}{29941c735319a1511d7e833f2b8bf9a1}
       \strng{editornamehash}{29941c735319a1511d7e833f2b8bf9a1}
       \strng{editorfullhash}{29941c735319a1511d7e833f2b8bf9a1}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-642-84331-0}
@@ -17395,8 +17658,8 @@
       \strng{fullhash}{06d57a97dd1f9893142c70c7c3522e27}
       \strng{authornamehash}{06d57a97dd1f9893142c70c7c3522e27}
       \strng{authorfullhash}{06d57a97dd1f9893142c70c7c3522e27}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Chemical Physics}
@@ -17426,8 +17689,8 @@
       \strng{fullhash}{099f8079ecdd9beac9a43b01f8f0165f}
       \strng{authornamehash}{099f8079ecdd9beac9a43b01f8f0165f}
       \strng{authorfullhash}{099f8079ecdd9beac9a43b01f8f0165f}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -17459,8 +17722,8 @@
       \strng{fullhash}{820dd823b6177e176ebdfff1de29829c}
       \strng{authornamehash}{820dd823b6177e176ebdfff1de29829c}
       \strng{authorfullhash}{820dd823b6177e176ebdfff1de29829c}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00406090}
@@ -17499,8 +17762,8 @@
       \strng{fullhash}{542d579b7740c40343beb653f4ed3a8a}
       \strng{authornamehash}{542d579b7740c40343beb653f4ed3a8a}
       \strng{authorfullhash}{542d579b7740c40343beb653f4ed3a8a}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -17531,8 +17794,8 @@
       \strng{fullhash}{bd145c7601c33e075051c566a17bd7ac}
       \strng{authornamehash}{bd145c7601c33e075051c566a17bd7ac}
       \strng{authorfullhash}{bd145c7601c33e075051c566a17bd7ac}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-3654}
@@ -17582,8 +17845,8 @@
       \strng{fullhash}{ae67c0e5c3e7b9cdf7cd48259bfd5d63}
       \strng{authornamehash}{ae67c0e5c3e7b9cdf7cd48259bfd5d63}
       \strng{authorfullhash}{ae67c0e5c3e7b9cdf7cd48259bfd5d63}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{25}
@@ -17630,8 +17893,8 @@
       \strng{fullhash}{5ccf6d65e96d4add6d6265d5ef1e16ed}
       \strng{authornamehash}{5ccf6d65e96d4add6d6265d5ef1e16ed}
       \strng{authorfullhash}{5ccf6d65e96d4add6d6265d5ef1e16ed}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00396028}
@@ -17805,8 +18068,8 @@
       \strng{fullhash}{612fde7dfbc9d1a501ada2d57a24c2b5}
       \strng{authornamehash}{612fde7dfbc9d1a501ada2d57a24c2b5}
       \strng{authorfullhash}{612fde7dfbc9d1a501ada2d57a24c2b5}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0927796X}
@@ -17840,8 +18103,8 @@
       \strng{fullhash}{48a2dc6acea544f5a0c20983b07c340f}
       \strng{authornamehash}{48a2dc6acea544f5a0c20983b07c340f}
       \strng{authorfullhash}{48a2dc6acea544f5a0c20983b07c340f}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Size-dependent ultrafast ionization dynamics of nanoscale samples in intense femtosecond x-ray free-electron laser pulses}
@@ -17863,8 +18126,8 @@
       \strng{fullhash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authornamehash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authorfullhash}{286853644e0de8879a7bb71a8143d91a}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -17894,8 +18157,8 @@
       \strng{fullhash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authornamehash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authorfullhash}{286853644e0de8879a7bb71a8143d91a}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00396028}
@@ -17922,8 +18185,8 @@
       \strng{fullhash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authornamehash}{286853644e0de8879a7bb71a8143d91a}
       \strng{authorfullhash}{286853644e0de8879a7bb71a8143d91a}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01787683}
@@ -18134,8 +18397,8 @@
       \strng{fullhash}{91ac1d320b492fcc24cd371139d91f06}
       \strng{authornamehash}{91ac1d320b492fcc24cd371139d91f06}
       \strng{authorfullhash}{91ac1d320b492fcc24cd371139d91f06}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -18224,8 +18487,8 @@
       \strng{fullhash}{bee877775c9bfdafb31ff3453a97dec4}
       \strng{authornamehash}{f07a5fc883b1e9878abd86dfee26829c}
       \strng{authorfullhash}{bee877775c9bfdafb31ff3453a97dec4}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -18256,8 +18519,8 @@
       \strng{fullhash}{e4d35baa17c94301d8de2172d162b466}
       \strng{authornamehash}{e4d35baa17c94301d8de2172d162b466}
       \strng{authorfullhash}{e4d35baa17c94301d8de2172d162b466}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0009-2665}
@@ -18354,8 +18617,8 @@
       \strng{fullhash}{68f2203708e13451ed68abcb3b2afbb4}
       \strng{authornamehash}{eef99f36fffe058065ac19b738e2a604}
       \strng{authorfullhash}{68f2203708e13451ed68abcb3b2afbb4}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New Journal of Physics}
@@ -18400,8 +18663,8 @@
       \strng{fullhash}{e0644ed7e4c3e7e1e078253e735f72aa}
       \strng{authornamehash}{e0644ed7e4c3e7e1e078253e735f72aa}
       \strng{authorfullhash}{e0644ed7e4c3e7e1e078253e735f72aa}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -19294,60 +19557,6 @@
       \verb 10.1103/physrevlett.108.233401
       \endverb
     \endentry
-    \entry{Fennel-2010-RMP}{article}{}
-      \name{author}{6}{}{%
-        {{hash=5d87f092c497b96010ea3f8aef9cab7d}{%
-           family={Fennel},
-           familyi={F\bibinitperiod},
-           given={Th.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=7e4f0514ea9df444c31ef2d1b371b3c9}{%
-           family={Meiwes-Broer},
-           familyi={M\bibinithyphendelim B\bibinitperiod},
-           given={K.-H.},
-           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=7e9b6ad1fdac5c082ea486a84b78e754}{%
-           family={Tiggesbaumker},
-           familyi={T\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=79b3603326a64324d53355bad8a9e9d7}{%
-           family={Reinhard},
-           familyi={R\bibinitperiod},
-           given={P.-G.},
-           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
-        {{hash=3c928bc3942b7a075c1ad961a30e850f}{%
-           family={Dinh},
-           familyi={D\bibinitperiod},
-           given={P.\bibnamedelimi M.},
-           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=1a8c57874676c61d3839db2679c40431}{%
-           family={Suraud},
-           familyi={S\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a9395d9af6af400300e82d36e1b91b0f}
-      \strng{fullhash}{a9395d9af6af400300e82d36e1b91b0f}
-      \strng{authornamehash}{a9395d9af6af400300e82d36e1b91b0f}
-      \strng{authorfullhash}{a9395d9af6af400300e82d36e1b91b0f}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{Reviews of Modern Physics}
-      \field{month}{6}
-      \field{number}{2}
-      \field{title}{Laser-driven nonlinear cluster dynamics}
-      \field{volume}{82}
-      \field{year}{2010}
-      \field{pages}{1793\bibrangedash 1842}
-      \range{pages}{50}
-      \verb{doi}
-      \verb 10.1103/RevModPhys.82.1793
-      \endverb
-    \endentry
     \entry{Arbeiter-2011-NJP}{article}{}
       \name{author}{2}{}{%
         {{hash=230ea78851fff5e76241827e6b69dd00}{%
@@ -20063,87 +20272,6 @@
       \endverb
       \verb{url}
       \verb http://link.aps.org/doi/10.1103/PhysRevA.87.053407
-      \endverb
-    \endentry
-    \entry{Bostedt-2012-PRL}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=1eff8bf926766def47498beeb65eac5c}{%
-           family={Bostedt},
-           familyi={B\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1ffc062e23718ae96df8966ea652487d}{%
-           family={Eremina},
-           familyi={E\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=237b19667100ddc2208372a3c4a5e748}{%
-           family={Rupp},
-           familyi={R\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=d62c32d3082fdcbe6dba93f7389e2433}{%
-           family={Adolph},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=07cc3169626af6d81fd68cde326a392d}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=1b47f16a103e188c3b3f49e7a0e5b7b7}{%
-           family={Hoener},
-           familyi={H\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=15904d531a2d390f74f002d62f66efc7}{%
-           family={Castro},
-           familyi={C\bibinitperiod},
-           given={A.\bibnamedelimi R.},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=7e9b6ad1fdac5c082ea486a84b78e754}{%
-           family={Tiggesbaumker},
-           familyi={T\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=97f9bb9bc34a862c439cd47cf2f07c5f}{%
-           family={Meiwes-Broer},
-           familyi={M\bibinithyphendelim B\bibinitperiod},
-           given={K.\bibnamedelimi H.},
-           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=2357f4d0ddbcc5c03260d7f852cc1774}{%
-           family={Laarmann},
-           familyi={L\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{80f32ae8f8a30f8650d564d85073ae75}
-      \strng{fullhash}{80f32ae8f8a30f8650d564d85073ae75}
-      \strng{authornamehash}{80f32ae8f8a30f8650d564d85073ae75}
-      \strng{authorfullhash}{80f32ae8f8a30f8650d564d85073ae75}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1079-7114}
-      \field{journaltitle}{Physical Review Letter}
-      \field{number}{9}
-      \field{title}{{Ultrafast x-ray scattering of xenon nanoparticles: imaging transient states of matter}}
-      \field{type}{Journal Article}
-      \field{volume}{108}
-      \field{year}{2012}
-      \field{pages}{093401}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.108.093401​
-      \endverb
-      \verb{url}
-      \verb http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.093401
       \endverb
     \endentry
     \entry{Rupp-2016-PRL}{article}{}
@@ -20874,8 +21002,8 @@
       \strng{fullhash}{e298e2d0e184947d7dc007f13e89460e}
       \strng{authornamehash}{e298e2d0e184947d7dc007f13e89460e}
       \strng{authorfullhash}{e298e2d0e184947d7dc007f13e89460e}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{The Nobel Foundation}
@@ -20908,8 +21036,8 @@
       \strng{fullhash}{0081a63149511c103200ea5757d67d7b}
       \strng{authornamehash}{0081a63149511c103200ea5757d67d7b}
       \strng{authorfullhash}{0081a63149511c103200ea5757d67d7b}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{The Nobel Foundation}
@@ -20937,8 +21065,8 @@
       \strng{fullhash}{0ac1d6a54832b000f059335df1e66367}
       \strng{authornamehash}{0ac1d6a54832b000f059335df1e66367}
       \strng{authorfullhash}{0ac1d6a54832b000f059335df1e66367}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{The Nobel Foundation}
@@ -21008,8 +21136,8 @@
       \strng{fullhash}{ea9640cb26821c70e4781672cbd0e424}
       \strng{authornamehash}{ea9640cb26821c70e4781672cbd0e424}
       \strng{authorfullhash}{ea9640cb26821c70e4781672cbd0e424}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0953-4075}
@@ -21135,8 +21263,8 @@
       \strng{fullhash}{3e47ea673e1c504bcfd0fbeaf2cb8710}
       \strng{authornamehash}{3f8a2e6e31e531322ab9c4dd6abbedf6}
       \strng{authorfullhash}{3e47ea673e1c504bcfd0fbeaf2cb8710}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -21426,8 +21554,8 @@
       \strng{fullhash}{084ce727903e100556ad9a167cda1f3e}
       \strng{authornamehash}{0438906ebd6cc2bb118df33f5dbbef5a}
       \strng{authorfullhash}{084ce727903e100556ad9a167cda1f3e}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -21683,8 +21811,8 @@
       \strng{fullhash}{6b33d7bf30bd788525f5c6142cad5521}
       \strng{authornamehash}{93aab0aa3e5f447364e0b689115ac371}
       \strng{authorfullhash}{6b33d7bf30bd788525f5c6142cad5521}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0953-4075}
@@ -21835,8 +21963,8 @@
       \strng{fullhash}{b3734a3b6f0dd435ee8d0ca59f566511}
       \strng{authornamehash}{ab0fce0b9543782a64eaf1328f24c085}
       \strng{authorfullhash}{b3734a3b6f0dd435ee8d0ca59f566511}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -21989,8 +22117,8 @@
       \strng{fullhash}{ff775e173d1da5cefd1d26e02559e5c5}
       \strng{authornamehash}{84e81268e9f35ac4c09fbb94a2e932bb}
       \strng{authorfullhash}{ff775e173d1da5cefd1d26e02559e5c5}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -22132,8 +22260,8 @@
       \strng{fullhash}{743fd62bb58f4dd231986cc0a4f60c66}
       \strng{authornamehash}{da4fdb7c7e3485d6d6d547f205c352dc}
       \strng{authorfullhash}{743fd62bb58f4dd231986cc0a4f60c66}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -22257,8 +22385,8 @@
       \strng{fullhash}{b13ae45ce049f7fed2153f246db2cc81}
       \strng{authornamehash}{7913e0c5a8125e1302dc79dd5d32f1bb}
       \strng{authorfullhash}{b13ae45ce049f7fed2153f246db2cc81}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -22278,8 +22406,8 @@
       \strng{fullhash}{a6e89ec9a9206316f1a41cb3aab353fa}
       \strng{authornamehash}{a6e89ec9a9206316f1a41cb3aab353fa}
       \strng{authorfullhash}{a6e89ec9a9206316f1a41cb3aab353fa}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1951-6355}
@@ -22355,8 +22483,8 @@
       \strng{fullhash}{bd4fcebdde6927ecd7a4ee60d1c01250}
       \strng{authornamehash}{bd4fcebdde6927ecd7a4ee60d1c01250}
       \strng{authorfullhash}{bd4fcebdde6927ecd7a4ee60d1c01250}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
@@ -22433,8 +22561,8 @@
       \strng{fullhash}{3d73e09e90c15dfc5980d6a50049eb09}
       \strng{authornamehash}{3d73e09e90c15dfc5980d6a50049eb09}
       \strng{authorfullhash}{3d73e09e90c15dfc5980d6a50049eb09}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0168-9002}
@@ -22530,8 +22658,8 @@
       \strng{fullhash}{eca61b13c34cb9c20ba7d988f5ea2847}
       \strng{authornamehash}{44717400d6c22ef14c6b57dd82ffd40f}
       \strng{authorfullhash}{eca61b13c34cb9c20ba7d988f5ea2847}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -25426,8 +25554,8 @@
       \strng{fullhash}{9ffec55dd9de9dd069489cd9fba3dd88}
       \strng{authornamehash}{9ffec55dd9de9dd069489cd9fba3dd88}
       \strng{authorfullhash}{9ffec55dd9de9dd069489cd9fba3dd88}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1521-3773}
@@ -25471,8 +25599,8 @@
       \strng{fullhash}{e9852b6f80224c4c7e3db7ad4a13975c}
       \strng{authornamehash}{e9852b6f80224c4c7e3db7ad4a13975c}
       \strng{authorfullhash}{e9852b6f80224c4c7e3db7ad4a13975c}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{15}
@@ -25535,8 +25663,8 @@
       \strng{fullhash}{e79b6037164b205b5b8fa1ce206914b0}
       \strng{authornamehash}{e79b6037164b205b5b8fa1ce206914b0}
       \strng{authorfullhash}{e79b6037164b205b5b8fa1ce206914b0}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{23}

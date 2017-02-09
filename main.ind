@@ -10,25 +10,25 @@
   \indexspace
 
   \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{37}
+  \item Coulomb potential, \hyperpage{38}
 
   \indexspace
 
   \item dispersion correction
     \subitem complex, \hyperpage{36}
-  \item dopant, \hyperpage{24}
+  \item dopant, \hyperpage{25}
 
   \indexspace
 
   \item electron density
-    \subitem surface softening, \hyperpage{40}
-  \item emittance, \hyperpage{11}
+    \subitem surface softening, \hyperpage{39}
+  \item emittance, \hyperpage{10}
 
   \indexspace
 
   \item Fourier Transform, \hyperpage{84}
   \item Free electron LASer in Hamburg
-    \subitem FLASH, \hyperpage{42}
+    \subitem FLASH, \hyperpage{43}
 
   \indexspace
 
@@ -42,7 +42,7 @@
 
   \item imprint, \hyperpage{48}
   \item ionization
-    \subitem multistep, \hyperpage{37}
+    \subitem multistep, \hyperpage{37, 38}
 
   \indexspace
 
@@ -60,7 +60,7 @@
   \indexspace
 
   \item nanoplasma
-    \subitem formation, \hyperpage{37}
+    \subitem formation, \hyperpage{38}
 
   \indexspace
 
@@ -88,8 +88,8 @@
   \indexspace
 
   \item scaling law, \hyperpage{22}
-  \item self-seeding, \hyperpage{12}
-    \subitem soft x-ray, \hyperpage{13}
+  \item self-seeding, \hyperpage{13}
+    \subitem soft x-ray, \hyperpage{14}
   \item spectral brightness, \hyperpage{5}
 
   \indexspace
@@ -104,7 +104,7 @@
   \indexspace
 
   \item wave-vector
-    \subitem transfer, \hyperpage{31}
+    \subitem transfer, \hyperpage{32}
   \item wiggler, \hyperpage{7}
 
   \indexspace
