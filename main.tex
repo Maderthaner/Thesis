@@ -52,8 +52,8 @@ program@epstopdf=epstopdf
 \usepackage[style=phys,
 			natbib=true,
 			backend=biber,
-			sorting=none,
-			sortcites=true,
+			%sorting=none,
+			%sortcites=true,
 			bibencoding=utf8,
 			articletitle=true,
 			biblabel=brackets,
@@ -152,7 +152,6 @@ program@epstopdf=epstopdf
 %
 %
 \begin{document}
-%\nobibliography*
 \onehalfspacing
 \selectlanguage{american}
 \pagenumbering{alph}
@@ -188,6 +187,7 @@ program@epstopdf=epstopdf
 %\include{bibliography}
 %\bibliographystyle{apsrev}
 %\nocite{apsrev41Control}
+\nocite{Alcalde-2012-PRE}
 \printbibliography[notkeyword=nothesis]
 \null
 \clearpage
@@ -198,8 +198,7 @@ program@epstopdf=epstopdf
 \appendix
 \pagenumbering{Alph}
 %
-\nocite{Alcalde-2012-PRE}
-\newrefcontext[sorting=ydnt]
+%\newrefcontext[sorting=ydnt]   %%%breaks sorting
 \forcsvlist{\listadd\boldnames}
   {{a8515f7f0ac3f1c06269b73d54120ce0}}
 \forcsvlist{\listadd\boldnames}

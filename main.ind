@@ -10,7 +10,7 @@
   \indexspace
 
   \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{37}
+  \item Coulomb potential, \hyperpage{38}
 
   \indexspace
 
@@ -21,7 +21,7 @@
   \indexspace
 
   \item electron density
-    \subitem surface softening, \hyperpage{39}
+    \subitem surface softening, \hyperpage{41}
   \item emittance, \hyperpage{10}
 
   \indexspace
@@ -42,7 +42,7 @@
 
   \item imprint, \hyperpage{50}
   \item ionization
-    \subitem multistep, \hyperpage{37, 38}
+    \subitem multistep, \hyperpage{38}
 
   \indexspace
 
@@ -95,7 +95,6 @@
   \indexspace
 
   \item time-of-flight, \hyperpage{50}
-    \subitem mass spectroscopy, \hyperpage{44}
 
   \indexspace
 
