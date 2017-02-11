@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {3.4}Sample delivery}{56}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Sample jet timing at LCLS}{59}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}Time-of-flight mass-spectrometer}{62}{section.3.5}
-\contentsline {section}{\numberline {3.6}X-ray focus characterization}{63}{section.3.6}
+\contentsline {section}{\numberline {3.6}X-ray focus characterization}{65}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Focus characterization using a TOF spectrometer}{65}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Focus characterization via an imprint study}{66}{subsection.3.6.2}
 \contentsline {chapter}{\numberline {4}Methods}{69}{chapter.4}
@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.3.1}Principle of phase retrieval}{77}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}2D reconstructions and image resolution}{78}{subsection.4.3.2}
 \contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{78}{section*.8}
-\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{81}{section*.9}
+\contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{79}{section*.9}
 \contentsline {subsection}{\numberline {4.3.3}1D projections and phase reconstructions}{82}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Impact of the X-ray pump--X-ray probe on diffraction pattern}{83}{section.4.4}
 \contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{85}{section.4.5}

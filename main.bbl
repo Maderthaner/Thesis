@@ -1863,6 +1863,91 @@
       \verb http://arxiv.org/abs/1007.0074
       \endverb
     \endentry
+    \entry{Yoon-2016-scirep}{article}{}
+      \name{author}{11}{}{%
+        {{hash=8c7bb7643e7418e6b14b2ccf179ccbd9}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Chun\bibnamedelima Hong},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f27973e95ca65e626e08736626d84c47}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={Mikhail\bibnamedelima V},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=7ab10dccd90a3715e2d09491552d82a0}{%
+           family={Schneidmiller},
+           familyi={S\bibinitperiod},
+           given={Evgeny\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a9e0fefb770ae4b9b4b3aa235bcfab44}{%
+           family={Samoylova},
+           familyi={S\bibinitperiod},
+           given={Liubov},
+           giveni={L\bibinitperiod}}}%
+        {{hash=11e8710bef7a5378338e9201a30ec284}{%
+           family={Buzmakov},
+           familyi={B\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4325af6f5aa392ba31bdd3f064d0cac8}{%
+           family={Jurek},
+           familyi={J\bibinitperiod},
+           given={Zoltan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=cf36602ffe73645128220e1c765d95f6}{%
+           family={Ziaja},
+           familyi={Z\bibinitperiod},
+           given={Beata},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9c1bfa242982cad829f1c2d061c0137d}{%
+           family={Santra},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=864374f3220bc09f9feed59c2bc0209b}{%
+           family={Loh},
+           familyi={L\bibinitperiod},
+           given={N\bibnamedelima Duane},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b3a5b6f32f28881b822d7fc4269381d0}{%
+           family={Tschentscher},
+           familyi={T\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4210cd8a6e28f296af115b6c2a7d7987}{%
+           family={Mancuso},
+           familyi={M\bibinitperiod},
+           given={Adrian\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{823eb0061864df3fdb5165f9f2b3607f}
+      \strng{fullhash}{df6d76bf3125479eb5de042439d632ec}
+      \strng{authornamehash}{823eb0061864df3fdb5165f9f2b3607f}
+      \strng{authorfullhash}{df6d76bf3125479eb5de042439d632ec}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{4}
+      \field{number}{6}
+      \field{title}{{A comprehensive simulation framework for imaging single particles and biomolecules at the European X-ray Free-Electron Laser}}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{24791}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep24791
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/srep/2016/160425/srep24791/full/srep24791.html%20http://www.nature.com/articles/srep24791
+      \endverb
+    \endentry
     \entry{Kupper-2014-PRL}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2429,25 +2514,25 @@
       \verb http://www.sciencedirect.com/science/article/pii/B978012385508400005X
       \endverb
     \endentry
-    \entry{Williams-2016-PC}{misc}{}
+    \entry{Young-2017-PC}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aaf5b3222b9686a3fec62883fd3f473f}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={G\bibnamedelima J},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=993f1f8b6e5762c66b33615d691214bf}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{aaf5b3222b9686a3fec62883fd3f473f}
-      \strng{fullhash}{aaf5b3222b9686a3fec62883fd3f473f}
-      \strng{authornamehash}{aaf5b3222b9686a3fec62883fd3f473f}
-      \strng{authorfullhash}{aaf5b3222b9686a3fec62883fd3f473f}
+      \strng{namehash}{993f1f8b6e5762c66b33615d691214bf}
+      \strng{fullhash}{993f1f8b6e5762c66b33615d691214bf}
+      \strng{authornamehash}{993f1f8b6e5762c66b33615d691214bf}
+      \strng{authorfullhash}{993f1f8b6e5762c66b33615d691214bf}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
-      \field{day}{16}
+      \field{day}{10}
       \field{howpublished}{personal communication}
-      \field{month}{6}
-      \field{year}{2016}
+      \field{month}{2}
+      \field{year}{2017}
       \field{dateera}{ce}
     \endentry
     \entry{Madey-1971-JAP}{article}{}
@@ -6062,6 +6147,37 @@
       \field{title}{{The LAMP endstation in the AMO instrument at the Linac Coherent Light Source}}
       \field{year}{2017}
     \endentry
+    \entry{Foucar-2016-JAC}{article}{}
+      \name{author}{1}{}{%
+        {{hash=92fedb6b8ed49f7ad2dd174ada48902c}{%
+           family={Foucar},
+           familyi={F\bibinitperiod},
+           given={Lutz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{92fedb6b8ed49f7ad2dd174ada48902c}
+      \strng{fullhash}{92fedb6b8ed49f7ad2dd174ada48902c}
+      \strng{authornamehash}{92fedb6b8ed49f7ad2dd174ada48902c}
+      \strng{authorfullhash}{92fedb6b8ed49f7ad2dd174ada48902c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{{CFEL--ASG Software Suite (CASS): usage for free-electron laser experiments with biological focus}}
+      \field{volume}{49}
+      \field{year}{2016}
+      \field{pages}{1336\bibrangedash 1346}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1107/S1600576716009201
+      \endverb
+    \endentry
     \entry{Rudek-2012-NatPho}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -7875,8 +7991,8 @@
       \strng{fullhash}{152a5ec243178b55996c6b27187d82da}
       \strng{authornamehash}{152a5ec243178b55996c6b27187d82da}
       \strng{authorfullhash}{152a5ec243178b55996c6b27187d82da}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -8315,7 +8431,7 @@
       \field{issn}{0953-4075}
       \field{journaltitle}{Journal of Physics B}
       \field{number}{16}
-      \field{title}{Ultra-fast and ultra-intense x-ray sciences: first results from the Linac Coherent Light Source free-electron laser}
+      \field{title}{{Ultra-fast and ultra-intense x-ray sciences: first results from the Linac Coherent Light Source free-electron laser}}
       \field{type}{Journal Article}
       \field{volume}{46}
       \field{year}{2013}
@@ -9586,7 +9702,7 @@
       \field{journaltitle}{The European Physical Journal Special Topics}
       \field{month}{3}
       \field{number}{1}
-      \field{title}{{AMO} instrumentation for the {LCLS} X-ray {FEL}}
+      \field{title}{{AMO instrumentation for the LCLS X-ray FEL}}
       \field{type}{Journal Article}
       \field{volume}{169}
       \field{year}{2009}
@@ -10447,7 +10563,7 @@
       \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A}
       \field{month}{3}
       \field{number}{3}
-      \field{title}{Large-format, high-speed, X-ray pnCCDs combined with electron and ion imaging spectrometers in a multipurpose chamber for experiments at 4th generation light sources}
+      \field{title}{{Large-format, high-speed, X-ray pnCCDs combined with electron and ion imaging spectrometers in a multipurpose chamber for experiments at 4th generation light sources}}
       \field{volume}{614}
       \field{year}{2010}
       \field{pages}{483\bibrangedash 496}
@@ -10844,6 +10960,227 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0168900210027816
       \endverb
     \endentry
+    \entry{Hartmann-2006-NIMA}{article}{}
+      \name{author}{8}{}{%
+        {{hash=06d54e9322f49b859e9452b1b8c13443}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=caa6797a46faf6606e648936ff5899ba}{%
+           family={Buttler},
+           familyi={B\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7a8cd6465e0e6bfc6e5612e9b26abb8f}{%
+           family={Gorke},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7d73ce12d11ec763ff4a5e07bbb6db80}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dd3a09c4bc84d9bf061b24d773ff4b2d}{%
+           family={Holl},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8ca27a8ee469294ff3a3bc3098153464}{%
+           family={Meidinger},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cfb02ddbcae5ce1b1f6b550a823cdd79}{%
+           family={Soltau},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=82718d4d453a634304ae5c1e705faa86}{%
+           family={Strüder},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d7aba94d38780a671e65ca8334cd48c}
+      \strng{fullhash}{3d7aba94d38780a671e65ca8334cd48c}
+      \strng{authornamehash}{3d7aba94d38780a671e65ca8334cd48c}
+      \strng{authorfullhash}{3d7aba94d38780a671e65ca8334cd48c}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01689002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{{A high-speed pnCCD detector system for optical applications}}
+      \field{volume}{568}
+      \field{year}{2006}
+      \field{pages}{118\bibrangedash 123}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.nima.2006.05.229
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0168900206010941
+      \endverb
+      \keyw{Adaptive optics,High-speed,Optical astronomy,Quantum efficiency,pnCCD}
+    \endentry
+    \entry{Ordavo-2011-NIMA}{article}{}
+      \name{author}{25}{}{%
+        {{hash=44bf0ff26909d1e7f84e2c59b1ba11ae}{%
+           family={Ordavo},
+           familyi={O\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=2509e1006fcf773ee37e0ff733b2be40}{%
+           family={Ihle},
+           familyi={I\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0a2d487c7de14ca8ae76f0f8d0021420}{%
+           family={Arkadiev},
+           familyi={A\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5d8ede4dd2180816871906e49a38d86b}{%
+           family={Scharf},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=cfb02ddbcae5ce1b1f6b550a823cdd79}{%
+           family={Soltau},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=63337266cd90114b848e96d3d18a8438}{%
+           family={Bjeoumikhov},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa5366eaaa4bd0025781d4bc7b215815}{%
+           family={Bjeoumikhova},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=76347d20a5217660ca153f3f62bde812}{%
+           family={Buzanich},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=28cdb526546fd0c4a48040a6c9e03c69}{%
+           family={Gubzhokov},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=802742ec4ab4e73201d6a7d94e642cbe}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=06d54e9322f49b859e9452b1b8c13443}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dd3a09c4bc84d9bf061b24d773ff4b2d}{%
+           family={Holl},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bcfbf1e90398b8301c82600b3eaefbda}{%
+           family={Kimmel},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8227d9e11bcd686bd2bf238b1c81dcb4}{%
+           family={Kühbacher},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2f38deac506cd2fc0efa49fdbda9b0f0}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6fe656ca5c4a92a3e4afbf2c2a857f4e}{%
+           family={Langhoff},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fe8030b84dfe23d5623168c6f7dc4388}{%
+           family={Liebel},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1e596062d414f9fc10ba8b8d527cd5f}{%
+           family={Radtke},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e7a015076b3af98074e05a412fa9be7}{%
+           family={Reinholz},
+           familyi={R\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=b99f895c39191662814cb1756d4923c0}{%
+           family={Riesemeier},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=073ee0513fc5afd8af20a39fb5ff7cda}{%
+           family={Schaller},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3906a370206a5fd1568db488430049dc}{%
+           family={Schopper},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=82718d4d453a634304ae5c1e705faa86}{%
+           family={Strüder},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=61a2bfe8f571ed5a4d21deb6944dce5c}{%
+           family={Thamm},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=dc72c18a8262a68d1f65b835fe9c29aa}{%
+           family={Wedell},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{be1bb252a8e6533da7df5537caca6641}
+      \strng{fullhash}{9f30fd5fb0e425414e5879648b998460}
+      \strng{authornamehash}{be1bb252a8e6533da7df5537caca6641}
+      \strng{authorfullhash}{9f30fd5fb0e425414e5879648b998460}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01689002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{{A new pnCCD-based color X-ray camera for fast spatial and energy-resolved measurements}}
+      \field{volume}{654}
+      \field{year}{2011}
+      \field{pages}{250\bibrangedash 257}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.nima.2011.05.080
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0168900211011715
+      \endverb
+      \keyw{Elemental analysis,Fast X-ray imaging,Full-field X-ray fluorescence,High energy resolution,High quantum efficiency,Polycapillary optics,X-ray CCD camera,XRF,pnCCD}
+    \endentry
     \entry{Krejcik-2007-DIPAC}{report}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -11180,6 +11517,40 @@
       \verb 10.1103/physrevlett.106.083002
       \endverb
     \endentry
+    \entry{Liu-1982-OptLett}{article}{}
+      \name{author}{1}{}{%
+        {{hash=778af67ae5baf167e108542fd1599b0c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{778af67ae5baf167e108542fd1599b0c}
+      \strng{fullhash}{778af67ae5baf167e108542fd1599b0c}
+      \strng{authornamehash}{778af67ae5baf167e108542fd1599b0c}
+      \strng{authorfullhash}{778af67ae5baf167e108542fd1599b0c}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Letters}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Simple technique for measurements of pulsed Gaussian-beam spot sizes}
+      \field{volume}{7}
+      \field{year}{1982}
+      \field{pages}{196\bibrangedash 198}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1364/OL.7.000196
+      \endverb
+      \verb{url}
+      \verb http://ol.osa.org/abstract.cfm?URI=ol-7-5-196
+      \endverb
+    \endentry
     \entry{Henke-1993-ADNDT}{misc}{}
       \name{author}{3}{}{%
         {{hash=bd4e2278101965d9597418de3a9e78b8}{%
@@ -11219,40 +11590,6 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0092640X83710132
-      \endverb
-    \endentry
-    \entry{Liu-1982-OptLett}{article}{}
-      \name{author}{1}{}{%
-        {{hash=778af67ae5baf167e108542fd1599b0c}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {OSA}%
-      }
-      \strng{namehash}{778af67ae5baf167e108542fd1599b0c}
-      \strng{fullhash}{778af67ae5baf167e108542fd1599b0c}
-      \strng{authornamehash}{778af67ae5baf167e108542fd1599b0c}
-      \strng{authorfullhash}{778af67ae5baf167e108542fd1599b0c}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Optics Letters}
-      \field{month}{5}
-      \field{number}{5}
-      \field{title}{Simple technique for measurements of pulsed Gaussian-beam spot sizes}
-      \field{volume}{7}
-      \field{year}{1982}
-      \field{pages}{196\bibrangedash 198}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1364/OL.7.000196
-      \endverb
-      \verb{url}
-      \verb http://ol.osa.org/abstract.cfm?URI=ol-7-5-196
       \endverb
     \endentry
     \entry{Chalupsky-2010-OE}{article}{}
@@ -12326,37 +12663,6 @@
       \verb 10.1107/S1600576716005926
       \endverb
     \endentry
-    \entry{Foucar-2016-JAC}{article}{}
-      \name{author}{1}{}{%
-        {{hash=92fedb6b8ed49f7ad2dd174ada48902c}{%
-           family={Foucar},
-           familyi={F\bibinitperiod},
-           given={Lutz},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{92fedb6b8ed49f7ad2dd174ada48902c}
-      \strng{fullhash}{92fedb6b8ed49f7ad2dd174ada48902c}
-      \strng{authornamehash}{92fedb6b8ed49f7ad2dd174ada48902c}
-      \strng{authorfullhash}{92fedb6b8ed49f7ad2dd174ada48902c}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{month}{8}
-      \field{number}{4}
-      \field{title}{{CFEL--ASG Software Suite (CASS): usage for free-electron laser experiments with biological focus}}
-      \field{volume}{49}
-      \field{year}{2016}
-      \field{pages}{1336\bibrangedash 1346}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1107/S1600576716009201
-      \endverb
-    \endentry
     \entry{Schutte-2015-JPhysB}{article}{}
       \name{author}{7}{}{%
         {{hash=94c9b13bd93baf862af9f595f17111c7}{%
@@ -12570,8 +12876,8 @@
       \strng{fullhash}{803cda32ab680ec025e5afa537353055}
       \strng{authornamehash}{803cda32ab680ec025e5afa537353055}
       \strng{authorfullhash}{803cda32ab680ec025e5afa537353055}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{13873806}
@@ -12609,8 +12915,8 @@
       \strng{fullhash}{4b87438f2018c0a4af01a6fb2cf2c96a}
       \strng{authornamehash}{4b87438f2018c0a4af01a6fb2cf2c96a}
       \strng{authorfullhash}{4b87438f2018c0a4af01a6fb2cf2c96a}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}

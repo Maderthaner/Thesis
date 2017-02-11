@@ -1,27 +1,27 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'main.blg'
-[36] biber-MSWIN64:303> INFO - === 
-[66] Biber.pm:359> INFO - Reading 'main.bcf'
-[180] Biber.pm:835> INFO - Found 198 citekeys in bib section 0
-[198] Biber.pm:3670> INFO - Processing section 0
-[223] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[284] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[391] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[477] Utils.pm:164> WARN - Duplicate entry key: 'Huang-2007-PRSTAB' in file 'references.bib', skipping ...
-[786] Utils.pm:164> WARN - month field 'Aug' in entry 'Hartmann-1995-PRL' is not an integer - this will probably not sort properly.
-[828] Utils.pm:164> WARN - month field 'may' in entry 'Ditmire-1996-PRA' is not an integer - this will probably not sort properly.
-[858] Utils.pm:164> WARN - month field 'may' in entry 'Curwood-2013-PRA' is not an integer - this will probably not sort properly.
-[1018] Utils.pm:164> WARN - ISBN '1044-0305' in entry 'Murray-2013-IUPAC' is invalid - run biber with '--validate_datamodel' for details.
-[1019] Utils.pm:164> WARN - month field 'jan' in entry 'Murray-2013-IUPAC' is not an integer - this will probably not sort properly.
-[1064] Utils.pm:164> WARN - month field 'oct' in entry 'Geilhufe-2014-OptcsExp' is not an integer - this will probably not sort properly.
-[1093] Utils.pm:164> WARN - month field 'Apr' in entry 'Gomez-2012-PRL' is not an integer - this will probably not sort properly.
-[1096] Utils.pm:164> WARN - month field 'Jun' in entry 'Loginov-2011-PRL' is not an integer - this will probably not sort properly.
-[1101] Utils.pm:164> WARN - month field 'June' in entry 'Al-Haddad-2017-unpublished' is not an integer - this will probably not sort properly.
-[1108] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\buchermj\AppData\Local\Temp\THC8nxODCk\references.bib_6220.utf8, line 5201, warning: undefined macro "2017-02-09"
-[1254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1254] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[1254] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1409] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1462] bbl.pm:712> INFO - Output to main.bbl
-[1463] Biber.pm:109> INFO - WARNINGS: 11
+[33] biber-MSWIN64:303> INFO - === 
+[62] Biber.pm:359> INFO - Reading 'main.bcf'
+[176] Biber.pm:835> INFO - Found 201 citekeys in bib section 0
+[193] Biber.pm:3670> INFO - Processing section 0
+[216] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[275] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[379] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[466] Utils.pm:164> WARN - Duplicate entry key: 'Huang-2007-PRSTAB' in file 'references.bib', skipping ...
+[768] Utils.pm:164> WARN - month field 'Aug' in entry 'Hartmann-1995-PRL' is not an integer - this will probably not sort properly.
+[808] Utils.pm:164> WARN - month field 'may' in entry 'Ditmire-1996-PRA' is not an integer - this will probably not sort properly.
+[836] Utils.pm:164> WARN - month field 'may' in entry 'Curwood-2013-PRA' is not an integer - this will probably not sort properly.
+[1000] Utils.pm:164> WARN - ISBN '1044-0305' in entry 'Murray-2013-IUPAC' is invalid - run biber with '--validate_datamodel' for details.
+[1000] Utils.pm:164> WARN - month field 'jan' in entry 'Murray-2013-IUPAC' is not an integer - this will probably not sort properly.
+[1043] Utils.pm:164> WARN - month field 'oct' in entry 'Geilhufe-2014-OptcsExp' is not an integer - this will probably not sort properly.
+[1070] Utils.pm:164> WARN - month field 'Apr' in entry 'Gomez-2012-PRL' is not an integer - this will probably not sort properly.
+[1073] Utils.pm:164> WARN - month field 'Jun' in entry 'Loginov-2011-PRL' is not an integer - this will probably not sort properly.
+[1077] Utils.pm:164> WARN - month field 'June' in entry 'Al-Haddad-2017-unpublished' is not an integer - this will probably not sort properly.
+[1085] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\buchermj\AppData\Local\Temp\1yhYHED6lD\references.bib_2820.utf8, line 5217, warning: undefined macro "2017-02-09"
+[1227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1227] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[1227] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1366] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1422] bbl.pm:712> INFO - Output to main.bbl
+[1423] Biber.pm:109> INFO - WARNINGS: 11
