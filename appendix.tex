@@ -42,6 +42,12 @@
 %
 %
 %
+\section{Python code on combining detectors}\label{sec:combination-of-detectors-code}
+Python code that has been used to combine pnCCD detectors.
+\lstinputlisting[language=Python,frame=single,basicstyle=\footnotesize]{manuals/combination.py}
+%
+%
+%
 \section{Matlab code on spherical integrations}\label{sec:spherical-integration}
 Excerpt of the Matlab code that has been used to reduce 2D diffraction images to 1D arrays with the intensity as a function of the scattering vector $\vec{Q}$.
 \begin{lstlisting}[language=matlab,frame=single,basicstyle=\footnotesize]
@@ -85,43 +91,47 @@ end
 %
 %
 %
-\iffalse
+\iftrue
 \section{Python code on 1D phase-retrieval}\label{sec:1d-phase-retrieval-code}
 An excerpt of the python code that has been used to iteratively retrieve the complex fields of the diffraction pattern.
 \begin{lstlisting}[language=Python,frame=single,basicstyle=\footnotesize]
-# fft
 for i in range(1,160):
-	print i
+	print i # Keeps track of iterations
 	# Fourier Transform to Fourier Space
 	fourierSpace = np.fft.fft(realSpaceAdjusted)
+
 	# Get Phase in Fourier Space
 	phase = np.exp(np.angle(fourierSpace)*I)
+
 	# Take abslute measurement and multiply with phase
-	##fourierSpaceAdjusted = abs(target)*phase
-	fourierSpaceAdjusted = abs(np.concatenate((target[0:len(phasedAmplitudes)],fourierSpace[len(phasedAmplitudes):len(phasedAmplitudes)*3],target[len(phasedAmplitudes)*3:len(target)]),axis=0))*phase
-	#fourierSpaceAdjusted[fourierSpaceAdjusted[len(phasedAmplitudes):len(phasedAmplitudes)*3] > phasedAmplitudes[len(phasedAmplitudes)-1]] = phasedAmplitudes[len(phasedAmplitudes)-1]
-	#print len(fourierSpace)==len(fourierSpaceAdjusted)==len(phase)
+	fourierSpaceAdjusted = 
+		abs(np.concatenate((target[0:len(phasedAmplitudes)],
+		fourierSpace[len(phasedAmplitudes):len(phasedAmplitudes)*3],
+		target[len(phasedAmplitudes)*3:len(target)]),axis=0))*phase
+
 	# Calculate Error in Fourier Space
-	errorDiffraction = np.append(errorDiffraction,np.std(abs(fourierSpace[0:len(phasedAmplitudes)]) - abs(target[0:len(phasedAmplitudes)])))
+	errorDiffraction = np.append(errorDiffraction,
+		np.std(abs(fourierSpace[0:len(phasedAmplitudes)]) - 
+			abs(target[0:len(phasedAmplitudes)])))
+
+
 	###
 	# Fourier Transform to Real Space
 	realSpace = np.fft.ifft(fourierSpaceAdjusted)
 	realSpaceAdjusted = realSpace.real
-	#print len(realSpace)==len(realSpaceAdjusted)
+
 	# Set values to zero where object not expected
-	#realSpaceAdjusted[30:len(realSpaceAdjusted)-30] = np.zeros(len(realSpaceAdjusted)-60)
 	realSpaceAdjusted[realSpaceAdjusted < 0] = 0
+
 	# Claculate error of Support
-	errorSupport = np.append(errorSupport,np.sum(abs(np.fft.ifftshift(realSpace)[0:len(realSpace)/2 - 30])))
-	#print errorSupport
+	errorSupport = np.append(errorSupport,
+		np.sum(abs(np.fft.ifftshift(realSpace)[0:len(realSpace)/2 
+			- 30])))
 \end{lstlisting}
 \fi
 %
 %
 %
-\section{Python code on combining detectors}\label{sec:combination-of-detectors-code}
-Python code that has been used to combine pnCCD detectors.
-\lstinputlisting[language=Python,frame=single,basicstyle=\footnotesize]{manuals/combination.py}
 %
 %
 %
