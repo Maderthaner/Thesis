@@ -9442,16 +9442,16 @@
       \endverb
     \endentry
     \entry{Bernado-2017-PRB}{article}{}
-      \name{author}{19}{}{%
+      \name{author}{20}{}{%
         {{hash=e782f3c1cf109e9a6b1cd13d9b9a4771}{%
            family={Bernando},
            family_i={B\bibinitperiod},
            given={Charles},
            given_i={C\bibinitperiod}}}%
-        {{hash=e28ad61185b8adc39099def1bc8bcd7a}{%
+        {{hash=d3f098294a6adb26731729c58bbbcec5}{%
            family={Tanyag},
            family_i={T\bibinitperiod},
-           given={Rico\bibnamedelimb Mayro\bibnamedelima P},
+           given={Rico\bibnamedelimb Mayro\bibnamedelima P.},
            given_i={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=8559f018b983458e949baa7d558bf3d6}{%
            family={Jones},
@@ -9468,30 +9468,30 @@
            family_i={B\bibinitperiod},
            given={Maximilian},
            given_i={M\bibinitperiod}}}%
-        {{hash=4abe4543e6471fc460ad87741e9d7a18}{%
+        {{hash=7919ab2f1ba5b8761306037ae8cede9d}{%
            family={Ferguson},
            family_i={F\bibinitperiod},
-           given={Ken\bibnamedelima R},
+           given={Ken\bibnamedelima R.},
            given_i={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
         {{hash=3bcb39ede5491b5847482892d7c2c61d}{%
            family={Rupp},
            family_i={R\bibinitperiod},
            given={Daniela},
            given_i={D\bibinitperiod}}}%
-        {{hash=f019e35acf2a100dbffb5ac6e6f5ba9a}{%
+        {{hash=c94962b14df0e2cae619f30713540db7}{%
            family={Ziemkiewicz},
            family_i={Z\bibinitperiod},
-           given={Michael},
-           given_i={M\bibinitperiod}}}%
-        {{hash=513f72f2f13fcdb00119d778f4a54d58}{%
+           given={Michael\bibnamedelima P.},
+           given_i={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4de13644e78a81d748223ee8077a5b8e}{%
            family={Gomez},
            family_i={G\bibinitperiod},
-           given={Luis\bibnamedelima F},
+           given={Luis\bibnamedelima F.},
            given_i={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=b691edef4e8818acfba298a3dd0a3804}{%
+        {{hash=b56eba3dce945361082fa5f953cc6546}{%
            family={Chatterley},
            family_i={C\bibinitperiod},
-           given={Adam\bibnamedelima S},
+           given={Adam\bibnamedelima S.},
            given_i={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=f44055f9e0b222798825f8b1b75c4fe1}{%
            family={Gorkhover},
@@ -9523,11 +9523,14 @@
            family_i={B\bibinitperiod},
            given={Samuel\bibnamedelima L.},
            given_i={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=4490fb9bf77bf86195b66a6de587e10c}{%
+        {{hash=d0d5209148786afb1d8b90b3b82e339a}{%
            family={Möller},
            family_i={M\bibinitperiod},
-           suffix={Thomas\bibnamedelimb amd\bibnamedelima Bostedt},
-           suffix_i={T\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Thomas},
+           given_i={T\bibinitperiod}}}%
+        {{hash=a7bf85309a23ed4a79c9809d8be69fe5}{%
+           family={Bostedt},
+           family_i={B\bibinitperiod},
            given={Christoph},
            given_i={C\bibinitperiod}}}%
         {{hash=d5590bfbd889398aa2cc2c8466088fd9}{%
@@ -9541,16 +9544,30 @@
            given={Andrey\bibnamedelima F.},
            given_i={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{7913e0c5a8125e1302dc79dd5d32f1bb}
-      \strng{fullhash}{eaa069eca414f40f26275b4a69c948f8}
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{32d7c58e82dd4368346cc726e1dd7aed}
+      \strng{fullhash}{a7bbd139481557c8d17ff85df3084aaa}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
-      \field{journaltitle}{Physical Review B, accepted}
-      \field{title}{Shapes of rotating superfluid helium nanodroplets}
+      \field{issue}{6}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{2}
+      \field{title}{{Shapes of rotating superfluid helium nanodroplets}}
+      \field{volume}{95}
       \field{year}{2017}
+      \field{pages}{064510}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.95.064510
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.95.064510
+      \endverb
     \endentry
     \entry{Bozek-2009-EPJST}{article}{}
       \name{author}{1}{}{%
