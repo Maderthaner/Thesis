@@ -57,16 +57,19 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
          <dc:format>application/pdf</dc:format> 
+         <dc:title><rdf:Alt><rdf:li xml:lang="x-default">Ultrafast Dynamics of Nanoparticles in Highly Intense X-Ray Pulses</rdf:li></rdf:Alt></dc:title>
+         <dc:creator><rdf:Seq><rdf:li>Maximilian Jakob Bucher</rdf:li></rdf:Seq></dc:creator>
+         <dc:publisher><rdf:Bag><rdf:li>Technische Universität Berlin</rdf:li></rdf:Bag></dc:publisher>
          
-         
-         <dc:publisher><rdf:Bag><rdf:li></rdf:li></rdf:Bag></dc:publisher>
-         
-         
-         
-         
+         <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.</rdf:li></rdf:Alt></dc:rights>
+         <dc:description><rdf:Alt><rdf:li xml:lang="x-default">With the advent of X-ray free electron laser the Linac Coherent Light Source (LCLS), structural studies on non-repetitive and non-reproducible nanoparticles, such as single biomolecules appear imminent. A key challenge to increasing the resolution of single particle imaging is radiation damage. Only a sound understanding of the underlying damage processes, such as the nanoplasma expansion, can overcome this challenge and will lead to higher resolutions. Further, sacrificial layers have been proposed to slow the nanoplasma expansion.</rdf:li></rdf:Alt></dc:description>
+         <dc:subject><rdf:Bag><rdf:li>LCLS</rdf:li>
+     <rdf:li>FEL</rdf:li>
+     <rdf:li>Cluster</rdf:li>
+     <rdf:li>Dynamics</rdf:li></rdf:Bag></dc:subject>
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
-         
+         <prism:aggregationType>book</prism:aggregationType>
  
  
  
@@ -88,17 +91,18 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
          <xmp:CreatorTool>LaTeX with hyperref package</xmp:CreatorTool> 
-         <xmp:ModifyDate>2017-02-20T14:36:43-06:00</xmp:ModifyDate> 
-         <xmp:CreateDate>2017-02-20T14:36:43-06:00</xmp:CreateDate> 
-         <xmp:MetadataDate>2017-02-20T14:36:43-06:00</xmp:MetadataDate> 
+         <xmp:ModifyDate>2017-02-24T16:26:57-06:00</xmp:ModifyDate> 
+         <xmp:CreateDate>2017-02-24T16:26:57-06:00</xmp:CreateDate> 
+         <xmp:MetadataDate>2017-02-24T16:26:57-06:00</xmp:MetadataDate> 
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
-         
-      <xmpRights:WebStatement></xmpRights:WebStatement>
+         <xmpRights:Marked>True</xmpRights:Marked>
+<xmpRights:UsageTerms><rdf:Alt><rdf:li xml:lang="x-default">This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.</rdf:li></rdf:Alt></xmpRights:UsageTerms>
+      <xmpRights:WebStatement>http://creativecommons.org/licenses/by/4.0/</xmpRights:WebStatement>
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
          <xmpMM:DocumentID>uuid:DF005B57-2A06-8753-7167-92D8CE935460</xmpMM:DocumentID> 
-         <xmpMM:InstanceID>uuid:B8942DCA-9EDE-FA1B-5D78-59BBD4B94F3F</xmpMM:InstanceID> 
+         <xmpMM:InstanceID>uuid:D12E1AB2-7C93-2A18-533B-4706056EF85C</xmpMM:InstanceID> 
       </rdf:Description> 
    </rdf:RDF> 
 </x:xmpmeta> 

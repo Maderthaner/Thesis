@@ -7,45 +7,45 @@
 \indexentry{light source|hyperpage}{7}
 \indexentry{bending magnets|hyperpage}{7}
 \indexentry{wiggler|hyperpage}{7}
-\indexentry{undulator|hyperpage}{8}
+\indexentry{undulator|hyperpage}{7}
 \indexentry{microbunching|hyperpage}{9}
 \indexentry{emittance|hyperpage}{10}
-\indexentry{self-seeding|hyperpage}{13}
-\indexentry{self-seeding!soft x-ray|hyperpage}{14}
-\indexentry{cluster size|hyperpage}{22}
-\indexentry{scaling law|hyperpage}{22}
-\indexentry{Hagena|hyperindexformat{\see {scaling law}}}{22}
-\indexentry{Hagena!scaling parameter|hyperpage}{22}
-\indexentry{afterpulse|hyperpage}{23}
-\indexentry{dopant|hyperpage}{25}
-\indexentry{wave-vector!transfer|hyperpage}{32}
-\indexentry{refractive index|hyperpage}{36}
-\indexentry{dispersion correction!complex|hyperpage}{36}
-\indexentry{ionization!multistep|hyperpage}{38}
-\indexentry{nanoplasma!formation|hyperpage}{38}
-\indexentry{ionization!multistep|hyperpage}{38}
-\indexentry{Coulomb potential|hyperpage}{38}
-\indexentry{electron density!surface softening|hyperpage}{41}
-\indexentry{Free electron LASer in Hamburg!FLASH|hyperpage}{43}
-\indexentry{time-of-flight|hyperpage}{50}
-\indexentry{imprint|hyperpage}{50}
-\indexentry{pnCCD!module|hyperpage}{54}
-\indexentry{pnCCD!pixel size|hyperpage}{54}
-\indexentry{pnCCD|hyperpage}{54}
-\indexentry{pnCCD!CAMEX|hyperpage}{55}
-\indexentry{pnCCD!gain|hyperpage}{55}
-\indexentry{lead tungstate|hyperpage}{65}
-\indexentry{lead tungstate|hyperpage}{66}
-\indexentry{psana!calibman|hyperpage}{71}
-\indexentry{pnCCD!pedestal correction|hyperpage}{71}
-\indexentry{pnCCD!common mode|hyperpage}{71}
-\indexentry{oversampling|hyperpage}{77}
-\indexentry{oversampling!Nyquist-Shannon sampling theorem|hyperpage}{77}
-\indexentry{oversampling!Nyquist rate|hyperpage}{77}
-\indexentry{Hawk software package|hyperpage}{78}
+\indexentry{self-seeding|hyperpage}{12}
+\indexentry{self-seeding!soft x-ray|hyperpage}{13}
+\indexentry{cluster size|hyperpage}{21}
+\indexentry{scaling law|hyperpage}{21}
+\indexentry{Hagena|hyperindexformat{\see {scaling law}}}{21}
+\indexentry{Hagena!scaling parameter|hyperpage}{21}
+\indexentry{afterpulse|hyperpage}{22}
+\indexentry{dopant|hyperpage}{24}
+\indexentry{wave-vector!transfer|hyperpage}{30}
+\indexentry{refractive index|hyperpage}{34}
+\indexentry{dispersion correction!complex|hyperpage}{35}
+\indexentry{ionization!multistep|hyperpage}{36}
+\indexentry{nanoplasma!formation|hyperpage}{36}
+\indexentry{ionization!multistep|hyperpage}{36}
+\indexentry{Coulomb potential|hyperpage}{36}
+\indexentry{electron density!surface softening|hyperpage}{39}
+\indexentry{Free electron LASer in Hamburg!FLASH|hyperpage}{41}
+\indexentry{time-of-flight|hyperpage}{47}
+\indexentry{imprint|hyperpage}{47}
+\indexentry{pnCCD!module|hyperpage}{51}
+\indexentry{pnCCD!pixel size|hyperpage}{52}
+\indexentry{pnCCD|hyperpage}{52}
+\indexentry{pnCCD!CAMEX|hyperpage}{52}
+\indexentry{pnCCD!gain|hyperpage}{53}
+\indexentry{lead tungstate|hyperpage}{62}
+\indexentry{lead tungstate|hyperpage}{63}
+\indexentry{psana!calibman|hyperpage}{67}
+\indexentry{pnCCD!pedestal correction|hyperpage}{67}
+\indexentry{pnCCD!common mode|hyperpage}{67}
+\indexentry{oversampling|hyperpage}{73}
+\indexentry{oversampling!Nyquist-Shannon sampling theorem|hyperpage}{73}
+\indexentry{oversampling!Nyquist rate|hyperpage}{73}
+\indexentry{Hawk software package|hyperpage}{74}
+\indexentry{Matlab|hyperpage}{78}
+\indexentry{Xenon!bulk density|hyperpage}{81}
+\indexentry{Helium!liquid density|hyperpage}{81}
+\indexentry{Fourier Transform|hyperpage}{82}
 \indexentry{Matlab|hyperpage}{82}
-\indexentry{Xenon!bulk density|hyperpage}{86}
-\indexentry{Helium!liquid density|hyperpage}{86}
-\indexentry{Fourier Transform|hyperpage}{86}
-\indexentry{Matlab|hyperpage}{86}
-\indexentry{plum-pudding|hyperpage}{118}
+\indexentry{plum-pudding|hyperpage}{112}

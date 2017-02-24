@@ -258,9 +258,9 @@ where an incident beam has the intensity $I_{0}$. This 1D simulation enables us 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-		\includegraphics[width=0.49\textwidth]{images/cluster-generation-2D.jpg}
-		\includegraphics[width=0.49\textwidth]{images/cluster-generation-1D.png}
-	\caption[Used electron densities in 2D real and Fourier space simulations.]{Left: Electron density of a $R\approx 100nm$ expanding sphere with $k=5$ nm, projected onto a 2D plane. Right: Blue curve, spherical projection of the 2D simulation to 1D. Red dashed line, point of expanding density at $k=5$ nm.}
+		a)\includegraphics[width=0.45\textwidth]{images/cluster-generation-2D.jpg}
+		b)\includegraphics[width=0.45\textwidth]{images/cluster-generation-1D.png}
+	\caption[Used electron densities in 2D real and Fourier space simulations.]{a) Electron density of a $R\approx \SI{100}{\nano\meter}$ expanding sphere with $k=\SI{5}{\nano\meter}$, projected onto a 2D plane. b) Blue curve, spherical projection of the 2D simulation to 1D. Red dashed line, point of expanding density at $k=\SI{5}{\nano\meter}$.}
 	\label{fig:cluster-generation}
 \end{figure}
 For the interpretation of the HeXe-cluster data that are discussed in the following chapter, 2D simulations were performed. These simulations model sphere-based electron densities of clusters and core--shell systems, and compute corresponding diffraction patterns. The simulations can be compared to the measured diffraction images or the reconstructed real-space images of HeXe-clusters. The results of the simulations support the analysis of experimentally measured data and the simulations furthermore allow the modeling of several thought-experiments, such as simulating various structures of the core--shell systems and comparing it to the experimental data. The 2D data of the simulations can optionally be reduced to 1D using a spherical integration (see Section \ref{sec:1d-proj-and-phase-reconstruction}) to be compared to the experimental data or analytical models. The clusters and core--shell systems are approximated using spheres, which is an acceptable estimation of the icosahedral cluster structure at the current resolution. The simulations are discussed in detail below.\\[1\baselineskip]
@@ -283,7 +283,7 @@ Similar to Section \ref{sec:pump--probe-considerations} and Reference \cite{Gork
 This sphere can be positioned arbitrarily in a 2D array, which simulates the real space image, using $\vec{R}\rightarrow \vec{R}-\vec{R_{0}}$, with $\vec{R_{0}}$ being the center of mass of the sphere. From here, it is simple to construct the desired real space core-shell system. The electron densities of multiple spheres consisting of arbitrary radii and densities can be a added together onto the 2D array. In these simulations, the density $\rho_{0}$ was set to $\rho_{0, \text{helium}}=1$ for liquid helium and $\rho_{0,\text{xenon}}=\frac{3.640}{0.1412}\approx 25.8$ for xenon, with the numerator of the fraction for $\rho_{0,\text{xenon}}$ is the density of bulk xenon\index{Xenon!bulk density} in g/cm$^{3}$ and the denominator is the density for liquid helium\index{Helium!liquid density} in g/cm$^{3}$. Multiple spheres were arranged on a large array of \num{\sim 1500 x \sim 1500}, which is comparable to the combined pnCCD image array size. The array is then Fourier transformed\index{Fourier Transform} using \textsc{Matlab}'s\index{Matlab} function \textit{fft2}, the output is rearranged using the function \textit{fftshift}, and squared.\\[1\baselineskip]
 \begin{figure}
 	\centering
-		\includegraphics[width=0.70\textwidth]{images/cluster-sphere-intact.pdf}
+		\includegraphics[width=0.70\textwidth]{images/cluster-sphere-intact.png}
 	\caption[Comparison of analytical derived scattering and numerical simulations.]{Comparison of analytical scattering from a sphere of radius $r=\SI{202}{\nano\meter}$ (black curve), Equation \eqref{eq:scattering from sphere}, and scattering of a sphere of radius $r=\SI{202}{\nano\meter}$ from 2D simulations projected onto 1D (green, dashed curve). The envelope of scattering intensity of a sphere (Porod's law) is $\propto \lvert \vec{Q}\rvert^{-4}$ (red curve). The analytical scattering and developed simulations agree well with each other.}
 	\label{fig:cluster-sphere-intact-2D}
 \end{figure}

@@ -1,21 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% pdfTeX Options
+%\pdfminorversion=4
+%\pdfcompresslevel=0
+%\pdfobjcompresslevel=0
+%_________________________________________
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% XMP Metadata first
+\providecommand{\pdfxopt}{a-1b}
+\begin{filecontents*}{\jobname.xmpdata}
+\setRGBcolorprofile{sRGB_IEC61966-2-1_black_scaled.icc}{sRGB_IEC61966-2-1_black_scaled}{sRGB IEC61966 v2.1 with black scaling}{http://www.color.org}
+\Author{Maximilian Jakob Bucher}
+\Title{Ultrafast Dynamics of Nanoparticles in Highly Intense X-Ray Pulses}
+\Keywords{LCLS\sep FEL\sep Cluster\sep Dynamics}
+\Subject{With the advent of X-ray free electron laser the Linac Coherent Light Source (LCLS), structural studies on non-repetitive and non-reproducible nanoparticles, such as single biomolecules appear imminent. A key challenge to increasing the resolution of single particle imaging is radiation damage. Only a sound understanding of the underlying damage processes, such as the nanoplasma expansion, can overcome this challenge and will lead to higher resolutions. Further, sacrificial layers have been proposed to slow the nanoplasma expansion.}
+\Publisher{Technische Universität Berlin}
+%
+\Copyright{This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.}
+\CopyrightURL{http://creativecommons.org/licenses/by/4.0/}
+%
+\PublicationType{book}
+%\doi{0.0.0.0}
+\end{filecontents*}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% DOCUMENTCLASS is KOMA-Script scrbook with documentation in http://mirrors.ctan.org/macros/latex/contrib/koma-script/doc/scrguide.pdf
 \documentclass[american,draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt]{scrbook}
+%__________________________________________________________________________________________________________________________
+%
+%
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGES
+\usepackage[\pdfxopt]{pdfx}
+\usepackage[LGR,T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+%\usepackage{substitutefont}
+\usepackage[main=american,german]{babel}
+\usepackage{newtxtext}
+%\usepackage{amsmath} Required Package in newtxmath
+\usepackage{newtxmath}
 \usepackage{textcomp}
-\usepackage{hyperxmp}
-\usepackage{amsmath}
-\usepackage{scrhack}
-\usepackage{listings}
 \usepackage[american]{isodate}
-%
-\usepackage{cancel}
+\usepackage{hologo}
+\usepackage{listings}
+\usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={english}]{doclicense}
 \usepackage{siunitx}
 \sisetup{
-	%fixed-exponent 			= 3					,
+	%redefine-symbols				= true				,
+	text-angstrom					= {Å}				,
+	math-angstrom					= {\text{Å}}		,
+	%fixed-exponent					= 3					,
 	list-units 						=	brackets	,
 	list-final-separator 	= {, and }	,
 	exponent-product			= \cdot			,
@@ -27,6 +64,9 @@
 \DeclareSIUnit[number-unit-product = {}]\photons{\, photons}
 \DeclareSIUnit[number-unit-product = {}]\pixels{\, pixels}
 %
+\usepackage{scrhack}
+\usepackage{titlepage}
+\usepackage{cancel}
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -35,18 +75,9 @@
 program@epstopdf=epstopdf
 --pdf-version 1.4
 }
-%\edef\hash{\string#}
-%\epstopdfsetup{
-% program@epstopdf=epstopdf
-%   --gsopts "-dPDFA -sProcessColorModel\hash DeviceCMYK
-%     -sPDFACompatibilityPolicy\hash 1
-%     -dCompatibilityLevel\hash 1.4",
-%}
 %–––––––––––––––––––––––––––––––––––
 \usepackage{setspace}%
-\usepackage[main=american,german]{babel}
-\usepackage{hologo}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Bib stuff
 \usepackage[english=american]{csquotes}
 \usepackage[style=phys,
@@ -95,26 +126,25 @@ program@epstopdf=epstopdf
       \setlength{\parsep}{\bibparsep}}}
   {\endlist}
   {\item}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%________________________________________________________
 \usepackage{makeidx}
-\usepackage{titlepage}
-\usepackage[type={CC},modifier={by},version={4.0},imagemodifier={-eu},lang={english}]{doclicense}
 \makeindex
-\usepackage{hyperref}
-%___________________________________
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % hyper setup for meta-data
+%\usepackage{hyperxmp}
+%\usepackage{hyperref}
 \hypersetup{%
-		%pdfTeX,
+		%pdftex,
+		%pdfa,
 		%shared hyperref and hyperxmp data
 		baseurl={https://github.com/Maderthaner/Thesis/blob/master/main.pdf},
-		pdfauthor={Maximilian Jakob Bucher},
-		pdfkeywords={LCLS, FEL, Cluster},
+		%pdfauthor={Maximilian Jakob Bucher},
+		%pdfkeywords={LCLS, FEL, Cluster},
 		pdflang={en},
 		%pdfproducer={pdftex},
-		pdfcreator={LaTeX with hyperref package},
-		pdfsubject={Free electron laser science},
-		pdftitle={Ultrafast Dynamics of Nanoparticles in Highly Intense X-Ray Pulses},
+		%pdfcreator={LaTeX with hyperref package},
+		%pdfsubject={Free electron laser science},
+		%pdftitle={Ultrafast Dynamics of Nanoparticles in Highly Intense X-Ray Pulses},
 		%hyperref specific options
 		%bookmarks=true,         % show bookmarks bar?
 		bookmarksnumbered=true,
@@ -130,24 +160,24 @@ program@epstopdf=epstopdf
 	  	filecolor=blue,      	% color of file links
 	  	urlcolor=blue           % color of external links
 		%hyperxmp specific options
-		pdfaconformance=B,
+		%pdfaconformance=B,
 		%pdfapart=1,
-		pdfauthortitle={Master of Science},
-		pdfcaptionwriter={Maximilian Jakob Bucher},
-		pdfcontactaddress={Technische Universität Berlin, Universitätsbibliothek, Dissertationsstelle, Fasanenstr. 88},
-		pdfcontactcity={Berlin},
-		pdfcontactcountry={Germany},
-		pdfcontactemail={dissertationen@ub.tu-berlin.de},
-		pdfcontactphone={+49(030)314-76129},
-		pdfcontactpostcode={10623},
-		pdfcontactregion={Berlin},
-		%pdfdate={2016},
-		pdfcontacturl={http://www.ub.tu-berlin.de/en/university-press-and-theses/dissertation-office/},
-		pdfcopyright={This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.},
-		pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
-		pdfmetalang={en-US}
+		%pdfauthortitle={Master of Science},
+		%pdfcaptionwriter={Maximilian Jakob Bucher},
+		%pdfcontactaddress={Technische Universität Berlin, Universitätsbibliothek, Dissertationsstelle, Fasanenstr. 88},
+		%pdfcontactcity={Berlin},
+		%pdfcontactcountry={Germany},
+		%pdfcontactemail={dissertationen@ub.tu-berlin.de},
+		%pdfcontactphone={+49(0)30 314-76129},
+		%pdfcontactpostcode={10623},
+		%pdfcontactregion={Berlin},
+		%pdfdate={2016-02-23},
+		%pdfcontacturl={http://www.ub.tu-berlin.de/en/university-press-and-theses/dissertation-office/},
+		%pdfcopyright={This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.},
+		%pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
+		%pdfmetalang={en}
 }
-\usepackage[a-1b]{pdfx}
+%
 %___________________________________
 %
 %
