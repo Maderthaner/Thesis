@@ -1,6 +1,6 @@
 \begin{theindex}
 
-  \item afterpulse, \hyperpage{23}
+  \item afterpulse, \hyperpage{22}
 
   \indexspace
 
@@ -9,101 +9,101 @@
 
   \indexspace
 
-  \item cluster size, \hyperpage{22}
-  \item Coulomb potential, \hyperpage{38}
+  \item cluster size, \hyperpage{21}
+  \item Coulomb potential, \hyperpage{36}
 
   \indexspace
 
   \item dispersion correction
-    \subitem complex, \hyperpage{36}
-  \item dopant, \hyperpage{25}
+    \subitem complex, \hyperpage{35}
+  \item dopant, \hyperpage{24}
 
   \indexspace
 
   \item electron density
-    \subitem surface softening, \hyperpage{41}
+    \subitem surface softening, \hyperpage{39}
   \item emittance, \hyperpage{10}
 
   \indexspace
 
-  \item Fourier Transform, \hyperpage{86}
+  \item Fourier Transform, \hyperpage{82}
   \item Free electron LASer in Hamburg
-    \subitem FLASH, \hyperpage{43}
+    \subitem FLASH, \hyperpage{41}
 
   \indexspace
 
-  \item Hagena, \hyperindexformat{\see {scaling law}}{22}
-    \subitem scaling parameter, \hyperpage{22}
-  \item Hawk software package, \hyperpage{78}
+  \item Hagena, \hyperindexformat{\see {scaling law}}{21}
+    \subitem scaling parameter, \hyperpage{21}
+  \item Hawk software package, \hyperpage{74}
   \item Helium
-    \subitem liquid density, \hyperpage{86}
+    \subitem liquid density, \hyperpage{81}
 
   \indexspace
 
-  \item imprint, \hyperpage{50}
+  \item imprint, \hyperpage{47}
   \item ionization
-    \subitem multistep, \hyperpage{38}
+    \subitem multistep, \hyperpage{36}
 
   \indexspace
 
   \item LCLS, 
 		\hyperindexformat{\seealso {Linac Coherent Light Source}}{6}
-  \item lead tungstate, \hyperpage{65, 66}
+  \item lead tungstate, \hyperpage{62, 63}
   \item light source, \hyperpage{7}
   \item Linac Coherent Light Source, \hyperpage{6, 7}
 
   \indexspace
 
-  \item Matlab, \hyperpage{82}, \hyperpage{86}
+  \item Matlab, \hyperpage{78}, \hyperpage{82}
   \item microbunching, \hyperpage{9}
 
   \indexspace
 
   \item nanoplasma
-    \subitem formation, \hyperpage{38}
+    \subitem formation, \hyperpage{36}
 
   \indexspace
 
-  \item oversampling, \hyperpage{77}
-    \subitem Nyquist rate, \hyperpage{77}
-    \subitem Nyquist-Shannon sampling theorem, \hyperpage{77}
+  \item oversampling, \hyperpage{73}
+    \subitem Nyquist rate, \hyperpage{73}
+    \subitem Nyquist-Shannon sampling theorem, \hyperpage{73}
 
   \indexspace
 
-  \item plum-pudding, \hyperpage{118}
-  \item pnCCD, \hyperpage{54}
-    \subitem CAMEX, \hyperpage{55}
-    \subitem common mode, \hyperpage{71}
-    \subitem gain, \hyperpage{55}
-    \subitem module, \hyperpage{54}
-    \subitem pedestal correction, \hyperpage{71}
-    \subitem pixel size, \hyperpage{54}
+  \item plum-pudding, \hyperpage{112}
+  \item pnCCD, \hyperpage{52}
+    \subitem CAMEX, \hyperpage{52}
+    \subitem common mode, \hyperpage{67}
+    \subitem gain, \hyperpage{53}
+    \subitem module, \hyperpage{51}
+    \subitem pedestal correction, \hyperpage{67}
+    \subitem pixel size, \hyperpage{52}
   \item psana
-    \subitem calibman, \hyperpage{71}
+    \subitem calibman, \hyperpage{67}
 
   \indexspace
 
-  \item refractive index, \hyperpage{36}
+  \item refractive index, \hyperpage{34}
 
   \indexspace
 
-  \item scaling law, \hyperpage{22}
-  \item self-seeding, \hyperpage{13}
-    \subitem soft x-ray, \hyperpage{14}
+  \item scaling law, \hyperpage{21}
+  \item self-seeding, \hyperpage{12}
+    \subitem soft x-ray, \hyperpage{13}
   \item spectral brightness, \hyperpage{5}
 
   \indexspace
 
-  \item time-of-flight, \hyperpage{50}
+  \item time-of-flight, \hyperpage{47}
 
   \indexspace
 
-  \item undulator, \hyperpage{8}
+  \item undulator, \hyperpage{7}
 
   \indexspace
 
   \item wave-vector
-    \subitem transfer, \hyperpage{32}
+    \subitem transfer, \hyperpage{30}
   \item wiggler, \hyperpage{7}
 
   \indexspace
@@ -111,6 +111,6 @@
   \item X-ray
     \subitem Bremsstrahlung, \hyperpage{5}
   \item Xenon
-    \subitem bulk density, \hyperpage{86}
+    \subitem bulk density, \hyperpage{81}
 
 \end{theindex}

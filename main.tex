@@ -8,14 +8,14 @@
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% XMP Metadata first
+% XMP Metadata first for pdfx package
 \providecommand{\pdfxopt}{a-1b}
 \begin{filecontents*}{\jobname.xmpdata}
 \setRGBcolorprofile{sRGB_IEC61966-2-1_black_scaled.icc}{sRGB_IEC61966-2-1_black_scaled}{sRGB IEC61966 v2.1 with black scaling}{http://www.color.org}
 \Author{Maximilian Jakob Bucher}
 \Title{Ultrafast Dynamics of Nanoparticles in Highly Intense X-Ray Pulses}
 \Keywords{LCLS\sep FEL\sep Cluster\sep Dynamics}
-\Subject{With the advent of X-ray free electron laser the Linac Coherent Light Source (LCLS), structural studies on non-repetitive and non-reproducible nanoparticles, such as single biomolecules appear imminent. A key challenge to increasing the resolution of single particle imaging is radiation damage. Only a sound understanding of the underlying damage processes, such as the nanoplasma expansion, can overcome this challenge and will lead to higher resolutions. Further, sacrificial layers have been proposed to slow the nanoplasma expansion.}
+\Subject{With the advent of X-ray free electron laser, such as the Linac Coherent Light Source (LCLS), structural studies on non-repetitive and non-reproducible nanoparticles, such as single biomolecules appear imminent. A key challenge to increasing the resolution of single particle imaging is radiation damage. Only a sound understanding of the underlying damage processes, such as the nanoplasma expansion, can overcome this challenge and will lead to higher resolutions. Further, sacrificial layers have been proposed to slow the nanoplasma expansion.}
 \Publisher{Technische Universität Berlin}
 %
 \Copyright{This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.}
@@ -27,21 +27,20 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% DOCUMENTCLASS is KOMA-Script scrbook with documentation in http://mirrors.ctan.org/macros/latex/contrib/koma-script/doc/scrguide.pdf
-\documentclass[american,draft=false,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt]{scrbook}
+\documentclass[a4paper,onecolumn,twoside,portrait,final,american,titlepage=firstiscover,bibliography=totocnumbered,index=totocnumbered,11pt]{scrbook}
 %__________________________________________________________________________________________________________________________
 %
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGES
-\usepackage[\pdfxopt]{pdfx}
-\usepackage[LGR,T1]{fontenc}
-\usepackage[utf8]{inputenc}
-%\usepackage{substitutefont}
+\usepackage[T1,LGR]{fontenc}
+%\usepackage[utf8]{inputenc} % loaded later with pdfx
+%\usepackage{substitutefont} % Not needed, using standard fonts
 \usepackage[main=american,german]{babel}
 \usepackage{newtxtext}
-%\usepackage{amsmath} Required Package in newtxmath
 \usepackage{newtxmath}
+%\usepackage{amsmath} % already loaded in newtxmath
 \usepackage{textcomp}
 \usepackage[american]{isodate}
 \usepackage{hologo}
@@ -63,10 +62,14 @@
 }%
 \DeclareSIUnit[number-unit-product = {}]\photons{\, photons}
 \DeclareSIUnit[number-unit-product = {}]\pixels{\, pixels}
-%
+\usepackage{cancel}
+\usepackage{setspace}
+\usepackage[\pdfxopt]{pdfx}
+\inputencoding{utf8} % for inputenc package
+% Stuff for titlepage
 \usepackage{scrhack}
 \usepackage{titlepage}
-\usepackage{cancel}
+%
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -76,7 +79,6 @@ program@epstopdf=epstopdf
 --pdf-version 1.4
 }
 %–––––––––––––––––––––––––––––––––––
-\usepackage{setspace}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Bib stuff
 \usepackage[english=american]{csquotes}
@@ -128,10 +130,10 @@ program@epstopdf=epstopdf
   {\item}
 %________________________________________________________
 \usepackage{makeidx}
-\makeindex
+%\makeindex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% hyper setup for meta-data
-%\usepackage{hyperxmp}
+% hyper setup (loaded with package pdfx)
+%\usepackage{hyperxmp} % not used, doing Metadata with pdfx
 %\usepackage{hyperref}
 \hypersetup{%
 		%pdftex,
@@ -230,7 +232,7 @@ program@epstopdf=epstopdf
 %
 %\newrefcontext[sorting=ydnt]   %%%breaks sorting
 \forcsvlist{\listadd\boldnames}
-  {{a8515f7f0ac3f1c06269b73d54120ce0}}
+  {{a8515f7f0ac3f1c06269b73d54120ce0}} % Find the hash of your name(s) in the .bbl file
 \forcsvlist{\listadd\boldnames}
   {{f61b622ebbc08176588c61a0ba5515e2}}
 \printbibliography[env=mypubs, title={Publikationsliste}, subtype=mypubs]
