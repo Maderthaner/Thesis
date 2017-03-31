@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'main.blg'
-[33] biber-MSWIN64:303> INFO - === 
-[62] Biber.pm:359> INFO - Reading 'main.bcf'
-[177] Biber.pm:835> INFO - Found 206 citekeys in bib section 0
-[194] Biber.pm:3670> INFO - Processing section 0
-[219] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[280] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[386] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[1266] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1266] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1266] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[1266] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1428] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1483] bbl.pm:712> INFO - Output to main.bbl
+[47] biber-darwin:303> INFO - === Fri Mar 31, 2017, 12:16:20
+[77] Biber.pm:359> INFO - Reading 'main.bcf'
+[199] Biber.pm:835> INFO - Found 209 citekeys in bib section 0
+[217] Biber.pm:3670> INFO - Processing section 0
+[232] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[291] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[399] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[1359] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1359] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1359] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[1359] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1546] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1597] bbl.pm:712> INFO - Output to main.bbl

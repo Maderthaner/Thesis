@@ -1184,6 +1184,7 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{{\href{http://creativecommons.org/licenses/by-nc-nd/3.0/de/}{\ccbyncndeu}}}
       \field{title}{Ionization and plasma dynamics of single large xenon clusters in superintense XUV pulses}
       \field{type}{Thesis}
       \field{year}{2013}
@@ -2271,6 +2272,82 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevLett.98.198302
       \endverb
     \endentry
+    \entry{Jurek-2008-EPJ}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b1d903bf240c886b2cb39b768384d8ce}{%
+           family={Jurek},
+           familyi={J\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7a270850459f4922f34247153599f9b5}{%
+           family={Faigel},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a47ab35da81be4e6174808638f1bc6cf}
+      \strng{fullhash}{a47ab35da81be4e6174808638f1bc6cf}
+      \strng{authornamehash}{a47ab35da81be4e6174808638f1bc6cf}
+      \strng{authorfullhash}{a47ab35da81be4e6174808638f1bc6cf}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{issn}{1434-6060}
+      \field{journaltitle}{{The effect of tamper layer on the explosion dynamics of atom clusters}}
+      \field{month}{11}
+      \field{number}{1}
+      \field{volume}{50}
+      \field{year}{2008}
+      \field{pages}{35\bibrangedash 43}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1140/epjd/e2008-00189-8
+      \endverb
+      \verb{eprint}
+      \verb 0807.0111
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.com/index/10.1140/epjd/e2008-00189-8
+      \endverb
+    \endentry
+    \entry{Jurek-2009-EPL}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b1d903bf240c886b2cb39b768384d8ce}{%
+           family={Jurek},
+           familyi={J\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7a270850459f4922f34247153599f9b5}{%
+           family={Faigel},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a47ab35da81be4e6174808638f1bc6cf}
+      \strng{fullhash}{a47ab35da81be4e6174808638f1bc6cf}
+      \strng{authornamehash}{a47ab35da81be4e6174808638f1bc6cf}
+      \strng{authorfullhash}{a47ab35da81be4e6174808638f1bc6cf}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{issn}{0295-5075}
+      \field{journaltitle}{{The effect of inhomogenities on single-molecule imaging by hard XFEL pulses}}
+      \field{month}{6}
+      \field{number}{6}
+      \field{volume}{86}
+      \field{year}{2009}
+      \field{pages}{68003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1209/0295-5075/86/68003
+      \endverb
+      \verb{eprint}
+      \verb arXiv:0902.3563v1
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0295-5075/86/i=6/a=68003?key=crossref.b59fb83c3aa4e758fe1fc3ffec351665
+      \endverb
+    \endentry
     \entry{Hau-Riege-2010-PRL}{article}{}
       \name{author}{14}{}{%
         {{hash=7bf269638372624e322ae72a26e424e0}{%
@@ -2432,6 +2509,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0953-4075}
       \field{journaltitle}{Journal of Physics B}
+      \field{note}{{\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}}}
       \field{number}{18}
       \field{title}{{Charge recombination in soft x-ray laser produced nanoplasmas}}
       \field{volume}{41}
@@ -2564,6 +2642,71 @@
       \range{pages}{50}
       \verb{doi}
       \verb 10.1103/RevModPhys.82.1793
+      \endverb
+    \endentry
+    \entry{Lutman-2013-PRL}{article}{}
+      \name{author}{8}{}{%
+        {{hash=c280724cb9add2d9f06510d8690d5803}{%
+           family={Lutman},
+           familyi={L\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5248d2e7d2de29a33bc96bbe7cd84a45}{%
+           family={Coffee},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b395c6b81facb01ba015775bd495e50f}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=840e7b6153930be34dfe245feeab076b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8fe743fbe03ab50adddb41bce8d22ace}{%
+           family={Krzywinski},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6f88c20adc8339685eba1d7f2244df42}{%
+           family={Maxwell},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b32b04716d2073580b3dcff57d0d51dc}{%
+           family={Messerschmidt},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0ea188f03ec9a2f547590ff75fcc4d91}{%
+           family={Nuhn},
+           familyi={N\bibinitperiod},
+           given={H.\bibnamedelimi D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{24606155d802dfa15a72b4e76aebae2d}
+      \strng{fullhash}{24606155d802dfa15a72b4e76aebae2d}
+      \strng{authornamehash}{24606155d802dfa15a72b4e76aebae2d}
+      \strng{authorfullhash}{24606155d802dfa15a72b4e76aebae2d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{3}
+      \field{number}{13}
+      \field{title}{Experimental demonstration of femtosecond two-color x-ray free-electron lasers}
+      \field{type}{Journal Article}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{134801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/physrevlett.110.134801
       \endverb
     \endentry
     \entry{Mills-2005-IUCR}{article}{}
@@ -2905,8 +3048,8 @@
       \strng{fullhash}{c0f9880d2e187224284eacd9213e330d}
       \strng{authornamehash}{c0f9880d2e187224284eacd9213e330d}
       \strng{authorfullhash}{c0f9880d2e187224284eacd9213e330d}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
@@ -3692,8 +3835,8 @@
       \strng{fullhash}{26ad8ff3c1673f4e760660dc5979d35b}
       \strng{authornamehash}{26ad8ff3c1673f4e760660dc5979d35b}
       \strng{authorfullhash}{26ad8ff3c1673f4e760660dc5979d35b}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01689002}
@@ -4032,8 +4175,8 @@
       \strng{fullhash}{db1d65a5e4883840830d2bedb76593e1}
       \strng{authornamehash}{5e5dac7847899cea66008631fe69d104}
       \strng{authorfullhash}{db1d65a5e4883840830d2bedb76593e1}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -4620,71 +4763,6 @@
       \verb https://www.osapublishing.org/abstract.cfm?URI=oe-24-11-11768
       \endverb
     \endentry
-    \entry{Lutman-2013-PRL}{article}{}
-      \name{author}{8}{}{%
-        {{hash=c280724cb9add2d9f06510d8690d5803}{%
-           family={Lutman},
-           familyi={L\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=5248d2e7d2de29a33bc96bbe7cd84a45}{%
-           family={Coffee},
-           familyi={C\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=b395c6b81facb01ba015775bd495e50f}{%
-           family={Ding},
-           familyi={D\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=840e7b6153930be34dfe245feeab076b}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=8fe743fbe03ab50adddb41bce8d22ace}{%
-           family={Krzywinski},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6f88c20adc8339685eba1d7f2244df42}{%
-           family={Maxwell},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=b32b04716d2073580b3dcff57d0d51dc}{%
-           family={Messerschmidt},
-           familyi={M\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0ea188f03ec9a2f547590ff75fcc4d91}{%
-           family={Nuhn},
-           familyi={N\bibinitperiod},
-           given={H.\bibnamedelimi D.},
-           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{24606155d802dfa15a72b4e76aebae2d}
-      \strng{fullhash}{24606155d802dfa15a72b4e76aebae2d}
-      \strng{authornamehash}{24606155d802dfa15a72b4e76aebae2d}
-      \strng{authorfullhash}{24606155d802dfa15a72b4e76aebae2d}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{3}
-      \field{number}{13}
-      \field{title}{Experimental demonstration of femtosecond two-color x-ray free-electron lasers}
-      \field{type}{Journal Article}
-      \field{volume}{110}
-      \field{year}{2013}
-      \field{pages}{134801}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/physrevlett.110.134801
-      \endverb
-    \endentry
     \entry{Marinelli-2015-NatComm}{article}{}
       \name{author}{16}{}{%
         {{hash=82c58565d1f3c289e87047a108984f4e}{%
@@ -4781,6 +4859,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
       \field{month}{3}
+      \field{note}{{\href{http://creativecommons.org/licenses/by/4.0/}{\ccby}}}
       \field{title}{High-intensity double-pulse X-ray free-electron laser}
       \field{volume}{6}
       \field{year}{2015}
@@ -5695,8 +5774,8 @@
       \strng{fullhash}{4d65c22c640c793e9489ee7a920417a6}
       \strng{authornamehash}{4d65c22c640c793e9489ee7a920417a6}
       \strng{authorfullhash}{4d65c22c640c793e9489ee7a920417a6}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -6228,6 +6307,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
+      \field{note}{{\href{http://creativecommons.org/licenses/by-nc/3.0/us}{\ccbync}}}
       \field{title}{Crystal Structure Determinations of Xenon Nanoparticles and X-ray Induced Transient Lattice Contraction in the Solid-to-Plasma Transition}
       \field{type}{phdthesis}
       \field{year}{2016}
@@ -7159,6 +7239,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New Journal of Physics}
+      \field{note}{{\href{https://creativecommons.org/licenses/by/3.0/}{\ccby}}}
       \field{number}{5}
       \field{title}{{Rare-gas clusters in intense VUV, XUV and soft x-ray pulses: signatures of the transition from nanoplasma-driven cluster expansion to Coulomb explosion in ion and electron spectra}}
       \field{volume}{13}
@@ -8330,6 +8411,70 @@
       \endverb
       \verb{url}
       \verb http://link.aps.org/doi/10.1103/PhysRevE.80.031905
+      \endverb
+    \endentry
+    \entry{Ziaja-2011-PRA}{article}{}
+      \name{author}{7}{}{%
+        {{hash=098909d352cdf51b06dff4d87720616f}{%
+           family={Ziaja},
+           familyi={Z\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bb0c6b9d815e9719161ebe88dec5217c}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi N.},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=aa19a278ae5c87854f70a6a8a4ee0a63}{%
+           family={Santra},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2357f4d0ddbcc5c03260d7f852cc1774}{%
+           family={Laarmann},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8a3224a190ba4c7e495bd30921aca00d}{%
+           family={Weckert},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1eff8bf926766def47498beeb65eac5c}{%
+           family={Bostedt},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=44acca6f413dd3c6d5c049a3477e36de}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2806f53165b047e232f15120e6cbb33c}
+      \strng{fullhash}{2806f53165b047e232f15120e6cbb33c}
+      \strng{authornamehash}{2806f53165b047e232f15120e6cbb33c}
+      \strng{authorfullhash}{2806f53165b047e232f15120e6cbb33c}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{9}
+      \field{title}{{Heterogeneous clusters as a model system for the study of ionization dynamics within tampered samples}}
+      \field{volume}{84}
+      \field{year}{2011}
+      \field{pages}{033201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.84.033201
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevA.84.033201
       \endverb
     \endentry
     \entry{VonHaeften-1997-PRL}{article}{}
