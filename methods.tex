@@ -180,8 +180,8 @@ The usage of the program is straight-forward in three steps. First, the diffract
 \begin{figure}
   \begin{center}
    \includegraphics[width=1\linewidth]{images/Phase-retrieval-image.png}\\
-   \includegraphics[height=3.5cm]{images/Phase-retrieval-error.png}
-    \caption[Illustration of resolution enhancement and diffraction image cropping.]{Illustration of resolution enhancement due to detector combination. The diffraction pattern in Figure \ref{fig:pnCCD-image-aligned} of a Xe-cluster has been reconstructed to illustrate several cases. Top left: Rear pnCCD data only reconstruction yields a non-spherical object; error criterion shows no convergence (see graph). Top middle: Front \& rear pnCCD data results in a spherical object but missing areas next to the rear pnCCD disturb the reconstruction process, such that the electron density becomes unphysical. Top right: A cropped diffraction image without the missing areas next to rear pnCCD enables a physical reconstruction.}
+   \includegraphics[height=4.2cm]{images/Phase-retrieval-error.png}
+    \caption[Illustration of resolution enhancement and diffraction image cropping.]{Illustration of resolution enhancement due to detector combination. The diffraction pattern in Figure \ref{fig:pnCCD-image-aligned} of a Xe-cluster has been reconstructed to illustrate several cases. Top left: Rear pnCCD data only reconstruction yields a non-spherical object; error criterion shows no convergence (see bottom graph). Top middle: Front \& rear pnCCD data results in a spherical object but missing areas next to the rear pnCCD disturb the reconstruction process, such that the electron density becomes unphysical. Top right: A rectangular cropped diffraction image using areas with significant photon signal enables a physical reconstruction.}
 \label{fig:phase-retrieval-image}
   \end{center}
 \end{figure}
@@ -233,14 +233,14 @@ The algorithm follows the fundamental scheme described in Section \ref{sec:phase
 	\caption[Influence of X-ray pump--X-ray probe pulses to a diffraction image.]{Electron density of spheres that show surface softening (left) and resulting scattering patterns (right). In the right panel, the red line is the scattering of an intact sphere, the brown line is the scattering of an expanding sphere with $k=$ \SI{5}{\nano\meter}, and the blue line shows the combined scattering of an intact and expanding sphere that has been pumped with \SI{10}{\percent} and probed with \SI{90}{\percent} of the overall pulse energy.}
 	\label{fig:electron-density-convoluted-object}
 \end{figure}
-For the X-ray pump--X-ray probe diffractive imaging experiment of this thesis, both pulses contribute to the scattering image. But, in this thesis experiment, only the diffraction image from the probe-pulse is interesting. This is why the pump-pulse was set to \SI{\sim 10}{\percent} of the overall pulse energy, and therefore, the pump-pulse did not contribute significantly to the diffraction image. However, in order to simulate the effects of the pump-pulse to the diffraction image, a 1D simulation is conducted using electron densities of spheres, $\rho\left(R\right)$. At our present resolution the cluster can be well-simulated using spheres (see Section \ref{sec:saxs}). To simulate the radiation damage that is induced by the pump-pulse, the spheres are allowed to undergo a surface softening. Mathematically, this can be described as an exponential decay according to the model \cite{Gorkhover-2016-NatPho}
+For the X-ray pump--X-ray probe diffractive imaging experiment of this thesis, both pulses contribute to the scattering image. But, in this thesis experiment, only the diffraction image from the probe-pulse is interesting. This is why the pump-pulse was set to \SI{\sim 10}{\percent} of the overall pulse energy, and therefore, the pump-pulse did not contribute significantly to the diffraction image. However, in order to simulate the effects of the pump-pulse to the diffraction image, a 1D simulation is conducted using electron densities of spheres, $\rho\left(R\right)$. At our present resolution the cluster can be well-simulated using spheres (see Section \ref{sec:saxs}). To simulate the radiation damage that is induced by the pump-pulse, the spheres are allowed to undergo a surface softening. This can be simulated by an exponential decay according to the model described in \cite{Gorkhover-2016-NatPho}, although, it should be noted that more recent theoretic investigations show that the electron density expansion can be better estimated using a Fermi-function \cite{Peltz-2014-PRL}. We write,
 \begin{align}
 \rho\left(R, k\right)&=\begin{cases}
 1 & \text{for $r-k \geq R \geq 0$},\\
 e^{\frac{(r-k)-R}{k}}&\text{for $r > R - k$},
 \end{cases}
 \intertext{where $r$ is the cluster radius, $R$ is the distance from the center of the cluster, and $k$ an expansion parameter such that}
-\int_{0}^{\infty}\rho\left(R, k\right)dR &= r,\quad \text{if } 0<k<r 
+\int_{0}^{\infty}\rho\left(R, k\right)dR &= r,\quad \text{if } 0<k<r.
 \label{eq:el-density-expanding}
 \end{align}
 The electron density can then be Fourier transformed into reciprocal space using the transformation in 1D due to the symmetry. With the spatial frequencies, Q, we may note \citep{Guinier-1955-JWS}

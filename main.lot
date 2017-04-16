@@ -17,7 +17,7 @@
 \contentsline {table}{\numberline {\relax 3.1}{\ignorespaces Summary of LCLS beam parameters during experiment.}}{48}{table.3.1}
 \contentsline {table}{\numberline {\relax 3.2}{\ignorespaces pnCCD gain modes and typical ADU values at \SI {1}{\kilo \electronvolt } photons.}}{53}{table.3.2}
 \contentsline {table}{\numberline {\relax 3.3}{\ignorespaces Installed vacuum pumps in the experiment.}}{54}{table.3.3}
-\contentsline {table}{\numberline {\relax 3.4}{\ignorespaces Terminal velocities of some rare gases at room temperature.}}{58}{table.3.4}
+\contentsline {table}{\numberline {\relax 3.4}{\ignorespaces Terminal velocities of some rare gases at room temperature, $T=\SI {293.15}{\kelvin }$.}}{58}{table.3.4}
 \contentsline {table}{\numberline {\relax 3.5}{\ignorespaces Applied voltages to the time-of-flight spectrometer (ion side use only).}}{61}{table.3.5}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {\relax 4.1}{\ignorespaces Typical parameters used in the Hawk software package.}}{75}{table.4.1}

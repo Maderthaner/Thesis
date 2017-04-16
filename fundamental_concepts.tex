@@ -12,7 +12,7 @@ This chapter condenses the theoretical concepts that will recur throughout this 
 %%%%%%%%%%%%
 %The advance of X-ray free electron laser in the recent years has enabled experimental ideas from long ago but has also opened entirely new branches to research \citep{Pellegrini-2016-RMP,Bostedt-2016-RMP}. So, let us start by investigating how that is. Thus far mostly synchrotron radiation facilities have provided X-rays to a great variety of scientific communities.
 %Electromagnetic radiation or light in the X-ray wavelength regime\footnote{Wavelengths of 0.01 of 10nm.} are world famous for their applications in medicine, where X-ray images\index{X-ray!images} allow a non-invasive look inside the body. X-rays are also heavily used in science, where they are heavily used to reveal structures of very small particles, for example proteins - the workhorse bio-molecule in the human body.
-X-rays were first created through \textit{Bremsstrahlung}\index{X-ray!Bremsstrahlung}, where an electron beam with kinetic energies of \SIrange{0.1}{100}{\kilo\electronvolt} hits a block of copper and the deceleration of electrons in the copper led to the creation of X-rays. Since then, there has been immense progress in the creation of X-rays. For scientific purposes, X-rays are commonly created in X-ray synchrotron light sources and are often referred to as a ``synchrotron facility''. In a synchrotron facility, electrons are produced in bursts by an electron gun and formed to a collimated electron bunch. Then, these electrons are accelerated near the speed of light, and injected into a synchrotron that keeps the kinetic energy of the electrons constant. In a synchrotron, the electrons are deflected by bending magnets to travel around a closed-loop path. The deflection of the electrons at a bending magnet leads to the emission of X-rays. Typically, a synchrotron can store many electron bunches allowing a high repetition rate of light pulses on the order of megahertz. The X-ray pulses are characterized through a parameter that is called spectral brightness \citep{Mills-2005-IUCR} or sometimes brilliance\index{brilliance|see{spectral brightness}}. We can define the spectral brightness\index{spectral brightness} as \citep{Als-Nielson-2011-JWS}
+X-rays were first created through \textit{Bremsstrahlung}\index{X-ray!Bremsstrahlung}, where an electron beam with kinetic energies of \SIrange{0.1}{100}{\kilo\electronvolt} hits a block of copper and the deceleration of electrons in the copper led to the creation of X-rays. Since then, there has been immense progress in the creation of X-rays. For scientific purposes, X-rays are commonly created in X-ray synchrotron light sources and are often referred to as a ``synchrotron facility''. In a synchrotron facility, electrons are produced in bursts by an electron gun and formed to a collimated electron bunch. Then, these electrons are accelerated near the speed of light, and injected into a synchrotron that keeps the kinetic energy of the electrons constant. In a synchrotron, the electrons are deflected by bending magnets (see Figure \ref{fig:undulator}a) to travel around a closed-loop path. The deflection of the electrons at a bending magnet leads to the emission of X-rays. Typically, a synchrotron can store many electron bunches allowing a high repetition rate of light pulses on the order of megahertz. The X-ray pulses are characterized through a parameter that is called spectral brightness \citep{Mills-2005-IUCR} or sometimes brilliance\index{brilliance|see{spectral brightness}}. We can define the spectral brightness\index{spectral brightness} as \citep{Als-Nielson-2011-JWS}
 \begin{equation}
 B = \frac{n}{A\ \Theta\ \Delta\! E},
 \label{eq:spectral-brightness}
@@ -24,12 +24,12 @@ with $n$ being the number of photons per second, $A$ the source area, $\Theta$ t
 	\caption[Aerial view of the Linac Coherent Light Source.]{Aerial view of the Linac Coherent Light Source\index{Linac Coherent Light Source}. LCLS\index{LCLS|seealso {Linac Coherent Light Source}} uses the last third of SLAC's linear accelerator but is overall a multikilometer long machine. The accelerator and buildings are stretched far because of the light generation process. From \citep{SLAC-2009-Flickr}}
 	\label{fig:aerial-view-lcls}
 \end{figure}
-To get a numerical understanding, let us look at sequential photon absorption dynamics in atoms and molecules. One can conservatively estimate that a typical absorption cross section for soft X-rays\footnote{Soft X-rays have wavelengths of \SIrange{10}{\sim 0.2}{\nano\meter}} is around $\sigma = 1$ megabarn (Mb) \citep{Bucksbaum-2011-Book}. Typical X-ray foci\footnote{The focus size at the AMO instrument of LCLS is $\SI{1}{\micro\meter\squared}$.} are $A = \SI{1}{\micro\meter\squared}$ such that the number of photons, $n_{in}$, needed to absorb just one photon per atom, $n_{abs}$, is
+To get a numerical understanding, let us look at sequential photon absorption dynamics in atoms and molecules. One can conservatively estimate that a typical absorption cross section for soft X-rays\footnote{Soft X-rays have wavelengths of \SIrange{10}{\sim 0.2}{\nano\meter}} is around $\sigma = 1$ megabarn (Mb) \citep{Bucksbaum-2011-Book}. Typical X-ray foci\footnote{The focus size at the AMO instrument of LCLS is $\SI{1}{\micro\meter\squared}$.} are $A = \SI{1}{\micro\meter\squared}$ such that the number of photons, $n_{in}$, needed to absorb just one photon per atom, $n_{abs}=1$, is
 \begin{equation}
 n_{in} = \frac{n_{abs} A}{\sigma} = \frac{10^{-8}}{10^{-18}}\si[per-mode = fraction]{\cancel\square\centi\meter\per\cancel\square\centi\meter}=10^{10}\qquad \mathrm{photons.}
 \label{eq:absorption-cross-section}
 \end{equation}
-We can compare this to a modern synchrotron source, for example, the Advanced Photon Source at Argonne National Laboratory. This synchrotron facility produces \num{\sim e6} photons per pulse in the Si(111) bandwidth at pulse durations of a few tens of picoseconds \cite{Young-2017-PC}. That is far out of reach for investigating non-linear, or multi-photon, processes. While this back of the envelope type of calculation might be off by an order of magnitude or so depending on the specific case, it illustrates the orders of magnitude increase in the number of photons scientists were looking for to unravel entirely new aspects of X-ray science. As it is not possible to use conventional optical methods to increase the number of X-ray photons, drastic ideas were needed. Reference \citep{Madey-1971-JAP} described in the 1970's the idea of coherent radiation in the ultraviolet to X-ray region, and over ten years later, the construction of free electron lasers was proposed \citep{Kondratenko-1980-PA,Bonifacio-1984-OC}. The Section \ref{sec:sase} discusses the laser-like radiation in the X-ray region of these light sources in more detail.\\[1\baselineskip]
+We can compare this to a modern synchrotron source, for example, the Advanced Photon Source at Argonne National Laboratory. This synchrotron facility produces \num{\sim e6} photons per pulse in the Si(111) bandwidth at similar focal area conditions and with pulse durations of \SI{40}{\pico\second} \cite{Young-2017-PC}. That is far out of reach for investigating non-linear or multi-photon processes. While this back of the envelope type of calculation might be off by an order of magnitude or so depending on the specific case, it illustrates the orders of magnitude increase in the number of photons scientists were looking for to unravel entirely new aspects of X-ray science. As it is not possible to use conventional optical methods to increase the number of X-ray photons, drastic ideas were needed. Reference \citep{Madey-1971-JAP} described in the 1970's the idea of coherent radiation in the ultraviolet to X-ray region, and over ten years later, the construction of free electron lasers was proposed \citep{Kondratenko-1980-PA,Bonifacio-1984-OC}. The Section \ref{sec:sase} discusses the laser-like radiation in the X-ray region of these light sources in more detail.\\[1\baselineskip]
 %
 %Free electron lasers, amplify the light along a straight line to create laser-like radiation. 
 Construction of the first hard XFEL, the Linac Coherent Light Source\index{Linac Coherent Light Source}, finished in 2009. Figure \ref{fig:aerial-view-lcls} shows LCLS from a birds-eye view. LCLS is able to create \num{\sim e12} photons per pulse and achieves pulse-lengths of a few femtoseconds. The beam parameters of XFELs increased the peak brightness that is available at user facilities by many orders of magnitude\footnote{See Figure \ref{fig:soft-xray-self-seeding} for an illustration of the improvement in peak brightness.}. This allows the study of, for example, the above mentioned sequential absorption of photons in atoms and molecules \cite{Young-2010-Nature,Berrah-2011-PNAS}, non-linear dynamics of atoms \cite{Rohringer-2012-Nature}, the ultrafast movement of electrons in chemical reactions \cite{Dell-Angela-2013-Science,Picon-2016-NatComm,Rudenko-2017-Nature}, and the imaging of nanoparticles \cite{Seibert-2011-Nature,Gorkhover-2012-PRL}.\\[1\baselineskip]
@@ -38,7 +38,7 @@ Only a few free-electron lasers (FELs) exist today. The Free-elelectron LASer Ha
 %
 %
 %
-\subsection{From bending magnets to undulators}\label{sec:undulator}
+\subsection{Generating X-rays with undulators}\label{sec:undulator}
 %%%%%%%%%
 %- Idea and schematic setup\\
 %- Explain SASE including micro-bunching\\
@@ -52,20 +52,24 @@ Only a few free-electron lasers (FELs) exist today. The Free-elelectron LASer Ha
 	%\caption[Schematic setup of an undulator.]{Schematic setup of an undulator with a period of $\lambda_{U}$. (1) Magnets in alternating polarity; the arrows indicate the direction of the magnetic field. (2) Incoming electron bunch near the speed of light. (3) Emitted light in beam direction due to sinusodial movement of the electron bunch. From \citep{holst-2005-wiki}.}
 	\label{fig:undulator}
 \end{figure}
-In the initial X-ray synchrotron light sources\index{light source}, the radiation was generated using bending magnets\index{bending magnets} as explained earlier in Section \ref{sec:xfel}. A schematic setup of a bending magnet can be seen in Figure \ref{fig:undulator}. The first improvement to creating X-rays over bending magnet sources was through a wiggler\index{wiggler}. Wigglers consist of magnets arranged in an alternating polarity. An electron bunch traveling through a wiggler is ``wiggled'' along its path due to magnetic fields, which causes the particles to emit radiation. Wigglers can be considered as a series of bending magnets, which is why the total emitted power, P, is proportional to the number of magnets, n$_{\text{mag}}$, \citep{Brown-1983-NIMPR}
-\begin{equation}
-\text{P} \propto \text{n}_{\text{mag}},\quad \text{in a wiggler magnet.}
-\end{equation}
-The emitted radiation has a broad, continuous spectrum and the center of that spectrum can be controlled by changing the speed, or kinetic energy, of the electron bunch. For X-rays, wigglers were first used by the \textit{Hamburger Synchrotronstrahlungslabor} (HASYLAB) at DESY and the Stanford Synchrotron Radiation Light-source (SSRL) at SLAC in the late 1970's to early 80's. Independently from wigglers, undulators\index{undulator} were developed \citep{Williams-2009-xb}. Wigglers and undulators create radiation on the same principle: an electron bunch is accelerated near the speed of light and then forced on a sinusoidal pathway. 
+%In the initial X-ray synchrotron light sources\index{light source}, the radiation was generated using bending magnets\index{bending magnets} as explained earlier in Section \ref{sec:xfel}. A schematic setup of a bending magnet can be seen in Figure \ref{fig:undulator}. The first improvement to creating X-rays over bending magnet sources was through a wiggler\index{wiggler}.
+In X-ray free-electron lasers, X-rays are generated from an electron bunch in an undulator. Undulators consist of magnets arranged in an alternating polarity. An electron bunch traveling through an undulator is ``wiggled'' along its path due to the magnetic fields, which cause the electrons to emit radiation (see Figure \ref{fig:undulator}c).
+%Wigglers consist of magnets arranged in an alternating polarity. An electron bunch traveling through a wiggler is ``wiggled'' along its path due to magnetic fields, which causes the particles to emit radiation. Wigglers can be considered as a series of bending magnets, which is why the total emitted power, P, is proportional to the number of magnets, n$_{\text{mag}}$, \citep{Brown-1983-NIMPR}
+%\begin{equation}
+%\text{P} \propto \text{n}_{\text{mag}},\quad \text{in a wiggler magnet.}
+%\end{equation}
+%The emitted radiation has a broad, continuous spectrum and the center of that spectrum can be controlled by changing the speed, or kinetic energy, of the electron bunch. For X-rays, wigglers were first used by the \textit{Hamburger Synchrotronstrahlungslabor} (HASYLAB) at DESY and the Stanford Synchrotron Radiation Light-source (SSRL) at SLAC in the late 1970's to early 80's. Independently from wigglers, undulators\index{undulator} were developed \citep{Williams-2009-xb}. Wigglers and undulators create radiation on the same principle: an electron bunch is accelerated near the speed of light and then forced on a sinusoidal pathway. 
 %In undulators, the separation of magnets is specific and named undulator period, $\lambda_{U}$. 
-Although wigglers and undulators are large constructs of a few meters and their magnet spacing is on the order of centimeters, traversing electrons can emit radiation on the nanometer wavelength range. This is due to relativistic effects. In the frame of the electrons, the magnet spacing appears shorter. Wigglers and undulators can be characterized by the strength parameter, $K$, which is given by \citep{Huang-2007-PRSTAB}
+Although undulators are large constructs of a few meters and their magnet spacing is on the order of centimeters, traversing electrons near the speed of light can emit radiation on the nanometer wavelength range. This is due to a relativistic effect. In the frame of the electrons, the magnet spacing appears shorter.\\[1\baselineskip]
+%
+Undulators can be characterized by the strength parameter, $K$, which is given by \citep{Huang-2007-PRSTAB}
 \begin{align}
 K &= \frac{e\ B_{\text{max}}\ \lambda_{U}}{2 \pi\ m_{e}\ c},
-\intertext{where $e$ is the elementary charge, $B_{\text{max}}$ is the maximum magnetic field in the undulator or wiggler, $m_{e}$ is the mass of an electron, $c$ is the speed of light, and $\lambda_{U}$ is the so-called undulator period that corresponds to the magnet spacing. $K$ can be expressed in convenient units}
-K &\approx 0.934\ B_{\text{max}}\ \lambda_{U}\qquad \left[\si{\tesla\centi\meter}\right],
+\intertext{where $e$ is the elementary charge, $B_{\text{max}}$ is the maximum magnetic field in the undulator or wiggler, $m_{e}$ is the mass of an electron, $c$ is the speed of light, and $\lambda_{U}$ is the so-called undulator period that corresponds to the magnet spacing. $K$ can be expressed in convenient units as,}
+K &\approx 0.934\ B_{\text{max}}\ \lambda_{U}\qquad \left[\si{\tesla\centi\meter}\right].
 \label{eqn:undulator-strength}
 \end{align}
-and wigglers typically have $K\gg \SI{1}{\tesla\centi\meter}$, while undulators usually have $K < \SI{1}{\tesla\centi\meter}$. The X-rays emitted by undulators typically have a narrower spectrum and a higher flux than wigglers. This is due to the fact that the undulator period and magnetic fields are chosen specifically in an undulator. The parameters are set such that their emitted radiation per period constructively interferes with each other. This resonance condition is expressed by the fundamental wavelength of an undulator, $\lambda_{r}$, and can be noted as \citep{Huang-2007-PRSTAB}
+Undulators usually have $K < \SI{1}{\tesla\centi\meter}$. If $K\gg \SI{1}{\tesla\centi\meter}$ the magnet array is typically referred to as a wiggler (see Figure \ref{fig:undulator}b). The X-rays emitted by undulators typically have a narrower spectrum and a higher flux than X-rays generated by wigglers. This is due to the fact that the undulator period and magnetic fields are chosen specifically in an undulator. The parameters are set such that their emitted radiation per period constructively interferes with each other. This resonance condition is expressed by the fundamental wavelength of an undulator, $\lambda_{r}$, and can be noted as \citep{Huang-2007-PRSTAB}
 \begin{equation}
 \lambda_{r} = \frac{\lambda_{U}}{2 \gamma}\left(1+\frac{K^{2}}{2}+\gamma^{2}\Psi^{2}\right),\label{eqn:fundamental-wavelength}
 \end{equation}
@@ -193,7 +197,7 @@ with $N_{u}$ being the undulator periods. Given the parameters in study \citep{L
 %
 %
 %
-\subsubsection{The Twin-bunch or Lorentz factor based pump--probe scheme}\label{sec:twin-bunch-pump-probe}
+\subsubsection{The twin-bunch or Lorentz factor based pump--probe scheme}\label{sec:twin-bunch-pump-probe}
 \begin{figure}
 	\centering
 		\includegraphics[width=1.00\textwidth]{images/Agos-pump-probe-scheme.png}
@@ -216,14 +220,16 @@ Clusters have a long history as samples to study the light-matter interaction fo
 %%%%%%
 Rare-gas clusters, for example, xenon clusters, can be generated in a variety of ways. In this thesis experiment, rare-gas clusters are created via supersonic expansion by releasing gas from a reservoir through a nozzle into a vacuum. The gas in the reservoir is at a certain stagnation pressure, $p_{0}$, and temperature, $T_{0}$. Typical values for $p_{0}$ are \SI{10}{\bar}, where the mean free path of the atoms is much smaller than the nozzle diameter\footnote{A schematic drawing of the nozzle used in this work can be found in Figure \ref{fig:parker-valve}. See also Equation \eqref{eq:equivalent-nozzle-opening} for non-pinhole nozzle openings.}. This is why many collisions occur in the nozzle during the gas expansion, but collisions do not occur in the free supersonic expansion. The collisions in the nozzle intuitively explain the cluster formation \citep{Lippmann-1984-JCP}, which we will discuss first. We follow the phenomenological discussion with a more detailed description of the supersonic gas expansion and end the section with the empirically derived scaling laws that describe average sizes for rare-gas clusters.\\[1\baselineskip] 
 %
-In the nozzle, clusters grow through collisions. The collisions can be expressed mathematically through the following reaction formula
+In the nozzle, clusters grow through collisions. The process starts with the formation of a dimer. A dimer can condensate in a three-body collision, where two monomers bind and the thrid one is usually evaporated removing the excess binding energy. This can be expressed mathematically through the following reaction formula,
 \begin{align}
-A_{n}+A_{m} \rightleftharpoons A_{n+m}^{*},\quad n,m=1,2,...,\quad \text{collision,}
-\intertext{with $n,m$ denoting the number of monomers assembling body $A_{n,m}$. A body $A_{n}$ collides with another body $A_{m}$ and forms a metastable state $A_{n+m}^{*}$ that will dissociate if no subsequent collision deactivates it. This can be formulated as}
+A_{1}+A_{1}+M \rightarrow A_{2}+M, \quad \text{three-body collision,}
+\intertext{where $A_{1}$ are monomers and $M$ can be a chaperone of any kind. The subsequent cluster growth can be described mathematically as,}
+A_{n}+A_{m} \rightleftharpoons A_{n+m}^{*},\quad n=2,3,...;\ m=1,2,...,\quad \text{collision,}
+\intertext{with $n,m$ denoting the number of monomers assembling body $A_{n,m}$. Similar to above, when body $A_{n}$ collides with another body $A_{m}$ and forms the body $A_{n+m}^{*}$, the new body is in a metastable state that will dissociate if no subsequent collision deactivates it. This can be formulated as}
 A_{n+m}^{*}+M\rightleftharpoons A_{n+m} + M,\quad \text{activation/deactivation},
 \label{eq:early-cluster-growth}
 \end{align}
-where $M$ is a chaperone that can be any kind of third body that adds or removes energy from the system. $M$ can therefore activate or deactivate the system.
+where $M$ can add or remove energy from the system. One can also say $M$ activates or deactivates the system.
 %
 The initial stages of the cluster growth are driven by monomer addition but as more and more clusters are available, cluster-cluster coagulation starts to dominate the later growth process. This is due to the quantitative increase in small clusters in the generation process that then start to collide. From empirical evidence \citep{Zurek-1980-JCP,Soler-1982-PRL}, we know that clusters solely generated through monomer addition follow a size distribution of an exponential decay with a rather large decay constant, whereas larger clusters that grew through coagulation follow a log-normal distribution. Here, the density of smaller clusters including monomers and dimers decreases as larger clusters are formed of these particles through coagulation.\\[1\baselineskip]
 %The mean size of a cluster, i.e., the mean of the log-normal distribution, is given by the parameters of the supersonic gas expansion (see below).
@@ -283,7 +289,7 @@ with the nozzle diameter $d$. So, the competing stagnation pressure, $p_{0}$, an
 			Helium & Neon & Argon & Krypton & Xenon \\ \hline
 			3.85 & 185 & 1646 & 2980 & 5554 \\ \hline
 		\end{tabular}
-	\caption[Parameter $K_{\text{gas}}$ values for rare-gases.]{Parameter $K_{\text{gas}}$ values for rare-gases \citep{Schorb-2012-Thesis}.}
+	\caption[Parameter $K_{\text{gas}}$ values for rare-gases.]{Parameter $K_{\text{gas}}$ values for rare-gases \cite{Woermer-1991-CPL}.}
 	\label{tab:k-parameter}
 \end{table}
 The average cluster size\index{cluster size} is very much dependent on the gas type, stagnation temperature $T_{0}$, stagnation pressure $p_{0}$, and the nozzle diameter. An empirically found scaling law\index{scaling law}, named after Hagena\index{Hagena|see {scaling law}} \citep{Hagena-1972-JCP,Hagena-1981-SurfSci,Hagena-1987-ZeitschriftAMC}, can be summarized as follows. The Hagena scaling parameter, $\Gamma^{*}$, reads
@@ -439,12 +445,12 @@ It is therefore useful to state the absorption cross-sections per atomic subshel
 %			Configuration & ionized subshell & Cross-section (Mbarn) & Helium ionization potential in eV \\ \hline
 			El. Configuration, & Ionization & Cross-section  & subshell ionization  \\
 			and ionized subshell & of subshell & $\tau$ in Mbarn & potential in eV \\ \hline
-			He\textsuperscript{+0},\ 1s2 & 1s2 & 0.0007 & 24.4 \\ \hline
-			He\textsuperscript{+1},\ 1s1 & 1s1 & 0.0005 & 54.4 \\ \hline
-			Xe\textsuperscript{+0},\ 5p6 & 3d10 & 2.2505 & 682.7 \\ \hline
-			Xe\textsuperscript{+1},\ 3d9 & 3d9 & 2.1487 & 733.6 \\ \hline
-			Xe\textsuperscript{+1},\ 5p5 & 3d10 & 2.2443 & 693.7 \\ \hline
-			Xe\textsuperscript{+2},\ 5p4 & 3d10 & 2.2390 & 705.9 \\ \hline
+			He\textsuperscript{+0},\ 1s$^{2}$ & 1s$^{2}$ & 0.0007 & 24.4 \\ \hline
+			He\textsuperscript{+1},\ 1s$^{1}$ & 1s$^{1}$ & 0.0005 & 54.4 \\ \hline
+			Xe\textsuperscript{+0},\ 5p$^{6}$ & 3d$^{10}$ & 2.2505 & 682.7 \\ \hline
+			Xe\textsuperscript{+1},\ 3d$^{9}$ & 3d$^{9}$ & 2.1487 & 733.6 \\ \hline
+			Xe\textsuperscript{+1},\ 5p$^{5}$ & 3d$^{10}$ & 2.2443 & 693.7 \\ \hline
+			Xe\textsuperscript{+2},\ 5p$^{4}$ & 3d$^{10}$ & 2.2390 & 705.9 \\ \hline
 		\end{tabular}
 	\caption[Absorption cross-sections and ionization potentials for xenon and helium]{Total absorption cross-sections $\tau$ and ionization potentials for certain electronic configurations. Calculations performed with \citep{los-alamos-2016,Cowan-1981-Cal}.}
 	\label{tab:helium-xenon-ionization}
@@ -618,12 +624,12 @@ and for this thesis very useful in estimating the expected scattering.\\[1\basel
 		\hline
 			El. Configuration, & Scattering cross-section \\
 			and ionized subshell & $\sigma_{\text{coh}}$ in barn \\ \hline
-			He\textsuperscript{+0},\ 1s2 & 2.55  \\ \hline
-			He\textsuperscript{+1},\ 1s1 & 0.65  \\ \hline
-			Xe\textsuperscript{+0},\ 5p6 & 1874.36  \\ \hline
-			Xe\textsuperscript{+1},\ 3d9 & 1813.56  \\ \hline
-			Xe\textsuperscript{+1},\ 5p5 & 1814.68  \\ \hline
-			Xe\textsuperscript{+2},\ 5p4 & 1754.08  \\ \hline
+			He\textsuperscript{+0},\ 1s$^{2}$ & 2.55  \\ \hline
+			He\textsuperscript{+1},\ 1s$^{1}$ & 0.65  \\ \hline
+			Xe\textsuperscript{+0},\ 5p$^{6}$ & 1874.36  \\ \hline
+			Xe\textsuperscript{+1},\ 3d$^{9}$ & 1813.56  \\ \hline
+			Xe\textsuperscript{+1},\ 5p$^{5}$ & 1814.68  \\ \hline
+			Xe\textsuperscript{+2},\ 5p$^{4}$ & 1754.08  \\ \hline
 		\end{tabular}
 	\caption[Atomic scattering factors for helium and xenon.]{Atomic scattering cross-sections for certain electronic configurations at \SI{837}{\electronvolt} photon energy. From \citep{Ho-2016-PC}.}
 	\label{tab:helium-xenon-el-scattering-crossection}
@@ -724,7 +730,7 @@ When nanoparticles are irradiated with intense soft X-rays, they form a plasma \
 %
 For soft X-rays, nanoplasma formation\index{nanoplasma!formation} and expansion of clusters is schematically shown in Figure \ref{fig:nano-plasma-schematic}. The following steps describe it in more detail \citep{Arbeiter-2011-NJP,Bostedt-2010-JPB}: Step a) the cluster is strongly ionized. Step b), further ionization through emission of photo electrons and Auger electrons lead to a multistep ionization\index{ionization!multistep} that deepens the Coulomb potential\index{Coulomb potential} \citep{Wabnitz-2002-Nature,Laarmann-2004-PRL,Bostedt-2008-PRL}. Step c), the multistep ionization is suppressed or, so-called, frustrated because the Coulomb potential depth is larger than the excess energies of photo- and Auger electrons. The emitted electrons are now trapped in the cluster potential and are quasi-free. As a result, the cluster forms a nanoplasma\footnote{Plasma is another state of matter, similar to solid, liquid and gaseous, where molecular bonds dissociate and positive and negative particles are present in increasing numbers.}. Step d), the kinetic energies of the trapped electrons is initially defined by the discrete excess energies of, e.g., the Auger electrons, but collisions with other particles lead to a kinetic energy distribution that is similar to thermal distributions and can be measured via the spectra of emitted electrons \citep{Laarmann-2005-PRL,Bostedt-2010-NJP}. Step e) An hydrodynamic expansion and Coulomb explosion are the key mechanisms that now drive an expansion of the cluster until the cluster ultimately disintegrates.\\[1\baselineskip]
 %
-Both expansion mechanisms reasonably describe the expansion process, are not mutually exclusive, and mostly depend on sample size and irradiation technique. Regarding the sample size, large clusters tend to efficiently trap electrons in their deep Coulomb potentials that thermalize efficiently, which leads to an expansion that is rather driven by hydrodynamic forces due to comparably high electron temperatures. It has been shown that electrons thermalize on the attosecond timescale and that the energy transfer to the ions can be as fast as 50 fs \citep{Arbeiter-2010-PRA}. Small clusters trap photo- and Auger-electrons less efficiently and electrons are free such that the heating process is suppressed. In this case, the ions see the repelling force due to Coulomb interaction of like charges \citep{Lezius-1998-PRL}.\\[1\baselineskip]
+Both expansion mechanisms reasonably describe the expansion process, are not mutually exclusive, and mostly depend on sample size and irradiation technique. Regarding the sample size, large clusters tend to efficiently trap electrons in their deep Coulomb potentials that thermalize efficiently, which leads to an expansion that is rather driven by hydrodynamic forces due to comparably high electron temperatures. It has been shown that electrons thermalize on the femto- to attosecond timescale and that the energy transfer to the ions can be as fast as 50 fs \citep{Arbeiter-2010-PRA}. Small clusters trap photo- and Auger-electrons less efficiently and electrons are free such that the heating process is suppressed. In this case, the ions see the repelling force due to Coulomb interaction of like charges \citep{Lezius-1998-PRL}.\\[1\baselineskip]
 %
 The nanoplasma formation is dependent on the wavelength that excites the cluster. We focus here on the soft X-ray wavelength range but to give an idea of wavelength dependent aspects in the nanoplasma formation the following can be said. For optical to ultraviolet (UV) pulses, strong field ionization can lead to ionization of clusters and a subsequent nanoplasma expansion \citep{Springate-2000-PRA}. In the vacuum-ultraviolet (VUV) range, inverse \textit{Bremstrahlung} heating leads to efficient energy absorption in clusters and the ionization is driven by collisions inside the strongly coupled plasma \citep{Wabnitz-2002-Nature}. In the extreme-ultraviolet (XUV) to soft X-ray range, direct photoionization and subsequent multistep ionization become the main driver of the ionization, as described above.\\[1\baselineskip]
 %It remains to discuss the radiation intensity, which affects the ultimately achieved charge-state combination. The more intense the radiation is, the more energy is absorbed by the cluster. For the nanoplasma this determines the electron temperature and possibly the expansion speed.
@@ -746,7 +752,7 @@ With the advent of ultrafast pump--probe techniques at XFELs, the nanoplasma exp
 %In that study, an electron temperature of \SI{\sim 200}{\electronvolt} could be measured by comparing plasma simulations to the ion spectroscopy signal. The spatial resolution of the diffraction patterns has been estimated to be 8 nm, but by assuming a spherical shape of the clusters, the electron density model is sensitive below this resolution.
 \begin{figure}
 	\centering
-		\includegraphics[width=0.80\textwidth]{images/ken-science.jpg}
+		\includegraphics[width=1.00\textwidth]{images/ken-science.jpg}
 	\caption[Experiment that shows early evolution of the nanoplasma transition.]{X-ray pump--X-ray probe scattering experiment on Xe-clusters that shows an early evolution of the nanoplasma transition. \textbf{A}, single-shot Bragg peaks at varying time delays. The scattering vector q increases over time delay. \textbf{B}, unit cell length over time delay. The clusters exhibit a transient lattice compression. \textbf{C}, Lattice disorder over time delay. The measured fcc lattice is becoming disordered after being pumped with an X-ray pulse. From \citep{Ferguson-2016-SciAdv}. Reprinted with permission from AAAS.}
 	\label{fig:ken-science}
 \end{figure}

@@ -3706,83 +3706,6 @@
       \verb 10.1103/PhysRevLett.108.245005
       \endverb
     \endentry
-    \entry{Brown-1983-NIMPR}{article}{}
-      \name{author}{4}{}{%
-        {{hash=a8a42206b127a38f108e319327b34c98}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=b7f4f0ec885ca7ffee90864131133c3d}{%
-           family={Halbach},
-           familyi={H\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=b9d95fc289318e7ed81f1039438eec2b}{%
-           family={Harris},
-           familyi={H\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=016f6bd130c024eb10b6a792b7fc60a7}{%
-           family={Winick},
-           familyi={W\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {North-Holland}%
-      }
-      \strng{namehash}{d17071a7afca037fe4e7fa305043a1d4}
-      \strng{fullhash}{d17071a7afca037fe4e7fa305043a1d4}
-      \strng{authornamehash}{d17071a7afca037fe4e7fa305043a1d4}
-      \strng{authorfullhash}{d17071a7afca037fe4e7fa305043a1d4}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{01675087}
-      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research}
-      \field{month}{4}
-      \field{number}{1-3}
-      \field{title}{{Wiggler and undulator magnets — A review}}
-      \field{volume}{208}
-      \field{year}{1983}
-      \field{pages}{65\bibrangedash 77}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1016/0167-5087(83)91105-5
-      \endverb
-      \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/0167508783911055
-      \endverb
-    \endentry
-    \entry{Williams-2009-xb}{book}{}
-      \name{editor}{1}{}{%
-        {{hash=37e32df48bbecdc1ca4c925b42f861ac}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Gwyn\bibnamedelima P},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Lawrence Berkeley National Laboratory}%
-      }
-      \strng{namehash}{37e32df48bbecdc1ca4c925b42f861ac}
-      \strng{fullhash}{37e32df48bbecdc1ca4c925b42f861ac}
-      \strng{editornamehash}{37e32df48bbecdc1ca4c925b42f861ac}
-      \strng{editorfullhash}{37e32df48bbecdc1ca4c925b42f861ac}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{editor}
-      \field{labeltitlesource}{title}
-      \field{month}{4}
-      \field{title}{X-ray data booklet}
-      \field{year}{2009}
-      \verb{url}
-      \verb http://cxro.lbl.gov/x-ray-data-booklet
-      \endverb
-      \keyw{Absorptivity,Electron States,Electrons,Fluorescence,Radiation Detectors,Scattering,Synchrotron Radiation,X Ray Sources,Ions,Revisions}
-    \endentry
     \entry{Huang-2007-PRSTAB}{article}{}
       \name{author}{2}{}{%
         {{hash=1a460ef65a8824a2bfa44b124f88b001}{%
@@ -3835,8 +3758,8 @@
       \strng{fullhash}{26ad8ff3c1673f4e760660dc5979d35b}
       \strng{authornamehash}{26ad8ff3c1673f4e760660dc5979d35b}
       \strng{authorfullhash}{26ad8ff3c1673f4e760660dc5979d35b}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01689002}
@@ -3870,8 +3793,8 @@
       \strng{fullhash}{3bcb39ede5491b5847482892d7c2c61d}
       \strng{authornamehash}{3bcb39ede5491b5847482892d7c2c61d}
       \strng{authorfullhash}{3bcb39ede5491b5847482892d7c2c61d}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ionization and Plasma Dynamics of Single Large Xenon Clusters in Superintense {XUV} Pulses}
@@ -4175,8 +4098,8 @@
       \strng{fullhash}{db1d65a5e4883840830d2bedb76593e1}
       \strng{authornamehash}{5e5dac7847899cea66008631fe69d104}
       \strng{authorfullhash}{db1d65a5e4883840830d2bedb76593e1}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -4543,8 +4466,8 @@
       \strng{fullhash}{77ab30b9632bd8a13fe86fdcd3cc9d88}
       \strng{authornamehash}{2f7854b0a690a5ab5301ee83d1bbabfc}
       \strng{authorfullhash}{77ab30b9632bd8a13fe86fdcd3cc9d88}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{entrysubtype}{mypubs}
@@ -5543,8 +5466,8 @@
       \strng{fullhash}{38c23e69f068880f1e736340ec95e455}
       \strng{authornamehash}{38c23e69f068880f1e736340ec95e455}
       \strng{authorfullhash}{38c23e69f068880f1e736340ec95e455}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -5643,30 +5566,45 @@
       \endverb
       \keyw{Gas cluster ion beam (GCIB),Scanning tunneling microscope (STM),Time-of-flight (TOF)}
     \endentry
-    \entry{Schorb-2012-Thesis}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=48a2dc6acea544f5a0c20983b07c340f}{%
-           family={Schorb},
-           familyi={S\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
+    \entry{Woermer-1991-CPL}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f2ee6f9fb78585b743d7411eef865d13}{%
+           family={Wörmer},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ecdce98c840556d9edc47d65c5c7a941}{%
+           family={Joppien},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=44acca6f413dd3c6d5c049a3477e36de}{%
+           family={Möller},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Technische Universitat Berlin}%
-      }
-      \strng{namehash}{48a2dc6acea544f5a0c20983b07c340f}
-      \strng{fullhash}{48a2dc6acea544f5a0c20983b07c340f}
-      \strng{authornamehash}{48a2dc6acea544f5a0c20983b07c340f}
-      \strng{authorfullhash}{48a2dc6acea544f5a0c20983b07c340f}
+      \strng{namehash}{d0d928f7d358020c3461b89d4e87d068}
+      \strng{fullhash}{d0d928f7d358020c3461b89d4e87d068}
+      \strng{authornamehash}{d0d928f7d358020c3461b89d4e87d068}
+      \strng{authorfullhash}{d0d928f7d358020c3461b89d4e87d068}
       \field{sortinit}{9}
       \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Size-dependent ultrafast ionization dynamics of nanoscale samples in intense femtosecond x-ray free-electron laser pulses}
-      \field{type}{Thesis}
-      \field{year}{2012}
+      \field{issn}{0009-2614}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{number}{6}
+      \field{title}{{Mass determination of free van der Waals clusters from absorption and scattering measurements}}
+      \field{volume}{182}
+      \field{year}{1991}
+      \field{pages}{632\bibrangedash 636}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.14279/depositonce-3400
+      \verb 10.1016/0009-2614(91)90137-X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/000926149190137X
       \endverb
     \endentry
     \entry{Hagena-1972-JCP}{article}{}
@@ -5757,6 +5695,32 @@
       \verb 10.1007/BF01436638
       \endverb
     \endentry
+    \entry{Schorb-2012-Thesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=48a2dc6acea544f5a0c20983b07c340f}{%
+           family={Schorb},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universitat Berlin}%
+      }
+      \strng{namehash}{48a2dc6acea544f5a0c20983b07c340f}
+      \strng{fullhash}{48a2dc6acea544f5a0c20983b07c340f}
+      \strng{authornamehash}{48a2dc6acea544f5a0c20983b07c340f}
+      \strng{authorfullhash}{48a2dc6acea544f5a0c20983b07c340f}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Size-dependent ultrafast ionization dynamics of nanoscale samples in intense femtosecond x-ray free-electron laser pulses}
+      \field{type}{Thesis}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.14279/depositonce-3400
+      \endverb
+    \endentry
     \entry{Buck-1996-JChemPhys}{article}{}
       \name{author}{2}{}{%
         {{hash=c6c4d02ec80515332bbcbe26cd24465a}{%
@@ -5774,8 +5738,8 @@
       \strng{fullhash}{4d65c22c640c793e9489ee7a920417a6}
       \strng{authornamehash}{4d65c22c640c793e9489ee7a920417a6}
       \strng{authorfullhash}{4d65c22c640c793e9489ee7a920417a6}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5836,8 +5800,8 @@
       \strng{fullhash}{79f7596de11be7843e17241f4276a7c4}
       \strng{authornamehash}{79f7596de11be7843e17241f4276a7c4}
       \strng{authorfullhash}{79f7596de11be7843e17241f4276a7c4}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1050-2947}
@@ -6314,6 +6278,33 @@
       \verb{url}
       \verb https://purl.stanford.edu/qk328xg1417
       \endverb
+    \endentry
+    \entry{Williams-2009-xb}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=37e32df48bbecdc1ca4c925b42f861ac}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Gwyn\bibnamedelima P},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lawrence Berkeley National Laboratory}%
+      }
+      \strng{namehash}{37e32df48bbecdc1ca4c925b42f861ac}
+      \strng{fullhash}{37e32df48bbecdc1ca4c925b42f861ac}
+      \strng{editornamehash}{37e32df48bbecdc1ca4c925b42f861ac}
+      \strng{editorfullhash}{37e32df48bbecdc1ca4c925b42f861ac}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{X-ray data booklet}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://cxro.lbl.gov/x-ray-data-booklet
+      \endverb
+      \keyw{Absorptivity,Electron States,Electrons,Fluorescence,Radiation Detectors,Scattering,Synchrotron Radiation,X Ray Sources,Ions,Revisions}
     \endentry
     \entry{Elettra-2016-Website}{online}{}
       \name{author}{2}{}{%
