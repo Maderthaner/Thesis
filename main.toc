@@ -40,15 +40,15 @@
 \contentsline {section}{\numberline {4.1}The computing environment at LCLS}{65}{section.4.1}
 \contentsline {section}{\numberline {4.2}pnCCD photon detectors}{67}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Combining multiple pnCCD detectors}{69}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Phase retrieval from a single diffraction pattern}{73}{section.4.3}
+\contentsline {section}{\numberline {4.3}Phase retrieval from a single diffraction pattern}{72}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Principle of phase retrieval}{73}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}2D reconstructions and image resolution}{74}{subsection.4.3.2}
 \contentsline {subsubsection}{\nonumberline Hawk program for 2D image phase retrieval}{74}{section*.8}
 \contentsline {subsubsection}{\nonumberline Resolution enhancement through combination of rear and front pnCCD}{75}{section*.9}
 \contentsline {subsection}{\numberline {4.3.3}1D projections and phase reconstructions}{78}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Impact of the X-ray pump--X-ray probe on diffraction pattern}{79}{section.4.4}
-\contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{81}{section.4.5}
-\contentsline {section}{\numberline {4.6}Data filtering}{82}{section.4.6}
+\contentsline {section}{\numberline {4.4}Impact of the X-ray pump--X-ray probe on diffraction pattern}{78}{section.4.4}
+\contentsline {section}{\numberline {4.5}2D electron density and diffraction image simulations}{80}{section.4.5}
+\contentsline {section}{\numberline {4.6}Data filtering}{81}{section.4.6}
 \contentsline {chapter}{\numberline {5}Results and discussion}{85}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ion time-of-flight X-ray pump--X-ray probe data}{85}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Time-dependent response of Xe-atoms and -clusters to intense X-rays}{85}{subsection.5.1.1}
@@ -57,8 +57,8 @@
 \contentsline {subsection}{\numberline {5.2.1}Structural damage in Xe-clusters induced by intense X-rays}{91}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}X-ray induced damage in pristine He-cluster}{99}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Condensation of xenon in helium cluster: Plum-pudding type cluster}{100}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Understanding sample damage in the plum-pudding type clusters}{104}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Sacrificial layers: Comparison of sample damage in HeXe-cluster}{107}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.4}Understanding sample damage in the plum-pudding type clusters}{105}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Sacrificial layers: Comparison of sample damage in HeXe-cluster}{108}{subsection.5.2.5}
 \contentsline {chapter}{\numberline {6}Summary and outlook}{111}{chapter.6}
 \contentsline {chapter}{\nonumberline Appendix}{113}{chapter*.10}
 \contentsline {section}{\numberline {1}Python code on combining detectors}{113}{section.6.1}

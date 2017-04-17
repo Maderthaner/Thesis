@@ -2600,24 +2600,30 @@
     <bcf:citekey order="341">Hau-Riege-2008-PRE</bcf:citekey>
     <bcf:citekey order="342">Hau-Riege-2007-PRL</bcf:citekey>
     <bcf:citekey order="342">Hoener-2008-JPB</bcf:citekey>
-    <bcf:citekey order="343">Neutze-2000-Nature</bcf:citekey>
-    <bcf:citekey order="343">Arbeiter-2011-NJP</bcf:citekey>
-    <bcf:citekey order="344">Hau-Riege-2007-PRL</bcf:citekey>
-    <bcf:citekey order="344">Hau-Riege-2010-PRL</bcf:citekey>
-    <bcf:citekey order="345">Lutman-2013-PRL</bcf:citekey>
-    <bcf:citekey order="346">Ferguson-2015-JSR</bcf:citekey>
-    <bcf:citekey order="347">Gorkhover-2012-PRL</bcf:citekey>
+    <bcf:citekey order="343">Ferguson-2015-JSR</bcf:citekey>
+    <bcf:citekey order="344">Gorkhover-2012-PRL</bcf:citekey>
+    <bcf:citekey order="345">Neutze-2000-Nature</bcf:citekey>
+    <bcf:citekey order="345">Arbeiter-2011-NJP</bcf:citekey>
+    <bcf:citekey order="346">Hau-Riege-2007-PRL</bcf:citekey>
+    <bcf:citekey order="346">Hau-Riege-2010-PRL</bcf:citekey>
+    <bcf:citekey order="347">Lutman-2013-PRL</bcf:citekey>
     <bcf:citekey order="348">Hoener-2008-JPB</bcf:citekey>
     <bcf:citekey order="348">Gorkhover-2016-NatPho</bcf:citekey>
-    <bcf:citekey order="349">Bielecki-2016-PC</bcf:citekey>
-    <bcf:citekey order="350">Aquila-2015-StrucDyn</bcf:citekey>
-    <bcf:citekey order="351">Loh-2009-PRE</bcf:citekey>
-    <bcf:citekey order="352">Lehmann-2016-PRA</bcf:citekey>
-    <bcf:citekey order="352">Kimberg-2016-FD</bcf:citekey>
-    <bcf:citekey order="352">Al-Haddad-2017-unpublished</bcf:citekey>
-    <bcf:citekey order="352">Ferguson-2016-SciAdv</bcf:citekey>
-    <bcf:citekey order="352">Picon-2016-NatComm</bcf:citekey>
-    <bcf:citekey order="353">Alcalde-2012-PRE</bcf:citekey>
+    <bcf:citekey order="349">Hau-Riege-2004-PRE</bcf:citekey>
+    <bcf:citekey order="349">Hau-Riege-2007-PRL</bcf:citekey>
+    <bcf:citekey order="349">Jurek-2008-EPJ</bcf:citekey>
+    <bcf:citekey order="349">Jurek-2009-EPL</bcf:citekey>
+    <bcf:citekey order="349">Hau-Riege-2010-PRL</bcf:citekey>
+    <bcf:citekey order="349">Hoener-2008-JPB</bcf:citekey>
+    <bcf:citekey order="350">Bielecki-2016-PC</bcf:citekey>
+    <bcf:citekey order="351">Aquila-2015-StrucDyn</bcf:citekey>
+    <bcf:citekey order="352">Loh-2009-PRE</bcf:citekey>
+    <bcf:citekey order="353">Lehmann-2016-PRA</bcf:citekey>
+    <bcf:citekey order="353">Kimberg-2016-FD</bcf:citekey>
+    <bcf:citekey order="353">Al-Haddad-2017-unpublished</bcf:citekey>
+    <bcf:citekey order="353">Ferguson-2016-SciAdv</bcf:citekey>
+    <bcf:citekey order="353">Picon-2016-NatComm</bcf:citekey>
+    <bcf:citekey order="354">Alcalde-2012-PRE</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
