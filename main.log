@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.9)  17 APR 2017 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.9)  28 MAY 2017 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5636,20 +5636,19 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.1pt on input line 5.
 )
+Overfull \hbox (7.82503pt too wide) in paragraph at lines 3--196
+\T1/ntxtlf/m/n/10.95 Doppelpulsen zeitauf-ge-löst un-ter-sucht. Hier-bei star-t
+et ein Pump-Puls die Nanoplasma-Entwicklung
+ []
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sl' will be
 (Font)              scaled to size 10.95pt on input line 196.
- [1
+[1
 
 ]
 \openout2 = `abstract.aux'.
 
- (./abstract.tex)
-Overfull \hbox (8.25636pt too wide) in paragraph at lines 2--197
-\T1/ntxtlf/m/n/10.95 struc-tural stud-ies on non-repetitive and non-reproducibl
-e nanopar-ti-cles, such as sin-gle biomolecules
- []
-
-[2
+ (./abstract.tex) [2
 
 
 ]
@@ -5675,7 +5674,8 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
  [7] [8
 
 
-] (./main.lot)
+]
+(./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
@@ -5685,8 +5685,7 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 ]
 \openout2 = `introduction.aux'.
 
-
-(./introduction.tex
+ (./introduction.tex
 chapter 1.
 <images/intro-dani.jpg, id=524, 440.67073pt x 209.3186pt>
 File: images/intro-dani.jpg Graphic file (type jpg)
@@ -6464,7 +6463,7 @@ Underfull \vbox (badness 2253) has occurred while \output is active []
  [92 <./images/results/size-distributions.png (PNG copy)>] [93 <./images/result
 s/filter-size.png (PNG copy)> <./images/results/filter-sum-frontpnCCD.png (PNG 
 copy)>]
-<images/results/Xe-diff-pattern.png, id=2003, 1544.77126pt x 619.31375pt>
+<images/results/Xe-diff-pattern.png, id=2004, 1544.77126pt x 619.31375pt>
 File: images/results/Xe-diff-pattern.png Graphic file (type png)
 
 <use images/results/Xe-diff-pattern.png>
@@ -6472,14 +6471,14 @@ Package pdftex.def Info: images/results/Xe-diff-pattern.png used on input line
 182.
 (pdftex.def)             Requested size: 418.25555pt x 167.68pt.
 
-<images/results/Xe_0_fs.png, id=2021, 595.22375pt x 527.9725pt>
+<images/results/Xe_0_fs.png, id=2022, 595.22375pt x 527.9725pt>
 File: images/results/Xe_0_fs.png Graphic file (type png)
 
 <use images/results/Xe_0_fs.png>
 Package pdftex.def Info: images/results/Xe_0_fs.png used on input line 205.
 (pdftex.def)             Requested size: 192.40036pt x 170.66257pt.
 
-<images/results/Xe_800_fs_ringing.png, id=2022, 625.3764pt x 486.1362pt>
+<images/results/Xe_800_fs_ringing.png, id=2023, 625.3764pt x 486.1362pt>
 File: images/results/Xe_800_fs_ringing.png Graphic file (type png)
 
 <use images/results/Xe_800_fs_ringing.png>
@@ -6499,7 +6498,7 @@ sults/Xe-reconstructions-eps-converted-to.pdf images/results/Xe-reconstructions
 (epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/results/Xe-reconstructions-eps-converted-to.pdf, id=2029, 370.38374pt x
+<images/results/Xe-reconstructions-eps-converted-to.pdf, id=2030, 370.38374pt x
  231.86626pt>
 File: images/results/Xe-reconstructions-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -6508,7 +6507,7 @@ Package pdftex.def Info: images/results/Xe-reconstructions-eps-converted-to.pdf
  used on input line 214.
 (pdftex.def)             Requested size: 334.60571pt x 209.4702pt.
 
-<images/results/amplitude-discussion.png, id=2035, 715.67375pt x 546.04pt>
+<images/results/amplitude-discussion.png, id=2036, 715.67375pt x 546.04pt>
 File: images/results/amplitude-discussion.png Graphic file (type png)
 
 <use images/results/amplitude-discussion.png>
@@ -6516,7 +6515,7 @@ Package pdftex.def Info: images/results/amplitude-discussion.png used on input
 line 224.
 (pdftex.def)             Requested size: 204.94751pt x 156.36455pt.
 
-<images/results/phase-discussion.png, id=2036, 708.6475pt x 548.0475pt>
+<images/results/phase-discussion.png, id=2037, 708.6475pt x 548.0475pt>
 File: images/results/phase-discussion.png Graphic file (type png)
 
 <use images/results/phase-discussion.png>
@@ -6539,7 +6538,7 @@ Underfull \vbox (badness 4266) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [98 <./images/results/Xe-reconstructions-eps-converted-to.pdf>]
-<images/results/He-diffraction-patterns2.png, id=2072, 1897.0875pt x 611.28375p
+<images/results/He-diffraction-patterns2.png, id=2073, 1897.0875pt x 611.28375p
 t>
 File: images/results/He-diffraction-patterns2.png Graphic file (type png)
  <use images/results/He-diffraction-patterns2.png>
@@ -6548,7 +6547,7 @@ put line 237.
 (pdftex.def)             Requested size: 418.25555pt x 134.77199pt.
  [99 <./images/results/amplitude-discussion.png> <./images/results/phase-discus
 sion.png>]
-<images/results/HeXediffPattern-113-05-doping-diffpattern2.png, id=2092, 1031.8
+<images/results/HeXediffPattern-113-05-doping-diffpattern2.png, id=2093, 1031.8
 55pt x 1512.65125pt>
 File: images/results/HeXediffPattern-113-05-doping-diffpattern2.png Graphic fil
 e (type png)
@@ -6562,7 +6561,7 @@ rn2.png used on input line 262.
 LaTeX Warning: Float too large for page by 39.82005pt on input line 265.
 
 
-<images/results/reconstructions-to-simulations_new.png, id=2096, 1987.425pt x 1
+<images/results/reconstructions-to-simulations_new.png, id=2097, 1987.425pt x 1
 129.21875pt>
 File: images/results/reconstructions-to-simulations_new.png Graphic file (type 
 png)
@@ -6571,7 +6570,7 @@ Package pdftex.def Info: images/results/reconstructions-to-simulations_new.png
 used on input line 272.
 (pdftex.def)             Requested size: 334.60571pt x 190.10376pt.
 
-<images/results/plum-pudding_numbered.png, id=2103, 1866.975pt x 2734.215pt>
+<images/results/plum-pudding_numbered.png, id=2104, 1866.975pt x 2734.215pt>
 File: images/results/plum-pudding_numbered.png Graphic file (type png)
 
 <use images/results/plum-pudding_numbered.png>
@@ -6583,18 +6582,20 @@ Package pdftex.def Info: images/results/plum-pudding_numbered.png used on input
 LaTeX Warning: Float too large for page by 26.27538pt on input line 284.
 
 [100 <./images/results/He-diffraction-patterns2.png (PNG copy)>] [101 <./images
-/results/HeXediffPattern-113-05-doping-diffpattern2.png>] [102 <./images/result
-s/reconstructions-to-simulations_new.png (PNG copy)>] [103 <./images/results/pl
-um-pudding_numbered.png>]
+/results/HeXediffPattern-113-05-doping-diffpattern2.png>]
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+ [102 <./images/results/reconstructions-to-simulations_new.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
+ [103]
+[104 <./images/results/plum-pudding_numbered.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 298--317
 
  []
 
 
-<images/results/simulations-damage-explain3.png, id=2135, 1531.7225pt x 1074.01
+<images/results/simulations-damage-explain3.png, id=2136, 1531.7225pt x 1074.01
 25pt>
 File: images/results/simulations-damage-explain3.png Graphic file (type png)
  <use images/results/simulations-damage-explain3.png>
@@ -6602,7 +6603,7 @@ Package pdftex.def Info: images/results/simulations-damage-explain3.png used on
  input line 323.
 (pdftex.def)             Requested size: 397.34149pt x 278.59752pt.
 
-<images/results/HeXe-densities-113-05-doping-and-reconstruction-1.png, id=2144,
+<images/results/HeXe-densities-113-05-doping-and-reconstruction-1.png, id=2145,
  1038.88126pt x 1568.86125pt>
 File: images/results/HeXe-densities-113-05-doping-and-reconstruction-1.png Grap
 hic file (type png)
@@ -6612,7 +6613,7 @@ Package pdftex.def Info: images/results/HeXe-densities-113-05-doping-and-recons
 truction-1.png used on input line 339.
 (pdftex.def)             Requested size: 113.04083pt x 170.71652pt.
 
-<images/results/HeXe-cluster-113-0-5-doping2.png, id=2145, 4015.0pt x 2793.4362
+<images/results/HeXe-cluster-113-0-5-doping2.png, id=2146, 4015.0pt x 2793.4362
 5pt>
 File: images/results/HeXe-cluster-113-0-5-doping2.png Graphic file (type png)
  <use images/results/HeXe-cluster-113-0-5-doping2.png>
@@ -6624,7 +6625,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [107 <./images/results/HeXe-densities-113-05-doping-and-reconstruction-1.png (
 PNG copy)> <./images/results/HeXe-cluster-113-0-5-doping2.png (PNG copy)>]
-<images/results/HeXe-comparison-0-800-fs.png, id=2167, 1971.365pt x 634.37pt>
+<images/results/HeXe-comparison-0-800-fs.png, id=2168, 1971.365pt x 634.37pt>
 File: images/results/HeXe-comparison-0-800-fs.png Graphic file (type png)
 
 <use images/results/HeXe-comparison-0-800-fs.png>
@@ -6641,7 +6642,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./summary_outlook.tex
 chapter 6.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2961) has occurred while \output is active []
 
  [111
 
@@ -6649,7 +6650,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-[112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
+[113] [114
+
+
+
+]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -6664,43 +6672,40 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 9.0pt on input line 2.
- [113
-
-
-
+ [115
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114])
+ [116])
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [115]
-[116]) [117] [118
+) [117]
+[118]) [119] [120
 
 
 
 ]
 chapter without number
-[119]
+[121]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 10.95pt on input line 223.
- [120]
+ [122]
 Overfull \hbox (9.92853pt too wide) in paragraph at lines 223--223
 []\T1/ntxtlf/m/n/10.95 G. Huldt, A. Sz®ke, and J. Ha-jdu, ^^P  Diffrac-tion ima
 g-ing of sin-gle par-ti-cles and biomolecules,^^Q
  []
 
-[121] [122] [123] [124] [125] [126]
+[123] [124] [125] [126] [127] [128]
 Overfull \hbox (7.65036pt too wide) in paragraph at lines 223--223
 \T1/ntxtlf/m/it/10.95 asym-me-try pa-ram-e-ters\T1/ntxtlf/m/n/10.95 , (Aug. 201
 6) []$\T1/ntxtt/m/n/10.95 https : / / vuo . elettra . eu / services / elements 
 /
  []
 
-[127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139]
 chapter without number
 [1
 
@@ -6757,9 +6762,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41299 strings out of 493013
- 734792 string characters out of 6133344
- 1381884 words of memory out of 5000000
+ 41301 strings out of 493013
+ 734808 string characters out of 6133344
+ 1381892 words of memory out of 5000000
  43254 multiletter control sequences out of 15000+600000
  489673 words of font info for 621 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -6793,9 +6798,9 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (154 pages, 17000624 bytes).
+Output written on main.pdf (156 pages, 17002841 bytes).
 PDF statistics:
- 3065 PDF objects out of 3580 (max. 8388607)
- 789 named destinations out of 1000 (max. 500000)
+ 3075 PDF objects out of 3580 (max. 8388607)
+ 791 named destinations out of 1000 (max. 500000)
  864 words of extra memory for PDF output out of 10000 (max. 10000000)
 
