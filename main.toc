@@ -69,4 +69,4 @@
 \select@language {german}
 \contentsline {chapter}{\nonumberline Eidesstattliche Versicherung}{C}{chapter*.13}
 \select@language {american}
-\contentsline {chapter}{\nonumberline Acknowledgment}{E}{chapter*.14}
+\contentsline {chapter}{\nonumberline Acknowledgement}{E}{chapter*.14}

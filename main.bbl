@@ -3580,11 +3580,11 @@
            familyi={C\bibinitperiod},
            given={Jonathan},
            giveni={J\bibinitperiod}}}%
-        {{hash=7d1091830e4fb21b2277f5416f314f6a}{%
+        {{hash=86516f68a46bc143e092b81ac2e70d1b}{%
            family={Williams},
            familyi={W\bibinitperiod},
-           given={Garth},
-           giveni={G\bibinitperiod}}}%
+           given={Garth\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=226248f3bfaa53acb641510bc6c4319b}{%
            family={Boutet},
            familyi={B\bibinitperiod},
@@ -3617,18 +3617,27 @@
            giveni={D\bibinitperiod}}}%
       }
       \strng{namehash}{3846f8cf19f7261ad96945ac9828c0dd}
-      \strng{fullhash}{d4dd017bb10259d9ee490dc99953d56d}
+      \strng{fullhash}{43e88a7ac699fe4a5c3e2e81ea02dfea}
       \strng{authornamehash}{3846f8cf19f7261ad96945ac9828c0dd}
-      \strng{authorfullhash}{d4dd017bb10259d9ee490dc99953d56d}
+      \strng{authorfullhash}{43e88a7ac699fe4a5c3e2e81ea02dfea}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{1}
       \field{entrysubtype}{mypubs}
+      \field{issn}{0028-0836}
       \field{journaltitle}{Nature}
-      \field{note}{under review}
+      \field{month}{6}
       \field{title}{{Femtosecond response of polyatomic molecules to ultra-intense hard X-rays}}
+      \field{volume}{546}
       \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{129\bibrangedash 132}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature22373
+      \endverb
     \endentry
     \entry{Gorkhover-2012-PRL}{article}{}
       \true{moreauthor}
