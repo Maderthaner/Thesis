@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.9)  25 JUN 2017 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.9)  20 JUL 2017 06:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,10 @@ entering extended mode
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 
-LaTeX Warning: File `main.xmpdata' already exists on the system.
-               Not generating it from this source.
+LaTeX Warning: Writing file `./main.xmpdata'.
+
+\openout15 = `main.xmpdata'.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2017/01/03 v3.22 KOMA-Script document class (book)
@@ -6760,7 +6762,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  41302 strings out of 493013
  734814 string characters out of 6133344
- 1381954 words of memory out of 5000000
+ 1382128 words of memory out of 5000000
  43254 multiletter control sequences out of 15000+600000
  489673 words of font info for 621 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -6794,7 +6796,7 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (157 pages, 17007237 bytes).
+Output written on main.pdf (157 pages, 17007377 bytes).
 PDF statistics:
  3082 PDF objects out of 3580 (max. 8388607)
  792 named destinations out of 1000 (max. 500000)
