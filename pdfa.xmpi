@@ -62,11 +62,15 @@
          <dc:publisher><rdf:Bag><rdf:li>Technische Universität Berlin</rdf:li></rdf:Bag></dc:publisher>
          
          <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">This work by Maximilian J. Bucher is licensed under the Creative Commons Attribution 4.0 International License.</rdf:li></rdf:Alt></dc:rights>
-         <dc:description><rdf:Alt><rdf:li xml:lang="x-default">With the advent of X-ray free electron laser, such as the Linac Coherent Light Source (LCLS), structural studies on non-repetitive and non-reproducible nanoparticles, such as single bio-molecules appear imminent. A key challenge to increasing the resolution of single particle imaging is radiation damage. Only a sound understanding of the underlying damage processes, such as the nanoplasma expansion, can overcome this challenge and will lead to higher spatial resolutions. As possibility to achieve higher resolutions, sacrificial layers have been proposed to slow the nanoplasma expansion.</rdf:li></rdf:Alt></dc:description>
+         <dc:description><rdf:Alt><rdf:li xml:lang="x-default">Dissertation;DDC 539: Moderne Physik; RVK UM1400: Experimentell abgeleitete Information über Atome und Moleküle, Instrumente und Verfahren; Free Electron Laser Science</rdf:li></rdf:Alt></dc:description>
          <dc:subject><rdf:Bag><rdf:li>LCLS</rdf:li>
      <rdf:li>FEL</rdf:li>
      <rdf:li>Cluster</rdf:li>
-     <rdf:li>Dynamics</rdf:li></rdf:Bag></dc:subject>
+     <rdf:li>Dynamics</rdf:li>
+     <rdf:li>Plum Pudding</rdf:li>
+     <rdf:li>Pump–Probe</rdf:li>
+     <rdf:li>AMO</rdf:li>
+     <rdf:li>LAMP</rdf:li></rdf:Bag></dc:subject>
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
          <prism:aggregationType>book</prism:aggregationType>
@@ -91,9 +95,9 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
          <xmp:CreatorTool>LaTeX with hyperref package</xmp:CreatorTool> 
-         <xmp:ModifyDate>2017-07-20T06:37:41+02:00</xmp:ModifyDate> 
-         <xmp:CreateDate>2017-07-20T06:37:41+02:00</xmp:CreateDate> 
-         <xmp:MetadataDate>2017-07-20T06:37:41+02:00</xmp:MetadataDate> 
+         <xmp:ModifyDate>2017-12-16T11:33:22+01:00</xmp:ModifyDate> 
+         <xmp:CreateDate>2017-12-16T11:33:22+01:00</xmp:CreateDate> 
+         <xmp:MetadataDate>2017-12-16T11:33:22+01:00</xmp:MetadataDate> 
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
          <xmpRights:Marked>True</xmpRights:Marked>
@@ -102,7 +106,7 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
          <xmpMM:DocumentID>uuid:DF005B57-2A06-8753-7167-92D8CE935460</xmpMM:DocumentID> 
-         <xmpMM:InstanceID>uuid:76E997CD-6D5D-F422-7CC4-FDB87E54CE71</xmpMM:InstanceID> 
+         <xmpMM:InstanceID>uuid:E692B3B4-A785-F884-6F85-810318EC66B2</xmpMM:InstanceID> 
       </rdf:Description> 
    </rdf:RDF> 
 </x:xmpmeta> 
